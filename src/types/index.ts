@@ -27,6 +27,29 @@ export interface PageSummary {
   codes: string[]
 }
 
+export interface ConceptLesson {
+  conceptId: string
+  objectives: string[]
+  prerequisites: Array<{ term: string; explanation: string }>
+  sections: Array<{ title: string; paragraphs: string[] }>
+  workedExample: {
+    title: string
+    scenario: string
+    steps: Array<{ title: string; explanation: string }>
+    conclusion: string
+  }
+  checks: Array<{ question: string; answer: string; explanation: string }>
+  takeaways: string[]
+  sourceRefs: Array<{ fileId: string; pages: number[] }>
+  codeExample?: {
+    language: 'python' | 'text'
+    code: string
+    expectedOutput: string
+    explanation: string
+    notes: string[]
+  }
+}
+
 export interface Concept {
   id: string
   name: string
@@ -47,6 +70,7 @@ export interface Concept {
   importance: 1 | 2 | 3 | 4 | 5
   evidenceType: '강의자료' | '강의자료+공식검증' | '강의자료+보충설명'
   tags: string[]
+  lesson?: ConceptLesson
 }
 
 export interface QuestionOption {

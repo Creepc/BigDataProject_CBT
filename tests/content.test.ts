@@ -3,8 +3,47 @@ import { existsSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { courseData } from '@/data/courseData'
 import { validateCourseData } from '@/lib/study'
+import { lessonReadingText } from '@/lib/lessons'
 
 describe('course content integrity', () => {
+  it('provides a complete source-grounded lesson and reasoned self-checks for every concept', () => {
+    const files = new Map(courseData.files.map((file) => [file.id, file]))
+    courseData.concepts.forEach((concept) => {
+      const lesson = concept.lesson
+      expect(lesson, concept.id).toBeDefined()
+      if (!lesson) return
+      expect(lesson.conceptId).toBe(concept.id)
+      expect(lesson.objectives.length, concept.id).toBeGreaterThanOrEqual(3)
+      expect(lesson.prerequisites.length, concept.id).toBeGreaterThanOrEqual(2)
+      expect(lesson.sections.length, concept.id).toBeGreaterThanOrEqual(3)
+      lesson.sections.forEach((section) => {
+        expect(section.title.trim()).not.toBe('')
+        expect(section.paragraphs.length, concept.id).toBeGreaterThanOrEqual(2)
+        section.paragraphs.forEach((paragraph) => expect(paragraph.trim().length, `${concept.id}: ${section.title}`).toBeGreaterThanOrEqual(30))
+      })
+      expect(lesson.workedExample.steps.length, concept.id).toBeGreaterThanOrEqual(3)
+      expect(lesson.workedExample.scenario.trim()).not.toBe('')
+      expect(lesson.workedExample.conclusion.trim()).not.toBe('')
+      expect(lesson.checks.length, concept.id).toBeGreaterThanOrEqual(2)
+      lesson.checks.forEach((check) => {
+        expect(check.question.trim()).not.toBe('')
+        expect(check.answer.trim()).not.toBe('')
+        expect(check.explanation.trim().length, concept.id).toBeGreaterThanOrEqual(30)
+      })
+      expect(lessonReadingText(lesson).length, concept.id).toBeGreaterThanOrEqual(1100)
+      expect(lesson.sourceRefs.length, concept.id).toBeGreaterThan(0)
+      lesson.sourceRefs.forEach((ref) => {
+        expect(files.has(ref.fileId)).toBe(true)
+        expect(ref.pages.length).toBeGreaterThan(0)
+        ref.pages.forEach((page) => {
+          expect(page).toBeGreaterThanOrEqual(1)
+          expect(page).toBeLessThanOrEqual(files.get(ref.fileId)!.pageCount)
+        })
+      })
+    })
+    expect(courseData.concepts.filter((concept) => concept.lesson?.codeExample).length).toBeGreaterThanOrEqual(13)
+  })
+
   it('covers every page in all seven source PDFs exactly once', () => {
     expect(courseData.files).toHaveLength(7)
     expect(courseData.files.reduce((sum, file) => sum + file.pageCount, 0)).toBe(317)

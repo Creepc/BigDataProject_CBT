@@ -311,13 +311,23 @@ const flashcards = inputs.flatMap((input) => (input.data.flashcards ?? []).map((
   }
 }))
 
+const lessonFiles = ['lessons-notion12.json', 'lessons-notion34.json', 'lessons-web123.json']
+const lessonMap = new Map()
+for (const file of lessonFiles) {
+  const source = JSON.parse(fs.readFileSync(path.join(root, 'analysis', file), 'utf8'))
+  for (const lesson of source.lessons ?? []) {
+    if (lessonMap.has(lesson.conceptId)) throw new Error(`Duplicate lesson: ${lesson.conceptId}`)
+    lessonMap.set(lesson.conceptId, lesson)
+  }
+}
+
 const concepts = normalizedConcepts.map((concept) => {
   const direct = questions.filter((question) => question.conceptIds.includes(concept.id)).map((question) => question.id)
   const unitRelated = direct.length ? [] : questions
     .filter((question) => question.conceptIds.some((id) => normalizedConcepts.find((item) => item.id === id)?.unit === concept.unit))
     .map((question) => question.id)
     .slice(0, 3)
-  return { ...concept, relatedQuestionIds: [...direct, ...unitRelated] }
+  return { ...concept, relatedQuestionIds: [...direct, ...unitRelated], lesson: lessonMap.get(concept.id) }
 })
 
 const courseData = {
@@ -330,6 +340,8 @@ const courseData = {
 }
 
 const errors = []
+const hasText = (value) => typeof value === 'string' && value.trim().length > 0
+const hasTexts = (value, minimum = 1) => Array.isArray(value) && value.length >= minimum && value.every(hasText)
 const fileIds = new Set(files.map((file) => file.id))
 const conceptIds = new Set(normalizedConcepts.map((concept) => concept.id))
 const filePageCounts = new Map(files.map((file) => [file.id, file.pageCount]))
@@ -345,7 +357,24 @@ for (const concept of normalizedConcepts) {
   if (!concept.pages.length) errors.push(`${concept.id}: no source pages`)
   for (const page of concept.pages) if (page > (filePageCounts.get(concept.fileId) ?? 0)) errors.push(`${concept.id}: invalid page ${page}`)
 }
-for (const concept of concepts) if (!concept.relatedQuestionIds.length) errors.push(`${concept.id}: no related questions`)
+for (const id of lessonMap.keys()) if (!conceptIds.has(id)) errors.push(`Unknown lesson concept: ${id}`)
+for (const concept of concepts) {
+  if (!concept.relatedQuestionIds.length) errors.push(`${concept.id}: no related questions`)
+  const lesson = concept.lesson
+  if (!lesson) { errors.push(`${concept.id}: no in-depth lesson`); continue }
+  if (!hasTexts(lesson.objectives, 3) || !Array.isArray(lesson.prerequisites) || lesson.prerequisites.length < 2 || !Array.isArray(lesson.sections) || lesson.sections.length < 3 || !Array.isArray(lesson.checks) || lesson.checks.length < 2 || !hasTexts(lesson.takeaways, 3)) errors.push(`${concept.id}: incomplete lesson structure`)
+  for (const item of lesson.prerequisites ?? []) if (!hasText(item.term) || !hasText(item.explanation)) errors.push(`${concept.id}: incomplete prerequisite`)
+  for (const section of lesson.sections ?? []) if (!hasText(section.title) || !hasTexts(section.paragraphs, 2)) errors.push(`${concept.id}: incomplete lesson section`)
+  for (const check of lesson.checks ?? []) if (!hasText(check.question) || !hasText(check.answer) || !hasText(check.explanation)) errors.push(`${concept.id}: incomplete self-check`)
+  if (!hasText(lesson.workedExample?.title) || !hasText(lesson.workedExample?.scenario) || !Array.isArray(lesson.workedExample?.steps) || lesson.workedExample.steps.length < 3 || !hasText(lesson.workedExample?.conclusion)) errors.push(`${concept.id}: incomplete worked example`)
+  for (const step of lesson.workedExample?.steps ?? []) if (!hasText(step.title) || !hasText(step.explanation)) errors.push(`${concept.id}: incomplete worked example step`)
+  if (lesson.codeExample && (!['python', 'text'].includes(lesson.codeExample.language) || !hasText(lesson.codeExample.code) || !hasText(lesson.codeExample.expectedOutput) || !hasText(lesson.codeExample.explanation) || !hasTexts(lesson.codeExample.notes))) errors.push(`${concept.id}: incomplete code example`)
+  if (!lesson.sourceRefs?.length) errors.push(`${concept.id}: lesson has no source`)
+  for (const ref of lesson.sourceRefs ?? []) {
+    if (!fileIds.has(ref.fileId) || !ref.pages?.length) errors.push(`${concept.id}: invalid lesson source`)
+    for (const page of ref.pages ?? []) if (!Number.isInteger(page) || page < 1 || page > (filePageCounts.get(ref.fileId) ?? 0)) errors.push(`${concept.id}: invalid lesson source page ${page}`)
+  }
+}
 for (const question of questions) {
   if (question.options.length !== 4) errors.push(`${question.id}: ${question.options.length} options`)
   const correct = question.options.filter((option) => option.correct).length
@@ -377,6 +406,9 @@ console.log(JSON.stringify({
   files: files.length,
   pages: pageSummaries.length,
   concepts: normalizedConcepts.length,
+  lessons: lessonMap.size,
+  selfChecks: [...lessonMap.values()].reduce((sum, lesson) => sum + lesson.checks.length, 0),
+  codeExamples: [...lessonMap.values()].filter((lesson) => lesson.codeExample).length,
   questions: questions.length,
   multiple: questions.filter((question) => question.mode === 'multiple').length,
   visuals: questions.filter((question) => question.visual).length,

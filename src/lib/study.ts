@@ -133,6 +133,16 @@ export const validateCourseData = (data: CourseData) => {
     if (conceptIds.has(concept.id)) errors.push(`중복 개념 ID: ${concept.id}`)
     conceptIds.add(concept.id)
     if (!fileIds.has(concept.fileId)) errors.push(`${concept.id}: 없는 파일 ${concept.fileId}`)
+    const lesson = concept.lesson
+    if (!lesson || lesson.conceptId !== concept.id) {
+      errors.push(`${concept.id}: 상세 학습 본문 연결 오류`)
+    } else {
+      if (lesson.objectives.length < 3 || lesson.sections.length < 3 || lesson.workedExample.steps.length < 3 || lesson.checks.length < 2) errors.push(`${concept.id}: 학습 본문 구성 누락`)
+      lesson.sourceRefs.forEach((ref) => {
+        const file = filesById.get(ref.fileId)
+        if (!file || !ref.pages.length || ref.pages.some((page) => !Number.isInteger(page) || page < 1 || page > file.pageCount)) errors.push(`${concept.id}: 학습 본문 출처 오류`)
+      })
+    }
   })
   const questionIds = new Set<string>()
   data.questions.forEach((question) => {
