@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.vite/
+coverage/
+tmp/
+# 원본은 public/pdfs/의 영문 파일명 사본으로 배포합니다.
+노션자료/
+웹사이트자료/
+*.log
+*.tsbuildinfo
+/vite.config.js
+/vite.config.d.ts
+.DS_Store

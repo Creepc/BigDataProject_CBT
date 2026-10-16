@@ -1,0 +1,6023 @@
+{
+  "schemaVersion": "1.0",
+  "analysisStatus": "complete",
+  "analysisDate": "2026-10-16",
+  "language": "ko",
+  "scope": {
+    "totalFiles": 2,
+    "totalPages": 94,
+    "analyzedPageCount": 94,
+    "unreadablePageCount": 0,
+    "method": [
+      "pdfplumber로 전 페이지 텍스트·객체 메타데이터 추출",
+      "pypdfium2로 94쪽 전부 렌더링 후 접촉시트 시각 검토",
+      "표·코드·그래프·터미널 캡처가 있는 페이지는 렌더링을 기준으로 재확인",
+      "문서 내부 명령문은 사용자 지시가 아닌 학습 내용으로만 취급"
+    ]
+  },
+  "qualityNotes": [
+    "4주차 68쪽은 푸터만 있는 실질적 빈 페이지이지만 렌더링·분석 완료로 기록했다.",
+    "4주차 66쪽 코드 설명의 개선 MAE 4.19년과 67쪽 표·본문의 4.83년이 불일치한다. 재실행 로그 없이 하나를 확정하지 않았다.",
+    "4주차 32쪽의 2021년 급락은 연초 수집으로 전체 연도가 포함되지 않은 데이터 한계다.",
+    "국가·장르 분석에서 첫 번째 값만 main_country/main_genre로 삼는 것은 편의 가정이며 다중값 편향을 만들 수 있다.",
+    "그래프 해석은 빈도·분포·연관을 설명하며 인과를 자동 주장하지 않는다."
+  ],
+  "files": [
+    {
+      "id": "w3-infra",
+      "title": "3주차 (인프라)",
+      "path": "D:\\2026_2학기\\빅데이터프로젝트\\중간고사\\노션자료\\3주차_(인프라).pdf",
+      "pageCount": 26,
+      "analyzedPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "unreadablePages": [],
+      "blankPages": [],
+      "pageSummaries": [
+        {
+          "page": 1,
+          "title": "3주차 목차와 학습 범위",
+          "keyPoints": [
+            "빅데이터 인프라 혁명, 수집, 저장, 품질, 거버넌스·보안의 전체 구성을 제시한다."
+          ],
+          "visuals": [
+            "장 목차와 계층형 항목 목록"
+          ],
+          "codes": []
+        },
+        {
+          "page": 2,
+          "title": "학습 목표와 중앙집중형 시스템의 한계",
+          "keyPoints": [
+            "중앙집중형 구조는 scale-up에 의존한다.",
+            "물리적 성능 천장, 비선형 비용 증가, 단일 장애점, 확장성 한계가 핵심 문제다."
+          ],
+          "visuals": [
+            "학습목표 강조 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 3,
+          "title": "분산 컴퓨팅과 CPU 아키텍처",
+          "keyPoints": [
+            "분산 컴퓨팅은 일반 서버를 묶는 scale-out 방식이다.",
+            "장애를 예외가 아닌 전제로 설계하며 멀티코어 CPU로 전환한다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 4,
+          "title": "메모리·저장장치의 진화",
+          "keyPoints": [
+            "분산 메모리와 Spark 인메모리 처리는 디스크 I/O를 줄인다.",
+            "HDFS, SSD/HDD 계층화, NVMe가 저장 구조와 처리 속도를 바꾼다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 5,
+          "title": "네트워크·클라우드·컨테이너",
+          "keyPoints": [
+            "10/40/100Gbps, InfiniBand, SDN이 분산 시스템 성능을 뒷받침한다.",
+            "클라우드는 탄력적 확장과 관리형 서비스를 제공하고 컨테이너는 워크로드 격리와 배포를 단순화한다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 6,
+          "title": "특수 목적 하드웨어와 엣지 컴퓨팅",
+          "keyPoints": [
+            "GPU·TPU 등 이기종 하드웨어는 AI 연산을 가속한다.",
+            "엣지는 생성 지점 가까이에서 1차 처리해 지연과 전송 비용을 줄인다.",
+            "빅데이터 수집 기술 절을 시작한다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 7,
+          "title": "웹 크롤링과 스크래핑",
+          "keyPoints": [
+            "크롤링은 링크를 따라 페이지를 발견하고 스크래핑은 페이지에서 필요한 값을 추출한다.",
+            "Scrapy, Beautiful Soup, Selenium, Puppeteer, Playwright의 역할과 분산 크롤링을 설명한다.",
+            "robots.txt, 부하, 저작권, 개인정보보호를 고려해야 한다."
+          ],
+          "visuals": [],
+          "codes": [
+            "시드 URL-대기열 기반 크롤링 절차(개념 설명)"
+          ]
+        },
+        {
+          "page": 8,
+          "title": "API 수집: REST·GraphQL·인증·속도 제한",
+          "keyPoints": [
+            "API는 스크래핑보다 안정적이고 구조화된 접근을 제공한다.",
+            "REST는 HTTP 메서드와 JSON을, GraphQL은 필요한 필드만 요청해 over/under-fetching을 줄인다.",
+            "OAuth 2.0, API 키, rate limiting을 설명한다."
+          ],
+          "visuals": [],
+          "codes": [
+            "GET·POST·PUT·DELETE 메서드 예시"
+          ]
+        },
+        {
+          "page": 9,
+          "title": "실시간 API와 IoT 수집",
+          "keyPoints": [
+            "Webhook은 이벤트 푸시, WebSocket은 지속 양방향, SSE는 서버→클라이언트 단방향 스트리밍이다.",
+            "IoT는 센서-엣지-클라우드 다층 구조와 MQTT 발행-구독을 활용한다."
+          ],
+          "visuals": [
+            "실시간 수집과 IoT 절의 강조 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 10,
+          "title": "엣지 전처리와 산업별 IoT 사례",
+          "keyPoints": [
+            "엣지에서 필터링·집계·압축·예외 기반 전송을 수행한다.",
+            "스마트팩토리, 정밀농업, 스마트시티 사례가 제시된다.",
+            "센서 품질과 디바이스 인증·암호화·세분화·펌웨어 갱신이 중요하다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 11,
+          "title": "데이터베이스 연동과 ETL/ELT",
+          "keyPoints": [
+            "Full Load보다 Incremental Load와 CDC가 변경분 처리에 효율적이다.",
+            "ETL은 변환 후 적재, ELT는 원본 적재 후 필요할 때 변환한다.",
+            "Sqoop은 RDBMS-Hadoop 대용량 전송 도구다."
+          ],
+          "visuals": [
+            "ETL 핵심 개념 강조 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 12,
+          "title": "데이터 통합 도구와 Kafka",
+          "keyPoints": [
+            "NiFi, Talend, Informatica, SSIS와 클라우드 네이티브 통합 도구를 비교한다.",
+            "Kafka는 producer-topic-consumer, partition, broker 구조로 고처리량·확장성·내결함성을 제공한다.",
+            "Kafka Connect와 Kafka Streams의 역할을 설명한다."
+          ],
+          "visuals": [
+            "스트리밍 데이터 수집 강조 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 13,
+          "title": "스트리밍 플랫폼과 처리 패턴",
+          "keyPoints": [
+            "Pulsar, Kinesis, Pub/Sub의 특징을 소개한다.",
+            "tumbling/sliding window, event time/processing time, watermark, exactly-once와 멱등성을 설명한다.",
+            "빅데이터 저장 시스템 절을 시작한다."
+          ],
+          "visuals": [
+            "저장 시스템 절의 강조 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 14,
+          "title": "HDFS 아키텍처와 진화",
+          "keyPoints": [
+            "NameNode는 메타데이터, DataNode는 실제 블록을 저장한다.",
+            "기본 128MB 블록과 3중 복제, scale-out, 범용 하드웨어가 핵심이다.",
+            "작은 파일·랜덤 액세스 약점과 NameNode HA/Federation을 설명한다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 15,
+          "title": "HDFS 대안과 문서형 NoSQL",
+          "keyPoints": [
+            "Ozone은 작은 파일과 S3 API, JuiceFS·Alluxio는 메모리 계층을 강조한다.",
+            "MongoDB는 BSON 문서, 유연한 스키마, 샤딩, 복제셋을 사용한다."
+          ],
+          "visuals": [
+            "NoSQL 정의 강조 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 16,
+          "title": "키-값 및 컬럼 패밀리 데이터베이스",
+          "keyPoints": [
+            "Redis는 초저지연 인메모리 키-값 저장소, DynamoDB는 관리형 서버리스 NoSQL이다.",
+            "Cassandra는 peer-to-peer, 파티션 키, tunable consistency(ONE/QUORUM/ALL)를 제공한다."
+          ],
+          "visuals": [
+            "컬럼 패밀리 정의 강조 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 17,
+          "title": "HBase·그래프 DB·클라우드 저장",
+          "keyPoints": [
+            "HBase는 HDFS 위에서 강한 일관성을 제공하고 Phoenix로 SQL 접근이 가능하다.",
+            "Neo4j·Neptune·ArangoDB는 관계 중심 데이터를 그래프로 다룬다.",
+            "데이터 레이크와 오브젝트 스토리지 절을 시작한다."
+          ],
+          "visuals": [
+            "클라우드 스토리지와 데이터 레이크 강조 상자"
+          ],
+          "codes": [
+            "Cypher MATCH 패턴으로 Alice의 친구 조회"
+          ]
+        },
+        {
+          "page": 18,
+          "title": "오브젝트 스토리지·데이터 레이크·클라우드 DWH",
+          "keyPoints": [
+            "S3/GCS/Azure Blob의 확장성, 내구성, 스토리지 계층을 설명한다.",
+            "데이터 레이크는 schema-on-read, 데이터 웨어하우스는 schema-on-write가 중심이다.",
+            "Snowflake는 컴퓨트-스토리지 분리, BigQuery는 서버리스 컬럼형 집계에 강점이 있다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 19,
+          "title": "Redshift와 데이터 정제 개요",
+          "keyPoints": [
+            "Redshift는 PostgreSQL 호환 분산 DWH이며 Spectrum으로 S3 데이터를 조회한다.",
+            "데이터 정제는 분석 시간의 큰 비중을 차지하며 결측치를 삭제·단순대체·회귀·다중대체 등으로 처리한다."
+          ],
+          "visuals": [
+            "데이터 품질 관리 강조 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 20,
+          "title": "이상값·중복·형식 표준화",
+          "keyPoints": [
+            "Z-score, IQR, Grubbs, Isolation Forest, One-Class SVM, LOF, Autoencoder가 이상값 탐지에 쓰인다.",
+            "정확·유사 매칭과 record linkage로 중복 엔티티를 찾는다.",
+            "날짜·주소·전화·화폐 형식을 정규식 또는 전용 도구로 표준화한다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 21,
+          "title": "데이터 프로파일링과 품질 규칙",
+          "keyPoints": [
+            "구조·내용·관계 프로파일링으로 스키마, 값 분포, 참조 무결성을 점검한다.",
+            "도메인·형식·일관성·비즈니스 규칙 제약조건을 정의한다.",
+            "스트리밍 품질은 즉시 검사와 알림이 필요하다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 22,
+          "title": "드리프트·표준화·메타데이터",
+          "keyPoints": [
+            "KS/카이제곱 등으로 데이터 드리프트를 탐지할 수 있다.",
+            "공통 코드·명명 규칙·품질 임계값을 표준화한다.",
+            "기술·비즈니스·운영 메타데이터를 구분하며 데이터 계보는 운영 메타데이터다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 23,
+          "title": "데이터 카탈로그와 개인정보 거버넌스",
+          "keyPoints": [
+            "Atlas, DataHub, Amundsen과 데이터 카탈로그가 발견·검색·협업을 지원한다.",
+            "GDPR은 privacy by design, 최소화, 목적 제한, 데이터 주체 권리를 강조한다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 24,
+          "title": "글로벌 규제와 익명화",
+          "keyPoints": [
+            "CCPA, PIPL, PDPA, LGPD 등 글로벌 규제와 개인정보 자동 식별을 설명한다.",
+            "민감도와 사용 맥락에 따라 데이터를 분류한다.",
+            "k-익명성과 l-다양성의 목적과 한계를 설명한다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 25,
+          "title": "고급 프라이버시·동의·보안",
+          "keyPoints": [
+            "t-근접성, 차분 프라이버시, 동형암호화를 비교한다.",
+            "동의는 자유·구체·충분한 정보·명확성·철회 가능성을 충족해야 한다.",
+            "다층 방어의 네트워크 보안 요소를 소개한다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 26,
+          "title": "다층 보안과 협업형 카탈로그",
+          "keyPoints": [
+            "제로 트러스트, HIDS, 시스템 강화, 이미지 스캔, WAF, API 보안을 계층별로 적용한다.",
+            "카탈로그의 자동 메타데이터·추천·리뷰·태그·질문답변이 품질을 높인다."
+          ],
+          "visuals": [],
+          "codes": []
+        }
+      ]
+    },
+    {
+      "id": "w4-netflix",
+      "title": "4주차 (데이터 수집·저장·전처리·분석)_넷플릭스",
+      "path": "D:\\2026_2학기\\빅데이터프로젝트\\중간고사\\노션자료\\4주차_(데이터_수집저장전처리분석)_넷플릭스.pdf",
+      "pageCount": 68,
+      "analyzedPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "unreadablePages": [],
+      "blankPages": [
+        68
+      ],
+      "pageSummaries": [
+        {
+          "page": 1,
+          "title": "4주차 목차(1~5장)",
+          "keyPoints": [
+            "데이터 분석 개요, 환경 구축, 전처리, EDA, 시각화 및 연습문제 구성을 보여준다."
+          ],
+          "visuals": [
+            "계층형 목차"
+          ],
+          "codes": []
+        },
+        {
+          "page": 2,
+          "title": "4주차 목차(6~7장)",
+          "keyPoints": [
+            "관계·네트워크·텍스트 마이닝·추천 시스템·회귀 모델과 두 번째 연습문제를 제시한다.",
+            "Kaggle 참고 링크를 제공한다."
+          ],
+          "visuals": [
+            "계층형 목차와 참고 링크 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 3,
+          "title": "데이터 분석 정의와 프로세스",
+          "keyPoints": [
+            "데이터 분석은 탐색·정제·변환·모델링으로 정보와 결론을 만들어 의사결정을 지원한다.",
+            "문제 정의가 첫 단계이며 목표는 구체적·측정 가능해야 한다."
+          ],
+          "visuals": [
+            "의사 진단 비유와 6단계 목록"
+          ],
+          "codes": []
+        },
+        {
+          "page": 4,
+          "title": "분석 6단계와 넷플릭스 데이터",
+          "keyPoints": [
+            "문제 정의→수집→전처리/정제→EDA→모델링→해석/전달의 순환적 과정을 설명한다.",
+            "Kaggle Netflix Movies and TV Shows 데이터셋을 소개한다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 5,
+          "title": "넷플릭스 컬럼과 분석 목표",
+          "keyPoints": [
+            "show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description을 정의한다.",
+            "유형·트렌드·국가·장르·등급·키워드 분석 목표를 제시한다."
+          ],
+          "visuals": [
+            "컬럼 목록과 분석 질문 목록"
+          ],
+          "codes": []
+        },
+        {
+          "page": 6,
+          "title": "분석 도구와 가상환경",
+          "keyPoints": [
+            "Python, Pandas, NumPy, VS Code, Matplotlib, Seaborn, Plotly의 역할을 구분한다.",
+            "Conda 가상환경은 프로젝트별 의존성 충돌을 막는다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 7,
+          "title": "Conda/VS Code 설정과 라이브러리",
+          "keyPoints": [
+            "netflix Python 3.9 환경 생성·활성화·패키지 설치와 VS Code 커널 선택 절차를 제시한다."
+          ],
+          "visuals": [
+            "구문 강조 코드 블록"
+          ],
+          "codes": [
+            "conda create/activate",
+            "pip install pandas numpy matplotlib seaborn plotly wordcloud notebook",
+            "pandas·시각화·WordCloud import"
+          ]
+        },
+        {
+          "page": 8,
+          "title": "CSV 다운로드와 로드",
+          "keyPoints": [
+            "파일이 없을 때 GitHub URL에서 다운로드하고 pandas로 CSV를 읽는다.",
+            "df.head로 첫인상을 확인한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "os.path.exists",
+            "urllib.request.urlretrieve",
+            "pd.read_csv",
+            "df.head"
+          ]
+        },
+        {
+          "page": 9,
+          "title": "shape/info와 전처리 개요",
+          "keyPoints": [
+            "df.shape는 행·열 규모, df.info는 타입과 결측 단서를 제공한다.",
+            "원자료 7,787건에서 director/cast 결측과 date_added 문자열 타입을 확인한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "df.shape",
+            "df.info"
+          ]
+        },
+        {
+          "page": 10,
+          "title": "결측치 현황과 처리 전략",
+          "keyPoints": [
+            "director 2,389, cast 718, country 507, date_added 10, rating 7개 결측이다.",
+            "많은 결측은 Unknown으로 대체하고 매우 적은 핵심 결측 행은 제거한다."
+          ],
+          "visuals": [
+            "결측치 목록과 Python 코드 블록"
+          ],
+          "codes": [
+            "df.isnull().sum",
+            "fillna('Unknown')",
+            "dropna(subset=['date_added','rating'])"
+          ]
+        },
+        {
+          "page": 11,
+          "title": "결측치 처리 완료 코드",
+          "keyPoints": [
+            "date_added와 rating 결측 행 제거 후 결측치·shape를 재확인한다."
+          ],
+          "visuals": [
+            "짧은 코드 블록"
+          ],
+          "codes": [
+            "dropna",
+            "isnull().sum",
+            "df.shape"
+          ]
+        },
+        {
+          "page": 12,
+          "title": "결측치 처리 실행 로그와 변환 도입",
+          "keyPoints": [
+            "처리 전 결측 수와 처리 후 전 컬럼 0, 최종 shape (7770, 12)를 터미널에서 확인한다.",
+            "데이터 변환의 목적을 소개한다."
+          ],
+          "visuals": [
+            "검은 터미널 스크린샷: 처리 전·후 결측치와 (7770,12)"
+          ],
+          "codes": []
+        },
+        {
+          "page": 13,
+          "title": "날짜·duration 변환",
+          "keyPoints": [
+            "date_added 공백 제거 후 datetime으로 변환하고 added_year/month를 만든다.",
+            "duration을 숫자 값과 단위로 분리하고 Season/Seasons 단위를 통일한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "str.strip",
+            "pd.to_datetime",
+            "dt.year/dt.month",
+            "apply(lambda)",
+            "split",
+            "replace"
+          ]
+        },
+        {
+          "page": 14,
+          "title": "변환 결과와 EDA 도입",
+          "keyPoints": [
+            "16개 컬럼과 파생변수 타입, 샘플 값을 터미널에서 확인한다.",
+            "EDA는 패턴·특이점·관계를 찾는 탐색 과정이다."
+          ],
+          "visuals": [
+            "터미널 스크린샷: DataFrame info와 파생변수 미리보기",
+            "EDA 전환 강조 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 15,
+          "title": "기술 통계와 EDA 준비",
+          "keyPoints": [
+            "숫자형은 평균·중앙값·표준편차, 범주형은 고유값·최빈값으로 요약한다.",
+            "EDA용 데이터 다운로드·전처리 코드가 시작된다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "df.describe",
+            "데이터 준비 코드"
+          ]
+        },
+        {
+          "page": 16,
+          "title": "EDA 전체 준비 코드",
+          "keyPoints": [
+            "결측·날짜·duration 파생변수 처리 후 숫자형 기술 통계를 출력한다."
+          ],
+          "visuals": [
+            "긴 Python 코드 블록"
+          ],
+          "codes": [
+            "df.describe"
+          ]
+        },
+        {
+          "page": 17,
+          "title": "범주형 기술 통계와 주요 피처",
+          "keyPoints": [
+            "df.describe(include='object')로 범주형을 요약한다.",
+            "listed_in을 split/explode해 장르 빈도를, Unknown을 제외해 감독 빈도를 계산한다.",
+            "release_year 추이를 준비한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "str.split(', ').explode",
+            "value_counts().head",
+            "sort_index"
+          ]
+        },
+        {
+          "page": 18,
+          "title": "제작연도·영화길이·등급과 연습문제",
+          "keyPoints": [
+            "영화만 필터링해 duration_value 통계를 내고 rating 빈도를 구한다.",
+            "배우 Top 10, TV 시즌 수, 월별 추가량 과제를 제시한다."
+          ],
+          "visuals": [
+            "Python 코드 블록과 연습문제 제목"
+          ],
+          "codes": [
+            "type=='Movie'",
+            "describe",
+            "rating.value_counts"
+          ]
+        },
+        {
+          "page": 19,
+          "title": "배우 Top 10과 TV 시즌 과제",
+          "keyPoints": [
+            "cast를 ', '로 분리하고 explode하여 배우 빈도를 계산해야 한다.",
+            "TV Show만 필터링해 시즌 수 분포를 describe로 확인한다."
+          ],
+          "visuals": [
+            "가로 막대그래프: Anupam Kher가 가장 긴 막대인 출연 배우 Top 10"
+          ],
+          "codes": [
+            "cast.str.split(', ').explode",
+            "value_counts",
+            "TV Show 필터",
+            "describe"
+          ]
+        },
+        {
+          "page": 20,
+          "title": "TV 시즌 분포와 월별 추가량 과제",
+          "keyPoints": [
+            "TV 쇼는 1시즌 콘텐츠가 압도적으로 많고 시즌 수가 늘수록 빈도가 급감한다.",
+            "added_month의 value_counts 후 sort_index로 월별 추가량을 분석한다."
+          ],
+          "visuals": [
+            "세로 막대그래프: TV 쇼 시즌 수 분포"
+          ],
+          "codes": [
+            "added_month.value_counts().sort_index"
+          ]
+        },
+        {
+          "page": 21,
+          "title": "월별 추가량과 시각화 도입",
+          "keyPoints": [
+            "월별 막대에서 12월이 가장 높고 10월도 높은 편이며 2월이 낮다.",
+            "시각화는 단일·다변량·시간 변화에 맞춰 차트 종류를 선택해야 한다."
+          ],
+          "visuals": [
+            "세로 막대그래프: 월별 콘텐츠 추가량"
+          ],
+          "codes": []
+        },
+        {
+          "page": 22,
+          "title": "시각화 공통 설정",
+          "keyPoints": [
+            "운영체제별 한글 폰트, 결과 폴더, 데이터 로드·전처리 코드를 설정한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "platform.system",
+            "plt.rc",
+            "os.makedirs"
+          ]
+        },
+        {
+          "page": 23,
+          "title": "히스토그램과 막대그래프 코드",
+          "keyPoints": [
+            "히스토그램은 release_year의 수치 분포, countplot은 type 범주 빈도를 표현한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "sns.histplot(bins=50,kde=True)",
+            "sns.countplot",
+            "plt.savefig"
+          ]
+        },
+        {
+          "page": 24,
+          "title": "파이 차트 코드",
+          "keyPoints": [
+            "Movie와 TV Show가 전체에서 차지하는 비율을 파이 차트로 표현한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "value_counts",
+            "plt.pie(autopct)"
+          ]
+        },
+        {
+          "page": 25,
+          "title": "단일 변수 시각화 결과",
+          "keyPoints": [
+            "Movie 약 5,300, TV Show 약 2,400으로 영화가 많다.",
+            "제작연도 히스토그램은 최근 연도 쪽에 강하게 집중된다."
+          ],
+          "visuals": [
+            "막대그래프: 콘텐츠 유형별 개수",
+            "히스토그램+KDE: 콘텐츠 제작연도 분포"
+          ],
+          "codes": []
+        },
+        {
+          "page": 26,
+          "title": "비율 차트와 다변량 산점도 도입",
+          "keyPoints": [
+            "Movie 69.1%, TV Show 30.9% 비율을 파이 차트로 확인한다.",
+            "release_year와 added_year 관계를 산점도로 분석한다."
+          ],
+          "visuals": [
+            "파이 차트: Movie 69.1%, TV Show 30.9%"
+          ],
+          "codes": [
+            "sns.scatterplot(alpha=0.5)"
+          ]
+        },
+        {
+          "page": 27,
+          "title": "산점도·박스플롯·히트맵 코드",
+          "keyPoints": [
+            "수치형 두 변수는 산점도, 범주별 수치 분포는 박스플롯, 연도×월 빈도 행렬은 히트맵으로 시각화한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "sns.scatterplot",
+            "sns.boxplot",
+            "pd.crosstab",
+            "sns.heatmap"
+          ]
+        },
+        {
+          "page": 28,
+          "title": "등급별 영화 길이 박스플롯",
+          "keyPoints": [
+            "등급별 중앙값은 대략 90~110분으로 비슷하다.",
+            "TV-14는 분포가 넓고 PG-13은 비교적 좁다.",
+            "모든 등급에 이상치가 있으며 TV-MA에는 300분 초과 이상치가 있다."
+          ],
+          "visuals": [
+            "박스플롯: TV-MA/R/PG-13/TV-14/TV-PG별 상영시간"
+          ],
+          "codes": []
+        },
+        {
+          "page": 29,
+          "title": "연도×월 추가량 히트맵",
+          "keyPoints": [
+            "셀 색과 숫자로 연도·월 조합 빈도를 표현한다.",
+            "최근 연도로 갈수록 색이 진해지고 2018~2020은 연중 꾸준하되 하반기가 상대적으로 진하다."
+          ],
+          "visuals": [
+            "주석형 히트맵: 2008~2021 × 1~12월"
+          ],
+          "codes": []
+        },
+        {
+          "page": 30,
+          "title": "제작연도-추가연도 산점도",
+          "keyPoints": [
+            "오른쪽 위 대각선 밀집은 제작과 추가가 거의 같은 최신작/오리지널을 뜻한다.",
+            "대각선 아래 점은 제작 후 한참 지나 추가된 구작을 뜻한다."
+          ],
+          "visuals": [
+            "산점도: x=제작연도, y=넷플릭스 추가연도"
+          ],
+          "codes": []
+        },
+        {
+          "page": 31,
+          "title": "산점도 종합 해석과 선 그래프 코드",
+          "keyPoints": [
+            "넷플릭스는 신작 신속 수급과 구작 라이브러리 확대를 함께 수행한다.",
+            "added_year 빈도를 시간순으로 정렬해 lineplot으로 그린다."
+          ],
+          "visuals": [
+            "설명 상자와 Python 코드 블록"
+          ],
+          "codes": [
+            "value_counts().sort_index",
+            "sns.lineplot(marker='o')"
+          ]
+        },
+        {
+          "page": 32,
+          "title": "연도별 추가량 선 그래프와 데이터 한계",
+          "keyPoints": [
+            "2008~2014 정체, 2015~2019 급성장, 2019 정점, 2020 소폭 감소가 보인다.",
+            "2021 급락은 연도 초 수집으로 전체 연도가 빠진 검열/불완전 데이터 효과다.",
+            "투자액 가상 데이터와의 복합 시각화 과제를 제시한다."
+          ],
+          "visuals": [
+            "라인 차트: 연도별 추가량 추이"
+          ],
+          "codes": []
+        },
+        {
+          "page": 33,
+          "title": "추가량-투자액 이중축",
+          "keyPoints": [
+            "2015~2020 가상 투자액(4.5→17.0십억 달러)과 실제 추가량을 결합한다.",
+            "막대와 선을 서로 다른 y축으로 표현한다."
+          ],
+          "visuals": [
+            "이중축 차트: 추가량 막대+투자액 선"
+          ],
+          "codes": [
+            "value_counts/reset_index",
+            "가상 investment_data DataFrame"
+          ]
+        },
+        {
+          "page": 34,
+          "title": "투자액-추가량 산점도와 심화 분석 도입",
+          "keyPoints": [
+            "투자액 증가와 콘텐츠 추가량이 양의 관계를 보이는 예시 산점도다.",
+            "심화 분석은 두 변수 이상 관계와 복잡 패턴을 다룬다."
+          ],
+          "visuals": [
+            "회귀선·신뢰구간이 있는 산점도"
+          ],
+          "codes": []
+        },
+        {
+          "page": 35,
+          "title": "관계 분석 준비 코드",
+          "keyPoints": [
+            "관계 분석용 라이브러리·폰트·폴더·CSV·전처리 코드를 구성한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "pandas/seaborn/matplotlib setup"
+          ]
+        },
+        {
+          "page": 36,
+          "title": "장르-등급 데이터 준비",
+          "keyPoints": [
+            "listed_in을 explode해 장르별 행을 만들고 상위 10개 장르·상위 5개 등급으로 제한한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "explode",
+            "value_counts().head",
+            "isin"
+          ]
+        },
+        {
+          "page": 37,
+          "title": "장르-등급 분할표와 히트맵",
+          "keyPoints": [
+            "pd.crosstab으로 장르×등급 빈도표를 만들고 주석 히트맵으로 표현한다.",
+            "Dramas/International Movies와 TV-MA 연관을 예시로 해석한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "pd.crosstab",
+            "sns.heatmap(annot=True,fmt='d')"
+          ]
+        },
+        {
+          "page": 38,
+          "title": "국가-장르 분할표 준비",
+          "keyPoints": [
+            "각 콘텐츠의 첫 국가·첫 장르를 main_country/main_genre로 정하고 Unknown을 제외한다.",
+            "상위 10개 국가·장르로 필터링해 crosstab과 히트맵을 준비한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "split(',')[0]",
+            "isin",
+            "pd.crosstab"
+          ]
+        },
+        {
+          "page": 39,
+          "title": "장르-등급 히트맵 결과",
+          "keyPoints": [
+            "International Movies는 TV-14 946, TV-MA 983으로 매우 높다.",
+            "Children & Family Movies는 TV-PG 73, R·TV-MA 0으로 명확한 타게팅을 보인다."
+          ],
+          "visuals": [
+            "히트맵: 주요 장르×시청 등급"
+          ],
+          "codes": []
+        },
+        {
+          "page": 40,
+          "title": "장르-등급 관계 해석",
+          "keyPoints": [
+            "TV-MA와 TV-14가 전반적으로 진해 성인·청소년 중심 구성을 시사한다.",
+            "빈도는 연관 패턴이지 인과관계를 증명하지 않는다."
+          ],
+          "visuals": [
+            "텍스트 인사이트 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 41,
+          "title": "국가별 장르 히트맵",
+          "keyPoints": [
+            "미국은 전 장르에서 양적으로 크고 다양하다.",
+            "인도는 Dramas 382·Comedies 254, 한국은 International TV Shows 116 등 국가별 특화가 보인다."
+          ],
+          "visuals": [
+            "히트맵: 주요 국가×주요 장르"
+          ],
+          "codes": []
+        },
+        {
+          "page": 42,
+          "title": "국가별 특화 해석과 네트워크 분석",
+          "keyPoints": [
+            "일본과 영국의 장르 특화까지 해석한다.",
+            "네트워크는 node와 edge의 구조·특성을 분석하며 감독-배우 협업을 대상으로 한다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 43,
+          "title": "NetworkX 분석 준비",
+          "keyPoints": [
+            "NetworkX를 불러오고 공통 데이터 전처리를 수행한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "import networkx as nx"
+          ]
+        },
+        {
+          "page": 44,
+          "title": "감독-배우 엣지 리스트",
+          "keyPoints": [
+            "Unknown 감독을 제외하고 첫 감독을 대표 감독으로 사용한다.",
+            "작품 수 상위 30감독과 각 출연 배우 쌍을 edge_list에 넣는다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "iterrows",
+            "split(', ')",
+            "edge_list.append"
+          ]
+        },
+        {
+          "page": 45,
+          "title": "네트워크 시각화",
+          "keyPoints": [
+            "감독은 빨간색·큰 노드, 배우는 하늘색·작은 노드로 구분한다.",
+            "Kamada-Kawai 레이아웃과 감독 라벨만 사용한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "nx.Graph/add_edges_from",
+            "kamada_kawai_layout",
+            "draw_networkx_*"
+          ]
+        },
+        {
+          "page": 46,
+          "title": "연결 중심성 계산",
+          "keyPoints": [
+            "degree centrality는 직접 연결된 이웃 수를 정규화한 기본 중심성이다.",
+            "상위 15개 감독/배우를 내림차순 출력한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "nx.degree_centrality",
+            "sorted(reverse=True)"
+          ]
+        },
+        {
+          "page": 47,
+          "title": "감독-배우 네트워크 그래프",
+          "keyPoints": [
+            "중앙의 거대 협업 클러스터와 바깥의 감독별 별 모양 독립 클러스터가 공존한다."
+          ],
+          "visuals": [
+            "네트워크 그래프: 빨간 감독 노드와 파란 배우 노드"
+          ],
+          "codes": []
+        },
+        {
+          "page": 48,
+          "title": "중심성 해석의 편향과 텍스트 마이닝",
+          "keyPoints": [
+            "상위 중심성이 감독뿐인 것은 감독-배우로만 edge를 정의하고 상위 감독을 표본으로 택한 결과다.",
+            "순위는 '가장 영향력 있는 인물'보다 '가장 다양한 배우와 협업한 선택된 감독'으로 해석해야 한다.",
+            "description 텍스트 마이닝을 소개한다."
+          ],
+          "visuals": [
+            "중심성 해석 강조 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 49,
+          "title": "워드클라우드 개념과 환경",
+          "keyPoints": [
+            "워드클라우드는 단어 빈도를 글자 크기로 표현한다.",
+            "불용어 제거가 핵심 전처리이며 wordcloud 설치·import가 필요하다."
+          ],
+          "visuals": [
+            "설치 안내와 Python 코드 블록"
+          ],
+          "codes": [
+            "pip install wordcloud",
+            "WordCloud/STOPWORDS import"
+          ]
+        },
+        {
+          "page": 50,
+          "title": "텍스트 전처리 준비",
+          "keyPoints": [
+            "description 결합 전 공통 데이터 로드와 전처리를 수행한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "데이터 준비 코드"
+          ]
+        },
+        {
+          "page": 51,
+          "title": "전체 워드클라우드 생성",
+          "keyPoints": [
+            "description을 하나의 텍스트로 합치고 기본+사용자 불용어를 설정한다.",
+            "life, young, family, world, love, friends 등이 크게 나타난다고 해석한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "' '.join",
+            "STOPWORDS.update",
+            "WordCloud.generate",
+            "plt.imshow"
+          ]
+        },
+        {
+          "page": 52,
+          "title": "장르별 워드클라우드 함수",
+          "keyPoints": [
+            "listed_in에 특정 장르가 포함된 행만 골라 장르별 클라우드를 생성한다.",
+            "Dramas와 Comedies를 비교한다."
+          ],
+          "visuals": [
+            "Python 함수 코드 블록"
+          ],
+          "codes": [
+            "str.contains",
+            "generate_genre_wordcloud"
+          ]
+        },
+        {
+          "page": 53,
+          "title": "전체·드라마·코미디 워드클라우드",
+          "keyPoints": [
+            "전체에서는 life/love/family/world/woman/man이 크다.",
+            "장르별 클라우드를 나란히 비교해 공통·차별 키워드를 찾는다."
+          ],
+          "visuals": [
+            "워드클라우드 3개: 전체, Dramas, Comedies"
+          ],
+          "codes": []
+        },
+        {
+          "page": 54,
+          "title": "장르별 워드클라우드 해석",
+          "keyPoints": [
+            "드라마는 secret/past/murder/crime/father/mother 등 무거운 갈등이 두드러진다.",
+            "코미디는 friends/school/team/save 등 관계적·가벼운 주제가 강하다.",
+            "빈도 시각화는 맥락·감정·인과를 자동 증명하지 않는다."
+          ],
+          "visuals": [
+            "장르별 해석 강조 상자"
+          ],
+          "codes": []
+        },
+        {
+          "page": 55,
+          "title": "콘텐츠 기반 추천",
+          "keyPoints": [
+            "과거 선호 항목과 내용 특성이 유사한 항목을 추천한다.",
+            "TF-IDF로 텍스트를 벡터화하고 코사인 유사도로 항목 간 유사도를 계산한다."
+          ],
+          "visuals": [],
+          "codes": [
+            "TfidfVectorizer",
+            "cosine_similarity"
+          ]
+        },
+        {
+          "page": 56,
+          "title": "추천용 메타데이터 수프",
+          "keyPoints": [
+            "title 중복 제거 후 listed_in/director/cast/description 결측을 빈 문자열로 채운다.",
+            "공백 제거·소문자화한 피처를 soup 문자열로 합친다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "drop_duplicates",
+            "fillna('')",
+            "create_soup",
+            "df.apply(axis=1)"
+          ]
+        },
+        {
+          "page": 57,
+          "title": "콘텐츠 유사도 추천 함수",
+          "keyPoints": [
+            "soup TF-IDF 행렬과 전체 코사인 유사도 행렬을 만든다.",
+            "자기 자신을 제외한 유사도 상위 10개 제목과 점수를 반환한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "fit_transform",
+            "cosine_similarity",
+            "enumerate/sorted",
+            "iloc"
+          ]
+        },
+        {
+          "page": 58,
+          "title": "추천 시각화와 협업 필터링 도입",
+          "keyPoints": [
+            "The Matrix와 유사한 콘텐츠 점수를 가로 막대로 저장한다.",
+            "아이템 기반 협업 필터링은 내용 대신 사용자 평점 패턴의 유사성을 본다."
+          ],
+          "visuals": [],
+          "codes": [
+            "sns.barplot",
+            "아이템 기반 CF 개념"
+          ]
+        },
+        {
+          "page": 59,
+          "title": "아이템 기반 협업 필터링 원리",
+          "keyPoints": [
+            "사용자-아이템 행렬→아이템 간 Pearson 유사도→이미 본 항목 제외→상위 N 추천의 흐름이다.",
+            "+1은 유사 평점, -1은 반대 평점, 0은 뚜렷한 선형 관계가 없음을 뜻한다.",
+            "안정성과 serendipity가 장점이다."
+          ],
+          "visuals": [],
+          "codes": []
+        },
+        {
+          "page": 60,
+          "title": "협업 필터링 한계와 가상 평점",
+          "keyPoints": [
+            "신규 아이템은 유사도를 계산할 평점이 없어 cold start가 생긴다.",
+            "사용자·평점이 적으면 신뢰할 패턴이 부족하다.",
+            "가상 사용자-영화-평점 데이터로 구현을 시작한다."
+          ],
+          "visuals": [
+            "Python 딕셔너리 코드"
+          ],
+          "codes": [
+            "ratings_df = DataFrame"
+          ]
+        },
+        {
+          "page": 61,
+          "title": "사용자-아이템 행렬과 Pearson",
+          "keyPoints": [
+            "pivot_table로 사용자×영화 평점 행렬을 만들고 corr(method='pearson', min_periods=2)로 아이템 유사도를 계산한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "pivot_table",
+            "corr(method='pearson',min_periods=2)"
+          ]
+        },
+        {
+          "page": 62,
+          "title": "아이템 추천 함수",
+          "keyPoints": [
+            "타깃 영화 열의 유사도 점수를 내림차순 정렬하고 자기 자신을 제외한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "sort_values(ascending=False)",
+            "return scores[1:]"
+          ]
+        },
+        {
+          "page": 63,
+          "title": "아이템 유사도 히트맵과 회귀 도입",
+          "keyPoints": [
+            "가상 소표본 유사도 행렬은 1.00과 -1.00 값이 나타나지만 공통 평가자 수가 적어 과해석을 피해야 한다.",
+            "회귀는 연속값을 예측하며 description 등으로 release_year를 예측한다."
+          ],
+          "visuals": [
+            "희소한 아이템 유사도 히트맵"
+          ],
+          "codes": []
+        },
+        {
+          "page": 64,
+          "title": "회귀 데이터 준비",
+          "keyPoints": [
+            "Movie만 선택하고 description/release_year/listed_in/director/cast/country 결측을 제거한다.",
+            "train_test_split, TF-IDF, Ridge, MAE를 불러온다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "train_test_split",
+            "TfidfVectorizer",
+            "Ridge",
+            "mean_absolute_error"
+          ]
+        },
+        {
+          "page": 65,
+          "title": "다중 피처 회귀",
+          "keyPoints": [
+            "장르·감독·배우·국가·줄거리를 soup으로 결합한다.",
+            "X=soup, y=release_year로 두고 80/20 분할 후 학습 데이터에 TF-IDF를 fit한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "create_soup_for_regression",
+            "train_test_split(test_size=0.2,random_state=42)",
+            "fit_transform"
+          ]
+        },
+        {
+          "page": 66,
+          "title": "Ridge 학습과 MAE",
+          "keyPoints": [
+            "테스트는 학습된 TF-IDF로 transform하고 Ridge(alpha=1.0)를 학습한다.",
+            "예측 후 MAE로 평가한다.",
+            "이 페이지 코드 설명은 개선 MAE를 4.19년이라고 적지만 다음 페이지 표와 불일치한다."
+          ],
+          "visuals": [
+            "Python 코드 블록"
+          ],
+          "codes": [
+            "tfidf.transform",
+            "model.fit/predict",
+            "mean_absolute_error"
+          ]
+        },
+        {
+          "page": 67,
+          "title": "모델 성능 표와 고찰",
+          "keyPoints": [
+            "표에는 개선 모델 MAE 4.83년, 초기 모델 6.22년, 약 1.4년·22% 개선으로 제시한다.",
+            "샘플 오차는 1~3년이며 더 좋은 피처가 성능을 개선한다는 결론이다.",
+            "66쪽의 4.19년과 수치가 충돌하므로 재실행 로그로 확인해야 한다."
+          ],
+          "visuals": [
+            "MAE 비교 표",
+            "실제연도-예측연도-오차 표"
+          ],
+          "codes": []
+        },
+        {
+          "page": 68,
+          "title": "문서 끝(실질 내용 없음)",
+          "keyPoints": [
+            "본문 없이 페이지 번호와 푸터만 있는 빈 마지막 페이지다."
+          ],
+          "visuals": [
+            "빈 페이지와 푸터"
+          ],
+          "codes": []
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "U3-1",
+      "title": "빅데이터 하드웨어 인프라",
+      "fileId": "w3-infra",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "summary": "scale-up에서 scale-out, 클라우드·컨테이너·이기종·엣지 컴퓨팅으로의 전환",
+      "objectives": [
+        "중앙집중형 한계를 설명한다",
+        "분산·클라우드·엣지의 역할을 비교한다"
+      ],
+      "conceptIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C04"
+      ]
+    },
+    {
+      "id": "U3-2",
+      "title": "데이터 수집과 스트리밍",
+      "fileId": "w3-infra",
+      "pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "summary": "웹/API/IoT/DB/스트림 수집 기술과 처리 패턴",
+      "objectives": [
+        "수집 방식에 맞는 기술을 고른다",
+        "실시간·배치 요구를 구분한다"
+      ],
+      "conceptIds": [
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10"
+      ]
+    },
+    {
+      "id": "U3-3",
+      "title": "분산 저장과 데이터 레이크",
+      "fileId": "w3-infra",
+      "pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "summary": "HDFS, NoSQL, 오브젝트 스토리지, 데이터 레이크와 클라우드 DWH",
+      "objectives": [
+        "저장 모델별 강점과 한계를 비교한다",
+        "schema-on-read/write를 설명한다"
+      ],
+      "conceptIds": [
+        "C11",
+        "C12",
+        "C13"
+      ]
+    },
+    {
+      "id": "U3-4",
+      "title": "품질·메타데이터·거버넌스",
+      "fileId": "w3-infra",
+      "pages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "summary": "정제, 프로파일링, 드리프트, 메타데이터, 개인정보보호, 다층 보안",
+      "objectives": [
+        "품질 문제에 적합한 처리를 고른다",
+        "거버넌스와 프라이버시 기법을 비교한다"
+      ],
+      "conceptIds": [
+        "C14",
+        "C15",
+        "C16",
+        "C17"
+      ]
+    },
+    {
+      "id": "U4-1",
+      "title": "분석 프로세스와 환경",
+      "fileId": "w4-netflix",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "summary": "분석 6단계, Netflix 스키마, Python/Conda/VS Code와 데이터 로드",
+      "objectives": [
+        "분석 질문을 측정 가능하게 만든다",
+        "필요 컬럼과 도구를 선택한다"
+      ],
+      "conceptIds": [
+        "C18",
+        "C19",
+        "C20"
+      ]
+    },
+    {
+      "id": "U4-2",
+      "title": "전처리와 EDA",
+      "fileId": "w4-netflix",
+      "pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "summary": "결측치, 날짜·duration 파생변수, 기술 통계와 빈도 분석",
+      "objectives": [
+        "결측 규모에 맞는 전략을 선택한다",
+        "split/explode/filter/describe를 적용한다"
+      ],
+      "conceptIds": [
+        "C21",
+        "C22",
+        "C27",
+        "C34"
+      ]
+    },
+    {
+      "id": "U4-3",
+      "title": "시각화와 그래프 해석",
+      "fileId": "w4-netflix",
+      "pages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "summary": "차트 유형 선택과 박스·히트맵·산점도·선 그래프 해석",
+      "objectives": [
+        "그래프 유형을 식별한다",
+        "기울기와 데이터 한계를 명세해 해석한다"
+      ],
+      "conceptIds": [
+        "C23",
+        "C24",
+        "C25",
+        "C26",
+        "C34"
+      ]
+    },
+    {
+      "id": "U4-4",
+      "title": "관계·네트워크·텍스트 분석",
+      "fileId": "w4-netflix",
+      "pages": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "summary": "분할표·히트맵, 감독-배우 네트워크, 워드클라우드",
+      "objectives": [
+        "범주형 변수 관계를 요약한다",
+        "분석 설계가 결과 해석에 미치는 영향을 설명한다"
+      ],
+      "conceptIds": [
+        "C28",
+        "C29",
+        "C30",
+        "C34"
+      ]
+    },
+    {
+      "id": "U4-5",
+      "title": "추천 시스템과 회귀",
+      "fileId": "w4-netflix",
+      "pages": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "summary": "콘텐츠 기반·아이템 기반 추천과 TF-IDF Ridge 회귀",
+      "objectives": [
+        "추천 방식의 데이터 요구를 비교한다",
+        "피처 엔지니어링과 MAE를 해석한다"
+      ],
+      "conceptIds": [
+        "C31",
+        "C32",
+        "C33"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "C01",
+      "name": "Scale-up과 Scale-out",
+      "fileId": "w3-infra",
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "unit": "U3-1",
+      "definition": "Scale-up은 한 서버의 CPU·메모리·저장을 키우고, scale-out은 여러 범용 서버를 추가해 전체 처리량을 키우는 확장 방식이다.",
+      "easyExplanation": "한 대를 더 세게 만드는 것과 팀원을 더 늘리는 것의 차이다.",
+      "mechanism": [
+        "scale-up은 단일 노드 자원 증설",
+        "scale-out은 데이터·연산을 여러 노드에 분산",
+        "분산 시스템은 일부 노드 실패를 정상 상황으로 처리"
+      ],
+      "examples": [
+        "전통적 Exadata/Power Systems",
+        "수천 대 범용 서버를 묶은 검색 클러스터"
+      ],
+      "comparisons": [
+        "scale-up: 관리·일관성 단순, 물리 한계·고비용·SPOF",
+        "scale-out: 확장·비용 효율, 분산 조정 복잡성"
+      ],
+      "examPoints": [
+        "수직/수평 확장 정의",
+        "중앙집중형의 네 가지 한계",
+        "장애를 전제로 한 설계"
+      ],
+      "misconceptions": [
+        "서버 수가 많기만 하면 자동으로 선형 성능 향상이 생기는 것은 아니다.",
+        "scale-out도 네트워크·분산 조정 비용이 있다."
+      ],
+      "relatedConceptIds": [
+        "C02",
+        "C03",
+        "C11"
+      ],
+      "difficulty": "easy",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C02",
+      "name": "분산 컴퓨팅과 내결함성",
+      "fileId": "w3-infra",
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "unit": "U3-1",
+      "definition": "여러 노드가 작업·데이터를 나누고 일부 장애에도 서비스를 유지하도록 설계하는 컴퓨팅 방식이다.",
+      "easyExplanation": "여러 사람이 일을 나누되 한 사람이 빠져도 전체가 멈추지 않게 하는 구조다.",
+      "mechanism": [
+        "작업 분할",
+        "데이터 복제 또는 재처리",
+        "장애 감지와 우회",
+        "네트워크로 결과 결합"
+      ],
+      "examples": [
+        "Google의 범용 서버 클러스터",
+        "HDFS 블록 복제"
+      ],
+      "comparisons": [
+        "고성능 단일 서버의 장애 확률 최소화 접근과 대비"
+      ],
+      "examPoints": [
+        "SPOF 의미",
+        "내결함성은 무장애가 아니라 장애 영향 격리"
+      ],
+      "misconceptions": [
+        "복제본이 있으면 백업·일관성·복구 설계가 불필요한 것은 아니다."
+      ],
+      "relatedConceptIds": [
+        "C01",
+        "C10",
+        "C11"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C03",
+      "name": "하드웨어 인프라 진화",
+      "fileId": "w3-infra",
+      "pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "unit": "U3-1",
+      "definition": "멀티코어 CPU, 분산 메모리, SSD/NVMe, 고속 네트워크, GPU/TPU 등으로 빅데이터 병렬 처리 기반이 바뀐 현상이다.",
+      "easyExplanation": "모든 일을 한 종류의 부품에 맡기지 않고 작업에 맞는 부품을 조합한다.",
+      "mechanism": [
+        "CPU 멀티코어와 클러스터",
+        "Spark 인메모리",
+        "HDD/SSD 계층화와 NVMe",
+        "GPU/TPU 병렬 가속",
+        "InfiniBand·SDN"
+      ],
+      "examples": [
+        "GPU 딥러닝",
+        "TPU TensorFlow 연산",
+        "NVMe 실시간 분석"
+      ],
+      "comparisons": [
+        "범용 CPU 중심 vs 이기종 컴퓨팅"
+      ],
+      "examPoints": [
+        "장치 이름과 역할 매핑",
+        "I/O·지연·대역폭 병목 구분"
+      ],
+      "misconceptions": [
+        "GPU가 모든 연산에서 CPU보다 빠른 것은 아니다.",
+        "메모리 증설만으로 분산 처리 문제가 해결되지 않는다."
+      ],
+      "relatedConceptIds": [
+        "C01",
+        "C04"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C04",
+      "name": "클라우드·컨테이너·엣지",
+      "fileId": "w3-infra",
+      "pages": [
+        5,
+        6
+      ],
+      "unit": "U3-1",
+      "definition": "클라우드는 탄력적 자원과 관리형 서비스를, 컨테이너는 경량 격리·배포를, 엣지는 데이터 발생지 근처 저지연 처리를 제공한다.",
+      "easyExplanation": "빌려 쓰는 큰 데이터센터, 가벼운 포장 상자, 현장 즉시 처리의 조합이다.",
+      "mechanism": [
+        "필요 시 서버 수 조절",
+        "Docker/Kubernetes로 워크로드 패키징",
+        "엣지에서 1차 필터링·추론"
+      ],
+      "examples": [
+        "AWS EMR/Dataproc/HDInsight",
+        "자율주행·스마트팩토리"
+      ],
+      "comparisons": [
+        "온프레미스 고정 용량 vs 클라우드 탄력성",
+        "중앙 클라우드 vs 엣지 저지연"
+      ],
+      "examPoints": [
+        "지연·대역폭·비용 요구에 따른 배치",
+        "컨테이너와 VM을 동일시하지 않기"
+      ],
+      "misconceptions": [
+        "엣지는 클라우드를 없애는 기술이 아니라 역할을 분담한다.",
+        "컨테이너는 하드웨어 가상화 자체가 아니다."
+      ],
+      "relatedConceptIds": [
+        "C03",
+        "C08"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C05",
+      "name": "웹 크롤링과 스크래핑",
+      "fileId": "w3-infra",
+      "pages": [
+        7,
+        8
+      ],
+      "unit": "U3-2",
+      "definition": "크롤링은 링크 구조를 탐색해 페이지를 발견하고, 스크래핑은 특정 페이지에서 필요한 데이터를 추출한다.",
+      "easyExplanation": "크롤러는 도서관 책 위치를 찾아다니고, 스크래퍼는 책에서 필요한 문장을 뽑는다.",
+      "mechanism": [
+        "seed URL",
+        "링크 추출과 queue",
+        "중복 제거",
+        "robots.txt와 요청 간격",
+        "정적/동적 페이지 도구 선택"
+      ],
+      "examples": [
+        "Scrapy 분산 크롤링",
+        "Beautiful Soup 정적 HTML",
+        "Selenium/Playwright 동적 렌더링"
+      ],
+      "comparisons": [
+        "API는 구조화·안정성이 높지만 제공 범위와 호출 제한이 있음"
+      ],
+      "examPoints": [
+        "크롤링/스크래핑 정의",
+        "동적 페이지 도구",
+        "윤리·법률·서버 부하"
+      ],
+      "misconceptions": [
+        "robots.txt 준수만으로 모든 저작권·개인정보 법적 문제가 자동 해결되지는 않는다."
+      ],
+      "relatedConceptIds": [
+        "C06"
+      ],
+      "difficulty": "easy",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C06",
+      "name": "REST·GraphQL·API 운영",
+      "fileId": "w3-infra",
+      "pages": [
+        8,
+        9
+      ],
+      "unit": "U3-2",
+      "definition": "REST는 HTTP 리소스 조작 방식이고 GraphQL은 클라이언트가 필요한 필드를 지정하는 쿼리 방식이며, 인증·속도 제한·백오프가 운영 안정성을 보장한다.",
+      "easyExplanation": "정해진 메뉴에서 받는 방식과 필요한 재료만 골라 주문하는 방식의 차이다.",
+      "mechanism": [
+        "REST GET/POST/PUT/DELETE와 JSON",
+        "GraphQL 선택 필드",
+        "OAuth/API key",
+        "rate limit 대응 큐·backoff"
+      ],
+      "examples": [
+        "소셜 API",
+        "GitHub/Shopify/Netflix GraphQL"
+      ],
+      "comparisons": [
+        "REST 단순·표준적 vs GraphQL 정밀 조회·복잡성"
+      ],
+      "examPoints": [
+        "over-fetching/under-fetching",
+        "인증과 권한 범위",
+        "429/속도 제한 대응"
+      ],
+      "misconceptions": [
+        "GraphQL이 항상 REST보다 빠르거나 안전한 것은 아니다."
+      ],
+      "relatedConceptIds": [
+        "C05",
+        "C07"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C07",
+      "name": "실시간 수집과 MQTT",
+      "fileId": "w3-infra",
+      "pages": [
+        9,
+        10
+      ],
+      "unit": "U3-2",
+      "definition": "Webhook·WebSocket·SSE는 실시간 전달 방식이고 MQTT는 IoT용 경량 publish-subscribe 프로토콜이다.",
+      "easyExplanation": "사건이 생기면 알려주기, 계속 양방향 통화하기, 서버 방송 듣기, 센서 토픽 구독하기다.",
+      "mechanism": [
+        "Webhook: 이벤트 시 HTTP POST",
+        "WebSocket: 지속 양방향",
+        "SSE: 서버→클라이언트",
+        "MQTT: broker/topic 기반 발행-구독"
+      ],
+      "examples": [
+        "GitHub CI/CD webhook",
+        "거래소 가격 WebSocket",
+        "센서 MQTT"
+      ],
+      "comparisons": [
+        "polling은 주기 조회로 단순하지만 불필요 호출·지연이 생김"
+      ],
+      "examPoints": [
+        "방향성·연결 지속성 구분",
+        "IoT의 경량·저전력 요구"
+      ],
+      "misconceptions": [
+        "Webhook은 지속 연결이 아니고 WebSocket은 단순 서버 단방향만이 아니다."
+      ],
+      "relatedConceptIds": [
+        "C06",
+        "C08",
+        "C10"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C08",
+      "name": "엣지 전처리",
+      "fileId": "w3-infra",
+      "pages": [
+        6,
+        10
+      ],
+      "unit": "U3-2",
+      "definition": "센서 원본을 클라우드로 모두 보내지 않고 발생지 가까이에서 필터·집계·압축·이상 탐지하는 방식이다.",
+      "easyExplanation": "현장에서 중요한 신호만 골라 보내는 데이터 관문이다.",
+      "mechanism": [
+        "통계 요약 전송",
+        "이상 시 원본 전송",
+        "엣지 AI 추론",
+        "클라우드 장기 저장·통합 분석"
+      ],
+      "examples": [
+        "진동 센서 평균/최댓값/표준편차",
+        "Jetson/Edge TPU 이상 감지"
+      ],
+      "comparisons": [
+        "대역폭·지연 절감 vs 현장 자원·보안 제약"
+      ],
+      "examPoints": [
+        "엣지에서 보낼 통계와 예외 기준 명세",
+        "원본 손실 위험 고려"
+      ],
+      "misconceptions": [
+        "전처리로 버린 원본은 사후 분석에 필요할 수 있으므로 보존 정책이 필요하다."
+      ],
+      "relatedConceptIds": [
+        "C04",
+        "C07",
+        "C15"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C09",
+      "name": "Full/Incremental Load와 ETL/ELT",
+      "fileId": "w3-infra",
+      "pages": [
+        11,
+        12
+      ],
+      "unit": "U3-2",
+      "definition": "Full Load는 전체를, Incremental Load는 변경분만 적재한다. ETL은 변환 후 적재, ELT는 먼저 적재 후 분석 시 변환한다.",
+      "easyExplanation": "이삿짐 전체를 매번 옮길지 바뀐 상자만 옮길지, 정리한 뒤 넣을지 넣고 나중에 정리할지의 차이다.",
+      "mechanism": [
+        "timestamp 또는 CDC로 변경 감지",
+        "ETL 품질·비즈니스 룰 선적용",
+        "ELT 원본 보존·schema-on-read"
+      ],
+      "examples": [
+        "Sqoop JDBC 병렬 전송",
+        "Snowflake/BigQuery/Redshift ELT"
+      ],
+      "comparisons": [
+        "ETL: 목적지 전에 정형화",
+        "ELT: 레이크/DWH의 계산 자원 활용"
+      ],
+      "examPoints": [
+        "CDC와 timestamp 증분 차이",
+        "ETL/ELT 순서"
+      ],
+      "misconceptions": [
+        "ELT도 데이터 품질 검증이 불필요한 것은 아니다."
+      ],
+      "relatedConceptIds": [
+        "C10",
+        "C13"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C10",
+      "name": "Kafka와 스트림 처리",
+      "fileId": "w3-infra",
+      "pages": [
+        12,
+        13
+      ],
+      "unit": "U3-2",
+      "definition": "Kafka는 topic을 partition으로 나눠 broker에 분산 저장하는 고처리량 publish-subscribe 스트리밍 플랫폼이다.",
+      "easyExplanation": "메시지를 주제별 여러 줄로 나눠 병렬로 전달하는 우체국이다.",
+      "mechanism": [
+        "producer 발행",
+        "consumer 구독",
+        "partition 병렬성",
+        "windowing",
+        "watermark·late data",
+        "exactly-once를 위한 멱등성·트랜잭션"
+      ],
+      "examples": [
+        "Kafka Connect 외부 연동",
+        "Kafka Streams 애플리케이션 내 처리"
+      ],
+      "comparisons": [
+        "tumbling은 비중첩, sliding은 중첩",
+        "event time과 processing time 구분"
+      ],
+      "examPoints": [
+        "partition 역할",
+        "지연 도착 처리",
+        "정확히 한 번 의미"
+      ],
+      "misconceptions": [
+        "exactly-once 표기는 전체 외부 시스템까지 자동 보장한다는 뜻이 아니다."
+      ],
+      "relatedConceptIds": [
+        "C02",
+        "C07",
+        "C15"
+      ],
+      "difficulty": "hard",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C11",
+      "name": "HDFS",
+      "fileId": "w3-infra",
+      "pages": [
+        14,
+        15
+      ],
+      "unit": "U3-3",
+      "definition": "HDFS는 대용량 파일을 블록으로 쪼개 DataNode에 분산·복제하고 NameNode가 메타데이터를 관리하는 분산 파일 시스템이다.",
+      "easyExplanation": "큰 파일을 여러 창고에 복제해 두고 중앙 장부가 위치를 관리한다.",
+      "mechanism": [
+        "기본 128MB 블록",
+        "기본 3복제",
+        "NameNode/DataNode",
+        "HA active-standby",
+        "Federation으로 네임스페이스 분리"
+      ],
+      "examples": [
+        "Hadoop 2.0 HA와 ZooKeeper",
+        "Ozone의 작은 파일·S3 API"
+      ],
+      "comparisons": [
+        "대용량 순차 읽기 강점 vs 작은 파일·랜덤 접근 약점"
+      ],
+      "examPoints": [
+        "노드 역할",
+        "복제와 내결함성",
+        "초기 SPOF와 개선"
+      ],
+      "misconceptions": [
+        "NameNode가 실제 모든 데이터 블록 내용을 저장하는 것은 아니다."
+      ],
+      "relatedConceptIds": [
+        "C02",
+        "C12",
+        "C13"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C12",
+      "name": "NoSQL 네 가지 모델",
+      "fileId": "w3-infra",
+      "pages": [
+        15,
+        16,
+        17
+      ],
+      "unit": "U3-3",
+      "definition": "문서형, 키-값, 컬럼 패밀리, 그래프형은 관계형 제약을 완화하며 데이터 구조·접근 패턴에 맞춰 확장성을 제공한다.",
+      "easyExplanation": "문서 서랍, 사전, 넓은 표, 관계망처럼 데이터를 저장하는 네 가지 방식이다.",
+      "mechanism": [
+        "MongoDB BSON·샤딩",
+        "Redis 키-값",
+        "Cassandra 컬럼 패밀리·tunable consistency",
+        "Neo4j node-edge·Cypher"
+      ],
+      "examples": [
+        "HBase는 HDFS 기반 강한 일관성",
+        "ArangoDB는 멀티모델"
+      ],
+      "comparisons": [
+        "문서: 중첩 객체",
+        "키-값: 빠른 단일 키",
+        "컬럼 패밀리: 대규모 희소 행",
+        "그래프: 연결 탐색"
+      ],
+      "examPoints": [
+        "요구 질의에 맞는 모델 선택",
+        "Cassandra peer-to-peer와 consistency 수준"
+      ],
+      "misconceptions": [
+        "NoSQL은 SQL을 절대 사용할 수 없다는 뜻이 아니라 Not Only SQL이다."
+      ],
+      "relatedConceptIds": [
+        "C11",
+        "C13"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C13",
+      "name": "오브젝트 스토리지·데이터 레이크·DWH",
+      "fileId": "w3-infra",
+      "pages": [
+        17,
+        18,
+        19
+      ],
+      "unit": "U3-3",
+      "definition": "오브젝트 스토리지는 키와 메타데이터로 평면 저장하며, 데이터 레이크는 원본을 schema-on-read로, DWH는 정형 데이터를 주로 schema-on-write로 관리한다.",
+      "easyExplanation": "원본을 큰 호수에 모아 필요할 때 해석하는 방식과 미리 정리된 창고에 넣는 방식이다.",
+      "mechanism": [
+        "S3/GCS/Blob 계층",
+        "lake의 원본 보존",
+        "Snowflake 컴퓨트-스토리지 분리",
+        "BigQuery 서버리스 컬럼형",
+        "Redshift Spectrum"
+      ],
+      "examples": [
+        "S3 기반 원본 데이터 레이크",
+        "Snowflake·BigQuery·Redshift 분석 창고"
+      ],
+      "comparisons": [
+        "데이터 레이크 유연성·저비용 vs 데이터 늪 위험",
+        "DWH 거버넌스·일관된 질의"
+      ],
+      "examPoints": [
+        "schema-on-read/write",
+        "스토리지 클래스",
+        "data swamp 방지 요소"
+      ],
+      "misconceptions": [
+        "레이크에 넣기만 하면 자동으로 활용 가능한 데이터가 되는 것은 아니다."
+      ],
+      "relatedConceptIds": [
+        "C09",
+        "C11",
+        "C16"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C14",
+      "name": "결측·이상·중복·표준화",
+      "fileId": "w3-infra",
+      "pages": [
+        19,
+        20,
+        21
+      ],
+      "unit": "U3-4",
+      "definition": "데이터 정제는 결측치, 이상값, 중복, 형식 불일치를 분석 목적과 결측 메커니즘에 맞게 처리하는 과정이다.",
+      "easyExplanation": "빈칸·튀는 값·겹치는 기록·서로 다른 표기를 다듬는 일이다.",
+      "mechanism": [
+        "결측 삭제/단순·회귀·다중 대체",
+        "Z-score/IQR/ML 이상 탐지",
+        "exact/fuzzy match와 record linkage",
+        "날짜·주소 정규화"
+      ],
+      "examples": [
+        "평균·중앙값 대체",
+        "IQR 기반 이상값 후보 표시",
+        "주소 표준화와 중복 고객 병합"
+      ],
+      "comparisons": [
+        "평균 대체는 단순하지만 분산·관계를 왜곡할 수 있음",
+        "다중 대체는 불확실성 반영"
+      ],
+      "examPoints": [
+        "처리법 선택 근거",
+        "이상값=오류로 단정 금지",
+        "Levenshtein/Jaro-Winkler"
+      ],
+      "misconceptions": [
+        "이상값은 실제 극값일 수 있어 자동 삭제하면 안 된다.",
+        "결측 행 제거가 항상 최선은 아니다."
+      ],
+      "relatedConceptIds": [
+        "C15",
+        "C21"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C15",
+      "name": "프로파일링·품질 규칙·드리프트",
+      "fileId": "w3-infra",
+      "pages": [
+        21,
+        22
+      ],
+      "unit": "U3-4",
+      "definition": "프로파일링은 구조·내용·관계를 요약하고, 품질 규칙은 허용 조건을 명시하며, 드리프트는 시간에 따른 분포 변화를 탐지한다.",
+      "easyExplanation": "현재 데이터의 건강검진, 통과 기준, 변화 경보를 함께 운영한다.",
+      "mechanism": [
+        "타입·분포·결측·고유값",
+        "참조 무결성",
+        "도메인/형식/비즈니스 규칙",
+        "KS/카이제곱",
+        "실시간 위반 토픽"
+      ],
+      "examples": [
+        "주문 금액 음수 금지 규칙",
+        "고객 키 참조 무결성 검사",
+        "월별 입력 분포 변화 경보"
+      ],
+      "comparisons": [
+        "배치 품질 점검 vs 스트리밍 즉시 검사"
+      ],
+      "examPoints": [
+        "구조/내용/관계 프로파일링 구분",
+        "드리프트가 모델 성능에 미치는 영향"
+      ],
+      "misconceptions": [
+        "분포 변화가 곧 데이터 오류라는 뜻은 아니다. 실제 환경 변화일 수 있다."
+      ],
+      "relatedConceptIds": [
+        "C08",
+        "C10",
+        "C14",
+        "C16"
+      ],
+      "difficulty": "hard",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C16",
+      "name": "메타데이터·카탈로그·거버넌스",
+      "fileId": "w3-infra",
+      "pages": [
+        22,
+        23,
+        26
+      ],
+      "unit": "U3-4",
+      "definition": "기술·비즈니스·운영 메타데이터와 데이터 카탈로그를 통해 데이터의 구조·의미·계보·품질·소유권을 관리하는 체계다.",
+      "easyExplanation": "데이터 자체뿐 아니라 설명서와 이동 경로, 책임자를 함께 관리한다.",
+      "mechanism": [
+        "기술: 스키마/타입/인덱스",
+        "비즈니스: 정의/규칙/소유자/민감도",
+        "운영: lineage/로그/품질/사용 통계",
+        "검색·리뷰·태그"
+      ],
+      "examples": [
+        "Atlas/DataHub/Amundsen",
+        "ML 기반 PII 분류·추천"
+      ],
+      "comparisons": [
+        "메타데이터는 데이터 값 자체와 구분",
+        "카탈로그는 발견·협업 계층"
+      ],
+      "examPoints": [
+        "세 유형 매핑",
+        "data swamp 방지",
+        "lineage 용도"
+      ],
+      "misconceptions": [
+        "메타데이터를 자동 수집해도 비즈니스 의미가 자동 완성되지는 않는다."
+      ],
+      "relatedConceptIds": [
+        "C13",
+        "C15",
+        "C17"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C17",
+      "name": "개인정보보호와 다층 보안",
+      "fileId": "w3-infra",
+      "pages": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "unit": "U3-4",
+      "definition": "Privacy by Design, 데이터 최소화·목적 제한·주체 권리, 익명화/가명화, 차분 프라이버시와 계층별 보안 통제로 위험을 줄이는 체계다.",
+      "easyExplanation": "처음부터 필요한 만큼만 모으고, 다시 알아볼 수 없게 하며, 여러 겹으로 지킨다.",
+      "mechanism": [
+        "k-익명성",
+        "l-다양성",
+        "t-근접성",
+        "차분 프라이버시",
+        "동형암호",
+        "제로 트러스트·HIDS·WAF"
+      ],
+      "examples": [
+        "연령 일반화로 k-익명성 확보",
+        "통계 질의에 차분 프라이버시 노이즈 추가",
+        "API 앞단 WAF 적용"
+      ],
+      "comparisons": [
+        "k-익명성은 준식별자 그룹 크기",
+        "l-다양성은 민감값 다양성",
+        "t-근접성은 분포 차이 제한"
+      ],
+      "examPoints": [
+        "GDPR 핵심 원칙과 권리",
+        "기법별 공격 방어",
+        "동의 요건",
+        "Defense in Depth"
+      ],
+      "misconceptions": [
+        "단순 식별자 삭제만으로 익명화가 완료되지 않는다.",
+        "동형암호는 성능 오버헤드가 크다."
+      ],
+      "relatedConceptIds": [
+        "C15",
+        "C16"
+      ],
+      "difficulty": "hard",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C18",
+      "name": "데이터 분석 6단계",
+      "fileId": "w4-netflix",
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "unit": "U4-1",
+      "definition": "문제 정의, 데이터 수집, 전처리·정제, EDA, 모델링·분석, 해석·전달의 유기적 과정이다.",
+      "easyExplanation": "질문을 정하고 재료를 모아 손질한 뒤 탐색·모델링하고 이야기로 전달한다.",
+      "mechanism": [
+        "목표를 측정 가능하게 정의",
+        "필요 데이터 선별",
+        "EDA에서 가설 수정",
+        "모델 선택",
+        "스토리텔링"
+      ],
+      "examples": [
+        "장르 제작 전략 질문",
+        "국가·등급·키워드 분석"
+      ],
+      "comparisons": [
+        "선형 일회성 절차가 아니라 반복적으로 문제를 수정"
+      ],
+      "examPoints": [
+        "순서와 각 단계 산출물",
+        "문제 정의의 명세"
+      ],
+      "misconceptions": [
+        "시각화 자체가 최종 분석 목표는 아니다. 의미와 의사결정 연결이 필요하다."
+      ],
+      "relatedConceptIds": [
+        "C19",
+        "C22",
+        "C34"
+      ],
+      "difficulty": "easy",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C19",
+      "name": "Netflix 데이터 스키마",
+      "fileId": "w4-netflix",
+      "pages": [
+        4,
+        5
+      ],
+      "unit": "U4-1",
+      "definition": "콘텐츠 ID·유형·제목·감독·배우·국가·추가일·제작연도·등급·길이·장르·설명을 담는 12개 핵심 컬럼이다.",
+      "easyExplanation": "질문에 답하려면 먼저 어느 칸이 필요한지 고르는 데이터 사전이다.",
+      "mechanism": [
+        "시간 분석: date_added/release_year",
+        "배우: cast",
+        "장르: listed_in",
+        "길이: duration",
+        "텍스트: description"
+      ],
+      "examples": [
+        "국가×장르: country+listed_in",
+        "등급×영화길이: rating+type+duration"
+      ],
+      "comparisons": [
+        "date_added는 등록일, release_year는 최초 공개 연도"
+      ],
+      "examPoints": [
+        "질문→필요 컬럼 매핑",
+        "duration 단위 혼합"
+      ],
+      "misconceptions": [
+        "release_year와 added_year는 같은 의미가 아니다.",
+        "cast/listed_in은 한 셀에 여러 값이 있다."
+      ],
+      "relatedConceptIds": [
+        "C20",
+        "C21",
+        "C34"
+      ],
+      "difficulty": "easy",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C20",
+      "name": "데이터 로드와 1차 점검",
+      "fileId": "w4-netflix",
+      "pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "unit": "U4-1",
+      "definition": "독립 환경에서 CSV를 내려받아 DataFrame으로 읽고 head·shape·info로 구조·크기·타입·결측 단서를 확인하는 단계다.",
+      "easyExplanation": "재료를 쓰기 전에 상자 내용, 개수, 형식을 확인하는 일이다.",
+      "mechanism": [
+        "Conda 환경",
+        "pd.read_csv",
+        "head",
+        "shape",
+        "info"
+      ],
+      "examples": [
+        "파일이 없을 때만 urlretrieve",
+        "VS Code 커널 선택"
+      ],
+      "comparisons": [
+        "head는 표본, info는 타입·non-null, shape는 규모"
+      ],
+      "examPoints": [
+        "각 함수 출력과 목적",
+        "재현 가능한 환경"
+      ],
+      "misconceptions": [
+        "head 5행만 보고 전체 품질을 단정할 수 없다."
+      ],
+      "relatedConceptIds": [
+        "C18",
+        "C19",
+        "C21"
+      ],
+      "difficulty": "easy",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C21",
+      "name": "Netflix 전처리와 파생변수",
+      "fileId": "w4-netflix",
+      "pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "unit": "U4-2",
+      "definition": "결측 규모에 따라 Unknown 대체와 행 제거를 구분하고, 날짜·duration을 분석 가능한 타입과 파생변수로 바꾸는 과정이다.",
+      "easyExplanation": "빈칸을 처리하고 한 셀에 섞인 날짜와 단위를 계산 가능한 칸으로 푼다.",
+      "mechanism": [
+        "director/cast/country fillna",
+        "date_added/rating dropna",
+        "strip→to_datetime",
+        "added_year/month",
+        "duration_value/unit"
+      ],
+      "examples": [
+        "최종 (7770,12) 결측 처리",
+        "Season/Seasons 단위 통일"
+      ],
+      "comparisons": [
+        "대체는 행 보존, 제거는 완전 사례만 남김"
+      ],
+      "examPoints": [
+        "왜 컬럼별 전략이 다른지",
+        "문자열 파싱 함수",
+        "파생변수 목적"
+      ],
+      "misconceptions": [
+        "Unknown은 실제 범주가 아니라 결측 표식이므로 통계에서 별도 처리해야 한다.",
+        "duration_value만 비교하면 영화 분과 TV 시즌이 섞인다."
+      ],
+      "relatedConceptIds": [
+        "C14",
+        "C19",
+        "C22",
+        "C34"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C22",
+      "name": "기술 통계와 EDA",
+      "fileId": "w4-netflix",
+      "pages": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "unit": "U4-2",
+      "definition": "EDA는 기술 통계·빈도·시각화를 반복해 분포, 특이점, 관계를 찾고 다음 질문과 가설을 다듬는 과정이다.",
+      "easyExplanation": "정답을 바로 내기보다 데이터와 대화하며 더 좋은 질문을 만드는 과정이다.",
+      "mechanism": [
+        "describe 숫자형",
+        "describe(include='object') 범주형",
+        "value_counts",
+        "filter",
+        "split/explode"
+      ],
+      "examples": [
+        "장르 Top 10",
+        "감독 Top 10",
+        "영화 길이",
+        "등급 분포"
+      ],
+      "comparisons": [
+        "확증 분석과 달리 탐색 과정에서는 가설 수정이 자연스러움"
+      ],
+      "examPoints": [
+        "함수 선택",
+        "혼합 단위 필터링",
+        "단순 질문→복합 질문 발전"
+      ],
+      "misconceptions": [
+        "EDA에서 발견한 패턴이 곧 인과 증거는 아니다."
+      ],
+      "relatedConceptIds": [
+        "C18",
+        "C21",
+        "C23",
+        "C34"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C23",
+      "name": "그래프 유형 선택",
+      "fileId": "w4-netflix",
+      "pages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "unit": "U4-3",
+      "definition": "변수의 척도와 질문에 따라 히스토그램, 막대, 파이, 산점도, 박스플롯, 히트맵, 선 그래프를 선택한다.",
+      "easyExplanation": "분포·빈도·비율·관계·범주별 분포·행렬·시간 추세에 맞는 그림을 고른다.",
+      "mechanism": [
+        "히스토그램=연속 수치 분포",
+        "막대=count 범주 비교",
+        "파이=전체 비율",
+        "산점도=수치-수치",
+        "박스=범주별 수치",
+        "히트맵=행렬",
+        "선=시간 순서"
+      ],
+      "examples": [
+        "release_year histogram",
+        "type bar/pie",
+        "release_year-added_year scatter"
+      ],
+      "comparisons": [
+        "막대는 범주, 히스토그램은 구간화된 수치"
+      ],
+      "examPoints": [
+        "그래프 모양만 보고 유형 식별",
+        "축과 변수 수 확인",
+        "차트 선택 근거"
+      ],
+      "misconceptions": [
+        "파이 차트는 범주가 많거나 미세 차이를 비교할 때 부적합할 수 있다."
+      ],
+      "relatedConceptIds": [
+        "C24",
+        "C25",
+        "C26",
+        "C34"
+      ],
+      "difficulty": "easy",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C24",
+      "name": "박스플롯 해석",
+      "fileId": "w4-netflix",
+      "pages": [
+        27,
+        28,
+        29
+      ],
+      "unit": "U4-3",
+      "definition": "중앙값, 사분위 범위(IQR), 수염, 이상치를 통해 범주별 수치 분포의 중심과 변동을 비교하는 그래프다.",
+      "easyExplanation": "상자의 가운데 선은 중심, 길이는 중간 절반의 퍼짐, 바깥 점은 특이값이다.",
+      "mechanism": [
+        "x=rating",
+        "y=영화 duration_value",
+        "type=='Movie' 필터",
+        "IQR과 이상치"
+      ],
+      "examples": [
+        "TV-14 상자 넓음",
+        "PG-13 비교적 좁음",
+        "TV-MA 300분 초과 이상치"
+      ],
+      "comparisons": [
+        "중앙값과 평균은 다름",
+        "상자 길이와 전체 범위는 다름"
+      ],
+      "examPoints": [
+        "축·상자·수염·점의 의미",
+        "이상치 자동 삭제 금지"
+      ],
+      "misconceptions": [
+        "이상치는 반드시 오류가 아니다.",
+        "상자가 길다고 중앙값이 큰 것은 아니다."
+      ],
+      "relatedConceptIds": [
+        "C14",
+        "C23"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C25",
+      "name": "히트맵과 분할표",
+      "fileId": "w4-netflix",
+      "pages": [
+        27,
+        28,
+        29,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "unit": "U4-3",
+      "definition": "행·열 조합의 값이나 빈도를 색 농도와 숫자로 표현해 두 범주/차원의 패턴을 찾는 방법이다.",
+      "easyExplanation": "표의 큰 값을 더 진한 색으로 칠해 군집과 강한 조합을 찾는다.",
+      "mechanism": [
+        "pd.crosstab",
+        "annot=True",
+        "연도×월",
+        "장르×등급",
+        "국가×장르"
+      ],
+      "examples": [
+        "International Movies-TV-MA 983",
+        "South Korea-International TV Shows 116"
+      ],
+      "comparisons": [
+        "원시 빈도 히트맵은 표본 크기가 큰 행이 진해질 수 있어 비율과 구분"
+      ],
+      "examPoints": [
+        "축·셀·컬러바",
+        "빈도 vs 조건부 비율",
+        "연관≠인과"
+      ],
+      "misconceptions": [
+        "색이 진하다는 사실만으로 선호·인과를 단정할 수 없다."
+      ],
+      "relatedConceptIds": [
+        "C23",
+        "C28",
+        "C34"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C26",
+      "name": "산점도·선 그래프·기울기",
+      "fileId": "w4-netflix",
+      "pages": [
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "unit": "U4-3",
+      "definition": "산점도는 두 수치 변수의 관계를, 선 그래프는 순서 있는 시간 변화와 증감 속도를 표현한다. 기울기는 Δy/Δx로 명세한다.",
+      "easyExplanation": "점구름은 함께 움직이는지 보고, 선은 얼마나 빠르게 오르내리는지 본다.",
+      "mechanism": [
+        "release_year vs added_year",
+        "added_year별 count line",
+        "연간 기울기 s_t=(y_t-y_{t-1})/(t-(t-1))",
+        "급증 임계값을 분석 전에 명시"
+      ],
+      "examples": [
+        "2015~2019 급상승",
+        "2021 데이터 미완전으로 급락 왜곡",
+        "투자액-추가량 양의 관계 예시"
+      ],
+      "comparisons": [
+        "상관은 인과가 아님",
+        "이중축은 축 눈금이 달라 시각적 과장 가능"
+      ],
+      "examPoints": [
+        "기울기 단위",
+        "급격의 조작적 기준",
+        "검열된 기간 해석",
+        "산점도 패턴"
+      ],
+      "misconceptions": [
+        "눈으로 가파르다고만 쓰면 재현 가능한 분석 기준이 아니다.",
+        "부분 연도 하락을 실제 사업 감소로 단정하면 안 된다."
+      ],
+      "relatedConceptIds": [
+        "C23",
+        "C34"
+      ],
+      "difficulty": "hard",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C27",
+      "name": "단순 빈도형 Netflix 질문",
+      "fileId": "w4-netflix",
+      "pages": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "unit": "U4-2",
+      "definition": "배우 Top 10, TV 시즌 분포, 월별 추가량처럼 한두 컬럼을 정제해 빈도·요약 통계로 답하는 기초 질문이다.",
+      "easyExplanation": "셀 안 여러 값을 풀거나 대상을 필터한 뒤 세어 보는 문제다.",
+      "mechanism": [
+        "cast split/explode/value_counts",
+        "TV Show filter+describe",
+        "added_month value_counts+sort_index"
+      ],
+      "examples": [
+        "Anupam Kher가 배우 차트 1위",
+        "TV 쇼 1시즌 압도",
+        "12월 추가량 최고"
+      ],
+      "comparisons": [
+        "단순 질문은 출발점이며 국가·기간·장르를 더해 복합화 가능"
+      ],
+      "examPoints": [
+        "필요 컬럼·함수 매핑",
+        "Unknown 제거",
+        "그래프 유형"
+      ],
+      "misconceptions": [
+        "빈도 1위가 반드시 품질·인기도 1위라는 뜻은 아니다."
+      ],
+      "relatedConceptIds": [
+        "C21",
+        "C22",
+        "C34"
+      ],
+      "difficulty": "easy",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C28",
+      "name": "범주형 관계 분석",
+      "fileId": "w4-netflix",
+      "pages": [
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "unit": "U4-4",
+      "definition": "두 범주 변수의 조합 빈도를 분할표로 만들고 히트맵으로 시각화해 연관 패턴을 탐색한다.",
+      "easyExplanation": "두 분류표를 교차해 어떤 조합이 자주 나오는지 본다.",
+      "mechanism": [
+        "listed_in explode",
+        "상위 범주 필터",
+        "pd.crosstab",
+        "sns.heatmap"
+      ],
+      "examples": [
+        "장르×rating",
+        "main_country×main_genre"
+      ],
+      "comparisons": [
+        "원시 count vs 행/열 정규화 비율",
+        "연관 vs 인과"
+      ],
+      "examPoints": [
+        "다중값 컬럼 처리",
+        "첫 값만 대표값으로 쓸 때 편향",
+        "상위 N 절단 효과"
+      ],
+      "misconceptions": [
+        "첫 국가/첫 장르가 항상 실제 주된 기여를 뜻하지 않는다.",
+        "빈도 차이는 국가 전체량 차이의 영향일 수 있다."
+      ],
+      "relatedConceptIds": [
+        "C25",
+        "C34"
+      ],
+      "difficulty": "hard",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C29",
+      "name": "네트워크 분석과 중심성",
+      "fileId": "w4-netflix",
+      "pages": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "unit": "U4-4",
+      "definition": "node와 edge로 관계 구조를 표현하고 degree centrality로 직접 연결 수를 비교하는 분석이다.",
+      "easyExplanation": "사람을 점, 협업을 선으로 그려 연결 허브와 별도 집단을 찾는다.",
+      "mechanism": [
+        "감독-배우 edge",
+        "상위 30 감독 표본",
+        "Kamada-Kawai layout",
+        "감독/배우 색·크기",
+        "degree centrality"
+      ],
+      "examples": [
+        "중앙 mainstream hub",
+        "감독별 independent star hub",
+        "Martin Scorsese의 넓은 캐스팅 풀"
+      ],
+      "comparisons": [
+        "degree는 직접 연결만, betweenness 등 다른 중심성과 다름"
+      ],
+      "examPoints": [
+        "네트워크 정의가 순위를 만든다",
+        "표본·edge 방향·가중치",
+        "레이아웃은 통계가 아님"
+      ],
+      "misconceptions": [
+        "그림 중앙에 있다고 자동으로 영향력이 가장 큰 것은 아니다.",
+        "감독만 상위인 결과를 배우 무영향으로 해석하면 안 된다."
+      ],
+      "relatedConceptIds": [
+        "C34"
+      ],
+      "difficulty": "hard",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C30",
+      "name": "텍스트 마이닝과 워드클라우드",
+      "fileId": "w4-netflix",
+      "pages": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "unit": "U4-4",
+      "definition": "비정형 description에서 불용어를 제거하고 단어 빈도를 크기로 표현해 핵심 어휘를 탐색하는 기법이다.",
+      "easyExplanation": "자주 나온 단어를 크게 그려 텍스트의 표면적 주제를 한눈에 본다.",
+      "mechanism": [
+        "description join",
+        "STOPWORDS+도메인 불용어",
+        "WordCloud.generate",
+        "장르 str.contains 필터"
+      ],
+      "examples": [
+        "전체 life/love/family",
+        "Dramas secret/murder/crime",
+        "Comedies friends/school/team"
+      ],
+      "comparisons": [
+        "빈도 시각화 vs TF-IDF/토픽모델의 구분"
+      ],
+      "examPoints": [
+        "불용어가 결과를 바꿈",
+        "크기=빈도",
+        "장르 비교",
+        "해석 한계"
+      ],
+      "misconceptions": [
+        "큰 단어가 중요성·감정·인과를 자동 증명하지 않는다.",
+        "같은 단어의 문맥은 잃는다."
+      ],
+      "relatedConceptIds": [
+        "C31",
+        "C33"
+      ],
+      "difficulty": "medium",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C31",
+      "name": "콘텐츠 기반 추천",
+      "fileId": "w4-netflix",
+      "pages": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "unit": "U4-5",
+      "definition": "사용자가 좋아한 항목과 메타데이터·텍스트가 유사한 다른 항목을 추천하는 방식이다.",
+      "easyExplanation": "좋아한 영화의 장르·배우·줄거리와 닮은 영화를 찾는다.",
+      "mechanism": [
+        "다중 피처 soup",
+        "TF-IDF 벡터",
+        "cosine_similarity",
+        "자기 자신 제외 상위 10"
+      ],
+      "examples": [
+        "The Matrix 유사 콘텐츠",
+        "Iron Man→Avengers 비유"
+      ],
+      "comparisons": [
+        "콘텐츠 기반은 아이템 특성, 협업 필터링은 사용자 평점 패턴"
+      ],
+      "examPoints": [
+        "결측·중복 처리",
+        "fit_transform",
+        "코사인 유사도 범위와 자기 자신 제외"
+      ],
+      "misconceptions": [
+        "텍스트 유사도가 사용자의 실제 만족을 보장하지 않는다.",
+        "전체 n×n 유사도 행렬은 큰 데이터에서 메모리 비용이 크다."
+      ],
+      "relatedConceptIds": [
+        "C30",
+        "C32",
+        "C33"
+      ],
+      "difficulty": "hard",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C32",
+      "name": "아이템 기반 협업 필터링",
+      "fileId": "w4-netflix",
+      "pages": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "unit": "U4-5",
+      "definition": "사용자-아이템 평점 패턴이 비슷한 아이템을 찾아 추천하는 방식이다.",
+      "easyExplanation": "내용이 달라도 같은 사람들이 함께 좋아했다면 비슷한 아이템으로 본다.",
+      "mechanism": [
+        "pivot_table",
+        "아이템 열 간 Pearson",
+        "target 열 정렬",
+        "자기 자신·이미 본 항목 제외",
+        "상위 N"
+      ],
+      "examples": [
+        "마트 우유-계란 비유",
+        "The Matrix와 유사 평점 영화"
+      ],
+      "comparisons": [
+        "콘텐츠 기반은 속성·텍스트 필요",
+        "협업 필터링은 상호작용 데이터 필요"
+      ],
+      "examPoints": [
+        "cold start",
+        "희소성",
+        "min_periods",
+        "상관 -1/0/+1"
+      ],
+      "misconceptions": [
+        "공통 평가자 2명만으로 ±1이면 안정적 유사도라는 뜻이 아니다.",
+        "상관은 평점 수준이 아니라 패턴의 선형 일치다."
+      ],
+      "relatedConceptIds": [
+        "C31",
+        "C33"
+      ],
+      "difficulty": "hard",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C33",
+      "name": "TF-IDF Ridge 회귀와 MAE",
+      "fileId": "w4-netflix",
+      "pages": [
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "unit": "U4-5",
+      "definition": "텍스트·메타데이터를 TF-IDF로 벡터화하고 Ridge 회귀로 release_year를 예측하며 MAE로 평균 절대 오차를 평가한다.",
+      "easyExplanation": "문장을 숫자 특징으로 바꿔 연도를 예측하고 평균 몇 년 틀리는지 본다.",
+      "mechanism": [
+        "Movie+필수컬럼 완전 사례",
+        "metadata soup",
+        "80/20 split",
+        "train fit/test transform",
+        "Ridge alpha=1",
+        "MAE"
+      ],
+      "examples": [
+        "초기 6.22년 vs 67쪽 개선 4.83년·약 22%",
+        "66쪽 코드 문구 4.19년과 불일치"
+      ],
+      "comparisons": [
+        "MAE는 낮을수록 좋고 단위가 년",
+        "Ridge는 L2 규제로 계수를 안정화"
+      ],
+      "examPoints": [
+        "데이터 누수 방지: train에만 fit",
+        "피처 엔지니어링",
+        "수치 불일치 재현 검증"
+      ],
+      "misconceptions": [
+        "66쪽 4.19와 67쪽 4.83을 동시에 확정값으로 외우면 안 된다.",
+        "샘플 4건의 작은 오차가 전체 성능을 대신하지 않는다."
+      ],
+      "relatedConceptIds": [
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "difficulty": "hard",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    },
+    {
+      "id": "C34",
+      "name": "복합 질문 명세와 컬럼·함수 선택",
+      "fileId": "w4-netflix",
+      "pages": [
+        3,
+        4,
+        5,
+        17,
+        18,
+        19,
+        20,
+        21,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        48,
+        66,
+        67
+      ],
+      "unit": "U4-2/U4-3/U4-4",
+      "definition": "두 개 이상의 변수·조건·시간·집단을 결합하고 용어·임계값·집계 단위를 조작적으로 정의한 뒤 필요한 컬럼과 함수를 역설계하는 분석 방식이다.",
+      "easyExplanation": "무엇을 묻는지부터 정확히 쓰고, 그 답을 만들 칸과 계산 순서를 거꾸로 정한다.",
+      "mechanism": [
+        "배우×국가×기간: cast/country/date_added",
+        "장르×등급: listed_in/rating",
+        "급증: Δcount/Δyear와 임계값",
+        "first-country 가정 명시",
+        "split/explode/filter/groupby/crosstab/diff"
+      ],
+      "examples": [
+        "2015~2020 한국 드라마 출연 배우 Top 10",
+        "연도별 추가량의 급증 구간을 기울기≥500편/년으로 정의",
+        "국가별 장르 비율"
+      ],
+      "comparisons": [
+        "단순 빈도 질문 vs 조건·관계·추세를 결합한 복합 질문"
+      ],
+      "examPoints": [
+        "'어떻게'를 명세",
+        "필요 컬럼 먼저 확인",
+        "기준이 바뀌면 질문도 수정",
+        "불완전 기간·다중값·분모 처리"
+      ],
+      "misconceptions": [
+        "'급격히 증가'처럼 기준 없는 표현은 재현 불가능하다.",
+        "첫 국가/장르만 쓰는 편의 가정은 결과 해석에 반드시 밝혀야 한다."
+      ],
+      "relatedConceptIds": [
+        "C18",
+        "C19",
+        "C21",
+        "C22",
+        "C23",
+        "C26",
+        "C28",
+        "C29"
+      ],
+      "difficulty": "hard",
+      "importance": "high",
+      "evidenceType": "text+visual"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "F01",
+      "front": "Scale-up과 Scale-out의 핵심 정의는?",
+      "back": "Scale-up은 한 서버의 CPU·메모리·저장을 키우고, scale-out은 여러 범용 서버를 추가해 전체 처리량을 키우는 확장 방식이다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          2,
+          3,
+          4
+        ]
+      },
+      "conceptIds": [
+        "C01"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "F02",
+      "front": "분산 컴퓨팅과 내결함성의 핵심 정의는?",
+      "back": "여러 노드가 작업·데이터를 나누고 일부 장애에도 서비스를 유지하도록 설계하는 컴퓨팅 방식이다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          3,
+          4,
+          5
+        ]
+      },
+      "conceptIds": [
+        "C02"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F03",
+      "front": "하드웨어 인프라 진화의 핵심 정의는?",
+      "back": "멀티코어 CPU, 분산 메모리, SSD/NVMe, 고속 네트워크, GPU/TPU 등으로 빅데이터 병렬 처리 기반이 바뀐 현상이다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "conceptIds": [
+        "C03"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F04",
+      "front": "클라우드·컨테이너·엣지의 핵심 정의는?",
+      "back": "클라우드는 탄력적 자원과 관리형 서비스를, 컨테이너는 경량 격리·배포를, 엣지는 데이터 발생지 근처 저지연 처리를 제공한다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "conceptIds": [
+        "C04"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F05",
+      "front": "웹 크롤링과 스크래핑의 핵심 정의는?",
+      "back": "크롤링은 링크 구조를 탐색해 페이지를 발견하고, 스크래핑은 특정 페이지에서 필요한 데이터를 추출한다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          7,
+          8
+        ]
+      },
+      "conceptIds": [
+        "C05"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "F06",
+      "front": "REST·GraphQL·API 운영의 핵심 정의는?",
+      "back": "REST는 HTTP 리소스 조작 방식이고 GraphQL은 클라이언트가 필요한 필드를 지정하는 쿼리 방식이며, 인증·속도 제한·백오프가 운영 안정성을 보장한다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          8,
+          9
+        ]
+      },
+      "conceptIds": [
+        "C06"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F07",
+      "front": "실시간 수집과 MQTT의 핵심 정의는?",
+      "back": "Webhook·WebSocket·SSE는 실시간 전달 방식이고 MQTT는 IoT용 경량 publish-subscribe 프로토콜이다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "conceptIds": [
+        "C07"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F08",
+      "front": "엣지 전처리의 핵심 정의는?",
+      "back": "센서 원본을 클라우드로 모두 보내지 않고 발생지 가까이에서 필터·집계·압축·이상 탐지하는 방식이다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          6,
+          10
+        ]
+      },
+      "conceptIds": [
+        "C08"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F09",
+      "front": "Full/Incremental Load와 ETL/ELT의 핵심 정의는?",
+      "back": "Full Load는 전체를, Incremental Load는 변경분만 적재한다. ETL은 변환 후 적재, ELT는 먼저 적재 후 분석 시 변환한다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          11,
+          12
+        ]
+      },
+      "conceptIds": [
+        "C09"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F10",
+      "front": "Kafka와 스트림 처리의 핵심 정의는?",
+      "back": "Kafka는 topic을 partition으로 나눠 broker에 분산 저장하는 고처리량 publish-subscribe 스트리밍 플랫폼이다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "conceptIds": [
+        "C10"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F11",
+      "front": "HDFS의 핵심 정의는?",
+      "back": "HDFS는 대용량 파일을 블록으로 쪼개 DataNode에 분산·복제하고 NameNode가 메타데이터를 관리하는 분산 파일 시스템이다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "conceptIds": [
+        "C11"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F12",
+      "front": "NoSQL 네 가지 모델의 핵심 정의는?",
+      "back": "문서형, 키-값, 컬럼 패밀리, 그래프형은 관계형 제약을 완화하며 데이터 구조·접근 패턴에 맞춰 확장성을 제공한다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          15,
+          16,
+          17
+        ]
+      },
+      "conceptIds": [
+        "C12"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F13",
+      "front": "오브젝트 스토리지·데이터 레이크·DWH의 핵심 정의는?",
+      "back": "오브젝트 스토리지는 키와 메타데이터로 평면 저장하며, 데이터 레이크는 원본을 schema-on-read로, DWH는 정형 데이터를 주로 schema-on-write로 관리한다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          17,
+          18,
+          19
+        ]
+      },
+      "conceptIds": [
+        "C13"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F14",
+      "front": "결측·이상·중복·표준화의 핵심 정의는?",
+      "back": "데이터 정제는 결측치, 이상값, 중복, 형식 불일치를 분석 목적과 결측 메커니즘에 맞게 처리하는 과정이다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          19,
+          20,
+          21
+        ]
+      },
+      "conceptIds": [
+        "C14"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F15",
+      "front": "프로파일링·품질 규칙·드리프트의 핵심 정의는?",
+      "back": "프로파일링은 구조·내용·관계를 요약하고, 품질 규칙은 허용 조건을 명시하며, 드리프트는 시간에 따른 분포 변화를 탐지한다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          21,
+          22
+        ]
+      },
+      "conceptIds": [
+        "C15"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F16",
+      "front": "메타데이터·카탈로그·거버넌스의 핵심 정의는?",
+      "back": "기술·비즈니스·운영 메타데이터와 데이터 카탈로그를 통해 데이터의 구조·의미·계보·품질·소유권을 관리하는 체계다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          22,
+          23,
+          26
+        ]
+      },
+      "conceptIds": [
+        "C16"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F17",
+      "front": "개인정보보호와 다층 보안의 핵심 정의는?",
+      "back": "Privacy by Design, 데이터 최소화·목적 제한·주체 권리, 익명화/가명화, 차분 프라이버시와 계층별 보안 통제로 위험을 줄이는 체계다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          23,
+          24,
+          25,
+          26
+        ]
+      },
+      "conceptIds": [
+        "C17"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F18",
+      "front": "데이터 분석 6단계의 핵심 정의는?",
+      "back": "문제 정의, 데이터 수집, 전처리·정제, EDA, 모델링·분석, 해석·전달의 유기적 과정이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          3,
+          4,
+          5
+        ]
+      },
+      "conceptIds": [
+        "C18"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "F19",
+      "front": "Netflix 데이터 스키마의 핵심 정의는?",
+      "back": "콘텐츠 ID·유형·제목·감독·배우·국가·추가일·제작연도·등급·길이·장르·설명을 담는 12개 핵심 컬럼이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          4,
+          5
+        ]
+      },
+      "conceptIds": [
+        "C19"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "F20",
+      "front": "데이터 로드와 1차 점검의 핵심 정의는?",
+      "back": "독립 환경에서 CSV를 내려받아 DataFrame으로 읽고 head·shape·info로 구조·크기·타입·결측 단서를 확인하는 단계다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "conceptIds": [
+        "C20"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "F21",
+      "front": "Netflix 전처리와 파생변수의 핵심 정의는?",
+      "back": "결측 규모에 따라 Unknown 대체와 행 제거를 구분하고, 날짜·duration을 분석 가능한 타입과 파생변수로 바꾸는 과정이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      "conceptIds": [
+        "C21"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F22",
+      "front": "기술 통계와 EDA의 핵심 정의는?",
+      "back": "EDA는 기술 통계·빈도·시각화를 반복해 분포, 특이점, 관계를 찾고 다음 질문과 가설을 다듬는 과정이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "conceptIds": [
+        "C22"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F23",
+      "front": "그래프 유형 선택의 핵심 정의는?",
+      "back": "변수의 척도와 질문에 따라 히스토그램, 막대, 파이, 산점도, 박스플롯, 히트맵, 선 그래프를 선택한다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "conceptIds": [
+        "C23"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "F24",
+      "front": "박스플롯 해석의 핵심 정의는?",
+      "back": "중앙값, 사분위 범위(IQR), 수염, 이상치를 통해 범주별 수치 분포의 중심과 변동을 비교하는 그래프다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          27,
+          28,
+          29
+        ]
+      },
+      "conceptIds": [
+        "C24"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F25",
+      "front": "히트맵과 분할표의 핵심 정의는?",
+      "back": "행·열 조합의 값이나 빈도를 색 농도와 숫자로 표현해 두 범주/차원의 패턴을 찾는 방법이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          27,
+          28,
+          29,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "conceptIds": [
+        "C25"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F26",
+      "front": "산점도·선 그래프·기울기의 핵심 정의는?",
+      "back": "산점도는 두 수치 변수의 관계를, 선 그래프는 순서 있는 시간 변화와 증감 속도를 표현한다. 기울기는 Δy/Δx로 명세한다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          26,
+          27,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      "conceptIds": [
+        "C26"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F27",
+      "front": "단순 빈도형 Netflix 질문의 핵심 정의는?",
+      "back": "배우 Top 10, TV 시즌 분포, 월별 추가량처럼 한두 컬럼을 정제해 빈도·요약 통계로 답하는 기초 질문이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      "conceptIds": [
+        "C27"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "F28",
+      "front": "범주형 관계 분석의 핵심 정의는?",
+      "back": "두 범주 변수의 조합 빈도를 분할표로 만들고 히트맵으로 시각화해 연관 패턴을 탐색한다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          34,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "conceptIds": [
+        "C28"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F29",
+      "front": "네트워크 분석과 중심성의 핵심 정의는?",
+      "back": "node와 edge로 관계 구조를 표현하고 degree centrality로 직접 연결 수를 비교하는 분석이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48
+        ]
+      },
+      "conceptIds": [
+        "C29"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F30",
+      "front": "텍스트 마이닝과 워드클라우드의 핵심 정의는?",
+      "back": "비정형 description에서 불용어를 제거하고 단어 빈도를 크기로 표현해 핵심 어휘를 탐색하는 기법이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54
+        ]
+      },
+      "conceptIds": [
+        "C30"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F31",
+      "front": "콘텐츠 기반 추천의 핵심 정의는?",
+      "back": "사용자가 좋아한 항목과 메타데이터·텍스트가 유사한 다른 항목을 추천하는 방식이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          55,
+          56,
+          57,
+          58
+        ]
+      },
+      "conceptIds": [
+        "C31"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F32",
+      "front": "아이템 기반 협업 필터링의 핵심 정의는?",
+      "back": "사용자-아이템 평점 패턴이 비슷한 아이템을 찾아 추천하는 방식이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ]
+      },
+      "conceptIds": [
+        "C32"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F33",
+      "front": "TF-IDF Ridge 회귀와 MAE의 핵심 정의는?",
+      "back": "텍스트·메타데이터를 TF-IDF로 벡터화하고 Ridge 회귀로 release_year를 예측하며 MAE로 평균 절대 오차를 평가한다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          63,
+          64,
+          65,
+          66,
+          67
+        ]
+      },
+      "conceptIds": [
+        "C33"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F34",
+      "front": "복합 질문 명세와 컬럼·함수 선택의 핵심 정의는?",
+      "back": "두 개 이상의 변수·조건·시간·집단을 결합하고 용어·임계값·집계 단위를 조작적으로 정의한 뒤 필요한 컬럼과 함수를 역설계하는 분석 방식이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          3,
+          4,
+          5,
+          17,
+          18,
+          19,
+          20,
+          21,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          44,
+          48,
+          66,
+          67
+        ]
+      },
+      "conceptIds": [
+        "C34"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F35",
+      "front": "HDFS의 기본 블록 크기와 복제 수는?",
+      "back": "자료 기준 기본 블록 128MB, 기본 복제본 3개다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          14
+        ]
+      },
+      "conceptIds": [
+        "C11"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "F36",
+      "front": "Webhook, WebSocket, SSE의 방향성 차이는?",
+      "back": "Webhook은 이벤트 발생 시 HTTP POST 푸시, WebSocket은 지속 양방향, SSE는 서버에서 클라이언트로의 단방향 스트림이다.",
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          9
+        ]
+      },
+      "conceptIds": [
+        "C07"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F37",
+      "front": "Netflix의 date_added와 release_year 차이는?",
+      "back": "date_added는 넷플릭스 등록 날짜, release_year는 콘텐츠 최초 공개 연도다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          5
+        ]
+      },
+      "conceptIds": [
+        "C19"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "F38",
+      "front": "셀에 여러 장르·배우가 있을 때 핵심 함수 조합은?",
+      "back": "str.split(', ')로 리스트화하고 explode()로 한 값당 한 행을 만든 뒤 value_counts/groupby를 쓴다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          17,
+          19
+        ]
+      },
+      "conceptIds": [
+        "C21",
+        "C27",
+        "C34"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F39",
+      "front": "박스플롯의 상자 안 선·상자 길이·바깥 점은?",
+      "back": "각각 중앙값, 중간 50% 범위(IQR), 통상 수염 밖 이상치다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          28,
+          29
+        ]
+      },
+      "conceptIds": [
+        "C24"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "F40",
+      "front": "2021년 추가량 급락을 그대로 비교하면 안 되는 이유는?",
+      "back": "데이터가 2021년 초에 수집되어 해당 연도 전체가 포함되지 않은 불완전 기간이기 때문이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          32
+        ]
+      },
+      "conceptIds": [
+        "C26"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F41",
+      "front": "연도별 '급증'을 재현 가능하게 정의하는 법은?",
+      "back": "s_t=(count_t-count_{t-1})/1년으로 기울기를 계산하고, 예컨대 s_t≥500편/년처럼 임계값과 단위를 사전에 명시한다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          31,
+          32
+        ]
+      },
+      "conceptIds": [
+        "C26",
+        "C34"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F42",
+      "front": "장르-등급 관계 히트맵에 필요한 컬럼과 함수는?",
+      "back": "listed_in과 rating, 그리고 split/explode→상위 범주 필터→pd.crosstab→sns.heatmap이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          36,
+          39
+        ]
+      },
+      "conceptIds": [
+        "C25",
+        "C28",
+        "C34"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F43",
+      "front": "감독-배우 네트워크에서 감독 중심성이 높게 나온 구조적 이유는?",
+      "back": "edge를 감독-배우로 정의하고 상위 감독만 표본으로 삼아, 감독은 한 작품의 많은 배우와 직접 연결되기 때문이다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          44,
+          48
+        ]
+      },
+      "conceptIds": [
+        "C29"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "F44",
+      "front": "콘텐츠 기반과 아이템 기반 협업 필터링의 핵심 질문은?",
+      "back": "콘텐츠 기반: 내용이 비슷한 항목은? 아이템 기반 CF: 사용자들이 비슷하게 평가한 항목은?",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          55,
+          59
+        ]
+      },
+      "conceptIds": [
+        "C31",
+        "C32"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F45",
+      "front": "MAE가 4.83년이라는 뜻은?",
+      "back": "테스트 사례에서 예측 연도와 실제 연도의 절대 오차가 평균 4.83년이라는 뜻이며 낮을수록 좋다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          67
+        ]
+      },
+      "conceptIds": [
+        "C33"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "F46",
+      "front": "4주차 회귀 MAE 수치에서 반드시 확인할 불일치는?",
+      "back": "66쪽 코드 설명은 4.19년, 67쪽 표·본문은 4.83년이다. 실행 로그나 원코드 재현으로 확정해야 한다.",
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          66,
+          67
+        ]
+      },
+      "conceptIds": [
+        "C33"
+      ],
+      "difficulty": "hard"
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "prompt": "한 대의 고성능 서버를 계속 증설하다가 물리 한계와 비용 급증에 부딪힌 조직이 여러 범용 서버로 전환하려 한다. 이 전환을 가장 정확히 설명한 것은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "Scale-up에서 scale-out으로의 전환이다.",
+          "correct": true,
+          "explanation": "단일 노드 증설에서 노드 수 확장으로 바뀐다.",
+          "correctedStatement": "Scale-up에서 scale-out으로의 전환이다."
+        },
+        {
+          "text": "Scale-out에서 scale-up으로의 전환이다.",
+          "correct": false,
+          "explanation": "방향이 반대다.",
+          "correctedStatement": "Scale-up에서 scale-out으로의 전환이다."
+        },
+        {
+          "text": "ETL에서 ELT로의 전환이다.",
+          "correct": false,
+          "explanation": "이는 데이터 변환·적재 순서의 변화다.",
+          "correctedStatement": "여러 서버를 추가하는 것은 scale-out이다."
+        },
+        {
+          "text": "Schema-on-read에서 schema-on-write로의 전환이다.",
+          "correct": false,
+          "explanation": "스키마 적용 시점의 문제가 아니다.",
+          "correctedStatement": "하드웨어 확장 방식은 scale-up/scale-out으로 구분한다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          2,
+          3
+        ]
+      },
+      "conceptIds": [
+        "C01"
+      ],
+      "difficulty": "easy",
+      "review": "한 서버 성능 증설은 수직, 서버 수 증설은 수평이다.",
+      "memoryTip": "Up=한 대 위로, Out=옆으로 여러 대.",
+      "additionalExample": "DB 서버의 CPU를 64→128코어로 바꾸면 scale-up, 노드를 4→8대로 늘리면 scale-out이다."
+    },
+    {
+      "id": "Q02",
+      "prompt": "중앙집중형 scale-up 시스템의 한계로 자료가 직접 제시한 것을 모두 고르시오.",
+      "type": "multiple",
+      "complex": false,
+      "options": [
+        {
+          "text": "분산 조정 알고리즘이 반드시 필요하다.",
+          "correct": false,
+          "explanation": "이는 주로 분산 시스템의 복잡성이다.",
+          "correctedStatement": "중앙집중형의 핵심 한계는 물리적 천장·비용·SPOF·확장성이다."
+        },
+        {
+          "text": "성능 향상의 물리적 천장이 있다.",
+          "correct": true,
+          "explanation": "단일 서버가 처리할 수 있는 양에는 한계가 있다.",
+          "correctedStatement": "성능 향상의 물리적 천장이 있다."
+        },
+        {
+          "text": "모든 서버가 항상 동시에 고장 난다.",
+          "correct": false,
+          "explanation": "자료의 주장은 단일 장애점 위험이지 동시 고장 필연이 아니다.",
+          "correctedStatement": "중앙 서버 장애가 전체 시스템을 멈출 수 있는 단일 장애점이 문제다."
+        },
+        {
+          "text": "성능을 늘릴수록 비용이 비선형적으로 커지고 단일 장애점 위험이 있다.",
+          "correct": true,
+          "explanation": "자료의 대표 한계 두 가지다.",
+          "correctedStatement": "성능을 늘릴수록 비용이 비선형적으로 커지고 단일 장애점 위험이 있다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          2,
+          3
+        ]
+      },
+      "conceptIds": [
+        "C01",
+        "C02"
+      ],
+      "difficulty": "medium",
+      "review": "비용, 천장, SPOF, 확장성 네 키워드를 묶어 기억한다.",
+      "memoryTip": "천·비·단·확.",
+      "additionalExample": "단일 메인프레임 장애 시 모든 주문 처리가 멈추는 경우가 SPOF다."
+    },
+    {
+      "id": "Q03",
+      "prompt": "분산 컴퓨팅에서 '장애를 전제로 한 설계'의 의미로 가장 적절한 것은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "고가 장비만 써서 장애 확률을 0으로 만든다.",
+          "correct": false,
+          "explanation": "장애를 없애기보다 영향을 격리하고 복구한다.",
+          "correctedStatement": "일부 노드 장애가 발생해도 전체 서비스가 계속되도록 설계한다."
+        },
+        {
+          "text": "네트워크를 제거해 모든 노드를 독립 실행한다.",
+          "correct": false,
+          "explanation": "분산 노드는 네트워크로 협력한다.",
+          "correctedStatement": "네트워크 장애와 노드 장애를 감지·우회해야 한다."
+        },
+        {
+          "text": "일부 노드가 고장 나도 복제·재분배로 전체 서비스가 지속되게 한다.",
+          "correct": true,
+          "explanation": "내결함성의 핵심이다.",
+          "correctedStatement": "일부 노드가 고장 나도 복제·재분배로 전체 서비스가 지속되게 한다."
+        },
+        {
+          "text": "장애가 발생하면 전체 클러스터를 즉시 종료한다.",
+          "correct": false,
+          "explanation": "설계 목표와 반대다.",
+          "correctedStatement": "일부 실패에도 서비스 지속이 목표다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          3,
+          4
+        ]
+      },
+      "conceptIds": [
+        "C02"
+      ],
+      "difficulty": "easy",
+      "review": "내결함성은 '무장애'가 아니라 '장애를 견딤'이다.",
+      "memoryTip": "Fail happens; service continues.",
+      "additionalExample": "HDFS는 블록 복제본으로 DataNode 일부 장애를 견딘다."
+    },
+    {
+      "id": "Q04",
+      "prompt": "하드웨어/인프라 기술과 역할의 올바른 연결을 모두 고르시오.",
+      "type": "multiple",
+      "complex": false,
+      "options": [
+        {
+          "text": "NVMe SSD - SATA 한계를 넘어 높은 데이터 전송률 제공",
+          "correct": true,
+          "explanation": "실시간 분석의 I/O 병목을 줄인다.",
+          "correctedStatement": "NVMe SSD - SATA 한계를 넘어 높은 데이터 전송률 제공"
+        },
+        {
+          "text": "GPU - 순차적 제어 흐름만 처리하도록 특화",
+          "correct": false,
+          "explanation": "GPU는 대규모 병렬 처리에 강하다.",
+          "correctedStatement": "GPU는 병렬 행렬·딥러닝 연산에 특화된다."
+        },
+        {
+          "text": "InfiniBand - 초저지연 고성능 네트워크",
+          "correct": true,
+          "explanation": "분산/HPC 통신을 가속한다.",
+          "correctedStatement": "InfiniBand - 초저지연 고성능 네트워크"
+        },
+        {
+          "text": "TPU - TensorFlow 계열 텐서 연산에 최적화된 전용 칩",
+          "correct": true,
+          "explanation": "자료가 제시한 특수 목적 하드웨어다.",
+          "correctedStatement": "TPU - TensorFlow 계열 텐서 연산에 최적화된 전용 칩"
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          4,
+          6
+        ]
+      },
+      "conceptIds": [
+        "C03"
+      ],
+      "difficulty": "medium",
+      "review": "저장=NVMe, 통신=InfiniBand, AI=GPU/TPU로 역할을 구분한다.",
+      "memoryTip": "저·통·AI.",
+      "additionalExample": "모델 학습은 GPU/TPU, 대규모 데이터 읽기는 NVMe, 노드 간 교환은 고속 네트워크가 병목을 줄인다."
+    },
+    {
+      "id": "Q05",
+      "prompt": "웹 크롤링과 웹 스크래핑의 차이를 가장 정확히 설명한 것은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "크롤링은 값 추출, 스크래핑은 링크 탐색이다.",
+          "correct": false,
+          "explanation": "두 정의가 뒤바뀌었다.",
+          "correctedStatement": "크롤링은 페이지 발견, 스크래핑은 값 추출이다."
+        },
+        {
+          "text": "두 용어는 완전히 같아 구분할 수 없다.",
+          "correct": false,
+          "explanation": "실무에서 혼용되기도 하지만 자료는 엄밀히 구분한다.",
+          "correctedStatement": "크롤링과 스크래핑은 연계되지만 목적이 다르다."
+        },
+        {
+          "text": "크롤링은 API 인증, 스크래핑은 DB 연결이다.",
+          "correct": false,
+          "explanation": "둘 다 웹 페이지 수집 문맥이다.",
+          "correctedStatement": "크롤링은 링크 탐색, 스크래핑은 페이지 데이터 추출이다."
+        },
+        {
+          "text": "크롤링은 링크를 따라 페이지를 발견하고, 스크래핑은 페이지에서 필요한 데이터를 뽑는다.",
+          "correct": true,
+          "explanation": "자료의 정의와 일치한다.",
+          "correctedStatement": "크롤링은 링크를 따라 페이지를 발견하고, 스크래핑은 페이지에서 필요한 데이터를 뽑는다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          7
+        ]
+      },
+      "conceptIds": [
+        "C05"
+      ],
+      "difficulty": "easy",
+      "review": "Crawl=돌아다님, Scrape=긁어냄.",
+      "memoryTip": "찾기와 뽑기.",
+      "additionalExample": "쇼핑몰 카테고리 URL을 찾는 것은 크롤링, 각 상품 가격을 추출하는 것은 스크래핑이다."
+    },
+    {
+      "id": "Q06",
+      "prompt": "대규모 웹 데이터 수집에서 준수해야 할 사항을 모두 고르시오.",
+      "type": "multiple",
+      "complex": false,
+      "options": [
+        {
+          "text": "robots.txt와 사이트 정책을 확인한다.",
+          "correct": true,
+          "explanation": "기본적인 크롤링 정책 확인이다.",
+          "correctedStatement": "robots.txt와 사이트 정책을 확인한다."
+        },
+        {
+          "text": "차단을 피하기 위해 최대 속도로 무제한 요청한다.",
+          "correct": false,
+          "explanation": "서버 부하와 정책 위반 위험이 커진다.",
+          "correctedStatement": "요청 간격과 속도 제한을 지켜 서버 부하를 줄인다."
+        },
+        {
+          "text": "저작권·개인정보·GDPR/CCPA 등 법적 조건을 검토한다.",
+          "correct": true,
+          "explanation": "데이터 성격에 따른 법적 검토가 필요하다.",
+          "correctedStatement": "저작권·개인정보·GDPR/CCPA 등 법적 조건을 검토한다."
+        },
+        {
+          "text": "robots.txt만 지키면 별도 이용 허가나 개인정보 검토는 필요 없다.",
+          "correct": false,
+          "explanation": "robots.txt는 모든 법적 권한을 부여하지 않는다.",
+          "correctedStatement": "robots.txt 외에 저작권·개인정보·약관도 검토한다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          7,
+          8
+        ]
+      },
+      "conceptIds": [
+        "C05",
+        "C17"
+      ],
+      "difficulty": "medium",
+      "review": "정책·부하·권리·개인정보를 함께 본다.",
+      "memoryTip": "정·부·권·개.",
+      "additionalExample": "공개 페이지라도 개인 식별 정보 수집은 목적과 법적 근거를 별도로 검토해야 한다."
+    },
+    {
+      "id": "Q07",
+      "prompt": "REST의 over-fetching/under-fetching을 줄이기 위해 클라이언트가 필요한 필드만 지정하도록 하는 기술은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "MQTT",
+          "correct": false,
+          "explanation": "IoT 발행-구독 프로토콜이다.",
+          "correctedStatement": "필요 필드 선택 질의는 GraphQL이다."
+        },
+        {
+          "text": "GraphQL",
+          "correct": true,
+          "explanation": "클라이언트가 원하는 데이터 구조를 지정한다.",
+          "correctedStatement": "GraphQL"
+        },
+        {
+          "text": "HDFS",
+          "correct": false,
+          "explanation": "분산 파일 시스템이다.",
+          "correctedStatement": "API 질의 언어는 GraphQL이다."
+        },
+        {
+          "text": "SSE",
+          "correct": false,
+          "explanation": "서버→클라이언트 실시간 전송 방식이다.",
+          "correctedStatement": "필드 선택은 GraphQL의 특징이다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          8
+        ]
+      },
+      "conceptIds": [
+        "C06"
+      ],
+      "difficulty": "easy",
+      "review": "GraphQL의 Q는 Query.",
+      "memoryTip": "필요한 필드만 Query.",
+      "additionalExample": "사용자 이름과 최근 게시물 제목만 요청하는 GraphQL 쿼리를 생각한다."
+    },
+    {
+      "id": "Q08",
+      "prompt": "실시간 데이터 전달 방식에 대한 올바른 설명을 모두 고르시오.",
+      "type": "multiple",
+      "complex": false,
+      "options": [
+        {
+          "text": "Polling은 이벤트가 있을 때 서버가 먼저 POST를 보내는 방식이다.",
+          "correct": false,
+          "explanation": "그 설명은 Webhook이다.",
+          "correctedStatement": "Polling은 클라이언트가 주기적으로 새 데이터를 확인한다."
+        },
+        {
+          "text": "Webhook은 이벤트 발생 시 등록 URL로 요청을 푸시한다.",
+          "correct": true,
+          "explanation": "이벤트 기반 알림에 적합하다.",
+          "correctedStatement": "Webhook은 이벤트 발생 시 등록 URL로 요청을 푸시한다."
+        },
+        {
+          "text": "WebSocket은 지속적인 양방향 연결을 제공한다.",
+          "correct": true,
+          "explanation": "채팅·시장 데이터 등에 적합하다.",
+          "correctedStatement": "WebSocket은 지속적인 양방향 연결을 제공한다."
+        },
+        {
+          "text": "SSE는 서버에서 클라이언트로의 단방향 스트림이다.",
+          "correct": true,
+          "explanation": "HTTP 기반 단순 대안이다.",
+          "correctedStatement": "SSE는 서버에서 클라이언트로의 단방향 스트림이다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          9
+        ]
+      },
+      "conceptIds": [
+        "C07"
+      ],
+      "difficulty": "medium",
+      "review": "Hook=사건 통지, Socket=양방향, SSE=Server→Client.",
+      "memoryTip": "H-S-S 방향 기억.",
+      "additionalExample": "CI/CD 트리거는 Webhook, 실시간 채팅은 WebSocket, 알림 피드는 SSE가 적합할 수 있다."
+    },
+    {
+      "id": "Q09",
+      "prompt": "공장 진동 센서가 초당 수천 건을 만들 때 평균·최댓값·표준편차만 평소 전송하고 이상 시 원본을 보내는 설계의 핵심은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "모든 데이터를 원본 그대로 중앙으로 보내는 full load",
+          "correct": false,
+          "explanation": "설명은 현장 요약과 예외 전송이다.",
+          "correctedStatement": "엣지 전처리와 예외 기반 원본 전송이다."
+        },
+        {
+          "text": "오직 데이터 웨어하우스에서 schema-on-write",
+          "correct": false,
+          "explanation": "전송 전 현장 처리 문제다.",
+          "correctedStatement": "엣지 노드에서 집계·필터링한다."
+        },
+        {
+          "text": "엣지 전처리로 대역폭·지연을 줄이는 방식",
+          "correct": true,
+          "explanation": "자료의 대표 예시다.",
+          "correctedStatement": "엣지 전처리로 대역폭·지연을 줄이는 방식"
+        },
+        {
+          "text": "연결 중심성으로 센서를 순위화하는 방식",
+          "correct": false,
+          "explanation": "네트워크 분석과 무관하다.",
+          "correctedStatement": "필터·집계·압축은 엣지 전처리다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          10
+        ]
+      },
+      "conceptIds": [
+        "C08"
+      ],
+      "difficulty": "medium",
+      "review": "평소 요약, 예외 원본.",
+      "memoryTip": "Edge에서 먼저 거른다.",
+      "additionalExample": "카메라가 객체 이벤트만 보내고 원본 영상은 사고 때만 업로드하는 설계도 같다."
+    },
+    {
+      "id": "Q10",
+      "prompt": "원본 데이터를 먼저 데이터 레이크에 적재한 뒤 분석 요구에 따라 변환하는 패러다임은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "ETL",
+          "correct": false,
+          "explanation": "ETL은 변환 후 적재한다.",
+          "correctedStatement": "먼저 적재 후 변환은 ELT다."
+        },
+        {
+          "text": "Full Load",
+          "correct": false,
+          "explanation": "전체/변경분 범위의 구분이다.",
+          "correctedStatement": "적재·변환 순서는 ELT로 구분한다."
+        },
+        {
+          "text": "CDC",
+          "correct": false,
+          "explanation": "변경 데이터 감지 기법이다.",
+          "correctedStatement": "원본 먼저 적재는 ELT다."
+        },
+        {
+          "text": "ELT",
+          "correct": true,
+          "explanation": "Extract-Load-Transform 순서다.",
+          "correctedStatement": "ELT"
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          11
+        ]
+      },
+      "conceptIds": [
+        "C09",
+        "C13"
+      ],
+      "difficulty": "easy",
+      "review": "ELT는 L이 T보다 먼저다.",
+      "memoryTip": "먼저 Load, 나중 Transform.",
+      "additionalExample": "S3에 원본 로그를 넣고 BigQuery/Snowflake에서 필요할 때 변환하는 경우다."
+    },
+    {
+      "id": "Q11",
+      "prompt": "마지막 추출 이후 변경된 레코드만 가져오며 트랜잭션 로그로 실시간 변경을 포착할 수 있는 접근은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "Incremental Load와 CDC",
+          "correct": true,
+          "explanation": "변경분만 효율적으로 반영한다.",
+          "correctedStatement": "Incremental Load와 CDC"
+        },
+        {
+          "text": "매번 전체 Full Load만 수행",
+          "correct": false,
+          "explanation": "변경분 처리 설명과 반대다.",
+          "correctedStatement": "Incremental Load/CDC가 변경분을 가져온다."
+        },
+        {
+          "text": "WordCloud와 STOPWORDS",
+          "correct": false,
+          "explanation": "텍스트 시각화 도구다.",
+          "correctedStatement": "DB 변경 수집에는 CDC를 쓴다."
+        },
+        {
+          "text": "Kamada-Kawai 레이아웃",
+          "correct": false,
+          "explanation": "네트워크 배치 알고리즘이다.",
+          "correctedStatement": "DB 변경 감지는 CDC다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          11
+        ]
+      },
+      "conceptIds": [
+        "C09"
+      ],
+      "difficulty": "medium",
+      "review": "Changed Data Capture=CDC.",
+      "memoryTip": "변경분만 잡는다.",
+      "additionalExample": "주문 테이블의 INSERT/UPDATE를 로그에서 읽어 스트림으로 반영한다."
+    },
+    {
+      "id": "Q12",
+      "prompt": "Kafka 및 스트림 처리에 대한 올바른 설명을 모두 고르시오.",
+      "type": "multiple",
+      "complex": false,
+      "options": [
+        {
+          "text": "Producer는 topic에 메시지를 발행한다.",
+          "correct": true,
+          "explanation": "발행-구독의 생산자 역할이다.",
+          "correctedStatement": "Producer는 topic에 메시지를 발행한다."
+        },
+        {
+          "text": "Topic partition은 병렬 처리와 확장성에 기여한다.",
+          "correct": true,
+          "explanation": "여러 broker에 분산될 수 있다.",
+          "correctedStatement": "Topic partition은 병렬 처리와 확장성에 기여한다."
+        },
+        {
+          "text": "Kafka Streams는 반드시 별도의 독립 클러스터에서만 실행된다.",
+          "correct": false,
+          "explanation": "애플리케이션 내 라이브러리로 실행할 수 있다.",
+          "correctedStatement": "Kafka Streams는 애플리케이션에 내장할 수 있는 스트림 처리 라이브러리다."
+        },
+        {
+          "text": "Kafka Connect는 외부 시스템과 Kafka 연동을 돕는다.",
+          "correct": true,
+          "explanation": "사전 구축 커넥터를 제공한다.",
+          "correctedStatement": "Kafka Connect는 외부 시스템과 Kafka 연동을 돕는다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          12
+        ]
+      },
+      "conceptIds": [
+        "C10"
+      ],
+      "difficulty": "medium",
+      "review": "Producer-Topic-Consumer, Connect-연동, Streams-처리.",
+      "memoryTip": "발행·연동·처리.",
+      "additionalExample": "DB의 변경 이벤트를 Connect로 Kafka에 넣고 Streams로 집계한다."
+    },
+    {
+      "id": "Q13",
+      "prompt": "겹치지 않는 고정 크기 구간으로 스트림을 나누는 윈도우는?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "Sliding Window",
+          "correct": false,
+          "explanation": "슬라이딩 윈도우는 겹칠 수 있다.",
+          "correctedStatement": "비중첩 고정 구간은 Tumbling Window다."
+        },
+        {
+          "text": "Tumbling Window",
+          "correct": true,
+          "explanation": "자료의 정의와 일치한다.",
+          "correctedStatement": "Tumbling Window"
+        },
+        {
+          "text": "Graph Window",
+          "correct": false,
+          "explanation": "자료의 스트림 윈도우 유형이 아니다.",
+          "correctedStatement": "Tumbling/Sliding을 구분한다."
+        },
+        {
+          "text": "Schema Window",
+          "correct": false,
+          "explanation": "스키마 적용 방식과 무관하다.",
+          "correctedStatement": "비중첩 고정 구간은 Tumbling이다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          13
+        ]
+      },
+      "conceptIds": [
+        "C10"
+      ],
+      "difficulty": "easy",
+      "review": "Tumble은 블록처럼 뚝뚝 끊긴다.",
+      "memoryTip": "비중첩=Tumbling.",
+      "additionalExample": "매 5분을 10:00-10:05, 10:05-10:10으로 나누는 집계다."
+    },
+    {
+      "id": "Q14",
+      "prompt": "늦게 도착하는 이벤트를 처리하며 정확히 한 번 처리를 지향할 때 관련된 개념을 모두 고르시오.",
+      "type": "multiple",
+      "complex": false,
+      "options": [
+        {
+          "text": "첫 국가만 main_country로 고정",
+          "correct": false,
+          "explanation": "국가 분석의 편의 가정이다.",
+          "correctedStatement": "스트림 지연에는 watermark와 late-data 정책이 필요하다."
+        },
+        {
+          "text": "Watermark와 late-data 처리 전략",
+          "correct": true,
+          "explanation": "event time 지연을 다룬다.",
+          "correctedStatement": "Watermark와 late-data 처리 전략"
+        },
+        {
+          "text": "멱등성과 트랜잭션 메커니즘",
+          "correct": true,
+          "explanation": "중복·누락 없는 처리에 활용된다.",
+          "correctedStatement": "멱등성과 트랜잭션 메커니즘"
+        },
+        {
+          "text": "파이 차트의 startangle",
+          "correct": false,
+          "explanation": "시각적 회전 옵션일 뿐이다.",
+          "correctedStatement": "exactly-once에는 멱등성·트랜잭션을 고려한다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          13
+        ]
+      },
+      "conceptIds": [
+        "C10"
+      ],
+      "difficulty": "hard",
+      "review": "늦음=watermark, 중복 방지=idempotency.",
+      "memoryTip": "시간선과 처리선.",
+      "additionalExample": "결제 이벤트가 재전송돼도 같은 키로 한 번만 반영되게 설계한다."
+    },
+    {
+      "id": "Q15",
+      "prompt": "HDFS에서 실제 데이터 블록을 저장하는 구성 요소는?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "NameNode",
+          "correct": false,
+          "explanation": "NameNode는 파일시스템 메타데이터를 관리한다.",
+          "correctedStatement": "실제 블록은 DataNode가 저장한다."
+        },
+        {
+          "text": "ZooKeeper",
+          "correct": false,
+          "explanation": "HA 조정에 쓰일 수 있지만 데이터 블록 저장소가 아니다.",
+          "correctedStatement": "DataNode가 실제 데이터를 저장한다."
+        },
+        {
+          "text": "DataNode",
+          "correct": true,
+          "explanation": "자료의 마스터-슬레이브 역할 설명과 일치한다.",
+          "correctedStatement": "DataNode"
+        },
+        {
+          "text": "Kafka Broker",
+          "correct": false,
+          "explanation": "Kafka 메시지 저장 구성 요소다.",
+          "correctedStatement": "HDFS 블록은 DataNode에 저장된다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          14
+        ]
+      },
+      "conceptIds": [
+        "C11"
+      ],
+      "difficulty": "easy",
+      "review": "Name=이름표, Data=실물.",
+      "memoryTip": "장부는 Name, 물건은 Data.",
+      "additionalExample": "NameNode가 block 7의 위치를 기록하고 DataNode들이 복제본을 보유한다."
+    },
+    {
+      "id": "Q16",
+      "prompt": "HDFS의 특징과 개선에 대한 올바른 설명을 모두 고르시오.",
+      "type": "multiple",
+      "complex": false,
+      "options": [
+        {
+          "text": "대용량 파일의 순차 읽기에 적합하다.",
+          "correct": true,
+          "explanation": "HDFS의 대표 강점이다.",
+          "correctedStatement": "대용량 파일의 순차 읽기에 적합하다."
+        },
+        {
+          "text": "수많은 작은 파일과 임의 접근에 가장 최적화되어 있다.",
+          "correct": false,
+          "explanation": "오히려 약점이다.",
+          "correctedStatement": "작은 파일·랜덤 액세스에서는 비효율적이다."
+        },
+        {
+          "text": "NameNode는 실제 모든 블록 내용을 직접 저장한다.",
+          "correct": false,
+          "explanation": "메타데이터를 관리한다.",
+          "correctedStatement": "실제 블록은 DataNode에 저장한다."
+        },
+        {
+          "text": "Hadoop 2.0 HA는 Active-Standby NameNode로 초기 SPOF를 완화한다.",
+          "correct": true,
+          "explanation": "주 NameNode 장애 시 대기가 인계한다.",
+          "correctedStatement": "Hadoop 2.0 HA는 Active-Standby NameNode로 초기 SPOF를 완화한다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "conceptIds": [
+        "C11"
+      ],
+      "difficulty": "medium",
+      "review": "큰 파일 순차=강점, 작은 파일 랜덤=약점.",
+      "memoryTip": "큰순 강, 작랜 약.",
+      "additionalExample": "작은 이미지 수십억 개는 Ozone 같은 대안을 검토할 수 있다."
+    },
+    {
+      "id": "Q17",
+      "prompt": "복잡한 친구 관계·추천 경로·사기 연결망을 저장하고 탐색하는 데 가장 적합한 NoSQL 모델은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "키-값",
+          "correct": false,
+          "explanation": "단일 키 조회에 강하지만 연결 탐색 표현력이 제한적이다.",
+          "correctedStatement": "관계·연결 탐색에는 그래프 DB가 적합하다."
+        },
+        {
+          "text": "문서형",
+          "correct": false,
+          "explanation": "중첩 문서에는 좋지만 다단계 연결 탐색은 그래프가 자연스럽다.",
+          "correctedStatement": "node-edge 그래프 모델을 선택한다."
+        },
+        {
+          "text": "컬럼 패밀리",
+          "correct": false,
+          "explanation": "대규모 희소/시계열 데이터에 강하다.",
+          "correctedStatement": "복잡 연결에는 그래프 DB가 적합하다."
+        },
+        {
+          "text": "그래프 데이터베이스",
+          "correct": true,
+          "explanation": "노드와 엣지로 관계를 직접 모델링한다.",
+          "correctedStatement": "그래프 데이터베이스"
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          17
+        ]
+      },
+      "conceptIds": [
+        "C12"
+      ],
+      "difficulty": "easy",
+      "review": "관계가 주인공이면 그래프.",
+      "memoryTip": "Node-Edge.",
+      "additionalExample": "Neo4j Cypher로 친구의 친구 경로를 탐색한다."
+    },
+    {
+      "id": "Q18",
+      "prompt": "관리되지 않은 데이터 레이크가 '데이터 늪'이 되는 것을 막는 핵심 조합은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "메타데이터·데이터 카탈로그·거버넌스",
+          "correct": true,
+          "explanation": "자료가 성공적 레이크 운영의 핵심으로 제시한다.",
+          "correctedStatement": "메타데이터·데이터 카탈로그·거버넌스"
+        },
+        {
+          "text": "원본 파일을 이름 없이 무제한 적재",
+          "correct": false,
+          "explanation": "발견·품질·책임이 사라져 데이터 늪 위험을 키운다.",
+          "correctedStatement": "메타데이터·카탈로그·거버넌스를 구축한다."
+        },
+        {
+          "text": "모든 파일을 한 서버의 로컬 디스크에 저장",
+          "correct": false,
+          "explanation": "레이크의 확장·분산 목적과 맞지 않는다.",
+          "correctedStatement": "확장 저장과 관리 체계를 함께 사용한다."
+        },
+        {
+          "text": "스키마와 계보 정보를 모두 삭제",
+          "correct": false,
+          "explanation": "관리 가능성을 훼손한다.",
+          "correctedStatement": "스키마·계보·소유자 정보를 메타데이터로 유지한다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          18,
+          23
+        ]
+      },
+      "conceptIds": [
+        "C13",
+        "C16"
+      ],
+      "difficulty": "medium",
+      "review": "Lake에는 지도(카탈로그)와 규칙(거버넌스)이 필요하다.",
+      "memoryTip": "호수+지도+관리.",
+      "additionalExample": "S3 원본에 소유자·민감도·계보 태그를 붙이고 카탈로그 검색을 제공한다."
+    },
+    {
+      "id": "Q19",
+      "prompt": "개인정보보호 기법에 대한 올바른 설명을 모두 고르시오.",
+      "type": "multiple",
+      "complex": false,
+      "options": [
+        {
+          "text": "k-익명성은 각 동일 집합의 민감값 분포가 전체와 같도록 강제한다.",
+          "correct": false,
+          "explanation": "그 설명은 t-근접성에 가깝다.",
+          "correctedStatement": "k-익명성은 준식별자로 구분되지 않는 레코드가 최소 k개가 되게 한다."
+        },
+        {
+          "text": "l-다양성은 동일 집합 내 민감 속성의 다양성을 요구한다.",
+          "correct": true,
+          "explanation": "동질성 공격을 완화한다.",
+          "correctedStatement": "l-다양성은 동일 집합 내 민감 속성의 다양성을 요구한다."
+        },
+        {
+          "text": "t-근접성은 동일 집합의 민감 분포가 전체 분포와 너무 다르지 않게 제한한다.",
+          "correct": true,
+          "explanation": "왜곡·유사성 공격을 완화한다.",
+          "correctedStatement": "t-근접성은 동일 집합의 민감 분포가 전체 분포와 너무 다르지 않게 제한한다."
+        },
+        {
+          "text": "차분 프라이버시는 개별 레코드 존재 여부가 결과에 미치는 영향을 제한한다.",
+          "correct": true,
+          "explanation": "수학적 프라이버시 보장을 제공한다.",
+          "correctedStatement": "차분 프라이버시는 개별 레코드 존재 여부가 결과에 미치는 영향을 제한한다."
+        }
+      ],
+      "source": {
+        "fileId": "w3-infra",
+        "pages": [
+          24,
+          25
+        ]
+      },
+      "conceptIds": [
+        "C17"
+      ],
+      "difficulty": "hard",
+      "review": "k=그룹 크기, l=값 다양성, t=분포 거리.",
+      "memoryTip": "크·다·거리.",
+      "additionalExample": "연령대를 일반화해 k를 확보하고 각 그룹 질병 다양성과 전체 분포 근접성을 추가 점검한다."
+    },
+    {
+      "id": "Q20",
+      "prompt": "데이터 분석 6단계에서 문제 정의 직후 일반적으로 이어지는 단계는?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "결과 해석 및 전달",
+          "correct": false,
+          "explanation": "마지막 단계에 가깝다.",
+          "correctedStatement": "문제 정의 후 필요한 데이터를 수집한다."
+        },
+        {
+          "text": "데이터 수집",
+          "correct": true,
+          "explanation": "정의된 질문에 필요한 데이터를 모은다.",
+          "correctedStatement": "데이터 수집"
+        },
+        {
+          "text": "모델 배포",
+          "correct": false,
+          "explanation": "자료의 6단계 직접 항목이 아니며 훨씬 뒤다.",
+          "correctedStatement": "문제 정의 후 데이터 수집이다."
+        },
+        {
+          "text": "워드클라우드 생성",
+          "correct": false,
+          "explanation": "특정 분석 기법일 뿐 전체 프로세스 단계가 아니다.",
+          "correctedStatement": "두 번째 단계는 데이터 수집이다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          3,
+          4
+        ]
+      },
+      "conceptIds": [
+        "C18"
+      ],
+      "difficulty": "easy",
+      "review": "정-수-전-탐-모-전달.",
+      "memoryTip": "문제→재료.",
+      "additionalExample": "'한국 드라마 증가?'를 정한 뒤 country/listed_in/date_added를 수집한다."
+    },
+    {
+      "id": "Q21",
+      "prompt": "'국가별로 어느 장르의 콘텐츠를 많이 공급하는가?'를 분석하는 데 직접 필요한 컬럼을 모두 고르시오.",
+      "type": "multiple",
+      "complex": true,
+      "options": [
+        {
+          "text": "country",
+          "correct": true,
+          "explanation": "국가 차원을 제공한다.",
+          "correctedStatement": "country"
+        },
+        {
+          "text": "show_id만",
+          "correct": false,
+          "explanation": "고유 식별자만으로 국가·장르를 알 수 없다.",
+          "correctedStatement": "country와 listed_in이 핵심 컬럼이다."
+        },
+        {
+          "text": "listed_in",
+          "correct": true,
+          "explanation": "장르 정보를 제공한다.",
+          "correctedStatement": "listed_in"
+        },
+        {
+          "text": "title 또는 show_id는 중복·단위 확인을 위한 보조 컬럼으로 사용할 수 있다.",
+          "correct": true,
+          "explanation": "콘텐츠 단위 식별에 보조적으로 유용하다.",
+          "correctedStatement": "title 또는 show_id는 중복·단위 확인을 위한 보조 컬럼으로 사용할 수 있다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          5,
+          38,
+          41
+        ]
+      },
+      "conceptIds": [
+        "C19",
+        "C28",
+        "C34"
+      ],
+      "difficulty": "medium",
+      "review": "질문의 명사(국가, 장르)를 컬럼으로 먼저 매핑한다.",
+      "memoryTip": "질문→차원·측정치.",
+      "additionalExample": "국가별 장르 '비율'을 묻는다면 country, listed_in, 콘텐츠 식별자와 분모 정의까지 필요하다."
+    },
+    {
+      "id": "Q22",
+      "prompt": "자료의 Netflix 결측치 처리 전략과 일치하는 것은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "모든 결측 행을 무조건 삭제한다.",
+          "correct": false,
+          "explanation": "director 2,389개 등 큰 결측을 모두 삭제하면 손실이 크다.",
+          "correctedStatement": "큰 결측은 Unknown 대체, 매우 적은 핵심 결측은 행 제거한다."
+        },
+        {
+          "text": "모든 결측을 숫자 평균으로 채운다.",
+          "correct": false,
+          "explanation": "문자 범주에 평균은 부적절하다.",
+          "correctedStatement": "director/cast/country는 Unknown으로 채운다."
+        },
+        {
+          "text": "director·cast·country는 Unknown으로 채우고 date_added·rating 결측 행은 제거한다.",
+          "correct": true,
+          "explanation": "자료의 코드와 일치한다.",
+          "correctedStatement": "director·cast·country는 Unknown으로 채우고 date_added·rating 결측 행은 제거한다."
+        },
+        {
+          "text": "date_added는 0으로 채우고 datetime 변환을 생략한다.",
+          "correct": false,
+          "explanation": "시간 분석이 불가능해진다.",
+          "correctedStatement": "적은 date_added 결측 행을 제거하고 datetime으로 변환한다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          10,
+          12
+        ]
+      },
+      "conceptIds": [
+        "C21"
+      ],
+      "difficulty": "easy",
+      "review": "많은 범주 결측=표식, 적은 핵심 결측=제거.",
+      "memoryTip": "대체와 제거를 컬럼별로.",
+      "additionalExample": "director Unknown은 감독 순위에서 제외해야 실제 미상 범주가 1위가 되는 문제를 막는다."
+    },
+    {
+      "id": "Q23",
+      "prompt": "date_added에서 연·월 파생변수를 만들고 duration을 값·단위로 분리하는 데 사용된 연산을 모두 고르시오.",
+      "type": "multiple",
+      "complex": false,
+      "options": [
+        {
+          "text": "nx.degree_centrality",
+          "correct": false,
+          "explanation": "네트워크 중심성 함수다.",
+          "correctedStatement": "날짜·문자열 변환에는 pandas 문자열·datetime 연산을 쓴다."
+        },
+        {
+          "text": "str.strip과 pd.to_datetime",
+          "correct": true,
+          "explanation": "앞뒤 공백을 제거한 뒤 날짜 타입으로 변환한다.",
+          "correctedStatement": "str.strip과 pd.to_datetime"
+        },
+        {
+          "text": "dt.year와 dt.month",
+          "correct": true,
+          "explanation": "datetime에서 연·월을 추출한다.",
+          "correctedStatement": "dt.year와 dt.month"
+        },
+        {
+          "text": "apply(lambda), split, replace",
+          "correct": true,
+          "explanation": "duration 숫자와 단위를 분리·통일한다.",
+          "correctedStatement": "apply(lambda), split, replace"
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          13
+        ]
+      },
+      "conceptIds": [
+        "C21",
+        "C34"
+      ],
+      "difficulty": "medium",
+      "review": "날짜는 strip→datetime→dt, 길이는 split→값/단위.",
+      "memoryTip": "문자→타입→파생.",
+      "additionalExample": "'4 Seasons'를 4와 Season으로 나누어 TV 쇼 길이 분석에 쓴다."
+    },
+    {
+      "id": "Q24",
+      "prompt": "x축이 제작연도(연속 수치), y축이 해당 구간의 콘텐츠 수이고 구간 막대가 서로 붙어 있는 그래프는 무엇인가?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "범주형 막대그래프",
+          "correct": false,
+          "explanation": "연속 수치를 구간으로 나눈 분포다.",
+          "correctedStatement": "히스토그램이다."
+        },
+        {
+          "text": "파이 차트",
+          "correct": false,
+          "explanation": "원형 비율 차트가 아니다.",
+          "correctedStatement": "연속 수치 분포는 히스토그램이다."
+        },
+        {
+          "text": "네트워크 그래프",
+          "correct": false,
+          "explanation": "노드·엣지가 없다.",
+          "correctedStatement": "그래프는 히스토그램이다."
+        },
+        {
+          "text": "히스토그램",
+          "correct": true,
+          "explanation": "수치형 분포를 bins로 나눠 보여준다.",
+          "correctedStatement": "히스토그램"
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          23,
+          25
+        ]
+      },
+      "conceptIds": [
+        "C23"
+      ],
+      "difficulty": "easy",
+      "review": "붙은 구간 막대+연속 x축=히스토그램.",
+      "memoryTip": "Hist=분포.",
+      "additionalExample": "상영시간을 10분 간격 bins로 나눠 빈도를 그리는 것도 히스토그램이다.",
+      "visual": {
+        "kind": "histogram",
+        "title": "제작연도 분포 식별 연습",
+        "xLabel": "제작연도 구간",
+        "yLabel": "콘텐츠 수",
+        "series": [
+          {
+            "name": "빈도",
+            "values": [
+              1,
+              2,
+              4,
+              8,
+              15,
+              27
+            ]
+          }
+        ],
+        "labels": [
+          "1960s",
+          "1970s",
+          "1980s",
+          "1990s",
+          "2000s",
+          "2010s"
+        ],
+        "note": "강의의 최근 연도 집중 패턴을 단순화한 보충학습용 개념 도식이며 PDF 원그래프의 실제 빈도값이 아니다."
+      }
+    },
+    {
+      "id": "Q25",
+      "prompt": "등급별 영화 상영시간 박스플롯에서 옳은 해석을 모두 고르시오.",
+      "type": "multiple",
+      "complex": true,
+      "options": [
+        {
+          "text": "상자 안 선은 중앙값이며 등급별 중앙값은 대체로 90~110분 범위에 있다.",
+          "correct": true,
+          "explanation": "자료의 해석과 일치한다.",
+          "correctedStatement": "상자 안 선은 중앙값이며 등급별 중앙값은 대체로 90~110분 범위에 있다."
+        },
+        {
+          "text": "TV-14의 상자가 길다는 것은 중앙값이 반드시 가장 크다는 뜻이다.",
+          "correct": false,
+          "explanation": "상자 길이는 IQR, 중앙값은 별도다.",
+          "correctedStatement": "TV-14는 중간 50%의 변동 폭이 상대적으로 크다."
+        },
+        {
+          "text": "상자 밖 점은 이상치 후보이며 실제 장편일 수도 있다.",
+          "correct": true,
+          "explanation": "오류라고 자동 단정하면 안 된다.",
+          "correctedStatement": "상자 밖 점은 이상치 후보이며 실제 장편일 수도 있다."
+        },
+        {
+          "text": "PG-13 상자가 짧다는 것은 콘텐츠 수가 가장 적다는 뜻이다.",
+          "correct": false,
+          "explanation": "상자 길이는 표본 수가 아니라 값의 분포 폭이다.",
+          "correctedStatement": "PG-13의 상영시간 IQR이 비교적 좁다는 뜻이다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          28,
+          29
+        ]
+      },
+      "conceptIds": [
+        "C24"
+      ],
+      "difficulty": "medium",
+      "review": "선=중앙, 상자=IQR, 점=이상 후보.",
+      "memoryTip": "중·퍼·점.",
+      "additionalExample": "가격 박스플롯에서도 상자 길이는 판매 건수가 아니라 중간 50% 가격 범위다.",
+      "visual": {
+        "kind": "box",
+        "title": "등급별 영화 상영시간 해석 연습",
+        "xLabel": "등급",
+        "yLabel": "상영시간(분)",
+        "series": [
+          {
+            "name": "PG-13",
+            "values": [
+              88,
+              96,
+              101,
+              107,
+              115
+            ]
+          },
+          {
+            "name": "TV-14",
+            "values": [
+              72,
+              88,
+              100,
+              119,
+              146
+            ]
+          }
+        ],
+        "labels": [
+          "최솟값",
+          "Q1",
+          "중앙값",
+          "Q3",
+          "최댓값"
+        ],
+        "note": "상자 길이와 중앙값을 구분하기 위한 보충학습용 5수치 개념 도식이며 PDF 원그래프의 실제 수치가 아니다."
+      }
+    },
+    {
+      "id": "Q26",
+      "prompt": "연도×월 콘텐츠 추가량 히트맵의 한 셀이 나타내는 것은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "한 콘텐츠의 제작연도와 러닝타임",
+          "correct": false,
+          "explanation": "해당 히트맵의 축은 연도와 월이다.",
+          "correctedStatement": "셀은 특정 연도·월의 추가 콘텐츠 수다."
+        },
+        {
+          "text": "특정 연도와 특정 월에 추가된 콘텐츠 수",
+          "correct": true,
+          "explanation": "색과 주석 숫자가 그 빈도를 나타낸다.",
+          "correctedStatement": "특정 연도와 특정 월에 추가된 콘텐츠 수"
+        },
+        {
+          "text": "해당 월의 평균 시청 등급",
+          "correct": false,
+          "explanation": "등급 평균을 계산하지 않는다.",
+          "correctedStatement": "셀 값은 콘텐츠 개수다."
+        },
+        {
+          "text": "월별 투자액의 상관계수",
+          "correct": false,
+          "explanation": "투자액 변수는 이 히트맵에 없다.",
+          "correctedStatement": "연도×월 crosstab 빈도다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          27,
+          29
+        ]
+      },
+      "conceptIds": [
+        "C25"
+      ],
+      "difficulty": "easy",
+      "review": "행×열 조합의 count.",
+      "memoryTip": "셀=교차 빈도.",
+      "additionalExample": "국가×장르 히트맵의 셀은 그 국가·장르 조합 콘텐츠 수다."
+    },
+    {
+      "id": "Q27",
+      "prompt": "제작연도(x)-넷플릭스 추가연도(y) 산점도에서 자료가 지지하는 해석을 모두 고르시오.",
+      "type": "multiple",
+      "complex": true,
+      "options": [
+        {
+          "text": "오른쪽 위의 y=x 대각선 주변 점은 제작과 추가 시점이 가까운 콘텐츠를 뜻한다. 다만 이 좌표만으로 Original 여부는 알 수 없다.",
+          "correct": true,
+          "explanation": "x와 y가 비슷한 점은 제작 연도와 플랫폼 추가 연도의 차이가 작다는 뜻이다. 데이터에 Original 표시 컬럼이 없으므로 산점도 위치로 Original임을 확정하면 안 된다.",
+          "correctedStatement": "y=x 대각선 주변은 제작과 추가 시점이 가까운 콘텐츠를 뜻하며, Original 여부는 별도 증거가 필요하다."
+        },
+        {
+          "text": "y=x 대각선 위쪽에서 x가 오래된 점들은 제작 후 오래 지나 추가된 구작을 시사한다.",
+          "correct": true,
+          "explanation": "y축이 추가 연도이므로 1985년 제작·2018년 추가 같은 점은 y>x이며 y=x 대각선 위쪽에 위치한다. 제작-추가 시차가 큰 구작 사례로 해석할 수 있다.",
+          "correctedStatement": "제작 후 뒤늦게 추가된 구작은 y>x이므로 y=x 대각선 위쪽에 위치한다."
+        },
+        {
+          "text": "점 하나는 한 감독의 전체 경력을 의미한다.",
+          "correct": false,
+          "explanation": "점 하나는 콘텐츠 한 건이다.",
+          "correctedStatement": "점 하나는 영화 또는 TV 쇼 한 콘텐츠다."
+        },
+        {
+          "text": "이 패턴만으로 Netflix가 신작 수급과 구작 라이브러리 확대 전략을 실행한 원인까지 확정할 수 있다.",
+          "correct": false,
+          "explanation": "산점도는 제작 시점과 추가 시점의 관계를 보여주지만, 편성 전략의 원인을 직접 기록한 데이터는 아니다. 전략은 가설로 제시할 수 있어도 추가 근거 없이 확정할 수는 없다.",
+          "correctedStatement": "그래프는 시점 차이 패턴을 보여주며, 신작·구작 편성 전략은 별도 자료로 검증할 가설로 남겨야 한다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          30,
+          31
+        ]
+      },
+      "conceptIds": [
+        "C26"
+      ],
+      "difficulty": "medium",
+      "review": "x=제작연도, y=추가연도이므로 y=x 주변은 시점 차이가 작고, y=x 위쪽은 제작 후 뒤늦게 추가된 콘텐츠다. 좌표 패턴을 전략의 원인으로 단정하지 않는다.",
+      "memoryTip": "점 하나=콘텐츠.",
+      "additionalExample": "음원 발매연도와 플랫폼 등록연도 산점도도 같은 방식으로 해석할 수 있다.",
+      "visual": {
+        "kind": "scatter",
+        "title": "제작연도와 추가연도의 관계",
+        "xLabel": "제작연도",
+        "yLabel": "넷플릭스 추가연도",
+        "series": [
+          {
+            "name": "시점이 가까운 콘텐츠",
+            "values": [
+              [
+                2016,
+                2017
+              ],
+              [
+                2018,
+                2019
+              ],
+              [
+                2020,
+                2020
+              ]
+            ]
+          },
+          {
+            "name": "뒤늦게 추가된 구작",
+            "values": [
+              [
+                1985,
+                2018
+              ],
+              [
+                1998,
+                2020
+              ],
+              [
+                2005,
+                2019
+              ]
+            ]
+          }
+        ],
+        "labels": [
+          "각 값은 [제작연도, 추가연도]"
+        ],
+        "note": "강의 산점도의 해석 패턴을 재구성한 보충학습용 개념 좌표이며 PDF 원그래프의 실제 개별 콘텐츠 값이 아니다."
+      }
+    },
+    {
+      "id": "Q28",
+      "prompt": "팀이 '급증'을 연간 기울기 s=(올해 추가량-전년 추가량)/1년이 500편/년 이상인 경우로 정의했다. 2017년 1,200편, 2018년 1,700편, 2019년 2,150편이라면 기준을 만족하는 구간은?",
+      "type": "single",
+      "complex": true,
+      "options": [
+        {
+          "text": "2018→2019만",
+          "correct": false,
+          "explanation": "기울기는 450편/년으로 기준 미만이다.",
+          "correctedStatement": "2017→2018의 500편/년만 기준을 충족한다."
+        },
+        {
+          "text": "두 구간 모두",
+          "correct": false,
+          "explanation": "두 번째는 450편/년이다.",
+          "correctedStatement": "임계값 이상인 첫 구간만 급증이다."
+        },
+        {
+          "text": "2017→2018만",
+          "correct": true,
+          "explanation": "(1700-1200)=500, (2150-1700)=450이다.",
+          "correctedStatement": "2017→2018만"
+        },
+        {
+          "text": "어느 구간도 아님",
+          "correct": false,
+          "explanation": "첫 구간이 정확히 임계값에 해당한다.",
+          "correctedStatement": "2017→2018은 500편/년으로 급증이다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          31,
+          32
+        ]
+      },
+      "conceptIds": [
+        "C26",
+        "C34"
+      ],
+      "difficulty": "hard",
+      "review": "급격함은 눈대중이 아니라 Δy/Δx와 임계값으로 판정한다.",
+      "memoryTip": "기울기+단위+기준.",
+      "additionalExample": "월별 판매량이라면 Δ판매/Δ월과 '월 20% 이상' 같은 상대 기준도 명세할 수 있다.",
+      "visual": {
+        "kind": "line",
+        "title": "연간 콘텐츠 추가량과 급증 기준",
+        "xLabel": "연도",
+        "yLabel": "추가 콘텐츠 수(편)",
+        "series": [
+          {
+            "name": "연간 추가량",
+            "values": [
+              1200,
+              1700,
+              2150
+            ]
+          }
+        ],
+        "labels": [
+          "2017",
+          "2018",
+          "2019"
+        ],
+        "note": "문항에 명시한 계산 연습용 값으로 구성한 보충학습 도식이며 PDF 원그래프의 실제 연도별 수치가 아니다."
+      }
+    },
+    {
+      "id": "Q29",
+      "prompt": "연도별 추가량 선 그래프에서 2021년 급락을 실제 전략 축소로 단정하면 안 되는 가장 직접적인 이유는?",
+      "type": "single",
+      "complex": true,
+      "options": [
+        {
+          "text": "선 그래프는 시간 데이터를 표현할 수 없어서",
+          "correct": false,
+          "explanation": "선 그래프는 시간 추세에 적합하다.",
+          "correctedStatement": "2021년이 부분 연도라 비교 가능성이 낮기 때문이다."
+        },
+        {
+          "text": "y축이 로그 축이라서",
+          "correct": false,
+          "explanation": "자료는 그런 설정을 제시하지 않는다.",
+          "correctedStatement": "핵심은 수집 시점으로 인한 불완전 기간이다."
+        },
+        {
+          "text": "2019년 데이터가 모두 결측이라서",
+          "correct": false,
+          "explanation": "2019년은 오히려 정점으로 설명된다.",
+          "correctedStatement": "2021년 전체 기간이 포함되지 않았다."
+        },
+        {
+          "text": "데이터가 2021년 초 수집되어 그 해 전체가 포함되지 않았기 때문에",
+          "correct": true,
+          "explanation": "부분 기간 검열 효과다.",
+          "correctedStatement": "데이터가 2021년 초 수집되어 그 해 전체가 포함되지 않았기 때문에"
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          32
+        ]
+      },
+      "conceptIds": [
+        "C26",
+        "C34"
+      ],
+      "difficulty": "medium",
+      "review": "완전한 기간끼리 비교한다.",
+      "memoryTip": "부분 연도는 연간 합계 비교 금지.",
+      "additionalExample": "올해 3개월 매출을 작년 12개월과 그대로 비교하면 같은 오류가 난다."
+    },
+    {
+      "id": "Q30",
+      "prompt": "복합 질문 '2018~2020년에 넷플릭스에 추가된 한국 콘텐츠에서 가장 많이 등장한 배우 Top 10'을 풀기 위한 올바른 구성 요소를 모두 고르시오.",
+      "type": "multiple",
+      "complex": true,
+      "options": [
+        {
+          "text": "date_added를 datetime으로 바꾸고 added_year로 2018~2020을 필터링한다.",
+          "correct": true,
+          "explanation": "추가 시점 조건을 구현한다.",
+          "correctedStatement": "date_added를 datetime으로 바꾸고 added_year로 2018~2020을 필터링한다."
+        },
+        {
+          "text": "country에서 한국 포함 행을 필터링하되 다중 국가 표기 규칙을 명시한다.",
+          "correct": true,
+          "explanation": "복합 국가 셀 처리 기준이 필요하다.",
+          "correctedStatement": "country에서 한국 포함 행을 필터링하되 다중 국가 표기 규칙을 명시한다."
+        },
+        {
+          "text": "cast를 split/explode하고 Unknown을 제외한 뒤 value_counts를 계산한다.",
+          "correct": true,
+          "explanation": "배우 단위 빈도를 만든다.",
+          "correctedStatement": "cast를 split/explode하고 Unknown을 제외한 뒤 value_counts를 계산한다."
+        },
+        {
+          "text": "duration_value의 평균만 계산한다.",
+          "correct": false,
+          "explanation": "배우 빈도 질문에 직접 답하지 못한다.",
+          "correctedStatement": "배우 Top 10은 cast 빈도 집계가 핵심이다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          5,
+          13,
+          19
+        ]
+      },
+      "conceptIds": [
+        "C19",
+        "C21",
+        "C27",
+        "C34"
+      ],
+      "difficulty": "hard",
+      "review": "기간→국가→배우 분해→집계 순서.",
+      "memoryTip": "필터 두 번, explode 한 번, count.",
+      "additionalExample": "'2019년 인도 코미디 배우 Top 5'도 year/country/listed_in/cast를 함께 써야 한다."
+    },
+    {
+      "id": "Q31",
+      "prompt": "월별 콘텐츠 추가량을 1월부터 12월 순서로 비교하려 할 때 가장 직접적인 분석 조합은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "added_month.value_counts().sort_index() 후 막대그래프",
+          "correct": true,
+          "explanation": "월별 빈도를 달력 순서로 비교한다.",
+          "correctedStatement": "added_month.value_counts().sort_index() 후 막대그래프"
+        },
+        {
+          "text": "title의 평균을 구한 뒤 파이 차트",
+          "correct": false,
+          "explanation": "제목은 평균을 낼 수 없고 월 순서도 없다.",
+          "correctedStatement": "added_month 빈도와 막대그래프를 사용한다."
+        },
+        {
+          "text": "release_year와 rating의 산점도",
+          "correct": false,
+          "explanation": "월별 추가량 질문과 변수가 다르다.",
+          "correctedStatement": "added_month를 집계한다."
+        },
+        {
+          "text": "cast 네트워크의 degree centrality",
+          "correct": false,
+          "explanation": "배우 관계 분석이다.",
+          "correctedStatement": "월별 빈도는 value_counts/sort_index다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          20,
+          21
+        ]
+      },
+      "conceptIds": [
+        "C23",
+        "C27",
+        "C34"
+      ],
+      "difficulty": "easy",
+      "review": "범주 빈도=막대, 월 순서=sort_index.",
+      "memoryTip": "Count then calendar order.",
+      "additionalExample": "요일별 주문량도 weekday 순서를 명시해 막대로 비교한다."
+    },
+    {
+      "id": "Q32",
+      "prompt": "국가×장르 히트맵을 더 공정하게 비교하기 위한 개선으로 적절한 것을 모두 고르시오.",
+      "type": "multiple",
+      "complex": true,
+      "options": [
+        {
+          "text": "미국처럼 총 콘텐츠가 많은 국가일수록 진해지는 원시 빈도 효과를 무시한다.",
+          "correct": false,
+          "explanation": "국가 총량 차이를 통제해야 한다.",
+          "correctedStatement": "행별 비율도 함께 계산해 국가 내부 장르 구성을 비교한다."
+        },
+        {
+          "text": "행별 합계로 정규화한 장르 비율 히트맵을 추가한다.",
+          "correct": true,
+          "explanation": "국가별 규모 차이를 줄여 구성비를 본다.",
+          "correctedStatement": "행별 합계로 정규화한 장르 비율 히트맵을 추가한다."
+        },
+        {
+          "text": "모든 다중 국가·장르를 무조건 첫 값만 써도 편향이 없다고 선언한다.",
+          "correct": false,
+          "explanation": "편의 가정은 편향을 만들 수 있다.",
+          "correctedStatement": "first-value 규칙을 명시하고 explode/가중 분배 대안과 비교한다."
+        },
+        {
+          "text": "다중값 처리 방식과 상위 10 절단 기준을 보고한다.",
+          "correct": true,
+          "explanation": "재현성과 해석 범위를 분명히 한다.",
+          "correctedStatement": "다중값 처리 방식과 상위 10 절단 기준을 보고한다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          38,
+          42
+        ]
+      },
+      "conceptIds": [
+        "C25",
+        "C28",
+        "C34"
+      ],
+      "difficulty": "hard",
+      "review": "count와 proportion을 함께 본다.",
+      "memoryTip": "큰 나라 효과를 분모로 조정.",
+      "additionalExample": "학교별 전공 학생 수는 학교 규모 차이가 크므로 전공 비율도 비교해야 한다."
+    },
+    {
+      "id": "Q33",
+      "prompt": "감독-배우 네트워크에서 연결 중심성 상위에 감독만 나타난 결과를 가장 정확히 해석한 것은?",
+      "type": "single",
+      "complex": true,
+      "options": [
+        {
+          "text": "배우는 네트워크 영향력이 전혀 없다.",
+          "correct": false,
+          "explanation": "설계·표본 때문에 생긴 결과다.",
+          "correctedStatement": "선택된 상위 감독 중 다양한 배우와 직접 연결된 감독 순위로 해석한다."
+        },
+        {
+          "text": "감독-배우로 edge를 정의하고 상위 감독을 표본화했으므로, 다양한 배우와 협업한 선택된 감독이 높게 나온다.",
+          "correct": true,
+          "explanation": "자료의 핵심 주의점이다.",
+          "correctedStatement": "감독-배우로 edge를 정의하고 상위 감독을 표본화했으므로, 다양한 배우와 협업한 선택된 감독이 높게 나온다."
+        },
+        {
+          "text": "그래프 중앙 위치가 자동으로 인과적 영향력을 증명한다.",
+          "correct": false,
+          "explanation": "레이아웃은 시각 배치다.",
+          "correctedStatement": "중심성 지표와 네트워크 정의를 함께 해석해야 한다."
+        },
+        {
+          "text": "모든 감독과 배우를 동일 확률로 표집했으므로 편향이 없다.",
+          "correct": false,
+          "explanation": "상위 30감독 중심으로 범위를 좁혔다.",
+          "correctedStatement": "표본 제한과 edge 정의를 명시해야 한다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          44,
+          48
+        ]
+      },
+      "conceptIds": [
+        "C29",
+        "C34"
+      ],
+      "difficulty": "hard",
+      "review": "중심성은 네트워크 정의의 산물이다.",
+      "memoryTip": "Node/Edge/표본 먼저.",
+      "additionalExample": "논문-저자 네트워크와 저자-저자 공저 네트워크는 같은 사람도 다른 중심성 순위를 만든다."
+    },
+    {
+      "id": "Q34",
+      "prompt": "워드클라우드를 해석할 때 옳은 설명을 모두 고르시오.",
+      "type": "multiple",
+      "complex": false,
+      "options": [
+        {
+          "text": "단어 크기는 보통 빈도를 반영한다.",
+          "correct": true,
+          "explanation": "자료의 생성 방식이다.",
+          "correctedStatement": "단어 크기는 보통 빈도를 반영한다."
+        },
+        {
+          "text": "큰 단어는 자동으로 긍정 감정과 인과적 중요성을 뜻한다.",
+          "correct": false,
+          "explanation": "빈도만으로 감정·인과를 알 수 없다.",
+          "correctedStatement": "문맥·감정·인과는 추가 분석이 필요하다."
+        },
+        {
+          "text": "불용어 목록과 장르 필터가 결과를 바꾼다.",
+          "correct": true,
+          "explanation": "전처리·표본 범위가 빈도에 직접 영향을 준다.",
+          "correctedStatement": "불용어 목록과 장르 필터가 결과를 바꾼다."
+        },
+        {
+          "text": "같은 단어가 쓰인 문맥은 워드클라우드만으로 완전히 보존된다.",
+          "correct": false,
+          "explanation": "단어 주변 문맥이 사라진다.",
+          "correctedStatement": "원문·n-gram·토픽/감정 분석을 함께 검토한다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          49,
+          54
+        ]
+      },
+      "conceptIds": [
+        "C30"
+      ],
+      "difficulty": "medium",
+      "review": "워드클라우드=빈도 지도, 의미 지도 아님.",
+      "memoryTip": "크기=빈도.",
+      "additionalExample": "'kill'이 큰 경우 장르·문맥을 확인해야 실제 폭력 주제인지 관용 표현인지 알 수 있다."
+    },
+    {
+      "id": "Q35",
+      "prompt": "listed_in·director·cast·description을 합친 soup을 TF-IDF로 벡터화하고 코사인 유사도로 비슷한 작품을 찾는 방식은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "사용자 기반 협업 필터링",
+          "correct": false,
+          "explanation": "사용자-사용자 평점 유사도를 쓰지 않는다.",
+          "correctedStatement": "항목의 콘텐츠 특성을 쓰는 콘텐츠 기반 필터링이다."
+        },
+        {
+          "text": "아이템 기반 협업 필터링",
+          "correct": false,
+          "explanation": "사용자 평점 패턴을 쓰지 않는다.",
+          "correctedStatement": "메타데이터 유사도는 콘텐츠 기반이다."
+        },
+        {
+          "text": "콘텐츠 기반 필터링",
+          "correct": true,
+          "explanation": "항목의 장르·감독·배우·줄거리 특성을 비교한다.",
+          "correctedStatement": "콘텐츠 기반 필터링"
+        },
+        {
+          "text": "K-means 시계열 예측",
+          "correct": false,
+          "explanation": "군집·시계열 모델이 아니다.",
+          "correctedStatement": "TF-IDF+cosine 콘텐츠 기반 추천이다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          55,
+          58
+        ]
+      },
+      "conceptIds": [
+        "C31"
+      ],
+      "difficulty": "medium",
+      "review": "내용(content)을 비교하면 콘텐츠 기반.",
+      "memoryTip": "Content→Content.",
+      "additionalExample": "기사 본문 TF-IDF 유사도로 관련 기사를 추천하는 것도 같은 방식이다."
+    },
+    {
+      "id": "Q36",
+      "prompt": "콘텐츠 기반 추천과 아이템 기반 협업 필터링의 차이에 대한 올바른 설명을 모두 고르시오.",
+      "type": "multiple",
+      "complex": true,
+      "options": [
+        {
+          "text": "콘텐츠 기반은 장르·배우·설명 같은 항목 특성을 사용할 수 있다.",
+          "correct": true,
+          "explanation": "메타데이터/텍스트가 핵심이다.",
+          "correctedStatement": "콘텐츠 기반은 장르·배우·설명 같은 항목 특성을 사용할 수 있다."
+        },
+        {
+          "text": "아이템 기반 협업 필터링은 사용자-아이템 평점 패턴을 사용한다.",
+          "correct": true,
+          "explanation": "열 간 유사도를 계산한다.",
+          "correctedStatement": "아이템 기반 협업 필터링은 사용자-아이템 평점 패턴을 사용한다."
+        },
+        {
+          "text": "콘텐츠 기반은 반드시 다수 사용자의 평점이 있어야만 작동한다.",
+          "correct": false,
+          "explanation": "항목 특성만으로도 가능하다.",
+          "correctedStatement": "다수 사용자 상호작용은 협업 필터링에 특히 필요하다."
+        },
+        {
+          "text": "아이템 기반은 신규 항목에 평점이 없으면 cold start가 생길 수 있다.",
+          "correct": true,
+          "explanation": "유사도 계산 근거가 없기 때문이다.",
+          "correctedStatement": "아이템 기반은 신규 항목에 평점이 없으면 cold start가 생길 수 있다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          55,
+          60
+        ]
+      },
+      "conceptIds": [
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "difficulty": "hard",
+      "review": "내용 기반=특성, 협업=사람들의 행동.",
+      "memoryTip": "특성 vs 평점 패턴.",
+      "additionalExample": "신규 영화는 줄거리가 있으면 콘텐츠 기반 추천은 가능하지만 평점 기반 CF는 어렵다."
+    },
+    {
+      "id": "Q37",
+      "prompt": "아이템 간 Pearson 상관계수가 -1에 가까울 때 의미로 가장 적절한 것은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "두 영화의 내용이 완전히 동일하다.",
+          "correct": false,
+          "explanation": "내용 유사도를 직접 측정한 값이 아니다.",
+          "correctedStatement": "공통 사용자의 평점 패턴이 반대 방향이라는 뜻이다."
+        },
+        {
+          "text": "공통 평가자가 한 명도 없다.",
+          "correct": false,
+          "explanation": "그 경우 상관이 계산되지 않을 수 있다.",
+          "correctedStatement": "-1은 계산된 평점 패턴의 강한 음의 선형 관계다."
+        },
+        {
+          "text": "두 영화가 같은 제작연도다.",
+          "correct": false,
+          "explanation": "연도와 무관하다.",
+          "correctedStatement": "한 영화를 높게 준 사용자가 다른 영화를 낮게 주는 경향이다."
+        },
+        {
+          "text": "한 영화를 높게 평가할수록 다른 영화는 낮게 평가하는 강한 반대 패턴이다.",
+          "correct": true,
+          "explanation": "자료의 -1 해석이다.",
+          "correctedStatement": "한 영화를 높게 평가할수록 다른 영화는 낮게 평가하는 강한 반대 패턴이다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          59,
+          63
+        ]
+      },
+      "conceptIds": [
+        "C32"
+      ],
+      "difficulty": "medium",
+      "review": "+1 함께, -1 반대로, 0 뚜렷한 선형 관계 없음.",
+      "memoryTip": "부호=방향.",
+      "additionalExample": "다만 공통 평가자가 2명뿐이면 ±1도 매우 불안정할 수 있다."
+    },
+    {
+      "id": "Q38",
+      "prompt": "자료의 소규모 가상 평점으로 만든 아이템 유사도 히트맵을 해석할 때 주의할 점을 모두 고르시오.",
+      "type": "multiple",
+      "complex": true,
+      "options": [
+        {
+          "text": "1.00이면 표본 수와 무관하게 완벽한 실제 취향 유사성이 확정된다.",
+          "correct": false,
+          "explanation": "공통 평가자 수가 적으면 우연한 극단값일 수 있다.",
+          "correctedStatement": "공통 평가자 수와 신뢰 구간/최소 표본 기준을 함께 본다."
+        },
+        {
+          "text": "min_periods=2는 공통 평가자 2명만으로도 상관을 계산할 수 있어 극단값이 생길 수 있다.",
+          "correct": true,
+          "explanation": "소표본 상관의 불안정성이다.",
+          "correctedStatement": "min_periods=2는 공통 평가자 2명만으로도 상관을 계산할 수 있어 극단값이 생길 수 있다."
+        },
+        {
+          "text": "희소 행렬과 cold start는 협업 필터링의 핵심 한계다.",
+          "correct": true,
+          "explanation": "사용자·평점 부족과 신규 항목 문제다.",
+          "correctedStatement": "희소 행렬과 cold start는 협업 필터링의 핵심 한계다."
+        },
+        {
+          "text": "평점이 없는 NaN을 모두 5점으로 바꾸면 편향이 사라진다.",
+          "correct": false,
+          "explanation": "임의 대체는 심각한 왜곡을 만든다.",
+          "correctedStatement": "결측은 미평가로 유지하고 적절한 유사도/정규화 방법을 쓴다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          60,
+          63
+        ]
+      },
+      "conceptIds": [
+        "C32",
+        "C34"
+      ],
+      "difficulty": "hard",
+      "review": "상관값만 말고 공통 표본 수를 본다.",
+      "memoryTip": "Similarity + support.",
+      "additionalExample": "상품 두 개를 공통 구매한 고객이 2명뿐이면 상관 1.0도 일반화하기 어렵다."
+    },
+    {
+      "id": "Q39",
+      "prompt": "회귀 모델의 MAE가 4.83년이라는 해석으로 옳은 것은?",
+      "type": "single",
+      "complex": false,
+      "options": [
+        {
+          "text": "예측 제작연도와 실제 제작연도의 절대 차이가 평균 4.83년이다.",
+          "correct": true,
+          "explanation": "MAE의 단위는 타깃인 년이다.",
+          "correctedStatement": "예측 제작연도와 실제 제작연도의 절대 차이가 평균 4.83년이다."
+        },
+        {
+          "text": "예측 정확도가 4.83%라는 뜻이다.",
+          "correct": false,
+          "explanation": "백분율 지표가 아니다.",
+          "correctedStatement": "평균 절대 오차가 4.83년이다."
+        },
+        {
+          "text": "모든 개별 예측이 정확히 4.83년씩 틀린다.",
+          "correct": false,
+          "explanation": "평균값이며 개별 오차는 다르다.",
+          "correctedStatement": "개별 절대 오차들의 평균이 4.83년이다."
+        },
+        {
+          "text": "모델이 4.83개의 피처만 사용했다는 뜻이다.",
+          "correct": false,
+          "explanation": "피처 수와 무관하다.",
+          "correctedStatement": "MAE는 오차 크기 지표다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          67
+        ]
+      },
+      "conceptIds": [
+        "C33"
+      ],
+      "difficulty": "medium",
+      "review": "MAE=Mean Absolute Error, 타깃 단위 그대로.",
+      "memoryTip": "평균 절대 오차.",
+      "additionalExample": "집값 MAE가 2천만원이면 평균 절대 예측 오차가 2천만원이다."
+    },
+    {
+      "id": "Q40",
+      "prompt": "같은 자료에서 개선 모델 MAE가 66쪽에는 4.19년, 67쪽에는 4.83년으로 다르다. 가장 타당한 처리 방법은?",
+      "type": "single",
+      "complex": true,
+      "options": [
+        {
+          "text": "코드·데이터 버전과 실행 로그를 재현해 값을 확인하고, 확인 전에는 두 수치의 불일치를 명시한다.",
+          "correct": true,
+          "explanation": "상충 증거를 투명하게 기록하는 방법이다.",
+          "correctedStatement": "코드·데이터 버전과 실행 로그를 재현해 값을 확인하고, 확인 전에는 두 수치의 불일치를 명시한다."
+        },
+        {
+          "text": "더 좋아 보이는 4.19년만 선택한다.",
+          "correct": false,
+          "explanation": "선택 편향이며 근거가 없다.",
+          "correctedStatement": "재현 검증 후 확정해야 한다."
+        },
+        {
+          "text": "표에 있으므로 4.83년이 무조건 참이라고 단정한다.",
+          "correct": false,
+          "explanation": "표도 오류일 수 있다.",
+          "correctedStatement": "코드·데이터·로그를 맞춰 확인한다."
+        },
+        {
+          "text": "두 값을 더해 9.02년이라고 보고한다.",
+          "correct": false,
+          "explanation": "서로 다른 주장이라 합산할 이유가 없다.",
+          "correctedStatement": "불일치를 보고하고 재실행으로 해소한다."
+        }
+      ],
+      "source": {
+        "fileId": "w4-netflix",
+        "pages": [
+          66,
+          67
+        ]
+      },
+      "conceptIds": [
+        "C33",
+        "C34"
+      ],
+      "difficulty": "hard",
+      "review": "충돌하면 선택하지 말고 재현한다.",
+      "memoryTip": "Report, reproduce, resolve.",
+      "additionalExample": "논문 본문과 표의 표본 수가 다를 때도 원자료·분석 스크립트·버전을 확인한다."
+    }
+  ],
+  "statistics": {
+    "unitCount": 9,
+    "conceptCount": 34,
+    "flashcardCount": 46,
+    "questionCount": 40,
+    "singleQuestionCount": 23,
+    "multipleQuestionCount": 17,
+    "complexQuestionCount": 11,
+    "visualQuestionCount": 4,
+    "singleCorrectPositionDistributionZeroBased": {
+      "0": 6,
+      "1": 5,
+      "2": 6,
+      "3": 6
+    },
+    "allCorrectPositionDistributionZeroBased": {
+      "0": 16,
+      "1": 16,
+      "2": 17,
+      "3": 17
+    }
+  }
+}

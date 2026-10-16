@@ -1,0 +1,60 @@
+@import '@fontsource-variable/noto-sans-kr';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Noto Sans KR Variable', system-ui, sans-serif;
+  color: #17212b;
+  background: #f3f1ec;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 0; min-height: 100vh; }
+button, input, select, textarea { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
+::selection { color: #fff; background: #3159d8; }
+
+@layer base {
+  body { @apply bg-[#f3f1ec] text-ink antialiased dark:bg-[#0c1117] dark:text-slate-100; }
+  a { @apply underline-offset-4; }
+  :focus-visible { @apply outline-none ring-2 ring-cobalt ring-offset-2 ring-offset-white dark:ring-offset-slate-950; }
+}
+
+@layer components {
+  .surface { @apply rounded-[1.35rem] border border-black/[0.07] bg-white shadow-soft dark:border-white/[0.08] dark:bg-[#141c25]; }
+  .surface-flat { @apply rounded-2xl border border-black/[0.07] bg-white dark:border-white/[0.08] dark:bg-[#141c25]; }
+  .eyebrow { @apply text-[11px] font-bold uppercase tracking-[0.18em] text-cobalt dark:text-blue-300; }
+  .page-title { @apply text-[clamp(1.75rem,4vw,2.8rem)] font-extrabold leading-tight tracking-[-0.045em] text-ink dark:text-white; }
+  .page-copy { @apply max-w-2xl text-sm leading-7 text-slate-600 dark:text-slate-300; }
+  .button-primary { @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-ink px-4 py-2.5 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-cobalt disabled:pointer-events-none disabled:opacity-40 dark:bg-blue-500 dark:hover:bg-blue-400; }
+  .button-secondary { @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-black/10 bg-white px-4 py-2.5 text-sm font-bold text-ink transition hover:border-cobalt/30 hover:bg-blue-50 disabled:pointer-events-none disabled:opacity-40 dark:border-white/10 dark:bg-white/5 dark:text-white dark:hover:bg-white/10; }
+  .chip { @apply inline-flex items-center gap-1.5 rounded-full border border-black/[0.08] bg-white px-2.5 py-1 text-xs font-semibold text-slate-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-300; }
+  .input { @apply min-h-11 w-full rounded-xl border border-black/10 bg-white px-3.5 text-sm text-ink placeholder:text-slate-400 focus:border-cobalt dark:border-white/10 dark:bg-slate-950/40 dark:text-white; }
+  .section-title { @apply text-lg font-extrabold tracking-[-0.025em] text-ink dark:text-white; }
+  .prose-study h3 { @apply mt-7 text-base font-extrabold text-ink dark:text-white; }
+  .prose-study p { @apply mt-2 text-sm leading-7 text-slate-600 dark:text-slate-300; }
+  .prose-study ul { @apply mt-3 space-y-2; }
+  .prose-study li { @apply flex gap-2 text-sm leading-6 text-slate-600 dark:text-slate-300; }
+}
+
+.noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.035'/%3E%3C/svg%3E");
+}
+
+.scrollbar-thin { scrollbar-width: thin; scrollbar-color: rgba(100,116,139,.35) transparent; }
+.safe-bottom { padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+}
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; }
+  .surface, .surface-flat { box-shadow: none; break-inside: avoid; }
+}
