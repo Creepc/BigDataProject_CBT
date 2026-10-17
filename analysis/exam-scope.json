@@ -1,0 +1,9 @@
+{
+  "description": "중간고사 범위는 Netflix까지이며 이후 별도 데이터셋 실습은 제외한다.",
+  "excludedUnits": ["web-u6"],
+  "excludedConcepts": ["web-c32"],
+  "excludedQuestions": ["web-q26", "web-q43"],
+  "excludedFlashcards": ["web-fc32", "web-fc44"],
+  "excludedPages": { "web3": [19, 20, 23] },
+  "partialPages": { "web3": [18, 21, 22] }
+}

@@ -5,12 +5,15 @@ import { spawnSync } from 'node:child_process'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const python = process.argv[2] ?? 'python'
+const examScope = JSON.parse(fs.readFileSync(path.join(root, 'analysis', 'exam-scope.json'), 'utf8'))
+const excludedConcepts = new Set(examScope.excludedConcepts)
 const normalize = (value) => value.replace(/\r\n/g, '\n').split('\n').map((line) => line.trimEnd()).join('\n').trim()
 const failures = []
 let checked = 0
 for (const file of ['lessons-notion12.json', 'lessons-notion34.json', 'lessons-web123.json']) {
   const { lessons } = JSON.parse(fs.readFileSync(path.join(root, 'analysis', file), 'utf8'))
   for (const lesson of lessons) {
+    if (excludedConcepts.has(lesson.conceptId)) continue
     const example = lesson.codeExample
     if (!example || example.language !== 'python') continue
     checked += 1

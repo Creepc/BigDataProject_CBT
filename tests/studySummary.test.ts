@@ -62,6 +62,12 @@ describe('flashcard review queues', () => {
 })
 
 describe('exam summary and source connections', () => {
+  it('does not offer excluded source pages in study search', () => {
+    const scopedData = { ...data, pageSummaries: [...data.pageSummaries, { fileId: 'file', page: 2, title: '제외된 추가 실습', keyPoints: ['검색용 금지 문구'], visuals: [], codes: [], excludedFromExam: true }] }
+    expect(searchConnectedPages(scopedData, '금지 문구')).toEqual([])
+    expect(searchConnectedPages(scopedData, '핵심 개념')).toHaveLength(1)
+  })
+
   it('groups terms, important concepts, misconceptions, comparisons, and cards by unit', () => {
     const [summary] = buildUnitExamSummaries(data)
     expect(summary.highImportanceConcepts).toEqual([concept])

@@ -13,6 +13,8 @@ export interface SourceFile {
   pageCount: number
   analyzedPages: number[]
   unreadablePages: number[]
+  excludedPages?: number[]
+  partialPages?: number[]
   topics: string[]
   color: string
   note?: string
@@ -25,6 +27,7 @@ export interface PageSummary {
   keyPoints: string[]
   visuals: string[]
   codes: string[]
+  excludedFromExam?: boolean
 }
 
 export interface ConceptLesson {

@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { BookOpen, CheckCircle2, ExternalLink, Eye, FileCheck2, FileSearch, HelpCircle, Search, ShieldCheck } from 'lucide-react'
 import type { CourseData, NavigationTarget, PageSummary } from '@/types'
 import { pdfPageUrl } from '@/lib/assets'
+import { formatPages } from '@/lib/study'
 import { searchConnectedPages } from '@/lib/studySummary'
 import { PageHeader, ProgressBar, SearchInput, Stat } from '@/components/ui'
 
@@ -27,7 +28,7 @@ export function SourcesPage({ data, navigate }: { data: CourseData; navigate: (t
 
   return (
     <div className="animate-enter">
-      <PageHeader eyebrow="SOURCE AUDIT" title="강의자료 분석 현황" copy="'모든 페이지를 확인함'과 '모든 페이지가 시험 내용임'을 구분합니다. 페이지별 텍스트와 시각 요소를 확인했으며, 개념과 문항은 시험 관련성이 있는 근거에만 연결했습니다." />
+      <PageHeader eyebrow="SOURCE AUDIT" title="강의자료 분석 현황" copy="중간고사 범위는 Netflix까지입니다. 원본 PDF 전체의 확인 기록은 보존하되, 범위 밖의 추가 실습은 개념·문항·카드와 페이지 검색에서 제외했습니다." />
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
         <Stat icon={<FileCheck2 size={18} />} label="분석한 PDF" value={`${data.files.length}개`} detail="제공 파일 전체" />
         <Stat icon={<CheckCircle2 size={18} />} label="확인한 페이지" value={`${analyzedPages}쪽`} detail={`전체 ${totalPages}쪽`} tone="green" />
@@ -55,6 +56,7 @@ export function SourcesPage({ data, navigate }: { data: CourseData; navigate: (t
               </div>
               <div className="mt-4 flex flex-wrap gap-2">{selected.topics.map((topic) => <span key={topic} className="chip">#{topic}</span>)}</div>
               {selected.note && <p className="mt-4 rounded-xl bg-amber-50 px-4 py-3 text-xs leading-6 text-amber-900 dark:bg-amber-500/10 dark:text-amber-200">{selected.note}</p>}
+              {Boolean(selected.excludedPages?.length) && <p className="mt-3 rounded-xl bg-rose-50 px-4 py-3 text-xs leading-6 text-rose-900 dark:bg-rose-500/10 dark:text-rose-200">시험 범위 제외: {formatPages(selected.excludedPages!)}. {selected.partialPages?.length ? `${formatPages(selected.partialPages)}은 Netflix 부분만 학습에 반영했습니다. ` : ''}원본 PDF에는 범위 밖의 추가 실습도 포함되어 있습니다.</p>}
             </div>
             <iframe title={`${selected.shortTitle}${selectedPage ? ` ${selectedPage}쪽` : ''} PDF 미리보기`} src={pdfPageUrl(selected, selectedPage)} className="h-[68vh] w-full bg-slate-100 dark:bg-slate-950" />
           </div>}

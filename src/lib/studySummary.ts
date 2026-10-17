@@ -96,6 +96,7 @@ export const searchConnectedPages = (data: CourseData, query: string, limit = 60
   if (normalized.length < 2) return []
 
   return data.pageSummaries
+    .filter((page) => !page.excludedFromExam)
     .map((page) => connectPageToStudyItems(data, page))
     .filter(({ page, concepts, questions }) => [
       page.title,

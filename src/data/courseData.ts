@@ -11,6 +11,8 @@ export const courseData: CourseData = {
       "week": 1,
       "kind": "노션",
       "pageCount": 63,
+      "excludedPages": [],
+      "partialPages": [],
       "analyzedPages": [
         1,
         2,
@@ -98,6 +100,8 @@ export const courseData: CourseData = {
       "week": 2,
       "kind": "노션",
       "pageCount": 15,
+      "excludedPages": [],
+      "partialPages": [],
       "analyzedPages": [
         1,
         2,
@@ -137,6 +141,8 @@ export const courseData: CourseData = {
       "week": 3,
       "kind": "노션",
       "pageCount": 26,
+      "excludedPages": [],
+      "partialPages": [],
       "analyzedPages": [
         1,
         2,
@@ -187,6 +193,8 @@ export const courseData: CourseData = {
       "week": 4,
       "kind": "노션",
       "pageCount": 68,
+      "excludedPages": [],
+      "partialPages": [],
       "analyzedPages": [
         1,
         2,
@@ -279,6 +287,8 @@ export const courseData: CourseData = {
       "week": 1,
       "kind": "웹사이트",
       "pageCount": 13,
+      "excludedPages": [],
+      "partialPages": [],
       "analyzedPages": [
         1,
         2,
@@ -313,6 +323,8 @@ export const courseData: CourseData = {
       "week": 2,
       "kind": "웹사이트",
       "pageCount": 42,
+      "excludedPages": [],
+      "partialPages": [],
       "analyzedPages": [
         1,
         2,
@@ -377,6 +389,16 @@ export const courseData: CourseData = {
       "week": 3,
       "kind": "웹사이트",
       "pageCount": 90,
+      "excludedPages": [
+        19,
+        20,
+        23
+      ],
+      "partialPages": [
+        18,
+        21,
+        22
+      ],
       "analyzedPages": [
         1,
         2,
@@ -473,7 +495,6 @@ export const courseData: CourseData = {
       "topics": [
         "엄밀한 Netflix 카탈로그 EDA",
         "Netflix 입문 분석·시각화·관계 분석 부록",
-        "Titanic 집단별 EDA",
         "네트워크·텍스트·추천·머신러닝",
         "관찰 단위",
         "질문-변수 적합성",
@@ -3553,7 +3574,7 @@ export const courseData: CourseData = {
       "page": 1,
       "title": "표지",
       "keyPoints": [
-        "3주차 주제는 Netflix 카탈로그와 Titanic 승객 데이터 EDA다."
+        "시험 범위의 3주차 주제는 Netflix 카탈로그를 이용한 데이터 EDA다."
       ],
       "visuals": [
         "웹 강의 화면 목업과 WEEK 03 표지"
@@ -3822,55 +3843,45 @@ export const courseData: CourseData = {
     {
       "fileId": "web3",
       "page": 18,
-      "title": "평가 기준과 Titanic 도입",
+      "title": "Netflix 분석 제출물과 평가 기준",
       "keyPoints": [
-        "평가는 질문·변수 적합성 20, 품질 근거 25, 재현성 20, 지표·차트 20, 사실·추정·한계 15%다.",
-        "Titanic train은 891×12와 Survived, test는 418×11이며 Survived가 없다.",
-        "Pclass는 숫자로 저장된 순서형 범주이고 PassengerId는 식별자다."
+        "Netflix 제출물은 실행 명세, 정제 데이터·장형 관계 테이블, EDA 차트·집계표, 분석 카드 3개 이상과 관찰 기록이다.",
+        "평가는 질문·변수 적합성 20, 품질 근거 25, 재현성 20, 지표·차트 20, 사실·추정·한계 15%다."
       ],
       "visuals": [
-        "평가 비중 표",
-        "Titanic 파일·열 표"
+        "Netflix 분석 평가 비중 표"
       ],
       "codes": []
     },
     {
       "fileId": "web3",
       "page": 19,
-      "title": "Titanic 결측·집단별 생존율",
+      "title": "시험 범위 밖의 추가 실습",
       "keyPoints": [
-        "train 생존자는 342명, 전체 생존율 약 38.4%, Age 결측 177, Cabin 결측 687건이다.",
-        "여성 1등급은 94명 중 91명, 여성 3등급은 144명 중 72명이 생존했다.",
-        "groupby의 size는 분모, sum은 분자, mean은 비율이다."
+        "사용자가 지정한 중간고사 범위에 포함되지 않는 추가 실습 페이지입니다."
       ],
-      "visuals": [
-        "Titanic 2×2 차트 코드 시작"
-      ],
-      "codes": [
-        "groupby(['Sex','Pclass']).agg",
-        "countplot·barplot·histplot·boxplot"
-      ]
+      "visuals": [],
+      "codes": [],
+      "excludedFromExam": true
     },
     {
       "fileId": "web3",
       "page": 20,
-      "title": "Titanic 4분할 EDA",
+      "title": "시험 범위 밖의 추가 실습",
       "keyPoints": [
-        "차트는 생존 인원, 성별×등급 생존율, 기록된 나이 분포, 등급별 요금 분포를 보여준다.",
-        "상자그림 점을 숨기는 것은 행 삭제가 아니며 FamilySize는 기록 동행자 기반 근사치다.",
-        "PassengerId·Pclass·Embarked를 연속 수치 평균·상관으로 해석하지 않는다."
+        "사용자가 지정한 중간고사 범위에 포함되지 않는 추가 실습 페이지입니다."
       ],
-      "visuals": [
-        "그림 3-15 2×2 EDA 패널"
-      ],
-      "codes": []
+      "visuals": [],
+      "codes": [],
+      "excludedFromExam": true
     },
     {
       "fileId": "web3",
       "page": 21,
-      "title": "3주차 요약과 퀴즈 1~3",
+      "title": "Netflix EDA 요약과 퀴즈 1~3",
       "keyPoints": [
         "관찰 단위·질문에 필요한 열·원본 보존·프로파일링·단위·다중값·분모·한계를 요약한다.",
+        "Netflix 카탈로그의 구성은 분석할 수 있지만 시청량·선호·가입·매출·투자·인과는 카탈로그만으로 설명하지 못한다.",
         "Dataset/Code, 첫 구조 확인, Unknown 대체의 의미를 묻는다."
       ],
       "visuals": [
@@ -3881,9 +3892,9 @@ export const courseData: CourseData = {
     {
       "fileId": "web3",
       "page": 22,
-      "title": "퀴즈 4~8",
+      "title": "Netflix 퀴즈 4~7",
       "keyPoints": [
-        "duration 단위, 다대다 관계 수, 부분 연도·생존 편향, 인기 추가 데이터, Titanic test의 Survived 부재를 확인한다."
+        "Movie·TV Show의 duration 단위, 다대다 관계 수, 부분 연도·스냅샷 생존 편향, 인기를 판단하는 데 필요한 추가 데이터를 확인한다."
       ],
       "visuals": [
         "객관식 퀴즈"
@@ -3893,14 +3904,13 @@ export const courseData: CourseData = {
     {
       "fileId": "web3",
       "page": 23,
-      "title": "퀴즈 9~11",
+      "title": "시험 범위 밖의 추가 실습",
       "keyPoints": [
-        "여성 1등급 생존율 96.8%, 평균 대체 왜곡, 관찰 차이와 인과 구분을 확인한다."
+        "사용자가 지정한 중간고사 범위에 포함되지 않는 추가 실습 페이지입니다."
       ],
-      "visuals": [
-        "객관식 퀴즈"
-      ],
-      "codes": []
+      "visuals": [],
+      "codes": [],
+      "excludedFromExam": true
     },
     {
       "fileId": "web3",
@@ -17480,18 +17490,16 @@ export const courseData: CourseData = {
       "pages": [
         2,
         3,
-        4,
-        18,
-        19
+        4
       ],
       "definition": "데이터 한 행 또는 분석 표 한 행이 무엇을 나타내는지에 대한 정의다.",
-      "easyExplanation": "한 줄이 작품인지 사용자 시청인지 승객인지 먼저 정하는 것이다.",
+      "easyExplanation": "한 줄이 작품인지 작품-배우 관계인지 사용자 시청 기록인지 먼저 정하는 것이다.",
       "mechanism": [
         "관찰 단위가 분자·분모·중복·결론의 범위를 결정한다."
       ],
       "examples": [
         "Netflix 한 행=콘텐츠",
-        "Titanic 한 행=승객",
+        "배우 장형 표 한 행=콘텐츠-배우 관계",
         "장르 표 한 행=콘텐츠-장르 관계"
       ],
       "comparisons": [
@@ -17521,8 +17529,7 @@ export const courseData: CourseData = {
         "주어진 질문의 관찰 단위 찾기"
       ],
       "relatedQuestionIds": [
-        "web-q13",
-        "web-q43"
+        "web-q13"
       ],
       "lesson": {
         "conceptId": "web-c19",
@@ -17545,8 +17552,8 @@ export const courseData: CourseData = {
           {
             "title": "한 행이 무엇인지부터 말한다",
             "paragraphs": [
-              "Netflix 카탈로그 원본 한 행은 특정 작품의 메타데이터다. 사용자가 영화를 본 사건도, 감독 한 명의 기록도 아니다. Titanic 한 행은 승객 한 명이다. 한 행을 무엇으로 정의하느냐가 셀 수 있는 것과 말할 수 있는 결론을 결정한다. title의 '7:19'처럼 숫자처럼 보이는 문자열도 이 맥락에서는 작품명이다.",
-              "표를 읽을 때 ID·시간·결과 변수를 구분한다. show_id는 작품 키, date_added는 등록 사건, rating은 시청 등급이다. PassengerId는 승객 키, Survived는 관측된 생존 결과다. 식별자의 평균이나 콘텐츠 수를 시청 횟수로 해석하는 것은 관찰 단위를 잘못 바꾼 예다."
+              "Netflix 카탈로그 원본 한 행은 특정 작품의 메타데이터다. 사용자가 영화를 본 사건도, 감독 한 명의 기록도 아니다. cast를 explode한 장형 표 한 행은 작품-배우 관계 한 건이다. 한 행을 무엇으로 정의하느냐가 셀 수 있는 것과 말할 수 있는 결론을 결정한다. title의 '7:19'처럼 숫자처럼 보이는 문자열도 이 맥락에서는 작품명이다.",
+              "표를 읽을 때 식별자·시간·분류 변수를 구분한다. show_id는 작품 키, date_added는 등록 날짜, rating은 시청 등급이다. release_year는 공개연도이고 시청 횟수나 사용자 평점에 해당하는 열은 없다. 식별자의 평균이나 콘텐츠 수를 시청 횟수로 해석하는 것은 열의 역할과 관찰 단위를 잘못 바꾼 예다."
             ]
           },
           {
@@ -17606,9 +17613,7 @@ export const courseData: CourseData = {
             "pages": [
               2,
               3,
-              4,
-              18,
-              19
+              4
             ]
           }
         ],
@@ -18063,9 +18068,7 @@ export const courseData: CourseData = {
       "pages": [
         8,
         9,
-        12,
-        19,
-        20
+        12
       ],
       "definition": "MCAR·MAR·MNAR 가능성을 진단하고 처리 전후 분석 유효 표본 수와 집단 구성을 보고하는 원칙이다.",
       "easyExplanation": "빈칸이 누구에게서 빠졌는지에 따라 삭제 결과가 달라질 수 있다.",
@@ -18073,8 +18076,8 @@ export const courseData: CourseData = {
         "전체·유형·연도별 결측률을 비교하고 유지·제외·대체·범주화를 질문별로 선택한다."
       ],
       "examples": [
-        "Age 177 결측인 Titanic 히스토그램 분모는 714",
-        "director 유효 N=5,398작품"
+        "director 결측 2,389건을 제외한 감독 분석 유효 N은 7,787-2,389=5,398작품",
+        "cast 결측 718건을 제외한 배우 분석 유효 N은 7,787-718=7,069작품"
       ],
       "comparisons": [
         {
@@ -18091,8 +18094,7 @@ export const courseData: CourseData = {
       ],
       "relatedConceptIds": [
         "web-c22",
-        "web-c26",
-        "web-c32"
+        "web-c26"
       ],
       "level": "시험 대비",
       "difficulty": "어려움",
@@ -18106,8 +18108,7 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "web-q16",
-        "web-q35",
-        "web-q43"
+        "web-q35"
       ],
       "lesson": {
         "conceptId": "web-c23",
@@ -18138,7 +18139,7 @@ export const courseData: CourseData = {
             "title": "분석마다 필요한 분모가 다르다",
             "paragraphs": [
               "배우 순위는 cast가 있는 작품이, 감독 순위는 director가 있는 작품이 대상이다. 감독이 비어 있다는 이유로 전체 작품을 삭제하면 감독이 필요 없는 유형별 구성 분석까지 표본이 줄어든다. 필요한 열 기준으로 분석 대상과 제외 N을 정하고 전체 대비 어떤 집단을 더 잃었는지 확인한다.",
-              "Titanic의 Age는 177행이 결측이므로 기본 나이 히스토그램은 891명이 아니라 714명의 기록된 나이를 보여준다. 생존율 분석에는 Age가 필수가 아닐 수 있으므로 두 분석의 분모를 같게 만들 필요가 없다. 표·차트 제목에 전체 N과 분석 유효 N을 구분해서 적는다."
+              "수업 Netflix 파일은 전체 7,787작품 중 director가 2,389건 결측이므로 감독별 작품 수 분석에 쓰는 유효 N은 5,398작품이다. 유형별 구성 분석에는 director가 필수가 아니므로 감독 결측 작품을 제외할 필요가 없다. 전체 작품을 다루는 유형 분포와 감독이 기록된 작품만 다루는 순위는 분석 대상이 다르다. 표·차트 제목에 전체 N과 분석 유효 N을 구분해서 적는다."
             ]
           },
           {
@@ -18191,9 +18192,7 @@ export const courseData: CourseData = {
             "pages": [
               8,
               9,
-              12,
-              19,
-              20
+              12
             ]
           }
         ],
@@ -18528,16 +18527,15 @@ export const courseData: CourseData = {
         6,
         11,
         12,
-        13,
-        19
+        13
       ],
       "definition": "비율이 무엇을 전체로 삼는지와 유효 N을 명시해 같은 건수도 다른 질문에 답함을 구분하는 원칙이다.",
       "easyExplanation": "몇 개인지만 말하지 말고 무엇 중 몇 개인지 말한다.",
       "mechanism": [
-        "콘텐츠 보유율, 관계 구성비, 장르 내부 등급 비율, 집단 생존율을 각기 다른 분모로 계산한다."
+        "콘텐츠 보유율, 관계 구성비, 장르 내부 등급 비율, 유형별 구성비를 각기 다른 분모로 계산한다."
       ],
       "examples": [
-        "여성 1등급 91/94=96.8%",
+        "Movie 구성비는 5,377/7,787≈69.1%",
         "장르별 보유율 합은 복수 소속 때문에 100% 초과 가능"
       ],
       "comparisons": [
@@ -18556,8 +18554,7 @@ export const courseData: CourseData = {
       "relatedConceptIds": [
         "web-c19",
         "web-c23",
-        "web-c29",
-        "web-c32"
+        "web-c29"
       ],
       "level": "심화",
       "difficulty": "보통",
@@ -18573,7 +18570,6 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "web-q21",
         "web-q22",
-        "web-q26",
         "web-q36",
         "web-q44"
       ],
@@ -18612,8 +18608,8 @@ export const courseData: CourseData = {
           {
             "title": "정규화해도 표본 크기의 정보는 남겨야 한다",
             "paragraphs": [
-              "두 집단의 규모가 다르면 원시 건수는 큰 집단을 강조한다. 행 구성비는 내부 구조를 비교하기 좋지만 2명 중 1명과 2,000명 중 1,000명의 50%는 안정성이 같지 않다. 비율과 집단 N을 함께 보고 작은 집단의 순위나 미세 차이를 과장하지 않는다.",
-              "Titanic 생존율에서는 해당 집단 인원 size가 분모, Survived의 sum이 분자다. 여성 1등급의 91/94와 전체 342/891은 서로 다른 모집단 조건을 요약한다. 비율 차이는 관찰 차이지 성별·등급이 원인이라는 증명이 아니다. 비율은 규모 차이를 조절하지만 교란·선택 편향을 자동으로 제거하지 않는다."
+              "두 집단의 규모가 다르면 원시 건수는 큰 집단을 강조한다. 행 구성비는 내부 구조를 비교하기 좋지만 2작품 중 1작품과 2,000작품 중 1,000작품의 50%는 안정성이 같지 않다. 비율과 집단 N을 함께 보고 작은 집단의 순위나 미세 차이를 과장하지 않는다.",
+              "Netflix 전체 유형 구성에서 Movie 비율은 5,377/7,787≈69.1%다. 반면 장르별 등급 행 비율은 각 장르 안에서 해당 교차표에 포함된 작품-장르 관계 수를 분모로 삼으므로 서로 다른 질문에 답한다. 장르별 등급 구성의 차이는 카탈로그에서 관찰한 차이이지 장르가 이용자 선호나 시청 행동을 일으켰다는 증명이 아니다. 비율은 규모 차이를 조절하지만 교란·선택 편향을 자동으로 제거하지 않는다."
             ]
           }
         ],
@@ -18660,8 +18656,7 @@ export const courseData: CourseData = {
               6,
               11,
               12,
-              13,
-              19
+              13
             ]
           }
         ],
@@ -18758,13 +18753,13 @@ export const courseData: CourseData = {
             "title": "변수 유형과 질문을 먼저 정한다",
             "paragraphs": [
               "콘텐츠 유형·등급처럼 범주별 개수를 비교할 때는 빈도 막대가 직접적이다. Movie 상영시간처럼 연속형에 가까운 수치는 히스토그램과 박스플롯으로 분포 모양과 산포를 본다. TV 시즌 수는 이산 수치여서 각 시즌 수별 빈도 막대가 읽기 좋다. 숫자 열이라고 모두 선으로 잇는 것은 적절하지 않다.",
-              "정렬 방식도 질문에 맞춘다. 장르 Top 10은 빈도 내림차순이 비교에 유리하지만 월별 패턴은 1월부터 12월 순서를 유지한다. Pclass 1·2·3은 순서형 범주이며 PassengerId는 식별자다. 저장 타입보다 데이터가 나타내는 의미를 먼저 판단한다."
+              "정렬 방식도 질문에 맞춘다. 장르 Top 10은 빈도 내림차순이 비교에 유리하지만 월별 패턴은 1월부터 12월 순서를 유지한다. rating은 시청 등급 범주이며 show_id는 식별자다. release_year처럼 숫자로 저장된 연도도 시간 순서와 분석 목적에 맞춰 집계한다. 저장 타입보다 데이터가 나타내는 의미를 먼저 판단한다."
             ]
           },
           {
             "title": "막대의 높이가 무엇인지 읽는다",
             "paragraphs": [
-              "빈도 막대는 각 범주의 건수를, 요약 막대는 범주별 평균·비율 같은 계산값을 나타낼 수 있다. 같은 막대 모양이어도 y축과 집계 함수를 확인해야 한다. countplot의 높이를 평균 상영시간으로 읽거나 생존율 막대를 생존자 수로 읽으면 그래프 유형을 알아도 의미 해석은 틀린다.",
+              "빈도 막대는 각 범주의 건수를, 요약 막대는 범주별 평균·비율 같은 계산값을 나타낼 수 있다. 같은 막대 모양이어도 y축과 집계 함수를 확인해야 한다. countplot의 높이를 평균 상영시간으로 읽거나 유형별 구성비 막대를 작품 건수로 읽으면 그래프 유형을 알아도 의미 해석은 틀린다.",
               "히스토그램은 수치를 구간에 넣고 그 구간의 개수나 밀도를 표현한다. 같은 데이터도 bin 폭이 너무 넓으면 세부 구조가 숨고 너무 좁으면 요동이 커진다. KDE 곡선이 있으면 평활화한 분포 추정이며 실제 관측 빈도 자체가 아니다. 분포 결론이 구간 설정에 민감한지도 비교한다."
             ]
           },
@@ -18836,8 +18831,6 @@ export const courseData: CourseData = {
         11,
         12,
         13,
-        19,
-        20,
         50,
         51,
         52
@@ -18849,7 +18842,7 @@ export const courseData: CourseData = {
       ],
       "examples": [
         "등급별 Movie 상영시간",
-        "Pclass별 Fare"
+        "등록연도별 Movie 상영시간 분포"
       ],
       "comparisons": [
         {
@@ -18969,8 +18962,6 @@ export const courseData: CourseData = {
               11,
               12,
               13,
-              19,
-              20,
               50,
               51,
               52
@@ -19463,158 +19454,6 @@ export const courseData: CourseData = {
       }
     },
     {
-      "id": "web-c32",
-      "name": "집단별 생존율",
-      "unit": "Titanic 집단별 EDA",
-      "fileId": "web3",
-      "pages": [
-        18,
-        19,
-        20,
-        23
-      ],
-      "definition": "Survived 평균을 집단 인원 size를 분모로 계산해 성별·등급 등 복합 집단을 비교하는 지표다.",
-      "easyExplanation": "같은 성별도 객실 등급별로 나누어 몇 명 중 몇 명이 살았는지 본다.",
-      "mechanism": [
-        "groupby(['Sex','Pclass']).agg(size,sum,mean)으로 N·분자·비율을 함께 보고한다."
-      ],
-      "examples": [
-        "여성 1등급 91/94",
-        "여성 3등급 72/144"
-      ],
-      "comparisons": [
-        {
-          "target": "비교 1",
-          "difference": "전체 생존율 38.4%와 집단별 비율은 분모가 다르다."
-        }
-      ],
-      "examPoints": [
-        "다변수 질문",
-        "관찰 차이와 인과 구분"
-      ],
-      "misconceptions": [
-        "성별·등급 차트만으로 직접 원인을 증명하는 것"
-      ],
-      "relatedConceptIds": [
-        "web-c19",
-        "web-c23",
-        "web-c26",
-        "web-c34"
-      ],
-      "level": "심화",
-      "difficulty": "보통",
-      "importance": 5,
-      "evidenceType": "강의자료",
-      "tags": [
-        "집단별 생존율",
-        "Titanic 집단별 EDA",
-        "다변수 질문",
-        "관찰 차이와 인과 구분"
-      ],
-      "relatedQuestionIds": [
-        "web-q26",
-        "web-q43"
-      ],
-      "lesson": {
-        "conceptId": "web-c32",
-        "objectives": [
-          "집단별 인원·생존자·생존율을 계산한다.",
-          "성별과 등급의 복합 집단으로 단순 평균을 확장한다.",
-          "관찰 집단 차이와 생존 원인 주장을 구분한다."
-        ],
-        "prerequisites": [
-          {
-            "term": "이진 결과",
-            "explanation": "Survived처럼 0과 1로 기록한 결과다. 결측이 없다면 평균은 1의 비율과 같다."
-          },
-          {
-            "term": "그룹 집계",
-            "explanation": "같은 범주 조합의 행을 모아 size·sum·mean 등으로 요약하는 연산이다."
-          }
-        ],
-        "sections": [
-          {
-            "title": "0·1 평균이 비율이 되는 이유",
-            "paragraphs": [
-              "Survived는 생존 1, 사망 0이다. 한 집단의 값을 더하면 생존자 수이고 전체 집단 인원으로 나누면 생존율이다. 따라서 결과 결측이 없으면 mean과 sum/size가 같다. size는 행 수, count는 결측이 아닌 결과 수를 세므로 결과가 비어 있으면 두 분모가 다를 수 있다.",
-              "교안의 Titanic train은 실제 생존 결과가 있는 891명이고 전체 생존자는 342명이다. test에는 Survived가 없으므로 test만으로 실제 생존율이나 정확도를 계산하지 않는다. gender_submission은 제출 형식 예시이지 test의 정답으로 취급할 자료가 아니다."
-            ]
-          },
-          {
-            "title": "성별 평균 뒤의 등급 구성을 본다",
-            "paragraphs": [
-              "성별만 묶으면 각 성별의 전체 비율을 알 수 있지만 객실 등급 구성이 섞여 있다. groupby(['Sex','Pclass'])로 나누면 같은 성별 안의 등급별 차이를 볼 수 있다. 교안의 여성 1등급은 91/94≈96.8%, 여성 3등급은 72/144=50.0%로 분모가 서로 다르다.",
-              "이때 생존자 수 91과 72만 비교하면 각 집단 인원이 다르다는 정보를 놓친다. 비율만 놓아도 N이 작은 집단의 흔들림을 놓칠 수 있으므로 size·sum·mean을 함께 보고한다. 그래프의 y축이 mean이면 비율 막대이고 sum이면 생존자 건수 막대라는 점도 구분한다."
-            ]
-          },
-          {
-            "title": "차이를 관찰한 것과 원인을 확인한 것은 다르다",
-            "paragraphs": [
-              "성별·등급별 생존율 차이는 이 파일에서 관측된 사실이다. 이것만으로 성별이나 등급이 생존의 유일한 원인이라고 말하지 않는다. 나이·가족·객실 위치·구조 절차 등 함께 변하는 요인과 기록·선택 구조를 검토해야 한다. 변수를 여러 개로 나눈 표가 자동으로 인과 설계가 되는 것은 아니다.",
-              "Age가 필요한 비교라면 나이가 있는 승객만 남아 집단 N과 구성이 바뀐다. 나이가 필요 없는 성별×등급 생존율까지 Age 결측 때문에 삭제할 필요는 없다. FamilySize=SibSp+Parch+1도 파일의 동행자 수 근사치라는 정의를 유지해야 하며 완전한 실제 가족 관계로 확대하지 않는다."
-            ]
-          }
-        ],
-        "workedExample": {
-          "title": "작은 표에서 복합 생존율 구하기",
-          "scenario": "실제 Titanic 통계가 아닌 학습용 승객 여섯 명으로 size·sum·mean을 확인한다.",
-          "steps": [
-            {
-              "title": "집단 만들기",
-              "explanation": "여성 1등급 세 명, 여성 3등급 두 명, 남성 3등급 한 명을 각각 같은 집단으로 묶는다."
-            },
-            {
-              "title": "분자·분모",
-              "explanation": "가상 여성 1등급은 2/3=66.7%, 여성 3등급은 1/2=50.0%, 남성 3등급은 0/1=0%다."
-            },
-            {
-              "title": "해석 제한",
-              "explanation": "마지막 집단은 N=1이므로 0%를 해당 집단 전체의 안정적 성향처럼 일반화하지 않는다. 관측된 작은 표의 결과로 한정한다."
-            }
-          ],
-          "conclusion": "복합질문은 집단을 더 나누는 일과 분모·표본 크기·해석 한계를 함께 관리하는 일이다."
-        },
-        "checks": [
-          {
-            "question": "생존자 수가 많으면 생존율도 반드시 높은가?",
-            "answer": "아니다.",
-            "explanation": "집단 인원이 다르면 분자 순위와 분자/분모의 비율 순위가 달라질 수 있다."
-          },
-          {
-            "question": "성별×등급 표는 곧 생존의 원인 증명인가?",
-            "answer": "아니다.",
-            "explanation": "관측 차이이며 함께 변하는 다른 요인과 선택·기록 구조를 통제한 설계가 별도로 필요하다."
-          }
-        ],
-        "takeaways": [
-          "size=집단 인원, sum=생존자, mean=유효 결과의 생존 비율이다.",
-          "성별×등급처럼 복합 집단에서도 N을 함께 본다.",
-          "train의 관찰 차이를 test 정답이나 인과로 확대하지 않는다."
-        ],
-        "sourceRefs": [
-          {
-            "fileId": "web3",
-            "pages": [
-              18,
-              19,
-              20,
-              23
-            ]
-          }
-        ],
-        "codeExample": {
-          "language": "python",
-          "code": "import pandas as pd\n\n# 학습용 가상 승객 데이터\ndf = pd.DataFrame({'Sex': ['female'] * 5 + ['male'],\n                   'Pclass': [1, 1, 1, 3, 3, 3],\n                   'Survived': [1, 1, 0, 1, 0, 0]})\nrates = df.groupby(['Sex', 'Pclass'])['Survived'].agg(['size', 'sum', 'mean'])\nfor (sex, pclass), row in rates.iterrows():\n    print(f\"{sex} {pclass}등급: {int(row['sum'])}/{int(row['size'])}, {row['mean']:.1%}\")",
-          "expectedOutput": "female 1등급: 2/3, 66.7%\nfemale 3등급: 1/2, 50.0%\nmale 3등급: 0/1, 0.0%",
-          "explanation": "0·1 결과를 집단별로 합하고 평균내어 분자·분모·비율을 함께 확인한다.",
-          "notes": [
-            "예제 결과는 실제 Titanic 집단 수치가 아니다.",
-            "Survived 결측이 있다면 size와 count 및 유효 결과 N을 구분한다."
-          ]
-        }
-      }
-    },
-    {
       "id": "web-c33",
       "name": "그래프 식별과 의미 읽기",
       "unit": "Netflix 입문 분석·시각화·관계 분석 부록",
@@ -19624,7 +19463,6 @@ export const courseData: CourseData = {
         12,
         13,
         14,
-        20,
         43,
         48,
         49,
@@ -19714,7 +19552,7 @@ export const courseData: CourseData = {
             "title": "이름 맞히기 다음에 무엇을 읽을까",
             "paragraphs": [
               "막대는 범주별 값 비교, 히스토그램은 수치 구간의 분포, 선은 시간 순서의 변화, 산점도는 개별 관측의 두 수치 관계를 보여준다. 박스플롯은 위치·산포·검토점을, 히트맵은 격자 셀 값을 색으로, 네트워크는 노드·엣지 관계를 표현한다. 워드클라우드는 설정한 전처리 아래 단어 빈도를 크기로 나타낸다.",
-              "그래프 이름만 맞혔다면 분석의 시작이다. x·y·색·크기·패널이 각각 무엇이고 관찰 단위가 무엇인지 말해야 한다. 같은 막대도 콘텐츠 건수, 평균 상영시간, 생존율을 표시할 수 있다. y축을 보지 않고 '높으니 좋다' 또는 '인기 많다'라고 해석하지 않는다."
+              "그래프 이름만 맞혔다면 분석의 시작이다. x·y·색·크기·패널이 각각 무엇이고 관찰 단위가 무엇인지 말해야 한다. 같은 막대도 콘텐츠 건수, 평균 상영시간, 유형별 구성비를 표시할 수 있다. y축을 보지 않고 '높으니 좋다' 또는 '인기 많다'라고 해석하지 않는다."
             ]
           },
           {
@@ -19776,7 +19614,6 @@ export const courseData: CourseData = {
               12,
               13,
               14,
-              20,
               43,
               48,
               49,
@@ -19808,7 +19645,6 @@ export const courseData: CourseData = {
         13,
         14,
         16,
-        19,
         50,
         55,
         57,
@@ -19821,7 +19657,7 @@ export const courseData: CourseData = {
         "1차 질문 결과→교란·세분 집단→정규화 지표→민감도 기준으로 질문을 갱신한다."
       ],
       "examples": [
-        "type×Pclass별 생존율",
+        "type×added_year별 등록 건수",
         "genre×rating 건수와 행 비율",
         "연도×유형 등록 추이"
       ],
@@ -19841,7 +19677,6 @@ export const courseData: CourseData = {
       "relatedConceptIds": [
         "web-c20",
         "web-c26",
-        "web-c32",
         "web-c41",
         "web-c42"
       ],
@@ -19949,7 +19784,6 @@ export const courseData: CourseData = {
               13,
               14,
               16,
-              19,
               50,
               55,
               57,
@@ -20729,7 +20563,6 @@ export const courseData: CourseData = {
         14,
         15,
         17,
-        20,
         53,
         54,
         55,
@@ -20897,7 +20730,6 @@ export const courseData: CourseData = {
               14,
               15,
               17,
-              20,
               53,
               54,
               55,
@@ -26000,7 +25832,7 @@ export const courseData: CourseData = {
       "type": "개념 정의",
       "review": "첫 행의 모든 셀이 누구에 속하는지 묻는다.",
       "memoryTip": "한 줄=한 콘텐츠.",
-      "additionalExample": "Titanic에서는 한 줄=승객 한 명이다.",
+      "additionalExample": "Netflix 원본 한 줄은 작품 한 건이고, cast를 explode한 장형 표 한 줄은 작품-배우 관계 한 건이다.",
       "supplemental": false
     },
     {
@@ -26378,7 +26210,6 @@ export const courseData: CourseData = {
             9,
             11,
             12,
-            20,
             51,
             52
           ]
@@ -26749,88 +26580,6 @@ export const courseData: CourseData = {
           }
         ],
         "note": "강의 본문의 실제 집계 재구성; 급증 기준은 +400건/년 이상으로 문제에서 명세"
-      }
-    },
-    {
-      "id": "web-q26",
-      "prompt": "Titanic 여성 1등급 승객 94명 중 91명이 생존했다. 생존율은 약 얼마인가?",
-      "mode": "single",
-      "options": [
-        {
-          "id": "o1",
-          "text": "38.4%",
-          "correct": false,
-          "explanation": "이는 전체 train 생존율이다. 이 선택지는 “38.4%”를 주장하지만, 대상·방향·순서·단위 또는 해석 범위 중 하나를 혼동한다. 핵심 기준인 “비율=분자/분모.”와 어긋나므로 정답이 될 수 없다. “집단 생존율은 91/94로 계산한다.”로 고치면 올바른 설명이 된다.",
-          "correctedStatement": "집단 생존율은 91/94로 계산한다."
-        },
-        {
-          "id": "o2",
-          "text": "96.8%",
-          "correct": true,
-          "explanation": "91÷94×100≈96.8이다. 이 선택지는 “96.8%”를 뜻하며, 핵심 판별 기준인 “비율=분자/분모.”와 일치한다. 따라서 문제의 조건에 직접 부합하는 정답이다.",
-          "correctedStatement": "분모는 여성 1등급 집단 94명이다."
-        },
-        {
-          "id": "o3",
-          "text": "50.0%",
-          "correct": false,
-          "explanation": "여성 3등급 72/144의 값이다. 이 선택지는 “50.0%”를 주장하지만, 대상·방향·순서·단위 또는 해석 범위 중 하나를 혼동한다. 핵심 기준인 “비율=분자/분모.”와 어긋나므로 정답이 될 수 없다. “여성 1등급은 약 96.8%다.”로 고치면 올바른 설명이 된다.",
-          "correctedStatement": "여성 1등급은 약 96.8%다."
-        },
-        {
-          "id": "o4",
-          "text": "91.0%",
-          "correct": false,
-          "explanation": "분자를 백분율로 그대로 읽었다. 이 선택지는 “91.0%”를 주장하지만, 대상·방향·순서·단위 또는 해석 범위 중 하나를 혼동한다. 핵심 기준인 “비율=분자/분모.”와 어긋나므로 정답이 될 수 없다. “생존자 수를 집단 인원으로 나눈다.”로 고치면 올바른 설명이 된다.",
-          "correctedStatement": "생존자 수를 집단 인원으로 나눈다."
-        }
-      ],
-      "conceptIds": [
-        "web-c26",
-        "web-c32"
-      ],
-      "sourceRefs": [
-        {
-          "fileId": "web3",
-          "pages": [
-            19,
-            23
-          ]
-        }
-      ],
-      "difficulty": "쉬움",
-      "type": "그래프 해석",
-      "review": "비율=분자/분모.",
-      "memoryTip": "91명 중 94명이 아니라 94명 중 91명.",
-      "additionalExample": "남성 3등급도 해당 집단의 생존자 수÷해당 집단 인원으로 계산한다.",
-      "professorFocus": "교수님 필기에 맞춰 그래프 유형·축·집계 단위·분모를 먼저 확인하고, “급격함”은 기울기와 수치 기준으로 명세합니다.",
-      "supplemental": false,
-      "visual": {
-        "kind": "bar",
-        "title": "Titanic 여성 승객의 등급별 인원과 생존자",
-        "xLabel": "여성 승객 집단",
-        "yLabel": "인원(명)",
-        "labels": [
-          "1등급",
-          "3등급"
-        ],
-        "series": [
-          {
-            "name": "전체 인원",
-            "values": [
-              94,
-              144
-            ]
-          },
-          {
-            "name": "생존자",
-            "values": [
-              91,
-              72
-            ]
-          }
-        ],
-        "note": "강의 본문의 실제 집단 수치 재구성"
       }
     },
     {
@@ -27496,7 +27245,6 @@ export const courseData: CourseData = {
           "pages": [
             12,
             13,
-            20,
             51,
             52
           ]
@@ -27732,63 +27480,6 @@ export const courseData: CourseData = {
       "review": "API는 존재 검증, 숫자는 실측 검증.",
       "memoryTip": "symbol-test, number-benchmark.",
       "additionalExample": "Docker 옵션도 --help에 없으면 초안을 폐기하고 다시 질의한다.",
-      "supplemental": false
-    },
-    {
-      "id": "web-q43",
-      "prompt": "Titanic EDA에 대한 올바른 설명을 모두 고르시오.",
-      "mode": "multiple",
-      "options": [
-        {
-          "id": "o1",
-          "text": "test.csv에는 Survived가 없어 실제 생존율을 계산할 수 없다.",
-          "correct": true,
-          "explanation": "결과 열이 없다. 이 선택지는 “test.csv에는 Survived가 없어 실제 생존율을 계산할 수 없다.”를 뜻하며, 핵심 판별 기준인 “열 역할·결측·분모를 구분한다.”와 일치한다. 따라서 문제의 조건에 직접 부합하는 정답이다.",
-          "correctedStatement": "train.csv로 생존율을 분석한다."
-        },
-        {
-          "id": "o2",
-          "text": "Age 히스토그램의 분모는 Age가 기록된 승객이다.",
-          "correct": true,
-          "explanation": "결측 177행은 기본 히스토그램에서 제외된다. 이 선택지는 “Age 히스토그램의 분모는 Age가 기록된 승객이다.”를 뜻하며, 핵심 판별 기준인 “열 역할·결측·분모를 구분한다.”와 일치한다. 따라서 문제의 조건에 직접 부합하는 정답이다.",
-          "correctedStatement": "유효 N을 명시한다."
-        },
-        {
-          "id": "o3",
-          "text": "Pclass는 숫자로 저장됐지만 순서형 범주다.",
-          "correct": true,
-          "explanation": "1·2·3의 순서 의미가 있다. 이 선택지는 “Pclass는 숫자로 저장됐지만 순서형 범주다.”를 뜻하며, 핵심 판별 기준인 “열 역할·결측·분모를 구분한다.”와 일치한다. 따라서 문제의 조건에 직접 부합하는 정답이다.",
-          "correctedStatement": "평균·상관을 연속 수치처럼 무비판적으로 해석하지 않는다."
-        },
-        {
-          "id": "o4",
-          "text": "PassengerId 평균은 승객 특성의 핵심 지표다.",
-          "correct": false,
-          "explanation": "식별자 번호의 평균은 의미가 없다. 이 선택지는 “PassengerId 평균은 승객 특성의 핵심 지표다.”를 주장하지만, 대상·방향·순서·단위 또는 해석 범위 중 하나를 혼동한다. 핵심 기준인 “열 역할·결측·분모를 구분한다.”와 어긋나므로 정답이 될 수 없다. “PassengerId는 키로 사용한다.”로 고치면 올바른 설명이 된다.",
-          "correctedStatement": "PassengerId는 키로 사용한다."
-        }
-      ],
-      "conceptIds": [
-        "web-c19",
-        "web-c23",
-        "web-c32"
-      ],
-      "sourceRefs": [
-        {
-          "fileId": "web3",
-          "pages": [
-            18,
-            19,
-            20,
-            22
-          ]
-        }
-      ],
-      "difficulty": "보통",
-      "type": "비교 분석",
-      "review": "열 역할·결측·분모를 구분한다.",
-      "memoryTip": "ID는 키, Pclass는 범주, Survived는 결과.",
-      "additionalExample": "고객 ID도 평균보다는 중복·결측을 검사한다.",
       "supplemental": false
     },
     {
@@ -29355,9 +29046,7 @@ export const courseData: CourseData = {
       "pages": [
         2,
         3,
-        4,
-        18,
-        19
+        4
       ]
     },
     {
@@ -29405,9 +29094,7 @@ export const courseData: CourseData = {
       "pages": [
         8,
         9,
-        12,
-        19,
-        20
+        12
       ]
     },
     {
@@ -29447,8 +29134,7 @@ export const courseData: CourseData = {
         6,
         11,
         12,
-        13,
-        19
+        13
       ]
     },
     {
@@ -29476,8 +29162,6 @@ export const courseData: CourseData = {
         11,
         12,
         13,
-        19,
-        20,
         50,
         51,
         52
@@ -29532,19 +29216,6 @@ export const courseData: CourseData = {
       ]
     },
     {
-      "id": "web-fc32",
-      "front": "집단별 생존율의 뜻은?",
-      "back": "Survived 평균을 집단 인원 size를 분모로 계산해 성별·등급 등 복합 집단을 비교하는 지표다.",
-      "conceptId": "web-c32",
-      "fileId": "web3",
-      "pages": [
-        18,
-        19,
-        20,
-        23
-      ]
-    },
-    {
       "id": "web-fc33",
       "front": "그래프 식별과 의미 읽기의 뜻은?",
       "back": "그래프 모양을 이름 맞히는 데서 끝내지 않고 축·관찰 단위·집계 함수·분모·범위를 읽어 허용 결론을 정하는 능력이다.",
@@ -29555,7 +29226,6 @@ export const courseData: CourseData = {
         12,
         13,
         14,
-        20,
         43,
         48,
         49,
@@ -29585,7 +29255,6 @@ export const courseData: CourseData = {
         13,
         14,
         16,
-        19,
         50,
         55,
         57,
@@ -29681,7 +29350,6 @@ export const courseData: CourseData = {
         14,
         15,
         17,
-        20,
         53,
         54,
         55,
@@ -29733,17 +29401,6 @@ export const courseData: CourseData = {
       ]
     },
     {
-      "id": "web-fc44",
-      "front": "여성 1등급 Titanic 생존율은?",
-      "back": "91/94≈96.8%; 분모는 여성 1등급 94명.",
-      "conceptId": "web-c26",
-      "fileId": "web3",
-      "pages": [
-        19,
-        23
-      ]
-    },
-    {
       "id": "web-fc45",
       "front": "건수 히트맵과 행 비율 히트맵의 차이는?",
       "back": "건수는 조합 규모, 행 비율은 각 행 범주 내부 구성비를 보여준다.",
@@ -29777,5 +29434,5 @@ export const courseData: CourseData = {
       ]
     }
   ],
-  "generatedAt": "2026-10-16"
+  "generatedAt": "2026-10-17"
 }

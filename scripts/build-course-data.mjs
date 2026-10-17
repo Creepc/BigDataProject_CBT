@@ -3,6 +3,8 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+const examScope = JSON.parse(fs.readFileSync(path.join(root, 'analysis', 'exam-scope.json'), 'utf8'))
+const excludedConcepts = new Set(examScope.excludedConcepts)
 const inputs = [
   { file: 'notion12.json', scope: 'n12' },
   { file: 'notion34.json', scope: 'n34' },
@@ -13,6 +15,10 @@ for (const input of inputs) {
   const fullPath = path.join(root, 'analysis', input.file)
   if (!fs.existsSync(fullPath)) throw new Error(`Missing analysis file: ${fullPath}`)
   input.data = JSON.parse(fs.readFileSync(fullPath, 'utf8'))
+  for (const [collection, setting] of [['units', 'excludedUnits'], ['concepts', 'excludedConcepts'], ['questions', 'excludedQuestions'], ['flashcards', 'excludedFlashcards']]) {
+    const excluded = new Set(examScope[setting])
+    input.data[collection] = (input.data[collection] ?? []).filter((item) => !excluded.has(`${input.scope}-${item.id}`))
+  }
 }
 
 const fileMeta = {
@@ -32,6 +38,7 @@ const strings = (value) => asArray(value).map((item) => typeof item === 'string'
 const difficulty = (value) => ({ easy: '쉬움', medium: '보통', hard: '어려움', 기초: '쉬움', 심화: '보통' }[String(value).toLowerCase()] ?? (['쉬움', '보통', '어려움'].includes(value) ? value : '보통'))
 const level = (value) => ({ 쉬움: '기초', 보통: '심화', 어려움: '시험 대비' }[difficulty(value)])
 const scoped = (scope, id) => `${scope}-${String(id)}`
+const inScopePages = (fileId, pages) => numbers(pages).filter((page) => !(examScope.excludedPages[fileId] ?? []).includes(page))
 
 const unitLookup = new Map()
 for (const input of inputs) {
@@ -69,7 +76,7 @@ for (const input of inputs) {
         ? '전처리·시각화·관계 분석 실습'
         : unitLookup.get(unitKey) ?? concept.unit ?? '기타',
       fileId: concept.fileId,
-      pages: numbers(concept.pages ?? concept.pageNumbers),
+      pages: inScopePages(concept.fileId, concept.pages ?? concept.pageNumbers),
       definition: concept.definition ?? concept.summary ?? '',
       easyExplanation: concept.easyExplanation ?? concept.easy_explanation ?? concept.definition ?? '',
       mechanism: strings(concept.mechanism ?? concept.principles ?? concept.process),
@@ -138,6 +145,8 @@ const files = inputs.flatMap((input) => input.data.files ?? []).map((file) => {
     week: meta.week,
     kind: meta.kind,
     pageCount: Number(file.pageCount),
+    excludedPages: examScope.excludedPages[file.id] ?? [],
+    partialPages: examScope.partialPages[file.id] ?? [],
     analyzedPages: allPages,
     unreadablePages,
     topics: [...new Set([...(fileUnits.get(file.id) ?? []).slice(0, 4), ...normalizedConcepts.filter((concept) => concept.fileId === file.id).slice(0, 3).map((concept) => concept.name)])],
@@ -154,10 +163,16 @@ const files = inputs.flatMap((input) => input.data.files ?? []).map((file) => {
 const pageSummaries = inputs.flatMap((input) => (input.data.files ?? []).flatMap((file) => (file.pageSummaries ?? []).map((summary) => ({
   fileId: file.id,
   page: Number(summary.page),
-  title: summary.title ?? `${file.title} ${summary.page}쪽`,
-  keyPoints: strings(summary.keyPoints ?? summary.points),
-  visuals: strings(summary.visuals ?? summary.images ?? summary.tables),
-  codes: strings(summary.codes ?? summary.code),
+  ...((examScope.excludedPages[file.id] ?? []).includes(Number(summary.page)) ? {
+    title: '시험 범위 밖의 추가 실습',
+    keyPoints: ['사용자가 지정한 중간고사 범위에 포함되지 않는 추가 실습 페이지입니다.'],
+    visuals: [], codes: [], excludedFromExam: true,
+  } : {
+    title: summary.title ?? `${file.title} ${summary.page}쪽`,
+    keyPoints: strings(summary.keyPoints ?? summary.points),
+    visuals: strings(summary.visuals ?? summary.images ?? summary.tables),
+    codes: strings(summary.codes ?? summary.code),
+  }),
 }))))
 
 const inferQuestionType = (question) => {
@@ -283,7 +298,7 @@ for (const input of inputs) {
       conceptIds: strings(question.conceptIds ?? question.relatedConceptIds)
         .map((id) => conceptIdLookup.get(`${input.scope}:${id}`))
         .filter(Boolean),
-      sourceRefs: asArray(sourceList).map((source) => ({ fileId: source.fileId, pages: numbers(source.pages ?? source.page) })),
+      sourceRefs: asArray(sourceList).map((source) => ({ fileId: source.fileId, pages: inScopePages(source.fileId, source.pages ?? source.page) })).filter((source) => source.pages.length),
       difficulty: difficulty(question.difficulty),
       type: question.category ?? inferQuestionType(question),
       review: question.review ?? question.conceptReview ?? '',
@@ -307,7 +322,7 @@ const flashcards = inputs.flatMap((input) => (input.data.flashcards ?? []).map((
     back: card.back,
     conceptId: conceptIdLookup.get(`${input.scope}:${rawConcept}`) ?? scoped(input.scope, rawConcept ?? 'unknown'),
     fileId: source.fileId ?? card.fileId,
-    pages: numbers(source.pages ?? card.pages),
+    pages: inScopePages(source.fileId ?? card.fileId, source.pages ?? card.pages),
   }
 }))
 
@@ -316,6 +331,8 @@ const lessonMap = new Map()
 for (const file of lessonFiles) {
   const source = JSON.parse(fs.readFileSync(path.join(root, 'analysis', file), 'utf8'))
   for (const lesson of source.lessons ?? []) {
+    if (excludedConcepts.has(lesson.conceptId)) continue
+    lesson.sourceRefs = lesson.sourceRefs.map((ref) => ({ ...ref, pages: inScopePages(ref.fileId, ref.pages) })).filter((ref) => ref.pages.length)
     if (lessonMap.has(lesson.conceptId)) throw new Error(`Duplicate lesson: ${lesson.conceptId}`)
     lessonMap.set(lesson.conceptId, lesson)
   }
@@ -337,6 +354,10 @@ const courseData = {
   questions,
   flashcards,
   generatedAt: new Date().toISOString().slice(0, 10),
+}
+
+if (/titanic|타이타닉|Survived|PassengerId|Pclass|SibSp|Parch|생존율|생존자/i.test(JSON.stringify(courseData))) {
+  throw new Error('시험 범위 밖의 별도 실습 내용이 학습 데이터에 남아 있습니다.')
 }
 
 const errors = []

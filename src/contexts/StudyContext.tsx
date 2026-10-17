@@ -10,7 +10,8 @@ import {
 } from 'react'
 import type { ExamRecord, Question, StudyState } from '@/types'
 import { isAnswerCorrect } from '@/lib/study'
-import { createInitialStudyState, parseStudyStateJson } from '@/lib/studyState'
+import { createInitialStudyState, parseStudyStateJson, reconcileStudyState } from '@/lib/studyState'
+import { courseData } from '@/data/courseData'
 
 const STORAGE_KEY = 'bigdata-midterm-study-v1'
 
@@ -112,7 +113,7 @@ const loadState = () => {
   try {
     const saved = localStorage.getItem(STORAGE_KEY)
     if (!saved) return createInitialStudyState()
-    return parseStudyStateJson(saved)
+    return reconcileStudyState(parseStudyStateJson(saved), courseData)
   } catch {
     return createInitialStudyState()
   }
@@ -170,7 +171,7 @@ export function StudyProvider({ children }: { children: ReactNode }) {
     rateCard: (id, rating) => dispatch({ type: 'RATE_CARD', id, rating }),
     exportData: () => JSON.stringify(state, null, 2),
     importData: (raw) => {
-      dispatch({ type: 'IMPORT', state: parseStudyStateJson(raw) })
+      dispatch({ type: 'IMPORT', state: reconcileStudyState(parseStudyStateJson(raw), courseData) })
     },
     reset: () => dispatch({ type: 'RESET' }),
   }), [state])

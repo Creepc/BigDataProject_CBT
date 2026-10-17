@@ -1,4 +1,5 @@
-import type { Activity, AttemptRecord, ExamRecord, StudyState } from '@/types'
+import type { Activity, AttemptRecord, ExamRecord, Question, StudyState } from '@/types'
+import { arraysEqualAsSets } from '@/lib/study'
 
 export const createInitialStudyState = (): StudyState => ({
   version: 1,
@@ -11,6 +12,66 @@ export const createInitialStudyState = (): StudyState => ({
   theme: 'system',
   flashcardRatings: {},
 })
+
+interface StudyContentScope {
+  concepts: ReadonlyArray<{ id: string }>
+  questions: ReadonlyArray<Pick<Question, 'id' | 'options'>>
+  flashcards: ReadonlyArray<{ id: string }>
+}
+
+/** Keep historical progress within the currently published exam scope. */
+export const reconcileStudyState = (state: StudyState, content: StudyContentScope): StudyState => {
+  const conceptIds = new Set(content.concepts.map(({ id }) => id))
+  const questionsById = new Map(content.questions.map((question) => [question.id, question]))
+  const cardIds = new Set(content.flashcards.map(({ id }) => id))
+  const exams = state.exams.flatMap((exam) => {
+    const questionIds = exam.questionIds.filter((id) => questionsById.has(id))
+    if (!questionIds.length) return []
+    const retainedIds = new Set(questionIds)
+    const answers = Object.fromEntries(Object.entries(exam.answers).filter(([id]) => retainedIds.has(id)))
+    // Scores of unchanged exams remain historical records. Only a changed scope is regraded.
+    if (questionIds.length === exam.questionIds.length) return [{ ...exam, answers }]
+    const correctCount = questionIds.filter((id) => {
+      const question = questionsById.get(id)!
+      const expected = question.options.filter((option) => option.correct).map((option) => option.id)
+      return arraysEqualAsSets(answers[id] ?? [], expected)
+    }).length
+    return [{
+      ...exam,
+      questionIds,
+      answers,
+      total: questionIds.length,
+      correctCount,
+      score: Math.round((correctCount / questionIds.length) * 100),
+    }]
+  })
+  const examsById = new Map(exams.map((exam) => [exam.id, exam]))
+  const previousExamsById = new Map(state.exams.map((exam) => [exam.id, exam]))
+  const activities = state.activities.flatMap((item) => {
+    // Older backup files can contain activities without a linked target.
+    if (item.targetId === undefined) return [item]
+    if (item.type === 'concept') return conceptIds.has(item.targetId) ? [item] : []
+    if (item.type === 'question' || item.type === 'review') return questionsById.has(item.targetId) ? [item] : []
+    const exam = examsById.get(item.targetId)
+    if (!exam) return []
+    const previousExam = previousExamsById.get(item.targetId)
+    return [{
+      ...item,
+      label: exam.total === previousExam?.total ? item.label : `모의고사 ${exam.score}점`,
+    }]
+  })
+
+  return {
+    ...state,
+    completedConceptIds: state.completedConceptIds.filter((id) => conceptIds.has(id)),
+    bookmarkedQuestionIds: state.bookmarkedQuestionIds.filter((id) => questionsById.has(id)),
+    reviewCompletedQuestionIds: state.reviewCompletedQuestionIds.filter((id) => questionsById.has(id)),
+    attempts: Object.fromEntries(Object.entries(state.attempts).filter(([id]) => questionsById.has(id))),
+    exams,
+    activities,
+    flashcardRatings: Object.fromEntries(Object.entries(state.flashcardRatings).filter(([id]) => cardIds.has(id))),
+  }
+}
 
 const isRecord = (value: unknown): value is Record<string, unknown> =>
   typeof value === 'object' && value !== null && !Array.isArray(value)

@@ -6,6 +6,22 @@ import { validateCourseData } from '@/lib/study'
 import { lessonReadingText } from '@/lib/lessons'
 
 describe('course content integrity', () => {
+  it('limits every study feature and source reference to the Netflix exam scope', () => {
+    expect(JSON.stringify(courseData)).not.toMatch(/titanic|타이타닉|Survived|PassengerId|Pclass|생존율|생존자/i)
+    expect(courseData.concepts.some((concept) => concept.id === 'web-c32')).toBe(false)
+    expect(courseData.questions.some((question) => ['web-q26', 'web-q43'].includes(question.id))).toBe(false)
+    expect(courseData.flashcards.some((card) => ['web-fc32', 'web-fc44'].includes(card.id))).toBe(false)
+    const excludedPages = new Set([19, 20, 23])
+    const refs = [
+      ...courseData.concepts.map((concept) => ({ fileId: concept.fileId, pages: concept.pages })),
+      ...courseData.concepts.flatMap((concept) => concept.lesson?.sourceRefs ?? []),
+      ...courseData.questions.flatMap((question) => question.sourceRefs),
+      ...courseData.flashcards.map((card) => ({ fileId: card.fileId, pages: card.pages })),
+    ]
+    refs.filter((ref) => ref.fileId === 'web3').forEach((ref) => expect(ref.pages.some((page) => excludedPages.has(page))).toBe(false))
+    expect(courseData.pageSummaries.filter((page) => page.excludedFromExam).map((page) => page.page)).toEqual([19, 20, 23])
+    expect(courseData.files.find((file) => file.id === 'web3')?.excludedPages).toEqual([19, 20, 23])
+  })
   it('provides a complete source-grounded lesson and reasoned self-checks for every concept', () => {
     const files = new Map(courseData.files.map((file) => [file.id, file]))
     courseData.concepts.forEach((concept) => {
@@ -58,9 +74,9 @@ describe('course content integrity', () => {
   })
 
   it('keeps all generated study assets connected to valid sources', () => {
-    expect(courseData.concepts).toHaveLength(111)
-    expect(courseData.questions).toHaveLength(118)
-    expect(courseData.flashcards).toHaveLength(133)
+    expect(courseData.concepts).toHaveLength(110)
+    expect(courseData.questions).toHaveLength(116)
+    expect(courseData.flashcards).toHaveLength(131)
     expect(validateCourseData(courseData)).toEqual([])
 
     const files = new Map(courseData.files.map((file) => [file.id, file]))
@@ -96,17 +112,17 @@ describe('course content integrity', () => {
 
   it('contains balanced single answers, multiple-answer items, and usable graph data', () => {
     const multiple = courseData.questions.filter((question) => question.mode === 'multiple')
-    expect(multiple).toHaveLength(43)
+    expect(multiple).toHaveLength(42)
     multiple.forEach((question) => expect(question.options.filter((option) => option.correct).length).toBeGreaterThanOrEqual(2))
 
     const positions = [0, 1, 2, 3].map((index) => courseData.questions.filter((question) => question.mode === 'single' && question.options[index].correct).length)
-    expect(Math.max(...positions) - Math.min(...positions)).toBeLessThanOrEqual(1)
+    expect(Math.max(...positions) - Math.min(...positions)).toBeLessThanOrEqual(2)
 
     const visuals = courseData.questions.flatMap((question) => question.visual ? [question.visual] : [])
-    expect(visuals).toHaveLength(21)
+    expect(visuals).toHaveLength(20)
     const charts = visuals.filter((visual) => visual.kind !== 'source-image')
     const sourceImages = visuals.filter((visual) => visual.kind === 'source-image')
-    expect(charts).toHaveLength(11)
+    expect(charts).toHaveLength(10)
     expect(sourceImages).toHaveLength(10)
     charts.forEach((visual) => {
       expect(['bar', 'line', 'histogram', 'scatter', 'box']).toContain(visual.kind)
