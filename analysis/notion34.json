@@ -4031,7 +4031,7 @@
         {
           "text": "Scale-out에서 scale-up으로의 전환이다.",
           "correct": false,
-          "explanation": "방향이 반대다.",
+          "explanation": "Scale-up은 한 서버의 성능을 높이고, scale-out은 서버 수를 늘린다.",
           "correctedStatement": "Scale-up에서 scale-out으로의 전환이다."
         },
         {
@@ -4043,7 +4043,7 @@
         {
           "text": "Schema-on-read에서 schema-on-write로의 전환이다.",
           "correct": false,
-          "explanation": "스키마 적용 시점의 문제가 아니다.",
+          "explanation": "Schema-on-read는 읽을 때, schema-on-write는 저장할 때 데이터 구조를 적용한다.",
           "correctedStatement": "하드웨어 확장 방식은 scale-up/scale-out으로 구분한다."
         }
       ],
@@ -4071,7 +4071,7 @@
         {
           "text": "분산 조정 알고리즘이 반드시 필요하다.",
           "correct": false,
-          "explanation": "이는 주로 분산 시스템의 복잡성이다.",
+          "explanation": "분산 조정은 여러 서버가 작업과 상태를 맞추는 과정이다.",
           "correctedStatement": "중앙집중형의 핵심 한계는 물리적 천장·비용·SPOF·확장성이다."
         },
         {
@@ -4083,13 +4083,13 @@
         {
           "text": "모든 서버가 항상 동시에 고장 난다.",
           "correct": false,
-          "explanation": "자료의 주장은 단일 장애점 위험이지 동시 고장 필연이 아니다.",
+          "explanation": "단일 장애점은 핵심 서버 하나의 고장이 전체 서비스 중단으로 이어지는 위험이다.",
           "correctedStatement": "중앙 서버 장애가 전체 시스템을 멈출 수 있는 단일 장애점이 문제다."
         },
         {
           "text": "성능을 늘릴수록 비용이 비선형적으로 커지고 단일 장애점 위험이 있다.",
           "correct": true,
-          "explanation": "자료의 대표 한계 두 가지다.",
+          "explanation": "고성능 장비일수록 추가 성능의 비용이 커지고, 서버 한 대의 고장이 전체 서비스에 영향을 준다.",
           "correctedStatement": "성능을 늘릴수록 비용이 비선형적으로 커지고 단일 장애점 위험이 있다."
         }
       ],
@@ -4130,13 +4130,13 @@
         {
           "text": "일부 노드가 고장 나도 복제·재분배로 전체 서비스가 지속되게 한다.",
           "correct": true,
-          "explanation": "내결함성의 핵심이다.",
+          "explanation": "복제본과 다른 노드가 고장 난 노드의 작업을 이어받아 서비스를 유지한다.",
           "correctedStatement": "일부 노드가 고장 나도 복제·재분배로 전체 서비스가 지속되게 한다."
         },
         {
           "text": "장애가 발생하면 전체 클러스터를 즉시 종료한다.",
           "correct": false,
-          "explanation": "설계 목표와 반대다.",
+          "explanation": "일부 노드가 고장 나도 나머지 노드가 서비스를 계속하도록 설계한다.",
           "correctedStatement": "일부 실패에도 서비스 지속이 목표다."
         }
       ],
@@ -4182,7 +4182,7 @@
         {
           "text": "TPU - TensorFlow 계열 텐서 연산에 최적화된 전용 칩",
           "correct": true,
-          "explanation": "자료가 제시한 특수 목적 하드웨어다.",
+          "explanation": "TPU는 머신러닝에 쓰이는 텐서 연산을 빠르게 수행하는 전용 칩이다.",
           "correctedStatement": "TPU - TensorFlow 계열 텐서 연산에 최적화된 전용 칩"
         }
       ],
@@ -4210,25 +4210,25 @@
         {
           "text": "크롤링은 값 추출, 스크래핑은 링크 탐색이다.",
           "correct": false,
-          "explanation": "두 정의가 뒤바뀌었다.",
+          "explanation": "크롤링은 페이지를 찾는 과정이고, 스크래핑은 페이지에서 필요한 값을 추출하는 과정이다.",
           "correctedStatement": "크롤링은 페이지 발견, 스크래핑은 값 추출이다."
         },
         {
           "text": "두 용어는 완전히 같아 구분할 수 없다.",
           "correct": false,
-          "explanation": "실무에서 혼용되기도 하지만 자료는 엄밀히 구분한다.",
+          "explanation": "크롤링은 페이지 탐색, 스크래핑은 데이터 추출을 가리킨다.",
           "correctedStatement": "크롤링과 스크래핑은 연계되지만 목적이 다르다."
         },
         {
           "text": "크롤링은 API 인증, 스크래핑은 DB 연결이다.",
           "correct": false,
-          "explanation": "둘 다 웹 페이지 수집 문맥이다.",
+          "explanation": "크롤링은 웹 페이지 탐색, 스크래핑은 페이지 내 데이터 추출이다. API 인증이나 DB 연결을 뜻하지 않는다.",
           "correctedStatement": "크롤링은 링크 탐색, 스크래핑은 페이지 데이터 추출이다."
         },
         {
           "text": "크롤링은 링크를 따라 페이지를 발견하고, 스크래핑은 페이지에서 필요한 데이터를 뽑는다.",
           "correct": true,
-          "explanation": "자료의 정의와 일치한다.",
+          "explanation": "크롤링으로 찾은 페이지에서 스크래핑으로 제목·가격 같은 값을 추출한다.",
           "correctedStatement": "크롤링은 링크를 따라 페이지를 발견하고, 스크래핑은 페이지에서 필요한 데이터를 뽑는다."
         }
       ],
@@ -4255,7 +4255,7 @@
         {
           "text": "robots.txt와 사이트 정책을 확인한다.",
           "correct": true,
-          "explanation": "기본적인 크롤링 정책 확인이다.",
+          "explanation": "robots.txt와 이용 정책에서 수집 허용 범위와 요청 제한을 확인한다.",
           "correctedStatement": "robots.txt와 사이트 정책을 확인한다."
         },
         {
@@ -4347,7 +4347,7 @@
         {
           "text": "Polling은 이벤트가 있을 때 서버가 먼저 POST를 보내는 방식이다.",
           "correct": false,
-          "explanation": "그 설명은 Webhook이다.",
+          "explanation": "Polling은 클라이언트가 일정 간격으로 서버에 새 데이터가 있는지 묻는 방식이다.",
           "correctedStatement": "Polling은 클라이언트가 주기적으로 새 데이터를 확인한다."
         },
         {
@@ -4392,25 +4392,25 @@
         {
           "text": "모든 데이터를 원본 그대로 중앙으로 보내는 full load",
           "correct": false,
-          "explanation": "설명은 현장 요약과 예외 전송이다.",
+          "explanation": "Full Load는 대상 데이터 전체를 가져오는 방식이다. 이 사례는 현장에서 요약한 값만 전송한다.",
           "correctedStatement": "엣지 전처리와 예외 기반 원본 전송이다."
         },
         {
           "text": "오직 데이터 웨어하우스에서 schema-on-write",
           "correct": false,
-          "explanation": "전송 전 현장 처리 문제다.",
+          "explanation": "Schema-on-write는 저장 전에 데이터 구조를 맞추는 방식이며, 센서 현장에서 데이터를 요약하는 작업과는 다르다.",
           "correctedStatement": "엣지 노드에서 집계·필터링한다."
         },
         {
           "text": "엣지 전처리로 대역폭·지연을 줄이는 방식",
           "correct": true,
-          "explanation": "자료의 대표 예시다.",
+          "explanation": "센서 가까이에서 데이터를 요약하면 중앙으로 보내는 데이터양과 처리 지연이 줄어든다.",
           "correctedStatement": "엣지 전처리로 대역폭·지연을 줄이는 방식"
         },
         {
           "text": "연결 중심성으로 센서를 순위화하는 방식",
           "correct": false,
-          "explanation": "네트워크 분석과 무관하다.",
+          "explanation": "연결 중심성은 한 노드가 다른 노드와 얼마나 많이 직접 연결되는지 나타내는 지표다.",
           "correctedStatement": "필터·집계·압축은 엣지 전처리다."
         }
       ],
@@ -4443,13 +4443,13 @@
         {
           "text": "Full Load",
           "correct": false,
-          "explanation": "전체/변경분 범위의 구분이다.",
+          "explanation": "Full Load는 데이터 전체를 한 번에 적재하는 방식이다.",
           "correctedStatement": "적재·변환 순서는 ELT로 구분한다."
         },
         {
           "text": "CDC",
           "correct": false,
-          "explanation": "변경 데이터 감지 기법이다.",
+          "explanation": "CDC는 데이터의 추가·수정·삭제 같은 변경을 감지하는 기법이다.",
           "correctedStatement": "원본 먼저 적재는 ELT다."
         },
         {
@@ -4489,19 +4489,19 @@
         {
           "text": "매번 전체 Full Load만 수행",
           "correct": false,
-          "explanation": "변경분 처리 설명과 반대다.",
+          "explanation": "Full Load는 변경 여부와 관계없이 대상 데이터를 모두 가져온다.",
           "correctedStatement": "Incremental Load/CDC가 변경분을 가져온다."
         },
         {
           "text": "WordCloud와 STOPWORDS",
           "correct": false,
-          "explanation": "텍스트 시각화 도구다.",
+          "explanation": "WordCloud는 단어 빈도를 시각화하고, STOPWORDS는 분석에서 제외할 흔한 단어의 목록이다.",
           "correctedStatement": "DB 변경 수집에는 CDC를 쓴다."
         },
         {
           "text": "Kamada-Kawai 레이아웃",
           "correct": false,
-          "explanation": "네트워크 배치 알고리즘이다.",
+          "explanation": "Kamada-Kawai는 네트워크 그래프의 노드 위치를 정하는 배치 알고리즘이다.",
           "correctedStatement": "DB 변경 감지는 CDC다."
         }
       ],
@@ -4579,19 +4579,19 @@
         {
           "text": "Tumbling Window",
           "correct": true,
-          "explanation": "자료의 정의와 일치한다.",
+          "explanation": "Tumbling Window는 스트림을 1분씩처럼 겹치지 않는 고정 길이 구간으로 나눈다.",
           "correctedStatement": "Tumbling Window"
         },
         {
           "text": "Graph Window",
           "correct": false,
-          "explanation": "자료의 스트림 윈도우 유형이 아니다.",
+          "explanation": "겹치지 않는 고정 길이 구간은 Tumbling Window라고 한다. Graph Window는 이 구간 방식의 이름이 아니다.",
           "correctedStatement": "Tumbling/Sliding을 구분한다."
         },
         {
           "text": "Schema Window",
           "correct": false,
-          "explanation": "스키마 적용 방식과 무관하다.",
+          "explanation": "스키마는 데이터 구조와 형식을 뜻하며, 스트림의 시간 구간을 나누는 방식이 아니다.",
           "correctedStatement": "비중첩 고정 구간은 Tumbling이다."
         }
       ],
@@ -4675,7 +4675,7 @@
         {
           "text": "DataNode",
           "correct": true,
-          "explanation": "자료의 마스터-슬레이브 역할 설명과 일치한다.",
+          "explanation": "DataNode는 HDFS의 실제 데이터 블록을 저장하고 읽기·쓰기 요청을 처리한다.",
           "correctedStatement": "DataNode"
         },
         {
@@ -4708,19 +4708,19 @@
         {
           "text": "대용량 파일의 순차 읽기에 적합하다.",
           "correct": true,
-          "explanation": "HDFS의 대표 강점이다.",
+          "explanation": "큰 파일을 여러 블록으로 나눠 여러 노드에서 순차적으로 읽는 데 적합하다.",
           "correctedStatement": "대용량 파일의 순차 읽기에 적합하다."
         },
         {
           "text": "수많은 작은 파일과 임의 접근에 가장 최적화되어 있다.",
           "correct": false,
-          "explanation": "오히려 약점이다.",
+          "explanation": "작은 파일이 많으면 NameNode의 메타데이터 부담이 커지고, 잦은 임의 접근도 비효율적이다.",
           "correctedStatement": "작은 파일·랜덤 액세스에서는 비효율적이다."
         },
         {
           "text": "NameNode는 실제 모든 블록 내용을 직접 저장한다.",
           "correct": false,
-          "explanation": "메타데이터를 관리한다.",
+          "explanation": "NameNode는 파일 이름·블록 위치 같은 메타데이터를 관리하며, 실제 블록은 DataNode에 저장된다.",
           "correctedStatement": "실제 블록은 DataNode에 저장한다."
         },
         {
@@ -4799,7 +4799,7 @@
         {
           "text": "메타데이터·데이터 카탈로그·거버넌스",
           "correct": true,
-          "explanation": "자료가 성공적 레이크 운영의 핵심으로 제시한다.",
+          "explanation": "메타데이터와 카탈로그로 데이터를 찾고 이해하며, 거버넌스로 품질·권한·책임을 관리한다.",
           "correctedStatement": "메타데이터·데이터 카탈로그·거버넌스"
         },
         {
@@ -4817,7 +4817,7 @@
         {
           "text": "스키마와 계보 정보를 모두 삭제",
           "correct": false,
-          "explanation": "관리 가능성을 훼손한다.",
+          "explanation": "스키마와 계보가 없으면 데이터의 구조·출처·변환 과정을 파악하기 어렵다.",
           "correctedStatement": "스키마·계보·소유자 정보를 메타데이터로 유지한다."
         }
       ],
@@ -4846,7 +4846,7 @@
         {
           "text": "k-익명성은 각 동일 집합의 민감값 분포가 전체와 같도록 강제한다.",
           "correct": false,
-          "explanation": "그 설명은 t-근접성에 가깝다.",
+          "explanation": "k-익명성은 준식별자 조합이 같은 사람이 최소 k명 있게 한다. 민감값의 분포를 제한하는 것은 t-근접성이다.",
           "correctedStatement": "k-익명성은 준식별자로 구분되지 않는 레코드가 최소 k개가 되게 한다."
         },
         {
@@ -4904,7 +4904,7 @@
         {
           "text": "모델 배포",
           "correct": false,
-          "explanation": "자료의 6단계 직접 항목이 아니며 훨씬 뒤다.",
+          "explanation": "모델 배포는 학습하고 검증한 모델을 실제 서비스에 적용하는 단계다.",
           "correctedStatement": "문제 정의 후 데이터 수집이다."
         },
         {
@@ -4999,13 +4999,13 @@
         {
           "text": "director·cast·country는 Unknown으로 채우고 date_added·rating 결측 행은 제거한다.",
           "correct": true,
-          "explanation": "자료의 코드와 일치한다.",
+          "explanation": "문자 범주의 결측은 Unknown으로 남기고, 추가 시점·등급이 없는 행은 해당 분석에서 제외한다.",
           "correctedStatement": "director·cast·country는 Unknown으로 채우고 date_added·rating 결측 행은 제거한다."
         },
         {
           "text": "date_added는 0으로 채우고 datetime 변환을 생략한다.",
           "correct": false,
-          "explanation": "시간 분석이 불가능해진다.",
+          "explanation": "0은 실제 추가 날짜가 아니므로 연·월 분석에 사용할 수 없다. 날짜 형식으로 변환해야 한다.",
           "correctedStatement": "적은 date_added 결측 행을 제거하고 datetime으로 변환한다."
         }
       ],
@@ -5079,19 +5079,19 @@
         {
           "text": "범주형 막대그래프",
           "correct": false,
-          "explanation": "연속 수치를 구간으로 나눈 분포다.",
+          "explanation": "범주형 막대그래프는 장르·국가처럼 구분된 범주의 값을 비교한다.",
           "correctedStatement": "히스토그램이다."
         },
         {
           "text": "파이 차트",
           "correct": false,
-          "explanation": "원형 비율 차트가 아니다.",
+          "explanation": "파이 차트는 원을 부채꼴로 나눠 전체에서 각 범주가 차지하는 비율을 보여준다.",
           "correctedStatement": "연속 수치 분포는 히스토그램이다."
         },
         {
           "text": "네트워크 그래프",
           "correct": false,
-          "explanation": "노드·엣지가 없다.",
+          "explanation": "네트워크 그래프는 대상인 노드와 관계인 엣지로 연결 구조를 보여준다.",
           "correctedStatement": "그래프는 히스토그램이다."
         },
         {
@@ -5153,13 +5153,13 @@
         {
           "text": "상자 안 선은 중앙값이며 등급별 중앙값은 대체로 90~110분 범위에 있다.",
           "correct": true,
-          "explanation": "자료의 해석과 일치한다.",
+          "explanation": "상자 안 선은 중앙값이다. 그림에서는 등급별 상영시간의 중앙값이 대체로 90~110분에 놓인다.",
           "correctedStatement": "상자 안 선은 중앙값이며 등급별 중앙값은 대체로 90~110분 범위에 있다."
         },
         {
           "text": "TV-14의 상자가 길다는 것은 중앙값이 반드시 가장 크다는 뜻이다.",
           "correct": false,
-          "explanation": "상자 길이는 IQR, 중앙값은 별도다.",
+          "explanation": "상자 길이는 중간 50% 값의 범위인 IQR이다. 중앙값의 크기는 상자 안 선의 위치로 확인한다.",
           "correctedStatement": "TV-14는 중간 50%의 변동 폭이 상대적으로 크다."
         },
         {
@@ -5235,7 +5235,7 @@
         {
           "text": "한 콘텐츠의 제작연도와 러닝타임",
           "correct": false,
-          "explanation": "해당 히트맵의 축은 연도와 월이다.",
+          "explanation": "이 히트맵은 콘텐츠의 추가 연도와 월을 기준으로 집계하므로 제작연도·상영시간은 표시하지 않는다.",
           "correctedStatement": "셀은 특정 연도·월의 추가 콘텐츠 수다."
         },
         {
@@ -5247,7 +5247,7 @@
         {
           "text": "해당 월의 평균 시청 등급",
           "correct": false,
-          "explanation": "등급 평균을 계산하지 않는다.",
+          "explanation": "셀에는 그 연도·월에 추가된 콘텐츠 수가 표시되며, 시청 등급의 평균은 포함되지 않는다.",
           "correctedStatement": "셀 값은 콘텐츠 개수다."
         },
         {
@@ -5281,13 +5281,13 @@
         {
           "text": "오른쪽 위의 y=x 대각선 주변 점은 제작과 추가 시점이 가까운 콘텐츠를 뜻한다. 다만 이 좌표만으로 Original 여부는 알 수 없다.",
           "correct": true,
-          "explanation": "x와 y가 비슷한 점은 제작 연도와 플랫폼 추가 연도의 차이가 작다는 뜻이다. 데이터에 Original 표시 컬럼이 없으므로 산점도 위치로 Original임을 확정하면 안 된다.",
+          "explanation": "y=x 근처는 제작연도와 추가연도의 차이가 작다는 뜻이다. Original 여부를 나타내는 컬럼은 없어 그 여부까지 알 수는 없다.",
           "correctedStatement": "y=x 대각선 주변은 제작과 추가 시점이 가까운 콘텐츠를 뜻하며, Original 여부는 별도 증거가 필요하다."
         },
         {
           "text": "y=x 대각선 위쪽에서 x가 오래된 점들은 제작 후 오래 지나 추가된 구작을 시사한다.",
           "correct": true,
-          "explanation": "y축이 추가 연도이므로 1985년 제작·2018년 추가 같은 점은 y>x이며 y=x 대각선 위쪽에 위치한다. 제작-추가 시차가 큰 구작 사례로 해석할 수 있다.",
+          "explanation": "1985년 제작·2018년 추가처럼 y-x가 크면 제작 후 오래 지나 추가된 작품이다. 이런 점은 y=x 위쪽에 놓인다.",
           "correctedStatement": "제작 후 뒤늦게 추가된 구작은 y>x이므로 y=x 대각선 위쪽에 위치한다."
         },
         {
@@ -5299,7 +5299,7 @@
         {
           "text": "이 패턴만으로 Netflix가 신작 수급과 구작 라이브러리 확대 전략을 실행한 원인까지 확정할 수 있다.",
           "correct": false,
-          "explanation": "산점도는 제작 시점과 추가 시점의 관계를 보여주지만, 편성 전략의 원인을 직접 기록한 데이터는 아니다. 전략은 가설로 제시할 수 있어도 추가 근거 없이 확정할 수는 없다.",
+          "explanation": "산점도는 제작·추가 시점의 관계만 보여준다. Netflix가 그런 전략을 택한 이유는 별도 근거가 필요하다.",
           "correctedStatement": "그래프는 시점 차이 패턴을 보여주며, 신작·구작 편성 전략은 별도 자료로 검증할 가설로 남겨야 한다."
         }
       ],
@@ -5379,7 +5379,7 @@
         {
           "text": "두 구간 모두",
           "correct": false,
-          "explanation": "두 번째는 450편/년이다.",
+          "explanation": "2017→2018은 500편/년으로 기준을 충족하지만, 2018→2019는 450편/년으로 미달한다.",
           "correctedStatement": "임계값 이상인 첫 구간만 급증이다."
         },
         {
@@ -5391,7 +5391,7 @@
         {
           "text": "어느 구간도 아님",
           "correct": false,
-          "explanation": "첫 구간이 정확히 임계값에 해당한다.",
+          "explanation": "2017→2018의 증가량은 500편/년이므로 '500 이상' 기준에 포함된다.",
           "correctedStatement": "2017→2018은 500편/년으로 급증이다."
         }
       ],
@@ -5448,7 +5448,7 @@
         {
           "text": "y축이 로그 축이라서",
           "correct": false,
-          "explanation": "자료는 그런 설정을 제시하지 않는다.",
+          "explanation": "이 그래프의 y축은 콘텐츠 수이며 로그 축으로 표시되지 않았다.",
           "correctedStatement": "핵심은 수집 시점으로 인한 불완전 기간이다."
         },
         {
@@ -5460,7 +5460,7 @@
         {
           "text": "데이터가 2021년 초 수집되어 그 해 전체가 포함되지 않았기 때문에",
           "correct": true,
-          "explanation": "부분 기간 검열 효과다.",
+          "explanation": "2021년은 연초까지만 수집되어 있어, 1년 전체를 포함한 이전 연도와 수량을 그대로 비교할 수 없다.",
           "correctedStatement": "데이터가 2021년 초 수집되어 그 해 전체가 포함되지 않았기 때문에"
         }
       ],
@@ -5556,7 +5556,7 @@
         {
           "text": "cast 네트워크의 degree centrality",
           "correct": false,
-          "explanation": "배우 관계 분석이다.",
+          "explanation": "degree centrality는 배우가 다른 노드와 얼마나 많이 직접 연결되는지 계산하는 지표다.",
           "correctedStatement": "월별 빈도는 value_counts/sort_index다."
         }
       ],
@@ -5586,7 +5586,7 @@
         {
           "text": "미국처럼 총 콘텐츠가 많은 국가일수록 진해지는 원시 빈도 효과를 무시한다.",
           "correct": false,
-          "explanation": "국가 총량 차이를 통제해야 한다.",
+          "explanation": "콘텐츠 총수가 많은 국가는 모든 장르의 빈도가 높아질 수 있으므로 국가별 장르 비율도 비교해야 한다.",
           "correctedStatement": "행별 비율도 함께 계산해 국가 내부 장르 구성을 비교한다."
         },
         {
@@ -5598,13 +5598,13 @@
         {
           "text": "모든 다중 국가·장르를 무조건 첫 값만 써도 편향이 없다고 선언한다.",
           "correct": false,
-          "explanation": "편의 가정은 편향을 만들 수 있다.",
+          "explanation": "첫 국가·장르만 세면 뒤에 적힌 국가·장르는 누락되어 실제 분포와 달라질 수 있다.",
           "correctedStatement": "first-value 규칙을 명시하고 explode/가중 분배 대안과 비교한다."
         },
         {
           "text": "다중값 처리 방식과 상위 10 절단 기준을 보고한다.",
           "correct": true,
-          "explanation": "재현성과 해석 범위를 분명히 한다.",
+          "explanation": "다중값을 세는 방식과 상위 10개를 고르는 기준이 있어야 같은 결과를 재현하고 비교할 수 있다.",
           "correctedStatement": "다중값 처리 방식과 상위 10 절단 기준을 보고한다."
         }
       ],
@@ -5634,19 +5634,19 @@
         {
           "text": "배우는 네트워크 영향력이 전혀 없다.",
           "correct": false,
-          "explanation": "설계·표본 때문에 생긴 결과다.",
+          "explanation": "상위 감독을 중심으로 만든 네트워크의 순위이므로 배우 전체의 영향력이 없다는 뜻은 아니다.",
           "correctedStatement": "선택된 상위 감독 중 다양한 배우와 직접 연결된 감독 순위로 해석한다."
         },
         {
           "text": "감독-배우로 edge를 정의하고 상위 감독을 표본화했으므로, 다양한 배우와 협업한 선택된 감독이 높게 나온다.",
           "correct": true,
-          "explanation": "자료의 핵심 주의점이다.",
+          "explanation": "이 네트워크에서는 많은 배우와 직접 연결된 감독일수록 연결 중심성이 높다.",
           "correctedStatement": "감독-배우로 edge를 정의하고 상위 감독을 표본화했으므로, 다양한 배우와 협업한 선택된 감독이 높게 나온다."
         },
         {
           "text": "그래프 중앙 위치가 자동으로 인과적 영향력을 증명한다.",
           "correct": false,
-          "explanation": "레이아웃은 시각 배치다.",
+          "explanation": "그림의 중앙 위치는 노드 배치 알고리즘에 따라 달라지며, 실제 영향력의 원인을 증명하지 않는다.",
           "correctedStatement": "중심성 지표와 네트워크 정의를 함께 해석해야 한다."
         },
         {
@@ -5681,7 +5681,7 @@
         {
           "text": "단어 크기는 보통 빈도를 반영한다.",
           "correct": true,
-          "explanation": "자료의 생성 방식이다.",
+          "explanation": "자주 나온 단어일수록 큰 글씨로 표시된다.",
           "correctedStatement": "단어 크기는 보통 빈도를 반영한다."
         },
         {
@@ -5727,13 +5727,13 @@
         {
           "text": "사용자 기반 협업 필터링",
           "correct": false,
-          "explanation": "사용자-사용자 평점 유사도를 쓰지 않는다.",
+          "explanation": "사용자 기반 협업 필터링은 취향이 비슷한 사용자들의 평점이나 이용 기록으로 추천한다.",
           "correctedStatement": "항목의 콘텐츠 특성을 쓰는 콘텐츠 기반 필터링이다."
         },
         {
           "text": "아이템 기반 협업 필터링",
           "correct": false,
-          "explanation": "사용자 평점 패턴을 쓰지 않는다.",
+          "explanation": "아이템 기반 협업 필터링은 여러 사용자의 평점·이용 기록에서 아이템 간 유사성을 구한다.",
           "correctedStatement": "메타데이터 유사도는 콘텐츠 기반이다."
         },
         {
@@ -5745,7 +5745,7 @@
         {
           "text": "K-means 시계열 예측",
           "correct": false,
-          "explanation": "군집·시계열 모델이 아니다.",
+          "explanation": "K-means는 비슷한 데이터끼리 묶는 군집화 알고리즘이다. 이 사례는 텍스트의 유사도를 이용한 추천이다.",
           "correctedStatement": "TF-IDF+cosine 콘텐츠 기반 추천이다."
         }
       ],
@@ -5779,7 +5779,7 @@
         {
           "text": "아이템 기반 협업 필터링은 사용자-아이템 평점 패턴을 사용한다.",
           "correct": true,
-          "explanation": "열 간 유사도를 계산한다.",
+          "explanation": "여러 사용자가 각 아이템에 남긴 평점 패턴을 비교해 아이템 간 유사도를 구한다.",
           "correctedStatement": "아이템 기반 협업 필터링은 사용자-아이템 평점 패턴을 사용한다."
         },
         {
@@ -5791,7 +5791,7 @@
         {
           "text": "아이템 기반은 신규 항목에 평점이 없으면 cold start가 생길 수 있다.",
           "correct": true,
-          "explanation": "유사도 계산 근거가 없기 때문이다.",
+          "explanation": "새 아이템에 평점이 없으면 다른 아이템과 평점 패턴을 비교하기 어렵다.",
           "correctedStatement": "아이템 기반은 신규 항목에 평점이 없으면 cold start가 생길 수 있다."
         }
       ],
@@ -5821,25 +5821,25 @@
         {
           "text": "두 영화의 내용이 완전히 동일하다.",
           "correct": false,
-          "explanation": "내용 유사도를 직접 측정한 값이 아니다.",
+          "explanation": "여기서 Pearson 상관계수는 영화 내용이 아니라 공통 사용자의 평점 패턴을 비교한다.",
           "correctedStatement": "공통 사용자의 평점 패턴이 반대 방향이라는 뜻이다."
         },
         {
           "text": "공통 평가자가 한 명도 없다.",
           "correct": false,
-          "explanation": "그 경우 상관이 계산되지 않을 수 있다.",
+          "explanation": "공통 평가자가 없으면 두 영화의 평점 상관계수를 계산할 수 없다. -1은 계산된 평점 패턴이 반대임을 뜻한다.",
           "correctedStatement": "-1은 계산된 평점 패턴의 강한 음의 선형 관계다."
         },
         {
           "text": "두 영화가 같은 제작연도다.",
           "correct": false,
-          "explanation": "연도와 무관하다.",
+          "explanation": "평점으로 계산한 상관계수이므로 제작연도가 같은지 여부는 알 수 없다.",
           "correctedStatement": "한 영화를 높게 준 사용자가 다른 영화를 낮게 주는 경향이다."
         },
         {
           "text": "한 영화를 높게 평가할수록 다른 영화는 낮게 평가하는 강한 반대 패턴이다.",
           "correct": true,
-          "explanation": "자료의 -1 해석이다.",
+          "explanation": "-1에 가까울수록 한 영화에 높은 평점을 준 사용자가 다른 영화에는 낮은 평점을 주는 경향이 강하다.",
           "correctedStatement": "한 영화를 높게 평가할수록 다른 영화는 낮게 평가하는 강한 반대 패턴이다."
         }
       ],
@@ -5873,19 +5873,19 @@
         {
           "text": "min_periods=2는 공통 평가자 2명만으로도 상관을 계산할 수 있어 극단값이 생길 수 있다.",
           "correct": true,
-          "explanation": "소표본 상관의 불안정성이다.",
+          "explanation": "두 사람의 평점만으로 계산하면 상관계수가 쉽게 1이나 -1이 되어 전체 취향을 대표하기 어렵다.",
           "correctedStatement": "min_periods=2는 공통 평가자 2명만으로도 상관을 계산할 수 있어 극단값이 생길 수 있다."
         },
         {
           "text": "희소 행렬과 cold start는 협업 필터링의 핵심 한계다.",
           "correct": true,
-          "explanation": "사용자·평점 부족과 신규 항목 문제다.",
+          "explanation": "평점이 드물면 비교할 기록이 부족하고, 새 사용자·아이템에는 추천에 쓸 기록이 거의 없다.",
           "correctedStatement": "희소 행렬과 cold start는 협업 필터링의 핵심 한계다."
         },
         {
           "text": "평점이 없는 NaN을 모두 5점으로 바꾸면 편향이 사라진다.",
           "correct": false,
-          "explanation": "임의 대체는 심각한 왜곡을 만든다.",
+          "explanation": "미평가를 5점으로 바꾸면 실제로 하지 않은 최고 평가가 생겨 평점 유사도가 왜곡된다.",
           "correctedStatement": "결측은 미평가로 유지하고 적절한 유사도/정규화 방법을 쓴다."
         }
       ],
@@ -5920,7 +5920,7 @@
         {
           "text": "예측 정확도가 4.83%라는 뜻이다.",
           "correct": false,
-          "explanation": "백분율 지표가 아니다.",
+          "explanation": "MAE는 평균 절대 오차로, 여기서는 백분율이 아니라 제작연도와 같은 단위인 '년'으로 표시된다.",
           "correctedStatement": "평균 절대 오차가 4.83년이다."
         },
         {
@@ -5932,7 +5932,7 @@
         {
           "text": "모델이 4.83개의 피처만 사용했다는 뜻이다.",
           "correct": false,
-          "explanation": "피처 수와 무관하다.",
+          "explanation": "MAE는 예측값과 실제값의 평균 절대 차이이며, 모델에 사용한 피처 개수를 나타내지 않는다.",
           "correctedStatement": "MAE는 오차 크기 지표다."
         }
       ],
@@ -5959,19 +5959,19 @@
         {
           "text": "코드·데이터 버전과 실행 로그를 재현해 값을 확인하고, 확인 전에는 두 수치의 불일치를 명시한다.",
           "correct": true,
-          "explanation": "상충 증거를 투명하게 기록하는 방법이다.",
+          "explanation": "같은 조건으로 코드를 다시 실행해 MAE를 확인하고, 확인 전에는 4.19년과 4.83년의 불일치를 그대로 알린다.",
           "correctedStatement": "코드·데이터 버전과 실행 로그를 재현해 값을 확인하고, 확인 전에는 두 수치의 불일치를 명시한다."
         },
         {
           "text": "더 좋아 보이는 4.19년만 선택한다.",
           "correct": false,
-          "explanation": "선택 편향이며 근거가 없다.",
+          "explanation": "오차가 작아 보인다는 이유만으로 4.19년을 고를 수는 없다. 실제 실행 결과를 확인해야 한다.",
           "correctedStatement": "재현 검증 후 확정해야 한다."
         },
         {
           "text": "표에 있으므로 4.83년이 무조건 참이라고 단정한다.",
           "correct": false,
-          "explanation": "표도 오류일 수 있다.",
+          "explanation": "표의 수치도 잘못 기록됐을 수 있으므로 코드·데이터·실행 결과를 함께 확인해야 한다.",
           "correctedStatement": "코드·데이터·로그를 맞춰 확인한다."
         },
         {

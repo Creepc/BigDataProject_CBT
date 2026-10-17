@@ -287,12 +287,8 @@ for (const input of inputs) {
       options: asArray(question.options).map((option, index) => {
         const text = option.text ?? option.label
         const correct = Boolean(option.correct ?? option.isCorrect)
-        const base = String(option.explanation ?? option.reason ?? '').trim().replace(/[.。]?$/, '.')
+        const explanation = String(option.explanation ?? option.reason ?? '').trim()
         const correctedStatement = option.correctedStatement ?? option.correction ?? (correct ? text : '')
-        const criterion = question.review ?? question.conceptReview ?? '문제에 제시된 정의·조건·분석 단위'
-        const explanation = correct
-          ? `${base} 이 선택지는 “${text}”를 뜻하며, 핵심 판별 기준인 “${criterion}”와 일치한다. 따라서 문제의 조건에 직접 부합하는 정답이다.`
-          : `${base} 이 선택지는 “${text}”를 주장하지만, 대상·방향·순서·단위 또는 해석 범위 중 하나를 혼동한다. 핵심 기준인 “${criterion}”와 어긋나므로 정답이 될 수 없다. “${correctedStatement}”로 고치면 올바른 설명이 된다.`
         return { id: `o${index + 1}`, text, correct, explanation, correctedStatement }
       }),
       conceptIds: strings(question.conceptIds ?? question.relatedConceptIds)

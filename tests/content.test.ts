@@ -87,7 +87,6 @@ describe('course content integrity', () => {
       expect(new Set(question.options.map((option) => option.id)).size).toBe(4)
       question.options.forEach((option) => {
         expect(option.explanation.trim()).not.toBe('')
-        expect(option.explanation.length).toBeGreaterThanOrEqual(80)
         expect(option.correctedStatement.trim()).not.toBe('')
       })
       question.sourceRefs.forEach((source) => {
@@ -108,6 +107,15 @@ describe('course content integrity', () => {
       expect(concept.relatedQuestionIds.length).toBeGreaterThan(0)
       concept.relatedQuestionIds.forEach((id) => expect(questionIds.has(id)).toBe(true))
     })
+  })
+
+  it('keeps all option explanations concise and free of generic filler', () => {
+    courseData.questions.forEach((question) => question.options.forEach((option) => {
+      const label = `${question.id}.${option.id}`
+      expect(option.explanation.trim().length, label).toBeGreaterThan(4)
+      expect(option.explanation.length, label).toBeLessThanOrEqual(180)
+      expect(option.explanation, label).not.toMatch(/이 선택지는|혼동|핵심 (?:판별 )?기준|고치면 올바른 설명/)
+    }))
   })
 
   it('contains balanced single answers, multiple-answer items, and usable graph data', () => {

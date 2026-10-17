@@ -56,7 +56,6 @@ export function WrongPage({ data, navigate }: { data: CourseData; navigate: (tar
                     <section key={option.id} className={`rounded-xl border p-3 ${option.correct ? 'border-emerald-200 bg-emerald-50/70 dark:border-emerald-500/20 dark:bg-emerald-500/[0.07]' : picked ? 'border-rose-200 bg-rose-50/70 dark:border-rose-500/20 dark:bg-rose-500/[0.07]' : 'border-black/[0.06] bg-white dark:border-white/[0.07] dark:bg-black/10'}`}>
                       <div className="flex flex-wrap items-start justify-between gap-2"><p className="min-w-0 flex-1 text-xs font-bold leading-6"><span className={option.correct ? 'text-emerald-700' : 'text-slate-500'}>{optionLabel(index)} </span>{option.text}</p><div className="flex gap-1">{option.correct && <span className="rounded-full bg-emerald-600 px-2 py-0.5 text-[10px] font-bold text-white">정답</span>}{picked && <span className="rounded-full bg-ink px-2 py-0.5 text-[10px] font-bold text-white dark:bg-white dark:text-ink">당시 선택</span>}</div></div>
                       <p className="mt-2 text-xs leading-6 text-slate-600 dark:text-slate-300">{option.explanation}</p>
-                      {!option.correct && option.correctedStatement && <p className="mt-2 rounded-lg bg-white/80 px-3 py-2 text-[11px] leading-5 text-slate-600 dark:bg-black/20 dark:text-slate-300"><strong>바르게 고치면:</strong> {option.correctedStatement}</p>}
                     </section>
                   )
                 })}

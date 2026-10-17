@@ -4666,7 +4666,7 @@
         {
           "text": "프로젝트가 단일 항목 최대지만 중간·기말 합계 40%가 더 크다.",
           "correct": true,
-          "explanation": "막대의 개별값과 합산 비교를 모두 정확히 읽었다.",
+          "explanation": "프로젝트는 30%, 중간·기말고사는 각각 20%이므로 시험 합계는 40%다.",
           "correctedStatement": "프로젝트 30%, 시험 합계 40%다."
         },
         {
@@ -4746,7 +4746,7 @@
         {
           "text": "질의 설계→산출물 생성→실행·공식 문서 대조→기록",
           "correct": true,
-          "explanation": "그림 1-4의 순환 절차다.",
+          "explanation": "질문을 설계해 결과를 생성하고, 실행·공식 문서로 확인한 뒤 검증 내용을 기록한다.",
           "correctedStatement": "검증 실패 시 폐기하고 질의 설계로 되돌아간다."
         },
         {
@@ -4784,19 +4784,19 @@
         {
           "text": "JDK 17만 허용",
           "correct": false,
-          "explanation": "표 1-4에는 JDK 11이 명시돼 있다.",
+          "explanation": "수업에서 공통으로 사용하는 JDK 기준은 11이다.",
           "correctedStatement": "수업 기준은 JDK 11 LTS다."
         },
         {
           "text": "JDK 21 이상",
           "correct": false,
-          "explanation": "수업 최소 기준과 다르다.",
+          "explanation": "수업 기준은 JDK 11이며, JDK 21 이상을 요구하지 않는다.",
           "correctedStatement": "JDK 11을 기준으로 설치 환경 출력을 확인한다."
         },
         {
           "text": "JDK 11 (LTS)",
           "correct": true,
-          "explanation": "표 1-4의 명시된 기준이다.",
+          "explanation": "JDK 11은 수업에서 사용하는 Java 개발·실행 환경의 공통 기준이다.",
           "correctedStatement": "JDK 11은 Hadoop 3.4.x와 Spark 3.5.x 공통 지원 기준이다."
         }
       ],
@@ -4823,25 +4823,25 @@
         {
           "text": "Velocity",
           "correct": true,
-          "explanation": "유입·처리 속도를 측정하는 지표다.",
+          "explanation": "Velocity는 데이터의 유입·처리 속도다. 초당 이벤트 수와 처리 지연으로 측정한다.",
           "correctedStatement": "Velocity는 EPS·지연·backlog로 진단한다."
         },
         {
           "text": "Volume",
           "correct": false,
-          "explanation": "Volume은 총량·증가량과 관련된다.",
+          "explanation": "Volume은 데이터의 양이다. 저장 용량·레코드 수·증가량 등으로 측정한다.",
           "correctedStatement": "Volume은 GB/일·TB 같은 저장·처리 총량으로 본다."
         },
         {
           "text": "Variety",
           "correct": false,
-          "explanation": "Variety는 구조·스키마 다양성이다.",
+          "explanation": "Variety는 정형 표·텍스트·이미지처럼 데이터 형식과 구조가 다양한 정도다.",
           "correctedStatement": "Variety는 소스 수·스키마 버전·비정형 비율로 진단한다."
         },
         {
           "text": "Value",
           "correct": false,
-          "explanation": "Value는 산출 가치다.",
+          "explanation": "Value는 데이터 활용으로 얻는 가치다. 비용 절감·매출 개선 같은 성과로 판단한다.",
           "correctedStatement": "Value는 의사결정 반영·비용 대비 효과로 평가한다."
         }
       ],
@@ -4868,7 +4868,7 @@
         {
           "text": "파일명 길이",
           "correct": false,
-          "explanation": "분산 실행 여부와 무관하다.",
+          "explanation": "파일명 길이는 파일 이름에 들어간 문자 수다. 여러 노드의 작업 분담·통신 방식과는 별개다.",
           "correctedStatement": "스케일아웃은 노드 간 통신과 부분 장애를 고려한다."
         },
         {
@@ -4880,13 +4880,13 @@
         {
           "text": "화면 해상도",
           "correct": false,
-          "explanation": "처리 아키텍처와 무관하다.",
+          "explanation": "화면 해상도는 화면을 구성하는 가로·세로 픽셀 수다.",
           "correctedStatement": "CPU·메모리·저장·네트워크 병목을 측정한다."
         },
         {
           "text": "그래프 글꼴",
           "correct": false,
-          "explanation": "표현 문제일 뿐 분산 처리 고유 오버헤드가 아니다.",
+          "explanation": "그래프 글꼴은 제목·축·라벨의 글자 모양이다. 분산 처리의 통신·실행 비용을 결정하지 않는다.",
           "correctedStatement": "스케일아웃 고정비용은 작업 제출·executor 기동·셔플이다."
         }
       ],
@@ -4913,13 +4913,13 @@
         {
           "text": "산점도",
           "correct": false,
-          "explanation": "점 두 변수 관계가 아니라 범주별 두 막대를 비교한다.",
+          "explanation": "산점도는 두 수치 변수의 관계를 점의 위치로 나타내는 그래프다.",
           "correctedStatement": "이 그림은 데이터 크기 범주마다 두 계열을 둔 그룹 막대그래프다."
         },
         {
           "text": "히스토그램",
           "correct": false,
-          "explanation": "연속 수치 구간의 빈도 분포가 아니다.",
+          "explanation": "히스토그램은 수치 데이터를 구간으로 나누고 각 구간의 빈도를 막대로 나타낸다.",
           "correctedStatement": "처리 시간 계열 비교에는 그룹 막대가 쓰였다."
         },
         {
@@ -4931,7 +4931,7 @@
         {
           "text": "박스플롯",
           "correct": false,
-          "explanation": "사분위·수염을 표시하지 않는다.",
+          "explanation": "박스플롯은 중앙값·사분위 범위·수염·잠재 이상점을 요약하는 그래프다.",
           "correctedStatement": "반복 분포를 보일 때 박스플롯을 쓸 수 있지만 본 그림은 그룹 막대다."
         }
       ],
@@ -5007,7 +5007,7 @@
         {
           "text": "결과가 항상 틀려서",
           "correct": false,
-          "explanation": "결과 일치는 별도로 검증해야 하지만 필연적으로 틀리는 것은 아니다.",
+          "explanation": "분산 처리도 올바른 결과를 낼 수 있다. 작은 작업에서 느려지는 주된 이유는 작업 시작·통신 비용이다.",
           "correctedStatement": "정확도와 시간은 분리해 검증한다."
         },
         {
@@ -5087,7 +5087,7 @@
         {
           "text": "중복 행",
           "correct": false,
-          "explanation": "행 중복 문제가 아니다.",
+          "explanation": "중복 행은 같은 데이터 레코드가 여러 번 들어 있는 상태다.",
           "correctedStatement": "런타임과 의존성 좌표의 버전 불일치다."
         },
         {
@@ -5099,13 +5099,13 @@
         {
           "text": "결측값",
           "correct": false,
-          "explanation": "값이 빠진 것이 아니라 잘못된 버전이 들어갔다.",
+          "explanation": "결측값은 데이터의 값이 비어 있는 상태다. 여기서는 버전 값이 있지만 서로 맞지 않는다.",
           "correctedStatement": "존재하는 좌표라도 런타임과 호환되는지 검증한다."
         },
         {
           "text": "그래프 축 오류",
           "correct": false,
-          "explanation": "시각화 문제가 아니다.",
+          "explanation": "그래프 축 오류는 축의 단위·눈금·범위 등을 잘못 표시한 문제다.",
           "correctedStatement": "의존성 버전 좌표의 호환성 문제다."
         }
       ],
@@ -5138,7 +5138,7 @@
         {
           "text": "Kafka Broker",
           "correct": false,
-          "explanation": "Kafka 메시지 로그 구성요소다.",
+          "explanation": "Kafka Broker는 메시지를 저장하고 생산자·소비자의 요청을 처리하는 서버다.",
           "correctedStatement": "HDFS 메타데이터는 NameNode가 맡는다."
         },
         {
@@ -5150,7 +5150,7 @@
         {
           "text": "Kibana",
           "correct": false,
-          "explanation": "Kibana는 시각화 도구다.",
+          "explanation": "Kibana는 Elasticsearch 데이터를 검색·분석하고 대시보드로 보여주는 도구다.",
           "correctedStatement": "HDFS 마스터 역할은 NameNode다."
         }
       ],
@@ -5183,7 +5183,7 @@
         {
           "text": "ETL은 적재 후 변환, ELT는 변환 후 적재다.",
           "correct": false,
-          "explanation": "순서가 뒤바뀌었다.",
+          "explanation": "ETL은 추출→변환→적재, ELT는 추출→적재→변환 순서다.",
           "correctedStatement": "ETL은 Extract-Transform-Load, ELT는 Extract-Load-Transform이다."
         },
         {
@@ -5195,7 +5195,7 @@
         {
           "text": "ETL은 변환 후 적재하고 ELT는 적재 후 변환한다.",
           "correct": true,
-          "explanation": "약어 순서와 설명이 일치한다.",
+          "explanation": "T는 변환, L은 적재다. ETL은 저장 전에 변환하고 ELT는 저장한 뒤 변환한다.",
           "correctedStatement": "ETL과 ELT는 변환 위치·시점이 다르다."
         }
       ],
@@ -5380,7 +5380,7 @@
         {
           "text": "유형별 차이는 보이지 않지만 MCAR 증명은 아니다.",
           "correct": true,
-          "explanation": "교안의 주의와 일치한다.",
+          "explanation": "유형별 결측률이 같아도 연도·국가 등 다른 요인과 결측의 관계는 남아 있을 수 있다.",
           "correctedStatement": "한 변수별 진단은 단서이지 메커니즘의 증명이 아니다."
         }
       ],
@@ -5413,19 +5413,19 @@
         {
           "text": "title을 숫자로 변환한다.",
           "correct": false,
-          "explanation": "배우 빈도와 무관하다.",
+          "explanation": "title은 작품 제목이다. 배우별 출연 작품 수는 cast를 펼쳐 집계한다.",
           "correctedStatement": "cast 다중값을 정규화한다."
         },
         {
           "text": "release_year 평균을 계산한다.",
           "correct": false,
-          "explanation": "배우 참여 작품 수 질문의 핵심이 아니다.",
+          "explanation": "release_year 평균은 작품들의 평균 공개 연도를 구하는 계산이다.",
           "correctedStatement": "배우별 고유 show_id 수를 계산한다."
         },
         {
           "text": "description 워드클라우드를 만든다.",
           "correct": false,
-          "explanation": "배우 열의 정확한 관계 집계가 아니다.",
+          "explanation": "description 워드클라우드는 줄거리에서 자주 등장하는 단어를 보여준다.",
           "correctedStatement": "cast 열을 직접 사용한다."
         }
       ],
@@ -5467,7 +5467,7 @@
         {
           "text": "duration이 기본키라서",
           "correct": false,
-          "explanation": "duration은 기본키가 아니다.",
+          "explanation": "duration은 영화의 상영시간 또는 TV 프로그램의 시즌 수다. 작품을 구분하는 기본키는 show_id다.",
           "correctedStatement": "show_id가 식별자 후보다."
         },
         {
@@ -5503,13 +5503,13 @@
         {
           "text": "두 범주 비율을 정확히 비교",
           "correct": false,
-          "explanation": "히스토그램은 연속·수치 분포를 본다.",
+          "explanation": "히스토그램은 수치 구간별 빈도를 보여준다. 두 범주의 비율 비교에는 막대그래프가 알맞다.",
           "correctedStatement": "범주 비교에는 막대그래프가 더 직접적이다."
         },
         {
           "text": "두 변수의 인과관계 증명",
           "correct": false,
-          "explanation": "단변량 분포 차트다.",
+          "explanation": "이 그래프는 제작 연도 한 변수의 분포만 보여주므로 두 변수 사이의 인과관계는 알 수 없다.",
           "correctedStatement": "히스토그램은 한 수치 변수의 분포 모양을 보여준다."
         },
         {
@@ -5521,7 +5521,7 @@
         {
           "text": "감독-배우 연결 구조 확인",
           "correct": false,
-          "explanation": "그 목적은 네트워크 그래프다.",
+          "explanation": "감독-배우 연결은 감독·배우를 노드로, 공동 참여 관계를 선으로 나타내는 네트워크 그래프로 본다.",
           "correctedStatement": "연도 분포는 히스토그램으로 본다."
         }
       ],
@@ -5567,7 +5567,7 @@
         {
           "text": "통계적으로 멀리 떨어진 검토 후보이며 자동 삭제 대상은 아니다.",
           "correct": true,
-          "explanation": "교안이 반복해서 강조한 원칙이다.",
+          "explanation": "수염 밖의 점은 다른 값에서 멀리 떨어진 관측값이다. 실제로 긴 영화일 수도 있으므로 원자료를 확인한다.",
           "correctedStatement": "오류·희귀 정상·영향값을 구분한다."
         }
       ],
@@ -5628,7 +5628,7 @@
         {
           "text": "그 장르-등급 조합의 콘텐츠-장르 관계 건수가 많다.",
           "correct": true,
-          "explanation": "원시 교차표의 셀 값이 크다는 뜻이다.",
+          "explanation": "건수 히트맵은 셀의 관계 건수가 클수록 진하게 표시한다.",
           "correctedStatement": "연관 강도나 인과가 아니라 조합 건수다."
         },
         {
@@ -5683,19 +5683,19 @@
         {
           "text": "해당 장르의 전체 등급 관계 수",
           "correct": true,
-          "explanation": "counts.div(counts.sum(axis=1), axis=0)의 분모다.",
+          "explanation": "각 셀의 건수를 해당 장르 행의 전체 건수로 나눈 값이다.",
           "correctedStatement": "한 행의 비율 합은 결측 포함 방식에 따라 1이 된다."
         },
         {
           "text": "해당 등급의 전체 장르 수",
           "correct": false,
-          "explanation": "그것은 열 구성비에 가깝다.",
+          "explanation": "해당 등급 열의 전체 관계 건수로 나누면 열 구성비가 된다. 행 구성비는 장르 행의 합으로 나눈다.",
           "correctedStatement": "행 비율은 장르 내부 등급 구성이다."
         },
         {
           "text": "배우 수",
           "correct": false,
-          "explanation": "장르·등급 교차표와 무관하다.",
+          "explanation": "배우 수는 cast에서 집계한다. 장르별 등급 구성비의 분모는 해당 장르의 전체 관계 건수다.",
           "correctedStatement": "분모는 해당 장르 행의 총 관계 수다."
         }
       ],
@@ -5777,7 +5777,7 @@
         {
           "text": "그래프에 원이 있는가",
           "correct": false,
-          "explanation": "마커 모양은 결론의 근거가 아니다.",
+          "explanation": "마커는 각 시점의 위치를 표시한다. 연간 등록 건수의 급락 원인을 알려주지는 않는다.",
           "correctedStatement": "부분 연도인지 확인한다."
         },
         {
@@ -6035,19 +6035,19 @@
         {
           "text": "파이차트",
           "correct": false,
-          "explanation": "시간 순서와 변화 방향을 읽기 어렵다.",
+          "explanation": "파이차트는 전체에서 각 범주가 차지하는 비중을 조각 크기로 나타낸다.",
           "correctedStatement": "시간 순서가 있는 값에는 선 또는 순서 막대를 사용한다."
         },
         {
           "text": "워드클라우드",
           "correct": false,
-          "explanation": "텍스트 빈도 시각화다.",
+          "explanation": "워드클라우드는 자주 등장하는 단어를 크게 표시하는 시각화다.",
           "correctedStatement": "연도별 수치에는 선그래프가 적합하다."
         },
         {
           "text": "네트워크 그래프",
           "correct": false,
-          "explanation": "노드·엣지 관계용이다.",
+          "explanation": "네트워크 그래프는 사람·작품 같은 대상과 그 사이의 연결 관계를 나타낸다.",
           "correctedStatement": "시간 집계에는 선그래프를 사용한다."
         },
         {
@@ -6083,13 +6083,13 @@
         {
           "text": "이 분석 범위에서 가장 다양한 배우와 직접 연결된 감독",
           "correct": true,
-          "explanation": "엣지 정의와 표본 범위 안의 직접 연결을 말한다.",
+          "explanation": "연결 중심성은 직접 연결된 이웃 수를 기준으로 한다. 여기서는 포함된 배우와의 연결만 센다.",
           "correctedStatement": "전체 영화산업의 영향력 1위라고 일반화하지 않는다."
         },
         {
           "text": "전 세계에서 가장 영향력 있는 예술가",
           "correct": false,
-          "explanation": "표본·엣지·중심성 정의가 너무 제한적이다.",
+          "explanation": "상위 감독 30명과 배우의 연결만 분석했으므로 전 세계 예술가의 영향력까지 판단할 수 없다.",
           "correctedStatement": "상위 감독 표본의 협업 연결 폭으로 해석한다."
         },
         {
@@ -6137,7 +6137,7 @@
         {
           "text": "설정한 토큰화·불용어 규칙 아래 description에서 life가 자주 등장했다.",
           "correct": true,
-          "explanation": "워드클라우드가 직접 보여주는 범위를 지켰다.",
+          "explanation": "단어 크기는 전처리 후 집계한 등장 빈도를 나타낸다. 사용자 선호를 뜻하지는 않는다.",
           "correctedStatement": "중요도·선호는 별도 지표가 필요하다."
         },
         {
@@ -6191,7 +6191,7 @@
         {
           "text": "메타데이터 TF-IDF 벡터와 코사인 유사도",
           "correct": true,
-          "explanation": "교안의 콘텐츠 기반 구현이다.",
+          "explanation": "TF-IDF는 작품 설명 등의 단어를 수치 벡터로 바꾸고, 코사인 유사도는 두 벡터의 방향이 비슷한 정도를 계산한다.",
           "correctedStatement": "피처 수프를 TF-IDF로 변환해 코사인 유사도를 계산한다."
         },
         {
@@ -6226,7 +6226,7 @@
         {
           "text": "Python과 pandas를 함께 사용했다.",
           "correct": false,
-          "explanation": "정상적인 조합이다.",
+          "explanation": "pandas는 Python에서 표 형태의 데이터를 처리하는 라이브러리이므로 함께 사용하는 것이 정상이다.",
           "correctedStatement": "성능 수치와 실행 조건의 일관성을 점검한다."
         },
         {
@@ -6285,7 +6285,7 @@
         {
           "text": "rating 평균",
           "correct": false,
-          "explanation": "출연 작품 수 질문에 필수적이지 않다.",
+          "explanation": "rating은 시청 연령 등급이다. 배우별 출연 작품 수는 show_id와 cast로 집계한다.",
           "correctedStatement": "rating은 등급 조건을 추가할 때만 필요하다."
         },
         {
@@ -6369,25 +6369,25 @@
         {
           "text": "필수 열 누락·순서 불일치",
           "correct": true,
-          "explanation": "스키마 계약 위반이다.",
+          "explanation": "필수 열이나 정해 둔 열 순서가 다르면 이후 전처리 코드가 잘못된 열을 처리할 수 있어 검사를 중단한다.",
           "correctedStatement": "새 버전의 변경점을 검토할 때까지 중단한다."
         },
         {
           "text": "영화 312분 관측값",
           "correct": false,
-          "explanation": "극단값은 검토 후보다.",
+          "explanation": "312분은 드문 값이지만 실제 상영시간일 수 있으므로 원자료 확인 전에는 오류로 확정하지 않는다.",
           "correctedStatement": "원문과 도메인 근거를 확인한다."
         },
         {
           "text": "show_id 결측 또는 중복",
           "correct": true,
-          "explanation": "기본키 계약 위반이다.",
+          "explanation": "show_id는 작품을 유일하게 식별하는 기본키다. 비어 있거나 중복되면 작품 구분이 보장되지 않는다.",
           "correctedStatement": "키 정의와 원본을 확인한다."
         },
         {
           "text": "director 일반 결측",
           "correct": false,
-          "explanation": "경고 후 분석별 처리한다.",
+          "explanation": "감독 정보가 없어도 유형·연도 분석은 가능하다. 감독별 분석에서는 결측을 제외하거나 별도 범주로 처리한다.",
           "correctedStatement": "유효 N과 집단 차이를 보고한다."
         }
       ],
@@ -6433,7 +6433,7 @@
         {
           "text": "콘텐츠-장르 관계 수가 원본 행 수보다 커질 수 있다.",
           "correct": true,
-          "explanation": "다대다를 장형으로 펼친 정상 결과다.",
+          "explanation": "한 작품이 장르 3개에 속하면 작품-장르 행이 3개 생기므로 원본보다 행 수가 늘 수 있다.",
           "correctedStatement": "중복 오류 여부는 show_id·장르 쌍 중복으로 따로 확인한다."
         }
       ],
@@ -6515,7 +6515,7 @@
         {
           "text": "그래프 배경색",
           "correct": false,
-          "explanation": "배경색은 분포 해석의 핵심 근거가 아니다.",
+          "explanation": "배경색은 그래프의 화면 표현이다. 중앙값·분산·이상점 같은 데이터 특성을 나타내지 않는다.",
           "correctedStatement": "단위·N·중앙값·IQR·수염·점을 본다."
         },
         {
@@ -6527,13 +6527,13 @@
         {
           "text": "중앙값·IQR·꼬리와 잠재 이상점",
           "correct": true,
-          "explanation": "박스플롯의 핵심 요소다.",
+          "explanation": "중앙값은 분포의 가운데, IQR은 가운데 50%의 폭이며 수염과 점은 바깥쪽 분포를 보여준다.",
           "correctedStatement": "점은 검토 후보로 해석한다."
         },
         {
           "text": "점이 있으면 원자료에서 즉시 삭제",
           "correct": false,
-          "explanation": "시각 표시와 데이터 삭제는 다르다.",
+          "explanation": "점으로 표시된 값도 실제 관측값일 수 있다. 입력 오류인지 확인한 뒤 처리한다.",
           "correctedStatement": "도메인 확인 후 처리한다."
         }
       ],
@@ -6713,7 +6713,7 @@
         {
           "text": "hasattr·import와 공식 버전 문서로 API 실재 확인",
           "correct": true,
-          "explanation": "기계적 실행 증거를 남길 수 있다.",
+          "explanation": "hasattr·import로 현재 환경에 API가 있는지 확인하고, 버전별 공식 문서로 사용법을 확인한다.",
           "correctedStatement": "현재 런타임에서 직접 검증한다."
         },
         {
@@ -6810,7 +6810,7 @@
         {
           "text": "상위 범주 필터로 빠진 나머지를 숨기고 언급하지 않음",
           "correct": false,
-          "explanation": "분석 범위를 왜곡한다.",
+          "explanation": "상위 범주만 보이면 제외된 범주의 규모를 알 수 없으므로 상위 N 기준과 제외 범위를 밝혀야 한다.",
           "correctedStatement": "상위 N 기준과 제외된 나머지를 명시한다."
         },
         {
@@ -6822,7 +6822,7 @@
         {
           "text": "각 행의 유효 N과 Missing 포함 여부를 표시",
           "correct": true,
-          "explanation": "희소·결측 차이를 해석할 수 있다.",
+          "explanation": "유효 N은 실제 집계에 쓴 건수다. Missing 포함 여부와 함께 표시하면 작은 표본이나 결측의 영향을 확인할 수 있다.",
           "correctedStatement": "필요하면 Missing을 별도 범주로 둔다."
         }
       ],
@@ -6866,7 +6866,7 @@
         {
           "text": "배경색",
           "correct": false,
-          "explanation": "구조 지표와 무관하다.",
+          "explanation": "배경색은 화면 표현만 바꾸며, 감독·배우의 연결 수나 중심성 값을 바꾸지 않는다.",
           "correctedStatement": "노드 구분 색은 읽기만 돕는다."
         },
         {
@@ -6909,7 +6909,7 @@
         {
           "text": "콘텐츠 기반은 메타데이터 유사도, 아이템 기반 협업 필터링은 사용자 평가 패턴을 사용한다.",
           "correct": true,
-          "explanation": "두 방식의 핵심 입력 차이다.",
+          "explanation": "콘텐츠 기반은 장르·설명 같은 작품 속성을, 협업 필터링은 여러 사용자의 평점·행동 패턴을 비교한다.",
           "correctedStatement": "각각 TF-IDF cosine과 평점 상관 예시가 있다."
         },
         {
@@ -6972,7 +6972,7 @@
         {
           "text": "Privacy by Design은 설계 단계부터 최소화·목적 제한·보호를 반영한다.",
           "correct": true,
-          "explanation": "사후 처리만이 아니라 설계 원칙이다.",
+          "explanation": "Privacy by Design은 개인정보를 꼭 필요한 만큼만 수집하고 목적·권한·보관 기간을 설계할 때부터 정하는 원칙이다.",
           "correctedStatement": "권한·보관·기밀성·책임을 포함한다."
         }
       ],

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import {
   ArrowLeft, ArrowRight, Bookmark, BookmarkCheck, Check, CheckCircle2,
-  ExternalLink, Lightbulb, Link2, RotateCcw, X, XCircle,
+  ExternalLink, Lightbulb, Link2, X, XCircle,
 } from 'lucide-react'
 import type { Concept, NavigationTarget, Question, SourceFile } from '@/types'
 import { correctOptionIds, formatPages, isAnswerCorrect } from '@/lib/study'
@@ -46,8 +46,7 @@ export function QuestionExplanation({
       </div>
 
       <div>
-        <h3 className="section-title">선택지 전체 해설</h3>
-        <p className="mt-1 text-xs text-slate-500">정답뿐 아니라 각 오답이 어떤 개념과 섞였는지까지 확인하세요.</p>
+        <h3 className="section-title">선택지 해설</h3>
         <div className="mt-4 space-y-3">
           {question.options.map((option, index) => {
             const picked = selected.includes(option.id)
@@ -64,11 +63,6 @@ export function QuestionExplanation({
                   </div>
                 </div>
                 <p className="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-300">{option.explanation}</p>
-                {!option.correct && option.correctedStatement && (
-                  <div className="mt-3 flex gap-2 rounded-xl bg-white/80 px-3 py-2.5 text-xs leading-5 text-slate-600 dark:bg-black/20 dark:text-slate-300">
-                    <RotateCcw size={14} className="mt-0.5 shrink-0 text-cobalt" /><span><strong>바르게 고치면:</strong> {option.correctedStatement}</span>
-                  </div>
-                )}
               </article>
             )
           })}
