@@ -7540,8 +7540,8 @@
       ],
       "supplemental": true,
       "visual": {
-      "kind": "scatter",
-      "title": "학습용 가상 연도별 작품 수",
+        "kind": "scatter",
+        "title": "학습용 가상 연도별 작품 수",
         "xLabel": "연도",
         "yLabel": "작품 수(건)",
         "labels": [
@@ -7806,4 +7806,3 @@
     }
   ]
 }
-
