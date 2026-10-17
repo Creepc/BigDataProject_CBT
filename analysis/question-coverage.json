@@ -1,0 +1,5155 @@
+{
+  "conceptCount": 110,
+  "learningQuestionCount": 440,
+  "coverage": [
+    {
+      "conceptId": "n12-c-stack",
+      "name": "빅데이터 분석 소프트웨어 스택",
+      "fileId": "notion-w1",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n12-new-001",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-002",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-003",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-004",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "스택의 계층을 기능과 함께 설명한다.",
+          "questionIds": [
+            "n12-new-001",
+            "n12-new-004"
+          ]
+        },
+        {
+          "objective": "저장 문제와 계산 문제의 장애 지점을 구분한다.",
+          "questionIds": [
+            "n12-new-001",
+            "n12-new-002",
+            "n12-new-004"
+          ]
+        },
+        {
+          "objective": "강의의 계층도를 실제 도구의 필수 연결 관계와 구별한다.",
+          "questionIds": [
+            "n12-new-003",
+            "n12-new-004"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-software",
+      "name": "소프트웨어",
+      "fileId": "notion-w1",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "n12-new-005",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-006",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-007",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-008",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "명령어와 데이터의 역할을 구분한다.",
+          "questionIds": [
+            "n12-new-005",
+            "n12-new-008"
+          ]
+        },
+        {
+          "objective": "설치·실행·종료의 차이를 설명한다.",
+          "questionIds": [
+            "n12-new-006",
+            "n12-new-008"
+          ]
+        },
+        {
+          "objective": "한 작업에 여러 소프트웨어가 협력하는 과정을 추적한다.",
+          "questionIds": [
+            "n12-new-007",
+            "n12-new-008"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-system-software",
+      "name": "시스템 소프트웨어",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-009",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-010",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-011",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-012",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "응용과 시스템 소프트웨어를 책임으로 구분한다.",
+          "questionIds": [
+            "n12-new-009",
+            "n12-new-011",
+            "n12-new-012"
+          ]
+        },
+        {
+          "objective": "컴파일러·DBMS·유틸리티의 제공 서비스를 설명한다.",
+          "questionIds": [
+            "n12-new-010",
+            "n12-new-011"
+          ]
+        },
+        {
+          "objective": "공통 기반을 두는 이유를 자원과 개발 비용에 연결한다.",
+          "questionIds": [
+            "n12-new-009",
+            "n12-new-011",
+            "n12-new-012"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-os",
+      "name": "운영체제",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-013",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-014",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-015",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-016",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "운영체제가 필요한 이유를 자원 경쟁으로 설명한다.",
+          "questionIds": [
+            "n12-new-013",
+            "n12-new-016"
+          ]
+        },
+        {
+          "objective": "프로세스·메모리·저장 관리를 상황과 대응한다.",
+          "questionIds": [
+            "n12-new-014",
+            "n12-new-016"
+          ]
+        },
+        {
+          "objective": "운영체제와 개별 응용의 책임 경계를 판단한다.",
+          "questionIds": [
+            "n12-new-015",
+            "n12-new-016"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-os-roles",
+      "name": "운영체제의 역할",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-017",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-018",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-019",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-020",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "네 역할을 행동 사례로 식별한다.",
+          "questionIds": [
+            "n12-new-017",
+            "n12-new-020"
+          ]
+        },
+        {
+          "objective": "자원 관리와 자원 보호의 차이를 설명한다.",
+          "questionIds": [
+            "n12-new-018",
+            "n12-new-020"
+          ]
+        },
+        {
+          "objective": "성능 목표 사이의 절충을 해석한다.",
+          "questionIds": [
+            "n12-new-019",
+            "n12-new-020"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-kernel",
+      "name": "커널과 사용자 인터페이스",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-021",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-022",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-023",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-024",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "커널과 UI의 책임을 구별한다.",
+          "questionIds": [
+            "n12-new-021",
+            "n12-new-024"
+          ]
+        },
+        {
+          "objective": "명령과 결과의 전달 방향을 추적한다.",
+          "questionIds": [
+            "n12-new-022",
+            "n12-new-024"
+          ]
+        },
+        {
+          "objective": "화면 변화와 운영체제 핵심의 변화를 구분한다.",
+          "questionIds": [
+            "n12-new-023"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-system-call",
+      "name": "시스템 호출",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-025",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-026",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-027",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-028",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "직접 접근을 제한하는 이유를 설명한다.",
+          "questionIds": [
+            "n12-new-025",
+            "n12-new-028"
+          ]
+        },
+        {
+          "objective": "시스템 호출의 요청·검사·결과 흐름을 추적한다.",
+          "questionIds": [
+            "n12-new-026",
+            "n12-new-028"
+          ]
+        },
+        {
+          "objective": "일반 함수 계산과 커널 서비스 요청을 구별한다.",
+          "questionIds": [
+            "n12-new-027",
+            "n12-new-028"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-driver",
+      "name": "디바이스 드라이버",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-029",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-030",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-031",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-032",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "장치별 차이를 드라이버가 흡수하는 이유를 설명한다.",
+          "questionIds": [
+            "n12-new-029",
+            "n12-new-032"
+          ]
+        },
+        {
+          "objective": "인쇄 요청과 완료 알림의 흐름을 추적한다.",
+          "questionIds": [
+            "n12-new-030",
+            "n12-new-032"
+          ]
+        },
+        {
+          "objective": "응용·커널·드라이버의 책임을 구분한다.",
+          "questionIds": [
+            "n12-new-031",
+            "n12-new-032"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-unix-linux-gnu",
+      "name": "UNIX·Linux·GNU·macOS 계보",
+      "fileId": "notion-w1",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "n12-new-033",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-034",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-035",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-036",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "UNIX·Linux·GNU의 서로 다른 성격을 설명한다.",
+          "questionIds": [
+            "n12-new-033",
+            "n12-new-036"
+          ]
+        },
+        {
+          "objective": "계보와 기능적 호환을 구별한다.",
+          "questionIds": [
+            "n12-new-034",
+            "n12-new-036"
+          ]
+        },
+        {
+          "objective": "강의의 단순화된 설명을 보정하여 판단한다.",
+          "questionIds": [
+            "n12-new-035",
+            "n12-new-036"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-process",
+      "name": "프로그램과 프로세스",
+      "fileId": "notion-w1",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n12-new-037",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-038",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-039",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-040",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "저장된 프로그램과 실행 중 인스턴스를 구별한다.",
+          "questionIds": [
+            "n12-new-037",
+            "n12-new-040"
+          ]
+        },
+        {
+          "objective": "프로세스 생성·자원 사용·종료 흐름을 설명한다.",
+          "questionIds": [
+            "n12-new-038",
+            "n12-new-040"
+          ]
+        },
+        {
+          "objective": "같은 프로그램의 여러 실행을 구분한다.",
+          "questionIds": [
+            "n12-new-039",
+            "n12-new-040"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-time-sharing",
+      "name": "시분할",
+      "fileId": "notion-w1",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n12-new-041",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-042",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-043",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-044",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "단일 CPU의 동시성과 병렬성을 구분한다.",
+          "questionIds": [
+            "n12-new-041",
+            "n12-new-043"
+          ]
+        },
+        {
+          "objective": "시간 할당량 만료 뒤 상태 변화를 설명한다.",
+          "questionIds": [
+            "n12-new-042",
+            "n12-new-043",
+            "n12-new-044"
+          ]
+        },
+        {
+          "objective": "작업량에 따라 시분할 흐름을 직접 추적한다.",
+          "questionIds": [
+            "n12-new-043",
+            "n12-new-044"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-pcb-states",
+      "name": "PCB와 프로세스 상태",
+      "fileId": "notion-w1",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "n12-new-045",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-046",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-047",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-048",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "PCB가 필요한 이유를 실행 재개의 관점에서 설명한다.",
+          "questionIds": [
+            "n12-new-045",
+            "n12-new-048"
+          ]
+        },
+        {
+          "objective": "상태 전이의 원인을 구분한다.",
+          "questionIds": [
+            "n12-new-046",
+            "n12-new-048"
+          ]
+        },
+        {
+          "objective": "PCB 생성과 정리 시점을 상태 흐름에 연결한다.",
+          "questionIds": [
+            "n12-new-047"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-memory-management",
+      "name": "메모리 관리 시스템",
+      "fileId": "notion-w1",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "n12-new-049",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-050",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-051",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-052",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "메모리가 실행 작업 공간인 이유를 설명한다.",
+          "questionIds": [
+            "n12-new-049",
+            "n12-new-052"
+          ]
+        },
+        {
+          "objective": "배치·보호·확보·회수를 구분한다.",
+          "questionIds": [
+            "n12-new-050",
+            "n12-new-052"
+          ]
+        },
+        {
+          "objective": "메모리 부족과 접근 위반을 서로 다른 문제로 판단한다.",
+          "questionIds": [
+            "n12-new-051",
+            "n12-new-052"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-memory-operations",
+      "name": "fetch·placement·replacement",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-053",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-054",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-055",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-056",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "fetch·placement·replacement를 질문으로 구분한다.",
+          "questionIds": [
+            "n12-new-053",
+            "n12-new-056"
+          ]
+        },
+        {
+          "objective": "공간 부족 상황의 처리 순서를 설명한다.",
+          "questionIds": [
+            "n12-new-054",
+            "n12-new-056"
+          ]
+        },
+        {
+          "objective": "강의의 교체 예시를 유일한 정책으로 일반화하지 않는다.",
+          "questionIds": [
+            "n12-new-055",
+            "n12-new-056"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-virtual-memory",
+      "name": "가상 메모리",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-057",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-058",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-059",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-060",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "가상 주소 공간과 실제 RAM을 구분한다.",
+          "questionIds": [
+            "n12-new-057",
+            "n12-new-060"
+          ]
+        },
+        {
+          "objective": "일부 내용을 RAM과 저장장치 사이에서 관리하는 이유를 설명한다.",
+          "questionIds": [
+            "n12-new-058",
+            "n12-new-060"
+          ]
+        },
+        {
+          "objective": "용량 확대와 성능 향상을 같은 것으로 보지 않는다.",
+          "questionIds": [
+            "n12-new-059",
+            "n12-new-060"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-file",
+      "name": "파일과 확장자",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-061",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-062",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-063",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-064",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "파일의 논리적 단위와 저장 위치를 구분한다.",
+          "questionIds": [
+            "n12-new-061",
+            "n12-new-064"
+          ]
+        },
+        {
+          "objective": "내용·형식 정보·파일 시스템 메타데이터를 설명한다.",
+          "questionIds": [
+            "n12-new-062",
+            "n12-new-064"
+          ]
+        },
+        {
+          "objective": "확장자 변경과 실제 형식 변환을 구별한다.",
+          "questionIds": [
+            "n12-new-063",
+            "n12-new-064"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-directory",
+      "name": "디렉터리",
+      "fileId": "notion-w1",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "n12-new-065",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-066",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-067",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-068",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "디렉터리의 계층과 경로 탐색을 설명한다.",
+          "questionIds": [
+            "n12-new-065",
+            "n12-new-068"
+          ]
+        },
+        {
+          "objective": "이름과 파일 위치 정보를 구분한다.",
+          "questionIds": [
+            "n12-new-066",
+            "n12-new-068"
+          ]
+        },
+        {
+          "objective": "디렉터리 이동·이름 변경의 의미를 판단한다.",
+          "questionIds": [
+            "n12-new-067",
+            "n12-new-068"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-formatting",
+      "name": "포맷팅",
+      "fileId": "notion-w1",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "n12-new-069",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-070",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-071",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-072",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "포맷을 파일 시스템 준비 과정으로 설명한다.",
+          "questionIds": [
+            "n12-new-069",
+            "n12-new-072"
+          ]
+        },
+        {
+          "objective": "빠른 포맷과 느린 포맷의 작업 범위를 비교한다.",
+          "questionIds": [
+            "n12-new-070",
+            "n12-new-072"
+          ]
+        },
+        {
+          "objective": "보이지 않음과 복구 불가능함을 구분한다.",
+          "questionIds": [
+            "n12-new-071",
+            "n12-new-072"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-file-table",
+      "name": "파일 테이블",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-073",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-074",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-075",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-076",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "파일명에서 저장 위치를 찾는 과정을 설명한다.",
+          "questionIds": [
+            "n12-new-073",
+            "n12-new-076"
+          ]
+        },
+        {
+          "objective": "도식의 좌표·인덱스·다음 위치 값을 구별한다.",
+          "questionIds": [
+            "n12-new-074",
+            "n12-new-076"
+          ]
+        },
+        {
+          "objective": "관리 정보 손상과 내용 손상을 구분한다.",
+          "questionIds": [
+            "n12-new-075"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-block",
+      "name": "블록",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-077",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-078",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-079",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-080",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "섹터와 파일 시스템 할당 단위를 구분한다.",
+          "questionIds": [
+            "n12-new-077"
+          ]
+        },
+        {
+          "objective": "파일 크기에서 필요한 블록 수와 낭비를 계산한다.",
+          "questionIds": [
+            "n12-new-078",
+            "n12-new-080"
+          ]
+        },
+        {
+          "objective": "블록 크기의 공간·관리 비용 절충을 설명한다.",
+          "questionIds": [
+            "n12-new-079",
+            "n12-new-080"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-fragmentation",
+      "name": "단편화와 조각 모음",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-081",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-082",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-083",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-084",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "삭제와 재할당이 블록을 흩어 놓는 과정을 설명한다.",
+          "questionIds": [
+            "n12-new-081"
+          ]
+        },
+        {
+          "objective": "HDD의 기계적 접근과 성능을 연결한다.",
+          "questionIds": [
+            "n12-new-082",
+            "n12-new-084"
+          ]
+        },
+        {
+          "objective": "SSD에 HDD 방식의 결론을 그대로 적용하지 않는다.",
+          "questionIds": [
+            "n12-new-083",
+            "n12-new-084"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-fat32",
+      "name": "FAT32 연결 할당",
+      "fileId": "notion-w1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-085",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-086",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-087",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-088",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "시작 블록에서 FAT 체인을 끝까지 추적한다.",
+          "questionIds": [
+            "n12-new-085",
+            "n12-new-088"
+          ]
+        },
+        {
+          "objective": "포인터 값·블록 수·할당 용량을 구분한다.",
+          "questionIds": [
+            "n12-new-086",
+            "n12-new-088"
+          ]
+        },
+        {
+          "objective": "단일 파일 한계와 볼륨 크기 맥락을 나눠 설명한다.",
+          "questionIds": [
+            "n12-new-087",
+            "n12-new-088"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-free-list",
+      "name": "빈 공간 리스트",
+      "fileId": "notion-w1",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n12-new-089",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-090",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-091",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-092",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "파일 삭제 후 관리 정보가 바뀌는 과정을 설명한다.",
+          "questionIds": [
+            "n12-new-089",
+            "n12-new-092"
+          ]
+        },
+        {
+          "objective": "강의의 빈 블록 등록·할당 순서를 계산한다.",
+          "questionIds": [
+            "n12-new-090",
+            "n12-new-092"
+          ]
+        },
+        {
+          "objective": "삭제와 물리 데이터 제거 및 복구 가능성을 구별한다.",
+          "questionIds": [
+            "n12-new-091",
+            "n12-new-092"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-bigdata",
+      "name": "빅데이터",
+      "fileId": "notion-w2",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-093",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-094",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-095",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-096",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "고정 용량 대신 처리 문제로 빅데이터를 설명한다.",
+          "questionIds": [
+            "n12-new-093",
+            "n12-new-096"
+          ]
+        },
+        {
+          "objective": "5V를 하나의 시나리오에 적용한다.",
+          "questionIds": [
+            "n12-new-094",
+            "n12-new-096"
+          ]
+        },
+        {
+          "objective": "분석 결과와 가치 검증의 차이를 판단한다.",
+          "questionIds": [
+            "n12-new-095",
+            "n12-new-096"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-volume",
+      "name": "Volume",
+      "fileId": "notion-w2",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "n12-new-097",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-098",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-099",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-100",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "건수·레코드 크기·보관 기간으로 규모를 계산한다.",
+          "questionIds": [
+            "n12-new-097",
+            "n12-new-100"
+          ]
+        },
+        {
+          "objective": "저장 용량과 처리 시간의 한계를 구분한다.",
+          "questionIds": [
+            "n12-new-098",
+            "n12-new-100"
+          ]
+        },
+        {
+          "objective": "분산과 복제에 따른 비용을 설명한다.",
+          "questionIds": [
+            "n12-new-099",
+            "n12-new-100"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-velocity",
+      "name": "Velocity",
+      "fileId": "notion-w2",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n12-new-101",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-102",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-103",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-104",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "유입률·처리량·지연 시간을 구분한다.",
+          "questionIds": [
+            "n12-new-101",
+            "n12-new-104"
+          ]
+        },
+        {
+          "objective": "적체가 생기는 조건을 계산한다.",
+          "questionIds": [
+            "n12-new-102",
+            "n12-new-104"
+          ]
+        },
+        {
+          "objective": "실시간 요구에 맞는 처리 방식을 설명한다.",
+          "questionIds": [
+            "n12-new-103",
+            "n12-new-104"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-variety",
+      "name": "Variety",
+      "fileId": "notion-w2",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-105",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-106",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-107",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-108",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "형태의 다양성과 단순 건수 증가를 구분한다.",
+          "questionIds": [
+            "n12-new-105"
+          ]
+        },
+        {
+          "objective": "서로 다른 원천을 결합하기 위한 조건을 설명한다.",
+          "questionIds": [
+            "n12-new-106",
+            "n12-new-108"
+          ]
+        },
+        {
+          "objective": "추가 정보와 통합 오류의 가능성을 함께 평가한다.",
+          "questionIds": [
+            "n12-new-107",
+            "n12-new-108"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-veracity",
+      "name": "Veracity",
+      "fileId": "notion-w2",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-109",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-110",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-111",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-112",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "정확성·일관성·신뢰성 문제를 구분한다.",
+          "questionIds": [
+            "n12-new-109",
+            "n12-new-112"
+          ]
+        },
+        {
+          "objective": "품질 검증 기준과 처리 이력을 설명한다.",
+          "questionIds": [
+            "n12-new-110",
+            "n12-new-112"
+          ]
+        },
+        {
+          "objective": "정제만으로 편향이 모두 사라진다고 판단하지 않는다.",
+          "questionIds": [
+            "n12-new-111",
+            "n12-new-112"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-value",
+      "name": "Value",
+      "fileId": "notion-w2",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "n12-new-113",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-114",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-115",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-116",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "데이터·패턴·행동·성과의 연결을 설명한다.",
+          "questionIds": [
+            "n12-new-113",
+            "n12-new-116"
+          ]
+        },
+        {
+          "objective": "효과 지표의 분모와 비교 조건을 명시한다.",
+          "questionIds": [
+            "n12-new-114",
+            "n12-new-116"
+          ]
+        },
+        {
+          "objective": "카탈로그 정보로 주장할 수 있는 범위를 판단한다.",
+          "questionIds": [
+            "n12-new-115",
+            "n12-new-116"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-data-sources",
+      "name": "빅데이터 원천",
+      "fileId": "notion-w2",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "n12-new-117",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-118",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-119",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-120",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "원천별 관측 단위를 설명한다.",
+          "questionIds": [
+            "n12-new-117",
+            "n12-new-120"
+          ]
+        },
+        {
+          "objective": "수집 기록과 실제 현상을 구별한다.",
+          "questionIds": [
+            "n12-new-118",
+            "n12-new-120"
+          ]
+        },
+        {
+          "objective": "질문에 필요한 원천과 컬럼을 선정한다.",
+          "questionIds": [
+            "n12-new-119",
+            "n12-new-120"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-bigdata-history",
+      "name": "빅데이터 발전사",
+      "fileId": "notion-w2",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n12-new-121",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-122",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-123",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-124",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "기술 발전을 시대별 요구 변화와 연결한다.",
+          "questionIds": [
+            "n12-new-121",
+            "n12-new-124"
+          ]
+        },
+        {
+          "objective": "MapReduce 모델과 Hadoop 구현 생태계를 구분한다.",
+          "questionIds": [
+            "n12-new-122",
+            "n12-new-124"
+          ]
+        },
+        {
+          "objective": "새 기술이 이전 기술을 모두 없앤다는 설명을 비판한다.",
+          "questionIds": [
+            "n12-new-123",
+            "n12-new-124"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-applications",
+      "name": "빅데이터 응용 분야",
+      "fileId": "notion-w2",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n12-new-125",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-126",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-127",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-128",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "분야별 입력·분석·행동·검증을 연결한다.",
+          "questionIds": [
+            "n12-new-125"
+          ]
+        },
+        {
+          "objective": "예측과 실제 개선의 차이를 설명한다.",
+          "questionIds": [
+            "n12-new-126",
+            "n12-new-128"
+          ]
+        },
+        {
+          "objective": "복합질문에 필요한 여러 변수를 선정한다.",
+          "questionIds": [
+            "n12-new-127",
+            "n12-new-128"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-data-forms",
+      "name": "구조화·반구조화·비구조화 데이터",
+      "fileId": "notion-w2",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n12-new-129",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-130",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-131",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-132",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "스키마의 고정성과 의미 표현으로 세 형태를 분류한다.",
+          "questionIds": [
+            "n12-new-129",
+            "n12-new-132"
+          ]
+        },
+        {
+          "objective": "원자료에서 분석용 특징으로 바뀌는 과정을 설명한다.",
+          "questionIds": [
+            "n12-new-130",
+            "n12-new-132"
+          ]
+        },
+        {
+          "objective": "구조 분류와 시계열·공간 분류가 겹칠 수 있음을 판단한다.",
+          "questionIds": [
+            "n12-new-131",
+            "n12-new-132"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-time-series",
+      "name": "시계열 데이터",
+      "fileId": "notion-w2",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-133",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-134",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-135",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-136",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "시간 정렬과 측정 간격의 중요성을 설명한다.",
+          "questionIds": [
+            "n12-new-133",
+            "n12-new-136"
+          ]
+        },
+        {
+          "objective": "차분·기울기·상대 증가율을 계산한다.",
+          "questionIds": [
+            "n12-new-134",
+            "n12-new-136"
+          ]
+        },
+        {
+          "objective": "급증 기준을 명시하고 그래프 해석의 한계를 판단한다.",
+          "questionIds": [
+            "n12-new-135",
+            "n12-new-136"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n12-c-geospatial",
+      "name": "공간 데이터",
+      "fileId": "notion-w2",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n12-new-137",
+          "stage": "기초"
+        },
+        {
+          "id": "n12-new-138",
+          "stage": "원리"
+        },
+        {
+          "id": "n12-new-139",
+          "stage": "적용"
+        },
+        {
+          "id": "n12-new-140",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "위치와 공간 관계의 분석 의미를 설명한다.",
+          "questionIds": [
+            "n12-new-137",
+            "n12-new-140"
+          ]
+        },
+        {
+          "objective": "거리·권역·경로를 서로 다른 질문으로 구분한다.",
+          "questionIds": [
+            "n12-new-138"
+          ]
+        },
+        {
+          "objective": "공간·시간 결합에 필요한 기준과 한계를 판단한다.",
+          "questionIds": [
+            "n12-new-139",
+            "n12-new-140"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C01",
+      "name": "Scale-up과 Scale-out",
+      "fileId": "w3-infra",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-001",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-002",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-003",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-004",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "수직 확장과 수평 확장을 자원 배치 관점에서 구분한다.",
+          "questionIds": [
+            "n34-new-001",
+            "n34-new-004"
+          ]
+        },
+        {
+          "objective": "처리량 증가와 응답시간 감소가 같지 않음을 설명한다.",
+          "questionIds": [
+            "n34-new-002",
+            "n34-new-004"
+          ]
+        },
+        {
+          "objective": "작업 특성에 근거해 확장 방식을 선택한다.",
+          "questionIds": [
+            "n34-new-003",
+            "n34-new-004"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C02",
+      "name": "분산 컴퓨팅과 내결함성",
+      "fileId": "w3-infra",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-005",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-006",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-007",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-008",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "분산 작업의 분할·실행·결합 흐름을 설명한다.",
+          "questionIds": [
+            "n34-new-005",
+            "n34-new-008"
+          ]
+        },
+        {
+          "objective": "복제와 재실행이 서로 다른 장애 대응임을 구분한다.",
+          "questionIds": [
+            "n34-new-006"
+          ]
+        },
+        {
+          "objective": "내결함성 설계에서도 중복 처리 위험이 남음을 판단한다.",
+          "questionIds": [
+            "n34-new-007",
+            "n34-new-008"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C03",
+      "name": "하드웨어 인프라 진화",
+      "fileId": "w3-infra",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n34-new-009",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-010",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-011",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-012",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "CPU·메모리·저장·네트워크의 역할을 연결한다.",
+          "questionIds": [
+            "n34-new-009",
+            "n34-new-012"
+          ]
+        },
+        {
+          "objective": "인메모리와 GPU가 빨라지는 조건을 설명한다.",
+          "questionIds": [
+            "n34-new-010",
+            "n34-new-012"
+          ]
+        },
+        {
+          "objective": "측정된 병목에 맞는 자원을 선택한다.",
+          "questionIds": [
+            "n34-new-011",
+            "n34-new-012"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C04",
+      "name": "클라우드·컨테이너·엣지",
+      "fileId": "w3-infra",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "n34-new-013",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-014",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-015",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-016",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "클라우드·컨테이너·엣지를 서로 다른 역할로 구분한다.",
+          "questionIds": [
+            "n34-new-013",
+            "n34-new-016"
+          ]
+        },
+        {
+          "objective": "탄력적 확장과 경량 격리의 이익·비용을 설명한다.",
+          "questionIds": [
+            "n34-new-014",
+            "n34-new-016"
+          ]
+        },
+        {
+          "objective": "지연과 데이터 전송량에 따라 처리 위치를 정한다.",
+          "questionIds": [
+            "n34-new-015"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C05",
+      "name": "웹 크롤링과 스크래핑",
+      "fileId": "w3-infra",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-017",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-018",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-019",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-020",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "크롤링과 스크래핑의 입력·산출물을 구분한다.",
+          "questionIds": [
+            "n34-new-017",
+            "n34-new-020"
+          ]
+        },
+        {
+          "objective": "정적 파싱과 브라우저 실행 도구를 선택한다.",
+          "questionIds": [
+            "n34-new-018"
+          ]
+        },
+        {
+          "objective": "중복·수집 누락·요청 부하를 점검하는 절차를 설명한다.",
+          "questionIds": [
+            "n34-new-019",
+            "n34-new-020"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C06",
+      "name": "REST·GraphQL·API 운영",
+      "fileId": "w3-infra",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n34-new-021",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-022",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-023",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-024",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "REST와 GraphQL의 요청 형태를 구별한다.",
+          "questionIds": [
+            "n34-new-021"
+          ]
+        },
+        {
+          "objective": "인증·권한·속도 제한을 다른 조건으로 설명한다.",
+          "questionIds": [
+            "n34-new-022",
+            "n34-new-024"
+          ]
+        },
+        {
+          "objective": "페이지네이션과 재시도로 생기는 누락·중복을 점검한다.",
+          "questionIds": [
+            "n34-new-023",
+            "n34-new-024"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C07",
+      "name": "실시간 수집과 MQTT",
+      "fileId": "w3-infra",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n34-new-025",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-026",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-027",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-028",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "Webhook·WebSocket·SSE를 통신 방향과 연결로 비교한다.",
+          "questionIds": [
+            "n34-new-025",
+            "n34-new-028"
+          ]
+        },
+        {
+          "objective": "MQTT의 broker·topic·발행자·구독자를 설명한다.",
+          "questionIds": [
+            "n34-new-026",
+            "n34-new-028"
+          ]
+        },
+        {
+          "objective": "실시간 전달에서도 재연결·중복·보안이 필요한 이유를 말한다.",
+          "questionIds": [
+            "n34-new-027",
+            "n34-new-028"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C08",
+      "name": "엣지 전처리",
+      "fileId": "w3-infra",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n34-new-029",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-030",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-031",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-032",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "필터·집계·압축이 각각 줄이는 대상을 구분한다.",
+          "questionIds": [
+            "n34-new-029",
+            "n34-new-032"
+          ]
+        },
+        {
+          "objective": "엣지 요약에 따른 전송 절감과 정보 손실을 계산한다.",
+          "questionIds": [
+            "n34-new-030"
+          ]
+        },
+        {
+          "objective": "이상 시 원본 보존 규칙을 설계한다.",
+          "questionIds": [
+            "n34-new-031",
+            "n34-new-032"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C09",
+      "name": "Full/Incremental Load와 ETL/ELT",
+      "fileId": "w3-infra",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-033",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-034",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-035",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-036",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "전체 적재·증분 적재·CDC의 차이를 설명한다.",
+          "questionIds": [
+            "n34-new-033",
+            "n34-new-036"
+          ]
+        },
+        {
+          "objective": "ETL과 ELT를 변환 위치와 순서로 구분한다.",
+          "questionIds": [
+            "n34-new-034",
+            "n34-new-036"
+          ]
+        },
+        {
+          "objective": "삭제·지연 갱신·재시도에 대한 적재 규칙을 정한다.",
+          "questionIds": [
+            "n34-new-035",
+            "n34-new-036"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C10",
+      "name": "Kafka와 스트림 처리",
+      "fileId": "w3-infra",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "n34-new-037",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-038",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-039",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-040",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "Kafka의 producer·topic·partition·broker·consumer를 연결한다.",
+          "questionIds": [
+            "n34-new-037"
+          ]
+        },
+        {
+          "objective": "윈도우와 이벤트 시간·처리 시간을 구분한다.",
+          "questionIds": [
+            "n34-new-038",
+            "n34-new-039",
+            "n34-new-040"
+          ]
+        },
+        {
+          "objective": "전달 재시도와 최종 결과의 정확성을 따로 평가한다.",
+          "questionIds": [
+            "n34-new-040"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C11",
+      "name": "HDFS",
+      "fileId": "w3-infra",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-041",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-042",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-043",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-044",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "NameNode와 DataNode 역할을 정확히 구별한다.",
+          "questionIds": [
+            "n34-new-041",
+            "n34-new-044"
+          ]
+        },
+        {
+          "objective": "블록·복제·장애 복구의 관계를 계산한다.",
+          "questionIds": [
+            "n34-new-042",
+            "n34-new-044"
+          ]
+        },
+        {
+          "objective": "작은 파일과 임의 접근에 불리한 이유를 설명한다.",
+          "questionIds": [
+            "n34-new-043"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C12",
+      "name": "NoSQL 네 가지 모델",
+      "fileId": "w3-infra",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n34-new-045",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-046",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-047",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-048",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "문서·키-값·컬럼 패밀리·그래프 모델을 비교한다.",
+          "questionIds": [
+            "n34-new-045",
+            "n34-new-048"
+          ]
+        },
+        {
+          "objective": "쿼리와 접근 패턴을 기준으로 저장소를 선택한다.",
+          "questionIds": [
+            "n34-new-046",
+            "n34-new-048"
+          ]
+        },
+        {
+          "objective": "NoSQL을 무스키마·무일관성과 동일시하지 않는다.",
+          "questionIds": [
+            "n34-new-047",
+            "n34-new-048"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C13",
+      "name": "오브젝트 스토리지·데이터 레이크·DWH",
+      "fileId": "w3-infra",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-049",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-050",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-051",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-052",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "오브젝트 저장과 데이터 레이크·DWH를 다른 층위로 구분한다.",
+          "questionIds": [
+            "n34-new-049",
+            "n34-new-052"
+          ]
+        },
+        {
+          "objective": "schema-on-read와 schema-on-write를 설명한다.",
+          "questionIds": [
+            "n34-new-050"
+          ]
+        },
+        {
+          "objective": "원본 보존의 이익과 데이터 늪의 위험을 연결한다.",
+          "questionIds": [
+            "n34-new-051",
+            "n34-new-052"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C14",
+      "name": "결측·이상·중복·표준화",
+      "fileId": "w3-infra",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "n34-new-053",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-054",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-055",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-056",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "결측·이상값·중복·형식 오류를 구분한다.",
+          "questionIds": [
+            "n34-new-053",
+            "n34-new-056"
+          ]
+        },
+        {
+          "objective": "삭제와 대체의 영향 및 손실을 설명한다.",
+          "questionIds": [
+            "n34-new-054",
+            "n34-new-056"
+          ]
+        },
+        {
+          "objective": "정제 전후 건수와 규칙을 검증한다.",
+          "questionIds": [
+            "n34-new-055",
+            "n34-new-056"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C15",
+      "name": "프로파일링·품질 규칙·드리프트",
+      "fileId": "w3-infra",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "n34-new-057",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-058",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-059",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-060",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "구조·내용·관계 프로파일링을 구분한다.",
+          "questionIds": [
+            "n34-new-057",
+            "n34-new-060"
+          ]
+        },
+        {
+          "objective": "품질 규칙을 측정 가능한 조건으로 작성한다.",
+          "questionIds": [
+            "n34-new-058",
+            "n34-new-060"
+          ]
+        },
+        {
+          "objective": "분포 변화와 품질 오류를 혼동하지 않는다.",
+          "questionIds": [
+            "n34-new-059"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C16",
+      "name": "메타데이터·카탈로그·거버넌스",
+      "fileId": "w3-infra",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n34-new-061",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-062",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-063",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-064",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "기술·비즈니스·운영 메타데이터를 분류한다.",
+          "questionIds": [
+            "n34-new-061",
+            "n34-new-064"
+          ]
+        },
+        {
+          "objective": "카탈로그와 데이터 계보의 용도를 설명한다.",
+          "questionIds": [
+            "n34-new-062",
+            "n34-new-064"
+          ]
+        },
+        {
+          "objective": "데이터 소유권과 지표 정의가 품질에 미치는 영향을 말한다.",
+          "questionIds": [
+            "n34-new-063",
+            "n34-new-064"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C17",
+      "name": "개인정보보호와 다층 보안",
+      "fileId": "w3-infra",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-065",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-066",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-067",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-068",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "최소 수집·목적 제한·설계 단계 보호의 이유를 설명한다.",
+          "questionIds": [
+            "n34-new-065",
+            "n34-new-068"
+          ]
+        },
+        {
+          "objective": "익명화 기법별 방어 대상과 한계를 구분한다.",
+          "questionIds": [
+            "n34-new-066",
+            "n34-new-068"
+          ]
+        },
+        {
+          "objective": "계층별 보안과 개인정보 보호를 함께 설계한다.",
+          "questionIds": [
+            "n34-new-067",
+            "n34-new-068"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C18",
+      "name": "데이터 분석 6단계",
+      "fileId": "w4-netflix",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n34-new-069",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-070",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-071",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-072",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "분석 6단계의 목적과 단계별 산출물을 설명한다.",
+          "questionIds": [
+            "n34-new-069",
+            "n34-new-072"
+          ]
+        },
+        {
+          "objective": "모호한 질문을 측정 가능한 질문으로 바꾼다.",
+          "questionIds": [
+            "n34-new-070",
+            "n34-new-072"
+          ]
+        },
+        {
+          "objective": "EDA 결과에 따라 앞 단계로 돌아가는 이유를 말한다.",
+          "questionIds": [
+            "n34-new-071"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C19",
+      "name": "Netflix 데이터 스키마",
+      "fileId": "w4-netflix",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-073",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-074",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-075",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-076",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "12개 핵심 컬럼을 질문과 연결한다.",
+          "questionIds": [
+            "n34-new-073",
+            "n34-new-076"
+          ]
+        },
+        {
+          "objective": "제작연도와 플랫폼 추가일을 구별한다.",
+          "questionIds": [
+            "n34-new-074"
+          ]
+        },
+        {
+          "objective": "한 행·다중값 셀·혼합 단위의 의미를 설명한다.",
+          "questionIds": [
+            "n34-new-075",
+            "n34-new-076"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C20",
+      "name": "데이터 로드와 1차 점검",
+      "fileId": "w4-netflix",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "n34-new-077",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-078",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-079",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-080",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "환경과 데이터 버전을 재현 가능하게 기록한다.",
+          "questionIds": [
+            "n34-new-077"
+          ]
+        },
+        {
+          "objective": "head·shape·info·결측 집계의 역할을 구분한다.",
+          "questionIds": [
+            "n34-new-078",
+            "n34-new-080"
+          ]
+        },
+        {
+          "objective": "첫 5행만으로 전체 품질을 확정하지 않는다.",
+          "questionIds": [
+            "n34-new-079",
+            "n34-new-080"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C21",
+      "name": "Netflix 전처리와 파생변수",
+      "fileId": "w4-netflix",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "n34-new-081",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-082",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-083",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-084",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "컬럼별 결측 처리 전략의 이유를 설명한다.",
+          "questionIds": [
+            "n34-new-081",
+            "n34-new-084"
+          ]
+        },
+        {
+          "objective": "날짜와 길이를 계산 가능한 파생변수로 바꾼다.",
+          "questionIds": [
+            "n34-new-082",
+            "n34-new-084"
+          ]
+        },
+        {
+          "objective": "Unknown·단위 혼합·파싱 실패의 해석을 구분한다.",
+          "questionIds": [
+            "n34-new-083",
+            "n34-new-084"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C22",
+      "name": "기술 통계와 EDA",
+      "fileId": "w4-netflix",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "n34-new-085",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-086",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-087",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-088",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "숫자형·범주형 기술 통계의 차이를 설명한다.",
+          "questionIds": [
+            "n34-new-085",
+            "n34-new-088"
+          ]
+        },
+        {
+          "objective": "평균·중앙값·표준편차를 분포와 연결한다.",
+          "questionIds": [
+            "n34-new-086",
+            "n34-new-088"
+          ]
+        },
+        {
+          "objective": "탐색 결과를 다음 질문으로 발전시킨다.",
+          "questionIds": [
+            "n34-new-087"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C23",
+      "name": "그래프 유형 선택",
+      "fileId": "w4-netflix",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-089",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-090",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-091",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-092",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "변수 척도와 분석 질문에서 차트 유형을 고른다.",
+          "questionIds": [
+            "n34-new-089",
+            "n34-new-092"
+          ]
+        },
+        {
+          "objective": "히스토그램과 막대그래프를 구별한다.",
+          "questionIds": [
+            "n34-new-090"
+          ]
+        },
+        {
+          "objective": "축·단위·분모·범례를 읽어 그림의 의미를 설명한다.",
+          "questionIds": [
+            "n34-new-091",
+            "n34-new-092"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C24",
+      "name": "박스플롯 해석",
+      "fileId": "w4-netflix",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n34-new-093",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-094",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-095",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-096",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "중앙값·Q1·Q3·IQR·수염·이상점을 읽는다.",
+          "questionIds": [
+            "n34-new-093",
+            "n34-new-095",
+            "n34-new-096"
+          ]
+        },
+        {
+          "objective": "분포 중심과 퍼짐을 별도로 비교한다.",
+          "questionIds": [
+            "n34-new-094"
+          ]
+        },
+        {
+          "objective": "통계적 이상점과 기록 오류를 구분한다.",
+          "questionIds": [
+            "n34-new-096"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C25",
+      "name": "히트맵과 분할표",
+      "fileId": "w4-netflix",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-097",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-098",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-099",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-100",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "분할표의 행·열·셀·색상 척도를 설명한다.",
+          "questionIds": [
+            "n34-new-097",
+            "n34-new-100"
+          ]
+        },
+        {
+          "objective": "빈도와 행·열 조건부 비율의 분모를 구분한다.",
+          "questionIds": [
+            "n34-new-098",
+            "n34-new-100"
+          ]
+        },
+        {
+          "objective": "관측이 없는 셀과 미관측 기간을 다르게 처리한다.",
+          "questionIds": [
+            "n34-new-099",
+            "n34-new-100"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C26",
+      "name": "산점도·선 그래프·기울기",
+      "fileId": "w4-netflix",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "n34-new-101",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-102",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-103",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-104",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "산점도의 좌표·대각선과 추가 지연을 해석한다.",
+          "questionIds": [
+            "n34-new-101",
+            "n34-new-104"
+          ]
+        },
+        {
+          "objective": "시간 순서를 정렬하고 기울기·증가율을 계산한다.",
+          "questionIds": [
+            "n34-new-102",
+            "n34-new-103",
+            "n34-new-104"
+          ]
+        },
+        {
+          "objective": "급증 기준과 부분연도 비교 한계를 명시한다.",
+          "questionIds": [
+            "n34-new-103",
+            "n34-new-104"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C27",
+      "name": "단순 빈도형 Netflix 질문",
+      "fileId": "w4-netflix",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-105",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-106",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-107",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-108",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "배우 순위·시즌 분포·월별 추가량의 컬럼을 고른다.",
+          "questionIds": [
+            "n34-new-105",
+            "n34-new-108"
+          ]
+        },
+        {
+          "objective": "split·explode·value_counts·sort_index를 연결한다.",
+          "questionIds": [
+            "n34-new-106",
+            "n34-new-107",
+            "n34-new-108"
+          ]
+        },
+        {
+          "objective": "빈도에서 인기도로 해석을 과장하지 않는다.",
+          "questionIds": [
+            "n34-new-108"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C28",
+      "name": "범주형 관계 분석",
+      "fileId": "w4-netflix",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-109",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-110",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-111",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-112",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "두 범주 관계 분석의 전처리·집계 흐름을 설명한다.",
+          "questionIds": [
+            "n34-new-109",
+            "n34-new-112"
+          ]
+        },
+        {
+          "objective": "첫 값·전체 확장·가중 분배의 차이를 비교한다.",
+          "questionIds": [
+            "n34-new-110",
+            "n34-new-112"
+          ]
+        },
+        {
+          "objective": "상위 N 표본과 국가 규모의 편향을 해석한다.",
+          "questionIds": [
+            "n34-new-111",
+            "n34-new-112"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C29",
+      "name": "네트워크 분석과 중심성",
+      "fileId": "w4-netflix",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n34-new-113",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-114",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-115",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-116",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "노드·엣지·방향·가중치를 질문에 맞게 정의한다.",
+          "questionIds": [
+            "n34-new-113",
+            "n34-new-116"
+          ]
+        },
+        {
+          "objective": "연결 중심성과 시각적 중앙 위치를 구분한다.",
+          "questionIds": [
+            "n34-new-114",
+            "n34-new-116"
+          ]
+        },
+        {
+          "objective": "감독 중심 표본이 순위에 미치는 영향을 설명한다.",
+          "questionIds": [
+            "n34-new-115"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C30",
+      "name": "텍스트 마이닝과 워드클라우드",
+      "fileId": "w4-netflix",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "n34-new-117",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-118",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-119",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-120",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "설명 텍스트에서 빈도 시각화까지의 흐름을 설명한다.",
+          "questionIds": [
+            "n34-new-117",
+            "n34-new-120"
+          ]
+        },
+        {
+          "objective": "불용어·표본·문서 길이가 결과에 주는 영향을 말한다.",
+          "questionIds": [
+            "n34-new-118",
+            "n34-new-120"
+          ]
+        },
+        {
+          "objective": "단어 크기로 감정·원인을 단정하지 않는다.",
+          "questionIds": [
+            "n34-new-119",
+            "n34-new-120"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C31",
+      "name": "콘텐츠 기반 추천",
+      "fileId": "w4-netflix",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-121",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-122",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-123",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-124",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "다중 메타데이터 soup·TF-IDF·코사인 흐름을 설명한다.",
+          "questionIds": [
+            "n34-new-121",
+            "n34-new-124"
+          ]
+        },
+        {
+          "objective": "콘텐츠 기반과 평점 기반 유사도를 구별한다.",
+          "questionIds": [
+            "n34-new-122",
+            "n34-new-124"
+          ]
+        },
+        {
+          "objective": "자기 자신·중복·과도한 유사 추천의 한계를 점검한다.",
+          "questionIds": [
+            "n34-new-123",
+            "n34-new-124"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C32",
+      "name": "아이템 기반 협업 필터링",
+      "fileId": "w4-netflix",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "n34-new-125",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-126",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-127",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-128",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "사용자×아이템 행렬에서 열 간 유사도를 설명한다.",
+          "questionIds": [
+            "n34-new-125"
+          ]
+        },
+        {
+          "objective": "Pearson 부호와 공통 평가자 수를 함께 해석한다.",
+          "questionIds": [
+            "n34-new-126",
+            "n34-new-128"
+          ]
+        },
+        {
+          "objective": "희소성·콜드 스타트·결측 평점 문제를 구분한다.",
+          "questionIds": [
+            "n34-new-127",
+            "n34-new-128"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C33",
+      "name": "TF-IDF Ridge 회귀와 MAE",
+      "fileId": "w4-netflix",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "n34-new-129",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-130",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-131",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-132",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "특징 텍스트에서 release_year 예측까지의 흐름을 설명한다.",
+          "questionIds": [
+            "n34-new-129"
+          ]
+        },
+        {
+          "objective": "train fit·test transform으로 누수를 방지한다.",
+          "questionIds": [
+            "n34-new-130",
+            "n34-new-132"
+          ]
+        },
+        {
+          "objective": "MAE 단위·개선량·자료의 상충 수치를 해석한다.",
+          "questionIds": [
+            "n34-new-131",
+            "n34-new-132"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "n34-C34",
+      "name": "복합 질문 명세와 컬럼·함수 선택",
+      "fileId": "w4-netflix",
+      "totalQuestions": 15,
+      "learningQuestions": [
+        {
+          "id": "n34-new-133",
+          "stage": "기초"
+        },
+        {
+          "id": "n34-new-134",
+          "stage": "원리"
+        },
+        {
+          "id": "n34-new-135",
+          "stage": "적용"
+        },
+        {
+          "id": "n34-new-136",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "복합 질문을 대상·기간·집단·지표·기준으로 명세한다.",
+          "questionIds": [
+            "n34-new-133",
+            "n34-new-136"
+          ]
+        },
+        {
+          "objective": "필요 컬럼에서 함수와 그래프를 역설계한다.",
+          "questionIds": [
+            "n34-new-134",
+            "n34-new-136"
+          ]
+        },
+        {
+          "objective": "분모·임계값·다중값·부분연도 한계를 결과에 반영한다.",
+          "questionIds": [
+            "n34-new-135",
+            "n34-new-136"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c01",
+      "name": "빅데이터·DevOps·생성형 AI 3축",
+      "fileId": "web1",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "web-new-001",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-002",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-003",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-004",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "빅데이터 처리·DevOps·생성형 AI의 책임을 구분한다.",
+          "questionIds": [
+            "web-new-001",
+            "web-new-004"
+          ]
+        },
+        {
+          "objective": "세 축이 접합부에서 연결되어야 하는 이유를 설명한다.",
+          "questionIds": [
+            "web-new-002",
+            "web-new-004"
+          ]
+        },
+        {
+          "objective": "하나의 프로젝트 산출물을 다음 단계의 입력과 연결한다.",
+          "questionIds": [
+            "web-new-003",
+            "web-new-004"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c02",
+      "name": "데이터 파이프라인 5계층",
+      "fileId": "web1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-005",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-006",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-007",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-008",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "수집·저장·처리·분석·배포의 책임을 설명한다.",
+          "questionIds": [
+            "web-new-005",
+            "web-new-008"
+          ]
+        },
+        {
+          "objective": "한 도구가 여러 계층에 속할 수 있음을 이해한다.",
+          "questionIds": [
+            "web-new-006",
+            "web-new-008"
+          ]
+        },
+        {
+          "objective": "요구사항으로 도구 선택 이유를 구성한다.",
+          "questionIds": [
+            "web-new-007",
+            "web-new-008"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c03",
+      "name": "평가·과제 연속성",
+      "fileId": "web1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-009",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-010",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-011",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-012",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "평가 항목의 개별 비중과 합산 비중을 구분한다.",
+          "questionIds": [
+            "web-new-009",
+            "web-new-012"
+          ]
+        },
+        {
+          "objective": "과제 산출물의 선후 의존 관계를 설명한다.",
+          "questionIds": [
+            "web-new-010",
+            "web-new-012"
+          ]
+        },
+        {
+          "objective": "평가 그래프에서 분모와 단위를 읽는다.",
+          "questionIds": [
+            "web-new-011",
+            "web-new-012"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c04",
+      "name": "생성형 AI 검증 순환",
+      "fileId": "web1",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "web-new-013",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-014",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-015",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-016",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "AI 검증 순환의 네 단계를 올바르게 적용한다.",
+          "questionIds": [
+            "web-new-013",
+            "web-new-016"
+          ]
+        },
+        {
+          "objective": "실행 검증·문서 대조·분석 검증의 차이를 설명한다.",
+          "questionIds": [
+            "web-new-014",
+            "web-new-016"
+          ]
+        },
+        {
+          "objective": "실패 근거를 다음 프롬프트와 활용 이력에 반영한다.",
+          "questionIds": [
+            "web-new-015",
+            "web-new-016"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c05",
+      "name": "재현 가능한 실습 환경",
+      "fileId": "web1",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-017",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-018",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-019",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-020",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "버전 확인과 스모크 테스트의 역할을 구분한다.",
+          "questionIds": [
+            "web-new-017",
+            "web-new-020"
+          ]
+        },
+        {
+          "objective": "재현 가능한 환경에 필요한 기록을 구성한다.",
+          "questionIds": [
+            "web-new-018",
+            "web-new-020"
+          ]
+        },
+        {
+          "objective": "비밀값과 원본·산출물의 저장소 관리 기준을 설명한다.",
+          "questionIds": [
+            "web-new-019",
+            "web-new-020"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c06",
+      "name": "빅데이터 5V",
+      "fileId": "web2",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-021",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-022",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-023",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-024",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "5V 각각을 관측 가능한 지표와 연결한다.",
+          "questionIds": [
+            "web-new-021",
+            "web-new-024"
+          ]
+        },
+        {
+          "objective": "데이터 크기만으로 기술을 결정할 수 없는 이유를 설명한다.",
+          "questionIds": [
+            "web-new-022",
+            "web-new-024"
+          ]
+        },
+        {
+          "objective": "문제 축에 맞는 대응 계층을 선택한다.",
+          "questionIds": [
+            "web-new-023",
+            "web-new-024"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c07",
+      "name": "스케일업과 스케일아웃",
+      "fileId": "web2",
+      "totalQuestions": 8,
+      "learningQuestions": [
+        {
+          "id": "web-new-025",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-026",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-027",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-028",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "스케일업과 스케일아웃의 자원 확장 방식을 비교한다.",
+          "questionIds": [
+            "web-new-025",
+            "web-new-028"
+          ]
+        },
+        {
+          "objective": "분산 고정 비용과 셔플이 성능에 미치는 영향을 설명한다.",
+          "questionIds": [
+            "web-new-026",
+            "web-new-028"
+          ]
+        },
+        {
+          "objective": "실측으로 전환 지점을 판단한다.",
+          "questionIds": [
+            "web-new-027",
+            "web-new-028"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c08",
+      "name": "공정한 성능 측정",
+      "fileId": "web2",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "web-new-029",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-030",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-031",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-032",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "성능 비교 전에 결과 일치를 확인한다.",
+          "questionIds": [
+            "web-new-029",
+            "web-new-032"
+          ]
+        },
+        {
+          "objective": "반복 측정과 중앙값의 필요성을 설명한다.",
+          "questionIds": [
+            "web-new-030",
+            "web-new-032"
+          ]
+        },
+        {
+          "objective": "캐시·자원·측정 범위를 명시한 성능표를 작성한다.",
+          "questionIds": [
+            "web-new-031",
+            "web-new-032"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c09",
+      "name": "빅데이터 생태계 계층 지도",
+      "fileId": "web2",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "web-new-033",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-034",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-035",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-036",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "생태계 도구를 수집·저장·처리·분석·운영에 배치한다.",
+          "questionIds": [
+            "web-new-033",
+            "web-new-036"
+          ]
+        },
+        {
+          "objective": "데이터 흐름과 운영 지원의 차이를 이해한다.",
+          "questionIds": [
+            "web-new-034",
+            "web-new-036"
+          ]
+        },
+        {
+          "objective": "대체 도구와 보완 도구를 구분한다.",
+          "questionIds": [
+            "web-new-035",
+            "web-new-036"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c10",
+      "name": "운영체제와 분산 작업",
+      "fileId": "web2",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "web-new-037",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-038",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-039",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-040",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "커널·시스템 호출·드라이버의 관계를 설명한다.",
+          "questionIds": [
+            "web-new-037",
+            "web-new-040"
+          ]
+        },
+        {
+          "objective": "프로그램과 프로세스 및 상태 전이를 구분한다.",
+          "questionIds": [
+            "web-new-038",
+            "web-new-040"
+          ]
+        },
+        {
+          "objective": "분산 작업의 성능을 OS 자원과 연결해 진단한다.",
+          "questionIds": [
+            "web-new-039",
+            "web-new-040"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c11",
+      "name": "스필·스왑·블록",
+      "fileId": "web2",
+      "totalQuestions": 4,
+      "learningQuestions": [
+        {
+          "id": "web-new-041",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-042",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-043",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-044",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "Spark 스필과 OS 스왑의 계층 차이를 설명한다.",
+          "questionIds": [
+            "web-new-041",
+            "web-new-044"
+          ]
+        },
+        {
+          "objective": "파일시스템 블록과 HDFS 블록을 구분한다.",
+          "questionIds": [
+            "web-new-042",
+            "web-new-044"
+          ]
+        },
+        {
+          "objective": "블록 크기·메모리 압력이 I/O에 미치는 영향을 해석한다.",
+          "questionIds": [
+            "web-new-043",
+            "web-new-044"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c12",
+      "name": "구조화 프롬프트",
+      "fileId": "web2",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "web-new-045",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-046",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-047",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-048",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "역할·작업·입력·제약·출력·검증 항목을 작성한다.",
+          "questionIds": [
+            "web-new-045",
+            "web-new-048"
+          ]
+        },
+        {
+          "objective": "요구사항을 실행 가능한 통과 기준으로 바꾼다.",
+          "questionIds": [
+            "web-new-046",
+            "web-new-048"
+          ]
+        },
+        {
+          "objective": "프롬프트의 모호함이 결과 검증에 미치는 영향을 설명한다.",
+          "questionIds": [
+            "web-new-047",
+            "web-new-048"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c13",
+      "name": "AI 결함 검증 리포트",
+      "fileId": "web2",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "web-new-049",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-050",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-051",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-052",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "AI 결함을 유형과 증거로 구분한다.",
+          "questionIds": [
+            "web-new-049",
+            "web-new-052"
+          ]
+        },
+        {
+          "objective": "실행 결과와 수정 제안을 분리해 기록한다.",
+          "questionIds": [
+            "web-new-050",
+            "web-new-052"
+          ]
+        },
+        {
+          "objective": "수정 후 동일 검증을 반복해 판정한다.",
+          "questionIds": [
+            "web-new-051",
+            "web-new-052"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c14",
+      "name": "수집 방식 선택",
+      "fileId": "web2",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-053",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-054",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-055",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-056",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "원천·지연·변경 패턴에 맞는 수집 방식을 고른다.",
+          "questionIds": [
+            "web-new-053",
+            "web-new-056"
+          ]
+        },
+        {
+          "objective": "크롤링·스크래핑·API·푸시의 차이를 설명한다.",
+          "questionIds": [
+            "web-new-054",
+            "web-new-056"
+          ]
+        },
+        {
+          "objective": "증분 수집·재처리·중복 처리의 조건을 명시한다.",
+          "questionIds": [
+            "web-new-055",
+            "web-new-056"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c15",
+      "name": "HDFS 아키텍처",
+      "fileId": "web2",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-057",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-058",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-059",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-060",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "NameNode와 DataNode의 저장 책임을 구분한다.",
+          "questionIds": [
+            "web-new-057",
+            "web-new-060"
+          ]
+        },
+        {
+          "objective": "블록 수·복제 수와 저장량을 계산한다.",
+          "questionIds": [
+            "web-new-058",
+            "web-new-060"
+          ]
+        },
+        {
+          "objective": "HA·Federation·작은 파일 문제의 차이를 설명한다.",
+          "questionIds": [
+            "web-new-059",
+            "web-new-060"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c16",
+      "name": "NoSQL·데이터 레이크 선택",
+      "fileId": "web2",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "web-new-061",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-062",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-063",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-064",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "저장 모델을 조회·변경 패턴과 연결한다.",
+          "questionIds": [
+            "web-new-061",
+            "web-new-064"
+          ]
+        },
+        {
+          "objective": "NoSQL·레이크·웨어하우스의 차이를 설명한다.",
+          "questionIds": [
+            "web-new-062",
+            "web-new-064"
+          ]
+        },
+        {
+          "objective": "유연한 저장과 거버넌스의 필요성을 함께 이해한다.",
+          "questionIds": [
+            "web-new-063",
+            "web-new-064"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c17",
+      "name": "데이터 품질·메타데이터·거버넌스",
+      "fileId": "web2",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-065",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-066",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-067",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-068",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "품질 진단·처리·지속 모니터링을 연결한다.",
+          "questionIds": [
+            "web-new-065",
+            "web-new-068"
+          ]
+        },
+        {
+          "objective": "기술·비즈니스·운영 메타데이터를 구분한다.",
+          "questionIds": [
+            "web-new-066",
+            "web-new-068"
+          ]
+        },
+        {
+          "objective": "이상값·중복·드리프트를 근거에 따라 판단한다.",
+          "questionIds": [
+            "web-new-067",
+            "web-new-068"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c18",
+      "name": "개인정보 보호와 다층 보안",
+      "fileId": "web2",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-069",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-070",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-071",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-072",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "설계 단계의 최소화·목적 제한을 설명한다.",
+          "questionIds": [
+            "web-new-069",
+            "web-new-072"
+          ]
+        },
+        {
+          "objective": "가명화·익명화와 재식별 위험을 구분한다.",
+          "questionIds": [
+            "web-new-070",
+            "web-new-072"
+          ]
+        },
+        {
+          "objective": "다층 방어의 서로 다른 통제를 연결한다.",
+          "questionIds": [
+            "web-new-071",
+            "web-new-072"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c19",
+      "name": "관찰 단위",
+      "fileId": "web3",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-073",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-074",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-075",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-076",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "원본과 변환 표의 한 행이 뜻하는 대상을 정의한다.",
+          "questionIds": [
+            "web-new-073",
+            "web-new-076"
+          ]
+        },
+        {
+          "objective": "콘텐츠·관계·행동의 수를 구분한다.",
+          "questionIds": [
+            "web-new-074",
+            "web-new-076"
+          ]
+        },
+        {
+          "objective": "관찰 단위에 맞는 키와 집계 함수를 선택한다.",
+          "questionIds": [
+            "web-new-075",
+            "web-new-076"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c20",
+      "name": "질문-변수 적합성",
+      "fileId": "web3",
+      "totalQuestions": 9,
+      "learningQuestions": [
+        {
+          "id": "web-new-077",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-078",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-079",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-080",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "분석 질문에 필요한 열과 결과 변수를 찾는다.",
+          "questionIds": [
+            "web-new-077",
+            "web-new-080"
+          ]
+        },
+        {
+          "objective": "공급량과 수요·인기 지표를 구분한다.",
+          "questionIds": [
+            "web-new-078",
+            "web-new-080"
+          ]
+        },
+        {
+          "objective": "답할 수 없는 질문을 측정 가능한 질문으로 정련한다.",
+          "questionIds": [
+            "web-new-079",
+            "web-new-080"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c21",
+      "name": "원본 불변성과 데이터 계보",
+      "fileId": "web3",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-081",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-082",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-083",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-084",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "원본·가공본·결과를 구분해 보관한다.",
+          "questionIds": [
+            "web-new-081",
+            "web-new-084"
+          ]
+        },
+        {
+          "objective": "출처·스냅샷·환경·변환 계보를 기록한다.",
+          "questionIds": [
+            "web-new-082",
+            "web-new-084"
+          ]
+        },
+        {
+          "objective": "체크섬과 스키마 확인의 보장 범위를 설명한다.",
+          "questionIds": [
+            "web-new-083",
+            "web-new-084"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c22",
+      "name": "품질 프로파일링",
+      "fileId": "web3",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "web-new-085",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-086",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-087",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-088",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "수정 전에 구조·키·결측·도메인을 측정한다.",
+          "questionIds": [
+            "web-new-085",
+            "web-new-088"
+          ]
+        },
+        {
+          "objective": "키 중복·전체 중복·제목 중복을 구분한다.",
+          "questionIds": [
+            "web-new-086",
+            "web-new-088"
+          ]
+        },
+        {
+          "objective": "중단·경고·검토 조건을 질문에 맞게 설정한다.",
+          "questionIds": [
+            "web-new-087",
+            "web-new-088"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c23",
+      "name": "결측 메커니즘과 유효 N",
+      "fileId": "web3",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "web-new-089",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-090",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-091",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-092",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "MCAR·MAR·MNAR을 가능성 수준에서 구분한다.",
+          "questionIds": [
+            "web-new-089",
+            "web-new-092"
+          ]
+        },
+        {
+          "objective": "결측 처리에 따른 유효 N과 집단 구성을 보고한다.",
+          "questionIds": [
+            "web-new-090",
+            "web-new-092"
+          ]
+        },
+        {
+          "objective": "대체값이 실제 관측 복원이 아님을 이해한다.",
+          "questionIds": [
+            "web-new-091",
+            "web-new-092"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c24",
+      "name": "정제·전처리·EDA 구분",
+      "fileId": "web3",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-093",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-094",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-095",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-096",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "정제·전처리·EDA의 목적을 구분한다.",
+          "questionIds": [
+            "web-new-093",
+            "web-new-096"
+          ]
+        },
+        {
+          "objective": "날짜·기간 파생값을 의미와 단위에 맞게 만든다.",
+          "questionIds": [
+            "web-new-094",
+            "web-new-096"
+          ]
+        },
+        {
+          "objective": "진단과 해석을 반복하는 전체 절차를 설명한다.",
+          "questionIds": [
+            "web-new-095",
+            "web-new-096"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c25",
+      "name": "다중값 열의 장형 정규화",
+      "fileId": "web3",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "web-new-097",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-098",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-099",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-100",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "split·explode·strip의 역할을 순서대로 설명한다.",
+          "questionIds": [
+            "web-new-097",
+            "web-new-100"
+          ]
+        },
+        {
+          "objective": "작품-값 중복을 제거하고 고유 작품 수를 집계한다.",
+          "questionIds": [
+            "web-new-098",
+            "web-new-100"
+          ]
+        },
+        {
+          "objective": "다중값 변환의 정보 손실과 관계 증가를 해석한다.",
+          "questionIds": [
+            "web-new-099",
+            "web-new-100"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c26",
+      "name": "분자·분모와 구성비",
+      "fileId": "web3",
+      "totalQuestions": 8,
+      "learningQuestions": [
+        {
+          "id": "web-new-101",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-102",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-103",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-104",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "건수·보유율·관계 구성비의 분모를 구분한다.",
+          "questionIds": [
+            "web-new-101",
+            "web-new-104"
+          ]
+        },
+        {
+          "objective": "조건부 비율을 계산하고 유효 N을 제시한다.",
+          "questionIds": [
+            "web-new-102",
+            "web-new-104"
+          ]
+        },
+        {
+          "objective": "비율 합과 소수 집단의 해석을 점검한다.",
+          "questionIds": [
+            "web-new-103",
+            "web-new-104"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c27",
+      "name": "단변량 차트 선택",
+      "fileId": "web3",
+      "totalQuestions": 8,
+      "learningQuestions": [
+        {
+          "id": "web-new-105",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-106",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-107",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-108",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "변수의 측정 수준에 맞는 단변량 그래프를 선택한다.",
+          "questionIds": [
+            "web-new-105",
+            "web-new-108"
+          ]
+        },
+        {
+          "objective": "빈도 막대와 히스토그램의 차이를 설명한다.",
+          "questionIds": [
+            "web-new-106",
+            "web-new-108"
+          ]
+        },
+        {
+          "objective": "축·구간·유효 N이 분포 해석에 미치는 영향을 읽는다.",
+          "questionIds": [
+            "web-new-107",
+            "web-new-108"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c28",
+      "name": "박스플롯 해석",
+      "fileId": "web3",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "web-new-109",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-110",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-111",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-112",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "중앙값·Q1·Q3·IQR·수염·점의 뜻을 설명한다.",
+          "questionIds": [
+            "web-new-109",
+            "web-new-112"
+          ]
+        },
+        {
+          "objective": "집단별 분포와 유효 N을 함께 비교한다.",
+          "questionIds": [
+            "web-new-110",
+            "web-new-112"
+          ]
+        },
+        {
+          "objective": "이상점 표시·오류 판정·행 삭제를 구분한다.",
+          "questionIds": [
+            "web-new-111",
+            "web-new-112"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c29",
+      "name": "히트맵의 건수와 행 비율",
+      "fileId": "web3",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "web-new-113",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-114",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-115",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-116",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "교차표 셀과 색상 척도가 뜻하는 값을 설명한다.",
+          "questionIds": [
+            "web-new-113",
+            "web-new-116"
+          ]
+        },
+        {
+          "objective": "원시 건수와 행 구성비 히트맵을 구분한다.",
+          "questionIds": [
+            "web-new-114",
+            "web-new-116"
+          ]
+        },
+        {
+          "objective": "범주 필터·Missing·N이 해석을 바꾸는 이유를 설명한다.",
+          "questionIds": [
+            "web-new-115",
+            "web-new-116"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c30",
+      "name": "산점도·시계열과 사건 구분",
+      "fileId": "web3",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "web-new-117",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-118",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-119",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-120",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "산점도와 시계열 선그래프의 관찰 단위를 구분한다.",
+          "questionIds": [
+            "web-new-117",
+            "web-new-120"
+          ]
+        },
+        {
+          "objective": "공개·등록 사건과 대각선 기준을 정확히 읽는다.",
+          "questionIds": [
+            "web-new-118",
+            "web-new-120"
+          ]
+        },
+        {
+          "objective": "시차·상관·추세에서 가능한 결론을 설명한다.",
+          "questionIds": [
+            "web-new-119",
+            "web-new-120"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c31",
+      "name": "부분 기간·스냅샷 생존 편향",
+      "fileId": "web3",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "web-new-121",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-122",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-123",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-124",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "부분 기간과 완전 기간의 노출 차이를 설명한다.",
+          "questionIds": [
+            "web-new-121",
+            "web-new-124"
+          ]
+        },
+        {
+          "objective": "현재 스냅샷과 전체 입출고 이력을 구분한다.",
+          "questionIds": [
+            "web-new-122",
+            "web-new-124"
+          ]
+        },
+        {
+          "objective": "급락 그래프의 대안 설명과 필요한 추가 자료를 제시한다.",
+          "questionIds": [
+            "web-new-123",
+            "web-new-124"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c33",
+      "name": "그래프 식별과 의미 읽기",
+      "fileId": "web3",
+      "totalQuestions": 11,
+      "learningQuestions": [
+        {
+          "id": "web-new-125",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-126",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-127",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-128",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "그래프 유형과 시각적 부호를 식별한다.",
+          "questionIds": [
+            "web-new-125",
+            "web-new-128"
+          ]
+        },
+        {
+          "objective": "축·단위·집계·분모·표본 범위를 연결해 읽는다.",
+          "questionIds": [
+            "web-new-126",
+            "web-new-128"
+          ]
+        },
+        {
+          "objective": "직접 관찰과 과잉 해석을 구분한 설명을 작성한다.",
+          "questionIds": [
+            "web-new-127",
+            "web-new-128"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c34",
+      "name": "복합질문 설계",
+      "fileId": "web3",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "web-new-129",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-130",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-131",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-132",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "단순질문을 조건부·다변수 질문으로 확장한다.",
+          "questionIds": [
+            "web-new-129",
+            "web-new-132"
+          ]
+        },
+        {
+          "objective": "필요 열·전처리·분모·차트·기준을 명세한다.",
+          "questionIds": [
+            "web-new-130",
+            "web-new-132"
+          ]
+        },
+        {
+          "objective": "변수 추가가 만드는 교란·희소성·선택 문제를 점검한다.",
+          "questionIds": [
+            "web-new-131",
+            "web-new-132"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c35",
+      "name": "감독-배우 네트워크와 중심성",
+      "fileId": "web3",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "web-new-133",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-134",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-135",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-136",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "감독·배우 노드와 협업 엣지를 정의한다.",
+          "questionIds": [
+            "web-new-133",
+            "web-new-136"
+          ]
+        },
+        {
+          "objective": "연결 수·연결 중심성·가중 협업 횟수를 구분한다.",
+          "questionIds": [
+            "web-new-134",
+            "web-new-136"
+          ]
+        },
+        {
+          "objective": "표본 선택과 레이아웃이 결과 해석에 미치는 영향을 설명한다.",
+          "questionIds": [
+            "web-new-135",
+            "web-new-136"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c36",
+      "name": "텍스트 빈도·워드클라우드",
+      "fileId": "web3",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-137",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-138",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-139",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-140",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "총빈도·문서빈도·TF-IDF가 답하는 질문을 구분한다.",
+          "questionIds": [
+            "web-new-137",
+            "web-new-140"
+          ]
+        },
+        {
+          "objective": "토큰화·불용어·문서 수의 영향을 설명한다.",
+          "questionIds": [
+            "web-new-138",
+            "web-new-140"
+          ]
+        },
+        {
+          "objective": "워드클라우드의 관찰 범위와 한계를 해석한다.",
+          "questionIds": [
+            "web-new-139",
+            "web-new-140"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c37",
+      "name": "콘텐츠 기반 추천",
+      "fileId": "web3",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "web-new-141",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-142",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-143",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-144",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "메타데이터를 TF-IDF 벡터로 표현하는 이유를 설명한다.",
+          "questionIds": [
+            "web-new-141",
+            "web-new-144"
+          ]
+        },
+        {
+          "objective": "코사인 유사도와 추천 후보 생성을 구분한다.",
+          "questionIds": [
+            "web-new-142",
+            "web-new-144"
+          ]
+        },
+        {
+          "objective": "키·인덱스·계산량·평가 한계를 점검한다.",
+          "questionIds": [
+            "web-new-143",
+            "web-new-144"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c38",
+      "name": "아이템 기반 협업 필터링",
+      "fileId": "web3",
+      "totalQuestions": 6,
+      "learningQuestions": [
+        {
+          "id": "web-new-145",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-146",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-147",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-148",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "콘텐츠 기반과 협업 필터링의 입력 차이를 설명한다.",
+          "questionIds": [
+            "web-new-145",
+            "web-new-148"
+          ]
+        },
+        {
+          "objective": "공통 평가자와 Pearson 상관의 계산 조건을 확인한다.",
+          "questionIds": [
+            "web-new-146",
+            "web-new-148"
+          ]
+        },
+        {
+          "objective": "희소성·콜드 스타트·가상 실습의 한계를 판단한다.",
+          "questionIds": [
+            "web-new-147",
+            "web-new-148"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c39",
+      "name": "TF-IDF·Ridge 회귀 평가",
+      "fileId": "web3",
+      "totalQuestions": 5,
+      "learningQuestions": [
+        {
+          "id": "web-new-149",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-150",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-151",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-152",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "입력 특징 X와 목표 연도 y를 구분한다.",
+          "questionIds": [
+            "web-new-149",
+            "web-new-152"
+          ]
+        },
+        {
+          "objective": "분할·TF-IDF·Ridge·MAE 평가 순서를 설명한다.",
+          "questionIds": [
+            "web-new-150",
+            "web-new-152"
+          ]
+        },
+        {
+          "objective": "데이터 누수와 보고 숫자의 불일치를 점검한다.",
+          "questionIds": [
+            "web-new-151",
+            "web-new-152"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c40",
+      "name": "사실·추정·불가능한 결론",
+      "fileId": "web3",
+      "totalQuestions": 16,
+      "learningQuestions": [
+        {
+          "id": "web-new-153",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-154",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-155",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-156",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "직접 사실·검증할 가설·현재 불가능한 결론을 나눈다.",
+          "questionIds": [
+            "web-new-153",
+            "web-new-156"
+          ]
+        },
+        {
+          "objective": "공급·수요·전략·인과를 측정 자료와 연결한다.",
+          "questionIds": [
+            "web-new-154",
+            "web-new-156"
+          ]
+        },
+        {
+          "objective": "과잉 해석 문장을 근거 범위에 맞게 고친다.",
+          "questionIds": [
+            "web-new-155",
+            "web-new-156"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c41",
+      "name": "기울기와 급증 기준",
+      "fileId": "web3",
+      "totalQuestions": 8,
+      "learningQuestions": [
+        {
+          "id": "web-new-157",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-158",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-159",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-160",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "기울기를 Δy/Δx와 단위로 계산한다.",
+          "questionIds": [
+            "web-new-157",
+            "web-new-160"
+          ]
+        },
+        {
+          "objective": "절대 변화·상대 증감률·기울기 변화를 구분한다.",
+          "questionIds": [
+            "web-new-158",
+            "web-new-160"
+          ]
+        },
+        {
+          "objective": "급증 임계값·기간 규칙·민감도를 명세한다.",
+          "questionIds": [
+            "web-new-159",
+            "web-new-160"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "web-c42",
+      "name": "질문 반복 정련",
+      "fileId": "web3",
+      "totalQuestions": 7,
+      "learningQuestions": [
+        {
+          "id": "web-new-161",
+          "stage": "기초"
+        },
+        {
+          "id": "web-new-162",
+          "stage": "원리"
+        },
+        {
+          "id": "web-new-163",
+          "stage": "적용"
+        },
+        {
+          "id": "web-new-164",
+          "stage": "종합"
+        }
+      ],
+      "objectives": [
+        {
+          "objective": "모호한 초기 질문을 데이터에 맞게 정련한다.",
+          "questionIds": [
+            "web-new-161",
+            "web-new-164"
+          ]
+        },
+        {
+          "objective": "질문·열·전처리·지표·차트·한계를 연결한다.",
+          "questionIds": [
+            "web-new-162",
+            "web-new-164"
+          ]
+        },
+        {
+          "objective": "탐색 중 기준 변경과 결론 검증을 구분한다.",
+          "questionIds": [
+            "web-new-163",
+            "web-new-164"
+          ]
+        }
+      ]
+    }
+  ]
+}

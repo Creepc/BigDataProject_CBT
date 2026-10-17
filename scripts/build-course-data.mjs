@@ -307,6 +307,24 @@ for (const input of inputs) {
   }
 }
 
+const questionBankFiles = ['questions-notion12.json', 'questions-notion34.json', 'questions-web123.json']
+for (const file of questionBankFiles) {
+  const bank = JSON.parse(fs.readFileSync(path.join(root, 'analysis', file), 'utf8'))
+  for (const question of bank.questions) {
+    questions.push({
+      ...question,
+      options: question.options.map((option, index) => ({
+        ...option,
+        id: `o${index + 1}`,
+        explanation: String(option.explanation ?? '').trim(),
+      })),
+      sourceRefs: question.sourceRefs.map((ref) => ({ ...ref, pages: inScopePages(ref.fileId, ref.pages) })).filter((ref) => ref.pages.length),
+      additionalExample: question.additionalExample ?? '',
+      supplemental: true,
+    })
+  }
+}
+
 const flashcards = inputs.flatMap((input) => (input.data.flashcards ?? []).map((card) => {
   const source = asArray(card.source)[0] ?? card
   const rawConcept = input.scope === 'n34' && card.id === 'F38'
@@ -402,13 +420,40 @@ for (const question of questions) {
   if (!question.conceptIds.length) errors.push(`${question.id}: no concept reference`)
   for (const option of question.options) {
     if (!option.explanation) errors.push(`${question.id}: option without explanation`)
-    if (!option.correctedStatement) errors.push(`${question.id}: option without corrected statement`)
+    if (option.correctedStatement !== undefined && !hasText(option.correctedStatement)) errors.push(`${question.id}: empty corrected statement`)
+    if (!hasText(option.text) || typeof option.correct !== 'boolean') errors.push(`${question.id}: invalid option`)
+    if (option.explanation.length > 180 || /이 선택지는|혼동|핵심 (?:판별 )?기준|고치면 올바른 설명/.test(option.explanation)) errors.push(`${question.id}: verbose option explanation`)
   }
   for (const ref of question.sourceRefs) {
     if (!fileIds.has(ref.fileId)) errors.push(`${question.id}: unknown file ${ref.fileId}`)
     if (!ref.pages.length) errors.push(`${question.id}: no source page for ${ref.fileId}`)
     for (const page of ref.pages) if (page > (filePageCounts.get(ref.fileId) ?? 0)) errors.push(`${question.id}: invalid page ${page} for ${ref.fileId}`)
   }
+}
+const learningStages = ['기초', '원리', '적용', '종합']
+const questionIds = new Set()
+const prompts = new Set()
+for (const question of questions) {
+  if (questionIds.has(question.id)) errors.push(`${question.id}: duplicate question ID`)
+  questionIds.add(question.id)
+  const prompt = question.prompt.replace(/\s+/g, '').toLowerCase()
+  if (prompts.has(prompt)) errors.push(`${question.id}: duplicate question prompt`)
+  prompts.add(prompt)
+  if (question.learningStage) {
+    if (!learningStages.includes(question.learningStage)) errors.push(`${question.id}: unknown learning stage`)
+    if (!conceptIds.has(question.learningConceptId) || !question.conceptIds.includes(question.learningConceptId)) errors.push(`${question.id}: invalid learning concept`)
+    const concept = concepts.find((item) => item.id === question.learningConceptId)
+    if (!Array.isArray(question.learningObjectiveIndices) || !question.learningObjectiveIndices.length || question.learningObjectiveIndices.some((index) => !Number.isInteger(index) || index < 0 || index >= (concept?.lesson?.objectives.length ?? 0))) errors.push(`${question.id}: invalid learning objectives`)
+    if (!hasText(question.review) || !hasText(question.memoryTip)) errors.push(`${question.id}: missing standalone learning explanation`)
+    const allowedSources = [{ fileId: concept?.fileId, pages: concept?.pages ?? [] }, ...(concept?.lesson?.sourceRefs ?? [])]
+    if (question.sourceRefs.some((ref) => ref.pages.some((page) => !allowedSources.some((source) => source.fileId === ref.fileId && source.pages.includes(page))))) errors.push(`${question.id}: source outside learning concept evidence`)
+  }
+}
+for (const concept of concepts) {
+  const course = questions.filter((question) => question.learningConceptId === concept.id)
+  if (course.length !== 4 || learningStages.some((stage) => !course.some((question) => question.learningStage === stage))) errors.push(`${concept.id}: incomplete four-stage question course`)
+  const covered = new Set(course.flatMap((question) => question.learningObjectiveIndices ?? []))
+  if (concept.lesson.objectives.some((_, index) => !covered.has(index))) errors.push(`${concept.id}: uncovered learning objective`)
 }
 for (const card of flashcards) {
   if (!conceptIds.has(card.conceptId)) errors.push(`${card.id}: unknown concept ${card.conceptId}`)
@@ -419,6 +464,16 @@ if (errors.length) throw new Error(`Course data validation failed:\n${errors.joi
 
 const output = `import type { CourseData } from '@/types'\n\nexport const courseData: CourseData = ${JSON.stringify(courseData, null, 2)}\n`
 fs.writeFileSync(path.join(root, 'src', 'data', 'courseData.ts'), output, 'utf8')
+const coverage = concepts.map((concept) => {
+  const course = questions.filter((question) => question.learningConceptId === concept.id)
+  return {
+    conceptId: concept.id, name: concept.name, fileId: concept.fileId,
+    totalQuestions: questions.filter((question) => question.conceptIds.includes(concept.id)).length,
+    learningQuestions: course.map(({ id, learningStage }) => ({ id, stage: learningStage })),
+    objectives: concept.lesson.objectives.map((objective, index) => ({ objective, questionIds: course.filter((question) => question.learningObjectiveIndices.includes(index)).map((question) => question.id) })),
+  }
+})
+fs.writeFileSync(path.join(root, 'analysis', 'question-coverage.json'), `${JSON.stringify({ conceptCount: concepts.length, learningQuestionCount: coverage.reduce((sum, item) => sum + item.learningQuestions.length, 0), coverage }, null, 2)}\n`, 'utf8')
 console.log(JSON.stringify({
   files: files.length,
   pages: pageSummaries.length,
@@ -427,6 +482,8 @@ console.log(JSON.stringify({
   selfChecks: [...lessonMap.values()].reduce((sum, lesson) => sum + lesson.checks.length, 0),
   codeExamples: [...lessonMap.values()].filter((lesson) => lesson.codeExample).length,
   questions: questions.length,
+  learningQuestions: questions.filter((question) => question.learningStage).length,
+  coveredObjectives: concepts.reduce((sum, concept) => sum + concept.lesson.objectives.length, 0),
   multiple: questions.filter((question) => question.mode === 'multiple').length,
   visuals: questions.filter((question) => question.visual).length,
   flashcards: flashcards.length,

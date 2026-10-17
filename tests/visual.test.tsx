@@ -2,8 +2,20 @@ import { renderToStaticMarkup } from 'react-dom/server'
 import { describe, expect, it } from 'vitest'
 import { QuestionVisual } from '@/components/QuestionVisual'
 import type { QuestionVisual as Visual, SourceFile } from '@/types'
+import { courseData } from '@/data/courseData'
 
 describe('question visuals', () => {
+  it('renders every published question graphic without invalid numeric SVG coordinates', () => {
+    courseData.questions.filter((question) => question.visual).forEach((question) => {
+      const visual = question.visual!
+      const html = renderToStaticMarkup(<QuestionVisual visual={visual} files={courseData.files} />)
+      expect(html, question.id).not.toMatch(/\b(?:NaN|Infinity)\b/)
+      if (visual.kind === 'box') visual.series.forEach((series) => {
+        expect(series.values, question.id).toHaveLength(5)
+        expect(series.values, question.id).toEqual([...series.values].sort((left, right) => left - right))
+      })
+    })
+  })
   it('preserves real scatter x coordinates in the accessible description', () => {
     const visual: Visual = {
       kind: 'scatter', title: '제작·추가 연도', labels: [],

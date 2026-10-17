@@ -9,6 +9,7 @@ import { pdfPageUrl } from '@/lib/assets'
 import { useStudy } from '@/contexts/StudyContext'
 import { DifficultyBadge, ProgressBar } from './ui'
 import { QuestionVisual } from './QuestionVisual'
+import { QuestionPrompt } from './QuestionPrompt'
 
 const optionLabel = (index: number) => ['①', '②', '③', '④'][index]
 
@@ -109,12 +110,14 @@ export function QuestionPlayer({
   concepts,
   files,
   navigate,
+  curriculumMode = false,
 }: {
   questions: Question[]
   initialId?: string
   concepts: Concept[]
   files: SourceFile[]
   navigate: (target: NavigationTarget) => void
+  curriculumMode?: boolean
 }) {
   const start = Math.max(0, questions.findIndex((question) => question.id === initialId))
   const queueKey = questions.map((question) => question.id).join(',')
@@ -136,6 +139,8 @@ export function QuestionPlayer({
   if (!question) return null
   const bookmarked = state.bookmarkedQuestionIds.includes(question.id)
   const similarIndex = questions.findIndex((item, itemIndex) => itemIndex !== index && item.conceptIds.some((id) => question.conceptIds.includes(id)))
+  const learningConceptIndex = concepts.findIndex((concept) => concept.id === question.learningConceptId)
+  const nextLearningConcept = learningConceptIndex >= 0 ? concepts[learningConceptIndex + 1] : undefined
 
   const select = (id: string) => {
     if (submitted) return
@@ -158,7 +163,7 @@ export function QuestionPlayer({
   return (
     <div className="mx-auto max-w-4xl">
       <div className="mb-4 flex items-center justify-between gap-4">
-        <button onClick={() => navigate({ view: 'bank' })} className="button-secondary"><ArrowLeft size={17} />문제은행</button>
+        <button onClick={() => navigate({ view: 'bank', params: { mode: curriculumMode ? 'course' : 'bank' } })} className="button-secondary"><ArrowLeft size={17} />{curriculumMode ? '학습 코스' : '문제은행'}</button>
         <div className="min-w-0 flex-1 text-center">
           <div className="text-xs font-bold text-slate-500">{index + 1} / {questions.length}</div>
           <ProgressBar value={((index + 1) / questions.length) * 100} />
@@ -172,11 +177,13 @@ export function QuestionPlayer({
         <div className="flex flex-wrap items-center gap-2">
           <DifficultyBadge difficulty={question.difficulty} />
           <span className="chip">{question.type}</span>
+          {question.learningStage && <span className="chip">학습형 · {question.learningStage}</span>}
           <span className={`chip ${question.mode === 'multiple' ? 'border-violet-200 bg-violet-50 text-violet-700 dark:border-violet-500/20 dark:bg-violet-500/10 dark:text-violet-300' : ''}`}>{question.mode === 'multiple' ? '복수 정답' : '단일 정답'}</span>
           <span className="ml-auto text-xs font-bold text-slate-400">{question.id}</span>
         </div>
+        {question.learningConceptId && <p className="mt-5 text-sm font-bold text-cobalt dark:text-blue-300">공부할 개념 · {concepts.find((concept) => concept.id === question.learningConceptId)?.name}</p>}
         {question.professorFocus && <div className="mt-5 rounded-xl border-l-4 border-amber bg-amber-50 px-4 py-3 text-xs leading-6 text-amber-900 dark:bg-amber-500/10 dark:text-amber-200"><strong>교수님 필기 반영 · </strong>{question.professorFocus}</div>}
-        <h2 className="mt-6 text-lg font-extrabold leading-8 tracking-[-0.02em] sm:text-xl">{question.prompt}</h2>
+        <QuestionPrompt prompt={question.prompt} />
         {question.visual && <QuestionVisual visual={question.visual} files={files} />}
         <p className="mt-2 text-xs text-slate-500">{question.mode === 'multiple' ? '옳은 것을 모두 선택하세요. 정답은 2개 이상입니다.' : '가장 적절한 답 하나를 선택하세요.'}</p>
 
@@ -211,11 +218,15 @@ export function QuestionPlayer({
         )}
       </article>
 
-      <div className="mt-5 flex items-center justify-between">
+      <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
         <button disabled={index === 0} onClick={() => go(index - 1)} className="button-secondary"><ArrowLeft size={17} />이전</button>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap justify-end gap-2">
           {submitted && similarIndex >= 0 && similarIndex !== index + 1 && <button onClick={() => go(similarIndex)} className="button-secondary">유사 문제</button>}
-          <button disabled={!submitted || index === questions.length - 1} onClick={() => go(index + 1)} className="button-primary">다음 문제<ArrowRight size={17} /></button>
+          {submitted && index === questions.length - 1 && curriculumMode
+            ? nextLearningConcept
+              ? <button onClick={() => navigate({ view: 'practice', params: { scope: 'curriculum', concept: nextLearningConcept.id } })} className="button-primary">다음 개념 공부<ArrowRight size={17} /></button>
+              : <button onClick={() => navigate({ view: 'bank', params: { mode: 'course' } })} className="button-primary">학습 코스로 돌아가기<ArrowRight size={17} /></button>
+            : <button disabled={!submitted || index === questions.length - 1} onClick={() => go(index + 1)} className="button-primary">다음 문제<ArrowRight size={17} /></button>}
         </div>
       </div>
     </div>

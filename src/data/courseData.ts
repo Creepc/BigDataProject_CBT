@@ -4832,7 +4832,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n12-q01",
-        "n12-q22"
+        "n12-q22",
+        "n12-new-001",
+        "n12-new-002",
+        "n12-new-003",
+        "n12-new-004"
       ],
       "lesson": {
         "conceptId": "n12-c-stack",
@@ -4969,9 +4973,10 @@ export const courseData: CourseData = {
         "응용 소프트웨어 구분"
       ],
       "relatedQuestionIds": [
-        "n12-q01",
-        "n12-q02",
-        "n12-q22"
+        "n12-new-005",
+        "n12-new-006",
+        "n12-new-007",
+        "n12-new-008"
       ],
       "lesson": {
         "conceptId": "n12-c-software",
@@ -5112,7 +5117,11 @@ export const courseData: CourseData = {
         "계층 그림 해석"
       ],
       "relatedQuestionIds": [
-        "n12-q02"
+        "n12-q02",
+        "n12-new-009",
+        "n12-new-010",
+        "n12-new-011",
+        "n12-new-012"
       ],
       "lesson": {
         "conceptId": "n12-c-system-software",
@@ -5253,7 +5262,11 @@ export const courseData: CourseData = {
         "세 가지 핵심 기능"
       ],
       "relatedQuestionIds": [
-        "n12-q03"
+        "n12-q03",
+        "n12-new-013",
+        "n12-new-014",
+        "n12-new-015",
+        "n12-new-016"
       ],
       "lesson": {
         "conceptId": "n12-c-os",
@@ -5392,7 +5405,11 @@ export const courseData: CourseData = {
         "역할 네 가지를 사례와 대응"
       ],
       "relatedQuestionIds": [
-        "n12-q03"
+        "n12-q03",
+        "n12-new-017",
+        "n12-new-018",
+        "n12-new-019",
+        "n12-new-020"
       ],
       "lesson": {
         "conceptId": "n12-c-os-roles",
@@ -5528,7 +5545,11 @@ export const courseData: CourseData = {
         "결과 방향"
       ],
       "relatedQuestionIds": [
-        "n12-q05"
+        "n12-q05",
+        "n12-new-021",
+        "n12-new-022",
+        "n12-new-023",
+        "n12-new-024"
       ],
       "lesson": {
         "conceptId": "n12-c-kernel",
@@ -5662,7 +5683,11 @@ export const courseData: CourseData = {
         "계층 그림에서 위치"
       ],
       "relatedQuestionIds": [
-        "n12-q05"
+        "n12-q05",
+        "n12-new-025",
+        "n12-new-026",
+        "n12-new-027",
+        "n12-new-028"
       ],
       "lesson": {
         "conceptId": "n12-c-system-call",
@@ -5797,7 +5822,11 @@ export const courseData: CourseData = {
         "인터럽트"
       ],
       "relatedQuestionIds": [
-        "n12-q06"
+        "n12-q06",
+        "n12-new-029",
+        "n12-new-030",
+        "n12-new-031",
+        "n12-new-032"
       ],
       "lesson": {
         "conceptId": "n12-c-driver",
@@ -5946,9 +5975,10 @@ export const courseData: CourseData = {
         "GPL의 자유"
       ],
       "relatedQuestionIds": [
-        "n12-q03",
-        "n12-q05",
-        "n12-q06"
+        "n12-new-033",
+        "n12-new-034",
+        "n12-new-035",
+        "n12-new-036"
       ],
       "lesson": {
         "conceptId": "n12-c-unix-linux-gnu",
@@ -6092,7 +6122,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n12-q04",
-        "n12-q07"
+        "n12-q07",
+        "n12-new-037",
+        "n12-new-038",
+        "n12-new-039",
+        "n12-new-040"
       ],
       "lesson": {
         "conceptId": "n12-c-process",
@@ -6229,7 +6263,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n12-q08",
-        "n12-q10"
+        "n12-q10",
+        "n12-new-041",
+        "n12-new-042",
+        "n12-new-043",
+        "n12-new-044"
       ],
       "lesson": {
         "conceptId": "n12-c-time-sharing",
@@ -6376,7 +6414,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "n12-q07",
         "n12-q08",
-        "n12-q09"
+        "n12-q09",
+        "n12-new-045",
+        "n12-new-046",
+        "n12-new-047",
+        "n12-new-048"
       ],
       "lesson": {
         "conceptId": "n12-c-pcb-states",
@@ -6517,8 +6559,10 @@ export const courseData: CourseData = {
         "회수"
       ],
       "relatedQuestionIds": [
-        "n12-q11",
-        "n12-q12"
+        "n12-new-049",
+        "n12-new-050",
+        "n12-new-051",
+        "n12-new-052"
       ],
       "lesson": {
         "conceptId": "n12-c-memory-management",
@@ -6662,7 +6706,11 @@ export const courseData: CourseData = {
         "세 용어를 상황과 대응"
       ],
       "relatedQuestionIds": [
-        "n12-q11"
+        "n12-q11",
+        "n12-new-053",
+        "n12-new-054",
+        "n12-new-055",
+        "n12-new-056"
       ],
       "lesson": {
         "conceptId": "n12-c-memory-operations",
@@ -6801,7 +6849,11 @@ export const courseData: CourseData = {
         "자료의 단순 공식에 대한 이해"
       ],
       "relatedQuestionIds": [
-        "n12-q12"
+        "n12-q12",
+        "n12-new-057",
+        "n12-new-058",
+        "n12-new-059",
+        "n12-new-060"
       ],
       "lesson": {
         "conceptId": "n12-c-virtual-memory",
@@ -6945,7 +6997,11 @@ export const courseData: CourseData = {
         "연결 프로그램"
       ],
       "relatedQuestionIds": [
-        "n12-q17"
+        "n12-q17",
+        "n12-new-061",
+        "n12-new-062",
+        "n12-new-063",
+        "n12-new-064"
       ],
       "lesson": {
         "conceptId": "n12-c-file",
@@ -7081,9 +7137,10 @@ export const courseData: CourseData = {
         "디렉터리도 파일"
       ],
       "relatedQuestionIds": [
-        "n12-q13",
-        "n12-q14",
-        "n12-q15"
+        "n12-new-065",
+        "n12-new-066",
+        "n12-new-067",
+        "n12-new-068"
       ],
       "lesson": {
         "conceptId": "n12-c-directory",
@@ -7218,9 +7275,10 @@ export const courseData: CourseData = {
         "두 방식 비교"
       ],
       "relatedQuestionIds": [
-        "n12-q13",
-        "n12-q14",
-        "n12-q15"
+        "n12-new-069",
+        "n12-new-070",
+        "n12-new-071",
+        "n12-new-072"
       ],
       "lesson": {
         "conceptId": "n12-c-formatting",
@@ -7356,7 +7414,11 @@ export const courseData: CourseData = {
         "60쪽 FAT 체인 추적"
       ],
       "relatedQuestionIds": [
-        "n12-q13"
+        "n12-q13",
+        "n12-new-073",
+        "n12-new-074",
+        "n12-new-075",
+        "n12-new-076"
       ],
       "lesson": {
         "conceptId": "n12-c-file-table",
@@ -7493,7 +7555,11 @@ export const courseData: CourseData = {
         "섹터와 블록 구분"
       ],
       "relatedQuestionIds": [
-        "n12-q14"
+        "n12-q14",
+        "n12-new-077",
+        "n12-new-078",
+        "n12-new-079",
+        "n12-new-080"
       ],
       "lesson": {
         "conceptId": "n12-c-block",
@@ -7632,7 +7698,11 @@ export const courseData: CourseData = {
         "SSD에서 조각 모음이 부적절한 이유"
       ],
       "relatedQuestionIds": [
-        "n12-q15"
+        "n12-q15",
+        "n12-new-081",
+        "n12-new-082",
+        "n12-new-083",
+        "n12-new-084"
       ],
       "lesson": {
         "conceptId": "n12-c-fragmentation",
@@ -7766,7 +7836,11 @@ export const courseData: CourseData = {
         "4GB 파일 제한"
       ],
       "relatedQuestionIds": [
-        "n12-q27"
+        "n12-q27",
+        "n12-new-085",
+        "n12-new-086",
+        "n12-new-087",
+        "n12-new-088"
       ],
       "lesson": {
         "conceptId": "n12-c-fat32",
@@ -7902,7 +7976,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n12-q16",
-        "n12-q29"
+        "n12-q29",
+        "n12-new-089",
+        "n12-new-090",
+        "n12-new-091",
+        "n12-new-092"
       ],
       "lesson": {
         "conceptId": "n12-c-free-list",
@@ -8041,7 +8119,11 @@ export const courseData: CourseData = {
         "기존 도구의 한계"
       ],
       "relatedQuestionIds": [
-        "n12-q28"
+        "n12-q28",
+        "n12-new-093",
+        "n12-new-094",
+        "n12-new-095",
+        "n12-new-096"
       ],
       "lesson": {
         "conceptId": "n12-c-bigdata",
@@ -8175,9 +8257,10 @@ export const courseData: CourseData = {
         "단위 구분"
       ],
       "relatedQuestionIds": [
-        "n12-q18",
-        "n12-q19",
-        "n12-q23"
+        "n12-new-097",
+        "n12-new-098",
+        "n12-new-099",
+        "n12-new-100"
       ],
       "lesson": {
         "conceptId": "n12-c-volume",
@@ -8314,7 +8397,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n12-q18",
-        "n12-q25"
+        "n12-q25",
+        "n12-new-101",
+        "n12-new-102",
+        "n12-new-103",
+        "n12-new-104"
       ],
       "lesson": {
         "conceptId": "n12-c-velocity",
@@ -8448,7 +8535,11 @@ export const courseData: CourseData = {
         "통합의 어려움과 기회"
       ],
       "relatedQuestionIds": [
-        "n12-q25"
+        "n12-q25",
+        "n12-new-105",
+        "n12-new-106",
+        "n12-new-107",
+        "n12-new-108"
       ],
       "lesson": {
         "conceptId": "n12-c-variety",
@@ -8582,7 +8673,11 @@ export const courseData: CourseData = {
         "분야별 품질 사례"
       ],
       "relatedQuestionIds": [
-        "n12-q19"
+        "n12-q19",
+        "n12-new-109",
+        "n12-new-110",
+        "n12-new-111",
+        "n12-new-112"
       ],
       "lesson": {
         "conceptId": "n12-c-veracity",
@@ -8721,7 +8816,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "n12-q19",
         "n12-q23",
-        "n12-q25"
+        "n12-q25",
+        "n12-new-113",
+        "n12-new-114",
+        "n12-new-115",
+        "n12-new-116"
       ],
       "lesson": {
         "conceptId": "n12-c-value",
@@ -8868,8 +8967,10 @@ export const courseData: CourseData = {
         "5V 연결"
       ],
       "relatedQuestionIds": [
-        "n12-q21",
-        "n12-q22"
+        "n12-new-117",
+        "n12-new-118",
+        "n12-new-119",
+        "n12-new-120"
       ],
       "lesson": {
         "conceptId": "n12-c-data-sources",
@@ -9018,7 +9119,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n12-q21",
-        "n12-q22"
+        "n12-q22",
+        "n12-new-121",
+        "n12-new-122",
+        "n12-new-123",
+        "n12-new-124"
       ],
       "lesson": {
         "conceptId": "n12-c-bigdata-history",
@@ -9171,7 +9276,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n12-q23",
-        "n12-q24"
+        "n12-q24",
+        "n12-new-125",
+        "n12-new-126",
+        "n12-new-127",
+        "n12-new-128"
       ],
       "lesson": {
         "conceptId": "n12-c-applications",
@@ -9322,7 +9431,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n12-q20",
-        "n12-q30"
+        "n12-q30",
+        "n12-new-129",
+        "n12-new-130",
+        "n12-new-131",
+        "n12-new-132"
       ],
       "lesson": {
         "conceptId": "n12-c-data-forms",
@@ -9459,7 +9572,11 @@ export const courseData: CourseData = {
         "증감 해석"
       ],
       "relatedQuestionIds": [
-        "n12-q26"
+        "n12-q26",
+        "n12-new-133",
+        "n12-new-134",
+        "n12-new-135",
+        "n12-new-136"
       ],
       "lesson": {
         "conceptId": "n12-c-time-series",
@@ -9605,7 +9722,11 @@ export const courseData: CourseData = {
         "시간과 결합한 시공간 분석"
       ],
       "relatedQuestionIds": [
-        "n12-q25"
+        "n12-q25",
+        "n12-new-137",
+        "n12-new-138",
+        "n12-new-139",
+        "n12-new-140"
       ],
       "lesson": {
         "conceptId": "n12-c-geospatial",
@@ -9753,7 +9874,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q01",
-        "n34-Q02"
+        "n34-Q02",
+        "n34-new-001",
+        "n34-new-002",
+        "n34-new-003",
+        "n34-new-004"
       ],
       "lesson": {
         "conceptId": "n34-C01",
@@ -9895,7 +10020,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q02",
-        "n34-Q03"
+        "n34-Q03",
+        "n34-new-005",
+        "n34-new-006",
+        "n34-new-007",
+        "n34-new-008"
       ],
       "lesson": {
         "conceptId": "n34-C02",
@@ -10042,7 +10171,11 @@ export const courseData: CourseData = {
         "대역폭 병목 구분"
       ],
       "relatedQuestionIds": [
-        "n34-Q04"
+        "n34-Q04",
+        "n34-new-009",
+        "n34-new-010",
+        "n34-new-011",
+        "n34-new-012"
       ],
       "lesson": {
         "conceptId": "n34-C03",
@@ -10190,9 +10323,10 @@ export const courseData: CourseData = {
         "컨테이너와 VM을 동일시하지 않기"
       ],
       "relatedQuestionIds": [
-        "n34-Q01",
-        "n34-Q02",
-        "n34-Q03"
+        "n34-new-013",
+        "n34-new-014",
+        "n34-new-015",
+        "n34-new-016"
       ],
       "lesson": {
         "conceptId": "n34-C04",
@@ -10337,7 +10471,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q05",
-        "n34-Q06"
+        "n34-Q06",
+        "n34-new-017",
+        "n34-new-018",
+        "n34-new-019",
+        "n34-new-020"
       ],
       "lesson": {
         "conceptId": "n34-C05",
@@ -10481,7 +10619,11 @@ export const courseData: CourseData = {
         "속도 제한 대응"
       ],
       "relatedQuestionIds": [
-        "n34-Q07"
+        "n34-Q07",
+        "n34-new-021",
+        "n34-new-022",
+        "n34-new-023",
+        "n34-new-024"
       ],
       "lesson": {
         "conceptId": "n34-C06",
@@ -10623,7 +10765,11 @@ export const courseData: CourseData = {
         "저전력 요구"
       ],
       "relatedQuestionIds": [
-        "n34-Q08"
+        "n34-Q08",
+        "n34-new-025",
+        "n34-new-026",
+        "n34-new-027",
+        "n34-new-028"
       ],
       "lesson": {
         "conceptId": "n34-C07",
@@ -10762,7 +10908,11 @@ export const courseData: CourseData = {
         "원본 손실 위험 고려"
       ],
       "relatedQuestionIds": [
-        "n34-Q09"
+        "n34-Q09",
+        "n34-new-029",
+        "n34-new-030",
+        "n34-new-031",
+        "n34-new-032"
       ],
       "lesson": {
         "conceptId": "n34-C08",
@@ -10907,7 +11057,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q10",
-        "n34-Q11"
+        "n34-Q11",
+        "n34-new-033",
+        "n34-new-034",
+        "n34-new-035",
+        "n34-new-036"
       ],
       "lesson": {
         "conceptId": "n34-C09",
@@ -11056,7 +11210,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "n34-Q12",
         "n34-Q13",
-        "n34-Q14"
+        "n34-Q14",
+        "n34-new-037",
+        "n34-new-038",
+        "n34-new-039",
+        "n34-new-040"
       ],
       "lesson": {
         "conceptId": "n34-C10",
@@ -11199,7 +11357,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q15",
-        "n34-Q16"
+        "n34-Q16",
+        "n34-new-041",
+        "n34-new-042",
+        "n34-new-043",
+        "n34-new-044"
       ],
       "lesson": {
         "conceptId": "n34-C11",
@@ -11349,7 +11511,11 @@ export const courseData: CourseData = {
         "요구 질의에 맞는 모델 선택"
       ],
       "relatedQuestionIds": [
-        "n34-Q17"
+        "n34-Q17",
+        "n34-new-045",
+        "n34-new-046",
+        "n34-new-047",
+        "n34-new-048"
       ],
       "lesson": {
         "conceptId": "n34-C12",
@@ -11501,7 +11667,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q10",
-        "n34-Q18"
+        "n34-Q18",
+        "n34-new-049",
+        "n34-new-050",
+        "n34-new-051",
+        "n34-new-052"
       ],
       "lesson": {
         "conceptId": "n34-C13",
@@ -11655,9 +11825,10 @@ export const courseData: CourseData = {
         "Jaro-Winkler"
       ],
       "relatedQuestionIds": [
-        "n34-Q06",
-        "n34-Q18",
-        "n34-Q19"
+        "n34-new-053",
+        "n34-new-054",
+        "n34-new-055",
+        "n34-new-056"
       ],
       "lesson": {
         "conceptId": "n34-C14",
@@ -11806,9 +11977,10 @@ export const courseData: CourseData = {
         "드리프트가 모델 성능에 미치는 영향"
       ],
       "relatedQuestionIds": [
-        "n34-Q06",
-        "n34-Q18",
-        "n34-Q19"
+        "n34-new-057",
+        "n34-new-058",
+        "n34-new-059",
+        "n34-new-060"
       ],
       "lesson": {
         "conceptId": "n34-C15",
@@ -11956,7 +12128,11 @@ export const courseData: CourseData = {
         "lineage 용도"
       ],
       "relatedQuestionIds": [
-        "n34-Q18"
+        "n34-Q18",
+        "n34-new-061",
+        "n34-new-062",
+        "n34-new-063",
+        "n34-new-064"
       ],
       "lesson": {
         "conceptId": "n34-C16",
@@ -12115,7 +12291,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q06",
-        "n34-Q19"
+        "n34-Q19",
+        "n34-new-065",
+        "n34-new-066",
+        "n34-new-067",
+        "n34-new-068"
       ],
       "lesson": {
         "conceptId": "n34-C17",
@@ -12258,7 +12438,11 @@ export const courseData: CourseData = {
         "문제 정의의 명세"
       ],
       "relatedQuestionIds": [
-        "n34-Q20"
+        "n34-Q20",
+        "n34-new-069",
+        "n34-new-070",
+        "n34-new-071",
+        "n34-new-072"
       ],
       "lesson": {
         "conceptId": "n34-C18",
@@ -12401,7 +12585,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q21",
-        "n34-Q30"
+        "n34-Q30",
+        "n34-new-073",
+        "n34-new-074",
+        "n34-new-075",
+        "n34-new-076"
       ],
       "lesson": {
         "conceptId": "n34-C19",
@@ -12543,9 +12731,10 @@ export const courseData: CourseData = {
         "재현 가능한 환경"
       ],
       "relatedQuestionIds": [
-        "n34-Q20",
-        "n34-Q21",
-        "n34-Q30"
+        "n34-new-077",
+        "n34-new-078",
+        "n34-new-079",
+        "n34-new-080"
       ],
       "lesson": {
         "conceptId": "n34-C20",
@@ -12707,7 +12896,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "n34-Q22",
         "n34-Q23",
-        "n34-Q30"
+        "n34-Q30",
+        "n34-new-081",
+        "n34-new-082",
+        "n34-new-083",
+        "n34-new-084"
       ],
       "lesson": {
         "conceptId": "n34-C21",
@@ -12869,9 +13062,10 @@ export const courseData: CourseData = {
         "단순 질문→복합 질문 발전"
       ],
       "relatedQuestionIds": [
-        "n34-Q22",
-        "n34-Q23",
-        "n34-Q30"
+        "n34-new-085",
+        "n34-new-086",
+        "n34-new-087",
+        "n34-new-088"
       ],
       "lesson": {
         "conceptId": "n34-C22",
@@ -13026,7 +13220,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q24",
-        "n34-Q31"
+        "n34-Q31",
+        "n34-new-089",
+        "n34-new-090",
+        "n34-new-091",
+        "n34-new-092"
       ],
       "lesson": {
         "conceptId": "n34-C23",
@@ -13179,7 +13377,11 @@ export const courseData: CourseData = {
         "이상치 자동 삭제 금지"
       ],
       "relatedQuestionIds": [
-        "n34-Q25"
+        "n34-Q25",
+        "n34-new-093",
+        "n34-new-094",
+        "n34-new-095",
+        "n34-new-096"
       ],
       "lesson": {
         "conceptId": "n34-C24",
@@ -13331,7 +13533,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q26",
-        "n34-Q32"
+        "n34-Q32",
+        "n34-new-097",
+        "n34-new-098",
+        "n34-new-099",
+        "n34-new-100"
       ],
       "lesson": {
         "conceptId": "n34-C25",
@@ -13503,7 +13709,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "n34-Q27",
         "n34-Q28",
-        "n34-Q29"
+        "n34-Q29",
+        "n34-new-101",
+        "n34-new-102",
+        "n34-new-103",
+        "n34-new-104"
       ],
       "lesson": {
         "conceptId": "n34-C26",
@@ -13664,7 +13874,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q30",
-        "n34-Q31"
+        "n34-Q31",
+        "n34-new-105",
+        "n34-new-106",
+        "n34-new-107",
+        "n34-new-108"
       ],
       "lesson": {
         "conceptId": "n34-C27",
@@ -13830,7 +14044,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q21",
-        "n34-Q32"
+        "n34-Q32",
+        "n34-new-109",
+        "n34-new-110",
+        "n34-new-111",
+        "n34-new-112"
       ],
       "lesson": {
         "conceptId": "n34-C28",
@@ -13997,7 +14215,11 @@ export const courseData: CourseData = {
         "레이아웃은 통계가 아님"
       ],
       "relatedQuestionIds": [
-        "n34-Q33"
+        "n34-Q33",
+        "n34-new-113",
+        "n34-new-114",
+        "n34-new-115",
+        "n34-new-116"
       ],
       "lesson": {
         "conceptId": "n34-C29",
@@ -14152,7 +14374,11 @@ export const courseData: CourseData = {
         "장르 비교"
       ],
       "relatedQuestionIds": [
-        "n34-Q34"
+        "n34-Q34",
+        "n34-new-117",
+        "n34-new-118",
+        "n34-new-119",
+        "n34-new-120"
       ],
       "lesson": {
         "conceptId": "n34-C30",
@@ -14303,7 +14529,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q35",
-        "n34-Q36"
+        "n34-Q36",
+        "n34-new-121",
+        "n34-new-122",
+        "n34-new-123",
+        "n34-new-124"
       ],
       "lesson": {
         "conceptId": "n34-C31",
@@ -14458,7 +14688,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "n34-Q36",
         "n34-Q37",
-        "n34-Q38"
+        "n34-Q38",
+        "n34-new-125",
+        "n34-new-126",
+        "n34-new-127",
+        "n34-new-128"
       ],
       "lesson": {
         "conceptId": "n34-C32",
@@ -14625,7 +14859,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "n34-Q39",
-        "n34-Q40"
+        "n34-Q40",
+        "n34-new-129",
+        "n34-new-130",
+        "n34-new-131",
+        "n34-new-132"
       ],
       "lesson": {
         "conceptId": "n34-C33",
@@ -14822,7 +15060,11 @@ export const courseData: CourseData = {
         "n34-Q33",
         "n34-Q36",
         "n34-Q38",
-        "n34-Q40"
+        "n34-Q40",
+        "n34-new-133",
+        "n34-new-134",
+        "n34-new-135",
+        "n34-new-136"
       ],
       "lesson": {
         "conceptId": "n34-C34",
@@ -14985,9 +15227,10 @@ export const courseData: CourseData = {
         "접합부가 장애 지점인 이유"
       ],
       "relatedQuestionIds": [
-        "web-q01",
-        "web-q02",
-        "web-q03"
+        "web-new-001",
+        "web-new-002",
+        "web-new-003",
+        "web-new-004"
       ],
       "lesson": {
         "conceptId": "web-c01",
@@ -15127,7 +15370,11 @@ export const courseData: CourseData = {
         "계층별 대표 기술"
       ],
       "relatedQuestionIds": [
-        "web-q01"
+        "web-q01",
+        "web-new-005",
+        "web-new-006",
+        "web-new-007",
+        "web-new-008"
       ],
       "lesson": {
         "conceptId": "web-c02",
@@ -15265,7 +15512,11 @@ export const courseData: CourseData = {
         "과제 지연의 누적 효과"
       ],
       "relatedQuestionIds": [
-        "web-q02"
+        "web-q02",
+        "web-new-009",
+        "web-new-010",
+        "web-new-011",
+        "web-new-012"
       ],
       "lesson": {
         "conceptId": "web-c03",
@@ -15406,7 +15657,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "web-q03",
-        "web-q42"
+        "web-q42",
+        "web-new-013",
+        "web-new-014",
+        "web-new-015",
+        "web-new-016"
       ],
       "lesson": {
         "conceptId": "web-c04",
@@ -15545,7 +15800,11 @@ export const courseData: CourseData = {
         "API 키를 .env에 두는 이유"
       ],
       "relatedQuestionIds": [
-        "web-q04"
+        "web-q04",
+        "web-new-017",
+        "web-new-018",
+        "web-new-019",
+        "web-new-020"
       ],
       "lesson": {
         "conceptId": "web-c05",
@@ -15683,7 +15942,11 @@ export const courseData: CourseData = {
         "축-지표-기술 연결"
       ],
       "relatedQuestionIds": [
-        "web-q05"
+        "web-q05",
+        "web-new-021",
+        "web-new-022",
+        "web-new-023",
+        "web-new-024"
       ],
       "lesson": {
         "conceptId": "web-c06",
@@ -15825,7 +16088,11 @@ export const courseData: CourseData = {
         "web-q06",
         "web-q07",
         "web-q08",
-        "web-q41"
+        "web-q41",
+        "web-new-025",
+        "web-new-026",
+        "web-new-027",
+        "web-new-028"
       ],
       "lesson": {
         "conceptId": "web-c07",
@@ -15965,7 +16232,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "web-q08",
-        "web-q41"
+        "web-q41",
+        "web-new-029",
+        "web-new-030",
+        "web-new-031",
+        "web-new-032"
       ],
       "lesson": {
         "conceptId": "web-c08",
@@ -16099,9 +16370,10 @@ export const courseData: CourseData = {
         "도구별 계층 위치"
       ],
       "relatedQuestionIds": [
-        "web-q05",
-        "web-q06",
-        "web-q07"
+        "web-new-033",
+        "web-new-034",
+        "web-new-035",
+        "web-new-036"
       ],
       "lesson": {
         "conceptId": "web-c09",
@@ -16237,9 +16509,10 @@ export const courseData: CourseData = {
         "상태 전이"
       ],
       "relatedQuestionIds": [
-        "web-q05",
-        "web-q06",
-        "web-q07"
+        "web-new-037",
+        "web-new-038",
+        "web-new-039",
+        "web-new-040"
       ],
       "lesson": {
         "conceptId": "web-c10",
@@ -16380,9 +16653,10 @@ export const courseData: CourseData = {
         "삭제 후 데이터 비트의 상태"
       ],
       "relatedQuestionIds": [
-        "web-q05",
-        "web-q06",
-        "web-q07"
+        "web-new-041",
+        "web-new-042",
+        "web-new-043",
+        "web-new-044"
       ],
       "lesson": {
         "conceptId": "web-c11",
@@ -16520,7 +16794,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "web-q09",
-        "web-q42"
+        "web-q42",
+        "web-new-045",
+        "web-new-046",
+        "web-new-047",
+        "web-new-048"
       ],
       "lesson": {
         "conceptId": "web-c12",
@@ -16659,7 +16937,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "web-q10",
-        "web-q42"
+        "web-q42",
+        "web-new-049",
+        "web-new-050",
+        "web-new-051",
+        "web-new-052"
       ],
       "lesson": {
         "conceptId": "web-c13",
@@ -16810,7 +17092,11 @@ export const courseData: CourseData = {
         "재처리 요구로 기술 고르기"
       ],
       "relatedQuestionIds": [
-        "web-q12"
+        "web-q12",
+        "web-new-053",
+        "web-new-054",
+        "web-new-055",
+        "web-new-056"
       ],
       "lesson": {
         "conceptId": "web-c14",
@@ -16953,7 +17239,11 @@ export const courseData: CourseData = {
         "작은 파일에 불리한 이유"
       ],
       "relatedQuestionIds": [
-        "web-q11"
+        "web-q11",
+        "web-new-057",
+        "web-new-058",
+        "web-new-059",
+        "web-new-060"
       ],
       "lesson": {
         "conceptId": "web-c15",
@@ -17099,7 +17389,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "web-q12",
-        "web-q47"
+        "web-q47",
+        "web-new-061",
+        "web-new-062",
+        "web-new-063",
+        "web-new-064"
       ],
       "lesson": {
         "conceptId": "web-c16",
@@ -17247,7 +17541,11 @@ export const courseData: CourseData = {
         "품질 임계값 명세"
       ],
       "relatedQuestionIds": [
-        "web-q47"
+        "web-q47",
+        "web-new-065",
+        "web-new-066",
+        "web-new-067",
+        "web-new-068"
       ],
       "lesson": {
         "conceptId": "web-c17",
@@ -17391,7 +17689,11 @@ export const courseData: CourseData = {
         "다층 방어 계층"
       ],
       "relatedQuestionIds": [
-        "web-q47"
+        "web-q47",
+        "web-new-069",
+        "web-new-070",
+        "web-new-071",
+        "web-new-072"
       ],
       "lesson": {
         "conceptId": "web-c18",
@@ -17529,7 +17831,11 @@ export const courseData: CourseData = {
         "주어진 질문의 관찰 단위 찾기"
       ],
       "relatedQuestionIds": [
-        "web-q13"
+        "web-q13",
+        "web-new-073",
+        "web-new-074",
+        "web-new-075",
+        "web-new-076"
       ],
       "lesson": {
         "conceptId": "web-c19",
@@ -17682,7 +17988,11 @@ export const courseData: CourseData = {
         "web-q17",
         "web-q33",
         "web-q34",
-        "web-q48"
+        "web-q48",
+        "web-new-077",
+        "web-new-078",
+        "web-new-079",
+        "web-new-080"
       ],
       "lesson": {
         "conceptId": "web-c20",
@@ -17818,7 +18128,11 @@ export const courseData: CourseData = {
         "HTML 오류 응답 판별"
       ],
       "relatedQuestionIds": [
-        "web-q15"
+        "web-q15",
+        "web-new-081",
+        "web-new-082",
+        "web-new-083",
+        "web-new-084"
       ],
       "lesson": {
         "conceptId": "web-c21",
@@ -17960,7 +18274,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "web-q15",
         "web-q34",
-        "web-q35"
+        "web-q35",
+        "web-new-085",
+        "web-new-086",
+        "web-new-087",
+        "web-new-088"
       ],
       "lesson": {
         "conceptId": "web-c22",
@@ -18108,7 +18426,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "web-q16",
-        "web-q35"
+        "web-q35",
+        "web-new-089",
+        "web-new-090",
+        "web-new-091",
+        "web-new-092"
       ],
       "lesson": {
         "conceptId": "web-c23",
@@ -18256,7 +18578,11 @@ export const courseData: CourseData = {
         "주어진 코드 단계 분류"
       ],
       "relatedQuestionIds": [
-        "web-q18"
+        "web-q18",
+        "web-new-093",
+        "web-new-094",
+        "web-new-095",
+        "web-new-096"
       ],
       "lesson": {
         "conceptId": "web-c24",
@@ -18415,7 +18741,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "web-q17",
         "web-q33",
-        "web-q36"
+        "web-q36",
+        "web-new-097",
+        "web-new-098",
+        "web-new-099",
+        "web-new-100"
       ],
       "lesson": {
         "conceptId": "web-c25",
@@ -18571,7 +18901,11 @@ export const courseData: CourseData = {
         "web-q21",
         "web-q22",
         "web-q36",
-        "web-q44"
+        "web-q44",
+        "web-new-101",
+        "web-new-102",
+        "web-new-103",
+        "web-new-104"
       ],
       "lesson": {
         "conceptId": "web-c26",
@@ -18729,7 +19063,11 @@ export const courseData: CourseData = {
         "web-q18",
         "web-q19",
         "web-q28",
-        "web-q37"
+        "web-q37",
+        "web-new-105",
+        "web-new-106",
+        "web-new-107",
+        "web-new-108"
       ],
       "lesson": {
         "conceptId": "web-c27",
@@ -18877,7 +19215,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "web-q20",
         "web-q37",
-        "web-q38"
+        "web-q38",
+        "web-new-109",
+        "web-new-110",
+        "web-new-111",
+        "web-new-112"
       ],
       "lesson": {
         "conceptId": "web-c28",
@@ -19038,7 +19380,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "web-q21",
         "web-q22",
-        "web-q44"
+        "web-q44",
+        "web-new-113",
+        "web-new-114",
+        "web-new-115",
+        "web-new-116"
       ],
       "lesson": {
         "conceptId": "web-c29",
@@ -19200,7 +19546,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "web-q23",
         "web-q28",
-        "web-q39"
+        "web-q39",
+        "web-new-117",
+        "web-new-118",
+        "web-new-119",
+        "web-new-120"
       ],
       "lesson": {
         "conceptId": "web-c30",
@@ -19360,7 +19710,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "web-q24",
         "web-q39",
-        "web-q40"
+        "web-q40",
+        "web-new-121",
+        "web-new-122",
+        "web-new-123",
+        "web-new-124"
       ],
       "lesson": {
         "conceptId": "web-c31",
@@ -19528,7 +19882,11 @@ export const courseData: CourseData = {
         "web-q28",
         "web-q37",
         "web-q44",
-        "web-q48"
+        "web-q48",
+        "web-new-125",
+        "web-new-126",
+        "web-new-127",
+        "web-new-128"
       ],
       "lesson": {
         "conceptId": "web-c33",
@@ -19696,7 +20054,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "web-q27",
-        "web-q48"
+        "web-q48",
+        "web-new-129",
+        "web-new-130",
+        "web-new-131",
+        "web-new-132"
       ],
       "lesson": {
         "conceptId": "web-c34",
@@ -19852,7 +20214,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "web-q29",
-        "web-q45"
+        "web-q45",
+        "web-new-133",
+        "web-new-134",
+        "web-new-135",
+        "web-new-136"
       ],
       "lesson": {
         "conceptId": "web-c35",
@@ -20001,7 +20367,11 @@ export const courseData: CourseData = {
         "워드클라우드 직접 의미와 과잉 해석"
       ],
       "relatedQuestionIds": [
-        "web-q30"
+        "web-q30",
+        "web-new-137",
+        "web-new-138",
+        "web-new-139",
+        "web-new-140"
       ],
       "lesson": {
         "conceptId": "web-c36",
@@ -20160,7 +20530,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "web-q31",
-        "web-q46"
+        "web-q46",
+        "web-new-141",
+        "web-new-142",
+        "web-new-143",
+        "web-new-144"
       ],
       "lesson": {
         "conceptId": "web-c37",
@@ -20304,7 +20678,11 @@ export const courseData: CourseData = {
       ],
       "relatedQuestionIds": [
         "web-q31",
-        "web-q46"
+        "web-q46",
+        "web-new-145",
+        "web-new-146",
+        "web-new-147",
+        "web-new-148"
       ],
       "lesson": {
         "conceptId": "web-c38",
@@ -20448,7 +20826,11 @@ export const courseData: CourseData = {
         "MAE 수치 불일치 탐지"
       ],
       "relatedQuestionIds": [
-        "web-q32"
+        "web-q32",
+        "web-new-149",
+        "web-new-150",
+        "web-new-151",
+        "web-new-152"
       ],
       "lesson": {
         "conceptId": "web-c39",
@@ -20641,7 +21023,11 @@ export const courseData: CourseData = {
         "web-q34",
         "web-q39",
         "web-q45",
-        "web-q48"
+        "web-q48",
+        "web-new-153",
+        "web-new-154",
+        "web-new-155",
+        "web-new-156"
       ],
       "lesson": {
         "conceptId": "web-c40",
@@ -20809,7 +21195,11 @@ export const courseData: CourseData = {
         "web-q25",
         "web-q27",
         "web-q40",
-        "web-q48"
+        "web-q48",
+        "web-new-157",
+        "web-new-158",
+        "web-new-159",
+        "web-new-160"
       ],
       "lesson": {
         "conceptId": "web-c41",
@@ -20961,7 +21351,11 @@ export const courseData: CourseData = {
       "relatedQuestionIds": [
         "web-q27",
         "web-q40",
-        "web-q48"
+        "web-q48",
+        "web-new-161",
+        "web-new-162",
+        "web-new-163",
+        "web-new-164"
       ],
       "lesson": {
         "conceptId": "web-c42",
@@ -27782,6 +28176,25581 @@ export const courseData: CourseData = {
       "additionalExample": "배우 Top 10 뒤에 유형·연도별 차이가 유지되는지 묻는 후속 문제를 붙인다.",
       "professorFocus": "교수님 필기에 맞춰 질문의 조건을 명확히 정의하고, 필요한 컬럼·함수·분모·임계값을 함께 명세합니다.",
       "supplemental": false
+    },
+    {
+      "id": "n12-new-001",
+      "prompt": "원자료 파일은 모두 읽히지만 장르별 합계를 나누어 계산하는 단계에서 실패했다. 먼저 점검할 계층은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "분산 처리 계층",
+          "correct": true,
+          "explanation": "MapReduce 등은 조각별 계산과 중간 결과 결합을 맡는다."
+        },
+        {
+          "id": "o2",
+          "text": "분산 저장 계층",
+          "correct": false,
+          "explanation": "HDFS 등은 파일의 분산 보관과 접근을 맡는다."
+        },
+        {
+          "id": "o3",
+          "text": "운영체제 설치 단계",
+          "correct": false,
+          "explanation": "운영체제는 CPU·메모리·장치의 실행 기반이다."
+        },
+        {
+          "id": "o4",
+          "text": "분석 결과의 해석 단계",
+          "correct": false,
+          "explanation": "해석은 계산된 결과에 의미를 부여하는 단계다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-stack"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "상황 적용",
+      "review": "스택은 실행 자원, 분산 저장, 병렬 처리, 분석으로 역할을 나눈다. 파일 읽기는 성공했으므로 실패한 계산 계층을 먼저 확인한다.",
+      "memoryTip": "읽기 다음은 계산",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-stack",
+      "learningObjectiveIndices": [
+        0,
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-002",
+      "prompt": "분석 라이브러리가 정상 설치되어도 HDFS 경로에 접근할 수 없어 작업이 중단됐다. 가장 적절한 조치는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "다른 통계 해석을 붙인다.",
+          "correct": false,
+          "explanation": "계산 전 실패이므로 해석할 결과가 아직 없다."
+        },
+        {
+          "id": "o2",
+          "text": "입력 경로와 읽기 권한을 확인한다.",
+          "correct": true,
+          "explanation": "데이터를 읽지 못한 상태라 저장 접근부터 점검한다."
+        },
+        {
+          "id": "o3",
+          "text": "군집 개수를 바꾼다.",
+          "correct": false,
+          "explanation": "군집 개수는 데이터를 받은 뒤의 분석 설정이다."
+        },
+        {
+          "id": "o4",
+          "text": "결과 그래프의 색을 바꾼다.",
+          "correct": false,
+          "explanation": "그래프 색은 파일 접근 실패를 해결하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-stack"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "상위 분석 도구는 하위 저장 서비스를 이용한다. 입력을 확보하지 못한 장애와 입력 후 알고리즘 장애를 구분한다.",
+      "memoryTip": "입력 확보가 먼저",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-stack",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-003",
+      "prompt": "강의의 Linux→HDFS→MapReduce→분석 라이브러리 그림을 읽은 설명 중 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모든 MLlib 작업은 반드시 MapReduce 작업으로 실행된다.",
+          "correct": false,
+          "explanation": "MLlib의 실행을 언제나 MapReduce에 종속시키면 안 된다."
+        },
+        {
+          "id": "o2",
+          "text": "HDFS가 파일을 보관하면 분석 결론까지 자동으로 완성된다.",
+          "correct": false,
+          "explanation": "저장 뒤에 계산과 해석·검증이 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "아래 계층이 상위 도구에 기반 서비스를 제공한다.",
+          "correct": true,
+          "explanation": "운영체제의 자원 관리와 저장·처리가 분석을 뒷받침한다."
+        },
+        {
+          "id": "o4",
+          "text": "실제 Spark 분석은 구성에 따라 다른 실행 경로를 쓸 수 있다.",
+          "correct": true,
+          "explanation": "교육용 그림이 모든 시스템의 필수 실행 경로는 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-stack"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "강의 그림은 계층별 책임과 의존 관계를 단순화한다. 그림의 순서를 실제 모든 도구의 유일한 설치·실행 규칙으로 확대하지 않는다.",
+      "memoryTip": "그림은 역할 지도",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-stack",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-004",
+      "prompt": "학습용 가상 자료에서 세 저장 파티션의 코미디 작품 수는 12·18·30개다. 부분합 결합과 전체 120개 중 비중 산출을 올바르게 연결한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일 보관이 끝났으므로 비중은 계산할 수 없다.",
+          "correct": false,
+          "explanation": "저장된 자료를 처리하면 합계와 비중을 구할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "부분합 60개는 사용자 추천 만족도 60%다.",
+          "correct": false,
+          "explanation": "작품 수를 합친 값은 만족도 측정값이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "파티션 세 개이므로 비중은 1/3이다.",
+          "correct": false,
+          "explanation": "파티션 수가 아니라 해당 장르 수를 전체 수로 나눈다."
+        },
+        {
+          "id": "o4",
+          "text": "부분합 60개를 결합하고 비중 50%로 해석한다.",
+          "correct": true,
+          "explanation": "12+18+30=60이며 60÷120=0.5다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-stack"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "분산 처리는 부분 결과를 결합하고 분석은 목적에 맞는 지표를 만든다. 카탈로그 비중은 작품 구성 지표이며 추천 성과와 다르다.",
+      "memoryTip": "저장·합산·해석 분리",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-stack",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-005",
+      "prompt": "분석 파일에는 숫자 4·6이 있고 코드에는 '두 값을 더하라'가 있다. 역할 구분이 맞는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "명령어와 입력값은 역할 차이가 없다.",
+          "correct": false,
+          "explanation": "같은 코드에 다른 입력을 주면 다른 결과가 나온다."
+        },
+        {
+          "id": "o2",
+          "text": "4·6은 데이터, 더하기 절차는 명령이다.",
+          "correct": true,
+          "explanation": "데이터는 처리할 값이고 명령은 수행할 동작이다."
+        },
+        {
+          "id": "o3",
+          "text": "4·6은 하드웨어, 더하기 절차는 데이터다.",
+          "correct": false,
+          "explanation": "숫자 값은 물리 장치가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "숫자가 있으면 모두 실행 중인 프로그램이다.",
+          "correct": false,
+          "explanation": "값이 저장되어 있다는 사실은 실행을 뜻하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "특징 구분",
+      "review": "소프트웨어는 하드웨어가 수행할 절차를 담는다. 입력 데이터와 이를 처리하는 명령은 구분해서 읽는다.",
+      "memoryTip": "값과 절차 분리",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-software",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-006",
+      "prompt": "설치된 편집기를 열어 문서를 수정하고 저장한 뒤 창을 닫았다. 일반적인 상태 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "프로그램을 설치했으므로 종료 뒤에도 항상 CPU를 사용한다.",
+          "correct": false,
+          "explanation": "설치된 파일은 실행 중인 프로세스와 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "문서를 저장하면 편집기는 하드웨어가 된다.",
+          "correct": false,
+          "explanation": "저장은 소프트웨어의 성격을 바꾸지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "프로세스는 종료되어도 프로그램 파일과 저장 문서는 남는다.",
+          "correct": true,
+          "explanation": "실행 종료는 설치 제거와 파일 삭제가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "창을 닫으면 프로그램 설치 파일도 모두 제거된다.",
+          "correct": false,
+          "explanation": "설치 제거는 별도 작업이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "순서·절차",
+      "review": "설치는 실행에 필요한 파일·설정을 준비하는 일이다. 실행 중에는 자원을 사용하고 종료하면 실행 자원을 정리하지만 저장 파일은 별도로 남을 수 있다.",
+      "memoryTip": "종료 ≠ 제거",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-software",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-007",
+      "prompt": "CSV 평균을 계산해 인쇄할 때의 역할 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "운영체제가 프로세스와 메모리 사용을 관리한다.",
+          "correct": true,
+          "explanation": "여러 실행 작업의 자원 사용을 조정한다."
+        },
+        {
+          "id": "o2",
+          "text": "프린터 드라이버가 해당 프린터의 제어를 돕는다.",
+          "correct": true,
+          "explanation": "장치별 명령과 통신 차이를 처리한다."
+        },
+        {
+          "id": "o3",
+          "text": "CSV 숫자만으로 프린터가 직접 제어된다.",
+          "correct": false,
+          "explanation": "데이터를 처리하고 출력 요청을 전달할 소프트웨어가 필요하다."
+        },
+        {
+          "id": "o4",
+          "text": "응용이 CSV 값을 해석하고 평균을 계산한다.",
+          "correct": true,
+          "explanation": "입력 내용을 사용자 목적에 맞게 처리하는 역할이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "사용자 작업은 응용의 처리, 운영체제의 자원 관리, 드라이버의 장치 제어가 연결되어 수행된다. 문서 파일 자체가 이 모든 절차를 실행하는 것은 아니다.",
+      "memoryTip": "응용→OS→장치",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-software",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-008",
+      "prompt": "같은 분석 프로그램을 실행해 입력 4·6에서는 10, 입력 3·8에서는 11을 얻었다. 가장 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "같은 덧셈 명령이 다른 데이터를 처리했다.",
+          "correct": true,
+          "explanation": "프로그램 절차가 같아도 입력이 다르면 결과가 바뀔 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "결과가 다르므로 컴퓨터의 하드웨어가 반드시 바뀌었다.",
+          "correct": false,
+          "explanation": "입력 차이만으로 결과 차이를 설명할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "두 결과를 얻었으므로 설치 파일을 매번 새로 만들었다.",
+          "correct": false,
+          "explanation": "실행마다 설치를 다시 할 필요는 없다."
+        },
+        {
+          "id": "o4",
+          "text": "데이터를 바꿨으므로 운영체제가 사라졌다.",
+          "correct": false,
+          "explanation": "입력 변경은 실행 기반의 제거가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "프로그램은 절차를 담고 실행 시 입력을 받아 결과를 만든다. 같은 설치 파일을 여러 번 실행하면서 서로 다른 데이터를 처리할 수 있다.",
+      "memoryTip": "코드는 같고 입력은 다름",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-software",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-009",
+      "prompt": "문서 편집기와 영상 편집기가 공통으로 쓰는 파일 접근·자원 관리 기능을 각자 구현하지 않게 하는 기반은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모니터 해상도",
+          "correct": false,
+          "explanation": "화면에 표현할 픽셀 수이며 실행 서비스를 제공하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "파일의 확장자",
+          "correct": false,
+          "explanation": "파일 이름의 형식 단서이며 자원 배분을 맡지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "시스템 소프트웨어",
+          "correct": true,
+          "explanation": "응용의 실행·개발·관리를 위한 공통 서비스를 제공한다."
+        },
+        {
+          "id": "o4",
+          "text": "문서의 본문",
+          "correct": false,
+          "explanation": "사용자가 작성한 내용이며 공통 자원 관리 기능이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-system-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "시스템 소프트웨어는 여러 응용이 공유할 기반 기능을 제공한다. 공통 처리를 모으면 장치 차이와 자원 충돌을 각 응용이 반복 해결할 부담을 줄인다.",
+      "memoryTip": "공통 기반을 제공",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-system-software",
+      "learningObjectiveIndices": [
+        0,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-010",
+      "prompt": "번역 도구·DBMS·유틸리티의 기능을 순서대로 바르게 연결한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "데이터 조회·장치 전원 공급·사용자 영상 편집",
+          "correct": false,
+          "explanation": "번역 도구는 프로그램의 번역·해석을 맡는다."
+        },
+        {
+          "id": "o2",
+          "text": "CPU 제조·컴퓨터 조립·네트워크 케이블 연결",
+          "correct": false,
+          "explanation": "소프트웨어의 서비스가 아니라 물리 작업이다."
+        },
+        {
+          "id": "o3",
+          "text": "그래프 색 지정·문서 맞춤법 검사·영화 감상",
+          "correct": false,
+          "explanation": "개별 사용자 목적의 응용 기능이다."
+        },
+        {
+          "id": "o4",
+          "text": "프로그램 번역·데이터 저장/조회 관리·압축/유지보수",
+          "correct": true,
+          "explanation": "각 도구의 주된 제공 서비스에 대응한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-system-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "비교 분석",
+      "review": "컴파일러·인터프리터는 코드 번역·해석을, DBMS는 데이터 관리를 맡는다. 유틸리티는 압축·보안 등 시스템 사용과 유지보수를 돕는다.",
+      "memoryTip": "번역·조회·관리",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-system-software",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-011",
+      "prompt": "강의의 기능 분류에 대한 설명 중 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "사용자가 직접 실행하는 압축 도구도 유틸리티로 볼 수 있다.",
+          "correct": true,
+          "explanation": "화면이나 직접 실행 여부보다 제공 기능으로 분류한다."
+        },
+        {
+          "id": "o2",
+          "text": "시스템 소프트웨어라는 범주가 모두 커널 내부를 뜻하지는 않는다.",
+          "correct": true,
+          "explanation": "DBMS·컴파일러도 분류에 포함되지만 커널과 동일하지 않다."
+        },
+        {
+          "id": "o3",
+          "text": "화면이 있는 도구는 시스템 소프트웨어가 될 수 없다.",
+          "correct": false,
+          "explanation": "그래픽 화면 유무는 분류의 결정 기준이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "DBMS가 있으면 운영체제의 CPU 관리가 필요 없다.",
+          "correct": false,
+          "explanation": "DBMS 프로세스에도 운영체제의 실행 자원 관리가 필요하다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-system-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "시스템 소프트웨어는 기능에 따른 넓은 분류다. 커널의 실행 위치나 화면 유무와 같은 기준을 그대로 적용하지 않는다.",
+      "memoryTip": "기능 분류와 실행 위치는 다름",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-system-software",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-012",
+      "prompt": "여러 응용이 각 프린터 제어를 직접 구현하던 시스템에 공통 OS·드라이버 서비스를 도입했다. 기대할 수 있는 변화는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모든 응용이 반드시 커널의 일부가 된다.",
+          "correct": false,
+          "explanation": "서비스 이용과 커널 내부 구성은 다른 관계다."
+        },
+        {
+          "id": "o2",
+          "text": "장치별 코드 중복을 줄이고 공통 접근을 관리할 수 있다.",
+          "correct": true,
+          "explanation": "공통 기반이 장치 차이를 담당해 응용의 반복 구현을 줄인다."
+        },
+        {
+          "id": "o3",
+          "text": "사용자 문서의 내용이 자동으로 정확해진다.",
+          "correct": false,
+          "explanation": "공통 실행 기반은 문서 내용의 타당성을 판정하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "컴파일러와 DBMS의 기능이 완전히 같아진다.",
+          "correct": false,
+          "explanation": "기반을 공유해도 번역과 데이터 관리의 책임은 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-system-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "공통 기반은 여러 프로그램의 자원 접근을 일관되게 관리하고 개발 중복을 줄인다. 응용의 고유 기능과 결과의 정확성 검증은 여전히 별도 책임이다.",
+      "memoryTip": "공통화는 중복을 줄임",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-system-software",
+      "learningObjectiveIndices": [
+        0,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-013",
+      "prompt": "분석 앱이 CPU를 독점해 채팅 입력이 처리되지 않는다. 운영체제가 조정해야 할 대상은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "보고서 문장의 논리",
+          "correct": false,
+          "explanation": "분석 내용의 논리는 응용과 사용자가 검토한다."
+        },
+        {
+          "id": "o2",
+          "text": "사진의 색상 대비",
+          "correct": false,
+          "explanation": "이미지 표현 설정이며 CPU 배분 정책이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "CSV의 열 이름 철자",
+          "correct": false,
+          "explanation": "입력 데이터의 스키마 문제다."
+        },
+        {
+          "id": "o4",
+          "text": "프로세스의 CPU 사용 차례",
+          "correct": true,
+          "explanation": "프로세스 스케줄링은 실행할 작업과 CPU 시간을 배분한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-os"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "상황 적용",
+      "review": "CPU 같은 제한 자원을 여러 프로세스가 함께 필요로 한다. 운영체제는 차례와 허용 범위를 정해 작업이 공존하게 한다.",
+      "memoryTip": "CPU 차례는 OS",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-os",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-014",
+      "prompt": "'앱에 작업 공간 제공→다른 앱 주소 접근 차단→결과 파일 보관'의 관리 대상을 순서대로 고르면?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "메모리→메모리 보호→저장장치",
+          "correct": true,
+          "explanation": "작업 공간과 주소 경계는 메모리, 지속 파일은 저장 관리다."
+        },
+        {
+          "id": "o2",
+          "text": "CPU→파일 이름→추천 알고리즘",
+          "correct": false,
+          "explanation": "메모리 배정과 접근 차단을 CPU 차례로 볼 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "저장장치→그래프 색→CPU",
+          "correct": false,
+          "explanation": "그래프 색은 다른 앱의 주소 접근을 막지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "사용자 인터페이스→하드웨어 제조→모델 평가",
+          "correct": false,
+          "explanation": "실행 자원 관리 사례와 대응하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-os"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "특징 구분",
+      "review": "관리 대상이 시간인지, 주소 공간인지, 지속 파일인지 확인한다. 한 앱의 실행에도 프로세스·메모리·저장 관리가 함께 필요하다.",
+      "memoryTip": "시간·공간·지속 데이터",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-os",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-015",
+      "prompt": "파일 읽기와 결과 저장은 모두 성공했다. 이 사실만으로 보장되지 않는 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "결과 파일을 저장하는 작업이 완료되었다.",
+          "correct": false,
+          "explanation": "문제에서 결과 저장 성공을 명시했다."
+        },
+        {
+          "id": "o2",
+          "text": "분석 표본이 전체 대상을 대표한다.",
+          "correct": true,
+          "explanation": "자원 접근 성공은 표본 대표성을 검증하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "추천 모델이 사용자에게 유용하다.",
+          "correct": true,
+          "explanation": "모델 성과는 적절한 지표와 실험으로 확인해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "운영체제가 해당 파일 접근을 처리했다.",
+          "correct": false,
+          "explanation": "읽기·저장이 성공했다면 해당 접근 처리는 수행되었다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-os"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "운영체제는 자원을 제공하고 접근을 관리한다. 응용 결과의 과학적 타당성·사용자 효과까지 자동 보장하지 않는다.",
+      "memoryTip": "저장 성공 ≠ 분석 성공",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-os",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-016",
+      "prompt": "한 앱에 300MB, 다른 앱에 200MB를 배정하고 CPU 차례를 나눈 뒤 결과를 파일로 저장했다. 이를 올바르게 요약한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "각 앱이 동시에 하나의 CPU 코어를 독점했다.",
+          "correct": false,
+          "explanation": "하나의 코어는 시간을 나누어 작업을 수행할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "배정된 메모리만큼 분석 결과의 정확도가 정해진다.",
+          "correct": false,
+          "explanation": "메모리 용량은 결과 정확도의 직접적인 기준이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "메모리·프로세스·저장 관리가 함께 작동했다.",
+          "correct": true,
+          "explanation": "공간 배정, CPU 배분, 지속 보관을 각각 수행한 사례다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 작업은 파일 확장자 관리 하나로 설명된다.",
+          "correct": false,
+          "explanation": "확장자는 CPU 시간과 메모리 공간을 배분하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-os"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "운영체제는 CPU 시간과 메모리 공간, 저장장치 사용을 조정한다. 자원을 잘 관리하는 것과 응용의 분석 결과가 맞는 것은 구분한다.",
+      "memoryTip": "세 관리가 함께 작동",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-os",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-017",
+      "prompt": "사용자가 폴더 아이콘을 눌러 파일 목록을 보는 장면이 직접 보여 주는 운영체제 역할은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "사용자 인터페이스 제공",
+          "correct": true,
+          "explanation": "요청을 입력하고 결과를 확인하는 접점을 제공한다."
+        },
+        {
+          "id": "o2",
+          "text": "통계 가설 자동 검증",
+          "correct": false,
+          "explanation": "폴더 화면은 통계 가설의 타당성을 판단하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "CPU 물리 코어 증설",
+          "correct": false,
+          "explanation": "인터페이스 제공은 물리 부품을 늘리는 작업이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "데이터의 대표성 확보",
+          "correct": false,
+          "explanation": "파일 목록만으로 수집 표본의 대표성을 확인할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-os-roles"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "특징 구분",
+      "review": "운영체제는 성능 향상·자원 관리·자원 보호·사용자 인터페이스를 제공한다. 요청을 표현하고 결과를 보는 장면은 인터페이스 역할에 해당한다.",
+      "memoryTip": "접점은 UI",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-os-roles",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-018",
+      "prompt": "A에 메모리 200MB를 주고 B의 영역에 쓰려는 요청은 거부했다. 두 행동의 역할은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "성능 향상→프로그램 번역",
+          "correct": false,
+          "explanation": "코드 번역에 관한 행동이 없다."
+        },
+        {
+          "id": "o2",
+          "text": "자원 관리→자원 보호",
+          "correct": true,
+          "explanation": "배정은 관리, 허용 범위 밖 접근 차단은 보호다."
+        },
+        {
+          "id": "o3",
+          "text": "자원 보호→사용자 인터페이스",
+          "correct": false,
+          "explanation": "용량 배정은 보호 판정이 아니며 접근 거부는 보호다."
+        },
+        {
+          "id": "o4",
+          "text": "사용자 인터페이스→성능 향상",
+          "correct": false,
+          "explanation": "화면 입력이나 처리 효율을 직접 설명한 사례가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-os-roles"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "비교 분석",
+      "review": "자원 관리는 누구에게 얼마를 언제 줄지 정한다. 자원 보호는 배정된 경계를 벗어나는 접근을 막는다.",
+      "memoryTip": "배정은 관리, 차단은 보호",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-os-roles",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-019",
+      "prompt": "긴 계산보다 사용자 입력을 먼저 처리하도록 정책을 바꿨다. 가능한 결과를 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모든 작업의 완료 시간이 반드시 줄어든다.",
+          "correct": false,
+          "explanation": "응답성과 처리 효율 사이에는 절충이 있을 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "보호 검사 비용이 존재할 수 없다.",
+          "correct": false,
+          "explanation": "권한 검사와 작업 전환에도 비용이 든다."
+        },
+        {
+          "id": "o3",
+          "text": "클릭에 대한 응답 시간이 짧아질 수 있다.",
+          "correct": true,
+          "explanation": "대화형 작업에 CPU를 먼저 주면 초기 반응이 빨라질 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "긴 계산의 완료는 오히려 늦어질 수 있다.",
+          "correct": true,
+          "explanation": "CPU를 양보하는 만큼 완료 시각이 뒤로 갈 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-os-roles"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "성능은 처리량과 응답 시간 등 여러 지표로 본다. 한 목표를 개선할 때 다른 작업의 완료 시간이나 전환 비용이 늘 수 있다.",
+      "memoryTip": "빠른 반응과 빠른 완료는 다름",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-os-roles",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-020",
+      "prompt": "인쇄 대기 중 다른 앱을 실행하고, 무단 파일 쓰기는 거부하며, 화면에 실패 안내를 표시했다. 역할 연결이 맞는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "장치 제조·데이터 분석·문서 번역",
+          "correct": false,
+          "explanation": "장치 제조나 문서 내용 번역의 사례가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "보호·보호·보호만 수행",
+          "correct": false,
+          "explanation": "다른 앱 실행은 배분·효율, 화면 안내는 UI와도 연결된다."
+        },
+        {
+          "id": "o3",
+          "text": "메모리 확장·프로그램 설치·파일 압축",
+          "correct": false,
+          "explanation": "공간 확장이나 설치·압축은 제시되지 않았다."
+        },
+        {
+          "id": "o4",
+          "text": "자원 활용 효율 향상·보호·인터페이스 제공",
+          "correct": true,
+          "explanation": "기다리는 자원의 틈을 활용하고 권한을 지키며 결과를 표시했다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-os-roles"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "한 장면에 운영체제의 여러 역할이 함께 나타날 수 있다. 배분·경계·효율·접점이라는 목적별로 각 행동을 나누어 판단한다.",
+      "memoryTip": "행동별 역할 판정",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-os-roles",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-021",
+      "prompt": "파일 삭제 버튼의 그림과 실제 파일 접근·권한 관리를 각각 담당하는 부분은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "데이터 본문과 그래프 색상",
+          "correct": false,
+          "explanation": "입력 내용이나 표현 색은 핵심 자원 관리자가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "UI와 커널",
+          "correct": true,
+          "explanation": "UI는 명령의 접점이고 커널은 핵심 자원 관리를 수행한다."
+        },
+        {
+          "id": "o3",
+          "text": "커널과 파일 확장자",
+          "correct": false,
+          "explanation": "파일 확장자가 권한 검사를 실행하지는 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "CPU와 모니터 케이블",
+          "correct": false,
+          "explanation": "물리 부품과 연결선은 소프트웨어 책임 구분이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-kernel"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            19
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "비교 분석",
+      "review": "커널은 운영체제 핵심 기능이고 UI는 사용자가 명령과 결과를 접하는 부분이다. 화면 버튼 자체가 저장 블록과 접근 권한을 관리하지는 않는다.",
+      "memoryTip": "표현은 UI, 관리는 커널",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-kernel",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-022",
+      "prompt": "사용자가 파일을 여는 명령을 내리고 처리 결과를 받는다. 강의 계층도에서 방향 설명이 맞는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "UI를 지나면 결과를 반환할 수 없다.",
+          "correct": false,
+          "explanation": "성공·실패 결과는 인터페이스를 통해 확인할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "사용자의 결과가 먼저 커널 요청을 생성한다.",
+          "correct": false,
+          "explanation": "실제 요청을 처리한 뒤 그에 대한 결과를 돌려준다."
+        },
+        {
+          "id": "o3",
+          "text": "요청은 사용자→UI→커널, 결과는 커널→UI→사용자다.",
+          "correct": true,
+          "explanation": "명령과 처리 결과는 서로 반대 방향으로 전달된다."
+        },
+        {
+          "id": "o4",
+          "text": "요청과 결과 모두 커널→사용자 방향뿐이다.",
+          "correct": false,
+          "explanation": "사용자의 요청이 핵심 기능으로 전달되는 과정도 필요하다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-kernel"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "순서·절차",
+      "review": "계층도의 화살표는 전달 대상과 방향을 나타낸다. 요청을 내려 보내는 흐름과 처리 결과를 돌려주는 흐름을 분리해서 읽는다.",
+      "memoryTip": "요청은 내려가고 결과는 올라옴",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-kernel",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-023",
+      "prompt": "그래픽 파일 탐색기 대신 문자 명령으로 같은 파일을 관리했다. 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "핵심 자원 관리와 권한 검사의 필요는 남는다.",
+          "correct": true,
+          "explanation": "접점이 달라도 실제 파일 접근을 관리해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "문자 명령에서는 커널이 필요 없다.",
+          "correct": false,
+          "explanation": "문자 인터페이스도 운영체제 서비스를 요청한다."
+        },
+        {
+          "id": "o3",
+          "text": "화면이 달라졌으므로 반드시 운영체제 핵심을 전부 교체했다.",
+          "correct": false,
+          "explanation": "UI 변경만으로 커널 전체 교체를 추론할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "사용자와 상호작용하는 방식이 바뀌었다.",
+          "correct": true,
+          "explanation": "아이콘과 문자 명령은 서로 다른 UI 방식이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-kernel"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "UI와 핵심 관리 기능은 책임이 다르다. 같은 서비스에 그래픽·문자 등 여러 인터페이스를 둘 수 있다.",
+      "memoryTip": "UI 변경 ≠ 커널 교체",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-kernel",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-024",
+      "prompt": "삭제 버튼은 보이지만 요청 결과는 '접근 거부'다. 이 상황을 가장 잘 설명한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "UI가 요청을 전달했지만 핵심 관리 단계에서 권한 때문에 거부될 수 있다.",
+          "correct": true,
+          "explanation": "버튼 존재가 해당 사용자의 실행 권한을 보장하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "버튼이 보이면 반드시 삭제가 완료되어야 한다.",
+          "correct": false,
+          "explanation": "화면 제공과 실제 요청 성공은 별도다."
+        },
+        {
+          "id": "o3",
+          "text": "커널은 성공 결과만 반환한다.",
+          "correct": false,
+          "explanation": "서비스 요청은 권한·자원 상태에 따라 실패할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "UI 자체가 물리 저장장치이므로 커널은 관계없다.",
+          "correct": false,
+          "explanation": "UI는 사용자 접점이지 데이터 저장 하드웨어가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-kernel"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            19
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "사용자의 명령은 UI를 거쳐 운영체제 핵심 기능으로 전달된다. 커널은 접근 조건을 검사하고 성공 또는 실패를 결과로 돌려줄 수 있다.",
+      "memoryTip": "버튼은 권한 보증서가 아님",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-kernel",
+      "learningObjectiveIndices": [
+        0,
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-025",
+      "prompt": "응용이 임의의 디스크 영역에 직접 쓰지 않고 커널에 파일 쓰기를 요청하게 하는 주된 이유는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "CPU를 응용마다 물리적으로 새로 만들기 위해",
+          "correct": false,
+          "explanation": "하나의 CPU 자원을 관리하며 사용할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "파일명을 항상 짧게 만들기 위해",
+          "correct": false,
+          "explanation": "이름 길이 제한과 직접 접근 통제는 별개다."
+        },
+        {
+          "id": "o3",
+          "text": "공유 자원과 접근 권한을 통제하기 위해",
+          "correct": true,
+          "explanation": "커널이 요청을 검사하여 다른 작업과 시스템을 보호한다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 파일을 그림 파일로 바꾸기 위해",
+          "correct": false,
+          "explanation": "시스템 호출의 목적은 파일 형식 통일이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-system-call"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "시스템 호출은 응용이 커널 서비스를 요청하는 통제된 경계다. 직접 하드웨어 접근을 제한하고 요청의 권한과 조건을 검사할 수 있게 한다.",
+      "memoryTip": "직접 접근 대신 요청",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-system-call",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-026",
+      "prompt": "파일 쓰기 시스템 호출의 일반적인 흐름으로 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "결과 반환→무조건 쓰기→권한 검사",
+          "correct": false,
+          "explanation": "검사 전에 무단 쓰기를 완료하면 보호 목적을 달성하기 어렵다."
+        },
+        {
+          "id": "o2",
+          "text": "권한 제거→전체 메모리 공개→프로세스 종료",
+          "correct": false,
+          "explanation": "정상적인 서비스 요청의 흐름이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "파일명 변경→CPU 제거→모니터 출력",
+          "correct": false,
+          "explanation": "파일 접근 요청 처리와 관련 없는 작업이다."
+        },
+        {
+          "id": "o4",
+          "text": "요청→권한·조건 검사→수행 또는 거부→결과 반환",
+          "correct": true,
+          "explanation": "허용되지 않는 요청은 실제 쓰기 전에 거부할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-system-call"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "순서·절차",
+      "review": "커널 서비스 요청은 수행 여부를 판단한 뒤 결과를 반환한다. 호출했다는 사실만으로 요청이 반드시 성공하지는 않는다.",
+      "memoryTip": "요청·검사·처리·반환",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-system-call",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-027",
+      "prompt": "일반 계산과 커널 서비스 요청을 구분한 설명 중 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "이미 메모리에 있는 두 수를 더하는 계산은 그 자체로 파일 읽기 요청이 아니다.",
+          "correct": true,
+          "explanation": "산술 처리와 외부 자원 접근은 다른 동작이다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 열기 API는 내부에서 운영체제 서비스를 요청할 수 있다.",
+          "correct": true,
+          "explanation": "상위 함수가 시스템 호출을 감싸서 제공할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "프로그램의 모든 함수는 반드시 커널 경계를 넘는다.",
+          "correct": false,
+          "explanation": "사용자 공간에서 끝나는 계산 함수도 있다."
+        },
+        {
+          "id": "o4",
+          "text": "드라이버와 시스템 호출은 이름만 다른 같은 역할이다.",
+          "correct": false,
+          "explanation": "시스템 호출은 요청 경계, 드라이버는 장치 상호작용을 맡는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-system-call"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "특징 구분",
+      "review": "일반 함수 호출이 언제나 시스템 호출인 것은 아니다. 커널이 관리하는 파일·장치 등 서비스를 요청하는지 확인한다.",
+      "memoryTip": "함수 호출 모두가 시스템 호출은 아님",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-system-call",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-028",
+      "prompt": "파일 읽기 요청은 거부됐지만, 이미 읽어 둔 배열의 합계 계산은 정상 동작했다. 가장 타당한 진단은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일 확장자가 시스템 호출을 대신 수행했다.",
+          "correct": false,
+          "explanation": "확장자는 이름의 일부이며 실행 인터페이스가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 접근 권한과 메모리 안의 산술 계산은 다른 동작이다.",
+          "correct": true,
+          "explanation": "커널 서비스의 실패가 모든 사용자 공간 계산 실패를 뜻하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "합계 계산이 되면 모든 파일 접근 권한도 있다.",
+          "correct": false,
+          "explanation": "산술 계산 가능 여부로 파일 권한을 판단할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "파일 읽기 거부는 CPU가 없다는 증거다.",
+          "correct": false,
+          "explanation": "CPU가 없다면 제시된 계산 실행도 불가능하다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-system-call"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "응용 내부 계산은 주어진 데이터를 처리하고, 파일 읽기는 커널이 관리하는 자원에 접근한다. 서비스 요청 실패의 원인을 해당 권한·경로 등에서 찾는다.",
+      "memoryTip": "계산 가능과 접근 가능 분리",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-system-call",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-029",
+      "prompt": "같은 문서를 서로 다른 제조사의 프린터로 출력할 때 장치별 제어 차이를 주로 맡는 소프트웨어는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "문서의 파일 확장자",
+          "correct": false,
+          "explanation": "파일 형식을 암시하는 이름 요소다."
+        },
+        {
+          "id": "o2",
+          "text": "분석용 평균 계산 함수",
+          "correct": false,
+          "explanation": "입력 수치의 평균을 계산하는 응용 기능이다."
+        },
+        {
+          "id": "o3",
+          "text": "프린터의 종이",
+          "correct": false,
+          "explanation": "실제 출력 매체이며 소프트웨어가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "각 장치의 드라이버",
+          "correct": true,
+          "explanation": "운영체제의 요청을 장치에 맞는 명령과 상호작용으로 연결한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-driver"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            21,
+            22
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "드라이버는 특정 하드웨어와 운영체제 사이의 상호작용을 담당한다. 응용이 모든 장치의 상세 제어를 직접 구현하는 부담을 줄인다.",
+      "memoryTip": "장치별 차이는 드라이버",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-driver",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-030",
+      "prompt": "인쇄를 요청하고 완료를 알게 되는 흐름이 맞는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "응용·OS의 요청→드라이버의 장치 제어→완료 사건을 OS에 알림",
+          "correct": true,
+          "explanation": "요청은 장치 쪽으로, 완료 정보는 관리 쪽으로 전달된다."
+        },
+        {
+          "id": "o2",
+          "text": "장치 완료→사용자 요청→출력 시작",
+          "correct": false,
+          "explanation": "완료 알림은 요청된 작업이 끝난 뒤의 사건이다."
+        },
+        {
+          "id": "o3",
+          "text": "문서 확장자→PCB 삭제→파일 본문 소멸",
+          "correct": false,
+          "explanation": "인쇄 완료 알림의 흐름이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "드라이버→응용의 모든 분석 알고리즘 결정",
+          "correct": false,
+          "explanation": "드라이버는 사용자 분석 의미를 결정하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-driver"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            21,
+            22
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "순서·절차",
+      "review": "인쇄 명령 전달과 장치 완료 통지는 서로 다른 방향의 흐름이다. 드라이버는 장치 제어를 수행하고 완료·상태를 운영체제에 알리는 데 관여한다.",
+      "memoryTip": "요청과 완료 방향 구별",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-driver",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-031",
+      "prompt": "프린터 드라이버에 대한 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "드라이버는 사용자가 편집할 문장의 결론을 결정한다.",
+          "correct": false,
+          "explanation": "응용의 의미적 작업을 대신하는 도구가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "드라이버가 정상이어도 문서 내용의 오류는 남을 수 있다.",
+          "correct": true,
+          "explanation": "장치 제어와 사용자 문서의 내용 검증은 별도다."
+        },
+        {
+          "id": "o3",
+          "text": "장치가 바뀌면 호환되는 드라이버를 확인할 필요가 있다.",
+          "correct": true,
+          "explanation": "프린터별 명령과 지원 방식에 차이가 있을 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "드라이버가 모든 응용의 CPU 배분 정책을 대신한다.",
+          "correct": false,
+          "explanation": "전체 프로세스 스케줄링은 운영체제의 책임이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-driver"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            21,
+            22
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "비교 분석",
+      "review": "응용은 사용자 목적을 수행하고 운영체제는 자원을 관리한다. 드라이버는 특정 장치 제어라는 책임을 맡는다.",
+      "memoryTip": "내용·자원·장치 분리",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-driver",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-032",
+      "prompt": "문서 화면과 파일 저장은 정상인데 새 프린터만 출력되지 않는다. 우선 점검할 항목은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일 탐색기 아이콘 색",
+          "correct": false,
+          "explanation": "표현 색은 장치 통신을 복구하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 프로그램의 설치 파일 일괄 제거",
+          "correct": false,
+          "explanation": "정상 기능까지 제거할 근거가 없다."
+        },
+        {
+          "id": "o3",
+          "text": "장치 연결 상태와 해당 프린터용 드라이버",
+          "correct": true,
+          "explanation": "문서 처리 후 장치 접근 단계의 조건을 먼저 확인한다."
+        },
+        {
+          "id": "o4",
+          "text": "평균 계산의 분모",
+          "correct": false,
+          "explanation": "통계 계산이 아니라 장치 출력 단계의 장애다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-driver"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            21,
+            22
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "장치 사용 실패는 응용→운영체제→드라이버→장치 흐름에서 실패 지점을 찾는다. 한 단계가 정상이라는 이유로 다음 단계의 정상까지 보장하지 않는다.",
+      "memoryTip": "정상 단계 다음을 확인",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-driver",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-033",
+      "prompt": "커널과 사용자 공간 도구를 구분할 때 가장 정확한 연결은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Linux는 커널, GNU는 여러 사용자 도구를 제공하는 프로젝트다.",
+          "correct": true,
+          "explanation": "커널과 셸·컴파일러 같은 도구는 맡는 역할과 범위가 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "GNU는 CPU의 물리 회로, Linux는 문서 파일이다.",
+          "correct": false,
+          "explanation": "둘 다 그런 물리 부품이나 사용자 문서가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "Linux와 GNU는 언제나 같은 단일 프로그램이다.",
+          "correct": false,
+          "explanation": "함께 쓰일 수 있지만 같은 이름의 한 프로그램은 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "GNU는 모든 파일 시스템의 확장자다.",
+          "correct": false,
+          "explanation": "GNU는 자유 소프트웨어 프로젝트의 이름이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-unix-linux-gnu"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            24,
+            25,
+            28,
+            29
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "특징 구분",
+      "review": "Linux 커널과 GNU 도구, 이를 묶은 배포판 전체를 나누어 이해한다. 함께 사용된다는 사실은 서로 같은 구성요소라는 뜻이 아니다.",
+      "memoryTip": "커널·도구·배포판 분리",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-unix-linux-gnu",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-034",
+      "prompt": "두 운영체제가 UNIX 방식의 인터페이스와 사용 경험을 공유한다. 여기서 바로 결론낼 수 없는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "출처를 확인해 실제 계보를 따로 조사할 필요가 있다는 것",
+          "correct": false,
+          "explanation": "코드 계보는 역사·구성 자료로 확인해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "한쪽이 다른 쪽의 소스코드에서 직접 파생됐다는 것",
+          "correct": true,
+          "explanation": "호환성이나 설계 영향만으로 직접 코드 계보를 확정할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "기능이나 사용 방식에 공통점이 있을 수 있다는 것",
+          "correct": false,
+          "explanation": "비슷한 인터페이스는 공통 사용 방식을 제공할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "프로그램을 사용할 때 유사한 개념을 접할 수 있다는 것",
+          "correct": false,
+          "explanation": "파일·프로세스 등 공통 개념이 있을 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-unix-linux-gnu"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            24,
+            25,
+            28,
+            29
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "기능적 호환과 코드의 직접 파생은 다른 관계다. 닮았다는 사실만으로 소스 계보·라이선스까지 같다고 단정하지 않는다.",
+      "memoryTip": "호환 ≠ 직접 파생",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-unix-linux-gnu",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-035",
+      "prompt": "강의의 계보 설명에 적용할 보정으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "GNU 도구를 쓰면 커널 이름도 항상 GNU가 된다.",
+          "correct": false,
+          "explanation": "사용자 도구의 제공자와 커널 이름은 별개다."
+        },
+        {
+          "id": "o2",
+          "text": "UNIX 계열의 영향은 모든 제품의 동일한 라이선스를 뜻한다.",
+          "correct": false,
+          "explanation": "영향 관계와 라이선스 조건은 구분해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "Linux를 FreeBSD 기반 커널이라고 외우지 않는다.",
+          "correct": true,
+          "explanation": "자료의 해당 표현은 부정확하므로 보정해서 학습한다."
+        },
+        {
+          "id": "o4",
+          "text": "macOS를 FreeBSD 하나의 단순 변형으로만 설명하지 않는다.",
+          "correct": true,
+          "explanation": "Darwin/XNU는 Mach·BSD 요소 등을 결합한 맥락이 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-unix-linux-gnu"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            24,
+            25,
+            28,
+            29
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "원자료의 단순화된 계보를 그대로 확대하지 않는다. Linux·GNU·Darwin/XNU는 각 구성과 역할을 구분하고 자료의 보정 사항을 함께 기억한다.",
+      "memoryTip": "그림의 단순화는 보정",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-unix-linux-gnu",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-036",
+      "prompt": "한 배포판에서 Linux 커널과 GNU 컴파일러·셸을 함께 사용한다. 시스템 구성을 설명한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "GNU 컴파일러가 있으므로 Linux 커널은 FreeBSD 코드다.",
+          "correct": false,
+          "explanation": "도구의 선택만으로 커널 소스 계보를 정할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "셸을 바꾸면 반드시 커널의 코드 계보도 바뀐다.",
+          "correct": false,
+          "explanation": "사용자 도구 교체와 커널 계보는 다른 문제다."
+        },
+        {
+          "id": "o3",
+          "text": "프로그램 하나만 설치되어 모든 기능을 맡는다.",
+          "correct": false,
+          "explanation": "커널과 여러 도구의 조합으로 설명된 상황이다."
+        },
+        {
+          "id": "o4",
+          "text": "커널과 사용자 도구가 결합해 실행 환경을 구성한다.",
+          "correct": true,
+          "explanation": "서로 다른 구성요소가 협력하며 배포판 전체는 커널 하나보다 넓다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-unix-linux-gnu"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            24,
+            25,
+            28,
+            29
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "배포판은 커널과 사용자 공간 도구 등을 묶어 제공할 수 있다. 어떤 도구와 함께 쓰였는지와 커널의 출처·계보는 따로 판단한다.",
+      "memoryTip": "결합과 계보를 구분",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-unix-linux-gnu",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-037",
+      "prompt": "디스크에 저장된 분석기를 열지 않은 상태와, 열어 계산하는 상태의 차이는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "데이터가 많거나 적은 차이뿐이다.",
+          "correct": false,
+          "explanation": "파일 크기와 실행 여부는 별개다."
+        },
+        {
+          "id": "o2",
+          "text": "저장된 프로그램과 실행 중인 프로세스의 차이다.",
+          "correct": true,
+          "explanation": "실행 인스턴스는 CPU·메모리와 관리 상태를 갖는다."
+        },
+        {
+          "id": "o3",
+          "text": "원본 파일이 자동으로 하드웨어가 된 차이다.",
+          "correct": false,
+          "explanation": "실행해도 프로그램이 물리 장치로 바뀌지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "확장자가 있거나 없는 차이뿐이다.",
+          "correct": false,
+          "explanation": "프로세스 여부는 확장자가 아니라 실행 상태로 판단한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-process"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            15,
+            32,
+            33
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "비교 분석",
+      "review": "프로그램은 저장된 명령의 집합이고 프로세스는 그 프로그램의 실행 인스턴스다. 실행 여부를 파일의 존재나 이름만으로 판단하지 않는다.",
+      "memoryTip": "프로그램은 정적, 프로세스는 실행",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-process",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-038",
+      "prompt": "분석기를 실행해 작업을 마친 뒤 정상 종료했다. 자원 흐름으로 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "종료→CPU 할당→최초 실행",
+          "correct": false,
+          "explanation": "실행 인스턴스는 생성 후 작업하고 종료한다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 확장자 변경→모든 작업 자동 종료",
+          "correct": false,
+          "explanation": "확장자 변경이 프로세스 생명주기를 뜻하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "실행 인스턴스 생성→자원 사용→자원 정리",
+          "correct": true,
+          "explanation": "생성된 프로세스가 CPU·메모리를 사용하고 종료 시 회수된다."
+        },
+        {
+          "id": "o4",
+          "text": "설치 파일 삭제→모니터 제조→데이터 복제",
+          "correct": false,
+          "explanation": "일반적인 프로세스 실행 흐름이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-process"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            15,
+            32,
+            33
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "순서·절차",
+      "review": "운영체제는 생성된 프로세스를 관리하고 실행 자원을 배분한다. 종료 시 실행 자원을 정리하는 일과 저장된 프로그램 파일을 제거하는 일은 다르다.",
+      "memoryTip": "생성·사용·정리",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-process",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-039",
+      "prompt": "같은 분석기를 두 번 실행해 서로 다른 CSV를 처리했다. 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "입력과 진행 상태는 두 실행에서 다를 수 있다.",
+          "correct": true,
+          "explanation": "같은 코드라도 데이터와 계산 진행은 독립적일 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "하나를 종료하면 설치 파일도 반드시 없어진다.",
+          "correct": false,
+          "explanation": "프로세스 종료는 프로그램 삭제가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "같은 프로그램이면 두 실행의 CPU 진행 상태도 항상 같다.",
+          "correct": false,
+          "explanation": "시작 시각·입력·배분에 따라 진행 상태가 달라질 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "같은 프로그램에서 별도 실행 인스턴스가 생길 수 있다.",
+          "correct": true,
+          "explanation": "실행별로 프로세스를 구분할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-process"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            15,
+            32,
+            33
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "프로세스는 프로그램의 각 실행을 나타낸다. 동일한 코드라도 입력·현재 실행 위치·관리 정보는 인스턴스별로 구분된다.",
+      "memoryTip": "같은 코드, 다른 실행",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-process",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-040",
+      "prompt": "두 분석 창 중 A만 종료했는데 B는 계산을 계속하고 설치된 분석기도 남았다. 적절한 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "별도 실행 인스턴스 A만 끝났고 B와 프로그램 파일은 남았다.",
+          "correct": true,
+          "explanation": "개별 프로세스의 종료와 다른 실행·설치 파일의 존재는 구분된다."
+        },
+        {
+          "id": "o2",
+          "text": "프로그램 파일이 삭제되어 B가 존재할 수 없다.",
+          "correct": false,
+          "explanation": "문제에서 B의 실행과 프로그램 파일의 존재가 확인된다."
+        },
+        {
+          "id": "o3",
+          "text": "A가 종료됐으므로 B는 반드시 같은 입력값을 사용한다.",
+          "correct": false,
+          "explanation": "입력 동일성은 종료 여부로 판단할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "창 개수와 무관하게 프로세스는 언제나 하나뿐이다.",
+          "correct": false,
+          "explanation": "같은 프로그램에 복수 실행 인스턴스가 있을 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-process"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            15,
+            32,
+            33
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "같은 프로그램도 여러 프로세스로 실행할 수 있다. 실행별 관리와 종료를 구분하면 한 창의 종료를 설치 제거로 오해하지 않는다.",
+      "memoryTip": "종료 대상을 실행별로 보기",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-process",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-041",
+      "prompt": "단일 코어가 A와 B를 매우 짧게 번갈아 실행한다. 이 상황의 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작업이 둘이므로 물리 CPU도 반드시 두 개다.",
+          "correct": false,
+          "explanation": "작업 수와 CPU 수가 반드시 일치하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "번갈아 실행하면 두 작업 중 하나는 저장 파일로 바뀐다.",
+          "correct": false,
+          "explanation": "차례가 바뀌어도 실행 인스턴스는 유지될 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "시간을 나누는 동시성이지 같은 순간 두 명령을 실행하는 병렬성은 아니다.",
+          "correct": true,
+          "explanation": "단일 코어는 실행 차례를 빠르게 바꾸어 여러 작업을 진행한다."
+        },
+        {
+          "id": "o4",
+          "text": "A와 B가 같은 순간 각각 단일 코어를 독점한다.",
+          "correct": false,
+          "explanation": "하나의 코어를 두 작업이 동시에 독점할 수는 없다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-time-sharing"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            16,
+            34,
+            38
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "시분할은 CPU 시간을 여러 프로세스에 교대로 배분한다. 동시에 진행되는 느낌과 물리적으로 같은 순간 실행하는 병렬 처리를 구분한다.",
+      "memoryTip": "교대 실행도 동시성",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-time-sharing",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-042",
+      "prompt": "한 프로세스의 남은 CPU 작업은 7ms이고 시간 할당량은 3ms다. 3ms 실행 직후의 일반적인 상태는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작업 완료 상태",
+          "correct": false,
+          "explanation": "할당량 만료와 전체 작업 완료는 다른 사건이다."
+        },
+        {
+          "id": "o2",
+          "text": "프로그램이 설치되지 않은 상태",
+          "correct": false,
+          "explanation": "CPU 차례가 끝난 것이 설치 제거는 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "다음 프로세스의 메모리로 완전히 합쳐진 상태",
+          "correct": false,
+          "explanation": "시분할은 서로 다른 작업의 내용을 합치는 방식이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "4ms가 남은 준비 상태",
+          "correct": true,
+          "explanation": "작업이 남았으므로 차례를 양보하고 다음 실행을 기다린다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-time-sharing"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            16,
+            34,
+            38
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "시간 할당량을 다 써도 일이 남으면 실행에서 준비로 돌아간다. 작업 자체가 끝났을 때 완료로 전이한다.",
+      "memoryTip": "시간 만료와 작업 완료 구분",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-time-sharing",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-043",
+      "prompt": "학습용 가상 상황: A=3ms, B=4ms, 할당량=2ms이며 A부터 교대 실행하고 전환 비용은 0이다. 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "처음 0~2ms에는 A가 실행된다.",
+          "correct": true,
+          "explanation": "첫 차례의 A가 2ms를 사용하고 1ms가 남는다."
+        },
+        {
+          "id": "o2",
+          "text": "2~4ms에는 B가 실행된다.",
+          "correct": true,
+          "explanation": "A가 차례를 양보한 뒤 B가 첫 할당량을 쓴다."
+        },
+        {
+          "id": "o3",
+          "text": "A는 첫 차례에 3ms를 연속으로 모두 쓴다.",
+          "correct": false,
+          "explanation": "할당량 2ms가 먼저 끝나므로 중간에 차례를 넘긴다."
+        },
+        {
+          "id": "o4",
+          "text": "A가 처음 멈추면 남은 1ms는 버려진다.",
+          "correct": false,
+          "explanation": "프로세스 상태를 보관한 뒤 다음 차례에 이어 실행한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-time-sharing"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            16,
+            34,
+            38
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "코드·결과 해석",
+      "review": "시분할 계산은 남은 작업량과 할당량 중 작은 만큼 실행한다. 실행이 끝나지 않으면 남은 상태로 준비 큐의 다음 차례를 기다린다.",
+      "memoryTip": "min(남은 양, 할당량)",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-time-sharing",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-044",
+      "prompt": "학습용 가상 작업량은 그림과 같다. A부터 2ms씩 교대하고 전환 비용·입출력 대기는 없을 때 완료 시각은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "A=6ms, B=8ms",
+          "correct": false,
+          "explanation": "제시된 전환 비용 0과 총 작업량 7ms에 맞지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "A=5ms, B=7ms",
+          "correct": true,
+          "explanation": "A 0~2, B 2~4, A 4~5, B 5~7 순서다."
+        },
+        {
+          "id": "o3",
+          "text": "A=3ms, B=7ms",
+          "correct": false,
+          "explanation": "A가 처음 3ms를 연속 독점하는 선입 실행 결과다."
+        },
+        {
+          "id": "o4",
+          "text": "A=4ms, B=6ms",
+          "correct": false,
+          "explanation": "각 작업의 실제 CPU 요구량을 모두 채우지 못했다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-time-sharing"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            16,
+            34,
+            38
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "A는 두 번째 차례에서 남은 1ms를 마치므로 5ms에 끝난다. B는 남은 2ms를 이어 실행해 7ms에 끝나며 총 시간은 요구량 합계다.",
+      "memoryTip": "완료 시각은 누적 시간",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-time-sharing",
+      "learningObjectiveIndices": [
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "학습용 가상 CPU 요구량",
+        "xLabel": "프로세스",
+        "yLabel": "CPU 시간(ms)",
+        "labels": [
+          "A",
+          "B"
+        ],
+        "series": [
+          {
+            "name": "필요 시간",
+            "values": [
+              3,
+              4
+            ]
+          }
+        ],
+        "note": "할당량 2ms, A부터 교대, 전환 비용과 입출력 대기는 0"
+      }
+    },
+    {
+      "id": "n12-new-045",
+      "prompt": "CPU를 다른 프로세스에 넘겼다가 이전 작업을 이어 하려면 PCB에 필요한 정보의 성격은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "문서의 맞춤법 정답만",
+          "correct": false,
+          "explanation": "맞춤법 목록은 CPU 실행 재개 상태를 대신하지 못한다."
+        },
+        {
+          "id": "o2",
+          "text": "모니터 케이블의 색만",
+          "correct": false,
+          "explanation": "물리 연결선 색은 실행 인스턴스의 상태가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "프로그램 판매 가격만",
+          "correct": false,
+          "explanation": "가격은 CPU 작업 재개의 관리 정보가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "중단 위치와 자원 등 실행별 관리 정보",
+          "correct": true,
+          "explanation": "다음 실행에서 어디서 이어 갈지와 현재 상태를 관리해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-pcb-states"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "PCB는 프로세스마다 필요한 관리 정보를 담는다. 실행 차례가 바뀌어도 이전 상태를 보관해야 작업을 이어 갈 수 있다.",
+      "memoryTip": "이어 실행할 상태 보관",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-pcb-states",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-046",
+      "prompt": "준비 상태의 A가 CPU를 배정받고, 뒤에 작업을 모두 마쳤다. 두 상태 전이의 원인은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "디스패치로 준비→실행, 작업 종료로 실행→완료",
+          "correct": true,
+          "explanation": "CPU 배정과 전체 작업 종료는 서로 다른 전이 사건이다."
+        },
+        {
+          "id": "o2",
+          "text": "타임아웃으로 준비→실행, 설치로 실행→완료",
+          "correct": false,
+          "explanation": "타임아웃은 미완료 실행 작업이 준비로 돌아가는 원인이다."
+        },
+        {
+          "id": "o3",
+          "text": "파일명 변경으로 준비→실행, 화면 변경으로 완료",
+          "correct": false,
+          "explanation": "파일명·화면 변경은 제시한 상태 전이의 원인이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "삭제로 준비→실행, 메모리 배정으로 항상 완료",
+          "correct": false,
+          "explanation": "작업을 마치지 않고 완료라고 할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-pcb-states"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "순서·절차",
+      "review": "디스패치는 준비 중인 프로세스에 CPU를 주는 일이다. 시간 만료와 작업 종료를 나누어 상태도의 화살표 원인을 읽는다.",
+      "memoryTip": "배정은 실행, 종료는 완료",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-pcb-states",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-047",
+      "prompt": "PCB의 생성과 정리에 대한 설명 중 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "매번 디스패치할 때마다 전혀 새 프로세스로 바뀐다.",
+          "correct": false,
+          "explanation": "기존 실행 상태를 이어 가므로 같은 프로세스로 관리된다."
+        },
+        {
+          "id": "o2",
+          "text": "프로세스가 생성될 때 관리 정보가 마련된다.",
+          "correct": true,
+          "explanation": "실행 인스턴스를 추적할 정보가 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "프로세스 종료 시 관련 관리 정보와 자원을 정리한다.",
+          "correct": true,
+          "explanation": "완료된 실행의 자원은 회수 대상이다."
+        },
+        {
+          "id": "o4",
+          "text": "CPU 차례를 양보할 때마다 설치 파일이 새로 생성된다.",
+          "correct": false,
+          "explanation": "차례 변경은 프로그램 설치 작업이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-pcb-states"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "특징 구분",
+      "review": "PCB는 저장된 프로그램 파일과 다르게 실행별로 관리된다. 교대 실행은 상태 보관과 복원이지 매번 새로운 프로그램 생성이 아니다.",
+      "memoryTip": "생성 시 준비, 종료 시 정리",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-pcb-states",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-048",
+      "prompt": "A가 2ms 실행 후 시간 만료로 기다리다가 다시 CPU를 받았다. PCB와 상태의 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "준비로 돌아가면 설치 파일을 PCB로 바꾼다.",
+          "correct": false,
+          "explanation": "PCB는 관리 정보이며 설치 파일의 형식 변환이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "다시 실행할 때 항상 최초 명령부터 시작한다.",
+          "correct": false,
+          "explanation": "보관한 실행 상태를 이용해 중단 지점에서 재개할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "A의 상태를 보관하고 실행→준비→실행으로 이어 간다.",
+          "correct": true,
+          "explanation": "작업이 남은 A를 같은 프로세스로 재개한다."
+        },
+        {
+          "id": "o4",
+          "text": "첫 2ms 후 완료 처리해 A의 남은 계산은 없앤다.",
+          "correct": false,
+          "explanation": "시간 만료는 전체 작업 완료를 뜻하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-pcb-states"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "작업 전환에는 현재 실행 상태를 보관하고 다른 상태를 복원하는 관리가 필요하다. 미완료 작업의 시간 만료는 준비 상태로의 이동이며 종료와 다르다.",
+      "memoryTip": "차례가 끝나도 작업은 남음",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-pcb-states",
+      "learningObjectiveIndices": [
+        0,
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-049",
+      "prompt": "저장된 분석 프로그램을 실행할 때 RAM이 필요한 이유는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "실행할 코드와 작업 데이터를 놓을 공간이 필요하기 때문이다.",
+          "correct": true,
+          "explanation": "메모리는 실행 중인 작업의 공간으로 사용된다."
+        },
+        {
+          "id": "o2",
+          "text": "RAM이 파일 확장자 이름만 저장하는 전용 장치이기 때문이다.",
+          "correct": false,
+          "explanation": "메모리는 코드와 데이터 등 실행 내용을 담는다."
+        },
+        {
+          "id": "o3",
+          "text": "디스크의 파일은 실행 전에 반드시 영구 삭제해야 하기 때문이다.",
+          "correct": false,
+          "explanation": "디스크 원본을 지워야만 실행되는 것은 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "운영체제는 메모리를 전혀 사용하지 않기 때문이다.",
+          "correct": false,
+          "explanation": "운영체제도 실행과 관리를 위해 메모리를 사용한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-memory-management"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            41,
+            42,
+            43
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "저장장치의 프로그램 보관과 메모리에서의 실행은 구분된다. 운영체제와 응용 모두 실행에 필요한 메모리 공간을 사용한다.",
+      "memoryTip": "RAM은 실행 작업 공간",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-memory-management",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-050",
+      "prompt": "프로세스에 빈 영역을 주고, 다른 영역 접근을 막고, 종료 후 공간을 돌려받았다. 순서대로 맞는 관리 기능은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "삭제·복제·CPU 제조",
+          "correct": false,
+          "explanation": "프로세스 메모리 관리의 작업과 맞지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "배치·보호·회수",
+          "correct": true,
+          "explanation": "공간 선택, 접근 경계 강제, 사용 후 반환에 대응한다."
+        },
+        {
+          "id": "o3",
+          "text": "압축·인쇄·번역",
+          "correct": false,
+          "explanation": "파일 변환이나 장치 출력·언어 번역의 사례가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "보호·설치·확장자 변경",
+          "correct": false,
+          "explanation": "종료 후 공간 반환은 확장자 변경이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-memory-management"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            41,
+            42,
+            43
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "특징 구분",
+      "review": "메모리 관리자는 공간을 배정하고 접근을 보호하며 사용이 끝난 공간을 회수한다. 각 기능을 행동의 대상과 시점에 연결한다.",
+      "memoryTip": "공간 주기·지키기·돌려받기",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-memory-management",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-051",
+      "prompt": "'새 작업을 넣을 여유 RAM이 없음'과 '다른 프로세스의 주소에 쓰기 시도'의 대응으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "RAM을 늘리면 모든 무단 접근이 허용되어야 한다.",
+          "correct": false,
+          "explanation": "용량 증가가 다른 프로세스 접근 권한을 주지는 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "접근 거부가 나타나면 RAM 총량이 반드시 0이다.",
+          "correct": false,
+          "explanation": "접근 위반은 여유 공간이 있어도 발생할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "첫 문제는 용량 확보·배치 가능성을 확인한다.",
+          "correct": true,
+          "explanation": "남는 작업 공간이 있는지의 문제다."
+        },
+        {
+          "id": "o4",
+          "text": "둘째 문제는 접근 경계와 권한을 확인한다.",
+          "correct": true,
+          "explanation": "공간의 총량보다 허용된 주소 범위가 핵심이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-memory-management"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            41,
+            42,
+            43
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "비교 분석",
+      "review": "메모리 부족과 접근 위반은 원인과 해결 방향이 다르다. 공간의 양과 접근할 수 있는 범위를 각각 점검한다.",
+      "memoryTip": "용량과 권한은 별개",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-memory-management",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-052",
+      "prompt": "학습용 가상 상황: RAM 1,000MB 중 OS 200MB, A 500MB, B 200MB를 사용한다. B 종료 후 새 작업 C 250MB를 넣는 판단은? (빈 영역 결합 가능)",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "B를 종료해도 가용량은 항상 100MB다.",
+          "correct": false,
+          "explanation": "정상 회수된 B의 공간은 다시 사용할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "C가 들어가면 A의 모든 주소를 자유롭게 쓸 수 있다.",
+          "correct": false,
+          "explanation": "배정된 용량과 타 프로세스 접근 권한은 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "OS 공간까지 없애야만 C를 실행할 수 있다.",
+          "correct": false,
+          "explanation": "정상적으로 확보된 300MB만으로 250MB를 배정할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "총 가용량이 300MB가 되어 용량상 가능하다.",
+          "correct": true,
+          "explanation": "기존 빈 공간 100MB에 B의 200MB 회수를 더한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-memory-management"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            41,
+            42,
+            43
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "종료된 프로세스의 메모리를 회수하면 새 작업의 공간을 마련할 수 있다. 총량 계산과 별도로 실제 배치 조건·접근 보호도 확인해야 한다.",
+      "memoryTip": "회수량을 가용량에 더함",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-memory-management",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-053",
+      "prompt": "'디스크에서 필요한 내용을 가져온다 / RAM의 어느 자리에 놓을지 정한다 / 공간을 얻으려고 기존 내용을 내보낸다'의 대응은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "format / print / compile",
+          "correct": false,
+          "explanation": "포맷·인쇄·번역은 제시한 메모리 작업 이름이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "fetch / placement / replacement",
+          "correct": true,
+          "explanation": "가져오기·배치 위치 결정·기존 내용 교체를 각각 뜻한다."
+        },
+        {
+          "id": "o3",
+          "text": "placement / replacement / fetch",
+          "correct": false,
+          "explanation": "위치 선택을 가져오기, 교체를 배치로 연결하면 역할이 뒤바뀐다."
+        },
+        {
+          "id": "o4",
+          "text": "replacement / fetch / placement",
+          "correct": false,
+          "explanation": "기존 내용 교체와 새 내용 가져오기는 다른 작업이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-memory-operations"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            44,
+            45,
+            46
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "특징 구분",
+      "review": "세 작업은 가져올지, 어디에 둘지, 무엇을 내보낼지라는 다른 질문이다. 단어가 비슷한 placement와 replacement를 구분한다.",
+      "memoryTip": "가져오기·자리·교체",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-memory-operations",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-054",
+      "prompt": "필요한 내용을 넣을 빈 RAM 공간이 없다. 학습용 단순 모델에서 필요한 흐름은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "새 내용의 파일명만 바꾸면 RAM 용량이 생긴다.",
+          "correct": false,
+          "explanation": "파일명 변경은 물리 메모리 공간을 확보하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "프로그램 내용을 모두 그래프 색으로 바꾼다.",
+          "correct": false,
+          "explanation": "내용 표현 변경은 메모리 교체 절차가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "기존 내용 일부를 내보낼 대상을 정하고 공간 확보 후 새 내용을 배치한다.",
+          "correct": true,
+          "explanation": "빈 공간이 없다면 교체로 자리를 확보해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "빈 공간이 없어도 기존 내용 위에 무조건 덮어쓴다.",
+          "correct": false,
+          "explanation": "보존·보호 조건 없이 덮어쓰면 실행 상태가 손상될 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-memory-operations"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            44,
+            45,
+            46
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "순서·절차",
+      "review": "가져올 데이터가 있어도 배치할 공간이 없으면 먼저 공간을 마련해야 한다. 교체 대상과 보존 필요를 확인한 뒤 확보한 자리를 사용한다.",
+      "memoryTip": "자리가 없으면 확보부터",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-memory-operations",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-055",
+      "prompt": "강의에서 오래된 내용을 내보내는 교체 예를 보았다. 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "문제에서 특정 규칙을 주면 그 규칙에 따라 대상을 고른다.",
+          "correct": true,
+          "explanation": "알고리즘 가정이 달라지면 선택 결과도 달라질 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "실제 모든 운영체제는 반드시 가장 오래된 내용만 내보낸다.",
+          "correct": false,
+          "explanation": "예시 하나로 보편적인 유일 정책을 확정할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "placement와 replacement는 목적이 완전히 같아 구분할 필요가 없다.",
+          "correct": false,
+          "explanation": "위치 선택과 교체 대상 선택은 서로 다른 역할이다."
+        },
+        {
+          "id": "o4",
+          "text": "그 예는 여러 교체 판단 중 한 방식을 설명한다.",
+          "correct": true,
+          "explanation": "자료의 예시 규칙을 모든 시스템의 유일한 정책으로 확대하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-memory-operations"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            44,
+            45,
+            46
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "메모리 관리의 역할과 구체적인 정책은 구분한다. 계산 문제에서는 제시된 교체 규칙을 확인한 뒤 적용한다.",
+      "memoryTip": "작업과 정책을 분리",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-memory-operations",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-056",
+      "prompt": "학습용 가상 상황: 두 RAM 칸에 X·Y가 있고 '먼저 들어온 X를 내보낸다'는 규칙으로 Z를 넣는다. 맞는 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "X를 교체 대상으로 정하고 확보된 칸에 Z를 배치한다.",
+          "correct": true,
+          "explanation": "교체 대상을 고르는 일과 Z의 위치를 고르는 일을 구분한다."
+        },
+        {
+          "id": "o2",
+          "text": "Z의 이름이 크므로 Y도 반드시 함께 삭제한다.",
+          "correct": false,
+          "explanation": "제시 규칙은 X의 교체이며 이름 크기를 쓰지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "빈 칸이 없으니 fetch·placement 모두 영원히 불가능하다.",
+          "correct": false,
+          "explanation": "교체로 공간을 마련하면 가져와 배치할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "이 예로 모든 컴퓨터의 교체 대상은 X라고 결론낸다.",
+          "correct": false,
+          "explanation": "학습 예시의 값과 규칙은 다른 시스템에 일반화할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-memory-operations"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            44,
+            45,
+            46
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "공간이 부족하면 제시된 정책으로 내보낼 대상을 정한다. 확보한 위치에 새 내용을 가져와 놓되 구체 정책은 문제의 가정에 따른다.",
+      "memoryTip": "정책 확인→교체→배치",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-memory-operations",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-057",
+      "prompt": "프로그램이 보는 주소와 실제 RAM 위치를 매핑해 관리한다는 설명에 해당하는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "문서 맞춤법 검사",
+          "correct": false,
+          "explanation": "문장 표현을 검토하는 응용 기능이다."
+        },
+        {
+          "id": "o2",
+          "text": "프린터 용지 크기",
+          "correct": false,
+          "explanation": "출력 매체의 물리 규격이다."
+        },
+        {
+          "id": "o3",
+          "text": "가상 메모리",
+          "correct": true,
+          "explanation": "프로세스의 가상 주소와 물리 메모리 위치를 분리해 관리한다."
+        },
+        {
+          "id": "o4",
+          "text": "파일 확장자",
+          "correct": false,
+          "explanation": "파일 이름 끝에서 형식을 암시하는 요소다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-virtual-memory"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "가상 메모리는 프로세스에 가상 주소 공간을 제공한다. 가상 주소가 곧 같은 숫자의 RAM 위치라는 뜻은 아니다.",
+      "memoryTip": "가상 주소와 물리 위치 분리",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-virtual-memory",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-058",
+      "prompt": "프로그램 전체보다 지금 필요한 일부를 RAM에 두고 나머지를 저장장치와 관리하는 이유는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "디스크가 언제나 RAM보다 빠르기 때문에",
+          "correct": false,
+          "explanation": "저장장치 접근에는 일반적으로 더 큰 지연이 있다."
+        },
+        {
+          "id": "o2",
+          "text": "가상 주소가 존재하면 저장공간이 무한해지기 때문에",
+          "correct": false,
+          "explanation": "주소 공간·RAM·저장장치에는 각각 한계가 있다."
+        },
+        {
+          "id": "o3",
+          "text": "운영체제가 프로세스별 접근을 포기하기 위해",
+          "correct": false,
+          "explanation": "가상 메모리도 매핑과 보호를 관리해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "한정된 RAM을 쓰면서 더 넓은 작업 공간을 다루기 위해",
+          "correct": true,
+          "explanation": "모든 내용을 동시에 RAM에 유지하지 않아도 필요한 부분을 가져올 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-virtual-memory"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "가상 메모리는 현재 필요한 내용을 RAM에 유지하며 저장장치를 보조적으로 쓸 수 있다. 이는 물리 RAM이 무한히 늘어났다는 뜻이 아니다.",
+      "memoryTip": "필요한 부분을 RAM에",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-virtual-memory",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-059",
+      "prompt": "스왑 공간을 늘렸을 때의 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "메모리 내용을 내보낼 보조 저장 여지가 늘 수 있다.",
+          "correct": true,
+          "explanation": "스왑은 일부 메모리 내용을 보관하는 저장장치 공간이다."
+        },
+        {
+          "id": "o2",
+          "text": "잦은 이동은 처리 지연을 늘릴 수 있다.",
+          "correct": true,
+          "explanation": "RAM과 저장장치 사이의 전송에는 비용이 든다."
+        },
+        {
+          "id": "o3",
+          "text": "물리 RAM 칩의 개수가 자동으로 증가한다.",
+          "correct": false,
+          "explanation": "스왑은 저장장치 공간이지 새 RAM 부품이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 프로그램의 실행 속도가 반드시 빨라진다.",
+          "correct": false,
+          "explanation": "용량 보조와 성능 향상은 같은 보장이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-virtual-memory"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "비교 분석",
+      "review": "스왑은 RAM이 아니라 저장장치의 보조 공간이다. 작업 공간 확보 가능성과 실행 속도는 따로 평가해야 한다.",
+      "memoryTip": "스왑 확대 ≠ RAM 속도",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-virtual-memory",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-060",
+      "prompt": "학습용 가상 시스템의 RAM은 4GB, 스왑은 8GB다. 큰 작업을 실행하는 판단으로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "가상 주소를 쓰면 OS가 메모리를 관리하지 않는다고 본다.",
+          "correct": false,
+          "explanation": "가상 주소를 실제 위치와 연결하는 관리가 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "실행 가능성과 속도는 실제 사용 패턴·매핑·여유량을 확인한다.",
+          "correct": true,
+          "explanation": "단순 합계만으로 주소 공간이나 실행 성능을 보장할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "12GB RAM과 완전히 같은 속도라고 본다.",
+          "correct": false,
+          "explanation": "스왑 접근 비용과 RAM 접근 비용은 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "어떤 크기의 프로그램도 무제한 실행된다고 본다.",
+          "correct": false,
+          "explanation": "RAM·스왑·주소 공간과 다른 자원의 한계가 남는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-virtual-memory"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "RAM과 스왑의 합은 일부 자원 규모를 보여 줄 뿐 가상 메모리의 보편 정의가 아니다. 큰 작업의 성능은 필요한 내용을 얼마나 자주 옮기는지에도 좌우된다.",
+      "memoryTip": "합계만으로 성능 판단 금지",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-virtual-memory",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-061",
+      "prompt": "사용자는 하나의 movie.csv를 보지만 내용은 저장장치 여러 블록에 놓일 수 있다. 이것이 보여 주는 파일의 성격은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "반드시 한 개의 물리 섹터",
+          "correct": false,
+          "explanation": "큰 파일은 여러 할당 단위에 저장될 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "실행 중인 CPU 코어 자체",
+          "correct": false,
+          "explanation": "파일은 저장된 데이터 단위이지 물리 연산 장치가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "한 번 읽으면 반드시 없어지는 임시 신호",
+          "correct": false,
+          "explanation": "저장 파일은 읽기 이후에도 보관될 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "물리 배치를 묶어 다루는 논리적 데이터 단위",
+          "correct": true,
+          "explanation": "파일 시스템이 블록 위치를 관리하므로 사용자는 이름으로 접근한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-file"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            50,
+            51,
+            52,
+            53
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "파일은 데이터를 논리적으로 묶어 이름으로 다루게 한다. 논리적으로 하나라는 사실이 물리적으로 한 위치에 연속 저장됐음을 뜻하지 않는다.",
+      "memoryTip": "논리적 하나, 물리적 여러 곳",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-file",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-062",
+      "prompt": "파일 내용과 파일 시스템의 관리 정보를 구분한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품 제목 목록은 내용이고 파일의 위치·크기 등은 관리 정보다.",
+          "correct": true,
+          "explanation": "사용자가 분석할 값과 이를 찾아 관리하는 정보를 나눈다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 크기만 있으면 작품 제목도 모두 복원된다.",
+          "correct": false,
+          "explanation": "크기 정보는 실제 데이터 내용을 담지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "내용을 수정하면 확장자가 항상 자동 변경된다.",
+          "correct": false,
+          "explanation": "내용 수정과 이름의 확장자 변경은 독립적일 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "관리 정보는 모든 파일 시스템에서 항상 같은 구조다.",
+          "correct": false,
+          "explanation": "파일 시스템별로 메타데이터 구조가 다를 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-file"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            50,
+            51,
+            52,
+            53
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "특징 구분",
+      "review": "파일의 실제 내용, 형식 정보를 담는 헤더, 파일 시스템의 관리 정보를 구분한다. 관리 정보는 내용을 찾고 다루는 데 쓰이며 내용 자체와 같지 않다.",
+      "memoryTip": "내용과 관리 정보 구분",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-file",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-063",
+      "prompt": "report.csv의 이름을 report.jpg로 바꿨다. 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "확장자는 파일 내용의 진위를 항상 완벽히 보장한다.",
+          "correct": false,
+          "explanation": "이름과 내부 형식이 일치하지 않을 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "내부 데이터가 자동으로 JPEG 이미지로 변환되는 것은 아니다.",
+          "correct": true,
+          "explanation": "이름을 바꿔도 원래의 CSV 바이트가 그대로 남을 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "연결 프로그램이 달라져 파일 열기가 실패할 수 있다.",
+          "correct": true,
+          "explanation": "확장자는 어떤 프로그램으로 열지 정하는 단서로 쓰인다."
+        },
+        {
+          "id": "o4",
+          "text": "이름 변경만으로 픽셀 정보가 새로 만들어진다.",
+          "correct": false,
+          "explanation": "실제 형식 변환에는 데이터를 해석해 새 형식으로 저장해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-file"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            50,
+            51,
+            52,
+            53
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "확장자는 형식과 연결 프로그램을 추정하는 단서다. 실제 형식을 바꾸려면 변환 프로그램이 내용을 읽고 목표 형식으로 다시 저장해야 한다.",
+      "memoryTip": "이름 변경 ≠ 형식 변환",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-file",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-064",
+      "prompt": "데이터 파일이 여러 블록에 저장되어 있고 이름만 .xlsx로 바꿨더니 스프레드시트가 읽지 못했다. 알맞은 조치는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "확장자를 더 길게 쓰면 내용도 자동 변환된다고 본다.",
+          "correct": false,
+          "explanation": "이름 길이는 파일 형식 변환 기능이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 위치 정보만으로 모든 데이터 값을 추정한다.",
+          "correct": false,
+          "explanation": "위치 정보는 내용을 찾는 지도이지 값 자체가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "실제 내용의 형식을 확인하고 적절한 도구로 변환한다.",
+          "correct": true,
+          "explanation": "논리 파일 이름만 바꾸면 내부 구조는 변환되지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "블록이 여러 개라는 이유만으로 손상이라고 확정한다.",
+          "correct": false,
+          "explanation": "정상 파일도 여러 블록에 나뉘어 저장될 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-file"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            50,
+            51,
+            52,
+            53
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "파일의 논리적 이름과 물리 저장 위치, 내부 형식은 별개의 속성이다. 읽기 실패를 진단할 때 연결 프로그램과 실제 형식을 확인한다.",
+      "memoryTip": "이름·위치·형식을 따로 확인",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-file",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-065",
+      "prompt": "/자료/영화/목록.csv에서 '자료→영화'가 나타내는 관계는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "디렉터리의 포함 계층",
+          "correct": true,
+          "explanation": "경로는 상위 디렉터리에서 하위 항목을 찾아가는 관계를 표현한다."
+        },
+        {
+          "id": "o2",
+          "text": "디스크 헤드의 실제 이동 거리",
+          "correct": false,
+          "explanation": "논리 경로의 글자 수는 물리 이동 거리가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "CSV 행의 정렬 순서",
+          "correct": false,
+          "explanation": "디렉터리 경로와 파일 안의 행 순서는 별개다."
+        },
+        {
+          "id": "o4",
+          "text": "CPU가 명령을 수행하는 시간",
+          "correct": false,
+          "explanation": "경로는 실행 시간을 나타내지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-directory"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            54
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "특징 구분",
+      "review": "디렉터리는 파일과 하위 디렉터리의 이름·포함 관계를 조직한다. 경로를 따라 대상 이름을 찾는 것과 실제 데이터 블록을 읽는 것은 구분한다.",
+      "memoryTip": "경로는 포함 관계",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-directory",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-066",
+      "prompt": "/A/result.csv와 /B/result.csv가 있다. 두 파일을 구별할 때 필요한 정보는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모니터의 크기만",
+          "correct": false,
+          "explanation": "화면 크기는 파일의 경로를 식별하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "파일명과 디렉터리 경로",
+          "correct": true,
+          "explanation": "이름이 같아도 위치한 디렉터리가 다르면 구분할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "확장자 csv만",
+          "correct": false,
+          "explanation": "두 파일 모두 같은 확장자여서 구별되지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "이름의 글자 수만",
+          "correct": false,
+          "explanation": "같은 파일명이므로 글자 수도 같다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-directory"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            54
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "파일명은 경로의 맥락 안에서 해석한다. 다른 디렉터리에 같은 이름의 파일이 있을 수 있으므로 전체 경로를 확인한다.",
+      "memoryTip": "같은 이름도 경로로 구분",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-directory",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-067",
+      "prompt": "디렉터리의 이름 변경·이동에 대한 설명 중 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "디렉터리 이름을 바꾸면 CSV의 모든 숫자가 자동 수정된다.",
+          "correct": false,
+          "explanation": "경로 이름 변경은 파일 내용 편집이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "폴더를 한 단계 옮기면 CPU 코어도 한 개 추가된다.",
+          "correct": false,
+          "explanation": "논리 구조 변경은 하드웨어 증설이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "사용자가 접근하는 경로가 달라질 수 있다.",
+          "correct": true,
+          "explanation": "이름과 포함 위치가 경로 구성에 반영된다."
+        },
+        {
+          "id": "o4",
+          "text": "논리 계층 변경이 항상 데이터 블록의 연속 재배치를 뜻하지 않는다.",
+          "correct": true,
+          "explanation": "경로 관리와 물리 배치는 다른 수준의 정보다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-directory"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            54
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "디렉터리 변경은 우선 이름과 포함 관계의 변화로 이해한다. 실제 물리 저장 동작은 파일 시스템·이동 조건 등에 따라 다르다.",
+      "memoryTip": "경로 변경과 내용 변경 분리",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-directory",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-068",
+      "prompt": "기존 경로 /수업/원본/data.csv의 '원본' 폴더를 '초안'으로 이름 바꾼 뒤 코드가 파일을 못 찾는다. 적절한 조치는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "data.csv의 숫자값을 모두 0으로 바꾼다.",
+          "correct": false,
+          "explanation": "입력 내용 수정은 잘못된 경로 참조를 해결하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "폴더명이 바뀌었으니 파일 형식도 CSV가 아니라고 단정한다.",
+          "correct": false,
+          "explanation": "폴더 이름은 파일 내부 형식을 자동 변경하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "물리 블록 번호를 파일명에서 글자 수로 계산한다.",
+          "correct": false,
+          "explanation": "파일 위치는 파일 시스템 관리 정보로 찾는다."
+        },
+        {
+          "id": "o4",
+          "text": "코드의 참조 경로를 /수업/초안/data.csv로 확인한다.",
+          "correct": true,
+          "explanation": "논리 경로가 바뀌어 예전 이름으로는 대상을 못 찾을 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-directory"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            54
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "경로는 디렉터리 포함 관계와 이름을 따라 파일을 식별한다. 이름을 바꾸면 기존 참조를 확인하되 내용·형식 손상으로 바로 단정하지 않는다.",
+      "memoryTip": "이름 변경 뒤 참조 경로 확인",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-directory",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-069",
+      "prompt": "새 저장공간을 파일 시스템으로 사용할 수 있게 구조를 준비·초기화하는 작업은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일의 단순 열기",
+          "correct": false,
+          "explanation": "기존 파일을 읽는 것으로 파일 시스템 초기화와 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "포맷팅",
+          "correct": true,
+          "explanation": "파일과 빈 공간을 관리할 파일 시스템 구조를 마련한다."
+        },
+        {
+          "id": "o3",
+          "text": "프로세스 디스패치",
+          "correct": false,
+          "explanation": "준비 중인 작업에 CPU를 배정하는 일이다."
+        },
+        {
+          "id": "o4",
+          "text": "모델의 예측",
+          "correct": false,
+          "explanation": "입력으로 알지 못한 상태를 추정하는 일이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-formatting"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            55
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "포맷은 선택한 저장공간을 파일 시스템으로 준비하는 작업이다. 단순히 파일 하나의 이름이나 형식을 바꾸는 작업과 다르다.",
+      "memoryTip": "포맷은 파일 시스템 준비",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-formatting",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-070",
+      "prompt": "강의의 빠른 포맷이 느린 방식보다 짧게 걸릴 수 있는 주된 이유는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "디스크 용량이 자동으로 0이 되기 때문이다.",
+          "correct": false,
+          "explanation": "관리 초기화가 저장장치의 물리 용량 소멸을 뜻하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 내용의 의미를 더 빨리 이해하기 때문이다.",
+          "correct": false,
+          "explanation": "포맷은 문서 의미 분석이 아니라 저장 구조 초기화다."
+        },
+        {
+          "id": "o3",
+          "text": "관리 정보 중심으로 초기화해 다룰 영역을 줄이기 때문이다.",
+          "correct": true,
+          "explanation": "더 넓은 데이터 영역을 순회하는 방식보다 I/O 범위가 작을 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "RAM을 물리적으로 추가하기 때문이다.",
+          "correct": false,
+          "explanation": "포맷 속도 차이는 RAM 부품 증설로 설명하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-formatting"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            55
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "비교 분석",
+      "review": "빠른 방식은 관리 구조 중심이고 느린 방식은 더 넓은 초기화·검사를 수행할 수 있다. 소요 시간 차이는 처리 영역과 작업 범위에 연결해 이해한다.",
+      "memoryTip": "범위가 다르면 시간도 다름",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-formatting",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-071",
+      "prompt": "빠른 포맷 뒤 예전 파일이 목록에 보이지 않는다. 타당한 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "보이지 않는 사실만으로 모든 바이트의 완전 제거를 증명할 수 없다.",
+          "correct": true,
+          "explanation": "목록과 물리 내용은 구분해서 판단한다."
+        },
+        {
+          "id": "o2",
+          "text": "반드시 모든 파일을 100% 복구할 수 있다.",
+          "correct": false,
+          "explanation": "덮어쓰기와 장치 상태 등에 따라 복구 가능성이 달라진다."
+        },
+        {
+          "id": "o3",
+          "text": "빠른 포맷은 언제나 파일 내용 전부를 안전하게 영구 보존한다.",
+          "correct": false,
+          "explanation": "남아 있을 가능성이 영구 보존 보장은 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "관리 정보가 바뀌어 일반 경로로 찾을 수 없을 수 있다.",
+          "correct": true,
+          "explanation": "파일을 찾는 연결 정보가 초기화될 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-formatting"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            55
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "파일 목록에서 사라진 상태와 물리 데이터의 완전 제거는 같지 않다. 동시에 이전 내용의 존재나 복구 성공도 보장할 수 없다.",
+      "memoryTip": "안 보임 ≠ 완전 삭제·복구 보장",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-formatting",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-072",
+      "prompt": "학습용 가상 비교에서 두 방식 모두 파일 목록은 비었지만 A는 관리 구조만, B는 데이터 영역까지 순회했다. 맞는 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "보이는 결과가 같아도 내부 작업량과 소요 시간은 다를 수 있다.",
+          "correct": true,
+          "explanation": "파일 목록은 내부 처리 범위 전체를 보여 주지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "목록이 같으면 디스크에 수행한 작업도 반드시 같다.",
+          "correct": false,
+          "explanation": "동일한 화면 결과가 동일한 I/O를 뜻하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "A의 예전 내용은 무조건 영구 보존되었다.",
+          "correct": false,
+          "explanation": "관리 정보 초기화 뒤의 복구는 조건에 따라 달라진다."
+        },
+        {
+          "id": "o4",
+          "text": "B는 파일 시스템을 준비하는 작업일 수 없다.",
+          "correct": false,
+          "explanation": "넓은 영역 처리도 포맷의 작업 범위에 포함될 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-formatting"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            55
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "포맷은 파일 시스템을 준비하며 방식에 따라 다루는 영역이 다르다. 외부 화면과 내부 작업, 복구 가능성은 각각 확인해야 한다.",
+      "memoryTip": "화면 결과와 내부 범위 구분",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-formatting",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-073",
+      "prompt": "사용자가 movie.csv를 요청할 때 파일 시스템이 이름만으로 알 수 없는 저장 위치를 연결하는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일의 최빈값",
+          "correct": false,
+          "explanation": "데이터의 통계값은 저장 위치 지도가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "CPU 냉각팬",
+          "correct": false,
+          "explanation": "물리 냉각장치이며 파일명을 해석하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "파일 관리 정보",
+          "correct": true,
+          "explanation": "파일명·시작 위치·블록 연결 등으로 실제 데이터를 찾게 한다."
+        },
+        {
+          "id": "o4",
+          "text": "화면의 글자 크기",
+          "correct": false,
+          "explanation": "글자 크기는 저장 블록 위치를 관리하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-file-table"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            56,
+            60
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "파일 관리 정보는 논리적 이름과 데이터의 저장 위치를 연결한다. 관리 정보와 파일의 실제 내용은 역할이 다르다.",
+      "memoryTip": "관리 정보는 위치 지도",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-file-table",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-074",
+      "prompt": "학습용 표에서 현재 블록 6의 엔트리 값은 11이다. 다음 위치를 찾을 때 읽는 값은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "6",
+          "correct": false,
+          "explanation": "6은 현재 블록의 번호다."
+        },
+        {
+          "id": "o2",
+          "text": "17",
+          "correct": false,
+          "explanation": "행 번호와 포인터 값을 더하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "5",
+          "correct": false,
+          "explanation": "두 번호의 차이는 다음 위치가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "11",
+          "correct": true,
+          "explanation": "현재 행 번호 6이 아니라 칸 안의 다음 위치 값 11을 따른다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-file-table"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            56,
+            60
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "코드·결과 해석",
+      "review": "연결 표의 행 번호는 현재 위치이고 엔트리 값은 다음 위치를 가리킨다. 숫자를 더하거나 크기 순으로 정렬하지 말고 포인터를 따른다.",
+      "memoryTip": "행은 현재, 값은 다음",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-file-table",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-075",
+      "prompt": "파일 관리 정보 손상과 내용 손상을 구분한 설명 중 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "내용 바이트가 남아도 연결 정보가 없어 파일을 못 찾을 수 있다.",
+          "correct": true,
+          "explanation": "논리 이름에서 위치로 가는 경로가 끊길 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "위치 정보가 정상이더라도 파일 내용이 잘못될 수 있다.",
+          "correct": true,
+          "explanation": "찾기 성공과 내용의 무결성은 다른 조건이다."
+        },
+        {
+          "id": "o3",
+          "text": "파일이 안 보이면 모든 물리 바이트가 반드시 0이다.",
+          "correct": false,
+          "explanation": "관리 정보 변화만으로도 목록에서 사라질 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "FAT·NTFS·i-node는 내부 구조가 항상 완전히 같다.",
+          "correct": false,
+          "explanation": "같은 목적을 가져도 관리 구조와 기능은 다를 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-file-table"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            56,
+            60
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "비교 분석",
+      "review": "파일을 찾는 데 필요한 정보와 찾은 데이터의 내용은 구분한다. 오류 증상이 이름·위치 연결 문제인지 내용 문제인지 확인한다.",
+      "memoryTip": "못 찾음과 잘못 읽힘은 다름",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-file-table",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-076",
+      "prompt": "학습용 표: 파일 R의 시작=6, FAT[6]=11, FAT[11]=3, FAT[3]=끝이다. 접근 순서와 방문 블록 수는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "6→17→20, 3개",
+          "correct": false,
+          "explanation": "현재 번호와 포인터를 누적해 더하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "6→11→3, 3개",
+          "correct": true,
+          "explanation": "시작값에서 포인터를 따라 종료 표식 직전까지 세 번 방문한다."
+        },
+        {
+          "id": "o3",
+          "text": "3→6→11, 3개",
+          "correct": false,
+          "explanation": "번호를 오름차순 정렬하면 파일의 논리 순서가 바뀐다."
+        },
+        {
+          "id": "o4",
+          "text": "6→11→3→끝, 4개",
+          "correct": false,
+          "explanation": "끝은 종료 표식이지 별도 데이터 블록이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-file-table"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            56,
+            60
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "코드·결과 해석",
+      "review": "이름에서 시작 위치를 얻고 각 위치의 다음 값을 끝까지 추적한다. 종료 표식은 추적을 멈추라는 정보이며 파일 내용 블록으로 세지 않는다.",
+      "memoryTip": "시작→포인터→끝",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-file-table",
+      "learningObjectiveIndices": [
+        0,
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-077",
+      "prompt": "파일 시스템의 할당 블록과 저장장치의 물리 섹터에 대한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "블록과 섹터는 어떤 계층에서도 반드시 같은 크기다.",
+          "correct": false,
+          "explanation": "파일 시스템의 관리 단위를 물리 섹터와 구분해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "블록은 파일 이름의 글자 수다.",
+          "correct": false,
+          "explanation": "블록은 저장공간의 할당·전송 관리 단위다."
+        },
+        {
+          "id": "o3",
+          "text": "블록 크기가 바뀌면 원본 데이터의 의미도 반드시 바뀐다.",
+          "correct": false,
+          "explanation": "관리 단위 변경이 내용 의미의 변경은 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "여러 섹터를 묶어 한 블록으로 관리할 수 있다.",
+          "correct": true,
+          "explanation": "주소·할당 관리 단위가 물리 최소 단위와 항상 같지는 않다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-block"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            57
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "특징 구분",
+      "review": "블록은 저장·할당·전송을 묶어 다루는 단위다. 문제에서 어느 계층의 어떤 단위를 뜻하는지 먼저 확인한다.",
+      "memoryTip": "섹터와 할당 단위 구분",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-block",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-078",
+      "prompt": "학습용 가상 파일 9KiB에 4KiB 블록을 온전히 배정한다. 필요한 블록 수와 남는 공간은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "3개, 3KiB",
+          "correct": true,
+          "explanation": "ceil(9÷4)=3이고 12−9=3KiB다."
+        },
+        {
+          "id": "o2",
+          "text": "2개, 1KiB",
+          "correct": false,
+          "explanation": "2개로는 8KiB라서 9KiB를 담을 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "3개, 1KiB",
+          "correct": false,
+          "explanation": "할당량 12KiB에서 실제 크기 9KiB를 빼야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "4개, 7KiB",
+          "correct": false,
+          "explanation": "네 개까지 할당할 필요 없이 세 개면 충분하다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-block"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            57
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "파일마다 온전한 블록을 쓰는 모델에서는 파일 크기÷블록 크기를 올림한다. 할당량과 실제 크기의 차이가 마지막 블록의 남는 공간이다.",
+      "memoryTip": "올림 후 빼기",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-block",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-079",
+      "prompt": "블록 크기를 고를 때의 절충으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "블록을 크게 하면 파일 내용 자체의 바이트 수가 자동 증가한다.",
+          "correct": false,
+          "explanation": "할당량이 바뀌는 것이며 내용 크기와는 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "작은 블록은 작은 파일의 남는 공간을 줄이기 쉽다.",
+          "correct": true,
+          "explanation": "마지막 블록에 남는 단위가 작아질 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "큰 블록은 같은 큰 파일을 더 적은 단위로 관리할 수 있다.",
+          "correct": true,
+          "explanation": "단위 수가 줄어 주소·연결 관리량을 줄일 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "큰 블록은 어떤 장치·접근 방식에서도 반드시 가장 빠르다.",
+          "correct": false,
+          "explanation": "실제 성능은 접근 패턴·장치·캐시 등에도 좌우된다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-block"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            57
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "비교 분석",
+      "review": "작은 블록의 공간 효율과 큰 블록의 관리 비용 감소를 함께 본다. 파일 크기 분포와 접근 방식 없이 크기 하나를 만능으로 고르지 않는다.",
+      "memoryTip": "공간과 관리 비용의 절충",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-block",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-080",
+      "prompt": "학습용 가상 파일 5KiB를 4KiB·8KiB 단위로 각각 저장한 그림이다. 올바른 비교는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "8KiB 단위에서는 원본 내용이 8KiB로 바뀐다.",
+          "correct": false,
+          "explanation": "할당량 8KiB와 실제 내용 5KiB를 구분한다."
+        },
+        {
+          "id": "o2",
+          "text": "두 방식의 블록 수와 모든 실제 I/O 성능이 반드시 같다.",
+          "correct": false,
+          "explanation": "단위 수가 다르며 성능은 작업·장치 조건도 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "둘 다 8KiB를 할당하지만 관리 블록 수는 2개와 1개다.",
+          "correct": true,
+          "explanation": "실제 사용 5KiB와 남는 3KiB는 같고 단위 수가 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "4KiB 단위에서는 파일 1개가 정확히 4KiB로 줄어든다.",
+          "correct": false,
+          "explanation": "내용 5KiB는 두 블록에 나누어 보관한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-block"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            57
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "같은 할당량이더라도 블록 수는 다를 수 있다. 필요한 공간을 올림 계산한 뒤 관리 단위 수와 실제 접근 조건을 함께 비교한다.",
+      "memoryTip": "할당량 같아도 단위 수는 다름",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-block",
+      "learningObjectiveIndices": [
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "학습용 가상 파일: 할당량과 실제 내용",
+        "xLabel": "블록 크기",
+        "yLabel": "KiB",
+        "labels": [
+          "4KiB",
+          "8KiB"
+        ],
+        "series": [
+          {
+            "name": "할당량",
+            "values": [
+              8,
+              8
+            ]
+          },
+          {
+            "name": "내용 크기",
+            "values": [
+              5,
+              5
+            ]
+          }
+        ],
+        "note": "파일마다 온전한 블록 할당, 압축 없음"
+      }
+    },
+    {
+      "id": "n12-new-081",
+      "prompt": "파일 삭제와 재저장을 반복한 뒤 한 파일의 블록이 여러 빈틈에 들어갔다. 이 상황은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "단편화",
+          "correct": true,
+          "explanation": "논리적으로 한 파일의 데이터가 물리적으로 흩어져 놓인 상태다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 내용의 자동 압축",
+          "correct": false,
+          "explanation": "물리 분산 자체가 데이터 압축을 뜻하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "프로그램의 번역",
+          "correct": false,
+          "explanation": "코드를 실행 형태로 바꾸는 작업이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "파일의 완전 삭제",
+          "correct": false,
+          "explanation": "파일 블록이 남아 연결되어 있으므로 삭제와 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-fragmentation"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            58,
+            59
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "삭제로 생긴 빈틈을 새 파일이 쓰면 블록이 비연속 위치에 배치될 수 있다. 파일의 논리 순서와 물리 위치는 같지 않다.",
+      "memoryTip": "삭제 빈틈에 새 블록 배치",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-fragmentation",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-082",
+      "prompt": "같은 HDD에서 파일 블록이 흩어져 있을 때 연속 배치보다 읽기가 느려질 수 있는 직접적인 이유는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "메모리가 전혀 없어짐",
+          "correct": false,
+          "explanation": "단편화가 RAM 자체를 제거하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "기계적 헤드 이동과 회전 대기 부담",
+          "correct": true,
+          "explanation": "다음 조각을 찾기 위해 물리 접근이 더 필요할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "파일의 숫자 데이터가 자동으로 더 커짐",
+          "correct": false,
+          "explanation": "배치가 달라도 동일한 파일 내용의 크기는 같을 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "분석 변수의 이름이 반드시 길어짐",
+          "correct": false,
+          "explanation": "물리 배치와 열 이름 길이는 별개다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-fragmentation"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            58,
+            59
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "HDD는 데이터를 찾을 때 기계적 움직임을 이용한다. 조각 모음은 파일 의미를 바꾸는 대신 물리 접근의 연속성을 높여 이동 부담을 줄인다.",
+      "memoryTip": "HDD는 이동 비용",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-fragmentation",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-083",
+      "prompt": "SSD에 HDD 조각 모음의 결론을 그대로 옮기면 안 되는 이유로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "SSD는 모든 접근 패턴에서 성능이 언제나 같다.",
+          "correct": false,
+          "explanation": "기계식 헤드가 없어도 성능 조건은 존재한다."
+        },
+        {
+          "id": "o2",
+          "text": "SSD 파일은 논리적 순서 없이 아무렇게나 읽어도 된다.",
+          "correct": false,
+          "explanation": "파일 내용 복원에는 논리 순서가 여전히 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "SSD에는 HDD와 같은 기계식 헤드 이동이 없다.",
+          "correct": true,
+          "explanation": "HDD의 탐색 이동 감소 근거를 그대로 적용할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "불필요한 재기록은 쓰기 부담을 만들 수 있다.",
+          "correct": true,
+          "explanation": "장치 구조와 관리 방식에 맞는 최적화가 필요하다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-fragmentation"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            58,
+            59
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "비교 분석",
+      "review": "장치의 물리 구조가 다르면 최적화의 근거도 달라진다. SSD에 기계식 탐색이 없다는 말은 모든 성능 문제가 없다는 뜻이 아니다.",
+      "memoryTip": "매체가 다르면 근거도 다름",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-fragmentation",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-084",
+      "prompt": "학습용 가상 HDD에서 같은 파일이 10→11→12와 2→20→5에 배치되어 있다. 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "둘째 파일은 숫자 순서가 작아 반드시 내용이 손상됐다.",
+          "correct": false,
+          "explanation": "연결된 논리 순서대로 읽으면 비연속 배치도 정상 파일이다."
+        },
+        {
+          "id": "o2",
+          "text": "첫째 파일의 내용은 블록 수가 적어 3분의 1이다.",
+          "correct": false,
+          "explanation": "두 경우 모두 세 데이터 블록을 사용한다."
+        },
+        {
+          "id": "o3",
+          "text": "이 숫자 차이만으로 SSD의 정확한 읽기 시간을 계산할 수 있다.",
+          "correct": false,
+          "explanation": "SSD는 기계식 이동이 없고 구체 시간에는 다른 조건이 필요하다."
+        },
+        {
+          "id": "o4",
+          "text": "내용은 같아도 둘째 배치는 헤드 이동 부담이 커질 수 있다.",
+          "correct": true,
+          "explanation": "논리적으로 같은 파일이어도 접근 위치와 이동 경로가 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-fragmentation"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            58,
+            59
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "파일이 흩어져 있다는 사실과 내용 손상은 다른 문제다. 성능 영향은 물리 접근 방식에 따라 판단하고 HDD의 이동 근거를 다른 매체에 그대로 적용하지 않는다.",
+      "memoryTip": "분산 배치 ≠ 파일 손상",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-fragmentation",
+      "learningObjectiveIndices": [
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-085",
+      "prompt": "학습용 FAT: 시작 7, FAT[7]=2, FAT[2]=9, FAT[9]=끝이다. 파일의 논리 읽기 순서는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "7→2→9→0번 데이터 블록",
+          "correct": false,
+          "explanation": "종료 표식은 별도 0번 데이터 블록을 뜻하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "7→2→9",
+          "correct": true,
+          "explanation": "시작 위치에서 다음 블록 포인터를 순서대로 따른다."
+        },
+        {
+          "id": "o3",
+          "text": "2→7→9",
+          "correct": false,
+          "explanation": "번호 크기순 정렬은 포인터의 순서를 바꾼다."
+        },
+        {
+          "id": "o4",
+          "text": "7→9→2",
+          "correct": false,
+          "explanation": "7의 다음 값은 2이므로 9로 바로 갈 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-fat32"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            60
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "코드·결과 해석",
+      "review": "FAT는 현재 블록의 엔트리에 다음 위치를 둔다. 비연속 블록도 포인터 순서를 따르면 하나의 논리 파일로 읽을 수 있다.",
+      "memoryTip": "번호 정렬 말고 포인터 추적",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-fat32",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-086",
+      "prompt": "학습용 가상 FAT 체인이 데이터 블록 5개를 방문하고 각 블록이 2KiB다. 알 수 있는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "블록 번호를 모두 더한 값이 실제 바이트 수다.",
+          "correct": false,
+          "explanation": "위치 번호는 크기가 아니라 주소다."
+        },
+        {
+          "id": "o2",
+          "text": "종료 표식도 한 블록이므로 할당량은 12KiB다.",
+          "correct": false,
+          "explanation": "종료 표식 자체를 데이터 블록으로 더하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "할당량은 10KiB이며 실제 파일은 그보다 작을 수도 있다.",
+          "correct": true,
+          "explanation": "마지막 블록의 일부가 비어 있을 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "실제 내용은 반드시 10KiB를 빈틈없이 채운다.",
+          "correct": false,
+          "explanation": "방문 수만으로 마지막 블록의 사용량을 알 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-fat32"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            60
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "방문한 데이터 블록 수에 블록 크기를 곱하면 할당량을 구한다. 실제 파일 크기를 확정하려면 마지막 블록의 사용량 등 추가 정보가 필요하다.",
+      "memoryTip": "방문 수×블록 크기=할당량",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-fat32",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-087",
+      "prompt": "FAT32 용량 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "강의의 32GB는 전통적인 Windows 포맷 도구 제한 맥락과 구분한다.",
+          "correct": true,
+          "explanation": "FAT32 자체의 보편적 볼륨 상한으로 외우지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "여유 공간이 100GB면 크기 5GiB인 단일 파일도 그대로 저장 가능하다.",
+          "correct": false,
+          "explanation": "총 여유량이 단일 파일 크기 제한을 없애지는 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "블록들이 물리적으로 연속해 있지 않으면 파일 전체의 순서를 복원할 수 없다.",
+          "correct": false,
+          "explanation": "포인터 연결이 정상이라면 비연속 블록도 순서대로 읽을 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "단일 파일 최대는 엄밀히 4GiB−1바이트다.",
+          "correct": true,
+          "explanation": "큰 여유 공간이 있어도 하나의 파일에 적용되는 한계는 남는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-fat32"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            60
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "볼륨의 총 여유량과 한 파일의 크기 제한은 다른 조건이다. 자료의 간략한 수치는 보정 맥락과 함께 이해한다.",
+      "memoryTip": "총량과 단일 파일 한계 분리",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-fat32",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-088",
+      "prompt": "학습용 가상 체인 4→10→6→끝, 블록 4KiB인 파일 R과 별도 5GiB 영상 V가 있다. 올바른 판단은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "R은 12KiB를 할당하며 V는 FAT32 단일 파일 한계를 넘는다.",
+          "correct": true,
+          "explanation": "R의 방문 수는 3이고 V는 4GiB−1바이트보다 크다."
+        },
+        {
+          "id": "o2",
+          "text": "R의 실제 크기는 반드시 20KiB이고 V는 여유량만 있으면 된다.",
+          "correct": false,
+          "explanation": "4+10+6은 위치 번호 합계이지 용량이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "R은 번호순 4→6→10으로 읽고 V는 한계가 없다.",
+          "correct": false,
+          "explanation": "포인터 순서와 단일 파일 제한을 모두 확인해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "R은 종료 표식까지 네 블록이고 V는 쪼개지 않아도 된다.",
+          "correct": false,
+          "explanation": "종료 표식은 블록이 아니며 V는 제시한 파일 한계를 넘는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-fat32"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            60
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "FAT의 위치 번호는 읽기 순서를 알려 주고 방문 수는 할당량 계산에 쓰인다. 복사 가능성은 이 계산과 별도로 단일 파일·여유 용량 조건을 확인한다.",
+      "memoryTip": "순서·할당량·파일 한계 따로",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-fat32",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-089",
+      "prompt": "파일 삭제 뒤 해당 블록이 빈 공간 리스트에 등록됐다는 뜻은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일이 CPU에서 실행 중이라는 뜻이다.",
+          "correct": false,
+          "explanation": "빈 블록 상태와 프로세스 실행은 별개다."
+        },
+        {
+          "id": "o2",
+          "text": "블록 번호가 반드시 가장 작은 수라는 뜻이다.",
+          "correct": false,
+          "explanation": "가용 상태는 번호의 크기와 무관하다."
+        },
+        {
+          "id": "o3",
+          "text": "다른 데이터를 저장하는 데 재사용할 수 있다는 관리 상태다.",
+          "correct": true,
+          "explanation": "빈 리스트는 가용 블록을 추적한다."
+        },
+        {
+          "id": "o4",
+          "text": "물리 데이터가 모두 0으로 덮였다는 증명이다.",
+          "correct": false,
+          "explanation": "가용 표시와 데이터 덮어쓰기는 같은 작업이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-free-list"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            61
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "삭제는 이름·연결 정보와 블록의 사용 상태를 바꿀 수 있다. 빈 리스트는 논리 파일 목록이 아니라 재할당할 공간 정보다.",
+      "memoryTip": "빈 리스트는 재사용 가능 표시",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-free-list",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-090",
+      "prompt": "학습용 가상 규칙: 기존 빈 리스트 3→8 뒤에 삭제 블록 6→1을 붙이고 선두부터 세 개를 할당한다. 남은 리스트는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "6→1",
+          "correct": false,
+          "explanation": "기존 두 개만 할당했을 때의 잔여다."
+        },
+        {
+          "id": "o2",
+          "text": "8→6→1",
+          "correct": false,
+          "explanation": "한 개만 할당했을 때의 잔여다."
+        },
+        {
+          "id": "o3",
+          "text": "3→6→8",
+          "correct": false,
+          "explanation": "번호순으로 정렬하거나 사용한 블록을 남기지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "1",
+          "correct": true,
+          "explanation": "3·8·6을 사용하고 마지막 1이 남는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-free-list"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            61
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "코드·결과 해석",
+      "review": "삭제 블록을 앞에 넣는지 뒤에 넣는지와 할당 순서를 먼저 확인한다. 제시한 선입 규칙에서는 리스트 순서대로 필요한 개수를 제거한다.",
+      "memoryTip": "등록 위치→할당 순서",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-free-list",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-091",
+      "prompt": "파일 삭제와 복구의 관계로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "내용이 아직 덮이지 않았다면 복구 단서가 남을 수 있다.",
+          "correct": true,
+          "explanation": "연결 정보를 지워도 내용 일부가 남는 경우가 있다."
+        },
+        {
+          "id": "o2",
+          "text": "새 파일이 같은 블록을 덮으면 복구 가능성이 달라질 수 있다.",
+          "correct": true,
+          "explanation": "새 기록은 이전 데이터 흔적을 바꿀 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "삭제만 하면 언제나 완전 복구된다.",
+          "correct": false,
+          "explanation": "장치 내부 관리·덮어쓰기 등 조건 때문에 보장할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "빈 리스트 등록은 언제나 모든 데이터의 영구 삭제를 뜻한다.",
+          "correct": false,
+          "explanation": "가용 상태 등록과 물리 데이터 제거를 구분한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-free-list"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            61
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "삭제 뒤 복구 가능성은 관리 정보와 물리 내용의 상태에 달려 있다. 복구가 무조건 가능하거나 무조건 불가능하다고 단정하지 않는다.",
+      "memoryTip": "복구는 조건부",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-free-list",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-092",
+      "prompt": "학습용 가상 규칙: 빈 리스트 9에 A의 4→7, 이어 B의 2를 뒤에 등록한다. 선두 두 블록을 새 파일이 사용한 뒤의 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "A는 삭제됐어도 4번 블록의 옛 내용이 항상 완전 보존된다.",
+          "correct": false,
+          "explanation": "새 파일이 4를 사용하므로 이전 내용 보존을 보장할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "남은 리스트는 7→2이며 9·4는 재사용됐다.",
+          "correct": true,
+          "explanation": "9→4→7→2에서 선두 두 항목을 제거한다."
+        },
+        {
+          "id": "o3",
+          "text": "남은 리스트는 2→7이며 번호순 정렬이 기본이다.",
+          "correct": false,
+          "explanation": "문제의 규칙은 뒤에 등록하고 선두에서 할당하는 방식이다."
+        },
+        {
+          "id": "o4",
+          "text": "새 파일은 반드시 마지막 삭제 블록 2부터 쓴다.",
+          "correct": false,
+          "explanation": "최근 삭제 순이 아니라 제시된 리스트 선두를 따른다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-free-list"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            61
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "삭제와 빈 공간 등록, 새 파일 할당을 단계별로 추적한다. 재할당된 위치에서는 이전 파일 내용의 보존·복구를 보장하지 않는다.",
+      "memoryTip": "삭제→등록→할당을 분리",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-free-list",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-093",
+      "prompt": "같은 2GB 자료라도 A는 하룻밤 집계면 충분하고 B는 0.1초 안에 다종 입력을 결합해야 한다. 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "두 자료는 크기가 같으므로 처리 설계도 반드시 같다.",
+          "correct": false,
+          "explanation": "같은 용량이라도 시간·통합 요구가 다를 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "2GB는 어떤 환경에서도 절대 빅데이터 문제가 아니다.",
+          "correct": false,
+          "explanation": "고정 용량만으로 모든 상황을 분류할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "파일 확장자가 같으면 속도 요구도 같아진다.",
+          "correct": false,
+          "explanation": "확장자와 허용 지연은 다른 조건이다."
+        },
+        {
+          "id": "o4",
+          "text": "빅데이터 처리의 어려움은 용량뿐 아니라 요구 조건과 도구 능력에도 달려 있다.",
+          "correct": true,
+          "explanation": "지연 시간·형태와 사용 환경이 처리 난도를 바꾼다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-bigdata"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            2,
+            15
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "비교 분석",
+      "review": "빅데이터는 기존 도구로 요구된 저장·관리·분석을 수행하기 어려운 처리 문제다. 고정 GB 경계보다 데이터 특성과 요구 조건을 함께 본다.",
+      "memoryTip": "크기+환경+요구",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-bigdata",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-094",
+      "prompt": "센서 사진과 수치가 매초 들어오고, 고장값을 걸러 경고한다. 각각의 V 연결로 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "다른 형태=Variety, 빠른 유입=Velocity, 오류 검증=Veracity",
+          "correct": true,
+          "explanation": "형태·속도·신뢰성이라는 서로 다른 관점을 나눈다."
+        },
+        {
+          "id": "o2",
+          "text": "다른 형태=Value, 빠른 유입=Volume, 오류 검증=Variety",
+          "correct": false,
+          "explanation": "가치·규모·다양성을 실제 행위와 잘못 연결했다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 행위는 반드시 Volume 하나뿐이다.",
+          "correct": false,
+          "explanation": "한 사례에 여러 V가 함께 적용될 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "고장값을 거르면 저장 규모가 무한해진다.",
+          "correct": false,
+          "explanation": "품질 관리는 물리 저장 한계를 없애지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-bigdata"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            2,
+            15
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "특징 구분",
+      "review": "5V는 규모·속도·다양성·신뢰성·가치를 설명하는 관점이다. 한 사례의 각 행동에 여러 관점이 동시에 적용될 수 있다.",
+      "memoryTip": "행동별 V 연결",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-bigdata",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-095",
+      "prompt": "대규모 카탈로그를 분석한 뒤 Value까지 검증하려면 필요한 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일 크기가 크면 품질 문제는 자동으로 사라진다.",
+          "correct": false,
+          "explanation": "규모는 오류나 편향을 자동 제거하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "계산 결과가 실제 의사결정에 어떻게 쓰였는지 확인한다.",
+          "correct": true,
+          "explanation": "패턴에서 행동으로 이어지는 연결을 확인한다."
+        },
+        {
+          "id": "o3",
+          "text": "그 행동이 목표 지표를 개선했는지 비교한다.",
+          "correct": true,
+          "explanation": "실제 성과를 검증해야 가치 창출을 평가할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "Hadoop을 사용했다는 이유만으로 수익 증가를 확정한다.",
+          "correct": false,
+          "explanation": "도구 사용은 사업 성과의 증거가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-bigdata"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            2,
+            15
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "분석 결과를 얻는 일과 결과를 활용해 성과를 내는 일은 구분된다. 도구·자료량보다 질문·품질·행동 효과를 확인한다.",
+      "memoryTip": "분석 완료 뒤 성과 검증",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-bigdata",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-096",
+      "prompt": "학습용 가상 서비스가 1초 경고를 요구하지만 데이터는 1분 뒤 분석된다. 값의 오류도 발견됐다. 우선적인 개선 설계는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "그래프 색을 바꾸면 경고 시각도 빨라진다.",
+          "correct": false,
+          "explanation": "시각 표현은 파이프라인 지연을 줄이지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 데이터를 버리면 위험 대응 효과가 검증된다.",
+          "correct": false,
+          "explanation": "자료 제거만으로 경고의 효과를 평가할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "허용 지연에 맞는 처리와 입력 검증을 함께 설계한다.",
+          "correct": true,
+          "explanation": "속도와 신뢰성의 병목을 각각 해결해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "저장 용량만 늘리면 지연과 오류가 자동 해결된다.",
+          "correct": false,
+          "explanation": "공간 확대가 처리 방식과 품질 기준을 대신하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-bigdata"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            2,
+            15
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "빅데이터 설계는 어느 V에서 요구를 충족하지 못하는지 진단한다. 빠르고 믿을 만한 결과를 만든 뒤 실제 대응 효과도 따로 측정한다.",
+      "memoryTip": "병목 진단 후 도구 선택",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-bigdata",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-097",
+      "prompt": "학습용 가상 로그가 하루 200만 건, 건당 500바이트다. 압축·관리 정보 없이 하루 원본 크기는? (1GB=10억 바이트)",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "1GB",
+          "correct": true,
+          "explanation": "2,000,000×500=1,000,000,000바이트다."
+        },
+        {
+          "id": "o2",
+          "text": "0.1GB",
+          "correct": false,
+          "explanation": "건수와 건당 크기를 곱하면 10억 바이트다."
+        },
+        {
+          "id": "o3",
+          "text": "100GB",
+          "correct": false,
+          "explanation": "하루 건수와 바이트의 자릿수를 확인해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "500GB",
+          "correct": false,
+          "explanation": "건당 크기 500바이트를 GB로 바로 읽으면 안 된다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-volume"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "상황 적용",
+      "review": "Volume은 저장·처리할 자료의 양이다. 레코드 수×레코드 크기×보관 기간을 같은 단위로 계산한다.",
+      "memoryTip": "건수×크기×기간",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-volume",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-098",
+      "prompt": "디스크에는 100GB를 보관할 수 있지만 RAM 부족으로 분석이 멈춘다. 가장 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "문제는 항상 파일 확장자 하나뿐이다.",
+          "correct": false,
+          "explanation": "제시된 실패 원인은 실행 메모리 부족이다."
+        },
+        {
+          "id": "o2",
+          "text": "저장 용량과 실행 메모리·처리 한계는 별개다.",
+          "correct": true,
+          "explanation": "보관 가능하다는 사실이 한 번에 메모리 처리 가능함을 뜻하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "저장에 성공했으므로 분석 실패는 불가능하다.",
+          "correct": false,
+          "explanation": "저장 후 계산 단계에서 메모리·시간 병목이 생길 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "파일 크기와 RAM 크기는 반드시 같아진다.",
+          "correct": false,
+          "explanation": "저장 파일의 크기와 실행 메모리 사용량은 다른 값이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-volume"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "비교 분석",
+      "review": "Volume을 평가할 때 디스크·RAM·처리 시간을 나누어 본다. 병목에 맞춰 분할 처리나 자원 확장 등을 검토한다.",
+      "memoryTip": "저장됨 ≠ 한 번에 계산됨",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-volume",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-099",
+      "prompt": "데이터를 여러 서버에 분산하고 복제본을 둔다. 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "복제를 세 번 해도 저장 바이트 수는 항상 원본과 같다.",
+          "correct": false,
+          "explanation": "완전 복제라면 복제 수에 따른 추가 공간이 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "서버 수만 늘리면 분석 결과의 가치가 자동 보장된다.",
+          "correct": false,
+          "explanation": "가치는 질문과 활용·성과 검증에 달려 있다."
+        },
+        {
+          "id": "o3",
+          "text": "더 큰 자료를 나누어 보관·처리할 여지를 얻는다.",
+          "correct": true,
+          "explanation": "단일 서버의 한계를 여러 자원으로 분산할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "복제본과 노드 사이 데이터 전송에는 비용이 든다.",
+          "correct": true,
+          "explanation": "안정성과 확장성을 얻는 대신 저장·운영 부담이 늘 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-volume"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "분산은 규모 한계를 완화하는 수단이며 복제는 추가 보관 비용을 만든다. 확장성만 보지 말고 네트워크·운영·검증 부담도 평가한다.",
+      "memoryTip": "확장에는 비용도 따름",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-volume",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-100",
+      "prompt": "그림은 학습용 가상 일별 원본 크기다. 3일 자료를 모두 보관하며 원본 포함 총 3벌을 유지한다. 맞는 판단은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "총 저장량은 10GB이며 복제는 공간을 사용하지 않는다.",
+          "correct": false,
+          "explanation": "3벌 보관 조건이므로 논리 원본 10GB보다 공간이 더 든다."
+        },
+        {
+          "id": "o2",
+          "text": "총 저장량은 15GB이며 모든 작업은 즉시 끝난다.",
+          "correct": false,
+          "explanation": "일별 최대값만 계산하면 전체 보관량을 놓친다."
+        },
+        {
+          "id": "o3",
+          "text": "총 저장량은 90GB이며 RAM도 반드시 90GB다.",
+          "correct": false,
+          "explanation": "3일 합계에 복제 수를 한 번 곱하며 RAM은 별도 자원이다."
+        },
+        {
+          "id": "o4",
+          "text": "총 저장량은 30GB이며 분석 완료 시간은 별도 확인한다.",
+          "correct": true,
+          "explanation": "(2+3+5)×3=30GB이며 저장량만으로 처리 시간을 알 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-volume"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "일별 원본 크기를 합친 뒤 실제 보관하는 전체 복제 수를 곱한다. 디스크 요구량을 구한 뒤 메모리와 처리 시간의 충족 여부를 따로 확인한다.",
+      "memoryTip": "원본 합계×총 보관 벌수",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-volume",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "학습용 가상 원본 로그 크기",
+        "xLabel": "날짜",
+        "yLabel": "원본 GB",
+        "labels": [
+          "1일",
+          "2일",
+          "3일"
+        ],
+        "series": [
+          {
+            "name": "하루 원본",
+            "values": [
+              2,
+              3,
+              5
+            ]
+          }
+        ],
+        "note": "1GB=10억 바이트, 압축·관리 정보 제외, 원본 포함 총 3벌 유지"
+      }
+    },
+    {
+      "id": "n12-new-101",
+      "prompt": "초당 1,000건 유입·초당 900건 처리·경고까지 2초 지연이 각각 나타내는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "전체 누적량·복제 수·자료 형식",
+          "correct": false,
+          "explanation": "누적 규모·복제·형태는 제시된 속도 지표와 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "유입률·처리량·지연 시간",
+          "correct": true,
+          "explanation": "들어오는 속도, 처리하는 속도, 결과를 기다리는 시간을 구분한다."
+        },
+        {
+          "id": "o3",
+          "text": "저장 용량·파일 개수·블록 수",
+          "correct": false,
+          "explanation": "제시된 단위는 저장 공간이 아니라 처리 흐름의 속도와 시간이다."
+        },
+        {
+          "id": "o4",
+          "text": "정확도·대표성·신뢰도",
+          "correct": false,
+          "explanation": "처리 속도만으로 데이터 품질을 계산할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-velocity"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            3,
+            6
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "특징 구분",
+      "review": "Velocity는 생성·유입과 처리·응답의 속도 요구를 다룬다. 건/초와 결과까지 걸린 초를 같은 지표로 보지 않는다.",
+      "memoryTip": "유입·처리·지연 구분",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-velocity",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-102",
+      "prompt": "학습용 가상 큐가 처음 비어 있고 매초 120건 유입, 최대 100건 처리한다. 5초 뒤 적체량은? (손실 없음)",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "500건",
+          "correct": false,
+          "explanation": "500건은 5초 동안 처리한 양이다."
+        },
+        {
+          "id": "o2",
+          "text": "600건",
+          "correct": false,
+          "explanation": "600건은 5초 동안 들어온 전체 양이다."
+        },
+        {
+          "id": "o3",
+          "text": "100건",
+          "correct": true,
+          "explanation": "매초 20건씩 쌓여 5초 뒤 100건이다."
+        },
+        {
+          "id": "o4",
+          "text": "20건",
+          "correct": false,
+          "explanation": "20건은 1초 동안 늘어나는 적체다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-velocity"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            3,
+            6
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "유입이 처리 능력을 계속 넘으면 차이만큼 대기열이 누적된다. 적체량은 유입량과 처리량을 같은 시간 범위에서 비교해 구한다.",
+      "memoryTip": "적체 증가=유입−처리",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-velocity",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-103",
+      "prompt": "'실시간 경고' 요구를 명확히 하는 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "허용 지연을 2초 이내처럼 수치로 정의한다.",
+          "correct": true,
+          "explanation": "업무가 요구하는 응답 기준을 검증 가능하게 만든다."
+        },
+        {
+          "id": "o2",
+          "text": "실시간은 모든 업무에서 반드시 0초를 뜻한다.",
+          "correct": false,
+          "explanation": "업무별로 허용 가능한 지연과 판단 기준이 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "빠른 인터넷만 있으면 처리 지연은 존재할 수 없다.",
+          "correct": false,
+          "explanation": "대기열·변환·모델 계산 등에도 시간이 든다."
+        },
+        {
+          "id": "o4",
+          "text": "어떤 사건부터 어떤 결과까지 잴지 정한다.",
+          "correct": true,
+          "explanation": "수집 시각·도착 시각·경고 시각 중 측정 경계를 명시한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-velocity"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            3,
+            6
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "실시간은 막연한 빠름이 아니라 업무가 허용하는 시간 조건이다. 네트워크뿐 아니라 수집에서 결과까지 전체 지연을 확인한다.",
+      "memoryTip": "시작·끝·허용 초 정의",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-velocity",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-104",
+      "prompt": "학습용 가상 유입 그래프와 같다. 빈 큐에서 시작해 매초 최대 600건 처리한다. 3초 뒤 적체량과 대응 판단은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "600건이며 처리 용량·분산 등 지연 대책을 검토한다.",
+          "correct": true,
+          "explanation": "총 유입 2,400−총 처리 1,800=600건이다."
+        },
+        {
+          "id": "o2",
+          "text": "0건이며 저장공간만 있으면 지연은 없다.",
+          "correct": false,
+          "explanation": "매 구간 유입이 처리 능력을 넘으므로 적체가 생긴다."
+        },
+        {
+          "id": "o3",
+          "text": "2,400건이며 단 한 건도 처리되지 않았다.",
+          "correct": false,
+          "explanation": "처리 능력 600건/초가 세 번 적용된다."
+        },
+        {
+          "id": "o4",
+          "text": "200건이며 3초 동안의 최대 유입만 비교한다.",
+          "correct": false,
+          "explanation": "여러 구간의 누적 차이를 합쳐야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-velocity"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            3,
+            6
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "각 구간의 유입과 처리 차이를 누적하면 큐의 변화를 구할 수 있다. 적체가 허용 지연을 위협하면 처리 방식과 용량을 요구에 맞춰 조정한다.",
+      "memoryTip": "매 구간 차이를 누적",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-velocity",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "학습용 가상 초별 유입량",
+        "xLabel": "1초 구간",
+        "yLabel": "건/초",
+        "labels": [
+          "0~1초",
+          "1~2초",
+          "2~3초"
+        ],
+        "series": [
+          {
+            "name": "유입",
+            "values": [
+              700,
+              900,
+              800
+            ]
+          },
+          {
+            "name": "최대 처리",
+            "values": [
+              600,
+              600,
+              600
+            ]
+          }
+        ],
+        "note": "시작 큐 0건, 손실 없음, 매 구간 처리 가능"
+      }
+    },
+    {
+      "id": "n12-new-105",
+      "prompt": "같은 열 구조의 거래표 행만 열 배로 늘린 경우와, 거래표에 리뷰 음성을 추가한 경우를 구별하면?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "두 경우 모두 파일 확장자 개수만 세면 충분하다.",
+          "correct": false,
+          "explanation": "실제 스키마·표현과 처리 방법을 확인해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "두 경우 모두 통계적 분산을 계산한 것이다.",
+          "correct": false,
+          "explanation": "Variety는 값의 통계적 분산과 다른 개념이다."
+        },
+        {
+          "id": "o3",
+          "text": "앞은 주로 규모, 뒤는 형태 다양성 증가다.",
+          "correct": true,
+          "explanation": "Variety는 단순 건수보다 형식·구조·원천 차이에 초점을 둔다."
+        },
+        {
+          "id": "o4",
+          "text": "앞만 Variety이고 뒤는 형태가 전혀 늘지 않았다.",
+          "correct": false,
+          "explanation": "음성은 표와 다른 처리를 필요로 하는 형태다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-variety"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "비교 분석",
+      "review": "Variety는 다양한 데이터 형식과 원천을 함께 다루는 문제다. 데이터 행 수가 늘어난 것과 구조가 다른 자료가 추가된 것을 나눈다.",
+      "memoryTip": "많음과 다양함은 다름",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-variety",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-106",
+      "prompt": "구매표의 고객번호와 웹 로그를 연결하기 전에 확인할 조건으로 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "두 파일 이름의 글자 수만",
+          "correct": false,
+          "explanation": "이름 길이는 올바른 데이터 결합을 보장하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "표의 배경색만",
+          "correct": false,
+          "explanation": "시각적 서식은 연결 키의 의미를 검증하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "행 수가 같다는 사실만",
+          "correct": false,
+          "explanation": "행 수가 같아도 대상과 순서가 맞지 않을 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "연결 키의 의미·단위·시간 기준·한 행의 수준",
+          "correct": true,
+          "explanation": "같은 ID나 시각처럼 보여도 측정 기준이 다를 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-variety"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "순서·절차",
+      "review": "서로 다른 자료를 결합하려면 어떤 대상을 어떤 단위로 연결하는지 맞춰야 한다. 키·시간대·관측 수준을 확인하지 않으면 잘못된 연결이 생길 수 있다.",
+      "memoryTip": "키·단위·시간·수준",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-variety",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-107",
+      "prompt": "다양한 원천을 통합한 뒤 점검할 사항으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "한 고객의 여러 로그로 구매 금액이 반복됐는지 확인한다.",
+          "correct": true,
+          "explanation": "일대다 결합이 합계·평균을 왜곡할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "새 원천이 질문에 필요한 정보를 실제로 추가했는지 확인한다.",
+          "correct": true,
+          "explanation": "형식의 수보다 분석에 유효한 정보가 중요하다."
+        },
+        {
+          "id": "o3",
+          "text": "원천을 더하면 오류와 편향이 반드시 줄어든다.",
+          "correct": false,
+          "explanation": "통합 과정에서 연결 오류나 중복이 늘 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "JSON과 표를 합치면 관측 시각 차이는 무시해도 된다.",
+          "correct": false,
+          "explanation": "측정 시점이 다르면 같은 상태의 정보가 아닐 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-variety"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "다양한 정보는 분석을 풍부하게 하지만 통합 오류도 만들 수 있다. 결합 전후 행 수와 집계값, 질문에 대한 유용성을 검증한다.",
+      "memoryTip": "추가 정보와 추가 오류 함께 보기",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-variety",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-108",
+      "prompt": "학습용 가상 자료: 작품 A 평점 4, B 평점 8이다. 출연진과 결합해 A가 3행, B가 1행이 됐다. 작품별 평균 평점으로 옳은 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "새 원천을 썼으므로 어떤 평균도 항상 더 정확하다.",
+          "correct": false,
+          "explanation": "질문의 분석 단위에 맞는 분모와 중복 처리가 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "작품을 한 번씩 세어 평균 6이다.",
+          "correct": true,
+          "explanation": "(4+8)÷2=6이며 배우 수로 작품을 가중하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "결합된 네 행의 평균 5가 작품별 단순 평균이다.",
+          "correct": false,
+          "explanation": "(4+4+4+8)÷4는 출연진 수로 가중된 값이다."
+        },
+        {
+          "id": "o4",
+          "text": "네 행이므로 실제 작품 수도 4개다.",
+          "correct": false,
+          "explanation": "결합으로 늘어난 행과 고유 작품 수는 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-variety"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "일대다 결합은 같은 작품 값을 여러 번 반복할 수 있다. 작품별 질문에는 고유 작품 단위를 유지하거나 중복의 의미를 반영한 집계를 선택한다.",
+      "memoryTip": "결합 행 수 ≠ 작품 수",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-variety",
+      "learningObjectiveIndices": [
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-109",
+      "prompt": "같은 센서가 섭씨 값과 화씨 값을 단위 표시 없이 함께 보냈다. 먼저 검토할 문제는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "표의 글꼴 다양성",
+          "correct": false,
+          "explanation": "시각적 서식보다 측정 단위 정합성이 문제다."
+        },
+        {
+          "id": "o2",
+          "text": "디스크 블록의 물리 연속성",
+          "correct": false,
+          "explanation": "센서 단위 차이는 저장 배치 문제와 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "프린터 제어 명령",
+          "correct": false,
+          "explanation": "출력이 아니라 입력 데이터 품질 문제다."
+        },
+        {
+          "id": "o4",
+          "text": "측정값의 일관성과 신뢰성",
+          "correct": true,
+          "explanation": "같은 숫자도 단위가 다르면 의미가 달라 비교가 어긋난다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-veracity"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "상황 적용",
+      "review": "Veracity는 정확성·일관성·신뢰성을 다룬다. 값이 숫자로 저장되었다고 단위와 의미까지 일치하는 것은 아니다.",
+      "memoryTip": "숫자 형식보다 측정 의미",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-veracity",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-110",
+      "prompt": "이상값을 정제하는 분석 기록으로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "탐지 기준·처리 이유·변경 전후와 영향량을 남긴다.",
+          "correct": true,
+          "explanation": "어떤 값을 왜 고쳤는지 추적하고 결과를 검토할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "원인 확인 없이 큰 값은 전부 지운다.",
+          "correct": false,
+          "explanation": "큰 값이 실제 드문 사건인지 오류인지 확인해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "처리한 행은 숨기고 원래 자료와 같다고 보고한다.",
+          "correct": false,
+          "explanation": "변경 이력이 없으면 재현성과 검증이 어려워진다."
+        },
+        {
+          "id": "o4",
+          "text": "결측·중복·이상값을 모두 같은 의미로 간주한다.",
+          "correct": false,
+          "explanation": "서로 다른 문제이므로 처리 근거도 구분한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-veracity"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "순서·절차",
+      "review": "품질 관리에는 검증 기준과 처리 이력이 필요하다. 이상치가 반드시 오류는 아니므로 원인과 분석 목적을 확인한 뒤 처리한다.",
+      "memoryTip": "기준·이유·이력 기록",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-veracity",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-111",
+      "prompt": "형식 오류와 중복 행을 모두 정리했다. 여전히 확인해야 할 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "계산 코드가 돌아가므로 데이터 의미는 검토하지 않는다.",
+          "correct": false,
+          "explanation": "실행 성공과 입력 신뢰성은 다른 조건이다."
+        },
+        {
+          "id": "o2",
+          "text": "수집 표본이 목표 집단을 대표하는가",
+          "correct": true,
+          "explanation": "형식 정제가 수집 편향을 자동 해결하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "의도한 대상을 같은 방식으로 측정했는가",
+          "correct": true,
+          "explanation": "측정·선택 과정의 차이는 정제 뒤에도 남을 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "행 수가 많아졌으니 모든 입력이 진실이라고 본다.",
+          "correct": false,
+          "explanation": "규모 증가는 부정확한 측정을 검증하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-veracity"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "오타·결측·중복을 다루는 정제와 표본 편향 검토는 구분한다. 깨끗한 표도 특정 집단만 관측했다면 결론 범위에 한계가 있다.",
+      "memoryTip": "정제 뒤에도 대표성 확인",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-veracity",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-112",
+      "prompt": "리뷰 1만 건의 평균을 정확히 계산했지만 절반이 같은 봇의 반복 글이었다. 가장 적절한 대응은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "평균 계산에 성공했으므로 정제가 불필요하다.",
+          "correct": false,
+          "explanation": "산술 정확성과 자료 품질은 별도다."
+        },
+        {
+          "id": "o2",
+          "text": "평균이 큰 값이면 출처 확인 없이 전부 삭제한다.",
+          "correct": false,
+          "explanation": "수치 크기보다 반복·출처를 근거로 검증해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "계정·중복 기준을 검증하고 처리 전후 결과를 비교한다.",
+          "correct": true,
+          "explanation": "계산 정확성만으로 입력의 신뢰성이 확보되지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "자료가 많으므로 봇 영향은 반드시 사라진다.",
+          "correct": false,
+          "explanation": "반복 글은 대량 자료에서도 평균을 편향시킬 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-veracity"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "신뢰할 수 없는 입력은 정확한 계산으로도 잘못된 결론을 만들 수 있다. 처리 기준과 이력을 남기고 결과 민감도·대표성을 함께 검토한다.",
+      "memoryTip": "계산 정확 ≠ 입력 신뢰",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-veracity",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-113",
+      "prompt": "분석에서 실제 Value로 이어지는 흐름이 가장 온전한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "데이터→패턴 발견→판단·행동→성과 확인",
+          "correct": true,
+          "explanation": "분석 결과를 활용한 뒤 목표가 개선됐는지 검증한다."
+        },
+        {
+          "id": "o2",
+          "text": "데이터→예쁜 색상→도구 이름→종료",
+          "correct": false,
+          "explanation": "표현과 도구 소개만으로 활용 성과를 확인하지 못한다."
+        },
+        {
+          "id": "o3",
+          "text": "데이터→행 수 증가→무조건 수익 증가",
+          "correct": false,
+          "explanation": "자료량이 성과를 자동 보장하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "데이터→결측 숨김→결론 확정",
+          "correct": false,
+          "explanation": "입력 품질을 숨기면 신뢰할 성과 평가가 어렵다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-value"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            4,
+            5,
+            10
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "순서·절차",
+      "review": "Value는 자료를 많이 보유하거나 패턴만 찾는 일에서 끝나지 않는다. 분석을 행동과 실제 목표의 변화로 연결해 확인한다.",
+      "memoryTip": "패턴 뒤 행동·성과",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-value",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-114",
+      "prompt": "학습용 가상 캠페인 A는 노출 100명 중 구매 10명, B는 200명 중 구매 12명이다. 구매 전환율 비교는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "총 노출 300명을 각 캠페인의 공통 분모로 쓴다.",
+          "correct": false,
+          "explanation": "캠페인별 전환율은 각 캠페인의 대상 수를 분모로 쓴다."
+        },
+        {
+          "id": "o2",
+          "text": "A 10%, B 6%로 A가 높다.",
+          "correct": true,
+          "explanation": "각 캠페인의 구매자 수를 해당 노출 인원으로 나눈다."
+        },
+        {
+          "id": "o3",
+          "text": "A 10%, B 12%로 B가 높다.",
+          "correct": false,
+          "explanation": "B의 분모는 100이 아니라 200명이다."
+        },
+        {
+          "id": "o4",
+          "text": "구매자 수가 12명인 B의 전환율이 반드시 높다.",
+          "correct": false,
+          "explanation": "절대 인원과 분모를 적용한 비율은 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-value"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            4,
+            5,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "효과 지표는 분자·분모·대상·기간을 명시해야 한다. 전환율과 구매 총인원은 서로 다른 질문에 답한다.",
+      "memoryTip": "성과 비율에는 분모",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-value",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-115",
+      "prompt": "Netflix 카탈로그의 국가·장르·등록일만 있을 때 직접 답할 수 있는 질문을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "어느 장르가 실제 시청 시간을 가장 늘렸는가",
+          "correct": false,
+          "explanation": "시청 행동이나 비교 실험 정보가 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "어느 국가 작품이 구독 해지를 줄였는가",
+          "correct": false,
+          "explanation": "해지·노출·시청 등 효과를 검증할 자료가 없다."
+        },
+        {
+          "id": "o3",
+          "text": "국가별 등록 작품 수는 어떻게 다른가",
+          "correct": true,
+          "explanation": "국가와 작품 식별 정보를 이용해 구성 규모를 집계할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "장르별 등록 시점 분포는 어떻게 다른가",
+          "correct": true,
+          "explanation": "장르와 등록일이 있으면 해당 분포를 비교할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-value"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            4,
+            5,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "특징 구분",
+      "review": "Value를 말하려면 목표 지표와 그것을 측정할 데이터가 필요하다. 카탈로그 구성 자료만으로 사용자 행동과 사업 효과를 직접 계산하지 않는다.",
+      "memoryTip": "있는 컬럼 안에서 결론",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-value",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-116",
+      "prompt": "장르 비중을 보고 추천 화면을 바꿨다. '구독 유지에 가치가 있었다'는 결론을 확인할 다음 단계는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "장르 그래프를 다시 저장하면 유지 효과가 증명된다.",
+          "correct": false,
+          "explanation": "그래프 저장은 사용자의 구독 행동을 측정하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "많이 보이는 장르면 모든 사용자가 구독을 유지한다고 본다.",
+          "correct": false,
+          "explanation": "작품 공급 비중과 개별 사용자 반응은 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "카탈로그 행 수를 구독자 수로 사용한다.",
+          "correct": false,
+          "explanation": "작품 기록과 사용자 기록은 관측 대상이 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "대상·기간·비교 조건을 정해 유지 지표를 측정한다.",
+          "correct": true,
+          "explanation": "화면 변경이라는 행동과 실제 유지 성과를 연결해 검증한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-value"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            4,
+            5,
+            10
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "분석에서 도출한 판단을 실행했어도 실제 성과는 추가 측정해야 한다. 필요한 행동 데이터를 확보하고 공정한 비교 조건으로 효과를 평가한다.",
+      "memoryTip": "행동 뒤 효과 측정",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-value",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-117",
+      "prompt": "웹 로그 1,000행과 고유 사용자 200명이 확인됐다. 바른 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "사용자 한 명은 반드시 로그를 한 행만 만든다.",
+          "correct": false,
+          "explanation": "같은 사용자의 여러 상호작용이 기록될 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "한 사용자가 여러 로그 기록을 만들 수 있다.",
+          "correct": true,
+          "explanation": "로그 한 행은 보통 사용자 자체가 아니라 요청·사건 등의 기록이다."
+        },
+        {
+          "id": "o3",
+          "text": "사용자는 반드시 1,000명이다.",
+          "correct": false,
+          "explanation": "기록 수와 고유 대상 수는 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "200명은 파일 확장자 수다.",
+          "correct": false,
+          "explanation": "문제에서 고유 사용자 수로 명시한 값이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-data-sources"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "원천을 볼 때 먼저 한 행이 무엇을 뜻하는지 정한다. 사건 수·로그 행 수·고유 대상 수는 같은 수가 아닐 수 있다.",
+      "memoryTip": "행·사건·대상 구분",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-data-sources",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-118",
+      "prompt": "결제 사건 하나가 재시도 때문에 로그 두 행으로 남았다. 결제 건수를 세는 적절한 방법은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "로그 글자 수가 큰 행만 무조건 실제 사건으로 본다.",
+          "correct": false,
+          "explanation": "문자열 길이는 실제 결제 여부의 판단 근거가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "행 수를 저장 블록 수로 나누어 결제 수를 구한다.",
+          "correct": false,
+          "explanation": "저장 배치와 결제 사건 수는 직접 대응하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "결제 식별자와 성공 상태 등으로 고유 사건을 확인한다.",
+          "correct": true,
+          "explanation": "수집 행을 그대로 세면 같은 사건을 중복 집계할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "두 행을 실제 구매 두 번으로 바로 센다.",
+          "correct": false,
+          "explanation": "재시도 기록과 실제 새 결제를 구분해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-data-sources"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "시스템이 남긴 기록은 실제 현상과 일대일이 아닐 수 있다. 중복·재시도·누락 등 생성 규칙을 확인한 뒤 사건을 집계한다.",
+      "memoryTip": "기록 생성 규칙부터 확인",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-data-sources",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-119",
+      "prompt": "'시간대별 지역의 교통 속도 차이'를 분석하기 위해 필요한 원천·컬럼을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "동일한 의미·단위의 속도 측정값",
+          "correct": true,
+          "explanation": "비교할 결과값과 측정 기준이 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "작품의 배우 이름만 있는 카탈로그",
+          "correct": false,
+          "explanation": "교통 속도나 장소·시각의 관측을 제공하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "열 이름을 모르는 이미지 파일 개수만",
+          "correct": false,
+          "explanation": "필요한 시공간·속도 측정값을 바로 제공하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "관측 시각과 지역 또는 위치 정보",
+          "correct": true,
+          "explanation": "언제 어디의 기록인지 묶어 비교해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-data-sources"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "질문에서 필요한 측정값과 비교 대상을 먼저 정한다. 그 뒤 해당 정보를 제공할 원천과 컬럼을 찾는다.",
+      "memoryTip": "질문→항목→원천",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-data-sources",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-120",
+      "prompt": "학습용 가상 로그 6행에는 사용자 2명과 고유 구매 3건이 있다. '구매자당 구매 횟수'를 구할 때 먼저 확인할 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "구매 식별자와 실제 구매한 고유 사용자 수",
+          "correct": true,
+          "explanation": "사건 중복을 제거하고 분모를 구매자로 정의해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 로그 6행을 구매와 사용자 수로 동시에 쓴다.",
+          "correct": false,
+          "explanation": "행·사건·대상의 수준이 달라 같은 수로 대체할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "사용자 2명이 있으므로 로그 원천의 생성 규칙은 무시한다.",
+          "correct": false,
+          "explanation": "재시도와 비구매 로그가 섞였는지 확인해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "자료가 작으므로 어떤 컬럼도 확인할 필요가 없다.",
+          "correct": false,
+          "explanation": "규모와 무관하게 측정 정의와 분모가 필요하다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-data-sources"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "수집 원천마다 행의 의미를 확인하고 질문에 맞는 사건·대상 단위를 만든다. 구매자당 지표에서는 전체 방문자와 실제 구매자도 구별한다.",
+      "memoryTip": "분자는 사건, 분모는 대상",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-data-sources",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-121",
+      "prompt": "Web 2.0에서 사용자 글·사진·영상이 늘었다. 이에 따라 커진 처리 요구를 가장 잘 설명한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "데이터 생산이 중단되어 저장 기술이 필요 없어졌다.",
+          "correct": false,
+          "explanation": "자료 증가가 저장·관리 요구를 확대했다."
+        },
+        {
+          "id": "o2",
+          "text": "자료가 늘면 처리 지연은 반드시 자동 감소했다.",
+          "correct": false,
+          "explanation": "규모와 요구 변화에 맞는 처리 기술이 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "생산 주체와 자료 형태가 확대되어 분산·다양한 구조 처리가 필요해졌다.",
+          "correct": true,
+          "explanation": "단순 거래표뿐 아니라 사용자 생성 자료가 새로운 원천이 되었다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 데이터가 한 가지 고정 형식으로 통일되었다.",
+          "correct": false,
+          "explanation": "글·사진·영상의 증가는 오히려 형태 다양성을 늘린다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-bigdata-history"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "빅데이터 발전은 데이터의 양뿐 아니라 생산 주체·형태·속도의 변화와 연결된다. 어떤 요구가 새 기술을 필요하게 했는지 함께 이해한다.",
+      "memoryTip": "요구 변화→기술 발전",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-bigdata-history",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-122",
+      "prompt": "팀이 '조각별 계산과 결과 결합이라는 방법'과 '이를 수행할 분산 도구 환경'을 나누어 설계한다. 구분이 맞는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모델 이름을 쓰면 구현 환경이 자동으로 모두 설치된다.",
+          "correct": false,
+          "explanation": "계산 방법을 설명하는 일과 실행 도구를 준비하는 일은 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "Hadoop을 선택하면 데이터 품질 검토는 불가능하다.",
+          "correct": false,
+          "explanation": "도구 선택이 품질 검토를 막는 것은 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "MapReduce라는 단어는 하드디스크의 물리 규격이다.",
+          "correct": false,
+          "explanation": "작업 분할과 결과 결합을 다루는 처리 모델이다."
+        },
+        {
+          "id": "o4",
+          "text": "처리 모델과 구현·생태계를 구분하는 설계다.",
+          "correct": true,
+          "explanation": "MapReduce 같은 모델과 Hadoop 같은 관련 도구 환경은 같은 범위가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-bigdata-history"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "모델은 작업을 어떤 방식으로 처리할지 설명하고 도구 환경은 이를 실행할 구성과 구현을 제공한다. 관련된 이름이라도 역할·범위를 구분한다.",
+      "memoryTip": "방법과 실행 도구를 구별",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-bigdata-history",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-123",
+      "prompt": "새 기술 등장 이후의 기술 선택으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "일관된 거래 관리에 관계형 DB가 여전히 적합할 수 있다.",
+          "correct": true,
+          "explanation": "기존 기술도 업무 요구에 맞으면 계속 사용한다."
+        },
+        {
+          "id": "o2",
+          "text": "즉시 경고가 필요하면 스트리밍·낮은 지연 설계를 검토한다.",
+          "correct": true,
+          "explanation": "새 지연 요구에 맞춰 처리 방식을 선택한다."
+        },
+        {
+          "id": "o3",
+          "text": "AI가 등장했으므로 모든 일괄 처리는 사용하면 안 된다.",
+          "correct": false,
+          "explanation": "정해진 시간의 대량 집계에는 일괄 처리가 적합할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "미래 전망에 나온 기술은 이미 모든 현장에 보편 적용됐다.",
+          "correct": false,
+          "explanation": "전망과 실제 보급 상태는 다른 주장이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-bigdata-history"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "오개념 판별",
+      "review": "발전사는 옛 기술을 무조건 지우는 유행 순위가 아니다. 일관성·형태·규모·지연 등 현재 요구에 맞는 기술을 선택한다.",
+      "memoryTip": "새 기술도 목적에 맞게",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-bigdata-history",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-124",
+      "prompt": "주문 DB를 쓰는 상점이 사진 리뷰와 즉시 이상거래 경고를 추가했다. 적절한 발전 방향은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "분산 모델을 정했으므로 구현·운영과 검증은 생략한다.",
+          "correct": false,
+          "explanation": "모델 선택 뒤 실행 환경과 결과의 확인도 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "주문 DB를 유지하면서 다형식 처리·실시간 처리를 필요한 부분에 더한다.",
+          "correct": true,
+          "explanation": "기존 정형 거래와 새 형태·지연 요구를 나눠 설계할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "사진이 추가됐으므로 모든 주문의 일관성 관리를 없앤다.",
+          "correct": false,
+          "explanation": "새 원천이 기존 업무 요구를 제거하지는 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "즉시 경고도 다음 날 일괄 집계만으로 충분하다고 본다.",
+          "correct": false,
+          "explanation": "즉시 반응 요구와 하루 뒤 결과는 맞지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-bigdata-history"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "서비스가 성장하면 기존 기능을 유지하면서 새 자료와 지연 요구에 맞는 기술을 결합할 수 있다. 처리 모델·실행 도구·업무 요구를 각각 구분한다.",
+      "memoryTip": "기존 강점+새 요구의 기술",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-bigdata-history",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-125",
+      "prompt": "교통 데이터를 활용한 분석·행동·검증 연결로 가장 온전한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "교통량 관측→그래프 저장→효과는 측정하지 않음",
+          "correct": false,
+          "explanation": "분석 표현 이후의 행동 효과가 빠져 있다."
+        },
+        {
+          "id": "o2",
+          "text": "신호 조정→관측 없이 원인 확정→자료 삭제",
+          "correct": false,
+          "explanation": "검증할 근거 없이 인과와 효과를 확정할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "그림 색 변경→CPU 제조→정책 성공 확정",
+          "correct": false,
+          "explanation": "입력·분석·행동·검증의 연결이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "교통량 관측→혼잡 예측→신호 조정→대기 시간 비교",
+          "correct": true,
+          "explanation": "입력부터 의사결정과 실제 효과 확인까지 이어진다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-applications"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "순서·절차",
+      "review": "응용 분야는 입력→분석→행동→검증의 구조로 이해한다. 분야 이름이나 도구 사용만이 아니라 무엇을 개선했는지 확인해야 한다.",
+      "memoryTip": "입력에서 검증까지 연결",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-applications",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-126",
+      "prompt": "혼잡 예측 오차는 줄었지만 신호 변경 뒤 실제 대기 시간은 늘었다. 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "예측 성능과 행동 정책의 효과는 따로 평가해야 한다.",
+          "correct": true,
+          "explanation": "정확한 예측을 사용해도 제약·정책 선택에 따라 결과가 나빠질 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "예측이 좋아졌으므로 대기 시간 증가 기록은 무조건 오류다.",
+          "correct": false,
+          "explanation": "서로 다른 지표는 다른 방향으로 변할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "정확도가 높으면 어떤 행동도 반드시 유리하다.",
+          "correct": false,
+          "explanation": "좋은 입력이 모든 의사결정을 자동 최적화하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "대기 시간은 현장 효과와 전혀 관계없는 지표다.",
+          "correct": false,
+          "explanation": "대기 시간은 신호 정책의 실제 효과 지표가 될 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-applications"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "비교 분석",
+      "review": "분석 모형의 정확도와 그 결과로 선택한 행동의 성과를 구분한다. 실제 운영 개선은 별도의 목표 지표로 검증한다.",
+      "memoryTip": "예측 잘함 ≠ 정책 잘됨",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-applications",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-127",
+      "prompt": "'주말·평일별로 비가 올 때 지역별 평균 이동 시간이 얼마나 늘었나'에 필요한 항목을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "변수가 여러 개이므로 표본 수와 집계 기준은 필요 없다.",
+          "correct": false,
+          "explanation": "복합질문일수록 대상·기간·집계·표본을 명확히 해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "관측 시각·지역·강수 여부·이동 시간",
+          "correct": true,
+          "explanation": "집단 구분과 비교할 결과값을 구성하는 항목들이다."
+        },
+        {
+          "id": "o3",
+          "text": "늘어남을 분 단위 차이로 볼지 증가율로 볼지의 정의",
+          "correct": true,
+          "explanation": "비교 기준이 달라지면 결론도 달라질 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "지역 이름 하나만 있으면 모든 집단을 비교할 수 있다.",
+          "correct": false,
+          "explanation": "요일·강수·이동 시간 정보도 필요하다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-applications"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "복합질문은 여러 컬럼뿐 아니라 대상·기간·집계·비교 기준을 필요로 한다. 필요한 항목이 없다면 질문을 수정하거나 추가 수집을 검토한다.",
+      "memoryTip": "변수와 계산 규칙 함께",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-applications",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-128",
+      "prompt": "학습용 가상 자료: 비가 올 때 A의 이동 시간은 10→15분, B는 30→39분이다. 같은 시간대의 비교로 옳은 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "같은 날 비가 왔으므로 비가 유일한 원인임이 확정된다.",
+          "correct": false,
+          "explanation": "통행량·도로 조건 등 다른 요인을 검토해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "이 차이만으로 신호 정책의 효과까지 측정됐다.",
+          "correct": false,
+          "explanation": "정책 행동 전후나 비교 조건이 제시되지 않았다."
+        },
+        {
+          "id": "o3",
+          "text": "분 차이는 B, 증가율은 A가 더 크며 원인 확정은 별도다.",
+          "correct": true,
+          "explanation": "A는 +5분·50%, B는 +9분·30%다."
+        },
+        {
+          "id": "o4",
+          "text": "A는 5%, B는 9% 늘었으므로 B가 모든 기준에서 크다.",
+          "correct": false,
+          "explanation": "증가율은 증가 분을 원래 시간으로 나눈다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-applications"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "절대 차이와 상대 증가율은 서로 다른 비교다. 여러 변수를 결합해 패턴을 찾아도 원인과 실제 대응 효과는 추가 검증이 필요하다.",
+      "memoryTip": "차이·비율·인과·효과 분리",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-applications",
+      "learningObjectiveIndices": [
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-129",
+      "prompt": "열과 타입이 고정된 표, 선택 키와 중첩이 있는 JSON, 자유 음성의 분석 형태 차이를 설명한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "고정 스키마·유연한 구조·의미 특징 추출의 차이가 있다.",
+          "correct": true,
+          "explanation": "구조화·반구조화·비구조화의 처리 특성을 비교한 설명이다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 형식이 존재하면 모두 구조화로만 분류한다.",
+          "correct": false,
+          "explanation": "파일 내부 규칙의 존재와 분석 의미의 고정 필드는 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "JSON의 선택 키는 물리 CPU 코어 수다.",
+          "correct": false,
+          "explanation": "JSON 키는 데이터 항목을 표시하는 구조 요소다."
+        },
+        {
+          "id": "o4",
+          "text": "음성에는 바이트 배열이 없어서 저장할 수 없다.",
+          "correct": false,
+          "explanation": "비구조화도 디지털 파일로 저장되며 분석 의미를 추출해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-data-forms"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "원리 이해",
+      "review": "구조화 여부는 분석 필드와 스키마의 조직 방식을 기준으로 본다. 비구조화라는 말이 파일의 규칙이나 저장 형태가 전혀 없다는 뜻은 아니다.",
+      "memoryTip": "파일 규칙과 의미 구조 구분",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-data-forms",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-130",
+      "prompt": "자유 리뷰 문장을 '불만 여부 0/1' 표로 바꿨다. 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "0/1이므로 원문 기록과 연결할 수 없다.",
+          "correct": false,
+          "explanation": "식별자를 유지하면 원문과 결과를 연결해 확인할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "분석용 특징을 추출했지만 세부 이유 등 정보가 줄 수 있다.",
+          "correct": true,
+          "explanation": "자유 텍스트를 구조화 지표로 요약하면 일부 의미는 손실될 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "원문 모든 의미가 0/1 두 값에 완벽하게 보존된다.",
+          "correct": false,
+          "explanation": "복잡한 문장을 단순 특징으로 줄이면 정보 손실 가능성이 있다."
+        },
+        {
+          "id": "o4",
+          "text": "표로 바뀌었으므로 분류 오류 검토가 필요 없다.",
+          "correct": false,
+          "explanation": "특징 추출 결과가 맞는지도 검증해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-data-forms"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "비구조화 내용에서 목적에 맞는 수치·범주 특징을 만들 수 있다. 결과 표의 유용성뿐 아니라 추출 오류와 사라진 정보도 확인한다.",
+      "memoryTip": "특징 추출에는 정보 손실 가능",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-data-forms",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-131",
+      "prompt": "데이터 형태 분류에 대한 설명 중 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "시계열이면 구조화 또는 공간 데이터일 수 없다.",
+          "correct": false,
+          "explanation": "분류가 서로 배타적인 것은 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "CSV라는 확장자만으로 모든 사용 문맥의 분류가 확정된다.",
+          "correct": false,
+          "explanation": "실제 스키마와 사용 방식, 강의 문맥을 확인한다."
+        },
+        {
+          "id": "o3",
+          "text": "고정 열의 GPS 센서 표는 구조화이면서 시계열·공간 데이터일 수 있다.",
+          "correct": true,
+          "explanation": "스키마 형태와 시간·위치 의미는 다른 분류 축이다."
+        },
+        {
+          "id": "o4",
+          "text": "JSON 전체는 반구조화이고 내부 리뷰 문장은 비구조화 분석 대상일 수 있다.",
+          "correct": true,
+          "explanation": "기록 전체와 내부 필드의 분류 수준을 구분한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-data-forms"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "특징 구분",
+      "review": "한 데이터에 여러 분류가 동시에 적용될 수 있다. 기록 전체·내부 내용·분석 결과와 구조·시간·공간의 서로 다른 기준을 나누어 본다.",
+      "memoryTip": "분류 축은 겹칠 수 있음",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-data-forms",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-132",
+      "prompt": "시각·GPS·자유 설명·선택 사진이 있는 JSON 센서 기록을 분석한다. 처리 설계로 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "사진이 있으므로 JSON의 키와 시각은 모두 무의미하다.",
+          "correct": false,
+          "explanation": "구조화된 항목은 필터·결합·시공간 분석에 활용할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "시각이 있으므로 모든 자유 문장이 이미 숫자 열이다.",
+          "correct": false,
+          "explanation": "시간 정보가 문장 의미를 자동 수치화하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "특징 하나를 만들면 원문과 사진은 항상 동일하게 복원된다.",
+          "correct": false,
+          "explanation": "요약 특징에서 모든 원자료를 복원할 수 있다고 보장할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "키 구조를 읽고 시공간 기준을 맞춘 뒤 설명·사진의 특징을 추출한다.",
+          "correct": true,
+          "explanation": "전체 구조와 내부 자유 내용, 시간·위치 의미를 함께 고려한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-data-forms"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "반구조화 기록 안에 시간·위치와 비구조화 내용이 함께 있을 수 있다. 필드별 처리 방법을 선택하고 특징 추출의 손실·오류를 검증한다.",
+      "memoryTip": "전체 구조와 내부 내용을 나누기",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-data-forms",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-133",
+      "prompt": "관측값의 평균은 같지만 시간 순서를 뒤섞으니 상승·하강 흐름이 달라졌다. 시계열 분석 전에 필요한 작업은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모든 시간 간격을 확인 없이 1년으로 둔다.",
+          "correct": false,
+          "explanation": "불규칙 관측은 실제 경과 시간으로 나눠야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "시각 타입·시간대·정렬·측정 간격을 확인한다.",
+          "correct": true,
+          "explanation": "시간 순서와 간격은 변화 해석의 조건이다."
+        },
+        {
+          "id": "o3",
+          "text": "값을 항상 큰 순서로 정렬한다.",
+          "correct": false,
+          "explanation": "크기순 정렬은 실제 시간 흐름을 없앤다."
+        },
+        {
+          "id": "o4",
+          "text": "평균이 같으므로 중복 시각과 누락 기간을 무시한다.",
+          "correct": false,
+          "explanation": "평균이 같아도 시계열의 구간 해석은 달라질 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-time-series"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "순서·절차",
+      "review": "시계열은 관측 순서와 시간 간격이 의미를 갖는다. 변화량을 계산하기 전에 시간 정렬과 중복·누락·단위를 확인한다.",
+      "memoryTip": "시간부터 정리",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-time-series",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-134",
+      "prompt": "학습용 가상 자료가 2020년 40건, 2022년 60건이다. 차분·연간 기울기·상대 증가율은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "100건·50건/년·150%",
+          "correct": false,
+          "explanation": "두 값을 더하는 것은 변화량이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "−20건·−10건/년·−50%",
+          "correct": false,
+          "explanation": "뒤 시점에서 앞 시점을 빼면 양수 증가다."
+        },
+        {
+          "id": "o3",
+          "text": "20건·10건/년·50%",
+          "correct": true,
+          "explanation": "차분 20, 2년으로 나눈 기울기 10, 기준 40 대비 비율 0.5다."
+        },
+        {
+          "id": "o4",
+          "text": "20건·20건/년·20%",
+          "correct": false,
+          "explanation": "2년 간격과 증가율의 분모 40을 반영해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-time-series"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "차분은 뒤 값−앞 값, 기울기는 차분÷시간 차이다. 상대 증가율은 차분÷앞 값이므로 단위와 분모를 구분한다.",
+      "memoryTip": "빼기·시간 나누기·기준 나누기",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-time-series",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-135",
+      "prompt": "그래프에서 '급증 구간'을 주장할 때 적절한 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "축 범위·그림 비율과 수집 방식 변경을 확인한다.",
+          "correct": true,
+          "explanation": "시각적 가파름이나 기록 변화가 인상을 바꿀 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "선이 세로로 길어 보이면 계산 없이 원인이 증명된다.",
+          "correct": false,
+          "explanation": "외형은 수치 임계값이나 인과의 증거가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "값이 가장 높은 시점의 직전 구간은 언제나 기울기도 최대다.",
+          "correct": false,
+          "explanation": "높은 수준과 큰 단위 시간당 증가는 다른 정보다."
+        },
+        {
+          "id": "o4",
+          "text": "단위 시간당 증가 15건 이상처럼 기준을 명시한다.",
+          "correct": true,
+          "explanation": "측정 가능한 규칙으로 급증 여부를 판정한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-time-series"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "그래프 해석",
+      "review": "급격함은 느낌 대신 수치·단위·임계값으로 정의한다. 그래프의 외형과 관측 방식, 인과 주장의 한계를 함께 검토한다.",
+      "memoryTip": "급증은 숫자 기준으로",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-time-series",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-136",
+      "prompt": "학습용 가상 추이에서 '연간 기울기 12건 이상'을 급증으로 정했다. 급증 구간과 해석으로 옳은 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "2021~2022년만 급증이며, 2022~2024년 내부 변화는 추가 관측이 필요하다.",
+          "correct": true,
+          "explanation": "기울기는 15건/년과 10건/년이고 뒤 구간은 2년 평균이다."
+        },
+        {
+          "id": "o2",
+          "text": "2022~2024년은 20건 증가했으므로 더 급증했다.",
+          "correct": false,
+          "explanation": "뒤 구간은 2년이므로 단위 시간당 변화로 비교해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "마지막 값이 가장 크므로 마지막 구간의 기울기도 최대다.",
+          "correct": false,
+          "explanation": "값의 높이와 증가 속도는 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "두 구간 모두 올라가므로 원인은 동일하다고 증명된다.",
+          "correct": false,
+          "explanation": "동일 방향의 변화가 같은 원인을 입증하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-time-series"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "불규칙한 간격에서는 증가량을 시간 차로 나누어 같은 단위로 비교한다. 관측점 사이의 세부 경로나 증가 원인은 이 그림만으로 확정하지 않는다.",
+      "memoryTip": "간격을 나눈 뒤 임계값 비교",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-time-series",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "scatter",
+        "title": "학습용 가상 연도별 작품 수",
+        "xLabel": "연도",
+        "yLabel": "작품 수(건)",
+        "labels": [
+          "2021",
+          "2022",
+          "2024"
+        ],
+        "series": [
+          {
+            "name": "작품 수",
+            "values": [
+              30,
+              45,
+              65
+            ],
+            "xValues": [
+              2021,
+              2022,
+              2024
+            ]
+          }
+        ],
+        "note": "급증 기준: 연간 기울기 12건 이상. 2023년 값은 관측하지 않음."
+      }
+    },
+    {
+      "id": "n12-new-137",
+      "prompt": "센서 위치·도로·행정구역 경계를 공간 자료로 표현할 때 대표적인 도형 대응은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "평균·중앙값·최빈값",
+          "correct": false,
+          "explanation": "수치의 대표값이지 위치·관계의 도형이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "CPU·RAM·스왑",
+          "correct": false,
+          "explanation": "실행 자원 구분이며 지도 도형이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "점·선·면",
+          "correct": true,
+          "explanation": "위치 하나, 연결 경로, 영역 경계를 서로 다른 형태로 표현한다."
+        },
+        {
+          "id": "o4",
+          "text": "파일명·확장자·컴파일러",
+          "correct": false,
+          "explanation": "이들은 공간 도형의 구분이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-geospatial"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "특징 구분",
+      "review": "공간 데이터는 위치뿐 아니라 거리·경계·연결 관계를 담는다. 표현 형태에 따라 센서 위치, 도로 경로, 지역별 집계 등 질문이 달라진다.",
+      "memoryTip": "점은 위치, 선은 경로, 면은 영역",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n12-c-geospatial",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-138",
+      "prompt": "지도에서 가까운 두 점 사이에 강과 우회 도로가 있다. 배달의 가장 빠른 길을 묻는 데 필요한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "주소 글자 수 차이만",
+          "correct": false,
+          "explanation": "문자열 길이는 이동 경로를 나타내지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "두 좌표 숫자의 크기만 비교",
+          "correct": false,
+          "explanation": "좌표계와 거리 단위, 도로 연결을 고려해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "면적이 넓은 지역을 무조건 통과",
+          "correct": false,
+          "explanation": "지역 면적만으로 최단 시간을 정할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "도로 연결과 이동 조건을 반영한 경로 정보",
+          "correct": true,
+          "explanation": "직선 거리와 실제 이동 시간은 다를 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-geospatial"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "반경 안인지, 같은 권역인지, 어떤 경로가 빠른지는 서로 다른 질문이다. 이동 질문에는 직선 거리뿐 아니라 도로망과 통행 조건이 필요하다.",
+      "memoryTip": "가까움 ≠ 빨리 도착",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n12-c-geospatial",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-139",
+      "prompt": "서로 다른 기관의 위치·시간 자료를 합쳐 지역 변화를 비교한다. 필요한 점검을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "좌표계·지역 경계·관측 기간 기준을 맞춘다.",
+          "correct": true,
+          "explanation": "같은 위치와 같은 시간 범위를 비교할 수 있어야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "센서 분포·표본 수·분모를 함께 확인한다.",
+          "correct": true,
+          "explanation": "많이 관측된 지역이 단순히 더 진하게 보일 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "색이 진한 지역이면 원인과 위험 수준이 자동 확정된다.",
+          "correct": false,
+          "explanation": "색은 집계와 구간 설정의 결과이며 인과의 증거가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "위도·경도 숫자에 언제나 평면 거리 공식을 바로 쓴다.",
+          "correct": false,
+          "explanation": "좌표 단위와 거리 계산 기준을 먼저 확인한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-geospatial"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "순서·절차",
+      "review": "시공간 결합은 좌표·경계·기간을 일치시키는 작업이 필요하다. 지도 해석에는 표본 분포와 적절한 분모도 포함한다.",
+      "memoryTip": "위치·시간·분모 맞추기",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n12-c-geospatial",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n12-new-140",
+      "prompt": "학습용 가상 그래프는 같은 기간의 지역별 사건 수다. A 인구 8만 명, B 2만 명일 때 적절한 비교는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "이 값만으로 두 지역의 모든 개인 위험이 정확히 확정된다.",
+          "correct": false,
+          "explanation": "노출량·측정 조건 등 추가 요인이 있어 결론 범위를 제한한다."
+        },
+        {
+          "id": "o2",
+          "text": "총건수는 A, 인구 1만 명당 건수는 B가 높다.",
+          "correct": true,
+          "explanation": "A는 80÷8=10건, B는 40÷2=20건/1만 명이다."
+        },
+        {
+          "id": "o3",
+          "text": "A의 총건수가 많으므로 주민당 발생도 반드시 높다.",
+          "correct": false,
+          "explanation": "주민당 비교에는 인구 분모를 적용해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "B의 면적 정보가 없으므로 인구당 단순 건수도 계산할 수 없다.",
+          "correct": false,
+          "explanation": "인구당 지표는 인구와 같은 기간의 건수로 계산할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-geospatial"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "지역별 건수와 분모를 적용한 비율은 다른 질문에 답한다. 같은 기간·경계와 관측 기준을 맞추고 실제 노출량을 얼마나 잘 반영하는지도 검토한다.",
+      "memoryTip": "총량과 인구당 비율 분리",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n12-c-geospatial",
+      "learningObjectiveIndices": [
+        0,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "학습용 가상 지역별 사건 수",
+        "xLabel": "지역",
+        "yLabel": "동일 기간 사건 수(건)",
+        "labels": [
+          "A",
+          "B"
+        ],
+        "series": [
+          {
+            "name": "사건 수",
+            "values": [
+              80,
+              40
+            ]
+          }
+        ],
+        "note": "A 인구 8만 명, B 인구 2만 명. 단순 인구당 건수 비교이며 개인 위험의 확정값이 아님."
+      }
+    },
+    {
+      "id": "n34-new-001",
+      "prompt": "서버 한 대의 RAM을 32GB에서 128GB로 바꾸고 서버 수는 유지했다. 어떤 확장인가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Scale-up",
+          "correct": true,
+          "explanation": "한 서버 내부의 메모리 용량을 늘렸다."
+        },
+        {
+          "id": "o2",
+          "text": "Scale-out",
+          "correct": false,
+          "explanation": "서버를 추가해 작업을 나누는 방식이다."
+        },
+        {
+          "id": "o3",
+          "text": "데이터 복제",
+          "correct": false,
+          "explanation": "같은 데이터의 사본을 여러 곳에 저장하는 전략이다."
+        },
+        {
+          "id": "o4",
+          "text": "엣지 처리",
+          "correct": false,
+          "explanation": "데이터 발생지 가까이에서 계산하는 처리 방식이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C01"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "한 노드의 자원을 키우면 수직 확장, 노드 수를 늘리면 수평 확장이다. 증설 대상이 서버 내부인지 서버 수인지 확인한다.",
+      "memoryTip": "한 대의 크기 vs 여러 대의 수",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C01",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-002",
+      "prompt": "가상 서비스에서 서버 추가 후 초당 처리 요청은 100개에서 300개로 늘었지만 요청 한 건의 응답시간은 1초로 같았다. 올바른 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "응답시간이 3초가 되었다.",
+          "correct": false,
+          "explanation": "처리 건수의 배수를 시간에 곱할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "처리량은 3배이고 개별 응답시간은 그대로다.",
+          "correct": true,
+          "explanation": "처리량은 단위 시간의 완료 건수이고 응답시간은 한 요청의 소요시간이다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 요청이 3배 빨리 끝난다.",
+          "correct": false,
+          "explanation": "한 건의 응답시간은 여전히 1초다."
+        },
+        {
+          "id": "o4",
+          "text": "성능 향상이 전혀 없다.",
+          "correct": false,
+          "explanation": "같은 시간에 완료하는 요청 수가 늘었다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C01"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "처리량과 지연시간은 다른 지표다. 독립 요청을 여러 서버가 동시에 처리하면 처리량만 증가할 수도 있다.",
+      "memoryTip": "초당 건수와 한 건의 시간 분리",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C01",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-003",
+      "prompt": "각 로그 파일을 독립 처리할 수 있고 파일 수가 계속 증가한다. 한 서버의 장착 한도에도 도달했다. 가장 적절한 다음 검토는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일을 한 CPU에서 반드시 순차 실행한다.",
+          "correct": false,
+          "explanation": "독립 파일이므로 순차 실행만 고집할 이유가 없다."
+        },
+        {
+          "id": "o2",
+          "text": "서버 수만 늘리고 실행 구조는 점검하지 않는다.",
+          "correct": false,
+          "explanation": "분할·결합과 통신 비용을 함께 설계해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "서버를 추가하고 파일을 분할 배정한다.",
+          "correct": true,
+          "explanation": "독립 작업은 여러 노드에 나누기 쉬워 수평 확장을 검토할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "같은 서버의 RAM을 한도 이상 장착한다.",
+          "correct": false,
+          "explanation": "물리적 장착 한도를 넘길 수는 없다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C01"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "작업 분할 가능성과 장비 한도를 함께 보고 확장 방식을 고른다. 수평 확장은 분산 실행과 결과 결합을 지원해야 효과가 난다.",
+      "memoryTip": "나눌 수 있는 작업인지 먼저",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C01",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-004",
+      "prompt": "가상 배치 120개를 개당 1분에 처리한다. 4대에 균등 분배하고 통신·병합이 6분 추가된다. 맞는 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "이 배치는 수평 확장 사례다.",
+          "correct": true,
+          "explanation": "독립 작업을 여러 서버로 분할했다."
+        },
+        {
+          "id": "o2",
+          "text": "실제 속도 향상은 정확히 4배다.",
+          "correct": false,
+          "explanation": "120÷36은 약 3.33배이며 통신 비용이 남는다."
+        },
+        {
+          "id": "o3",
+          "text": "분할 가능한 작업인지 확인할 필요가 없다.",
+          "correct": false,
+          "explanation": "균등 분할과 독립 실행이 계산의 전제다."
+        },
+        {
+          "id": "o4",
+          "text": "전체 시간은 36분이다.",
+          "correct": true,
+          "explanation": "각 서버의 계산 30분에 추가 비용 6분을 더한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C01"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "분산 완료 시간은 가장 늦은 계산 시간과 조정 비용을 함께 포함한다. 서버 수가 곧 실제 속도 향상 배수는 아니다.",
+      "memoryTip": "계산 시간 + 조정 시간",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C01",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-005",
+      "prompt": "문서별 단어 수를 여러 서버로 계산한다. 전체 단어 빈도를 얻는 정상적인 흐름은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "부분 결과를 결합하지 않는다.",
+          "correct": false,
+          "explanation": "전체 문서의 빈도표가 완성되지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "문서를 나누고 부분 빈도를 계산한 뒤 같은 단어끼리 합한다.",
+          "correct": true,
+          "explanation": "서로 다른 입력을 처리한 부분 결과를 동일 집계 규칙으로 결합한다."
+        },
+        {
+          "id": "o3",
+          "text": "각 서버 평균을 단순히 최댓값으로 바꾼다.",
+          "correct": false,
+          "explanation": "최댓값은 전체 등장 횟수 합계가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 서버가 전체 문서를 세고 결과를 모두 더한다.",
+          "correct": false,
+          "explanation": "같은 문서를 서버 수만큼 중복 집계한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C02"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "분산 계산은 입력 분할·부분 실행·결과 결합으로 이어진다. 입력의 중복·누락과 결합 규칙의 정확성을 점검한다.",
+      "memoryTip": "나누고 계산하고 합친다",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C02",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-006",
+      "prompt": "노드 장애로 입력 파일과 실행 중 계산을 잃었다. 데이터 복제와 작업 재실행을 구별한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "복제본이 있으면 모든 계산 결과가 이미 완료되어 있다.",
+          "correct": false,
+          "explanation": "입력 사본과 계산 완료 여부는 별개다."
+        },
+        {
+          "id": "o2",
+          "text": "복제는 CPU 계산을 자동으로 취소하는 기능이다.",
+          "correct": false,
+          "explanation": "복제는 사본을 유지하는 저장 전략이다."
+        },
+        {
+          "id": "o3",
+          "text": "복제본으로 입력을 읽고 실패한 계산은 다시 수행한다.",
+          "correct": true,
+          "explanation": "복제는 데이터 보존, 재실행은 계산 복구 역할을 한다."
+        },
+        {
+          "id": "o4",
+          "text": "작업 재실행만으로 사라진 원본을 반드시 복원한다.",
+          "correct": false,
+          "explanation": "다시 계산할 입력이 남아 있어야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C02"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "입력이 남아 있어야 실패한 작업을 다른 노드에서 다시 계산할 수 있다. 복제와 재실행은 서로 보완하지만 같은 기능은 아니다.",
+      "memoryTip": "입력은 복제, 계산은 재실행",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C02",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-007",
+      "prompt": "처리 결과는 저장됐지만 완료 응답만 유실됐다. 같은 작업을 재시도할 때 중복 합산을 막는 방법은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "응답이 없으면 실패로 확정하고 무조건 더한다.",
+          "correct": false,
+          "explanation": "완료 응답만 사라졌을 수도 있어 두 번 더할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "재시도할 때마다 새로운 작업 ID를 만든다.",
+          "correct": false,
+          "explanation": "같은 원작업임을 추적하기 어려워진다."
+        },
+        {
+          "id": "o3",
+          "text": "사본 수를 늘리면 중복 합산이 자동으로 사라진다.",
+          "correct": false,
+          "explanation": "저장 사본과 결과 중복 방지는 별도 문제다."
+        },
+        {
+          "id": "o4",
+          "text": "작업 ID별 결과를 한 번만 반영한다.",
+          "correct": true,
+          "explanation": "이미 완료한 ID라면 기존 결과를 사용하거나 같은 키로 갱신한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C02"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "네트워크 시간 초과는 작업 미수행의 증거가 아니다. 같은 작업 ID의 효과가 중복되지 않게 멱등 처리를 설계한다.",
+      "memoryTip": "재시도에도 같은 작업 ID",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C02",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-008",
+      "prompt": "가상 파티션 P1=8, P2=12, P3=20이며 P3의 완료 응답이 유실됐다. 복구 설계로 적절한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "P3 재실행 결과는 P3 키의 기존 결과를 대체한다.",
+          "correct": true,
+          "explanation": "같은 파티션 결과가 두 번 합산되지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "최종 합계는 파티션별 결과를 한 번씩 합한 40이다.",
+          "correct": true,
+          "explanation": "8+12+20=40이다."
+        },
+        {
+          "id": "o3",
+          "text": "P3를 한 번 더 받으면 합계를 60으로 확정한다.",
+          "correct": false,
+          "explanation": "재전송을 새 입력처럼 더하면 20이 중복된다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 노드가 정상일 때만 결과가 정확할 수 있다.",
+          "correct": false,
+          "explanation": "복제·재실행·중복 방지가 있으면 일부 장애를 복구할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C02"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "부분 실패를 전제로 입력과 작업 상태를 추적한다. 복구 가능성과 중복 없는 반영을 각각 확보해야 전체 결과가 정확하다.",
+      "memoryTip": "복구 + 한 번 반영",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C02",
+      "learningObjectiveIndices": [
+        0,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-009",
+      "prompt": "대용량 CSV 읽기를 기다리며 CPU 사용률은 낮고 디스크 사용률은 높다. 우선 개선 효과를 측정할 자원은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "CPU 클럭",
+          "correct": false,
+          "explanation": "낮은 CPU 사용률은 계산보다 데이터 공급을 기다리는 상황을 시사한다."
+        },
+        {
+          "id": "o2",
+          "text": "노드 간 네트워크 대역폭",
+          "correct": false,
+          "explanation": "주어진 관측에서 사용률이 높은 장치는 디스크이며 전송 병목 근거는 없다."
+        },
+        {
+          "id": "o3",
+          "text": "저장장치 I/O",
+          "correct": true,
+          "explanation": "CPU가 아니라 디스크 읽기가 작업을 제한하는 상황이다."
+        },
+        {
+          "id": "o4",
+          "text": "GPU 연산 코어",
+          "correct": false,
+          "explanation": "디스크가 데이터를 공급하지 못하면 연산 코어는 대기한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C03"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "CPU·메모리·저장·네트워크는 서로 다른 대기를 줄인다. 사용률과 단계별 시간을 측정해 전체를 제한하는 자원을 찾는다.",
+      "memoryTip": "병목 단계부터 개선",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C03",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-010",
+      "prompt": "같은 데이터를 반복 분석하며 충분한 RAM이 있다. 첫 읽기 뒤 데이터를 캐시하는 주된 이유는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "원본의 영구 보존을 없애기 위해서다.",
+          "correct": false,
+          "explanation": "메모리 캐시는 영구 저장과 별개다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 데이터의 품질을 자동 수정하기 위해서다.",
+          "correct": false,
+          "explanation": "캐시는 결측·오류를 고치지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "순차 알고리즘을 무조건 병렬화하기 위해서다.",
+          "correct": false,
+          "explanation": "메모리 보관과 알고리즘 병렬화는 다른 작업이다."
+        },
+        {
+          "id": "o4",
+          "text": "반복 디스크 읽기를 줄이기 위해서다.",
+          "correct": true,
+          "explanation": "재사용 데이터를 메모리에 두면 이후 I/O 대기를 줄일 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C03"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "인메모리 재사용은 반복 읽기 비용을 줄이는 전략이다. 용량 부족 시 디스크 사용이 발생할 수 있으므로 데이터 크기도 확인한다.",
+      "memoryTip": "캐시는 반복 I/O 절감",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C03",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-011",
+      "prompt": "가상 측정에서 읽기 50초·계산 30초·전송 20초가 차례로 걸린다. 계산 단계만 2배 빨라지면 총시간은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "85초",
+          "correct": true,
+          "explanation": "50+30÷2+20=85초다."
+        },
+        {
+          "id": "o2",
+          "text": "50초",
+          "correct": false,
+          "explanation": "계산 외 70초는 그대로 남는다."
+        },
+        {
+          "id": "o3",
+          "text": "15초",
+          "correct": false,
+          "explanation": "15초는 개선된 계산 단계만의 시간이다."
+        },
+        {
+          "id": "o4",
+          "text": "200초",
+          "correct": false,
+          "explanation": "계산 성능 향상을 전체 시간 증가로 바꿀 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C03"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "그래프 해석",
+      "review": "개선한 단계의 시간만 바뀌며 나머지 대기는 남는다. 장비 성능 배수와 전체 작업 성능 배수를 분리해서 계산한다.",
+      "memoryTip": "바뀐 단계만 다시 더한다",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C03",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 분석의 단계별 소요시간",
+        "xLabel": "단계",
+        "yLabel": "초",
+        "labels": [
+          "읽기",
+          "계산",
+          "전송"
+        ],
+        "series": [
+          {
+            "name": "기존",
+            "values": [
+              50,
+              30,
+              20
+            ]
+          }
+        ],
+        "note": "학습용 가상 수치이며 단계는 순차 실행한다."
+      }
+    },
+    {
+      "id": "n34-new-012",
+      "prompt": "GPU·캐시·고속 네트워크 활용 조건으로 맞는 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "GPU를 추가하면 모든 순차 작업이 같은 배수로 빨라진다.",
+          "correct": false,
+          "explanation": "작업 구조와 데이터 이동에 따라 효과가 달라진다."
+        },
+        {
+          "id": "o2",
+          "text": "GPU는 나눌 수 있는 대량 행렬 연산에서 이점을 낼 수 있다.",
+          "correct": true,
+          "explanation": "유사 연산을 병렬 실행할 때 가속기 활용도가 높아진다."
+        },
+        {
+          "id": "o3",
+          "text": "노드 간 전송이 길면 고속 네트워크를 검토한다.",
+          "correct": true,
+          "explanation": "통신 대기가 주요 병목인 경우에 해당한다."
+        },
+        {
+          "id": "o4",
+          "text": "캐시는 저장 데이터가 아무리 커도 RAM을 쓰지 않는다.",
+          "correct": false,
+          "explanation": "캐시도 메모리 용량을 차지한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C03"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "가속기는 적합한 계산, 캐시는 재사용, 네트워크는 노드 간 전송을 개선한다. 한 자원을 바꾸면 다른 단계가 새 병목이 될 수 있다.",
+      "memoryTip": "자원과 줄일 대기를 연결",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C03",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-013",
+      "prompt": "'공장 안에서 즉시 계산', '실행 의존성을 이미지로 묶기', '수요에 따라 임대 자원 증감'의 연결이 맞는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "클라우드·엣지·컨테이너",
+          "correct": false,
+          "explanation": "처리 위치와 실행 패키징의 역할이 바뀌었다."
+        },
+        {
+          "id": "o2",
+          "text": "컨테이너·클라우드·엣지",
+          "correct": false,
+          "explanation": "컨테이너는 공장이라는 물리 위치를 뜻하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "세 가지 모두 데이터베이스 복제",
+          "correct": false,
+          "explanation": "세 기술은 사본 유지 자체를 뜻하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "엣지·컨테이너·클라우드",
+          "correct": true,
+          "explanation": "각각 처리 위치, 실행 포장, 자원 제공 방식이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C04"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "엣지는 어디서 계산하는지, 컨테이너는 무엇을 묶어 실행하는지, 클라우드는 자원을 어떻게 제공받는지에 관한 개념이다.",
+      "memoryTip": "위치·포장·자원",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C04",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-014",
+      "prompt": "개발 PC와 서버의 라이브러리 버전 차이로 분석이 실패한다. 컨테이너의 직접적인 이점은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "프로그램과 의존성을 묶어 환경 차이를 줄인다.",
+          "correct": true,
+          "explanation": "동일한 실행 이미지로 배포 환경을 맞출 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "분석 데이터의 결측이 자동으로 사라진다.",
+          "correct": false,
+          "explanation": "실행 환경 표준화는 데이터 정제를 대신하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "영속 데이터 보존 정책이 필요 없어진다.",
+          "correct": false,
+          "explanation": "컨테이너 수명과 데이터 수명을 따로 설계한다."
+        },
+        {
+          "id": "o4",
+          "text": "사용 자원 비용이 항상 0원이 된다.",
+          "correct": false,
+          "explanation": "실행하는 자원과 운영 비용이 필요하다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C04"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "컨테이너는 의존성과 실행 구성을 묶고 격리한다. 데이터 정확성·영속 보존·비용 관리까지 자동 보장하는 것은 아니다.",
+      "memoryTip": "실행 재현성을 돕는 포장",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C04",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-015",
+      "prompt": "위험 감지는 20ms 안에 끝나야 하지만 외부 회선 왕복만 80ms다. 즉시 감지와 장기 분석을 어떻게 나누는 것이 적절한가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "컨테이너를 쓰면 회선 왕복 시간이 0이 된다.",
+          "correct": false,
+          "explanation": "실행 패키징은 물리적 전송 지연을 없애지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "현장 엣지에서 감지하고 클라우드에서 장기 통합 분석한다.",
+          "correct": true,
+          "explanation": "통신 왕복을 피해야 하는 판단과 대규모 보존·분석을 분리한다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 원본을 왕복한 뒤 20ms 감지를 보장한다.",
+          "correct": false,
+          "explanation": "왕복 80ms만으로 감지 제한을 초과한다."
+        },
+        {
+          "id": "o4",
+          "text": "월간 통계도 현장 알람이 울릴 때만 만든다.",
+          "correct": false,
+          "explanation": "장기 분석 목적에 필요한 자료를 별도로 보존해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C04"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "짧은 지연이 필요한 판단은 데이터 가까이에 둔다. 엣지 결과를 클라우드에 모아 보존·학습·통합 분석하는 혼합 구조가 가능하다.",
+      "memoryTip": "즉시 현장, 장기 통합",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C04",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-016",
+      "prompt": "가상 서비스가 행사 때만 요청이 늘어난다. 클라우드·컨테이너 운영 계획 중 타당한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "동일 컨테이너 이미지를 엣지와 클라우드에 활용할 수 있다.",
+          "correct": true,
+          "explanation": "처리 위치와 실행 패키징은 함께 사용할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "자동 확장을 켜면 사용량과 전송 비용을 볼 필요가 없다.",
+          "correct": false,
+          "explanation": "자동 확장도 사용량과 비용 한도 관리가 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "수요가 줄면 자원을 축소해 비용을 관리한다.",
+          "correct": true,
+          "explanation": "탄력성은 증설과 축소를 모두 포함한다."
+        },
+        {
+          "id": "o4",
+          "text": "서버 증설 전 DB 처리 한도도 확인한다.",
+          "correct": true,
+          "explanation": "DB가 병목이면 실행 서버만 늘려도 전체 성능은 제한된다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C04"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "클라우드 탄력성은 수요에 맞춘 자원 조절이며 비용과 다른 병목을 함께 봐야 한다. 컨테이너와 엣지는 클라우드와 결합할 수 있다.",
+      "memoryTip": "자동 확장에도 한도와 비용",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C04",
+      "learningObjectiveIndices": [
+        0,
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-017",
+      "prompt": "수집기가 목록의 다음 페이지 링크를 따라가고 각 상세 페이지의 제목을 저장했다. 링크 탐색과 제목 추출의 역할은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "링크 탐색은 크롤링, 제목 추출은 스크래핑이다.",
+          "correct": true,
+          "explanation": "주소 발견과 페이지 내부 필드 추출을 나눈다."
+        },
+        {
+          "id": "o2",
+          "text": "둘 다 데이터 압축이다.",
+          "correct": false,
+          "explanation": "압축은 저장 표현의 크기를 줄이는 작업이다."
+        },
+        {
+          "id": "o3",
+          "text": "제목 추출이 네트워크 라우팅이다.",
+          "correct": false,
+          "explanation": "문서에서 값을 읽는 작업은 스크래핑이다."
+        },
+        {
+          "id": "o4",
+          "text": "링크 탐색만으로 모든 제목이 구조화된다.",
+          "correct": false,
+          "explanation": "방문한 페이지에서 추출 규칙을 적용해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C05"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            7,
+            8
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "크롤링은 탐색할 URL을 발견하고 스크래핑은 응답 문서에서 필요한 값을 뽑는다. 두 과정이 한 수집 파이프라인에 들어갈 수 있다.",
+      "memoryTip": "발견과 추출",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C05",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-018",
+      "prompt": "필요한 표가 응답 HTML에 이미 포함돼 있다. 수천 페이지 수집 시 먼저 검토할 방식은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "서버에 없는 표를 임의 생성한다.",
+          "correct": false,
+          "explanation": "관측하지 않은 자료를 수집 결과로 만들 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "HTTP 응답을 받아 HTML 파서로 추출한다.",
+          "correct": true,
+          "explanation": "JavaScript 실행이 필요 없다면 브라우저 없이 파싱할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 페이지에서 화면 녹화를 수행한다.",
+          "correct": false,
+          "explanation": "구조화 값을 추출하는 데 불필요한 비용이 크다."
+        },
+        {
+          "id": "o4",
+          "text": "항상 브라우저를 띄워야만 HTML을 읽을 수 있다.",
+          "correct": false,
+          "explanation": "정적 응답은 HTML 파서로 읽을 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C05"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            7,
+            8
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "도구는 값이 만들어지는 방식에 맞춰 고른다. JavaScript 실행 후에만 보이는 값은 브라우저 자동화나 제공 API를 검토한다.",
+      "memoryTip": "정적 파싱, 동적 실행",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C05",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-019",
+      "prompt": "목록 5페이지를 방문했지만 저장된 고유 공지는 첫 페이지의 20개뿐이다. 우선 점검할 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "20개를 5번 복사해 100개라고 보고한다.",
+          "correct": false,
+          "explanation": "같은 자료의 반복은 새 공지가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "고유 ID 검사는 생략한다.",
+          "correct": false,
+          "explanation": "고유 ID는 중복·누락을 확인하는 핵심 단서다."
+        },
+        {
+          "id": "o3",
+          "text": "페이지네이션 URL과 고유 ID별 중복이다.",
+          "correct": true,
+          "explanation": "같은 페이지를 반복 요청했거나 중복 저장했을 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "방문 횟수가 5회이므로 수집 완료로 판정한다.",
+          "correct": false,
+          "explanation": "방문 수는 유효 고유 레코드 수를 보장하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C05"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            7,
+            8
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "수집 품질은 요청 횟수가 아니라 범위 내 고유 레코드와 필수 필드로 검증한다. 페이지 이동 규칙과 응답 내용을 함께 점검한다.",
+      "memoryTip": "방문 수 ≠ 수집 건수",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C05",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-020",
+      "prompt": "새 수집기의 정확성과 부하를 점검하려 한다. 적절한 점검을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "HTTP 성공이어도 제목 결측률을 확인한다.",
+          "correct": true,
+          "explanation": "선택자가 바뀌면 성공 응답에서 빈값만 추출될 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "요청 간격과 동시 요청 수를 조절한다.",
+          "correct": true,
+          "explanation": "수집 대상 서버에 과도한 부하를 주지 않도록 한다."
+        },
+        {
+          "id": "o3",
+          "text": "robots.txt를 허용하면 모든 자료의 재이용 권한이 생긴다.",
+          "correct": false,
+          "explanation": "접근 지침과 저작권·개인정보·이용 조건은 별도 검토한다."
+        },
+        {
+          "id": "o4",
+          "text": "방문 URL 집합을 저장해 순환 링크의 반복을 막는다.",
+          "correct": true,
+          "explanation": "이미 방문한 주소를 기억하면 불필요한 재방문을 줄인다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C05"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            7,
+            8
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "주소 중복·필드 누락·요청 부하를 함께 검사한다. 수집 시각과 원본 URL도 남기면 잘못 추출된 결과를 추적하기 쉽다.",
+      "memoryTip": "범위·필드·부하를 함께",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C05",
+      "learningObjectiveIndices": [
+        0,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-021",
+      "prompt": "책의 제목과 저자 이름만 필요하다. GraphQL이 요청에서 직접 표현할 수 있는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "원본 데이터 오류의 자동 수정",
+          "correct": false,
+          "explanation": "요청 형식은 데이터 정제 기능이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "필요한 제목·저자 필드의 응답 구조",
+          "correct": true,
+          "explanation": "클라이언트가 요청할 필드를 지정한다."
+        },
+        {
+          "id": "o3",
+          "text": "인증 없이 모든 비공개 데이터 읽기",
+          "correct": false,
+          "explanation": "필드 선택과 접근 권한은 별개다."
+        },
+        {
+          "id": "o4",
+          "text": "어떤 깊이의 쿼리도 비용 없이 실행",
+          "correct": false,
+          "explanation": "중첩 관계 조회는 서버 부하를 만들 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "REST는 리소스와 HTTP 메서드를 중심으로 요청하고 GraphQL은 필요한 필드 구조를 지정한다. 필드 선택이 권한과 비용 제한을 없애지는 않는다.",
+      "memoryTip": "필드 선택과 권한은 별개",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C06",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-022",
+      "prompt": "조회 API의 토큰은 유효하지만 쓰기 권한이 없다. 이 토큰으로 수정 요청을 해도 되는가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "속도 제한만 지키면 쓰기 권한은 필요 없다.",
+          "correct": false,
+          "explanation": "호출량과 기능 권한은 독립 조건이다."
+        },
+        {
+          "id": "o2",
+          "text": "OAuth는 데이터 타입 변환 기능이다.",
+          "correct": false,
+          "explanation": "사용자가 허용한 접근을 위임하는 흐름에 쓰인다."
+        },
+        {
+          "id": "o3",
+          "text": "인증 성공과 별개로 쓰기 권한이 있어야 한다.",
+          "correct": true,
+          "explanation": "호출 주체 확인과 허용 작업 범위는 다른 조건이다."
+        },
+        {
+          "id": "o4",
+          "text": "토큰이 있으면 모든 작업을 허용한다.",
+          "correct": false,
+          "explanation": "토큰에는 범위와 역할 제한이 있을 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "인증은 누가 요청하는지, 권한은 무엇을 할 수 있는지, 속도 제한은 얼마나 호출할 수 있는지를 다룬다.",
+      "memoryTip": "누구·무엇·얼마나",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C06",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-023",
+      "prompt": "가상 API가 응답당 200건과 다음 커서를 준다. 총 900건을 빠짐없이 읽는 최소 정상 요청 수는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "4회",
+          "correct": false,
+          "explanation": "4회로는 최대 800건이다."
+        },
+        {
+          "id": "o2",
+          "text": "900회",
+          "correct": false,
+          "explanation": "한 요청에 한 건만 받는 조건이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "1회",
+          "correct": false,
+          "explanation": "첫 응답 뒤에도 다음 커서를 따라가야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "5회",
+          "correct": true,
+          "explanation": "200건씩 네 번과 마지막 100건 한 번이 필요하다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "페이지네이션에서는 응답이 전체 자료인지 확인해야 한다. 페이지 저장과 다음 커서를 기록하고 재수집 시 원본 ID로 중복을 막는다.",
+      "memoryTip": "마지막 커서까지",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C06",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-024",
+      "prompt": "조회 재시도와 새 레코드 생성 요청을 운영할 때 옳은 계획을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "제한 응답의 재시도 규칙에 맞춰 요청을 늦춘다.",
+          "correct": true,
+          "explanation": "백오프와 큐는 과도한 재요청을 줄인다."
+        },
+        {
+          "id": "o2",
+          "text": "생성 응답 유실 시 같은 요청의 처리 여부를 확인한다.",
+          "correct": true,
+          "explanation": "생성은 완료됐지만 응답만 사라졌을 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "재수신 페이지는 원본 ID로 병합한다.",
+          "correct": true,
+          "explanation": "페이지 재시도로 같은 자료가 두 번 누적되는 것을 막는다."
+        },
+        {
+          "id": "o4",
+          "text": "오류가 나면 토큰을 로그에 그대로 공개한다.",
+          "correct": false,
+          "explanation": "인증 정보는 노출하지 말고 필요한 진단 정보만 기록한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "API 수집은 권한·한도·페이지 범위·재시도를 함께 관리한다. 상태 변경 요청은 멱등 키나 처리 상태로 중복 생성을 막아야 한다.",
+      "memoryTip": "한도 준수, ID 기준 반영",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C06",
+      "learningObjectiveIndices": [
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-025",
+      "prompt": "서버가 브라우저에 새 점수만 계속 보내고 브라우저의 지속적 역방향 메시지는 필요 없다. 요구에 직접 맞는 방식은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "매초 파일 전체를 업로드한다.",
+          "correct": false,
+          "explanation": "필요한 방향의 실시간 스트림을 설명하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "SQL JOIN",
+          "correct": false,
+          "explanation": "둘 이상의 표를 키나 조건으로 연결하는 데이터 연산이다."
+        },
+        {
+          "id": "o3",
+          "text": "SSE",
+          "correct": true,
+          "explanation": "서버에서 클라이언트로 전달하는 일방향 스트림에 맞는다."
+        },
+        {
+          "id": "o4",
+          "text": "WebSocket만 가능하다.",
+          "correct": false,
+          "explanation": "양방향 연결도 가능하지만 주어진 요구에 필수는 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C07"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "SSE는 서버→클라이언트 흐름, WebSocket은 지속적인 양방향 통신, Webhook은 사건 발생 시 수신 URL 호출에 적합하다.",
+      "memoryTip": "SSE는 서버에서 화면으로",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C07",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-026",
+      "prompt": "MQTT에서 온도 센서는 'factory/A/temp'에 발행하고 저장 서비스는 그 토픽을 구독한다. broker의 역할은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모든 센서 온도를 보정한다.",
+          "correct": false,
+          "explanation": "메시지 전달과 센서 측정 보정은 다른 역할이다."
+        },
+        {
+          "id": "o2",
+          "text": "클라이언트의 Python 코드를 작성한다.",
+          "correct": false,
+          "explanation": "broker는 메시지 중개 역할이다."
+        },
+        {
+          "id": "o3",
+          "text": "토픽 이름을 센서의 전압 단위로 바꾼다.",
+          "correct": false,
+          "explanation": "토픽은 메시지 분류·구독에 사용하는 이름이다."
+        },
+        {
+          "id": "o4",
+          "text": "발행 메시지를 받아 구독자에게 전달한다.",
+          "correct": true,
+          "explanation": "생산자와 소비자가 상대 주소를 직접 관리하지 않게 연결한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C07"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "MQTT는 발행자·broker·토픽·구독자로 연결된다. 소비자가 늘어도 센서는 각 소비자의 개별 주소를 알 필요가 없다.",
+      "memoryTip": "발행 → broker → 구독",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C07",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-027",
+      "prompt": "회선 복구 후 센서값이 한꺼번에 도착했다. 현재 상태와 과거 상태를 나누는 데 가장 필요한 정보는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "측정 발생 시각과 측정 ID",
+          "correct": true,
+          "explanation": "오래된 측정과 재전송 중복을 식별하는 데 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "화면 글자 크기",
+          "correct": false,
+          "explanation": "이벤트 시점과 중복 여부를 알 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "수신 시각만으로 모든 측정을 현재값으로 간주",
+          "correct": false,
+          "explanation": "지연된 과거값이 현재 상태로 잘못 보인다."
+        },
+        {
+          "id": "o4",
+          "text": "broker 제품 이름만 기록",
+          "correct": false,
+          "explanation": "개별 메시지의 시점과 식별 정보를 대신하지 못한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C07"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "실시간 경로에도 지연·중복·단절이 생긴다. 발생 시각과 처리 시각을 구별하고 메시지 ID로 중복을 점검한다.",
+      "memoryTip": "발생 시각과 수신 시각 분리",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C07",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-028",
+      "prompt": "결제 완료 알림·채팅·센서 전달의 설계로 타당한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "실시간 프로토콜을 쓰면 센서 오류도 없어지므로 검증을 생략한다.",
+          "correct": false,
+          "explanation": "빠른 전달은 측정 정확성을 보장하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "결제 사건을 등록 URL에 알리는 데 Webhook을 검토한다.",
+          "correct": true,
+          "explanation": "사건 발생 시 수신 서버로 HTTP 요청을 보낼 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "서로 계속 메시지를 보내는 채팅에 WebSocket을 검토한다.",
+          "correct": true,
+          "explanation": "유지되는 양방향 연결에 적합하다."
+        },
+        {
+          "id": "o4",
+          "text": "MQTT 토픽 접근에는 인증·권한을 둔다.",
+          "correct": true,
+          "explanation": "토픽에 연결됐다는 이유만으로 모든 발행을 신뢰하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C07"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "통신 방식은 방향·연결·생산자와 소비자 구조에 맞춰 고른다. 어떤 방식이든 인증과 데이터 검증, 재연결 정책이 필요하다.",
+      "memoryTip": "전달 방식과 품질은 별도",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C07",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-029",
+      "prompt": "센서값 1,000개를 평균 하나로 바꿔 전송했다. 이 연산의 이름과 변화는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "무손실 압축이므로 모든 파형을 그대로 복원한다.",
+          "correct": false,
+          "explanation": "평균만으로 원래 순서와 각 값을 알 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "웹 크롤링이며 URL이 늘어난다.",
+          "correct": false,
+          "explanation": "센서 요약은 웹 주소 탐색이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "복제이며 동일 사본 수가 늘어난다.",
+          "correct": false,
+          "explanation": "관측을 요약하는 것은 사본 추가와 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "집계이며 개별 값의 시간 순서를 잃을 수 있다.",
+          "correct": true,
+          "explanation": "여러 관측을 요약 통계로 바꾸는 작업이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C08"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            6,
+            10
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "필터는 보낼 관측을 고르고 집계는 여러 값을 요약하며 압축은 표현 크기를 줄인다. 집계와 무손실 압축의 정보 보존 성질은 다르다.",
+      "memoryTip": "평균은 요약이지 원본이 아니다",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C08",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-030",
+      "prompt": "가상 센서가 초당 400개를 8바이트씩 만들고 요약 4개를 같은 크기로 보낸다. 헤더 제외 전송량 감소율은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "99%",
+          "correct": true,
+          "explanation": "원본 3,200바이트, 요약 32바이트이므로 1-32/3200=0.99다."
+        },
+        {
+          "id": "o2",
+          "text": "1%",
+          "correct": false,
+          "explanation": "1%는 원본 대비 남은 크기다."
+        },
+        {
+          "id": "o3",
+          "text": "100%",
+          "correct": false,
+          "explanation": "32바이트를 계속 전송하므로 전부 제거한 것은 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "4%",
+          "correct": false,
+          "explanation": "요약 개수 4를 전체 감소율로 읽을 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C08"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            6,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "전송 감소율은 (원본-전송량)/원본으로 계산한다. 실제 메시지 크기에는 시각·ID·단위 같은 헤더도 더해야 한다.",
+      "memoryTip": "감소율 = 1 - 남은 비율",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C08",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-031",
+      "prompt": "평균 진동은 정상이지만 짧은 충격 파형을 사후 조사해야 한다. 가장 적절한 원본 보존 규칙은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "이상 기준을 장치마다 기록 없이 다르게 둔다.",
+          "correct": false,
+          "explanation": "장치 간 비교와 재현이 어려워진다."
+        },
+        {
+          "id": "o2",
+          "text": "이상 감지 전후 일정 구간 원본을 버퍼에서 보존한다.",
+          "correct": true,
+          "explanation": "요약으로 잃는 순간 파형을 다시 확인할 근거가 된다."
+        },
+        {
+          "id": "o3",
+          "text": "평균만 남기고 원본은 즉시 전부 폐기한다.",
+          "correct": false,
+          "explanation": "짧은 충격의 정확한 모양을 복원할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "최댓값을 알면 모든 관측 순서가 복원된다.",
+          "correct": false,
+          "explanation": "최댓값은 값 하나이며 파형 전체를 담지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C08"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            6,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "요약의 이점과 정보 손실을 함께 평가한다. 평상시 요약, 이상 시 전후 원본 저장처럼 목적에 맞는 혼합 정책을 둘 수 있다.",
+      "memoryTip": "이상 구간은 원본 근거",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C08",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-032",
+      "prompt": "엣지 전처리 결과를 여러 공장에서 비교하려 한다. 필요한 사항을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "범위 위반값의 수와 원인을 남긴다.",
+          "correct": true,
+          "explanation": "조용히 제거하면 수집 품질 문제를 놓칠 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "요약 전송량이 작으면 센서 보정은 필요 없다.",
+          "correct": false,
+          "explanation": "전송 효율과 센서 정확성은 별개다."
+        },
+        {
+          "id": "o3",
+          "text": "집계 구간·단위·측정 주기를 기록한다.",
+          "correct": true,
+          "explanation": "동일한 숫자도 단위와 시간 구간이 다르면 의미가 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "평균과 함께 최댓값·변동을 검토한다.",
+          "correct": true,
+          "explanation": "평균에 가려진 피크와 흔들림을 보완한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C08"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            6,
+            10
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "엣지 전처리는 전송 비용뿐 아니라 분석 가능성과 장치 간 비교 조건을 바꾼다. 전처리 규칙과 품질 지표도 함께 관리해야 한다.",
+      "memoryTip": "요약 규칙도 메타데이터",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C08",
+      "learningObjectiveIndices": [
+        0,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-033",
+      "prompt": "수정 시각 이후 레코드만 조회하는 증분 수집에서 원본의 물리 삭제가 목적지에 남았다. 이유로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "삭제된 행은 수정 시각 조회 결과에 없을 수 있다.",
+          "correct": true,
+          "explanation": "삭제 표식이나 CDC 삭제 사건 반영 규칙이 따로 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "증분 적재는 항상 전체 행을 다시 읽는다.",
+          "correct": false,
+          "explanation": "증분은 기준점 이후 변경분을 읽는 방식이다."
+        },
+        {
+          "id": "o3",
+          "text": "ETL이면 삭제가 자동 검출된다.",
+          "correct": false,
+          "explanation": "변환 순서만으로 원본 삭제 사건을 알 수는 없다."
+        },
+        {
+          "id": "o4",
+          "text": "원본 키를 저장하면 삭제 사건도 저절로 생긴다.",
+          "correct": false,
+          "explanation": "키는 식별 정보이며 삭제 발생을 별도로 포착해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C09"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "전체·증분은 가져올 범위의 구분이다. 수정 시각 기반 증분에서 삭제와 지연 변경을 놓치지 않도록 기준점과 반영 정책을 정한다.",
+      "memoryTip": "삭제는 별도 포착",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C09",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-034",
+      "prompt": "승인된 원본을 저장한 후 목적별 분석 테이블로 변환한다. 순서와 보완 조건이 맞는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "원본 저장만 하면 품질 검사는 불필요하다.",
+          "correct": false,
+          "explanation": "저장했다고 분석에 적합한 자료가 되는 것은 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "ELT이며 원본 접근 제어와 정제 계층이 필요하다.",
+          "correct": true,
+          "explanation": "Extract→Load→Transform의 순서다."
+        },
+        {
+          "id": "o3",
+          "text": "ETL이며 변환은 저장 전에 끝났다.",
+          "correct": false,
+          "explanation": "주어진 변환은 적재 후 수행된다."
+        },
+        {
+          "id": "o4",
+          "text": "CDC이므로 변환은 존재할 수 없다.",
+          "correct": false,
+          "explanation": "변경 포착 방식과 변환 순서는 별개다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C09"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "ETL은 추출→변환→적재, ELT는 추출→적재→변환이다. 원본을 보존하더라도 품질·권한·정제 규칙은 필요하다.",
+      "memoryTip": "T가 L 앞인지 뒤인지",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C09",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-035",
+      "prompt": "추출 중 일부 배치가 실패했다. 마지막 성공 기준 시각은 언제 갱신하는 것이 적절한가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "실패한 ID는 영구 제외한다.",
+          "correct": false,
+          "explanation": "복구해야 할 데이터를 누락시키는 정책이다."
+        },
+        {
+          "id": "o2",
+          "text": "재시도 때마다 모든 키를 새로 만든다.",
+          "correct": false,
+          "explanation": "같은 원본의 중복 반영을 막기 어렵다."
+        },
+        {
+          "id": "o3",
+          "text": "해당 범위가 목적지에 성공적으로 반영된 뒤 갱신한다.",
+          "correct": true,
+          "explanation": "미반영 범위를 건너뛰지 않게 성공 상태와 기준점을 연결한다."
+        },
+        {
+          "id": "o4",
+          "text": "요청을 보내자마자 무조건 마지막 시각으로 이동한다.",
+          "correct": false,
+          "explanation": "저장 실패한 변경이 다음 추출에서 빠질 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C09"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "증분 기준점은 추출 시도와 목적지 반영 성공을 구별해 관리한다. 같은 원본 키의 재시도는 병합 규칙으로 중복을 막는다.",
+      "memoryTip": "성공한 범위까지만 전진",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C09",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-036",
+      "prompt": "가상 원본에서 삽입 100·수정 30·삭제 5건이 발생했다. 적재 설계에 관해 맞는 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "증분 ETL과 증분 ELT는 모두 가능하다.",
+          "correct": true,
+          "explanation": "추출 범위와 변환 순서는 독립적으로 선택한다."
+        },
+        {
+          "id": "o2",
+          "text": "ID 기준 갱신과 삭제 반영 정책을 정한다.",
+          "correct": true,
+          "explanation": "재시도와 삭제를 목적지 상태에 정확히 반영해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "증분이라는 이유만으로 원본 보존이 자동 보장된다.",
+          "correct": false,
+          "explanation": "증분 범위와 원본 보존 정책은 별도 설계다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 변경을 포착한 CDC는 이 135건의 사건을 반영할 수 있다.",
+          "correct": true,
+          "explanation": "100+30+5=135건의 변경이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C09"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "변경 포착 범위, 변환 시점, 목적지 반영의 정확성을 각각 정의한다. 변경분만 읽어도 삭제·재시도 규칙이 빠지면 상태가 어긋난다.",
+      "memoryTip": "범위·순서·반영을 분리",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C09",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-037",
+      "prompt": "같은 사용자의 사건 순서를 유지하려 Kafka 토픽을 나눈다. 우선 고려할 설계는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "topic 없이 브라우저 쿠키에 모두 저장한다.",
+          "correct": false,
+          "explanation": "주어진 분산 로그 구조를 설명하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "사용자 키를 기준으로 같은 파티션에 배치한다.",
+          "correct": true,
+          "explanation": "순서는 주로 한 파티션 안에서 관리된다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 파티션 사이에 자동 전체 순서가 있다고 가정한다.",
+          "correct": false,
+          "explanation": "분할된 파티션 전체의 단일 순서는 당연히 보장되지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "consumer를 producer라는 이름으로만 바꾼다.",
+          "correct": false,
+          "explanation": "이름 변경은 메시지 배치와 순서를 바꾸지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C10"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            12,
+            13
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "Producer가 topic에 발행하고 broker가 partition별로 저장하며 consumer가 읽는다. 파티션은 병렬화 단위이면서 순서를 고려할 경계다.",
+      "memoryTip": "같은 키의 파티션",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C10",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-038",
+      "prompt": "최근 10분 합계를 1분마다 갱신하여 한 사건이 여러 구간에 포함된다. 가장 적절한 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "반드시 같은 레코드가 중복 저장된 오류다.",
+          "correct": false,
+          "explanation": "서로 다른 윈도우의 집계에 참여하는 것은 정상일 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "이벤트 시간이 존재하지 않는다는 뜻이다.",
+          "correct": false,
+          "explanation": "구간 겹침과 사건 시각의 존재는 별개다."
+        },
+        {
+          "id": "o3",
+          "text": "겹치는 sliding window의 정상 동작이다.",
+          "correct": true,
+          "explanation": "이동 구간이 겹치므로 한 사건이 여러 집계에 들어갈 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "겹치지 않는 tumbling window다.",
+          "correct": false,
+          "explanation": "Tumbling은 고정 구간이 서로 겹치지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C10"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            12,
+            13
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "Tumbling은 겹치지 않는 고정 구간이고 sliding은 이동하며 겹칠 수 있다. 윈도우 간 반복 참여와 한 결과의 중복 반영은 구별한다.",
+      "memoryTip": "겹침은 sliding의 설계",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C10",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-039",
+      "prompt": "발생 12:00:40·처리 12:01:10인 주문을 발생 시각 기준 분당 집계한다. 속할 구간은? 구간 끝은 포함하지 않는다.",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "12:01:00~12:02:00",
+          "correct": false,
+          "explanation": "처리 시각 기준으로 묶었을 때의 구간이다."
+        },
+        {
+          "id": "o2",
+          "text": "12:02:00~12:03:00",
+          "correct": false,
+          "explanation": "발생·처리 시각 모두 이 구간에 없다."
+        },
+        {
+          "id": "o3",
+          "text": "무조건 버려야 한다.",
+          "correct": false,
+          "explanation": "지연 허용과 결과 수정 정책에 따라 반영할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "12:00:00~12:01:00",
+          "correct": true,
+          "explanation": "발생 시각 12:00:40이 들어 있는 구간이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C10"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            12,
+            13
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "이벤트 시간은 사건 발생 시각이고 처리 시간은 시스템이 다룬 시각이다. 늦은 자료는 지연 허용과 갱신 규칙에 따라 원래 구간에 반영한다.",
+      "memoryTip": "발생 기준인지 처리 기준인지",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C10",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-040",
+      "prompt": "스트림 결과를 정확히 반영하려 한다. 옳은 설계를 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "같은 event_id의 재전송은 결과에 한 번만 반영한다.",
+          "correct": true,
+          "explanation": "메시지 중복 도착과 결과 중복 반영을 분리한다."
+        },
+        {
+          "id": "o2",
+          "text": "읽기 위치 저장과 외부 결과 쓰기 사이 실패를 검토한다.",
+          "correct": true,
+          "explanation": "두 동작이 어긋나면 누락이나 중복이 생길 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "허용 지연과 늦은 자료의 갱신 정책을 명시한다.",
+          "correct": true,
+          "explanation": "언제 집계를 확정하고 수정할지 정해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "브로커에 들어간 순간 모든 외부 저장도 exactly-once가 된다.",
+          "correct": false,
+          "explanation": "보장의 범위는 consumer와 외부 저장까지 확인해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C10"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            12,
+            13
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "전달 보장과 최종 결과의 정확성은 같은 말이 아니다. 멱등 처리·체크포인트·트랜잭션의 적용 범위까지 확인한다.",
+      "memoryTip": "메시지 횟수보다 최종 효과",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C10",
+      "learningObjectiveIndices": [
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-041",
+      "prompt": "클라이언트가 HDFS 파일을 읽기 전 블록 위치 정보를 찾는다. 이 정보를 관리하는 곳은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "GPU 메모리",
+          "correct": false,
+          "explanation": "GPU가 연산할 데이터와 중간 결과를 보관하는 메모리다."
+        },
+        {
+          "id": "o2",
+          "text": "WebSocket 서버",
+          "correct": false,
+          "explanation": "클라이언트와 지속적인 양방향 메시지 통신을 지원하는 서버다."
+        },
+        {
+          "id": "o3",
+          "text": "NameNode",
+          "correct": true,
+          "explanation": "파일 경로·블록 목록·블록 위치 등 메타데이터를 관리한다."
+        },
+        {
+          "id": "o4",
+          "text": "DataNode만",
+          "correct": false,
+          "explanation": "실제 파일의 데이터 블록을 저장하고 읽기·쓰기 요청에 응답한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C11"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "HDFS는 위치를 관리하는 NameNode와 내용을 보관하는 DataNode를 분리한다. 위치 확인 후 필요한 블록을 읽는 구조다.",
+      "memoryTip": "위치 NN, 내용 DN",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C11",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-042",
+      "prompt": "가상 HDFS에서 파일 257MB·블록 128MB·복제 계수 2다. 부가 용량을 제외한 논리 블록 수와 내용 저장량은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "2개·257MB",
+          "correct": false,
+          "explanation": "2블록의 최대 용량은 256MB이며 복제 용량도 빠졌다."
+        },
+        {
+          "id": "o2",
+          "text": "3개·768MB",
+          "correct": false,
+          "explanation": "마지막 1MB까지 항상 꽉 찬 128MB로 계산한 값이다."
+        },
+        {
+          "id": "o3",
+          "text": "6개·257MB",
+          "correct": false,
+          "explanation": "사본 수와 논리 블록 수를 바꾸어 셌다."
+        },
+        {
+          "id": "o4",
+          "text": "3개·514MB",
+          "correct": true,
+          "explanation": "128+128+1MB로 나누고 각 내용을 두 벌 저장한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C11"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "블록 수는 파일 크기를 블록 크기로 나누어 올림한다. 내용 저장량은 파일 크기×복제 계수로 계산하며 메타데이터 비용은 별도다.",
+      "memoryTip": "블록은 올림, 사본은 곱셈",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C11",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-043",
+      "prompt": "작은 파일 수백만 개를 HDFS에 저장할 때 불리할 수 있는 주된 이유는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일·블록별 메타데이터와 관리 비용이 커진다.",
+          "correct": true,
+          "explanation": "작은 파일도 이름·위치 등 관리 정보가 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 파일이 NameNode에 내용째 저장된다.",
+          "correct": false,
+          "explanation": "실제 내용은 DataNode에 저장한다."
+        },
+        {
+          "id": "o3",
+          "text": "작은 파일에는 이름을 붙일 수 없다.",
+          "correct": false,
+          "explanation": "이름이 아니라 파일 수와 관리 비용의 문제다."
+        },
+        {
+          "id": "o4",
+          "text": "블록 복제가 작은 파일에서는 법칙상 불가능하다.",
+          "correct": false,
+          "explanation": "파일 크기가 작아도 복제할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C11"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "HDFS는 큰 파일의 순차 읽기에 적합하다. 작은 파일 대량 관리와 잦은 임의 접근은 다른 저장 접근도 비교한다.",
+      "memoryTip": "작은 파일은 관리비도 많다",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C11",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-044",
+      "prompt": "HDFS의 장애 대응을 설명한 것 중 맞는 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "복제 계수 3이면 어떠한 규모의 장애도 손실이 없다.",
+          "correct": false,
+          "explanation": "모든 사본을 동시에 잃는 장애까지 막는 보장은 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "DataNode 장애 시 남은 블록 사본을 사용할 수 있다.",
+          "correct": true,
+          "explanation": "필요한 내용의 사본이 살아 있는지 확인한다."
+        },
+        {
+          "id": "o3",
+          "text": "NameNode의 active-standby는 메타데이터 가용성을 돕는다.",
+          "correct": true,
+          "explanation": "블록 복제와 다른 장애 지점을 다룬다."
+        },
+        {
+          "id": "o4",
+          "text": "사본을 서로 다른 장애 범위에 배치하는 것이 중요하다.",
+          "correct": true,
+          "explanation": "같은 장애로 모든 사본을 잃는 위험을 줄인다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C11"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "데이터 블록 복제와 메타데이터 고가용성은 서로 다른 보호다. 사본 개수뿐 아니라 배치와 장애 범위를 함께 봐야 한다.",
+      "memoryTip": "사본과 관리자의 가용성",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C11",
+      "learningObjectiveIndices": [
+        0,
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-045",
+      "prompt": "상품마다 크기·재질 등 선택 필드가 다르고 상품 하나를 통째로 읽는 질의가 많다. 먼저 검토할 모델은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "키-값만 사용해 임의 필드 검색도 자동 보장",
+          "correct": false,
+          "explanation": "키-값의 기본 강점은 키로 값을 찾는 접근이다."
+        },
+        {
+          "id": "o2",
+          "text": "그래프형이 반드시 유일한 해답",
+          "correct": false,
+          "explanation": "연결 경로 탐색보다 상품 문서 읽기가 중심인 상황이다."
+        },
+        {
+          "id": "o3",
+          "text": "파일 이름만 저장",
+          "correct": false,
+          "explanation": "상품의 속성과 조회 요구를 표현하지 못한다."
+        },
+        {
+          "id": "o4",
+          "text": "문서형",
+          "correct": true,
+          "explanation": "중첩 필드와 서로 다른 속성 구성을 문서 단위로 표현하기 쉽다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C12"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "문서형은 한 객체의 여러 속성을 문서로 묶는다. 저장 모델은 데이터 모양뿐 아니라 자주 수행할 조회를 기준으로 선택한다.",
+      "memoryTip": "객체 통째 조회는 문서 검토",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C12",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-046",
+      "prompt": "항상 session_id로 만료 시각과 사용자 ID를 조회한다. 가장 자연스러운 기본 접근은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "키-값 조회",
+          "correct": true,
+          "explanation": "알고 있는 키로 연결된 값을 찾는 요구다."
+        },
+        {
+          "id": "o2",
+          "text": "친구의 친구 경로 탐색",
+          "correct": false,
+          "explanation": "관계 여러 단계를 따라가는 질의가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 문서를 매번 전체 스캔",
+          "correct": false,
+          "explanation": "단일 키를 아는 조회에 불필요한 비용이 생긴다."
+        },
+        {
+          "id": "o4",
+          "text": "이미지 분류 모델",
+          "correct": false,
+          "explanation": "세션 키 조회는 예측 문제가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C12"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "키-값 모델은 명확한 키의 단순 조회에 자연스럽다. 임의 조건 검색·조인 요구가 생기면 추가 구조와 비용을 따져야 한다.",
+      "memoryTip": "아는 키로 바로 조회",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C12",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-047",
+      "prompt": "같은 가격 필드에 12000과 '무료'가 섞여 합계 계산이 실패했다. 유연한 NoSQL 스키마의 올바른 운영은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "NoSQL에서는 데이터 품질을 검사할 수 없다.",
+          "correct": false,
+          "explanation": "애플리케이션·검증 규칙·카탈로그에서 관리할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "가격 타입과 특수값 규칙을 검증한다.",
+          "correct": true,
+          "explanation": "저장 유연성과 필드 의미·타입의 약속은 별개다."
+        },
+        {
+          "id": "o3",
+          "text": "유연한 스키마이므로 타입 규칙을 없앤다.",
+          "correct": false,
+          "explanation": "분석 가능한 공통 의미를 잃는다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 값을 0으로 바꾼다.",
+          "correct": false,
+          "explanation": "가격 정보를 근거 없이 훼손한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C12"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "유연한 스키마는 무규칙이라는 뜻이 아니다. 공통 필드의 의미·타입·일관성 조건은 여전히 관리해야 한다.",
+      "memoryTip": "유연함에도 데이터 약속",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C12",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-048",
+      "prompt": "NoSQL 선택과 운영에 관한 설명 중 맞는 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "여러 문서에 복제된 공통 정보는 갱신 정책이 필요하다.",
+          "correct": true,
+          "explanation": "문서 중복 저장은 값의 불일치 위험을 만들 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "NoSQL 제품은 모두 동일한 일관성과 지연을 가진다.",
+          "correct": false,
+          "explanation": "제품과 설정·장애 조건에 따라 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "친구 연결을 여러 단계 따라가는 질의는 그래프 모델을 검토한다.",
+          "correct": true,
+          "explanation": "노드와 엣지가 관계 경로를 직접 표현한다."
+        },
+        {
+          "id": "o4",
+          "text": "컬럼 패밀리는 파티션 키와 조회 패턴을 함께 설계한다.",
+          "correct": true,
+          "explanation": "큰 분산 데이터의 접근 단위를 고려해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C12"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "문서·키-값·컬럼 패밀리·그래프는 서로 다른 구조와 질의에 적합하다. 성능과 일관성은 실제 접근 패턴과 설정을 바탕으로 평가한다.",
+      "memoryTip": "모델보다 먼저 대표 질의",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C12",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-049",
+      "prompt": "팀이 S3에 원본 JSON을 올린 사실만으로 관리된 데이터 레이크가 완성됐다고 말했다. 더 필요한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "검색 가능한 설명·품질·소유자·권한 관리",
+          "correct": true,
+          "explanation": "오브젝트 저장은 기반이며 레이크에는 관리 체계가 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 원본 파일명 삭제",
+          "correct": false,
+          "explanation": "위치와 출처를 찾기 더 어려워진다."
+        },
+        {
+          "id": "o3",
+          "text": "원본을 모두 한 이미지로 합치기",
+          "correct": false,
+          "explanation": "분석 가능한 구조와 관리 체계를 제공하지 못한다."
+        },
+        {
+          "id": "o4",
+          "text": "저장 요금만 지불하면 데이터 의미는 자동 정의",
+          "correct": false,
+          "explanation": "가격과 메타데이터 품질은 별개다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C13"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            17,
+            18,
+            19
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "오브젝트 스토리지는 저장 서비스이고 데이터 레이크는 원본을 보존·활용하는 관리 구조다. DWH는 일관된 분석·보고 자료를 조직하는 계층이다.",
+      "memoryTip": "저장 기반과 관리 구조 분리",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C13",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-050",
+      "prompt": "원본 로그를 읽는 분석 시점에 날짜·금액 타입과 변환 규칙을 적용했다. 이에 대한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "부서별 서로 다른 매출 정의를 숨겨도 된다.",
+          "correct": false,
+          "explanation": "읽기 규칙 차이는 지표 불일치를 만들 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "Schema-on-read이며 읽는 규칙도 관리해야 한다.",
+          "correct": true,
+          "explanation": "해석을 읽기 시점에 적용해도 스키마가 없는 것은 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "Schema-on-write만 가능하다.",
+          "correct": false,
+          "explanation": "저장 전에 규격화했다는 조건이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "데이터 타입이 영구히 존재하지 않는다.",
+          "correct": false,
+          "explanation": "분석 시점에는 사용할 타입과 의미가 필요하다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C13"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            17,
+            18,
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "Schema-on-read는 읽을 때 목적에 맞춰 구조를 적용한다. Schema-on-write는 저장할 때 규칙을 맞추는 데 초점을 둔다.",
+      "memoryTip": "언제 구조를 적용하는가",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C13",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-051",
+      "prompt": "원본은 많지만 생성 시스템·형식·책임자를 몰라 아무도 재사용하지 못한다. 우선 개선할 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "마지막 갱신 시각을 지운다.",
+          "correct": false,
+          "explanation": "최신성 판단 근거를 잃는다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 사용자에게 무제한 접근을 허용한다.",
+          "correct": false,
+          "explanation": "권한 없는 공개는 관리 문제를 해결하지 못한다."
+        },
+        {
+          "id": "o3",
+          "text": "카탈로그와 명명 규칙·품질·소유권을 정비한다.",
+          "correct": true,
+          "explanation": "파일의 위치뿐 아니라 의미와 신뢰성을 찾게 해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "같은 파일을 설명 없이 더 복제한다.",
+          "correct": false,
+          "explanation": "용량은 늘어도 의미와 책임을 찾기 어렵다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C13"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            17,
+            18,
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "원본을 쌓기만 하고 찾거나 신뢰할 수 없으면 데이터 늪이 된다. 설명·품질 검사·권한·계보를 원본 보존과 함께 운영한다.",
+      "memoryTip": "쌓기보다 찾고 믿게",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C13",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-052",
+      "prompt": "원본 재분석과 부서 공통 월간 보고를 함께 지원하려 한다. 적절한 설계를 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "취소·통화·기간 기준을 통일해 보고 테이블을 만든다.",
+          "correct": true,
+          "explanation": "같은 매출 지표가 부서마다 달라지는 문제를 줄인다."
+        },
+        {
+          "id": "o2",
+          "text": "보고서에서 원본·변환으로 이어지는 계보를 남긴다.",
+          "correct": true,
+          "explanation": "수치 변화의 원인과 재현 경로를 찾을 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "서버리스 분석은 스캔량과 무관하게 언제나 무료다.",
+          "correct": false,
+          "explanation": "편의성과 비용 정책은 별개이며 사용량을 관리해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "원본 계층과 검증된 보고 계층을 연결한다.",
+          "correct": true,
+          "explanation": "유연한 재분석과 지표 일관성을 다른 계층에서 확보할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C13"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            17,
+            18,
+            19
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "레이크와 DWH는 원본 보존·정제·보고의 연결된 계층으로 쓸 수 있다. 저장 비용뿐 아니라 질의 스캔량과 반복 계산 비용도 관리한다.",
+      "memoryTip": "원본의 유연성 + 보고의 일관성",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C13",
+      "learningObjectiveIndices": [
+        0,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-053",
+      "prompt": "국가 값이 'South Korea'와 ' South Korea '로 나뉘어 집계됐다. 우선 필요한 정제는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "두 값이 다른 국가라고 확정한다.",
+          "correct": false,
+          "explanation": "앞뒤 공백만 다른 표기다."
+        },
+        {
+          "id": "o2",
+          "text": "앞뒤 공백을 제거해 표현을 표준화한다.",
+          "correct": true,
+          "explanation": "같은 의미의 값이 문자열 표현 차이로 나뉜 상황이다."
+        },
+        {
+          "id": "o3",
+          "text": "뒤쪽 행은 모두 결측으로 만든다.",
+          "correct": false,
+          "explanation": "국가 정보를 근거 없이 버린다."
+        },
+        {
+          "id": "o4",
+          "text": "국가별 평균을 대입한다.",
+          "correct": false,
+          "explanation": "범주 문자열에 수치 평균을 적용할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C14"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "형식 불일치는 같은 뜻의 표현을 공통 규칙으로 맞춘다. 결측·중복·이상값과 구별해 문제에 맞는 처리를 적용한다.",
+      "memoryTip": "같은 의미는 같은 표현",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C14",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-054",
+      "prompt": "결측 길이를 모두 전체 평균으로 채웠다. 이 결과를 해석할 때 주의할 점은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "결측 원인 분석이 더 이상 필요 없다.",
+          "correct": false,
+          "explanation": "특정 집단의 결측이면 결과가 편향될 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 값이 자동으로 더 다양해진다.",
+          "correct": false,
+          "explanation": "평균 대체는 오히려 값의 퍼짐을 줄일 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "변동성이 작아지고 관계가 약해질 수 있다.",
+          "correct": true,
+          "explanation": "대체값이 중앙에 모이면 원래 분포와 다르게 보일 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "실제 길이를 전부 정확히 복원했다.",
+          "correct": false,
+          "explanation": "대체값은 관측된 실제 값이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C14"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "대체는 행을 유지하지만 가정과 분포 변화를 동반한다. 대체값을 실제 관측처럼 취급하지 말고 방법과 영향을 보고한다.",
+      "memoryTip": "채운 값은 관측값이 아니다",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C14",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-055",
+      "prompt": "가상 100행에서 날짜 결측 8행·등급 결측 5행이고 두 컬럼 모두 결측인 행이 3개다. 둘 중 하나라도 결측이면 삭제할 때 남는 행 수는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "87행",
+          "correct": false,
+          "explanation": "겹친 3행을 두 번 빼면 안 된다."
+        },
+        {
+          "id": "o2",
+          "text": "97행",
+          "correct": false,
+          "explanation": "두 컬럼 모두 결측인 행만 지운 결과다."
+        },
+        {
+          "id": "o3",
+          "text": "100행",
+          "correct": false,
+          "explanation": "조건에 해당하는 10행을 삭제해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "90행",
+          "correct": true,
+          "explanation": "삭제 합집합은 8+5-3=10행이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C14"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "여러 삭제 조건의 건수를 단순 합하면 겹친 행을 중복 계산할 수 있다. 정제 전후 실제 행 수와 조건별 겹침을 검산한다.",
+      "memoryTip": "삭제 조건은 합집합",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C14",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-056",
+      "prompt": "영화 자료 정제에 대한 판단 중 타당한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "동일 제목이라도 show_id가 다르면 다른 작품인지 확인한다.",
+          "correct": true,
+          "explanation": "제목만으로 중복 삭제하면 동명 작품을 잃을 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "500분 작품은 원자료와 단위를 확인한 뒤 처리한다.",
+          "correct": true,
+          "explanation": "드문 값이 실제 장편일 수도 있다."
+        },
+        {
+          "id": "o3",
+          "text": "시간 분석에서 날짜 결측을 제외해도 작품 수 분석에서는 유지할 수 있다.",
+          "correct": true,
+          "explanation": "필요 정보와 표본은 분석 목적에 따라 달라진다."
+        },
+        {
+          "id": "o4",
+          "text": "이상해 보이는 행은 이유 없이 전부 삭제한다.",
+          "correct": false,
+          "explanation": "정상적인 드문 관측까지 제거할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C14"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "정제는 관측을 무조건 줄이는 작업이 아니다. 업무 키·원본 확인·분석 목적에 근거해 삭제·수정·대체하고 건수 변화를 남긴다.",
+      "memoryTip": "삭제보다 의미 확인",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C14",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-057",
+      "prompt": "고객 테이블에서 'ID는 정수형인가'와 '주문 고객 ID가 고객표에 존재하는가'를 각각 검사한다. 분류는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "관계 프로파일링·압축",
+          "correct": false,
+          "explanation": "타입 검사와 압축은 별개다."
+        },
+        {
+          "id": "o2",
+          "text": "내용 프로파일링만 두 번",
+          "correct": false,
+          "explanation": "키 참조 무결성은 관계 점검이다."
+        },
+        {
+          "id": "o3",
+          "text": "구조 프로파일링·관계 프로파일링",
+          "correct": true,
+          "explanation": "타입은 구조, 표 간 키 연결은 관계에 대한 점검이다."
+        },
+        {
+          "id": "o4",
+          "text": "둘 다 워드클라우드",
+          "correct": false,
+          "explanation": "단어 빈도 분석이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C15"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            21,
+            22
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "구조는 타입·길이·형식, 내용은 결측·빈도·범위, 관계는 키 연결과 참조 무결성을 살핀다. 검사 목적에 맞춰 분류한다.",
+      "memoryTip": "구조·내용·연결",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C15",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-058",
+      "prompt": "자동 검사에 바로 쓸 수 있도록 품질 규칙을 바꾼 문장은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "날짜는 예뻐야 한다.",
+          "correct": false,
+          "explanation": "판정 기준과 단위가 없다."
+        },
+        {
+          "id": "o2",
+          "text": "오류가 적당히 적어야 한다.",
+          "correct": false,
+          "explanation": "분모와 허용 임계값이 없다."
+        },
+        {
+          "id": "o3",
+          "text": "표가 편안해 보여야 한다.",
+          "correct": false,
+          "explanation": "재현 가능한 품질 조건이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "거래일은 파싱 가능하고 오늘보다 미래가 아니어야 한다.",
+          "correct": true,
+          "explanation": "실패 조건을 실제 값으로 검사할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C15"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            21,
+            22
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "품질 규칙은 검사할 컬럼·허용 조건·분모·임계값을 명시한다. 위반 시 격리·알림·재수집 같은 후속 행동도 정한다.",
+      "memoryTip": "좋다는 말 대신 검사 조건",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C15",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-059",
+      "prompt": "작년보다 TV Show 비율이 커졌다. 드리프트 검사에서 차이가 나왔다면 가장 적절한 다음 판단은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "수급 변화·계절성·수집 오류를 추가 점검한다.",
+          "correct": true,
+          "explanation": "분포 변화는 실제 변화일 수도, 오류일 수도 있다."
+        },
+        {
+          "id": "o2",
+          "text": "통계적 차이만으로 데이터 오류를 확정한다.",
+          "correct": false,
+          "explanation": "분포가 달라졌다는 사실은 원인을 말하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 TV Show 행을 삭제한다.",
+          "correct": false,
+          "explanation": "정상적인 구성 변화까지 지울 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "평균만 같으면 분포는 같다고 확정한다.",
+          "correct": false,
+          "explanation": "다른 분포가 같은 평균을 가질 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C15"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            21,
+            22
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "드리프트는 시간에 따른 분포 변화 신호다. 오류 여부와 업무 영향은 표본·계절성·수집 변경·실제 정답을 함께 보고 판단한다.",
+      "memoryTip": "변화 탐지와 원인 판단 분리",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C15",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-060",
+      "prompt": "가상 데이터의 날짜 실패율이 지난달 10/5,000, 이번 달 15/500이다. 허용 상한 1%일 때 맞는 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "실패가 5건만 늘었으므로 비율 비교는 필요 없다.",
+          "correct": false,
+          "explanation": "관측 건수가 달라 분모를 맞춰야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "이번 달 실패율은 3%로 상한을 넘는다.",
+          "correct": true,
+          "explanation": "15÷500×100=3%다."
+        },
+        {
+          "id": "o3",
+          "text": "지난달 실패율은 0.2%다.",
+          "correct": true,
+          "explanation": "10÷5000×100=0.2%다."
+        },
+        {
+          "id": "o4",
+          "text": "실패 원문과 공급자별 분포를 확인한다.",
+          "correct": true,
+          "explanation": "형식 변경이나 특정 공급자의 오류를 추적할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C15"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            21,
+            22
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "품질 감시는 건수와 비율을 구별한다. 같은 분모 정의로 전후를 비교하고 위반 자료의 원인을 추적한다.",
+      "memoryTip": "분모부터 맞춘 실패율",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C15",
+      "learningObjectiveIndices": [
+        0,
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-061",
+      "prompt": "'sales는 원화이며 취소 주문을 제외한 월 매출'이라는 설명은 주로 어떤 메타데이터인가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "기술 메타데이터의 타입 정보만",
+          "correct": false,
+          "explanation": "정수형 같은 저장 구조보다 업무 의미에 관한 설명이다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 압축률",
+          "correct": false,
+          "explanation": "저장 크기에 대한 정보가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "CPU 레지스터",
+          "correct": false,
+          "explanation": "프로세서 내부 저장 장치다."
+        },
+        {
+          "id": "o4",
+          "text": "비즈니스 메타데이터",
+          "correct": true,
+          "explanation": "지표의 의미·단위·포함 규칙을 정의한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C16"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            22,
+            23,
+            26
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "기술 메타데이터는 타입·스키마, 비즈니스 메타데이터는 지표 정의·소유자, 운영 메타데이터는 갱신·실행·계보를 설명한다.",
+      "memoryTip": "숫자의 의미는 비즈니스 정의",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C16",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-062",
+      "prompt": "원본의 country 컬럼을 바꾸기 전에 영향을 받을 보고서와 모델을 찾고 싶다. 가장 직접적인 정보는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "데이터 계보의 하위 의존 관계",
+          "correct": true,
+          "explanation": "어떤 변환·보고서가 해당 컬럼을 사용하는지 추적한다."
+        },
+        {
+          "id": "o2",
+          "text": "화면 배경색",
+          "correct": false,
+          "explanation": "데이터의 생성·의존 경로를 알려주지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "최신 파일의 이름 길이",
+          "correct": false,
+          "explanation": "컬럼 사용 관계를 표현하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "원본 행 수만",
+          "correct": false,
+          "explanation": "규모만으로 downstream 의존성을 알 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C16"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            22,
+            23,
+            26
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "계보는 결과에서 원본으로 원인을 추적하고 원본 변경에서 영향받을 결과를 찾게 한다. 변경 전 영향 분석과 오류 복구에 사용한다.",
+      "memoryTip": "원인 역추적, 영향 순추적",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C16",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-063",
+      "prompt": "두 팀의 '활성 사용자' 수가 다르지만 SQL은 모두 정상 실행된다. 우선 통일하거나 구분해야 할 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "데이터 타입만 정수로 변환",
+          "correct": false,
+          "explanation": "타입이 같아도 지표 의미는 다를 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "활성의 기간·행동 조건·제외 대상·소유자",
+          "correct": true,
+          "explanation": "같은 이름에도 지표 정의가 다를 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "SQL 편집기 글꼴만",
+          "correct": false,
+          "explanation": "지표 의미의 차이를 해결하지 못한다."
+        },
+        {
+          "id": "o4",
+          "text": "결과가 큰 팀을 항상 공식값으로 선택",
+          "correct": false,
+          "explanation": "정의와 근거 없이 크기로 결정할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C16"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            22,
+            23,
+            26
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "지표의 일관성에는 코드 정상 실행뿐 아니라 공통 정의와 책임이 필요하다. 목적상 다른 지표는 이름과 설명을 구별한다.",
+      "memoryTip": "같은 이름 ≠ 같은 지표",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C16",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-064",
+      "prompt": "재사용 가능한 데이터 카탈로그의 운영으로 적절한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "수치 변화 시 실행 로그·계보·갱신 시각을 본다.",
+          "correct": true,
+          "explanation": "원본 변화와 변환 변화의 원인을 좁힐 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 경로만 알면 모든 업무 의미가 확정된다.",
+          "correct": false,
+          "explanation": "단위·범위·제외 조건은 추가 설명이 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "검색 결과에서 설명·품질·소유자를 확인하게 한다.",
+          "correct": true,
+          "explanation": "사용자가 목적과 신뢰성을 판단할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "정의 승인과 갱신 책임자를 정한다.",
+          "correct": true,
+          "explanation": "낡은 설명이 계속 재사용되는 위험을 줄인다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C16"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            22,
+            23,
+            26
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "카탈로그는 파일 목록을 넘어 의미와 신뢰성·책임을 연결한다. 거버넌스는 공통 정의·권한·변경 절차를 통해 재사용을 돕는다.",
+      "memoryTip": "찾기 + 이해 + 책임",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C16",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-065",
+      "prompt": "과제 목적은 학과별 강의 만족도 집계이며 주소 원문은 필요 없다. 설계 단계 보호에 가장 맞는 수집은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "필요 없는 주소를 애초에 수집하지 않는다.",
+          "correct": true,
+          "explanation": "보유하지 않는 식별 정보는 유출 시에도 노출되지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "미래에 쓸지 모르니 모든 식별자를 수집한다.",
+          "correct": false,
+          "explanation": "현재 목적에 필요 없는 노출 범위가 커진다."
+        },
+        {
+          "id": "o3",
+          "text": "이름만 지우면 주소 수집은 항상 안전하다.",
+          "correct": false,
+          "explanation": "다른 속성 조합으로 재식별될 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "보유 기간과 접근자는 나중에만 정한다.",
+          "correct": false,
+          "explanation": "설계 단계에서 목적·기간·범위를 정하는 접근이 필요하다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C17"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            23,
+            24,
+            25,
+            26
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "Privacy by Design은 목적·수집 항목·보유 기간·접근을 처음부터 정하는 관점이다. 최소 수집은 보호해야 할 정보량 자체를 줄인다.",
+      "memoryTip": "필요한 만큼 처음부터",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C17",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-066",
+      "prompt": "준식별자 조합이 같은 5명의 민감 질병 값이 모두 같다. k=5만으로 막기 어려운 위험은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "컴퓨터가 암호문을 계산하지 못하는 문제만",
+          "correct": false,
+          "explanation": "이 사례는 그룹 내 민감값 동질성에 관한 위험이다."
+        },
+        {
+          "id": "o2",
+          "text": "그 집단 구성원의 민감 속성 추정",
+          "correct": true,
+          "explanation": "누가 누구인지는 몰라도 모두 같은 질병임을 알 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "각 레코드의 저장 바이트 수 계산",
+          "correct": false,
+          "explanation": "개인정보 추정과 다른 문제다."
+        },
+        {
+          "id": "o4",
+          "text": "준식별자 그룹에 최소 5명이 있다는 사실",
+          "correct": false,
+          "explanation": "주어진 조건에서 충족한 내용이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C17"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            23,
+            24,
+            25,
+            26
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "k-익명성은 준식별자 그룹의 구별 가능성을 낮춘다. l-다양성은 민감값 다양성, t-근접성은 전체 분포와의 차이를 추가로 고려한다.",
+      "memoryTip": "k만으로 속성 비밀은 부족",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C17",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-067",
+      "prompt": "사내망에 있는 사용자라는 이유만으로 모든 API·원본에 접근하도록 했다. 개선 방향은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "데이터 암호화만 하면 API 인증이 필요 없다.",
+          "correct": false,
+          "explanation": "암호화와 호출 권한 검증은 다른 방어다."
+        },
+        {
+          "id": "o2",
+          "text": "인증 로그는 분석에 방해되므로 삭제한다.",
+          "correct": false,
+          "explanation": "접근 감시와 사고 추적 근거가 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "접근마다 신원과 권한을 검증하고 최소 권한을 준다.",
+          "correct": true,
+          "explanation": "내부 연결만으로 무조건 신뢰하지 않는 접근이다."
+        },
+        {
+          "id": "o4",
+          "text": "외부 방화벽만 있으면 모든 내부 권한을 없애도 된다.",
+          "correct": false,
+          "explanation": "계정 탈취와 내부 오용은 별도 위험이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C17"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            23,
+            24,
+            25,
+            26
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "다층 보안은 네트워크·시스템·앱·API·데이터에 맞는 통제를 둔다. 최소 수집과 최소 권한은 서로 다른 위험을 줄이며 함께 적용한다.",
+      "memoryTip": "내부라도 확인, 필요한 권한만",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C17",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-068",
+      "prompt": "강의의 보호 기법과 한계를 올바르게 연결한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "동형암호는 암호화된 상태의 연산을 목표로 한다.",
+          "correct": true,
+          "explanation": "계산 비용과 적용 가능 연산도 함께 검토한다."
+        },
+        {
+          "id": "o2",
+          "text": "이름 삭제 후에도 희소한 속성 조합은 점검해야 한다.",
+          "correct": true,
+          "explanation": "외부 정보와 연결해 개인이 좁혀질 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "전송 암호화를 쓰면 수집 목적과 보유 기간은 불필요하다.",
+          "correct": false,
+          "explanation": "통신 보호가 불필요한 수집·보유를 정당화하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "차분 프라이버시는 공개 결과에 대한 개인 한 명의 영향을 제한한다.",
+          "correct": true,
+          "explanation": "노이즈 등을 사용하며 유용성과 보호의 절충을 고려한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C17"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            23,
+            24,
+            25,
+            26
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "보호 기법은 식별·속성 추정·비인가 접근 등 다른 위험을 다룬다. 하나의 기법으로 모든 위험이 사라진다고 볼 수 없다.",
+      "memoryTip": "위험에 맞게 기법 조합",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C17",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-069",
+      "prompt": "날짜 공백 제거·날짜형 변환과 상영시간 단위 분리를 수행했다. 분석 6단계 중 주된 단계는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "문제 정의만",
+          "correct": false,
+          "explanation": "질문 설정보다 실제 자료 변환을 수행했다."
+        },
+        {
+          "id": "o2",
+          "text": "전처리·정제",
+          "correct": true,
+          "explanation": "분석 가능한 타입과 일관된 의미로 자료를 준비하는 작업이다."
+        },
+        {
+          "id": "o3",
+          "text": "최종 해석·전달만",
+          "correct": false,
+          "explanation": "아직 결과의 의미를 전달하는 작업이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "회귀 모델 평가만",
+          "correct": false,
+          "explanation": "예측 성능을 계산하는 단계가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C18"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "문제 정의→수집→전처리→EDA→모델링·분석→해석·전달의 산출물은 서로 연결된다. 전처리 결과를 EDA에서 다시 점검한다.",
+      "memoryTip": "전처리는 분석 준비",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C18",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-070",
+      "prompt": "카탈로그만으로 답할 수 있도록 '넷플릭스가 성공한 이유는?'을 바꾼 질문으로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "전 세계 모든 기업의 미래 수익은?",
+          "correct": false,
+          "explanation": "카탈로그 범위를 벗어난 예측이다."
+        },
+        {
+          "id": "o2",
+          "text": "성공은 얼마나 대단한가?",
+          "correct": false,
+          "explanation": "대상과 측정 지표가 구체적이지 않다."
+        },
+        {
+          "id": "o3",
+          "text": "2017~2020년 추가된 Movie와 TV Show의 구성비는 어떻게 변했는가?",
+          "correct": true,
+          "explanation": "기간·대상·지표가 명시됐고 카탈로그 컬럼으로 계산 가능하다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 이용자가 그 작품을 사랑한 진짜 이유는?",
+          "correct": false,
+          "explanation": "이용자 감정과 원인 자료가 없다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C18"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "측정 가능한 질문은 대상·기간·단위·비교 지표를 정한다. 데이터가 제공하지 않는 인과·선호 정보는 다른 질문이나 추가 자료가 필요하다.",
+      "memoryTip": "가진 컬럼으로 답할 질문",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C18",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-071",
+      "prompt": "EDA에서 마지막 해가 2개월만 관측된 사실을 발견했다. 올바른 진행은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "6단계는 일방향이므로 어떤 수정도 하지 않는다.",
+          "correct": false,
+          "explanation": "탐색에서 발견한 한계는 앞 단계 수정으로 이어질 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "적게 보이는 값을 임의로 6배 한다.",
+          "correct": false,
+          "explanation": "월별 변화가 같다는 검증 없이 전체 연도를 추정한다."
+        },
+        {
+          "id": "o3",
+          "text": "단계를 끝냈으므로 한계를 숨긴다.",
+          "correct": false,
+          "explanation": "관측 범위는 해석의 필수 조건이다."
+        },
+        {
+          "id": "o4",
+          "text": "기간 조건을 고치고 전처리·집계를 다시 확인한다.",
+          "correct": true,
+          "explanation": "동일 기간 비교나 부분연도 제외로 질문과 표본을 조정한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C18"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "분석은 탐색에 따라 질문·표본·정제 규칙을 되돌아보는 반복 과정이다. 수정 이유와 새 조건을 기록하면 결과를 재현할 수 있다.",
+      "memoryTip": "EDA는 되돌아갈 단서",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C18",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-072",
+      "prompt": "Netflix 분석 결과 전달에 포함할 내용으로 적절한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "필터·집계 단위·관측 기간을 밝힌다.",
+          "correct": true,
+          "explanation": "결과가 어떤 자료와 규칙에서 나온 것인지 설명한다."
+        },
+        {
+          "id": "o2",
+          "text": "발견한 차이와 다음 확인 질문을 제시한다.",
+          "correct": true,
+          "explanation": "시각화의 관찰을 의미와 후속 분석으로 연결한다."
+        },
+        {
+          "id": "o3",
+          "text": "단순 순위 질문은 빈도 집계만으로도 풀 수 있다.",
+          "correct": true,
+          "explanation": "모든 질문에 복잡한 예측 모델이 필수는 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "두 선이 함께 상승하면 한쪽이 다른 쪽의 원인이라고 확정한다.",
+          "correct": false,
+          "explanation": "동시 변화만으로 인과를 입증할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C18"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "완성된 분석은 질문·데이터·계산·해석이 같은 대상을 가리켜야 한다. 결과와 계산 기준·한계·다음 행동을 함께 전달한다.",
+      "memoryTip": "그림 뒤의 의미와 한계",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C18",
+      "learningObjectiveIndices": [
+        0,
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-073",
+      "prompt": "Netflix 작품 소개 화면에 표시할 제목·줄거리와 작품 식별자를 고른다. 올바른 컬럼 연결은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "cast·director·listed_in",
+          "correct": false,
+          "explanation": "배우·감독·장르 목록이다."
+        },
+        {
+          "id": "o2",
+          "text": "date_added·release_year·type",
+          "correct": false,
+          "explanation": "추가일·공개연도·콘텐츠 유형이다."
+        },
+        {
+          "id": "o3",
+          "text": "title·description·show_id",
+          "correct": true,
+          "explanation": "표시 이름·설명 텍스트·항목 식별자에 대응한다."
+        },
+        {
+          "id": "o4",
+          "text": "rating·duration·country",
+          "correct": false,
+          "explanation": "시청 등급·길이·제작국 정보다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "카탈로그 12개 컬럼은 식별·작품 메타데이터·시간·길이 정보를 담는다. rating은 사용자 별점이 아니라 시청 등급이다.",
+      "memoryTip": "ID·이름·설명 구분",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C19",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-074",
+      "prompt": "가상 작품의 release_year=2005, date_added='2020-03-01'이다. 2020년에 추가된 구작 수를 셀 때 옳은 처리는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "제작연도를 2020으로 덮어쓴다.",
+          "correct": false,
+          "explanation": "공개 시기 정보를 잃는다."
+        },
+        {
+          "id": "o2",
+          "text": "추가량은 release_year=2020인 행만 센다.",
+          "correct": false,
+          "explanation": "플랫폼 추가 시점 질문에는 date_added가 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "서로 다른 연도이므로 반드시 오류로 삭제한다.",
+          "correct": false,
+          "explanation": "공개 후 나중에 플랫폼에 추가될 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "추가연도 2020으로 세고 공개연도 2005도 유지한다.",
+          "correct": true,
+          "explanation": "두 컬럼은 서로 다른 사건의 시점을 나타낸다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "release_year와 date_added는 작품 시기와 플랫폼 편입 시기를 구별한다. 연도 차이로 구작 추가 패턴을 탐색할 수 있다.",
+      "memoryTip": "공개와 추가는 다른 시점",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C19",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-075",
+      "prompt": "Movie의 '100 min'과 TV Show의 '4 Seasons'에서 숫자만 뽑아 평균 52를 냈다. 올바른 판단은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "분과 시즌을 섞었으므로 유형·단위별로 나눠야 한다.",
+          "correct": true,
+          "explanation": "같은 숫자 컬럼이어도 측정 단위가 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 작품의 평균 상영시간은 52분이다.",
+          "correct": false,
+          "explanation": "TV 시즌 수를 분으로 더했다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 작품의 평균 시즌 수는 52다.",
+          "correct": false,
+          "explanation": "영화 길이를 시즌으로 더했다."
+        },
+        {
+          "id": "o4",
+          "text": "숫자를 분리했으므로 단위 검사는 끝났다.",
+          "correct": false,
+          "explanation": "파생 숫자도 원래 단위를 보존해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "duration은 type에 따라 분 또는 시즌 수다. 한 행이 한 카탈로그 항목이어도 모든 컬럼이 동일 단위의 단일값은 아니다.",
+      "memoryTip": "숫자 이전에 단위",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C19",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-076",
+      "prompt": "감독·배우·국가·장르·등급을 해석한 설명 중 맞는 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "director는 플랫폼 추가일을 나타낸다.",
+          "correct": false,
+          "explanation": "director는 감독 정보이며 추가일은 date_added다."
+        },
+        {
+          "id": "o2",
+          "text": "cast의 'A, B'는 두 출연자 목록일 수 있다.",
+          "correct": true,
+          "explanation": "개별 배우를 세려면 목록을 분리해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "country·listed_in도 다중값이므로 집계 규칙이 필요하다.",
+          "correct": true,
+          "explanation": "전체 확장과 첫값 선택은 다른 분석 단위를 만든다."
+        },
+        {
+          "id": "o4",
+          "text": "rating 평균만으로 시청자 만족도를 알 수 없다.",
+          "correct": true,
+          "explanation": "rating은 TV-MA 같은 시청 등급이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "director·cast·country·listed_in은 작품 속성과 목록을 담고 rating은 시청 등급이다. show_id·title과 구별해 필요한 컬럼을 질문에 맞춰 선택한다.",
+      "memoryTip": "컬럼 이름보다 실제 의미",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C19",
+      "learningObjectiveIndices": [
+        0,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-077",
+      "prompt": "동일 코드인데 강의와 작품 수가 다르다. 코드 오류를 단정하기 전에 재현 조건으로 확인할 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "노트북 배경 사진만",
+          "correct": false,
+          "explanation": "자료·코드·환경 재현에 필요한 정보가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "결과가 큰 쪽만 무조건 사용",
+          "correct": false,
+          "explanation": "차이의 원인을 확인하지 못한다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 행을 강의 수에 맞춰 무작위 삭제",
+          "correct": false,
+          "explanation": "실제 자료와 분석 근거를 훼손한다."
+        },
+        {
+          "id": "o4",
+          "text": "데이터 출처·다운로드 시점·버전과 실행 환경",
+          "correct": true,
+          "explanation": "다른 카탈로그 버전이나 라이브러리가 결과를 바꿀 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C20"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "재현에는 코드뿐 아니라 데이터 버전·정제 조건·실행 환경도 필요하다. 설치 환경과 실행 커널이 같은지도 확인한다.",
+      "memoryTip": "코드 + 데이터 + 환경",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C20",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-078",
+      "prompt": "CSV 로드 후 전체 행·열 수, 컬럼 타입, 컬럼별 결측 수를 차례로 확인할 조합은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "shape → info() → isna().sum()",
+          "correct": true,
+          "explanation": "각각 규모·구조·결측 집계에 답한다."
+        },
+        {
+          "id": "o2",
+          "text": "head()만 세 번",
+          "correct": false,
+          "explanation": "앞부분 표본만 보여 전체 점검을 대신하지 못한다."
+        },
+        {
+          "id": "o3",
+          "text": "sort_index() → plot() → title()",
+          "correct": false,
+          "explanation": "정렬과 그림 제목은 요청한 품질 정보를 제공하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "sum()만 세 번",
+          "correct": false,
+          "explanation": "타입과 전체 구조를 확인하는 조합이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C20"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "head는 일부 표본, shape는 크기, info는 타입·비결측 개수, isna().sum은 컬럼별 결측 수를 보여 준다. 서로 보완해 읽는다.",
+      "memoryTip": "표본·규모·타입·결측",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C20",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-079",
+      "prompt": "가상 표에서 첫 5행은 정상이지만 500번째 행의 날짜가 비어 있다. head()만 본 결론으로 옳은 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "날짜 컬럼은 반드시 숫자형이다.",
+          "correct": false,
+          "explanation": "표본 표시만으로 전체 dtype을 확정할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "첫 표본만 정상이며 전체 결측 여부는 별도 검사한다.",
+          "correct": true,
+          "explanation": "앞부분 관찰로 뒤쪽 모든 행을 보장할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "전부 정상이라 날짜 결측은 불가능하다.",
+          "correct": false,
+          "explanation": "표본 밖의 오류를 놓칠 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "head()는 모든 행을 검사해 오류를 고친다.",
+          "correct": false,
+          "explanation": "앞부분을 표시할 뿐 전체 정제 함수가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C20"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "로드 성공과 품질 확인 완료는 다르다. 전체 타입·결측·범위·키 고유성을 점검한 상태를 전처리 기준선으로 남긴다.",
+      "memoryTip": "첫 5행은 전체가 아니다",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C20",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-080",
+      "prompt": "가상 CSV가 (500, 1)로 읽혔고 컬럼명에 'show_id;type;title'이 그대로 보인다. 점검과 해석으로 적절한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "ID의 고유성도 후속 점검한다.",
+          "correct": true,
+          "explanation": "행 수가 곧 고유 작품 수인지 확인해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "한 컬럼이므로 내용은 반드시 정상이다.",
+          "correct": false,
+          "explanation": "파일 로드 성공만으로 구조의 타당성을 보장하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "구분자 설정이 실제 파일과 맞는지 확인한다.",
+          "correct": true,
+          "explanation": "세미콜론 구분 자료를 기본 쉼표로 읽었을 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "shape와 컬럼 이름을 함께 확인한 것이 유용하다.",
+          "correct": true,
+          "explanation": "수치 규모와 구조를 함께 보아 읽기 오류를 찾았다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C20"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "CSV의 인코딩·구분자·예상 컬럼을 확인한 뒤 타입과 품질을 검사한다. 실행 환경과 데이터 버전도 기록해 같은 조건에서 재현한다.",
+      "memoryTip": "로드 직후 구조 확인",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C20",
+      "learningObjectiveIndices": [
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-081",
+      "prompt": "director 결측을 Unknown으로 채운 뒤 Unknown이 감독 순위 1위가 됐다. 가장 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "감독 정보가 없는 작품이 많다는 뜻이다.",
+          "correct": true,
+          "explanation": "Unknown은 실제 감독 이름이 아니라 미상 표식이다."
+        },
+        {
+          "id": "o2",
+          "text": "Unknown이라는 감독이 가장 많은 작품을 연출했다.",
+          "correct": false,
+          "explanation": "대체 표식을 실제 인물로 볼 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 결측 감독을 실제로 복원했다.",
+          "correct": false,
+          "explanation": "Unknown 대체는 정보 복원이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "작품의 director 값은 모두 검증됐다.",
+          "correct": false,
+          "explanation": "대체만으로 원래 감독의 정확성을 확인하지 못한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C21"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "범주형 결측 표식은 분석 표본을 유지하지만 새로운 실재 대상을 만들지 않는다. 순위에 미상을 포함할지 정하고 별도 건수로 설명한다.",
+      "memoryTip": "Unknown은 미상 집계",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C21",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-082",
+      "prompt": "다음 학습용 코드의 출력과 처리 순서로 맞는 것은?\n```python\nimport pandas as pd\ns = pd.Series([' March 4, 2019 '])\nd = pd.to_datetime(s.str.strip(), format='%B %d, %Y')\nprint(d.dt.year.iloc[0], d.dt.month.iloc[0])\n```",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "연도 3·월 2019",
+          "correct": false,
+          "explanation": "연도와 월의 역할을 바꾸었다."
+        },
+        {
+          "id": "o2",
+          "text": "strip→날짜 변환 후 2019·3",
+          "correct": true,
+          "explanation": "공백을 정리하고 날짜형이 되어야 날짜 속성을 사용한다."
+        },
+        {
+          "id": "o3",
+          "text": "문자열 그대로 dt.month를 적용해 4",
+          "correct": false,
+          "explanation": "4는 일이며 문자열에는 날짜 속성을 바로 적용할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "공백 제거만 한 뒤 타입 점검은 생략",
+          "correct": false,
+          "explanation": "문자열 정리는 날짜형 변환과 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C21"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "코드·결과 해석",
+      "review": "문자열 공백 제거→날짜 파싱→연·월 추출 순으로 진행한다. 파싱 실패는 새 결측을 만들 수 있어 변환 전후를 검사한다.",
+      "memoryTip": "문자 → 날짜 → 연·월",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C21",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-083",
+      "prompt": "날짜 변환에 errors='coerce'를 사용하자 잘못된 문자열 7개가 NaT가 됐다. 올바른 후속 조치는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "NaT를 항상 올해 날짜로 채운다.",
+          "correct": false,
+          "explanation": "자료에 없는 시점을 만들어 시간 집계를 왜곡한다."
+        },
+        {
+          "id": "o2",
+          "text": "NaT도 정상 월로 자동 집계됐다고 가정한다.",
+          "correct": false,
+          "explanation": "결측은 날짜의 유효한 연·월이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "실패 원문과 건수를 확인하고 제외·수정 규칙을 정한다.",
+          "correct": true,
+          "explanation": "오류가 결측으로 바뀌었을 뿐 원인이 해결된 것은 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "변환이 끝났으므로 날짜 품질 오류는 0개다.",
+          "correct": false,
+          "explanation": "NaT 7개가 새로 생긴 사실을 점검해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C21"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "파싱 실패를 결측으로 처리해도 실패율과 제외 규모를 보고해야 한다. 원본 문자열과 변환 규칙을 남겨 수정 근거를 확보한다.",
+      "memoryTip": "조용한 결측도 확인",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C21",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-084",
+      "prompt": "가상 전처리 검토에서 타당한 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "'1 Season'과 '2 Seasons'의 단위 표기를 통일한다.",
+          "correct": true,
+          "explanation": "같은 시즌 단위를 공통 범주로 맞춘다."
+        },
+        {
+          "id": "o2",
+          "text": "영화 길이 평균은 Movie와 min을 확인한 후 구한다.",
+          "correct": true,
+          "explanation": "숫자만 분리해도 시즌 수와 섞으면 안 된다."
+        },
+        {
+          "id": "o3",
+          "text": "Unknown을 채웠으면 각 컬럼의 결측 규모는 볼 필요 없다.",
+          "correct": false,
+          "explanation": "대체·삭제의 선택은 결측 규모와 목적에 근거해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "날짜·등급 결측 삭제 전후 행 수를 검산한다.",
+          "correct": true,
+          "explanation": "처리 조건과 실제 표본 감소가 일치하는지 확인한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C21"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "결측 처리·파싱·단위 분리는 서로 연결된 전처리다. 변환 후 새 결측·범위·타입별 단위와 행 수 변화를 다시 검사한다.",
+      "memoryTip": "변환 후 검증까지 전처리",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C21",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-085",
+      "prompt": "문자형 type에 df['type'].describe()를 적용해 unique=2, top='Movie', freq=60을 얻었다. 뜻은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "전체 행이 반드시 60개다.",
+          "correct": false,
+          "explanation": "60은 최빈 범주의 건수이며 다른 범주도 있다."
+        },
+        {
+          "id": "o2",
+          "text": "두 종류가 있고 Movie가 최빈이며 60행이다.",
+          "correct": true,
+          "explanation": "범주 요약의 고유값 수·최빈값·최빈값 빈도다."
+        },
+        {
+          "id": "o3",
+          "text": "Movie의 평균 길이는 60분이다.",
+          "correct": false,
+          "explanation": "freq는 작품 길이가 아니라 빈도다."
+        },
+        {
+          "id": "o4",
+          "text": "최댓값이 2이고 표준편차가 60이다.",
+          "correct": false,
+          "explanation": "수치형 요약 항목으로 바꿔 읽은 것이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C22"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "코드·결과 해석",
+      "review": "수치형 describe는 평균·퍼짐·분위수, 범주형 describe는 고유값·최빈값·빈도를 요약한다. 같은 함수라도 컬럼 타입에 따라 의미가 다르다.",
+      "memoryTip": "object의 top은 최빈 범주",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C22",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-086",
+      "prompt": "다음 가상 영화 길이 코드가 계산하는 평균과 중앙값은?\n```python\nimport pandas as pd\ns = pd.Series([60, 80, 90, 100, 220])\nprint(s.mean(), s.median())\n```",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "100분·100분",
+          "correct": false,
+          "explanation": "합계와 가운데 값을 다시 계산해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "220분·60분",
+          "correct": false,
+          "explanation": "최대·최소는 중심 지표가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "110분·90분",
+          "correct": true,
+          "explanation": "합계 550÷5=110이며 정렬한 가운데는 90이다."
+        },
+        {
+          "id": "o4",
+          "text": "90분·110분",
+          "correct": false,
+          "explanation": "평균과 중앙값의 위치를 바꾸었다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C22"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "코드·결과 해석",
+      "review": "큰 값 하나는 평균을 위로 끌어올릴 수 있다. 중앙값과 퍼짐을 함께 보면 긴 꼬리의 영향을 더 잘 이해할 수 있다.",
+      "memoryTip": "평균은 합계, 중앙값은 순서",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C22",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-087",
+      "prompt": "전체 공개연도 분포에서 최근 작품이 많았다. 이 관찰을 확장한 구체적인 다음 질문은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "그래프가 최근 쪽이 높으니 분석은 모두 끝났는가?",
+          "correct": false,
+          "explanation": "새 질문이나 집단 비교 없이 결론을 닫는다."
+        },
+        {
+          "id": "o2",
+          "text": "최근 작품은 모두 흥행했는가?",
+          "correct": false,
+          "explanation": "카탈로그 분포만으로 흥행을 알 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "최근 제작이 이용자 만족을 반드시 높이는가?",
+          "correct": false,
+          "explanation": "원인과 만족도 검증을 위한 자료가 없다."
+        },
+        {
+          "id": "o4",
+          "text": "Movie와 TV Show에서도 같은 연도 패턴이 나타나는가?",
+          "correct": true,
+          "explanation": "type을 추가해 전체 패턴이 집단별로 유지되는지 확인한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C22"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "EDA의 분포 관찰은 집단·조건·시간을 추가한 후속 질문으로 이어질 수 있다. 탐색 패턴과 검증된 인과를 구별한다.",
+      "memoryTip": "전체 패턴을 집단별로",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C22",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-088",
+      "prompt": "가상 영화 길이 히스토그램을 보고 맞는 설명을 모두 고르시오. 구간은 왼쪽 포함·오른쪽 제외이며 마지막만 양끝 포함이다.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "집계된 영화는 총 20편이다.",
+          "correct": true,
+          "explanation": "2+9+7+2=20편이다."
+        },
+        {
+          "id": "o2",
+          "text": "80~120분 구간에 16편이 있다.",
+          "correct": true,
+          "explanation": "80~100의 9편과 100~120의 7편을 합한다."
+        },
+        {
+          "id": "o3",
+          "text": "정확한 평균은 구간별 건수만으로 확정할 수 없다.",
+          "correct": true,
+          "explanation": "각 영화의 실제 길이가 아니라 구간만 보인다."
+        },
+        {
+          "id": "o4",
+          "text": "가장 높은 막대는 평균이 90분임을 보장한다.",
+          "correct": false,
+          "explanation": "최빈 구간과 전체 평균은 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C22"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "히스토그램은 구간별 분포를 요약하므로 총빈도와 집중 구간을 읽을 수 있다. 정확한 개별 통계와 후속 집단 비교에는 원자료가 필요하다.",
+      "memoryTip": "구간 요약과 개별 값 구별",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C22",
+      "learningObjectiveIndices": [
+        0,
+        1
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "histogram",
+        "title": "가상 Movie 상영시간 분포",
+        "xLabel": "상영시간 구간(분)",
+        "yLabel": "작품 수(편)",
+        "labels": [
+          "60~80",
+          "80~100",
+          "100~120",
+          "120~140"
+        ],
+        "series": [
+          {
+            "name": "영화",
+            "values": [
+              2,
+              9,
+              7,
+              2
+            ]
+          }
+        ],
+        "note": "학습용 가상 수치. Movie만 포함하며 구간 폭은 모두 20분이다."
+      }
+    },
+    {
+      "id": "n34-new-089",
+      "prompt": "등급별 영화 상영시간의 중앙값과 중간 50% 범위를 비교하려 한다. 가장 직접적인 차트는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "국가명 워드클라우드",
+          "correct": false,
+          "explanation": "국가 단어 빈도는 등급별 길이 분포가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "등급별 파이 차트만",
+          "correct": false,
+          "explanation": "범주 비중은 보이지만 상영시간 퍼짐은 보이지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "rating별 duration_value 박스플롯",
+          "correct": true,
+          "explanation": "범주별 수치 분포의 중심과 퍼짐을 요약한다."
+        },
+        {
+          "id": "o4",
+          "text": "영화 제목을 연결한 선 그래프",
+          "correct": false,
+          "explanation": "제목에는 시간 순서가 없고 길이 분포를 요약하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "차트는 변수 척도와 질문을 연결해 고른다. 범주×수치 분포에는 박스플롯, 수치×수치 관계에는 산점도를 검토한다.",
+      "memoryTip": "범주별 수치 분포는 상자",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C23",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-090",
+      "prompt": "동일 영화 길이를 구간 폭 5분과 30분으로 각각 그렸다. 모양이 달라진 이유로 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "막대 사이 간격이 배우 수를 의미한다.",
+          "correct": false,
+          "explanation": "수치 구간의 빈도이며 배우 범주 그래프가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "구간 폭을 바꾸면 원래 길이 값도 바뀐다.",
+          "correct": false,
+          "explanation": "그림의 집계 규칙만 달라졌다."
+        },
+        {
+          "id": "o3",
+          "text": "30분 구간이면 모든 분포가 균등해진다.",
+          "correct": false,
+          "explanation": "구간을 넓혀도 관측 분포가 자동 균등해지지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "히스토그램 구간 폭이 분포의 보이는 세부를 바꾼다.",
+          "correct": true,
+          "explanation": "자료가 같아도 묶는 범위가 달라 봉우리와 변동이 달라 보일 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "히스토그램은 수치를 구간으로 묶고 막대그래프는 범주를 비교한다. 히스토그램에서는 구간 경계와 폭을 함께 읽는다.",
+      "memoryTip": "구간 선택도 그림의 조건",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C23",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-091",
+      "prompt": "가상 작품 수가 A=100, B=110이다. y축을 99부터 시작한 그림에서 B가 매우 커 보인다. 올바른 읽기는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "수치 차이는 10편·A 대비 10%이며 축 범위를 확인한다.",
+          "correct": true,
+          "explanation": "화면 높이 비율과 실제 작품 수 비율은 다를 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "B의 작품 수가 A의 11배다.",
+          "correct": false,
+          "explanation": "잘린 축의 막대 높이를 원시 건수 비율로 읽었다."
+        },
+        {
+          "id": "o3",
+          "text": "축은 장식이므로 숫자는 무시한다.",
+          "correct": false,
+          "explanation": "축의 시작점과 단위가 비교 인상을 바꾼다."
+        },
+        {
+          "id": "o4",
+          "text": "A는 1편이고 B는 11편이다.",
+          "correct": false,
+          "explanation": "이는 잘린 축 위 높이일 뿐 실제 수는 100과 110이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "제목·축·단위·범례·집계·분모를 먼저 읽는다. 시각적 크기의 인상을 실제 값·차이·비율로 검산해야 한다.",
+      "memoryTip": "막대 높이보다 실제 축값",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C23",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-092",
+      "prompt": "가상 월별 추가량 그림을 해석한 설명 중 맞는 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "2월 막대가 크므로 이용자 만족이 가장 높다.",
+          "correct": false,
+          "explanation": "추가 건수는 만족도 측정값이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "막대는 각 월이라는 범주의 추가 건수를 비교한다.",
+          "correct": true,
+          "explanation": "월별 카운트를 범주 막대로 나타냈다."
+        },
+        {
+          "id": "o3",
+          "text": "그림에 포함된 전체 추가량은 120편이다.",
+          "correct": true,
+          "explanation": "1월 30+2월 50+3월 40=120편이다."
+        },
+        {
+          "id": "o4",
+          "text": "2월 비중은 이 세 달 합계의 약 41.7%다.",
+          "correct": true,
+          "explanation": "50÷120×100이며 분모는 표시된 세 달이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "같은 건수라도 막대는 절대 비교, 파이는 공통 분모의 구성비를 보여 준다. 관측 기간과 분모를 적어 그림이 말하는 범위를 제한한다.",
+      "memoryTip": "분모와 기간을 읽는다",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C23",
+      "learningObjectiveIndices": [
+        0,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 2020년 1~3월 콘텐츠 추가량",
+        "xLabel": "추가 월",
+        "yLabel": "작품 수(편)",
+        "labels": [
+          "1월",
+          "2월",
+          "3월"
+        ],
+        "series": [
+          {
+            "name": "추가량",
+            "values": [
+              30,
+              50,
+              40
+            ]
+          }
+        ],
+        "note": "학습용 가상 수치이며 1~3월만 포함한다. 시청량 자료가 아니다."
+      }
+    },
+    {
+      "id": "n34-new-093",
+      "prompt": "가상 박스플롯의 Q1=90·중앙값=105·Q3=125분이다. IQR은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "105분",
+          "correct": false,
+          "explanation": "105는 중앙값이다."
+        },
+        {
+          "id": "o2",
+          "text": "20분",
+          "correct": false,
+          "explanation": "125-105는 Q3와 중앙값의 차이다."
+        },
+        {
+          "id": "o3",
+          "text": "90분",
+          "correct": false,
+          "explanation": "90은 Q1이다."
+        },
+        {
+          "id": "o4",
+          "text": "35분",
+          "correct": true,
+          "explanation": "Q3-Q1=125-90=35분이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            27,
+            28,
+            29
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "그래프 해석",
+      "review": "IQR은 중간 50%가 놓인 범위의 폭이다. 상자 안 선은 중앙값이고 상자의 양 끝은 Q1과 Q3다.",
+      "memoryTip": "IQR = Q3 - Q1",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C24",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "box",
+        "title": "가상 등급 A의 영화 길이",
+        "xLabel": "시청 등급",
+        "yLabel": "상영시간(분)",
+        "labels": [
+          "A"
+        ],
+        "series": [
+          {
+            "name": "A",
+            "values": [
+              70,
+              90,
+              105,
+              125,
+              160
+            ],
+            "outliers": [
+              200
+            ]
+          }
+        ],
+        "note": "학습용 요약. 값은 아래 수염·Q1·중앙값·Q3·위 수염 순서다."
+      }
+    },
+    {
+      "id": "n34-new-094",
+      "prompt": "가상 두 등급의 중앙값은 모두 100분이고 A의 IQR은 20분, B는 60분이다. 옳은 비교는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "중심은 같지만 B의 중간 절반이 더 넓게 퍼져 있다.",
+          "correct": true,
+          "explanation": "중앙값과 IQR은 각각 위치와 퍼짐을 설명한다."
+        },
+        {
+          "id": "o2",
+          "text": "A의 작품 수가 반드시 세 배다.",
+          "correct": false,
+          "explanation": "IQR은 집단 인원수가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "B의 평균은 반드시 300분이다.",
+          "correct": false,
+          "explanation": "IQR 배수를 평균에 곱할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "중앙값이 같으므로 모든 값의 분포도 동일하다.",
+          "correct": false,
+          "explanation": "중심이 같아도 퍼짐과 모양은 다를 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            27,
+            28,
+            29
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "그래프 해석",
+      "review": "집단의 중심과 퍼짐은 별도 비교한다. 상자의 높이·길이는 빈도나 인과 효과를 뜻하지 않는다.",
+      "memoryTip": "같은 중심, 다른 퍼짐",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C24",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "box",
+        "title": "가상 등급별 영화 길이 비교",
+        "xLabel": "등급",
+        "yLabel": "상영시간(분)",
+        "labels": [
+          "A",
+          "B"
+        ],
+        "series": [
+          {
+            "name": "A",
+            "values": [
+              60,
+              90,
+              100,
+              110,
+              140
+            ]
+          },
+          {
+            "name": "B",
+            "values": [
+              30,
+              70,
+              100,
+              130,
+              170
+            ]
+          }
+        ],
+        "note": "학습용 가상 요약. 두 집단의 표본 수는 이 그림에 표시하지 않았다."
+      }
+    },
+    {
+      "id": "n34-new-095",
+      "prompt": "가상 자료의 Q1=80·Q3=120분이고 경계 안 실제 최대는 175분, 다음 관측은 190분이다. 1.5 IQR 규칙의 위 수염은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "120분",
+          "correct": false,
+          "explanation": "120은 상자 위쪽 Q3다."
+        },
+        {
+          "id": "o2",
+          "text": "175분",
+          "correct": true,
+          "explanation": "위 경계는 120+1.5×40=180이고 그 안의 실제 최대가 175다."
+        },
+        {
+          "id": "o3",
+          "text": "180분",
+          "correct": false,
+          "explanation": "180은 계산한 경계이며 실제 관측 수염 끝과 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "190분",
+          "correct": false,
+          "explanation": "190은 위 경계 밖의 관측이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            27,
+            28,
+            29
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "수염은 보통 1.5 IQR 경계 안 실제 최솟값·최댓값까지 뻗는다. 경계 수치와 수염의 관측값을 구별한다.",
+      "memoryTip": "경계는 계산, 수염은 실제 값",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C24",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-096",
+      "prompt": "등급별 영화 길이 박스플롯을 작성·해석할 때 맞는 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "표본 수와 필요하면 개별 점·히스토그램을 보완한다.",
+          "correct": true,
+          "explanation": "상자 요약만으로 세부 모양과 표본 안정성을 다 알 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "중앙값이 높으면 그 등급이 긴 영화를 만드는 원인이다.",
+          "correct": false,
+          "explanation": "분포 비교만으로 인과를 입증하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "Movie만 고르고 길이 단위가 분인지 확인한다.",
+          "correct": true,
+          "explanation": "TV 시즌 수와 상영시간을 같은 축에 섞지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "이상점은 원자료·단위를 확인한 뒤 유지 또는 수정한다.",
+          "correct": true,
+          "explanation": "통계적으로 드물어도 정상 작품일 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            27,
+            28,
+            29
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "박스플롯은 중심·퍼짐·이상점의 요약이다. 단위·표본 수·원자료를 확인해야 드문 값과 집단 차이를 정확히 설명할 수 있다.",
+      "memoryTip": "상자만으로 원인·오류 단정 금지",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C24",
+      "learningObjectiveIndices": [
+        0,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-097",
+      "prompt": "pd.crosstab(df['country'], df['rating'])으로 만든 표를 히트맵에 그렸다. 한 셀의 기본 의미는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "해당 국가와 시청 등급 조합의 행 수",
+          "correct": true,
+          "explanation": "추가 정규화를 하지 않은 분할표는 교차 빈도다."
+        },
+        {
+          "id": "o2",
+          "text": "그 국가의 이용자 만족 평균",
+          "correct": false,
+          "explanation": "rating은 사용자 별점이 아니며 셀도 평균이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "컬럼 이름의 문자 수",
+          "correct": false,
+          "explanation": "셀은 관측 조합의 집계값이다."
+        },
+        {
+          "id": "o4",
+          "text": "두 범주의 원인 효과",
+          "correct": false,
+          "explanation": "교차 빈도가 인과 효과를 계산하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C25"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            27,
+            28,
+            29,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "분할표의 행·열은 범주이고 셀은 조합의 집계값이다. 히트맵의 색 척도와 주석 숫자를 함께 읽는다.",
+      "memoryTip": "셀은 조합의 값",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C25",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-098",
+      "prompt": "다음 가상 분할표에서 출력된 share 값의 백분율과 의미는?\n```python\nimport pandas as pd\ntable = pd.DataFrame({'Drama': [30, 10], 'Other': [70, 10]}, index=['A', 'B'])\nshare = table.div(table.sum(axis=1), axis=0)\nprint(share.loc['B', 'Drama'])\n```",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "8.3%",
+          "correct": false,
+          "explanation": "10÷전체 120은 모든 작품 중 B-Drama 비중이다."
+        },
+        {
+          "id": "o2",
+          "text": "50%·B 내부 Drama 비율",
+          "correct": true,
+          "explanation": "B의 Drama 10÷B 전체 20=50%다."
+        },
+        {
+          "id": "o3",
+          "text": "25%",
+          "correct": false,
+          "explanation": "10÷전체 Drama 40은 Drama 중 B의 비중이다."
+        },
+        {
+          "id": "o4",
+          "text": "10%",
+          "correct": false,
+          "explanation": "B의 분모를 A 전체 100으로 바꾼 값이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C25"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            27,
+            28,
+            29,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "코드·결과 해석",
+      "review": "행 비율은 각 국가 내부 구성, 열 비율은 해당 장르가 국가별로 나뉜 구성을 뜻한다. 같은 셀도 질문에 따라 분모가 달라진다.",
+      "memoryTip": "내부 비율은 그 행 전체",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C25",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-099",
+      "prompt": "2021년 자료는 1~2월까지만 수집됐다. 연도×월 히트맵의 3~12월은 어떻게 표시하는 것이 적절한가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "전년도 값과 같다고 채운다.",
+          "correct": false,
+          "explanation": "실제 관측 없는 값을 만들어낸다."
+        },
+        {
+          "id": "o2",
+          "text": "3~12월만 임의 양수로 바꾼다.",
+          "correct": false,
+          "explanation": "집계 근거가 없다."
+        },
+        {
+          "id": "o3",
+          "text": "미관측으로 마스킹하고 관측 종료 시점을 밝힌다.",
+          "correct": true,
+          "explanation": "아직 관측하지 않은 기간과 실제 0건을 구별한다."
+        },
+        {
+          "id": "o4",
+          "text": "모두 실제 0건으로 채우고 활동 중단으로 해석한다.",
+          "correct": false,
+          "explanation": "미관측을 실제 부재로 바꾸었다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C25"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            27,
+            28,
+            29,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "관측한 기간의 0과 미관측은 다른 상태다. 부분연도를 완전연도와 비교할 때 기간 제한과 마스킹을 명시한다.",
+      "memoryTip": "0건과 관측 없음 구별",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C25",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-100",
+      "prompt": "국가×장르 히트맵을 서로 비교할 때 필요한 점검을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "상위 장르만 선택했다면 비율 분모를 명시한다.",
+          "correct": true,
+          "explanation": "선택 장르 합인지 국가 전체인지에 따라 값이 달라진다."
+        },
+        {
+          "id": "o2",
+          "text": "다중 국가·장르 확장 여부를 밝힌다.",
+          "correct": true,
+          "explanation": "한 작품이 여러 셀에 기여할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "가장 진한 셀을 국가의 최고 만족 장르로 확정한다.",
+          "correct": false,
+          "explanation": "카탈로그 구성은 시청 만족을 측정하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "두 그림의 컬러바 범위를 확인한다.",
+          "correct": true,
+          "explanation": "자동 척도가 다르면 같은 색도 다른 수치일 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C25"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            27,
+            28,
+            29,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "히트맵의 해석에는 셀 집계·색 범위·분모·관측 범위가 필요하다. 시각적 진하기를 실제 수치와 집계 규칙으로 설명한다.",
+      "memoryTip": "색보다 척도와 분모",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C25",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-101",
+      "prompt": "가상 제작연도(x)·추가연도(y) 산점도의 점 A=(2010,2020), B=(2018,2019)이다. 연도 차이가 더 큰 작품과 값은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "둘 다 차이가 0년",
+          "correct": false,
+          "explanation": "두 점 모두 y=x 위에 있지 않다."
+        },
+        {
+          "id": "o2",
+          "text": "A·10년",
+          "correct": true,
+          "explanation": "2020-2010=10년이며 B는 1년이다."
+        },
+        {
+          "id": "o3",
+          "text": "B·1년",
+          "correct": false,
+          "explanation": "B의 차이는 맞지만 A보다 작다."
+        },
+        {
+          "id": "o4",
+          "text": "A·2010년",
+          "correct": false,
+          "explanation": "x좌표 자체는 추가 지연이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C26"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            26,
+            27,
+            30,
+            31,
+            32,
+            33,
+            34
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "그래프 해석",
+      "review": "두 연도의 차이 y-x는 연도 기준 추가 지연을 나타낸다. y=x에 가까우면 공개연도와 추가연도가 가깝지만 정확한 일수는 알 수 없다.",
+      "memoryTip": "대각선까지 연도 차이",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C26",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "scatter",
+        "title": "가상 작품의 공개·추가 시기",
+        "xLabel": "release_year(년)",
+        "yLabel": "added_year(년)",
+        "labels": [
+          "A",
+          "B"
+        ],
+        "series": [
+          {
+            "name": "작품",
+            "values": [
+              2020,
+              2019
+            ],
+            "xValues": [
+              2010,
+              2018
+            ]
+          }
+        ],
+        "note": "학습용 가상 두 작품. 연도 차이는 날짜 단위의 정확한 지연이 아니다."
+      }
+    },
+    {
+      "id": "n34-new-102",
+      "prompt": "가상 추가량이 2016년 400편, 2018년 1,000편이다. 이 구간 평균 기울기는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "2.5편/년",
+          "correct": false,
+          "explanation": "1000÷400은 수량 비율이며 기울기가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "150%/년",
+          "correct": false,
+          "explanation": "150%는 이 구간 총증가율이며 연간 기울기가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "300편/년",
+          "correct": true,
+          "explanation": "(1000-400)÷(2018-2016)=300이다."
+        },
+        {
+          "id": "o4",
+          "text": "600편/년",
+          "correct": false,
+          "explanation": "증가량 600편을 2년으로 나누어야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C26"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            26,
+            27,
+            30,
+            31,
+            32,
+            33,
+            34
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "기울기는 Δ추가량/Δ시간이며 단위는 편/년이다. 시간 간격이 같지 않다면 수량 차이만으로 급증 속도를 비교할 수 없다.",
+      "memoryTip": "기울기는 시간으로 나눈 차이",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C26",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-103",
+      "prompt": "가상 기준 '전년 대비 25% 이상 증가'를 적용한다. 2018=800·2019=1,000·2020=1,200편일 때 충족 구간은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "두 구간 모두",
+          "correct": false,
+          "explanation": "절대 증가 200편은 같지만 분모가 달라 증가율은 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "2019→2020만",
+          "correct": false,
+          "explanation": "다음 구간은 20%로 기준 미달이다."
+        },
+        {
+          "id": "o3",
+          "text": "어느 구간도 아님",
+          "correct": false,
+          "explanation": "'이상'이므로 25%도 포함한다."
+        },
+        {
+          "id": "o4",
+          "text": "2018→2019만",
+          "correct": true,
+          "explanation": "200÷800=25%, 다음은 200÷1000=20%다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C26"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            26,
+            27,
+            30,
+            31,
+            32,
+            33,
+            34
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "그래프 해석",
+      "review": "증가율은 증가량을 직전 시점 값으로 나눈 비율이다. 절대 기울기 기준과 상대 증가율 기준을 구별하고 경계 포함 여부를 적는다.",
+      "memoryTip": "비율의 분모는 직전 값",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C26",
+      "learningObjectiveIndices": [
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "line",
+        "title": "가상 완전연도별 추가량",
+        "xLabel": "추가연도",
+        "yLabel": "작품 수(편)",
+        "labels": [
+          "2018",
+          "2019",
+          "2020"
+        ],
+        "series": [
+          {
+            "name": "추가량",
+            "values": [
+              800,
+              1000,
+              1200
+            ]
+          }
+        ],
+        "note": "학습용 가상 수치. 세 연도 모두 12개월 관측했다."
+      }
+    },
+    {
+      "id": "n34-new-104",
+      "prompt": "'급격한 증가·감소'를 재현 가능하게 비교하는 방법으로 맞는 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "연도를 정렬하고 시간 간격과 기울기 단위를 쓴다.",
+          "correct": true,
+          "explanation": "빈도순 자료에서 차이를 내면 시간 변화가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "급증 임계값과 이상·초과 중 어느 조건인지 밝힌다.",
+          "correct": true,
+          "explanation": "다른 사람이 같은 구간을 선택하게 한다."
+        },
+        {
+          "id": "o3",
+          "text": "부분연도는 같은 월까지 비교하거나 제외한다.",
+          "correct": true,
+          "explanation": "관측 기간 차이로 감소가 과장되는 것을 줄인다."
+        },
+        {
+          "id": "o4",
+          "text": "선이 가팔라 보이면 축 범위와 무관하게 급증이다.",
+          "correct": false,
+          "explanation": "그림 비율·축 범위에 따라 시각적 기울기는 달라진다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C26"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            26,
+            27,
+            30,
+            31,
+            32,
+            33,
+            34
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "시간 추세는 정렬·기간·변화량·분모를 함께 정의한다. 관측된 증가와 외부 사건의 인과는 다른 근거가 필요하다.",
+      "memoryTip": "정렬·기간·기준·단위",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C26",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-105",
+      "prompt": "TV Show의 시즌 수 분포를 조사한다. 우선 사용할 필터와 수치 컬럼은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "rating을 숫자로 바꿔 평균",
+          "correct": false,
+          "explanation": "시청 등급은 시즌 수가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "title의 문자 수",
+          "correct": false,
+          "explanation": "제목 길이는 시즌 수 측정값이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "type=='TV Show' 후 duration_value",
+          "correct": true,
+          "explanation": "같은 시즌 단위의 관측으로 대상을 제한한다."
+        },
+        {
+          "id": "o4",
+          "text": "전체 duration_value를 그대로 합산",
+          "correct": false,
+          "explanation": "영화 분과 시즌 수가 섞인다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "배우 순위는 cast, TV 시즌 분포는 type·duration, 월별 추가량은 date_added에서 출발한다. 질문마다 필요한 컬럼과 단위를 정한다.",
+      "memoryTip": "질문 → 컬럼 → 단위",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C27",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-106",
+      "prompt": "다음 학습용 코드로 작품-배우 중복을 제거했다. A·B의 출연 작품 수 출력은?\n```python\nimport pandas as pd\ns = pd.DataFrame({'show_id': ['s1', 's2'], 'cast': ['A, B', 'A, A']})\ns['cast'] = s['cast'].str.split(',')\ns = s.explode('cast')\ns['cast'] = s['cast'].str.strip()\ncounts = s.drop_duplicates(['show_id', 'cast'])['cast'].value_counts()\nprint(counts['A'], counts['B'])\n```",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "A=3·B=1",
+          "correct": false,
+          "explanation": "같은 작품의 A를 두 번 세었다."
+        },
+        {
+          "id": "o2",
+          "text": "'A, B'=1·'A, A'=1만 가능",
+          "correct": false,
+          "explanation": "split·explode로 개별 배우를 분리할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "A=1·B=2",
+          "correct": false,
+          "explanation": "원자료의 출연 작품과 맞지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "A=2·B=1",
+          "correct": true,
+          "explanation": "s2에서 중복된 A를 같은 작품에 한 번만 센다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "코드·결과 해석",
+      "review": "배우 목록을 split·explode하고 공백·미상을 정리한다. 출연 작품 수라면 show_id와 배우의 조합을 중복 제거한 뒤 센다.",
+      "memoryTip": "배우 토큰 + 작품 키",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C27",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-107",
+      "prompt": "가상 added_month.value_counts() 결과가 12월 80·1월 50·2월 60 순서다. 1~12월 달력 순서로 그리려면?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "sort_index()로 월 인덱스를 정렬한다.",
+          "correct": true,
+          "explanation": "빈도순이 아닌 월 숫자 순서로 바꾼다."
+        },
+        {
+          "id": "o2",
+          "text": "빈도 내림차순을 그대로 시간 순서로 해석한다.",
+          "correct": false,
+          "explanation": "가장 많은 달이 시간상 첫 달은 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "12월을 매년 가장 먼저 발생한 달로 바꾼다.",
+          "correct": false,
+          "explanation": "수량과 달력 순서를 바꿀 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "release_year의 평균을 계산한다.",
+          "correct": false,
+          "explanation": "월 순서 정렬과 관련이 없다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "value_counts는 보통 빈도순이며 sort_index는 월·연도 인덱스 순서를 맞춘다. 특정 연·월인지 여러 해의 같은 달 합계인지도 구별한다.",
+      "memoryTip": "빈도순을 월순으로",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C27",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-108",
+      "prompt": "가상 배우 출연 빈도 막대를 설명한 문장 중 타당한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "C의 작품이 적으므로 C는 실패한 배우다.",
+          "correct": false,
+          "explanation": "카탈로그 일부 빈도로 경력·성과를 판단할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "이 표본에서 A는 B보다 출연 작품이 3편 많다.",
+          "correct": true,
+          "explanation": "A 8편-B 5편=3편이다."
+        },
+        {
+          "id": "o3",
+          "text": "A가 가장 자주 등장하지만 시청 인기도 1위인지는 모른다.",
+          "correct": true,
+          "explanation": "출연 빈도는 조회·시청·호감 자료가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "국가·기간 필터를 바꾸면 순위가 달라질 수 있다.",
+          "correct": true,
+          "explanation": "분석 대상의 구성에 의존한 순위다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "단순 빈도는 정제와 범위에 따른 관측 건수다. 시즌 분포·월별 합계·출연 순위를 성과나 선호로 바꿔 말하지 않는다.",
+      "memoryTip": "많이 등장 ≠ 많이 사랑받음",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C27",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 카탈로그의 배우별 출연 작품 수",
+        "xLabel": "배우",
+        "yLabel": "고유 출연 작품 수(편)",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "series": [
+          {
+            "name": "작품 수",
+            "values": [
+              8,
+              5,
+              2
+            ]
+          }
+        ],
+        "note": "학습용 가상 수치. cast 분리 후 작품-배우 조합은 중복 제거했다."
+      }
+    },
+    {
+      "id": "n34-new-109",
+      "prompt": "국가×장르 교차표를 만들기 전에 먼저 확정해야 할 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "히트맵의 장식 아이콘",
+          "correct": false,
+          "explanation": "집계 단위보다 먼저 결정할 사항이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "무조건 가장 큰 셀을 원인으로 부르기",
+          "correct": false,
+          "explanation": "빈도가 큰 것은 인과 근거가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 공백·결측을 그대로 같은 범주로 믿기",
+          "correct": false,
+          "explanation": "표기와 미상 처리 규칙을 먼저 검토해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "한 작품의 여러 국가·장르를 어떻게 셀지",
+          "correct": true,
+          "explanation": "첫값·모두 확장·가중 분배에 따라 셀 의미가 달라진다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            34,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "범주 관계 분석은 결측·공백·다중값 규칙을 정한 뒤 교차 집계한다. 그래프 전에 한 셀의 수가 무엇을 세는지 정의한다.",
+      "memoryTip": "교차표 전에 셀의 단위",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C28",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-110",
+      "prompt": "가상 한 작품에 국가 2개·장르 3개가 있다. 두 목록을 모두 확장해 조합별 행을 만들면?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "6행이며 작품당 총가중치를 1로 하려면 각 조합은 1/6이다.",
+          "correct": true,
+          "explanation": "2×3=6조합이므로 균등 분배 시 각 1/6이다."
+        },
+        {
+          "id": "o2",
+          "text": "5행이며 각각 1/5이다.",
+          "correct": false,
+          "explanation": "조합 수는 두 목록 크기의 합이 아니라 곱이다."
+        },
+        {
+          "id": "o3",
+          "text": "1행이므로 어떤 확장도 일어나지 않는다.",
+          "correct": false,
+          "explanation": "두 컬럼의 모든 조합을 펼쳤다."
+        },
+        {
+          "id": "o4",
+          "text": "6개의 새로운 원본 작품이 생겼다.",
+          "correct": false,
+          "explanation": "한 작품의 태그 조합이 늘었을 뿐이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            34,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "모두 확장하면 태그 조합 출현을 세며 고유 작품 수와 다를 수 있다. 가중 분배는 작품당 기여 합을 1로 맞추는 한 대안이다.",
+      "memoryTip": "조합은 곱, 작품은 한 편",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C28",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-111",
+      "prompt": "가상 국가 A는 Drama 60/전체 300편, B는 24/전체 60편이다. 규모와 구성을 비교한 올바른 문장은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "건수와 비율이 다르면 계산 오류다.",
+          "correct": false,
+          "explanation": "서로 다른 분모의 질문이라 순위가 다를 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "A의 Drama 수는 많고 B의 내부 비중은 높다.",
+          "correct": true,
+          "explanation": "A 60>24이지만 비율은 20%<40%다."
+        },
+        {
+          "id": "o3",
+          "text": "A가 두 지표 모두 높다.",
+          "correct": false,
+          "explanation": "B 내부 Drama 비중은 40%로 A보다 높다."
+        },
+        {
+          "id": "o4",
+          "text": "B가 실제 이용자 선호도도 두 배다.",
+          "correct": false,
+          "explanation": "카탈로그 구성비는 시청 선호가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            34,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "원시 건수는 규모, 국가 내부 비율은 구성을 보여 준다. 표본 n과 분모를 함께 적어 작은 집단의 높은 비율도 신중히 읽는다.",
+      "memoryTip": "크기와 구성을 별도로",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C28",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-112",
+      "prompt": "상위 10개 국가·장르의 관계 분석에 대한 설명 중 맞는 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "첫값과 전체 확장의 결과를 비교해 규칙 영향을 볼 수 있다.",
+          "correct": true,
+          "explanation": "집계 가정에 대한 민감도 점검이다."
+        },
+        {
+          "id": "o2",
+          "text": "가장 진한 국가-장르 조합이 문화적으로 가장 우수하다.",
+          "correct": false,
+          "explanation": "공급 빈도는 문화적 가치나 품질을 측정하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "제외된 국가·장르가 있어 전체 분포와 다를 수 있다.",
+          "correct": true,
+          "explanation": "상위 N 선택은 분석 범위를 제한한다."
+        },
+        {
+          "id": "o4",
+          "text": "main_country는 첫값 선택이라는 편의 규칙임을 밝힌다.",
+          "correct": true,
+          "explanation": "첫 국가가 실제 최대 제작 기여를 보장하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            34,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "범주 관계는 집계 규칙·표본 선택·국가 규모에 영향을 받는다. 분석 범위와 가정을 밝히고 공급 구성 이상으로 결론을 넓히지 않는다.",
+      "memoryTip": "규칙과 선택 범위가 결과를 바꾼다",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C28",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-113",
+      "prompt": "같은 감독 D와 배우 A가 세 작품을 함께했다. 단순 무방향 그래프와 협업 횟수 가중 그래프의 차이는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "단순 그래프의 D-A 이웃은 하나이고 가중치는 3으로 둘 수 있다.",
+          "correct": true,
+          "explanation": "관계 존재 수와 반복 협업 강도를 분리한다."
+        },
+        {
+          "id": "o2",
+          "text": "단순 그래프에서 A가 세 명의 서로 다른 배우가 된다.",
+          "correct": false,
+          "explanation": "반복 협업이 노드의 사람 수를 늘리지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "가중치 3이면 감독이 반드시 세 명이다.",
+          "correct": false,
+          "explanation": "가중치는 이 관계의 협업 횟수다."
+        },
+        {
+          "id": "o4",
+          "text": "이웃 수와 협업 횟수는 항상 같다.",
+          "correct": false,
+          "explanation": "같은 상대와 반복 협업하면 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "노드는 사람, 엣지는 정의한 협업 관계다. 방향·가중치·동명이인 처리 규칙을 질문에 맞춰 명시한다.",
+      "memoryTip": "이웃 수와 반복 횟수 구별",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C29",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-114",
+      "prompt": "가상 단순 무방향 그래프가 6노드이고 D의 직접 이웃은 4명이다. degree/(n-1) 연결 중심성은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "0.2",
+          "correct": false,
+          "explanation": "이웃 수가 1일 때의 값이다."
+        },
+        {
+          "id": "o2",
+          "text": "0.8",
+          "correct": true,
+          "explanation": "4÷(6-1)=0.8이다."
+        },
+        {
+          "id": "o3",
+          "text": "0.67",
+          "correct": false,
+          "explanation": "4÷6이 아니라 자기 자신을 제외한 5로 나눈다."
+        },
+        {
+          "id": "o4",
+          "text": "4.0",
+          "correct": false,
+          "explanation": "4는 정규화 전 degree다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "연결 중심성은 선택된 그래프의 직접 이웃 수를 정규화한 지표다. 화면 중앙 위치·흥행·실제 친밀도를 직접 측정하지 않는다.",
+      "memoryTip": "직접 이웃 ÷ 가능한 이웃",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C29",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-115",
+      "prompt": "상위 감독만 뽑아 배우와 연결한 그래프에서 감독의 중심성이 높다. 가장 타당한 후속 점검은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "화면 중앙 노드를 무조건 최고 흥행자로 부른다.",
+          "correct": false,
+          "explanation": "레이아웃 위치는 흥행 지표가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "배우 노드가 있다는 사실만으로 모든 배우가 포함됐다고 본다.",
+          "correct": false,
+          "explanation": "상위 감독 표본 밖 인물이 빠질 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "감독 중심 표본과 감독-배우 엣지 정의의 영향을 본다.",
+          "correct": true,
+          "explanation": "감독은 작품 한 편에서도 여러 배우와 연결될 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "배우는 현실에서 영향력이 없다고 확정한다.",
+          "correct": false,
+          "explanation": "표본과 그래프 구조가 순위에 영향을 준다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "네트워크 결과는 어떤 사람과 관계를 포함했는지에 의존한다. 감독과 배우의 연결 기회가 다른 구조도 순위 해석에 반영한다.",
+      "memoryTip": "순위 전에 그래프의 모집단",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C29",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-116",
+      "prompt": "네트워크 그림의 해석으로 타당한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "레이아웃에서 가까운 두 점만으로 실제 친분을 단정하지 않는다.",
+          "correct": true,
+          "explanation": "배치는 연결을 읽기 쉽게 만드는 알고리즘 결과다."
+        },
+        {
+          "id": "o2",
+          "text": "떨어진 집단의 원인을 알려면 국가·언어 등 속성을 더 확인한다.",
+          "correct": true,
+          "explanation": "관찰된 분리 구조만으로 원인이 확정되지는 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "같은 사람끼리 한 번 더 협업하면 단순 그래프의 이웃 수가 반드시 늘어난다.",
+          "correct": false,
+          "explanation": "이미 있는 엣지의 반복은 직접 이웃 수를 늘리지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "노드 크기·색과 엣지 굵기의 범례를 확인한다.",
+          "correct": true,
+          "explanation": "무엇을 인코딩했는지 알아야 시각적 차이를 읽을 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "관계의 정의와 표본을 먼저 확인하고 중심성·가중치·레이아웃을 따로 읽는다. 네트워크 그림만으로 현실의 인과·친밀도·가치를 확정하지 않는다.",
+      "memoryTip": "구조 지표와 배치 구별",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C29",
+      "learningObjectiveIndices": [
+        0,
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-117",
+      "prompt": "Drama 작품 줄거리의 단어 빈도를 시각화하려 한다. 가장 적절한 흐름은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "큰 글씨를 먼저 정한 뒤 빈도를 맞춘다.",
+          "correct": false,
+          "explanation": "실제 빈도와 시각화의 관계가 뒤집혔다."
+        },
+        {
+          "id": "o2",
+          "text": "장르 기준 선택→description 결측 처리→토큰화·불용어 처리→빈도 시각화",
+          "correct": true,
+          "explanation": "대상 표본과 텍스트 전처리를 먼저 확정한다."
+        },
+        {
+          "id": "o3",
+          "text": "전체 country를 합쳐 배우 순위라고 부른다.",
+          "correct": false,
+          "explanation": "질문의 대상과 텍스트 컬럼이 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "rating을 평균 내어 줄거리를 복원한다.",
+          "correct": false,
+          "explanation": "시청 등급으로 원문을 복원할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "텍스트 마이닝은 비정형 문장을 분석 가능한 토큰·특징으로 바꾼다. 워드클라우드는 정한 표본과 전처리에서의 빈도를 크기로 요약한다.",
+      "memoryTip": "표본 → 텍스트 → 빈도",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C30",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-118",
+      "prompt": "두 장르에서 family가 각 100회 나온다. A는 전체 1,000단어, B는 10,000단어다. 단어 1,000개당 빈도는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "A=10회·B=100회",
+          "correct": false,
+          "explanation": "분모가 큰 B의 정규화 빈도가 더 작다."
+        },
+        {
+          "id": "o2",
+          "text": "A의 이용자 만족도가 B의 10배다.",
+          "correct": false,
+          "explanation": "텍스트 빈도 비율은 만족도 비율이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "A=100회·B=10회",
+          "correct": true,
+          "explanation": "각 빈도를 전체 단어 수로 나누고 1000을 곱한다."
+        },
+        {
+          "id": "o4",
+          "text": "두 장르 모두 100회이므로 상대 빈도도 같다.",
+          "correct": false,
+          "explanation": "원문 총길이가 10배 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "텍스트 집단의 표본 수와 길이가 다르면 총빈도만으로 비교하기 어렵다. 작품당 등장 비율이나 일정 단어 수당 빈도를 보완한다.",
+      "memoryTip": "같은 횟수에도 다른 분모",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C30",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-119",
+      "prompt": "'not happy'에서 happy가 크게 나타났다. 이 단어만으로 긍정적인 줄거리라고 확정할 수 없는 이유는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "happy는 항상 숫자형이기 때문이다.",
+          "correct": false,
+          "explanation": "happy는 텍스트 토큰이다."
+        },
+        {
+          "id": "o2",
+          "text": "글자 크기는 언제나 감정 점수를 표시하기 때문이다.",
+          "correct": false,
+          "explanation": "빈도 기반 크기는 감정 점수가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "불용어를 쓰면 모든 문장 의미가 보존되기 때문이다.",
+          "correct": false,
+          "explanation": "불용어 처리도 문맥 손실을 완전히 해결하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "단어별 빈도는 부정 표현과 문맥을 잃을 수 있다.",
+          "correct": true,
+          "explanation": "not과 함께 쓰인 의미를 분리된 빈도만으로 알기 어렵다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "워드클라우드는 문맥·순서·부정을 대부분 보여 주지 않는다. 감정이나 원인을 말하려면 원문·연속 단어·별도 분석이 필요하다.",
+      "memoryTip": "큰 단어 ≠ 감정 점수",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C30",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-120",
+      "prompt": "가상 설명 텍스트 빈도와 전처리를 검토한다. 타당한 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "가장 큰 life는 이 표본에서 가장 자주 나온 토큰이다.",
+          "correct": true,
+          "explanation": "빈도는 life 30·family 20·crime 10회다."
+        },
+        {
+          "id": "o2",
+          "text": "질문에 중요한 family를 불용어로 지우면 해석이 달라질 수 있다.",
+          "correct": true,
+          "explanation": "도메인 불용어 선택도 분석 목적에 맞춰야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "대소문자·복수형·언어와 표본 필터를 기록한다.",
+          "correct": true,
+          "explanation": "같은 빈도 그림을 재현할 조건이다."
+        },
+        {
+          "id": "o4",
+          "text": "life 빈도 30은 작품 30편이 모두 life를 포함했다는 뜻이다.",
+          "correct": false,
+          "explanation": "한 설명에 같은 단어가 반복될 수 있어 작품 수와 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "빈도는 토큰화·불용어·표본·문서 길이에 좌우된다. 단어 발생 횟수와 단어가 나온 작품 수를 구별해 해석한다.",
+      "memoryTip": "토큰 횟수와 문서 수 구별",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C30",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 description 토큰 빈도",
+        "xLabel": "정제한 단어",
+        "yLabel": "등장 횟수(회)",
+        "labels": [
+          "life",
+          "family",
+          "crime"
+        ],
+        "series": [
+          {
+            "name": "토큰 빈도",
+            "values": [
+              30,
+              20,
+              10
+            ]
+          }
+        ],
+        "note": "학습용 가상 수치. 같은 작품 안 반복도 각각 세었다."
+      }
+    },
+    {
+      "id": "n34-new-121",
+      "prompt": "작품의 listed_in·director·cast·description을 soup으로 합친 뒤 콘텐츠 유사 추천을 만든다. 다음 흐름은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "release_year를 사용자 ID로 사용",
+          "correct": false,
+          "explanation": "작품 공개연도는 사용자 식별자가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "CSV 파일 바이트 수만 비교",
+          "correct": false,
+          "explanation": "파일 크기는 작품 내용과 메타데이터의 유사성이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "TF-IDF 벡터화→코사인 유사도→자기 자신 제외 후 정렬",
+          "correct": true,
+          "explanation": "텍스트를 수치 특징으로 바꾸고 작품 간 방향 유사도를 비교한다."
+        },
+        {
+          "id": "o4",
+          "text": "사용자 평점 Pearson만 계산하고 작품 특징은 쓰지 않음",
+          "correct": false,
+          "explanation": "사용자 행동을 이용하는 협업 필터링 접근이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C31"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            55,
+            56,
+            57,
+            58
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "콘텐츠 추천은 작품 특징을 비교하며 soup은 여러 메타데이터 필드를 합친 텍스트다. TF-IDF는 수치 벡터를 만들고 코사인은 벡터 방향의 유사도를 비교한다.",
+      "memoryTip": "soup → TF-IDF → cosine",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C31",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-122",
+      "prompt": "거의 모든 작품 description에 movie가 있고 특정 장르 용어는 일부 작품에만 있다. IDF의 주된 역할은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "자주 등장한 단어를 모두 정답 장르로 확정한다.",
+          "correct": false,
+          "explanation": "단어 빈도는 장르 정답을 직접 보장하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 단어를 같은 가중치로 바꾼다.",
+          "correct": false,
+          "explanation": "문서 분포에 따라 가중치가 달라진다."
+        },
+        {
+          "id": "o3",
+          "text": "희귀한 오타도 의미상 중요하다고 증명한다.",
+          "correct": false,
+          "explanation": "드묾과 의미적 중요성은 같지 않다."
+        },
+        {
+          "id": "o4",
+          "text": "여러 문서에 흔한 단어의 구별력을 낮춘다.",
+          "correct": true,
+          "explanation": "문서 전반에서 흔한 단어에 상대적으로 작은 가중치를 준다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C31"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            55,
+            56,
+            57,
+            58
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "TF는 문서 안 단어 사용, IDF는 전체 문서에서의 희소성과 관련된다. 계산상 높은 가중치가 항상 좋은 추천 근거는 아니다.",
+      "memoryTip": "흔한 단어는 덜 구별한다",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C31",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-123",
+      "prompt": "가상 작품 X와 유사도는 X=1.00·Y=0.82·Z=0.75다. X 자신과 이미 본 Y를 제외하는 추천은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Z",
+          "correct": true,
+          "explanation": "제외 규칙을 적용한 뒤 남은 후보 중 가장 높은 항목이다."
+        },
+        {
+          "id": "o2",
+          "text": "X",
+          "correct": false,
+          "explanation": "자기 자신은 새 작품 추천이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "Y",
+          "correct": false,
+          "explanation": "주어진 이미 본 작품 제외 조건에 걸린다."
+        },
+        {
+          "id": "o4",
+          "text": "셋을 전부 같은 제목으로 합친다.",
+          "correct": false,
+          "explanation": "고유 항목과 제외 규칙을 잃는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C31"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            55,
+            56,
+            57,
+            58
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "유사도 계산 뒤에도 자기 자신·중복·이미 본 항목을 제외하는 규칙이 필요하다. 동명 작품은 제목 문자열만으로 합치지 말고 고유 ID를 확인한다.",
+      "memoryTip": "유사도 순위 뒤 제외 규칙",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C31",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-124",
+      "prompt": "콘텐츠 기반 추천을 확장할 때 타당한 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "감독·배우·줄거리의 가중치를 바꿔도 유사도는 반드시 같다.",
+          "correct": false,
+          "explanation": "어떤 특징을 강조하는지가 추천 기준을 바꾼다."
+        },
+        {
+          "id": "o2",
+          "text": "작품 수가 2배면 모든 쌍 n×n의 칸 수는 4배다.",
+          "correct": true,
+          "explanation": "(2n)²=4n²이므로 전체 행렬 비용이 빠르게 늘어난다."
+        },
+        {
+          "id": "o3",
+          "text": "신규 작품도 메타데이터가 있으면 유사도를 계산할 수 있다.",
+          "correct": true,
+          "explanation": "사용자 평점이 없어도 작품 특성을 이용한다."
+        },
+        {
+          "id": "o4",
+          "text": "비슷한 작품만 반복되지 않도록 다양성도 검토한다.",
+          "correct": true,
+          "explanation": "내용 유사성이 실제 만족도나 새로운 취향 탐색을 보장하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C31"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            55,
+            56,
+            57,
+            58
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "콘텐츠 기반은 사용자 평점 대신 항목 특징을 비교한다. 특징 구성·후보 제외·메모리·다양성까지 추천 설계에 포함한다.",
+      "memoryTip": "비슷함과 만족은 별개",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C31",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-125",
+      "prompt": "다음 가상 평점 코드로 사용자×작품 표를 만들었다. 아이템 기반 유사도에서 비교하는 대상은?\n```python\nimport pandas as pd\nratings = pd.DataFrame({\n    'user_id': ['u1', 'u1', 'u2', 'u2'],\n    'show_id': ['A', 'B', 'A', 'B'],\n    'rating': [1, 2, 4, 5]\n})\nmatrix = ratings.pivot_table(index='user_id', columns='show_id', values='rating')\n```",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품 줄거리의 단어만",
+          "correct": false,
+          "explanation": "이는 콘텐츠 특징 기반 접근이다."
+        },
+        {
+          "id": "o2",
+          "text": "사용자 이름의 철자만",
+          "correct": false,
+          "explanation": "평점 패턴을 나타내지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "원본 CSV의 파일명만",
+          "correct": false,
+          "explanation": "추천 근거가 되는 사용자 행동 정보가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "작품 열끼리의 사용자 평점 패턴",
+          "correct": true,
+          "explanation": "같은 사용자들의 평가가 작품 간에 어떻게 변하는지 비교한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C32"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "코드·결과 해석",
+      "review": "아이템 기반 협업 필터링은 사용자×아이템 행렬에서 작품끼리 행동 패턴을 비교한다. 같은 사용자-작품의 중복 평가 처리 규칙도 정한다.",
+      "memoryTip": "행은 사용자, 열은 작품",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C32",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-126",
+      "prompt": "가상 공통 사용자 3명의 A 평점은 1·3·5, B는 5·3·1이다. Pearson 상관과 의미는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "-1·평균 대비 변화 방향이 반대다.",
+          "correct": true,
+          "explanation": "A 편차 -2·0·2와 B 편차 2·0·-2가 반대다."
+        },
+        {
+          "id": "o2",
+          "text": "+1·모든 평점이 같다.",
+          "correct": false,
+          "explanation": "평점이 같지 않고 변화 방향도 반대다."
+        },
+        {
+          "id": "o3",
+          "text": "0·A와 B에 공통 평가자가 없다.",
+          "correct": false,
+          "explanation": "세 사용자가 두 작품 모두 평가했다."
+        },
+        {
+          "id": "o4",
+          "text": "-1·B를 모든 사람이 싫어한다.",
+          "correct": false,
+          "explanation": "상관 부호는 절대 호감 수준을 나타내지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C32"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "Pearson은 각 평균에서의 상대적 변화 방향을 비교한다. 음의 상관은 반대 패턴이지 한 작품의 절대적 저평가라는 뜻은 아니다.",
+      "memoryTip": "부호는 평점 변화의 방향",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C32",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-127",
+      "prompt": "새 작품은 메타데이터는 있지만 사용자 평점이 전혀 없다. 협업 필터링 관점의 문제와 보완은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "평점이 없으면 description도 반드시 결측이다.",
+          "correct": false,
+          "explanation": "행동 정보와 작품 메타데이터는 별개다."
+        },
+        {
+          "id": "o2",
+          "text": "아이템 콜드 스타트이며 콘텐츠 특징을 보완 근거로 쓸 수 있다.",
+          "correct": true,
+          "explanation": "행동 근거가 없는 새 항목은 평점 유사도를 계산하기 어렵다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 미평가를 5점으로 채우면 실제 취향을 복원한다.",
+          "correct": false,
+          "explanation": "관측하지 않은 호감을 임의로 만든다."
+        },
+        {
+          "id": "o4",
+          "text": "미평가는 이용자가 싫어했다는 확정 증거다.",
+          "correct": false,
+          "explanation": "안 봄·미평가와 부정 평가는 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C32"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "희소성은 관측 평점이 적은 상태이고 콜드 스타트는 신규 항목 등의 근거 부족 문제다. NaN을 실제 낮은 점수로 읽지 않는다.",
+      "memoryTip": "미평가 ≠ 싫어함",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C32",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-128",
+      "prompt": "가상 추천 실험에서 A-B 상관은 1.0·공통 n=2, A-C는 0.7·n=100이다. 맞는 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "한 작품 평점이 모두 같으면 Pearson이 정의되지 않을 수 있다.",
+          "correct": true,
+          "explanation": "분산이 0이면 상관 계산의 분모가 0이 된다."
+        },
+        {
+          "id": "o2",
+          "text": "강의의 가상 평점 실험이 실제 Netflix 이용자 선호를 증명한다.",
+          "correct": false,
+          "explanation": "카탈로그에는 실제 사용자별 평점이 없어 별도 가상 자료를 썼다."
+        },
+        {
+          "id": "o3",
+          "text": "A-B의 1.0만으로 더 안정적인 추천이라고 확정할 수 없다.",
+          "correct": true,
+          "explanation": "두 공통 관측에서 극단 상관이 쉽게 나올 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "공통 평가자 수와 유사도 부호·크기를 함께 보고한다.",
+          "correct": true,
+          "explanation": "점수의 근거 표본과 계산 의미를 함께 제시한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C32"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "높은 유사도라도 공통 평가자가 적으면 근거가 불안정하다. 결측·분산 0·가상 평점의 범위를 확인하고 실제 추천 성능은 별도로 평가한다.",
+      "memoryTip": "점수 옆에 공통 n",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C32",
+      "learningObjectiveIndices": [
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-129",
+      "prompt": "description·장르·감독·배우·국가를 TF-IDF 특징으로 만들고 release_year를 예측한다. 학습 문제의 종류와 타깃은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "회귀·공개연도",
+          "correct": true,
+          "explanation": "연속 수치인 연도를 예측하며 release_year가 정답값이다."
+        },
+        {
+          "id": "o2",
+          "text": "분류·시청 등급",
+          "correct": false,
+          "explanation": "주어진 예측 대상은 rating이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "군집화·사용자 ID",
+          "correct": false,
+          "explanation": "그룹 발견이나 사용자 식별이 목적이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "회귀·추가일 문자열 자체",
+          "correct": false,
+          "explanation": "date_added가 아니라 release_year를 예측한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C33"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            63,
+            64,
+            65,
+            66,
+            67
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "수치 연도를 예측하므로 회귀 문제다. Ridge는 계수 크기를 제약하는 회귀이며 정답 연도를 입력 텍스트에 직접 넣으면 누수가 된다.",
+      "memoryTip": "특징과 정답을 분리",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C33",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-130",
+      "prompt": "다음 중 평가 자료의 단어 분포를 TF-IDF 학습에 넣지 않는 흐름은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "test의 release_year를 soup에 합침",
+          "correct": false,
+          "explanation": "예측 시 알 수 없어야 할 정답 정보를 입력한다."
+        },
+        {
+          "id": "o2",
+          "text": "분할→fit_transform(train_text)→transform(test_text)",
+          "correct": true,
+          "explanation": "평가 텍스트의 단어 분포가 전처리 학습에 들어가지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "fit_transform(all_text)→train/test 분할",
+          "correct": false,
+          "explanation": "평가 자료의 정보가 전처리 학습에 포함된다."
+        },
+        {
+          "id": "o4",
+          "text": "fit_transform(train_text)→fit_transform(test_text)",
+          "correct": false,
+          "explanation": "서로 다른 특징 공간·가중치가 생겨 같은 변환이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C33"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            63,
+            64,
+            65,
+            66,
+            67
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "코드·결과 해석",
+      "review": "전처리도 학습 대상이다. 학습 자료에만 변환 규칙을 fit하고 평가 자료에는 같은 규칙을 적용해 보지 못한 자료의 성능을 추정한다.",
+      "memoryTip": "train에만 fit",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C33",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-131",
+      "prompt": "가상 평가의 실제 연도는 2000·2010·2020, 예측은 2002·2008·2014다. MAE는 약 얼마인가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "10년",
+          "correct": false,
+          "explanation": "10은 절대 오차 합이며 평균을 내야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "3.33% 정확도",
+          "correct": false,
+          "explanation": "타깃 연도와 같은 년 단위의 오차다."
+        },
+        {
+          "id": "o3",
+          "text": "3.33년",
+          "correct": true,
+          "explanation": "절대 오차 2·2·6년의 합 10을 3으로 나눈다."
+        },
+        {
+          "id": "o4",
+          "text": "-2년",
+          "correct": false,
+          "explanation": "부호를 유지한 오차 평균은 MAE가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C33"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            63,
+            64,
+            65,
+            66,
+            67
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "MAE는 |실제-예측|의 평균이며 여기서는 단위가 년이다. 평균 오차는 모든 작품의 최대 오차나 정확도 퍼센트를 뜻하지 않는다.",
+      "memoryTip": "절댓값 → 평균 → 년",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C33",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-132",
+      "prompt": "강의 수치 6.22→4.83년을 비교한다고 명시했다. 계산·보고에서 맞는 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "상대 감소율은 약 22.35%다.",
+          "correct": true,
+          "explanation": "1.39÷6.22×100으로 기준 오차를 분모로 한다."
+        },
+        {
+          "id": "o2",
+          "text": "66쪽의 4.19년과 67쪽의 4.83년 불일치를 함께 밝힌다.",
+          "correct": true,
+          "explanation": "코드·자료·분할을 재현하기 전에는 하나를 임의 확정하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "두 개선 수치를 평균한 4.51년이 공식 실험 결과다.",
+          "correct": false,
+          "explanation": "평균 계산만으로 실제 실행 결과를 확인한 것은 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "절대 MAE 감소는 1.39년이다.",
+          "correct": true,
+          "explanation": "6.22-4.83=1.39년이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C33"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            63,
+            64,
+            65,
+            66,
+            67
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "모델 비교는 같은 분할·정제·지표를 맞춰야 한다. 수치 충돌은 가정과 출처를 밝히고 재현 로그로 확인하며 좋아 보이는 값만 고르지 않는다.",
+      "memoryTip": "개선량의 분모는 기준 오차",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C33",
+      "learningObjectiveIndices": [
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-133",
+      "prompt": "'한국 영화가 급증했는가?'를 가장 재현 가능하게 바꾼 질문은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "한국이 세계에서 가장 인기 있는가?",
+          "correct": false,
+          "explanation": "인기 자료와 구체 비교 기준이 없다."
+        },
+        {
+          "id": "o2",
+          "text": "2018~2020년 추가 Movie 중 한국 포함 작품에서 전년 대비 30% 이상 증가한 해는?",
+          "correct": true,
+          "explanation": "기간·유형·국가 포함 조건·지표·임계값을 정했다."
+        },
+        {
+          "id": "o3",
+          "text": "한국 콘텐츠가 얼마나 대단해졌는가?",
+          "correct": false,
+          "explanation": "비교 단위와 측정 지표가 없다."
+        },
+        {
+          "id": "o4",
+          "text": "가장 멋진 상승 그래프는 무엇인가?",
+          "correct": false,
+          "explanation": "그림 취향은 급증 기준을 정하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C34"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            3,
+            4,
+            5,
+            17,
+            18,
+            19,
+            20,
+            21,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            34,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            44,
+            48,
+            66,
+            67
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "복합 질문은 대상·기간·집단·지표·기준으로 명세한다. '급증'은 계산 가능한 절대 또는 상대 임계값으로 바꾼다.",
+      "memoryTip": "누구·언제·무엇·얼마 이상",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "n34-C34",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-134",
+      "prompt": "2019년 추가 Movie에서 등급별 상영시간 분포를 비교한다. 필요한 컬럼과 분석 흐름은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "country 문자열 전체의 평균",
+          "correct": false,
+          "explanation": "국가 범주 문자열의 평균은 해당 비교가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "show_id만 합산해 전체 인기도 추정",
+          "correct": false,
+          "explanation": "ID 합은 길이 분포나 인기도가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "date_added·type·rating·duration→기간·유형 필터→길이 분리→등급별 박스플롯",
+          "correct": true,
+          "explanation": "추가 기간·대상·집단·수치 분포를 각각 연결한다."
+        },
+        {
+          "id": "o4",
+          "text": "release_year만 세어 배우 워드클라우드",
+          "correct": false,
+          "explanation": "추가일·등급·길이 질문에 필요한 정보가 빠졌다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C34"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            3,
+            4,
+            5,
+            17,
+            18,
+            19,
+            20,
+            21,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            34,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            44,
+            48,
+            66,
+            67
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "질문의 각 조건을 컬럼에 연결한 뒤 필터·변환·집계·차트를 역설계한다. 자료에 없는 선호·성과는 같은 질문에서 계산할 수 없다.",
+      "memoryTip": "질문 조건을 컬럼으로",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "n34-C34",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-135",
+      "prompt": "가상 국가 A의 Drama 20편을 전체 작품 100편이 아니라 선택한 상위 장르 40편으로 나눴다. 보고해야 할 결과는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "국가 전체 작품의 절반이 Drama라고 확정한다.",
+          "correct": false,
+          "explanation": "국가 전체 분모로는 20/100=20%다."
+        },
+        {
+          "id": "o2",
+          "text": "두 값은 반드시 하나가 오류다.",
+          "correct": false,
+          "explanation": "각 분모가 명확하면 둘 다 계산상 맞을 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "상위 장르를 고르면 나머지 작품은 존재하지 않는다.",
+          "correct": false,
+          "explanation": "분석에서 제외됐을 뿐 원자료가 사라지는 것은 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "선택 장르 내 비중 50%이며 국가 전체 비중 20%와 구별한다.",
+          "correct": true,
+          "explanation": "분모 40과 100이 서로 다른 질문의 비율이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C34"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            3,
+            4,
+            5,
+            17,
+            18,
+            19,
+            20,
+            21,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            34,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            44,
+            48,
+            66,
+            67
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "표본 선택과 분모는 복합 질문의 일부다. 다중값·최소 표본·부분연도 같은 조건을 명세에 넣어 계산과 해석의 범위를 맞춘다.",
+      "memoryTip": "분모까지 질문의 명세",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "n34-C34",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "n34-new-136",
+      "prompt": "팀의 복합 분석 명세를 검토한다. 타당한 계획을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "배우×국가×기간 질문에 cast·country·date_added·show_id를 연결한다.",
+          "correct": true,
+          "explanation": "목록 분리와 기간·포함 조건, 작품-배우 중복을 처리할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "급증 기준을 바꾸면 변경 이유와 새 임계값을 기록한다.",
+          "correct": true,
+          "explanation": "탐색에 따른 수정 과정을 재현할 수 있게 한다."
+        },
+        {
+          "id": "o3",
+          "text": "국가 장르 비율에는 표본 수·다중값 규칙·분모를 함께 쓴다.",
+          "correct": true,
+          "explanation": "규모와 집계 가정이 결과를 바꾸기 때문이다."
+        },
+        {
+          "id": "o4",
+          "text": "같은 빈도표를 두 그래프로 그리면 반드시 다른 복합 질문 두 개다.",
+          "correct": false,
+          "explanation": "그림 개수보다 연결한 조건·변수·비교 내용이 중요하다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C34"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            3,
+            4,
+            5,
+            17,
+            18,
+            19,
+            20,
+            21,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            34,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            44,
+            48,
+            66,
+            67
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "비교 분석",
+      "review": "복합 질문은 변수를 많이 나열하는 것보다 계산과 판단 기준을 명확히 연결하는 작업이다. 필요 컬럼·전처리·집계·차트·한계를 한 분석 계획으로 공유한다.",
+      "memoryTip": "질문 → 컬럼 → 함수 → 해석",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "n34-C34",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-001",
+      "prompt": "동일 CSV 집계가 노트북에서는 되지만 팀원 PC에서는 라이브러리 오류로 실패했다. 먼저 보강할 축은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "DevOps의 실행 환경 재현",
+          "correct": true,
+          "explanation": "버전과 의존성을 고정해 다른 환경의 실행 조건을 맞춘다."
+        },
+        {
+          "id": "o2",
+          "text": "생성형 AI의 문장 길이",
+          "correct": false,
+          "explanation": "설명의 길이를 늘려도 설치된 라이브러리는 바뀌지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "데이터 수집 빈도",
+          "correct": false,
+          "explanation": "수집 간격보다 실행 환경 차이가 제시된 원인이다."
+        },
+        {
+          "id": "o4",
+          "text": "시각화 색상",
+          "correct": false,
+          "explanation": "색상은 라이브러리 호환성 문제를 해결하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c01"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            2,
+            3,
+            11
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "빅데이터 처리는 데이터 연산을, DevOps는 실행·배포의 재현성을 담당한다. 생성형 AI의 초안도 실제 환경에서 검증해야 한다.",
+      "memoryTip": "연산·환경·검증 기록을 연결",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c01",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-002",
+      "prompt": "수집기와 분석기를 연결할 때 입력·출력 계약에 포함할 항목을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "보고서 표지의 색만 지정",
+          "correct": false,
+          "explanation": "데이터 연결에 필요한 스키마나 위치를 보장하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "날짜 열의 형식",
+          "correct": true,
+          "explanation": "파싱 가능한 형식을 합의해야 같은 사건을 집계한다."
+        },
+        {
+          "id": "o3",
+          "text": "작품 ID의 유일성 규칙",
+          "correct": true,
+          "explanation": "동일 작품의 중복 처리 기준이 된다."
+        },
+        {
+          "id": "o4",
+          "text": "파일 형식과 경로",
+          "correct": true,
+          "explanation": "분석기가 실제 입력을 찾고 읽는 조건이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c01"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            2,
+            3,
+            11
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "각 도구가 정상이어도 파일·스키마·버전 계약이 다르면 파이프라인이 끊어진다. 접합부의 조건을 명시하고 작은 입력으로 전체 연결을 시험한다.",
+      "memoryTip": "연산·환경·검증 기록을 연결",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c01",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-003",
+      "prompt": "과제1의 집계 코드를 과제2의 엔진 비교에 재사용한다. 함께 넘겨야 할 가장 적절한 묶음은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "최종 차트 이미지 하나",
+          "correct": false,
+          "explanation": "이미지만으로 처리 조건과 수치를 다시 검증하기 어렵다."
+        },
+        {
+          "id": "o2",
+          "text": "AI 답변의 첫 문단만",
+          "correct": false,
+          "explanation": "실제로 실행한 코드와 결과의 증거가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "코드·입력 샘플·기대 출력·실행 로그",
+          "correct": true,
+          "explanation": "다음 엔진이 같은 계산을 했는지 비교하는 기준선이다."
+        },
+        {
+          "id": "o4",
+          "text": "빠르다는 소감만",
+          "correct": false,
+          "explanation": "입력과 결과가 없어 성능 비교를 재현할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c01"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            2,
+            3,
+            11
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "앞 단계 산출물은 다음 단계의 입력이 된다. 코드와 함께 데이터·실행 조건·검증 결과를 남겨야 누적 프로젝트가 이어진다.",
+      "memoryTip": "연산·환경·검증 기록을 연결",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c01",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-004",
+      "prompt": "AI가 만든 집계는 실행되지만 CSV의 등록일을 공개 연도로 읽었다. 팀의 다음 조치로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Docker가 실행되었으므로 집계를 확정한다.",
+          "correct": false,
+          "explanation": "환경 기동 성공은 열 선택의 정확성을 증명하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "AI 설명을 보고서에 붙이고 원본은 지운다.",
+          "correct": false,
+          "explanation": "원본과 수정 근거가 없어 재검증하기 어렵다."
+        },
+        {
+          "id": "o3",
+          "text": "서버 수만 두 배로 늘린다.",
+          "correct": false,
+          "explanation": "잘못 선택한 열은 분산해도 올바른 지표가 되지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "열 의미를 고치고 수작업 표로 검증한 뒤 같은 환경과 수정 로그를 함께 전달한다.",
+          "correct": true,
+          "explanation": "연산의 의미·재현 환경·검증 기록을 함께 바로잡는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c01"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            2,
+            3,
+            11
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "세 축의 연결은 도구 사용 여부보다 올바른 입력에서 재현 가능한 결과까지 이어지는지가 중요하다. 잘못된 의미의 연산을 빠르게 실행하는 것은 정확한 분석이 아니다.",
+      "memoryTip": "연산·환경·검증 기록을 연결",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c01",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-005",
+      "prompt": "원본 파일을 날짜별 경로에 보관하여 이전 입력으로 다시 계산할 수 있게 했다. 주된 책임은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "배포",
+          "correct": false,
+          "explanation": "사용자가 결과나 실행물을 이용하도록 반영하는 책임이다."
+        },
+        {
+          "id": "o2",
+          "text": "저장",
+          "correct": true,
+          "explanation": "원본 보관과 재처리 가능성을 제공한다."
+        },
+        {
+          "id": "o3",
+          "text": "수집",
+          "correct": false,
+          "explanation": "외부 데이터를 들여오는 책임이다."
+        },
+        {
+          "id": "o4",
+          "text": "분석",
+          "correct": false,
+          "explanation": "지표의 의미와 패턴을 해석하는 책임이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c02"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "수집은 입력을 받는 일이고 저장은 입력과 사본을 보존하는 일이다. 원본을 남겨야 변환 오류를 발견했을 때 재처리할 수 있다.",
+      "memoryTip": "받기→보관→계산→해석→제공",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c02",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-006",
+      "prompt": "도구와 논리 계층의 관계에 대한 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "계층을 나누면 최소 다섯 대의 서버가 필수다.",
+          "correct": false,
+          "explanation": "책임 구분이 장비 수를 강제하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "도구 이름이 같으면 모든 파이프라인에서 역할도 하나로 고정된다.",
+          "correct": false,
+          "explanation": "실제로 맡긴 기능과 입출력에 따라 역할을 설명해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "Elasticsearch는 색인 저장과 검색·집계를 함께 제공할 수 있다.",
+          "correct": true,
+          "explanation": "한 도구가 저장과 분석 책임에 걸칠 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "한 서버에서 수집·저장·처리를 함께 실행할 수 있다.",
+          "correct": true,
+          "explanation": "논리 계층은 물리 서버 수와 일대일이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c02"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "계층은 장비가 아니라 기능의 책임 경계다. 같은 도구나 서버가 여러 책임을 수행할 수 있으므로 실제 입력·출력을 확인한다.",
+      "memoryTip": "받기→보관→계산→해석→제공",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c02",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-007",
+      "prompt": "하루 한 번 오는 작은 CSV를 다음 날 오전까지 집계하면 된다. 설계의 출발점으로 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "이벤트마다 1ms 안에 처리하도록 스트리밍을 의무화한다.",
+          "correct": false,
+          "explanation": "주어진 하루 단위 요구보다 훨씬 엄격한 조건이다."
+        },
+        {
+          "id": "o2",
+          "text": "분산 노드 수부터 최대화한다.",
+          "correct": false,
+          "explanation": "요구사항 없이 노드 수만 정하면 비용 근거가 없다."
+        },
+        {
+          "id": "o3",
+          "text": "차트 종류를 정한 뒤 입력 유무는 생략한다.",
+          "correct": false,
+          "explanation": "도착·보관·집계 조건이 먼저 충족되어야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "일별 배치와 원본 보관으로 요구를 충족하는지 먼저 확인한다.",
+          "correct": true,
+          "explanation": "지연 요구와 규모에 맞는 단순 구성을 평가한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c02"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "도착 간격·허용 지연·조회 패턴이 기술 선택의 근거다. 도구의 복잡성보다 요구한 보장을 실제로 제공하는지 확인한다.",
+      "memoryTip": "받기→보관→계산→해석→제공",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c02",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-008",
+      "prompt": "매일 CSV 수신→원본 보관→유형별 건수 계산→비중 변화 설명→대시보드 갱신 중 '처리' 산출물은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "유형별 집계표",
+          "correct": true,
+          "explanation": "정제와 집계 연산의 결과다."
+        },
+        {
+          "id": "o2",
+          "text": "외부에서 막 받은 CSV",
+          "correct": false,
+          "explanation": "수집 결과이며 아직 집계하지 않았다."
+        },
+        {
+          "id": "o3",
+          "text": "비중 변화의 원인 가설",
+          "correct": false,
+          "explanation": "수치의 의미를 다루는 분석 설명이다."
+        },
+        {
+          "id": "o4",
+          "text": "배포 완료 알림",
+          "correct": false,
+          "explanation": "결과 제공 단계의 운영 기록이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c02"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "집계표 생성과 그 표의 의미 해석은 구분된다. 동일 서버에서 수행해도 수집·저장·처리·분석·배포의 책임은 추적할 수 있다.",
+      "memoryTip": "받기→보관→계산→해석→제공",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c02",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-009",
+      "prompt": "프로젝트 30%, 중간 20%, 기말 20%일 때 정확한 비교는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "중간과 기말은 각 40%다.",
+          "correct": false,
+          "explanation": "40%는 두 시험 가중치를 합친 값이다."
+        },
+        {
+          "id": "o2",
+          "text": "프로젝트에서 모두 30점을 받는다.",
+          "correct": false,
+          "explanation": "30%는 비중이며 원점수는 별도로 반영된다."
+        },
+        {
+          "id": "o3",
+          "text": "프로젝트는 단일 항목 최대지만 두 시험의 합은 40%다.",
+          "correct": true,
+          "explanation": "개별 항목과 묶음의 비교 대상을 구분한 해석이다."
+        },
+        {
+          "id": "o4",
+          "text": "프로젝트 30%가 시험 합계 40%보다 크다.",
+          "correct": false,
+          "explanation": "30은 40보다 작다."
+        }
+      ],
+      "conceptIds": [
+        "web-c03"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "평가 비중은 전체 100% 중 차지하는 가중치다. 하나의 막대와 여러 항목의 합계를 구분해서 읽는다.",
+      "memoryTip": "비중(%)과 반영점수(점) 구분",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c03",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-010",
+      "prompt": "누적 과제의 산출물 관리에 대한 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "AI 수정·검증 기록은 마지막 보고서의 방법 근거가 된다.",
+          "correct": true,
+          "explanation": "채택한 코드와 검증 절차를 추적할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "앞 과제의 로그는 뒤 과제와 관계없으므로 삭제한다.",
+          "correct": false,
+          "explanation": "후속 비교의 조건을 확인할 근거가 사라진다."
+        },
+        {
+          "id": "o3",
+          "text": "마지막 날 기억으로 실행 옵션을 채우면 충분하다.",
+          "correct": false,
+          "explanation": "실제 실행과 기록이 달라질 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "첫 엔진의 입출력 샘플은 다음 성능 비교의 기준선이 된다.",
+          "correct": true,
+          "explanation": "같은 계산을 비교했는지 확인할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c03"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "과제들은 코드·성능표·검증 리포트를 이어 하나의 프로젝트를 만든다. 성공한 시점에 입력과 명령, 로그를 보관해야 후속 산출물을 재현할 수 있다.",
+      "memoryTip": "비중(%)과 반영점수(점) 구분",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c03",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-011",
+      "prompt": "학습용 가상 원점수: 프로젝트 90점, 중간 80점이다. 가중치가 각각 30%, 20%면 두 항목의 최종 기여 합은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "43점",
+          "correct": true,
+          "explanation": "90×0.30+80×0.20=27+16=43점이다."
+        },
+        {
+          "id": "o2",
+          "text": "50점",
+          "correct": false,
+          "explanation": "50%는 두 항목 가중치 합이지 이 학생의 반영 점수가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "85점",
+          "correct": false,
+          "explanation": "두 원점수의 단순 평균으로 가중치가 반영되지 않았다."
+        },
+        {
+          "id": "o4",
+          "text": "170점",
+          "correct": false,
+          "explanation": "원점수를 그대로 합하면 최종 평가 가중치를 적용하지 못한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c03"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "반영 점수는 원점수에 가중치를 곱한다. 가중치 합의 단위 %와 최종 기여의 단위 점을 구분한다.",
+      "memoryTip": "비중(%)과 반영점수(점) 구분",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c03",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-012",
+      "prompt": "그래프의 가중치를 적용할 때 옳은 판단은? (프로젝트 원점수 70, 중간·기말 각 100인 가상 사례)",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "과제1 결과를 잃어도 다음 성능 비교의 기준선에는 영향이 없다.",
+          "correct": false,
+          "explanation": "기준선 코드와 로그가 없으면 동일 조건을 확인하기 어렵다."
+        },
+        {
+          "id": "o2",
+          "text": "프로젝트 21점, 두 시험 합 40점이므로 이 세 항목 기여 합은 61점이다.",
+          "correct": true,
+          "explanation": "70×0.30+100×0.20+100×0.20=61이다."
+        },
+        {
+          "id": "o3",
+          "text": "프로젝트 막대가 가장 높으므로 반영 점수도 두 시험 합보다 크다.",
+          "correct": false,
+          "explanation": "가중치뿐 아니라 실제 원점수를 곱해 비교해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "시험의 40%는 과제 수행에 투입한 시간이다.",
+          "correct": false,
+          "explanation": "세로축은 평가 비중이지 작업 시간이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c03"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "그래프는 항목별 비중을 보여주며 실제 점수는 원점수와 가중치를 함께 계산한다. 누적 과제에서는 평가 숫자뿐 아니라 후속 산출물의 의존 관계도 확인한다.",
+      "memoryTip": "비중(%)과 반영점수(점) 구분",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c03",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "강의 평가 비중",
+        "xLabel": "항목",
+        "yLabel": "전체 평가 비중(%)",
+        "labels": [
+          "프로젝트",
+          "중간",
+          "기말",
+          "과제",
+          "출석",
+          "참여"
+        ],
+        "series": [
+          {
+            "name": "가중치",
+            "values": [
+              30,
+              20,
+              20,
+              10,
+              10,
+              10
+            ]
+          }
+        ],
+        "note": "가중치는 강의 기준, 원점수는 문제의 가상 값"
+      }
+    },
+    {
+      "id": "web-new-013",
+      "prompt": "AI에게 집계를 요청하기 전에 통과 기준으로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "보기 좋고 완벽하게 작성한다.",
+          "correct": false,
+          "explanation": "대상과 계산 기준이 없어 성공 여부가 모호하다."
+        },
+        {
+          "id": "o2",
+          "text": "긴 설명이면 결과는 확인하지 않는다.",
+          "correct": false,
+          "explanation": "설명 길이는 수치 정확성의 증거가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "오류는 생성 후 질문을 바꾸어 없던 일로 한다.",
+          "correct": false,
+          "explanation": "초기 조건과 실패 근거를 추적할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "Movie만 대상으로 유효 분 단위 duration의 중앙값과 N을 출력한다.",
+          "correct": true,
+          "explanation": "대상·단위·결과가 명확해 검증할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c04"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            7,
+            10,
+            11
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "검증 기준은 생성 전에 질문에 포함한다. 대상·입력·제약·출력과 작은 기대 결과를 적으면 초안을 판정하기 쉽다.",
+      "memoryTip": "실행·문서·의미를 따로 검증",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c04",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-014",
+      "prompt": "코드 실행 성공만으로 확인되지 않는 항목을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "rating을 이용자 별점이 아닌 등급으로 해석했는지",
+          "correct": true,
+          "explanation": "열의 의미는 별도의 분석 검증이 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "설치 버전에서 옵션이 의도한 의미인지",
+          "correct": true,
+          "explanation": "해당 버전의 도움말과 공식 문서 대조가 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "분과 시즌을 같은 평균에 섞지 않았는지",
+          "correct": true,
+          "explanation": "연산은 실행되어도 서로 다른 단위를 합칠 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "명령이 종료 코드 0으로 끝났는지",
+          "correct": false,
+          "explanation": "이 항목은 실행 결과 자체로 확인할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c04"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            7,
+            10,
+            11
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "실행 검증은 동작 여부, 문서 검증은 API 의미·호환성, 분석 검증은 질문·단위·분모를 확인한다. 세 종류의 증거는 서로를 대체하지 않는다.",
+      "memoryTip": "실행·문서·의미를 따로 검증",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c04",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-015",
+      "prompt": "AI 코드가 존재하지 않는 함수로 실패했다. 활용 기록의 다음 항목으로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "AI가 검증했다고 썼으므로 종료한다.",
+          "correct": false,
+          "explanation": "제출 환경에서의 검증 결과가 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "실패 명령·오류·함수 확인 근거·수정·재실행 결과를 남긴다.",
+          "correct": true,
+          "explanation": "결함부터 해결 판정까지의 경로를 재현할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "수정 제안을 받았다는 문장만 남긴다.",
+          "correct": false,
+          "explanation": "제안은 실제 해결 여부를 증명하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "처음의 실패 결과를 지운다.",
+          "correct": false,
+          "explanation": "다음 검증에 필요한 원인과 변경 근거가 사라진다."
+        }
+      ],
+      "conceptIds": [
+        "web-c04"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            7,
+            10,
+            11
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "실패한 조건을 다음 프롬프트의 제약에 반영하고 수정본을 같은 테스트로 재검증한다. 채택 범위와 수정 이유도 활용 이력에 기록한다.",
+      "memoryTip": "실행·문서·의미를 따로 검증",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c04",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-016",
+      "prompt": "등록 추이 코드가 release_year로 집계해 정상 실행됐다. 검증 순환을 완성하는 조치는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "실행하지 않고 공식 문서 화면만 저장한다.",
+          "correct": false,
+          "explanation": "문서 대조만으로 현재 입력의 집계 결과를 확인할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "원하는 차트가 나올 때까지 열 이름만 임의 변경한다.",
+          "correct": false,
+          "explanation": "열의 정의와 기대 결과를 기준으로 고쳐야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "date_added로 수정하고 가상 두 행의 기대 집계와 대조한 후 변경 이력을 저장한다.",
+          "correct": true,
+          "explanation": "실행 외에 사건의 의미를 확인하고 수정 후 재검증한다."
+        },
+        {
+          "id": "o4",
+          "text": "출력 파일이 있으므로 검증을 끝낸다.",
+          "correct": false,
+          "explanation": "파일 생성은 등록 사건을 올바르게 셌다는 증거가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c04"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            7,
+            10,
+            11
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "등록일과 최초 공개 연도는 다른 사건이다. 생성→실행·문서·의미 검증→수정·재검증→기록으로 순환을 닫는다.",
+      "memoryTip": "실행·문서·의미를 따로 검증",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c04",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-017",
+      "prompt": "docker --version은 성공했지만 실제 컨테이너는 시작되지 않는다. 추가로 필요한 검사는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작은 컨테이너를 실제 기동하는 스모크 테스트",
+          "correct": true,
+          "explanation": "명령 설치와 실행 서비스 기동은 별도 조건이다."
+        },
+        {
+          "id": "o2",
+          "text": "버전 문자열의 글꼴 변경",
+          "correct": false,
+          "explanation": "실제 서비스 실행 여부를 확인하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "보고서 파일명 수정",
+          "correct": false,
+          "explanation": "런타임 기동과 관련 없는 작업이다."
+        },
+        {
+          "id": "o4",
+          "text": "테스트 결과 대신 설치 완료 문구 복사",
+          "correct": false,
+          "explanation": "현재 환경에서 동작했다는 증거가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c05"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "버전 확인은 도구의 존재와 버전을 확인한다. 스모크 테스트는 작은 실제 실행으로 기본 연결과 기동을 시험한다.",
+      "memoryTip": "설치 확인 다음 실제 기동",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c05",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-018",
+      "prompt": "같은 분석을 다른 PC에서 재현하는 데 필요한 기록을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "팀원의 모니터 배경화면",
+          "correct": false,
+          "explanation": "데이터 처리 결과의 재현 조건이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "입력 파일 버전과 체크섬",
+          "correct": true,
+          "explanation": "어떤 바이트의 데이터를 사용했는지 식별한다."
+        },
+        {
+          "id": "o3",
+          "text": "의존성 버전과 실행 명령",
+          "correct": true,
+          "explanation": "실행 환경과 옵션을 다시 구성할 근거다."
+        },
+        {
+          "id": "o4",
+          "text": "무작위 시드가 사용되었다면 해당 값",
+          "correct": true,
+          "explanation": "랜덤 분할 등 결과의 변동 조건을 고정한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c05"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "재현에는 코드만 아니라 입력·의존성·명령·옵션이 필요하다. 난수와 환경 차이가 결과를 바꾼다면 그 조건도 기록한다.",
+      "memoryTip": "설치 확인 다음 실제 기동",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c05",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-019",
+      "prompt": "API 키를 쓰는 저장소에 가장 적절한 관리 방식은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "대용량 원본과 키를 모든 커밋에 함께 넣는다.",
+          "correct": false,
+          "explanation": "노출 위험과 이력 용량이 함께 커진다."
+        },
+        {
+          "id": "o2",
+          "text": "원본을 가공본으로 덮어쓰고 버전 기록을 없앤다.",
+          "correct": false,
+          "explanation": "다른 입력이나 변환 결과를 재검증하기 어렵다."
+        },
+        {
+          "id": "o3",
+          "text": "실제 키는 환경변수로 주고 예제 설정에는 이름과 빈 값만 둔다.",
+          "correct": true,
+          "explanation": "비밀값과 재현 가능한 설정 구조를 분리한다."
+        },
+        {
+          "id": "o4",
+          "text": "키를 공개 README 첫 줄에 적는다.",
+          "correct": false,
+          "explanation": "공개 저장소 독자가 비밀값을 볼 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c05"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "비밀값은 코드와 분리하고 저장소에는 필요한 설정 예시와 실행 방법을 둔다. 원본·가공본·산출물의 역할도 나누어 관리한다.",
+      "memoryTip": "설치 확인 다음 실제 기동",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c05",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-020",
+      "prompt": "버전 확인·컨테이너 기동·샘플 CSV 집계가 모두 성공했다. 제출할 재현 묶음으로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "스크린샷 한 장과 실제 비밀번호를 제공한다.",
+          "correct": false,
+          "explanation": "실행 절차가 부족하고 비밀값을 노출한다."
+        },
+        {
+          "id": "o2",
+          "text": "의존성 목록만 주고 입력과 명령은 생략한다.",
+          "correct": false,
+          "explanation": "동일 환경을 만들어도 무엇을 어떻게 실행할지 알기 어렵다."
+        },
+        {
+          "id": "o3",
+          "text": "성공 문장만 남기고 로그를 없앤다.",
+          "correct": false,
+          "explanation": "재현 조건과 실패 진단 근거가 남지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "코드 커밋·입력 식별값·환경 버전·실행 명령·기대 결과를 비밀값 없이 묶는다.",
+          "correct": true,
+          "explanation": "설치·동작 증거와 재실행 조건을 함께 제공한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c05"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web1",
+          "pages": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "스모크 테스트는 기본 기동의 증거이며 전체 분석 정확성과는 구분한다. 재현 묶음에는 실제 실행 조건을 남기고 자격증명은 넣지 않는다.",
+      "memoryTip": "설치 확인 다음 실제 기동",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c05",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-021",
+      "prompt": "동일 열에 날짜·자유 텍스트·JSON 객체가 섞여 정형 파서가 실패한다. 가장 직접적인 5V 축은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Value",
+          "correct": false,
+          "explanation": "활용 목적과 얻는 가치에 관한 축이다."
+        },
+        {
+          "id": "o2",
+          "text": "Variety",
+          "correct": true,
+          "explanation": "형식과 구조의 다양성이 처리 방식을 바꾼다."
+        },
+        {
+          "id": "o3",
+          "text": "Volume",
+          "correct": false,
+          "explanation": "전체 용량의 크기를 나타내는 축이다."
+        },
+        {
+          "id": "o4",
+          "text": "Velocity",
+          "correct": false,
+          "explanation": "발생·유입 속도와 지연에 관한 축이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "Variety는 데이터 형식과 구조의 다양성이다. 같은 용량이라도 텍스트·이미지·중첩 구조의 처리 비용은 다를 수 있다.",
+      "memoryTip": "각 V를 지표·문제·대응으로",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c06",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-022",
+      "prompt": "파일 크기만으로 분산 처리를 결정하기 어려운 이유를 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "압축률과 메모리 표현이 다를 수 있다.",
+          "correct": true,
+          "explanation": "디스크 바이트와 메모리 사용량이 일치하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "작은 파일은 언제나 정확하고 가치가 높다.",
+          "correct": false,
+          "explanation": "용량은 품질과 업무 가치를 보장하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "조인과 정렬에서 중간 데이터가 원본보다 커질 수 있다.",
+          "correct": true,
+          "explanation": "실행 중 메모리와 셔플량을 별도로 측정해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "요구 지연과 반복 횟수가 다를 수 있다.",
+          "correct": true,
+          "explanation": "같은 크기라도 허용 시간과 워크로드가 다르다."
+        }
+      ],
+      "conceptIds": [
+        "web-c06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "기술 선택은 용량뿐 아니라 연산·중간 크기·허용 지연·비용을 함께 본다. 5V는 각 문제를 관측 지표와 대응시키는 틀이다.",
+      "memoryTip": "각 V를 지표·문제·대응으로",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c06",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-023",
+      "prompt": "작품 ID가 누락되고 같은 ID가 반복되어 집계 신뢰도가 낮다. 우선 대응으로 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "압축률만 높인다.",
+          "correct": false,
+          "explanation": "저장 공간을 줄여도 키의 정확성은 개선되지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "노드 수만 늘린다.",
+          "correct": false,
+          "explanation": "잘못된 입력을 더 빨리 계산할 뿐이다."
+        },
+        {
+          "id": "o3",
+          "text": "막대그래프 색만 바꾼다.",
+          "correct": false,
+          "explanation": "품질 결함의 원인과 처리 규칙은 달라지지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "키 결측·중복률을 진단하고 처리 규칙과 경보를 만든다.",
+          "correct": true,
+          "explanation": "Veracity 문제에 품질 검증으로 대응한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "Veracity는 데이터 신뢰성과 품질에 관한 축이다. 결측·중복·도메인 위반을 측정하고 질문에 맞는 규칙으로 처리한다.",
+      "memoryTip": "각 V를 지표·문제·대응으로",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c06",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-024",
+      "prompt": "가상 서비스는 초당 5만 이벤트가 들어오지만 하루 뒤 결과를 써도 되고, 중복률이 8%다. 타당한 설계 판단은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "유입 속도와 품질을 따로 측정하고 허용 지연에 맞는 배치·중복 규칙을 검토한다.",
+          "correct": true,
+          "explanation": "Velocity와 Veracity를 구분하면서 실제 요구를 반영한다."
+        },
+        {
+          "id": "o2",
+          "text": "이벤트 속도가 높으므로 결과도 반드시 1ms 내 제공해야 한다.",
+          "correct": false,
+          "explanation": "유입 속도와 업무가 요구한 지연은 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "중복률은 Value이므로 품질 점검이 필요 없다.",
+          "correct": false,
+          "explanation": "중복은 신뢰성에 영향을 주는 품질 지표다."
+        },
+        {
+          "id": "o4",
+          "text": "파일 총량을 모르므로 어떤 요구도 정리할 수 없다.",
+          "correct": false,
+          "explanation": "속도·지연·중복 조건만으로도 설계 제약을 정리할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "각 V를 관측 지표와 문제에 연결하면 필요한 대응이 분명해진다. 빠른 유입이 항상 초저지연 결과 제공을 뜻하지는 않는다.",
+      "memoryTip": "각 V를 지표·문제·대응으로",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c06",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-025",
+      "prompt": "32GB RAM 서버를 128GB RAM 서버로 교체해 같은 작업을 실행한다. 해당 확장 방식은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "복제만 수행",
+          "correct": false,
+          "explanation": "데이터 사본 수를 늘린다는 조건이 없다."
+        },
+        {
+          "id": "o2",
+          "text": "샤딩만 수행",
+          "correct": false,
+          "explanation": "데이터를 여러 노드로 나누었다는 조건이 없다."
+        },
+        {
+          "id": "o3",
+          "text": "스케일업",
+          "correct": true,
+          "explanation": "한 노드의 자원을 강화한다."
+        },
+        {
+          "id": "o4",
+          "text": "스케일아웃",
+          "correct": false,
+          "explanation": "여러 노드를 추가하는 확장이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c07"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "스케일업은 한 장비의 CPU·메모리 등을 강화하고 스케일아웃은 노드를 추가한다. 노드 추가에는 통신과 실패 처리 비용도 따라온다.",
+      "memoryTip": "노드 강화=업, 노드 추가=아웃",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c07",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-026",
+      "prompt": "분산 환경에서 작업 시간이 늘어날 수 있는 상황을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작은 입력에서 작업 초기화 비용의 비중이 크다.",
+          "correct": true,
+          "explanation": "실제 연산보다 고정 비용이 더 클 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "특정 키에 데이터가 몰려 한 작업이 오래 걸린다.",
+          "correct": true,
+          "explanation": "데이터 쏠림이 전체 완료 시점을 늦춘다."
+        },
+        {
+          "id": "o3",
+          "text": "노드 수를 늘리면 모든 통신 비용이 항상 0이 된다.",
+          "correct": false,
+          "explanation": "노드 추가는 통신 비용을 없애지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "키별 데이터 이동인 셔플이 네트워크를 많이 사용한다.",
+          "correct": true,
+          "explanation": "집계·조인의 통신 비용이 커질 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c07"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "분산 성능은 병렬 연산 이득과 초기화·통신·쏠림 비용의 합으로 결정된다. 데이터 규모별로 실제 측정해야 한다.",
+      "memoryTip": "노드 강화=업, 노드 추가=아웃",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c07",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-027",
+      "prompt": "학습용 가상 실측에서 작은 입력은 단일 2초·분산 5초, 큰 입력은 단일 80초·분산 20초다. 적절한 결론은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "규모에 따라 유리한 방식이 달라지므로 중간 크기도 반복 측정한다.",
+          "correct": true,
+          "explanation": "전환 지점을 워크로드별로 찾아야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "분산은 모든 크기에서 4배 빠르다.",
+          "correct": false,
+          "explanation": "작은 입력에서는 오히려 느리다."
+        },
+        {
+          "id": "o3",
+          "text": "단일 노드는 모든 크기에서 우수하다.",
+          "correct": false,
+          "explanation": "큰 입력에서 분산 시간이 더 짧다."
+        },
+        {
+          "id": "o4",
+          "text": "노드 수만 알면 다음 실행 시간은 확정된다.",
+          "correct": false,
+          "explanation": "입력·연산·자원·통신에 따라 시간이 변한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c07"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "전환 지점은 분산이 더 유리해지는 입력 규모와 조건이다. 동일 결과를 확인한 뒤 여러 크기에서 반복 측정해 판단한다.",
+      "memoryTip": "노드 강화=업, 노드 추가=아웃",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c07",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-028",
+      "prompt": "가상 그래프를 근거로 10GB 작업을 설계한다면 가장 타당한 판단은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "분산 시간이 짧으면 결과 검증은 생략한다.",
+          "correct": false,
+          "explanation": "시간과 결과 정확성은 별도의 검증 조건이다."
+        },
+        {
+          "id": "o2",
+          "text": "현재 조건에서는 단일이 빠르며, 확장 계획은 더 큰 입력의 결과 일치·반복 측정으로 정한다.",
+          "correct": true,
+          "explanation": "10GB에서는 4초와 7초를 비교하고 다른 크기 결과도 구분한다."
+        },
+        {
+          "id": "o3",
+          "text": "10GB에서 8노드가 반드시 8배 빠르다.",
+          "correct": false,
+          "explanation": "표시된 시간은 단일 4초, 분산 7초다."
+        },
+        {
+          "id": "o4",
+          "text": "100GB의 분산 이득이 모든 작은 입력에도 적용된다.",
+          "correct": false,
+          "explanation": "규모에 따라 고정 비용의 비중이 다르다."
+        }
+      ],
+      "conceptIds": [
+        "web-c07"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "같은 결과를 계산하는 조건에서 시간과 자원 비용을 비교한다. 노드 수가 아닌 입력 규모별 실측이 확장 선택의 근거다.",
+      "memoryTip": "노드 강화=업, 노드 추가=아웃",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c07",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 입력 크기별 실행 시간",
+        "xLabel": "입력",
+        "yLabel": "시간(초)",
+        "labels": [
+          "10GB",
+          "100GB",
+          "500GB"
+        ],
+        "series": [
+          {
+            "name": "단일 노드",
+            "values": [
+              4,
+              40,
+              210
+            ]
+          },
+          {
+            "name": "8노드",
+            "values": [
+              7,
+              13,
+              50
+            ]
+          }
+        ],
+        "note": "실제 엔진 성능이 아닌 학습용 가상 실측"
+      }
+    },
+    {
+      "id": "web-new-029",
+      "prompt": "두 엔진의 속도를 비교하기 전 반드시 통과해야 할 조건은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "둘 중 하나가 유명한 도구다.",
+          "correct": false,
+          "explanation": "도구의 인지도는 결과 일치를 보장하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "차트의 색상이 같다.",
+          "correct": false,
+          "explanation": "표현 형식은 계산의 동일성과 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "더 빠른 쪽의 로그만 남긴다.",
+          "correct": false,
+          "explanation": "양쪽 측정 조건과 결과가 필요하다."
+        },
+        {
+          "id": "o4",
+          "text": "같은 입력에서 집계 결과가 일치한다.",
+          "correct": true,
+          "explanation": "계산 내용이 같아야 처리 시간을 공정하게 비교한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c08"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "성능 비교는 정확성 비교를 먼저 통과해야 한다. 입력·필터·결측 처리·집계 결과가 같아야 시간 차이의 의미가 있다.",
+      "memoryTip": "결과 일치 다음 공정한 시간",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c08",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-030",
+      "prompt": "가상 반복 시간 [9,10,10,11,60]초를 보고할 때 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "중앙값은 10초다.",
+          "correct": true,
+          "explanation": "정렬된 다섯 값의 가운데 값이다."
+        },
+        {
+          "id": "o2",
+          "text": "원시 다섯 값도 함께 보관한다.",
+          "correct": true,
+          "explanation": "60초의 변동과 분포를 재검토할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "최솟값 9초만 대표값으로 확정한다.",
+          "correct": false,
+          "explanation": "가장 유리한 한 번만 고르면 반복 변동을 감춘다."
+        },
+        {
+          "id": "o4",
+          "text": "60초를 근거 없이 지운 뒤 평균을 쓴다.",
+          "correct": false,
+          "explanation": "제외 기준과 원인 점검 없이 값을 삭제하면 비교가 왜곡된다."
+        }
+      ],
+      "conceptIds": [
+        "web-c08"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "반복 측정은 한 번의 캐시·자원 변동 영향을 드러낸다. 중앙값과 원시 값을 남기고 제외한 실행이 있다면 이유를 기록한다.",
+      "memoryTip": "결과 일치 다음 공정한 시간",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c08",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-031",
+      "prompt": "Spark 변환 코드를 구성한 직후의 시간만 측정했고 action은 나중에 실행했다. 성능표의 문제는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "초 대신 분으로 표시하면 해결된다.",
+          "correct": false,
+          "explanation": "단위 변경으로 누락된 실행 구간을 포함할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "지연 평가 때문에 실제 계산 시간이 측정 범위 밖일 수 있다.",
+          "correct": true,
+          "explanation": "결과를 만드는 action까지 포함했는지 명시해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "변환 코드가 있으면 action이 없어도 전체 집계가 끝난다.",
+          "correct": false,
+          "explanation": "지연 평가에서는 실행을 촉발하는 연산이 필요하다."
+        },
+        {
+          "id": "o4",
+          "text": "CPU 수만 같으면 측정 범위는 중요하지 않다.",
+          "correct": false,
+          "explanation": "어느 구간을 쟀는지가 시간의 의미를 결정한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c08"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "성능표에는 읽기·초기화·실제 연산·쓰기 중 측정 범위를 밝힌다. 캐시 상태와 자원 조건도 맞춰야 같은 비용을 비교할 수 있다.",
+      "memoryTip": "결과 일치 다음 공정한 시간",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c08",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-032",
+      "prompt": "가상 중앙값은 기준 엔진 24초, 새 엔진 8초다. 옳은 보고는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "실행이 짧으므로 결과 검증은 필요 없다.",
+          "correct": false,
+          "explanation": "오류로 일부 행을 빠뜨려도 빨라질 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "두 막대만 있으면 입력 버전과 측정 범위는 생략한다.",
+          "correct": false,
+          "explanation": "공정성과 재현성을 확인할 조건이 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "동일 결과·조건에서 가속비는 24/8=3배이며 원시 반복값과 캐시 상태도 제시한다.",
+          "correct": true,
+          "explanation": "가속비의 분모는 비교 대상인 새 엔진 시간이다."
+        },
+        {
+          "id": "o4",
+          "text": "가속비는 8/24=3배다.",
+          "correct": false,
+          "explanation": "8/24는 약 0.33이며 역방향 비율이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c08"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "가속비는 기준 시간/새 시간으로 정의한다. 결과 일치와 반복·범위·캐시 조건을 함께 보고해야 수치를 해석할 수 있다.",
+      "memoryTip": "결과 일치 다음 공정한 시간",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c08",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 동일 집계의 중앙값 시간",
+        "xLabel": "엔진",
+        "yLabel": "시간(초)",
+        "labels": [
+          "기준",
+          "새 엔진"
+        ],
+        "series": [
+          {
+            "name": "중앙값",
+            "values": [
+              24,
+              8
+            ]
+          }
+        ],
+        "note": "동일 입력·집계 결과를 가정한 학습용 수치"
+      }
+    },
+    {
+      "id": "web-new-033",
+      "prompt": "HDFS에 있는 큰 파일을 변환·집계하려 한다. 주로 연산 책임을 맡길 도구는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Spark",
+          "correct": true,
+          "explanation": "분산 변환과 집계 실행을 담당한다."
+        },
+        {
+          "id": "o2",
+          "text": "HDFS의 복제 설정만",
+          "correct": false,
+          "explanation": "파일 보관의 사본 수를 정하는 설정이다."
+        },
+        {
+          "id": "o3",
+          "text": "GitHub Actions만",
+          "correct": false,
+          "explanation": "자동 실행을 지원하지만 집계 엔진 자체는 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "Docker 이미지 이름만",
+          "correct": false,
+          "explanation": "환경을 포장하는 이름이 집계 연산은 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c09"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "HDFS는 분산 파일 저장, Spark는 연산의 대표 도구다. 각 도구를 이름보다 입력·출력과 제공 기능으로 연결한다.",
+      "memoryTip": "같은 책임은 대체, 다른 책임은 보완",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c09",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-034",
+      "prompt": "데이터 흐름과 운영 지원에 대한 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "운영은 오직 최종 차트의 색을 정하는 단계다.",
+          "correct": false,
+          "explanation": "실행·배포·변경 관리도 운영에 해당한다."
+        },
+        {
+          "id": "o2",
+          "text": "Kafka→HDFS→Spark는 수집·저장·처리의 흐름으로 설계할 수 있다.",
+          "correct": true,
+          "explanation": "데이터가 책임 경계를 지나며 변환된다."
+        },
+        {
+          "id": "o3",
+          "text": "GitHub Actions는 검사·실행·배포를 자동화할 수 있다.",
+          "correct": true,
+          "explanation": "운영 도구는 여러 데이터 계층의 작업을 지원한다."
+        },
+        {
+          "id": "o4",
+          "text": "Docker가 있으면 데이터 저장 책임은 사라진다.",
+          "correct": false,
+          "explanation": "실행 환경 포장과 데이터 보존은 별도 책임이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c09"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "데이터 흐름은 입력이 전달·저장·계산되는 경로다. 운영 도구는 그 전체 경로의 실행과 변경을 지원한다.",
+      "memoryTip": "같은 책임은 대체, 다른 책임은 보완",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c09",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-035",
+      "prompt": "두 기술이 대체 관계인지 판단할 때 먼저 비교할 항목은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "같은 회사가 만들었는가",
+          "correct": false,
+          "explanation": "제작 주체만으로 기능이 같아지지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "로고 색이 비슷한가",
+          "correct": false,
+          "explanation": "입출력과 처리 보장을 설명하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "같은 입출력·책임·요구 보장을 수행하는가",
+          "correct": true,
+          "explanation": "동일 책임을 만족하면 교체 후보로 비교할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "이름 길이가 같은가",
+          "correct": false,
+          "explanation": "기능적 대체 가능성과 관계없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c09"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "같은 책임을 수행하는 도구는 대체 후보이고 서로 다른 책임을 연결하는 도구는 보완 관계다. 교체 전 데이터 형식과 요구 보장도 확인한다.",
+      "memoryTip": "같은 책임은 대체, 다른 책임은 보완",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c09",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-036",
+      "prompt": "팀이 'Kafka를 설치했으니 Spark 집계 코드는 필요 없다'고 했다. 가장 적절한 검토는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Kafka와 Spark는 이름만 다르고 모든 기능이 동일하다.",
+          "correct": false,
+          "explanation": "주된 책임과 실행 모델이 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "도구를 많이 설치할수록 자동으로 정확해진다.",
+          "correct": false,
+          "explanation": "입출력 계약과 검증이 없으면 도구 수는 정확성을 보장하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "HDFS를 지우면 Kafka가 그래프를 대신 해석한다.",
+          "correct": false,
+          "explanation": "저장소 제거와 해석 기능은 관계없다."
+        },
+        {
+          "id": "o4",
+          "text": "이벤트 전달과 집계 책임이 다르므로 필요한 연산 기능을 별도로 확인한다.",
+          "correct": true,
+          "explanation": "수집 도구 설치가 임의의 분석 로직 구현을 뜻하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c09"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "한 파이프라인은 도구들의 보완 관계로 구성된다. 대체 여부는 실제 맡긴 책임과 인터페이스가 같은지로 판단한다.",
+      "memoryTip": "같은 책임은 대체, 다른 책임은 보완",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c09",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-037",
+      "prompt": "응용 프로그램의 파일 읽기 요청이 장치에 도달하는 경로로 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "드라이버→응용→스왑→컴파일러",
+          "correct": false,
+          "explanation": "제시된 파일 요청 경로와 다른 구성이다."
+        },
+        {
+          "id": "o2",
+          "text": "응용→시스템 호출→커널→드라이버→장치",
+          "correct": true,
+          "explanation": "시스템 호출이 커널 기능에 접근하는 경계다."
+        },
+        {
+          "id": "o3",
+          "text": "응용→파일 확장자→모니터→장치",
+          "correct": false,
+          "explanation": "파일 확장자는 장치 요청을 전달하는 인터페이스가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "응용→장치→커널→시스템 호출",
+          "correct": false,
+          "explanation": "커널의 자원 통제를 거치는 요청 순서가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c10"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "커널은 자원을 관리하며 응용은 시스템 호출로 서비스를 요청한다. 드라이버는 커널과 구체 장치 사이의 제어를 담당한다.",
+      "memoryTip": "코드는 프로그램, 실행은 프로세스",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c10",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-038",
+      "prompt": "프로그램과 프로세스에 대한 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "I/O를 기다리는 프로세스는 대기 상태에 있을 수 있다.",
+          "correct": true,
+          "explanation": "장치 응답을 기다리는 동안 CPU 실행 상태와 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "실행 파일 한 개는 항상 하나의 프로세스만 허용한다.",
+          "correct": false,
+          "explanation": "동일 코드를 여러 번 실행할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "같은 프로그램 파일로 여러 프로세스를 실행할 수 있다.",
+          "correct": true,
+          "explanation": "각 실행은 별도의 상태와 자원을 가질 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "디스크에 저장된 실행 코드는 프로그램이다.",
+          "correct": true,
+          "explanation": "실행 중 상태를 가진 프로세스와 구별된다."
+        }
+      ],
+      "conceptIds": [
+        "web-c10"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "프로그램은 저장된 코드이고 프로세스는 실행 중 상태와 자원을 가진 단위다. 실행·준비·대기 상태를 자원 사용과 연결해 읽는다.",
+      "memoryTip": "코드는 프로그램, 실행은 프로세스",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c10",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-039",
+      "prompt": "분산 집계가 느린데 CPU 사용률은 낮고 디스크 대기 시간이 높다. 우선 조사할 병목은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "CPU 코어 부족으로 확정",
+          "correct": false,
+          "explanation": "낮은 CPU 사용률만으로 코어 부족을 확정할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "차트 렌더링 색상",
+          "correct": false,
+          "explanation": "연산 작업의 디스크 대기를 설명하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "프로그래밍 언어의 철자",
+          "correct": false,
+          "explanation": "OS 자원 병목을 보여주는 측정값이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "I/O 대기와 데이터 읽기·쓰기 경로",
+          "correct": true,
+          "explanation": "CPU가 아닌 저장 장치 대기가 시간을 차지할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c10"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "엔진 로그와 OS의 CPU·메모리·디스크·네트워크 지표를 함께 본다. 낮은 CPU 사용률도 작업이 효율적이라는 뜻이 아니라 다른 자원 대기일 수 있다.",
+      "memoryTip": "코드는 프로그램, 실행은 프로세스",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c10",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-040",
+      "prompt": "같은 집계 프로그램의 프로세스 8개가 모두 파일 읽기를 기다린다. 타당한 진단 절차는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "프로세스 상태·디스크 대기·엔진 로그를 함께 보고 시스템 호출 이후 I/O 경로를 점검한다.",
+          "correct": true,
+          "explanation": "실행 상태와 커널·장치 지표를 연결한다."
+        },
+        {
+          "id": "o2",
+          "text": "프로세스 수가 8개이므로 CPU 8개가 항상 연산 중이라고 결론 낸다.",
+          "correct": false,
+          "explanation": "프로세스는 대기 상태일 수도 있다."
+        },
+        {
+          "id": "o3",
+          "text": "파일 확장자를 바꾸면 드라이버 대기가 해소된다.",
+          "correct": false,
+          "explanation": "이름 변경은 물리 I/O 병목의 해결 근거가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "프로그램 파일을 복사하면 디스크 처리량이 반드시 8배 된다.",
+          "correct": false,
+          "explanation": "복사는 장치 대역폭의 선형 확장을 보장하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c10"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "프로세스 개수와 실제 CPU 실행량은 다르다. 시스템 호출·커널·드라이버·장치 경로의 측정값으로 병목을 좁힌다.",
+      "memoryTip": "코드는 프로그램, 실행은 프로세스",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c10",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-041",
+      "prompt": "Spark가 정렬 중 중간 데이터를 디스크로 내보내고 OS의 swap 사용은 0이다. 이 현상은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "HDFS 복제",
+          "correct": false,
+          "explanation": "파일 블록의 사본을 분산 저장하는 동작이다."
+        },
+        {
+          "id": "o2",
+          "text": "CPU 문맥 교환",
+          "correct": false,
+          "explanation": "실행할 프로세스나 스레드의 상태를 바꾸는 동작이다."
+        },
+        {
+          "id": "o3",
+          "text": "Spark 스필",
+          "correct": true,
+          "explanation": "실행 엔진이 메모리 압력 등에 대응해 중간 데이터를 디스크에 쓴다."
+        },
+        {
+          "id": "o4",
+          "text": "OS 스왑",
+          "correct": false,
+          "explanation": "운영체제가 메모리 페이지를 보조 저장장치로 이동시키는 현상이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c11"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "스필과 스왑은 모두 디스크 I/O를 늘릴 수 있지만 발생 계층이 다르다. Spark 지표와 OS 지표를 따로 확인한다.",
+      "memoryTip": "스필=엔진, 스왑=OS",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c11",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-042",
+      "prompt": "블록에 대한 올바른 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "로컬 파일시스템 블록은 해당 저장장치의 할당 단위다.",
+          "correct": true,
+          "explanation": "HDFS의 논리 블록과 같은 크기일 필요가 없다."
+        },
+        {
+          "id": "o2",
+          "text": "HDFS 블록 하나는 여러 로컬 파일시스템 블록에 걸칠 수 있다.",
+          "correct": true,
+          "explanation": "두 계층의 단위는 별개다."
+        },
+        {
+          "id": "o3",
+          "text": "HDFS 블록을 바꾸면 CPU 캐시 라인도 같은 크기가 된다.",
+          "correct": false,
+          "explanation": "분산 저장 단위가 CPU 하드웨어 단위를 결정하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "HDFS 블록은 분산 파일을 나누는 단위다.",
+          "correct": true,
+          "explanation": "여러 DataNode의 배치와 복제에 사용된다."
+        }
+      ],
+      "conceptIds": [
+        "web-c11"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "HDFS 블록과 로컬 파일시스템 블록은 서로 다른 계층의 단위다. 크기 숫자만 같게 놓고 I/O 동작을 해석하면 안 된다.",
+      "memoryTip": "스필=엔진, 스왑=OS",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c11",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-043",
+      "prompt": "조인 후 중간 데이터가 크게 늘며 스필이 증가했다. 우선 확인할 근거는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "중간 데이터 크기·키 쏠림·파티션별 작업량",
+          "correct": true,
+          "explanation": "입력 파일보다 실행 중 부담이 커지는 원인을 좁힌다."
+        },
+        {
+          "id": "o2",
+          "text": "원본 CSV 파일명 길이만",
+          "correct": false,
+          "explanation": "중간 크기와 자원 부담의 직접 근거가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "보고서 페이지 수만",
+          "correct": false,
+          "explanation": "엔진 메모리 압력의 측정값이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "메모리를 늘리면 언제나 모든 원인이 사라진다는 가정",
+          "correct": false,
+          "explanation": "쏠림과 비효율적인 조인 등 별도 원인이 남을 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c11"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "메모리 압력은 원본 용량만으로 설명되지 않는다. 중간 데이터·파티션·쏠림과 실제 I/O를 확인해 대응을 선택한다.",
+      "memoryTip": "스필=엔진, 스왑=OS",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c11",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-044",
+      "prompt": "가상 실행 A는 스필 20GB·swap 0, B는 스필 0·swap 5GB다. 옳은 진단은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "A의 스필을 줄이려면 로컬 블록을 HDFS와 무조건 같게 한다.",
+          "correct": false,
+          "explanation": "블록 크기 통일은 스필 원인의 보편적 해결책이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "A는 엔진 중간 데이터 경로, B는 OS 메모리 압력을 각각 조사한다.",
+          "correct": true,
+          "explanation": "서로 다른 계층의 지표를 구분해 원인을 찾는다."
+        },
+        {
+          "id": "o3",
+          "text": "두 실행 모두 HDFS 블록 복제 오류로 확정한다.",
+          "correct": false,
+          "explanation": "스필·swap 수치만으로 복제 오류를 알 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "A와 B는 이름만 다른 동일 지표다.",
+          "correct": false,
+          "explanation": "엔진과 OS에서 측정하는 현상이 다르다."
+        }
+      ],
+      "conceptIds": [
+        "web-c11"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "디스크 쓰기가 증가했어도 발생 계층에 따라 대응이 달라진다. 엔진 작업량과 OS 메모리·I/O를 함께 확인하고 블록 계층을 구분한다.",
+      "memoryTip": "스필=엔진, 스왑=OS",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c11",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-045",
+      "prompt": "구조화 프롬프트의 '입력'에 적을 내용으로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "답변자가 맡을 전문 역할만",
+          "correct": false,
+          "explanation": "이는 역할 항목에 가깝다."
+        },
+        {
+          "id": "o2",
+          "text": "완료 후 검사할 정답 표만",
+          "correct": false,
+          "explanation": "이는 검증 항목으로 사용할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "예쁘게 작성해 달라는 말만",
+          "correct": false,
+          "explanation": "데이터 구조를 알려주지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "열 이름·자료형·샘플과 결측 표현",
+          "correct": true,
+          "explanation": "AI가 처리할 데이터의 형태를 구체화한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c12"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "입력은 실제 데이터의 구조와 예시를 설명한다. 역할·작업·제약·출력·검증과 구분하면 누락을 찾기 쉽다.",
+      "memoryTip": "요구를 측정 가능한 테스트로",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c12",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-046",
+      "prompt": "배우 고유 작품 수 코드를 검증 가능한 요구로 만들 항목을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품-배우 쌍 중복을 제거한다.",
+          "correct": true,
+          "explanation": "반복 표기로 인한 과대 집계를 막는 조건이다."
+        },
+        {
+          "id": "o2",
+          "text": "동률일 때 이름순으로 정렬한다.",
+          "correct": true,
+          "explanation": "같은 건수의 출력 순서를 재현할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "작은 샘플의 기대 집계표를 제시한다.",
+          "correct": true,
+          "explanation": "생성 코드의 결과를 직접 대조할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "최대한 똑똑하게 작성하라고만 적는다.",
+          "correct": false,
+          "explanation": "측정 가능한 통과 조건이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c12"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "좋음·빠름 같은 표현은 대상과 판정 기준으로 바꾼다. 예제 입력과 기대 출력은 요구가 구현되었는지 확인하는 테스트가 된다.",
+      "memoryTip": "요구를 측정 가능한 테스트로",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c12",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-047",
+      "prompt": "프롬프트가 '빠르게 처리하라'뿐이라면 성능 주장 검증에서 생기는 문제는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "출력 형식을 JSON으로 바꾸면 시간 기준이 자동 생성된다.",
+          "correct": false,
+          "explanation": "형식과 성능 통과 기준은 별도 항목이다."
+        },
+        {
+          "id": "o2",
+          "text": "비교 기준·입력 크기·자원·허용 시간이 없어 판정이 어렵다.",
+          "correct": true,
+          "explanation": "빠름의 의미를 측정 조건으로 정의해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "AI가 코드를 길게 쓰면 자동으로 빨라진다.",
+          "correct": false,
+          "explanation": "코드 길이는 실제 실행 시간의 보장이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 환경에서 같은 시간이 확정된다.",
+          "correct": false,
+          "explanation": "입력과 자원 조건에 따라 시간이 바뀐다."
+        }
+      ],
+      "conceptIds": [
+        "web-c12"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "모호한 요구는 결과가 나와도 합격 여부를 판정하기 어렵다. 기준선·측정 범위·자원·반복 방법을 구체화한다.",
+      "memoryTip": "요구를 측정 가능한 테스트로",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c12",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-048",
+      "prompt": "팀이 'Movie 중앙값과 N을 JSON으로, TV Show 제외, 파싱 실패 수 별도, 가상 세 행 기대 결과와 일치'를 요청했다. 가장 적절한 검증은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "TV Show를 포함해 N이 커지면 무조건 합격이다.",
+          "correct": false,
+          "explanation": "명시한 대상 제외 조건에 어긋난다."
+        },
+        {
+          "id": "o2",
+          "text": "JSON만 파싱되면 값의 의미는 검사하지 않는다.",
+          "correct": false,
+          "explanation": "출력 형식과 분석 내용은 둘 다 확인해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "대상 필터·단위·JSON 키·기대 수치·실패 건수를 각각 검사한다.",
+          "correct": true,
+          "explanation": "프롬프트의 제약과 출력·검증 항목을 테스트로 옮긴다."
+        },
+        {
+          "id": "o4",
+          "text": "문장이 자연스러우면 계산을 확인하지 않는다.",
+          "correct": false,
+          "explanation": "유창성은 수치와 필터 정확성을 보장하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c12"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "구조화 프롬프트는 이후 검증표의 설계도다. 입력·제약·출력별로 통과 여부를 확인하면 어떤 결함을 수정할지도 분명해진다.",
+      "memoryTip": "요구를 측정 가능한 테스트로",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c12",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-049",
+      "prompt": "AI가 존재하지 않는 함수명을 제시했고 import 후 hasattr 검사도 False였다. 결함 기록의 유형은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "API 존재 오류",
+          "correct": true,
+          "explanation": "현재 환경에 해당 함수가 없다는 직접 증거다."
+        },
+        {
+          "id": "o2",
+          "text": "단순 실행 시간 변동",
+          "correct": false,
+          "explanation": "함수 부재는 속도 반복 변동과 다른 결함이다."
+        },
+        {
+          "id": "o3",
+          "text": "차트 색상 오류",
+          "correct": false,
+          "explanation": "표현 색이 아니라 API 호출 가능성의 문제다."
+        },
+        {
+          "id": "o4",
+          "text": "정상 성능 개선",
+          "correct": false,
+          "explanation": "실행할 API가 없으므로 개선 근거가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c13"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "결함은 관찰한 증거에 맞춰 분류한다. API 부재·버전 불일치·연산 오류·근거 없는 성능 수치는 각각 확인 방법이 다르다.",
+      "memoryTip": "수정안과 해결 증거를 구분",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c13",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-050",
+      "prompt": "결함 보고서에서 분리해 기록할 항목을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "실패를 감추기 위한 성공 문장",
+          "correct": false,
+          "explanation": "증거와 다른 보고가 된다."
+        },
+        {
+          "id": "o2",
+          "text": "실제로 실행한 명령과 오류 출력",
+          "correct": true,
+          "explanation": "누구나 같은 실패를 재현할 근거다."
+        },
+        {
+          "id": "o3",
+          "text": "제안한 수정안",
+          "correct": true,
+          "explanation": "아직 재검증 전인 해결 후보로 구분한다."
+        },
+        {
+          "id": "o4",
+          "text": "수정 후 같은 테스트의 판정",
+          "correct": true,
+          "explanation": "수정안이 결함을 해결했는지 확인한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c13"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "실행 결과는 관찰된 사실이고 수정안은 아직 검증할 가설이다. 결함 ID로 둘을 연결하되 해결 판정은 재실행 결과로 내린다.",
+      "memoryTip": "수정안과 해결 증거를 구분",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c13",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-051",
+      "prompt": "수정본에서 오류 메시지는 사라졌지만 결과 행 수가 기대보다 절반이다. 판정은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "결과 행 수 검사를 삭제한다.",
+          "correct": false,
+          "explanation": "검사를 지우면 결함을 확인할 근거만 줄어든다."
+        },
+        {
+          "id": "o2",
+          "text": "AI가 수정이라고 했으므로 로그를 폐기한다.",
+          "correct": false,
+          "explanation": "수정 명칭은 동작 증거를 대신하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "미해결 또는 추가 결함으로 두고 기대 결과까지 재검증한다.",
+          "correct": true,
+          "explanation": "예외가 없다는 것과 올바른 출력은 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "오류 메시지가 없으므로 즉시 해결 처리한다.",
+          "correct": false,
+          "explanation": "누락된 출력이 요구한 계산을 위반할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c13"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "수정 후에는 실패했던 조건뿐 아니라 기대 출력도 확인한다. 새로운 누락이나 연산 오류가 생기면 독립 결함으로 기록한다.",
+      "memoryTip": "수정안과 해결 증거를 구분",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c13",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-052",
+      "prompt": "AI가 '새 함수로 바꾸면 10배 빠름'이라고 답했다. 가장 완결된 검증 묶음은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "공식 문서에 함수가 있다는 사실만으로 10배를 확정한다.",
+          "correct": false,
+          "explanation": "API 존재는 해당 워크로드 성능 증거가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "가장 빠른 1회만 골라 기존 평균과 비교한다.",
+          "correct": false,
+          "explanation": "반복·대표값·조건이 달라 공정한 비교가 어렵다."
+        },
+        {
+          "id": "o3",
+          "text": "함수명만 저장하고 실패 명령은 버린다.",
+          "correct": false,
+          "explanation": "변경 전후 결함과 해결 경로를 추적할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "함수·버전 확인, 같은 출력 검사, 동일 조건 반복 시간, 수정 후 판정을 함께 남긴다.",
+          "correct": true,
+          "explanation": "API·연산·성능 주장을 각각 확인한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c13"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "하나의 AI 답변에 여러 독립 주장이 들어갈 수 있다. 함수 존재·호환성·결과 정확성·성능 수치를 분리해서 증거와 판정을 남긴다.",
+      "memoryTip": "수정안과 해결 증거를 구분",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c13",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-053",
+      "prompt": "원천 시스템이 변경될 때마다 수신 서버로 이벤트를 보내 준다. 통신 방향에 맞는 수집 방식은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "수동 전체 파일 복사만",
+          "correct": false,
+          "explanation": "변경 이벤트를 원천이 전송한다는 조건과 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "푸시 방식",
+          "correct": true,
+          "explanation": "원천이 변화에 맞춰 수신 측으로 데이터를 전달한다."
+        },
+        {
+          "id": "o3",
+          "text": "주기적 풀만 수행",
+          "correct": false,
+          "explanation": "수집 측이 정해진 간격에 원천을 조회하는 방식이다."
+        },
+        {
+          "id": "o4",
+          "text": "페이지 링크 크롤링",
+          "correct": false,
+          "explanation": "문서 주소를 따라 탐색하는 작업이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c14"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            23,
+            24,
+            25,
+            27,
+            28,
+            29
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "푸시는 원천이 보내고 풀은 수집 측이 가져온다. 방식 선택에는 원천 기능·허용 지연·재시도·누락 복구 조건을 함께 고려한다.",
+      "memoryTip": "재시도·중복·경계 시각까지",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c14",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-054",
+      "prompt": "웹 수집 작업에 대한 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "API는 제공된 인터페이스의 구조와 제약에 맞춰 요청한다.",
+          "correct": true,
+          "explanation": "페이지 화면 추출과 다른 계약을 사용한다."
+        },
+        {
+          "id": "o2",
+          "text": "HTML 레이아웃이 바뀌어도 모든 스크래퍼는 항상 정상이다.",
+          "correct": false,
+          "explanation": "선택자와 구조가 바뀌면 추출이 실패할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "크롤링은 링크를 따라 문서 위치를 탐색하는 데 쓰인다.",
+          "correct": true,
+          "explanation": "어떤 페이지를 방문할지 확장하는 작업이다."
+        },
+        {
+          "id": "o4",
+          "text": "스크래핑은 문서에서 필요한 필드를 추출한다.",
+          "correct": true,
+          "explanation": "제목·날짜 등 내용을 구조화한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c14"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            23,
+            24,
+            25,
+            27,
+            28,
+            29
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "탐색과 추출은 구분되는 작업이다. API가 있으면 응답 스키마·호출 제한 등 제공 계약도 확인한다.",
+      "memoryTip": "재시도·중복·경계 시각까지",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c14",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-055",
+      "prompt": "updated_at이 마지막 수집 시각보다 큰 행만 가져온다. 반드시 별도 규칙이 필요한 문제는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "막대그래프의 테두리 두께",
+          "correct": false,
+          "explanation": "증분 수집 완전성과 직접 관계없다."
+        },
+        {
+          "id": "o2",
+          "text": "원천 파일 이름의 글자 수",
+          "correct": false,
+          "explanation": "변경 경계의 포함 여부를 결정하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "CSV 헤더의 대문자 여부만",
+          "correct": false,
+          "explanation": "삭제와 지연 데이터 처리 문제를 해결하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "삭제 기록·같은 경계 시각·늦게 도착한 변경",
+          "correct": true,
+          "explanation": "단순한 시각 비교만으로 누락이나 중복이 생길 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c14"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            23,
+            24,
+            25,
+            27,
+            28,
+            29
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "증분 수집은 무엇이 새 변경인지 판정하는 계약이다. 경계 시각 포함·삭제 표현·중복 키·늦은 변경과 재처리 범위를 정한다.",
+      "memoryTip": "재시도·중복·경계 시각까지",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c14",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-056",
+      "prompt": "가상 API는 event_id와 updated_at을 제공하며 재시도 시 같은 이벤트가 다시 온다. 적절한 설계를 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "event_id를 기준으로 중복 반영을 막는다.",
+          "correct": true,
+          "explanation": "재전송을 새로운 사건으로 세지 않도록 한다."
+        },
+        {
+          "id": "o2",
+          "text": "경계 구간을 겹쳐 재조회하고 키로 중복 제거한다.",
+          "correct": true,
+          "explanation": "시각 경계의 누락 위험을 줄일 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "삭제·늦은 이벤트 처리 규칙을 기록한다.",
+          "correct": true,
+          "explanation": "추가·수정만으로 전체 상태를 복원할 수 없는 경우에 대비한다."
+        },
+        {
+          "id": "o4",
+          "text": "실패한 요청을 기록하지 않고 다음 날로 넘긴다.",
+          "correct": false,
+          "explanation": "수집 공백의 위치와 재처리 범위를 알기 어렵다."
+        }
+      ],
+      "conceptIds": [
+        "web-c14"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            23,
+            24,
+            25,
+            27,
+            28,
+            29
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "수집은 요청 성공 한 번으로 끝나지 않는다. 원천·방향·지연·변경·재시도 계약을 정해 누락과 중복을 관리한다.",
+      "memoryTip": "재시도·중복·경계 시각까지",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c14",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-057",
+      "prompt": "DataNode들에 사본이 남아 있지만 NameNode의 파일-블록 위치 조회가 불가능해 읽기가 막혔다. 이 사례가 보여 주는 구분은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "NameNode는 모든 파일 바이트를 유일하게 보관한다.",
+          "correct": false,
+          "explanation": "NameNode의 주된 책임은 이름·위치 등 메타데이터다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 사본이 있으면 메타데이터 장애는 절대 영향을 주지 않는다.",
+          "correct": false,
+          "explanation": "이름과 블록 위치를 찾지 못하면 접근이 막힐 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "내용 블록 보관과 파일 위치 메타데이터 제공은 다른 책임이다.",
+          "correct": true,
+          "explanation": "사본이 있어도 파일을 찾는 메타데이터 접근이 필요하다."
+        },
+        {
+          "id": "o4",
+          "text": "DataNode는 파일 내용 대신 감독 이름만 보관한다.",
+          "correct": false,
+          "explanation": "DataNode는 실제 HDFS 데이터 블록을 보관한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c15"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            30,
+            31
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "DataNode의 내용 블록과 NameNode의 이름·위치 메타데이터는 서로 보완한다. 데이터 사본의 존재와 파일 서비스 접근 가능성을 구분한다.",
+      "memoryTip": "이름·위치는 NameNode, 내용은 DataNode",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c15",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-058",
+      "prompt": "가상 300MiB 파일, 블록 128MiB, 복제계수 3일 때 옳은 값을 모두 고르시오. 마지막 블록의 빈 공간 예약은 무시한다.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "실제 데이터 사본 총량은 약 900MiB다.",
+          "correct": true,
+          "explanation": "300×3이며 메타데이터 등의 추가 비용은 제외한다."
+        },
+        {
+          "id": "o2",
+          "text": "블록 사본 수는 9개다.",
+          "correct": true,
+          "explanation": "논리 블록 3개에 각각 사본 3개다."
+        },
+        {
+          "id": "o3",
+          "text": "실제 파일 데이터는 반드시 1,152MiB다.",
+          "correct": false,
+          "explanation": "이는 128×3×3으로 마지막 블록도 꽉 찼다고 계산한 값이다."
+        },
+        {
+          "id": "o4",
+          "text": "논리 블록 수는 3개다.",
+          "correct": true,
+          "explanation": "ceil(300/128)=3이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c15"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            30,
+            31
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "블록 수는 파일 크기/블록 크기를 올림한다. 실제 데이터 사본량은 마지막 블록의 실제 바이트를 반영해 복제계수를 곱한다.",
+      "memoryTip": "이름·위치는 NameNode, 내용은 DataNode",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c15",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-059",
+      "prompt": "NameNode 장애 시 서비스를 이어 갈 대기 노드를 구성하려 한다. 가장 직접적인 설계는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "HA",
+          "correct": true,
+          "explanation": "활성 노드 장애에 대비해 가용성을 높인다."
+        },
+        {
+          "id": "o2",
+          "text": "Federation만",
+          "correct": false,
+          "explanation": "여러 네임스페이스로 메타데이터 영역을 나누는 확장 방식이다."
+        },
+        {
+          "id": "o3",
+          "text": "작은 파일을 더 많이 생성",
+          "correct": false,
+          "explanation": "메타데이터 부담을 오히려 늘릴 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "복제계수를 0으로 설정",
+          "correct": false,
+          "explanation": "데이터 가용성을 확보하는 대책이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c15"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            30,
+            31
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "HA는 장애 대응 가용성, Federation은 여러 네임스페이스를 통한 확장에 초점을 둔다. 작은 파일은 각 파일의 메타데이터 부담을 크게 만들 수 있다.",
+      "memoryTip": "이름·위치는 NameNode, 내용은 DataNode",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c15",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-060",
+      "prompt": "1MiB 파일 백만 개로 NameNode 메타데이터가 부담되고, 장애 대응도 필요하다. 타당한 계획은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모든 파일을 128MiB 데이터로 간주해 실제 저장량을 확정한다.",
+          "correct": false,
+          "explanation": "작은 파일의 실제 바이트와 메타데이터 비용을 구분해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "작은 파일 병합을 검토하고 HA로 장애 대응을 설계하며 실제 블록 사본량은 별도로 산정한다.",
+          "correct": true,
+          "explanation": "파일 수 문제·가용성·저장량은 구분할 조건이다."
+        },
+        {
+          "id": "o3",
+          "text": "DataNode에 데이터가 있으므로 NameNode 문제는 항상 없다.",
+          "correct": false,
+          "explanation": "메타데이터 접근 실패는 파일 접근에 영향을 준다."
+        },
+        {
+          "id": "o4",
+          "text": "Federation을 쓰면 모든 장애가 자동 복구된다고 확정한다.",
+          "correct": false,
+          "explanation": "네임스페이스 확장과 장애 대응은 다른 요구다."
+        }
+      ],
+      "conceptIds": [
+        "web-c15"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            30,
+            31
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "NameNode와 DataNode의 책임을 먼저 구분해야 용량·확장·가용성 문제를 나눌 수 있다. 하나의 기술이 모든 HDFS 문제를 해결하는 것은 아니다.",
+      "memoryTip": "이름·위치는 NameNode, 내용은 DataNode",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c15",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-061",
+      "prompt": "가상 서비스는 session_id로 세션 값을 즉시 조회하고 덮어쓴다. 접근 패턴에 가장 가까운 저장 모델은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "그래프 탐색 전용 모델",
+          "correct": false,
+          "explanation": "여러 관계 경로 탐색이 핵심인 경우와 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "전체 문서의 매번 순차 검색만",
+          "correct": false,
+          "explanation": "키 조회 요구에 불필요한 전수 탐색이다."
+        },
+        {
+          "id": "o3",
+          "text": "차트 이미지 파일만",
+          "correct": false,
+          "explanation": "변경 가능한 세션 조회 기능을 제공하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "키-값 모델",
+          "correct": true,
+          "explanation": "정해진 키로 값을 조회·갱신하는 패턴이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c16"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "저장 모델은 데이터 모양뿐 아니라 접근 패턴으로 선택한다. 키 조회·문서 구조·열 단위 접근·관계 탐색은 요구가 다르다.",
+      "memoryTip": "저장 모델은 접근 패턴으로",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c16",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-062",
+      "prompt": "레이크·웨어하우스·NoSQL에 대한 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "레이크는 다양한 원천을 보관하고 읽을 때 스키마를 적용할 수 있다.",
+          "correct": true,
+          "explanation": "유연한 저장과 이후 해석을 지원한다."
+        },
+        {
+          "id": "o2",
+          "text": "웨어하우스는 정제·통합한 분석용 구조에 초점을 둘 수 있다.",
+          "correct": true,
+          "explanation": "반복적인 업무 지표 조회에 맞춘다."
+        },
+        {
+          "id": "o3",
+          "text": "NoSQL은 문서·키-값·그래프 등 여러 모델을 포함한다.",
+          "correct": true,
+          "explanation": "하나의 고정 자료구조만을 뜻하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "스키마를 늦게 적용하면 열의 의미를 기록할 필요가 없다.",
+          "correct": false,
+          "explanation": "유연한 저장에도 의미와 구조 관리가 필요하다."
+        }
+      ],
+      "conceptIds": [
+        "web-c16"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "스키마 적용 시점과 스키마 부재는 다르다. 저장 모델과 분석 플랫폼의 범위를 구분해 요구에 맞게 조합한다.",
+      "memoryTip": "저장 모델은 접근 패턴으로",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c16",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-063",
+      "prompt": "원천 JSON을 레이크에 쌓았지만 필드 의미와 소유자를 아무도 모른다. 우선 보완할 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "저장 용량을 무한히 늘리기만 한다.",
+          "correct": false,
+          "explanation": "찾기와 해석의 문제는 용량만으로 해결되지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "카탈로그·스키마·출처·품질·접근 책임 관리",
+          "correct": true,
+          "explanation": "원천을 찾고 올바르게 사용하는 거버넌스가 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "파일 확장자만 모두 CSV로 변경",
+          "correct": false,
+          "explanation": "이름 변경으로 의미와 책임이 생기지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "원본의 날짜를 무작위로 덮어쓰기",
+          "correct": false,
+          "explanation": "출처와 계보의 신뢰성을 더 낮춘다."
+        }
+      ],
+      "conceptIds": [
+        "web-c16"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "레이크의 유연성은 메타데이터와 거버넌스가 있어야 활용으로 이어진다. 원천·의미·품질·접근 조건을 관리한다.",
+      "memoryTip": "저장 모델은 접근 패턴으로",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c16",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-064",
+      "prompt": "가상 프로젝트에서 raw JSON은 재처리용으로 보존하고 월별 정형 지표를 반복 조회한다. 타당한 구성은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "NoSQL이면 결측·중복·접근 권한이 자동 해결된다.",
+          "correct": false,
+          "explanation": "모델 선택은 품질·권한 정책을 대신하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "웨어하우스를 쓰면 원천 버전을 기록할 필요가 없다.",
+          "correct": false,
+          "explanation": "반복 지표도 사용한 입력과 변환을 추적해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "원천 보관 영역과 정제 분석 구조를 연결하고 변환 계보를 남긴다.",
+          "correct": true,
+          "explanation": "다양한 입력 보존과 반복 조회 요구를 함께 충족한다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 데이터를 하나의 모델에 넣으면 조회 패턴 검토가 불필요하다.",
+          "correct": false,
+          "explanation": "접근과 변경 방식에 따라 적합성이 달라진다."
+        }
+      ],
+      "conceptIds": [
+        "web-c16"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "저장은 한 도구의 이름보다 원본 보존·조회 패턴·변환 흐름으로 설명한다. 구조를 유연하게 하더라도 의미와 품질 관리는 유지한다.",
+      "memoryTip": "저장 모델은 접근 패턴으로",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c16",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-065",
+      "prompt": "날짜 결측률을 매일 측정하지만 임계값 초과 시 아무 행동도 없다. 가장 먼저 보완할 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "경보 기준·책임자·후속 처리 절차",
+          "correct": true,
+          "explanation": "측정이 실제 품질 관리 행동으로 이어지게 한다."
+        },
+        {
+          "id": "o2",
+          "text": "차트 제목의 영문 번역만",
+          "correct": false,
+          "explanation": "결함 발생 시 처리 책임이 정해지지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "결측값을 모두 정상으로 표시",
+          "correct": false,
+          "explanation": "문제를 감추어 진단 근거를 없앤다."
+        },
+        {
+          "id": "o4",
+          "text": "이전 측정값 삭제",
+          "correct": false,
+          "explanation": "지속 변화를 확인하기 어렵게 만든다."
+        }
+      ],
+      "conceptIds": [
+        "web-c17"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "품질 관리는 진단→규칙→처리→지속 모니터링의 연결이다. 임계값과 책임자·대응 절차가 있어야 경보가 의미를 갖는다.",
+      "memoryTip": "품질 지표에 기준·책임·행동",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c17",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-066",
+      "prompt": "메타데이터의 분류가 적절한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "행 수만 있으면 모든 열의 의미와 접근 권한을 알 수 있다.",
+          "correct": false,
+          "explanation": "건수는 의미·권한을 대신하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "date_added가 문자열이라는 정보는 기술 메타데이터다.",
+          "correct": true,
+          "explanation": "열 구조와 자료형을 설명한다."
+        },
+        {
+          "id": "o3",
+          "text": "date_added가 카탈로그 등록일이라는 정의는 비즈니스 메타데이터다.",
+          "correct": true,
+          "explanation": "열의 업무상 의미를 설명한다."
+        },
+        {
+          "id": "o4",
+          "text": "어제 파이프라인의 실행·실패 이력은 운영 메타데이터다.",
+          "correct": true,
+          "explanation": "언제 어떻게 처리되었는지 설명한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c17"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "기술 메타데이터는 구조, 비즈니스 메타데이터는 의미, 운영 메타데이터는 처리 이력을 설명한다. 서로 보완해야 데이터를 안전하게 재사용할 수 있다.",
+      "memoryTip": "품질 지표에 기준·책임·행동",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c17",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-067",
+      "prompt": "duration=300분인 Movie가 발견됐다. 올바른 품질 판단은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "오류가 아니라고 무조건 확정한다.",
+          "correct": false,
+          "explanation": "파싱과 원천 확인 없이 정확성을 보장할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "type을 TV Show로 무조건 바꾼다.",
+          "correct": false,
+          "explanation": "원천 근거 없이 유형을 바꾸면 의미를 훼손한다."
+        },
+        {
+          "id": "o3",
+          "text": "원문·단위·작품 정보를 확인해 유효한 긴 영화인지 판정한다.",
+          "correct": true,
+          "explanation": "극단값일 수 있지만 오류라고 즉시 확정할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "평균보다 크므로 무조건 삭제한다.",
+          "correct": false,
+          "explanation": "큰 값이라는 사실은 데이터 오류의 충분한 근거가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c17"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "이상값은 검토할 신호이지 자동 삭제 지시가 아니다. 중복·드리프트도 원천과 관측 조건을 확인해 규칙을 정한다.",
+      "memoryTip": "품질 지표에 기준·책임·행동",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c17",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-068",
+      "prompt": "가상 날짜 결측률이 1%→2%→12%로 변했다. 기준은 5% 초과 경보다. 적절한 조치는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "12%를 모두 0%로 기록한다.",
+          "correct": false,
+          "explanation": "품질 변화를 숨긴다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 크기가 같으면 결측 변화는 무시한다.",
+          "correct": false,
+          "explanation": "크기와 열의 품질은 다른 지표다."
+        },
+        {
+          "id": "o3",
+          "text": "전체 행을 무조건 삭제하고 이유는 남기지 않는다.",
+          "correct": false,
+          "explanation": "손실 규모와 원인을 추적할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "셋째 배치 경보를 담당자에게 보내고 스키마·원천 변경과 처리 이력을 조사한다.",
+          "correct": true,
+          "explanation": "수치 기준과 운영 메타데이터를 연결한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c17"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "드리프트 신호를 발견하면 기준에 따라 행동하고 변경 원인을 조사한다. 처리 전후 지표와 책임·계보를 남겨 다음 배치도 감시한다.",
+      "memoryTip": "품질 지표에 기준·책임·행동",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c17",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "line",
+        "title": "가상 배치별 날짜 결측률",
+        "xLabel": "배치",
+        "yLabel": "결측률(%)",
+        "labels": [
+          "1일",
+          "2일",
+          "3일"
+        ],
+        "series": [
+          {
+            "name": "결측률",
+            "values": [
+              1,
+              2,
+              12
+            ]
+          }
+        ],
+        "note": "학습용 가상 값, 경보는 5% 초과"
+      }
+    },
+    {
+      "id": "web-new-069",
+      "prompt": "집계 목적에 불필요한 전화번호까지 수집하려 한다. 설계 단계에서 가장 적절한 조치는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "복사본에는 보존 기한을 적용하지 않는다.",
+          "correct": false,
+          "explanation": "사본도 보유 정보이므로 관리 범위에 포함해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "목적에 필요한 최소 항목만 수집한다.",
+          "correct": true,
+          "explanation": "불필요한 개인정보 보유 자체를 줄인다."
+        },
+        {
+          "id": "o3",
+          "text": "나중에 지울 수 있으니 모든 항목을 수집한다.",
+          "correct": false,
+          "explanation": "필요 없는 정보의 노출·보관 위험을 늘린다."
+        },
+        {
+          "id": "o4",
+          "text": "암호화할 것이므로 목적은 정하지 않는다.",
+          "correct": false,
+          "explanation": "암호화는 수집 목적의 정당성을 대신하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c18"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            39,
+            40,
+            41,
+            42
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "개인정보 보호는 수집 이후의 보안만이 아니라 목적·최소화·보존·접근을 정하는 설계다. 필요한 정보와 보유 기간을 먼저 한정한다.",
+      "memoryTip": "최소 수집·권한·보존·사본 보호",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c18",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-070",
+      "prompt": "가명화와 재식별 위험에 대한 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "익명화 여부는 이용 가능한 추가 정보와 재식별 가능성을 고려한다.",
+          "correct": true,
+          "explanation": "단순히 열 하나를 제거했다고 끝나는 판단이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "이름을 지웠다면 모든 환경에서 완전한 익명이 확정된다.",
+          "correct": false,
+          "explanation": "다른 속성과 외부 자료의 결합 위험이 남을 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "별도 키로 연결 가능한 가명 ID는 재연결 위험이 남는다.",
+          "correct": true,
+          "explanation": "키와 추가 정보의 관리가 중요하다."
+        },
+        {
+          "id": "o4",
+          "text": "이름을 지워도 희귀한 속성 조합으로 개인이 드러날 수 있다.",
+          "correct": true,
+          "explanation": "준식별자의 결합 위험을 확인해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c18"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            39,
+            40,
+            41,
+            42
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "가명화는 연결 가능성을 완전히 없앴다는 뜻이 아니다. 이름 삭제만으로 익명성을 단정하지 말고 추가 정보와 결합 위험을 평가한다.",
+      "memoryTip": "최소 수집·권한·보존·사본 보호",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c18",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-071",
+      "prompt": "암호화된 저장소를 사용한다. 다층 방어에서 여전히 필요한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모든 직원에게 복호화 키 공유",
+          "correct": false,
+          "explanation": "접근 범위를 불필요하게 넓힌다."
+        },
+        {
+          "id": "o2",
+          "text": "로그와 백업은 보호 대상에서 제외",
+          "correct": false,
+          "explanation": "민감 정보가 사본과 로그에 남을 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "파일 이름만 비밀로 유지",
+          "correct": false,
+          "explanation": "이름 은닉은 권한과 암호화 통제를 대신하지 못한다."
+        },
+        {
+          "id": "o4",
+          "text": "최소 권한·접근 로그·키 관리·사본 보존 정책",
+          "correct": true,
+          "explanation": "저장 암호화가 접근과 운영 통제를 모두 대신하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c18"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            39,
+            40,
+            41,
+            42
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "암호화·권한·감사·보존·키 관리는 서로 다른 위험을 줄인다. 원본뿐 아니라 백업·로그·가공본도 보호 범위에 둔다.",
+      "memoryTip": "최소 수집·권한·보존·사본 보호",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c18",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-072",
+      "prompt": "가상 분석은 지역별 총건수만 필요하다. 이름을 가명으로 바꾼 원본을 모든 팀원에게 영구 공유했다. 가장 타당한 개선은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "불필요한 개인 열을 줄이고 접근·보존을 제한하며 키와 사본도 별도 관리한다.",
+          "correct": true,
+          "explanation": "목적 최소화와 재식별 위험·다층 통제를 함께 반영한다."
+        },
+        {
+          "id": "o2",
+          "text": "가명 ID이므로 보존과 접근 제한은 없애도 된다.",
+          "correct": false,
+          "explanation": "가명화만으로 모든 개인정보 위험이 사라지지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "원본은 보호하되 다운로드 사본은 자유롭게 배포한다.",
+          "correct": false,
+          "explanation": "사본에서도 동일한 정보 노출이 발생할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "집계 차트에 색을 줄이면 정보 보호가 완성된다.",
+          "correct": false,
+          "explanation": "수집·보관·접근의 통제를 해결하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c18"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web2",
+          "pages": [
+            39,
+            40,
+            41,
+            42
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "목적에 필요한 최소 데이터와 권한·보존을 먼저 설계한다. 가명화 후에도 키·추가 정보·사본을 포함해 재식별 위험을 관리한다.",
+      "memoryTip": "최소 수집·권한·보존·사본 보호",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c18",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-073",
+      "prompt": "작품 한 행의 cast에 '가람, 나래'가 있어 두 관계 행으로 펼쳤다. 새 표 한 행의 단위는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품의 매출 한 건",
+          "correct": false,
+          "explanation": "매출 정보는 주어지지 않았다."
+        },
+        {
+          "id": "o2",
+          "text": "독립적인 새 작품",
+          "correct": false,
+          "explanation": "한 원본 작품을 여러 관계로 펼친 것이다."
+        },
+        {
+          "id": "o3",
+          "text": "작품-배우 관계",
+          "correct": true,
+          "explanation": "동일 작품이 배우별로 한 번씩 나타난다."
+        },
+        {
+          "id": "o4",
+          "text": "이용자 한 명의 시청",
+          "correct": false,
+          "explanation": "사용자 행동을 추가한 변환이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "explode 후에는 한 행의 단위가 바뀐다. 원본 작품 키를 보존해 콘텐츠 수와 관계 수를 구분한다.",
+      "memoryTip": "관계 행 수와 고유 작품 수 구분",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c19",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-074",
+      "prompt": "가상 원본 작품 3개를 장르별로 펼쳐 관계 7행을 얻었다. 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "고유 show_id가 유지되면 작품 수는 3이다.",
+          "correct": true,
+          "explanation": "nunique로 원본 대상을 셀 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "7행은 7명의 이용자가 봤다는 뜻이다.",
+          "correct": false,
+          "explanation": "카탈로그 관계에는 시청 행동 정보가 없다."
+        },
+        {
+          "id": "o3",
+          "text": "관계가 늘었다는 이유만으로 원본 작품 수를 7로 바꾼다.",
+          "correct": false,
+          "explanation": "분석 단위가 달라졌을 뿐 원본 작품이 늘지는 않았다."
+        },
+        {
+          "id": "o4",
+          "text": "관계 행 수는 7이다.",
+          "correct": true,
+          "explanation": "len이나 size로 변환 표의 행을 센 값이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "콘텐츠 수·관계 수·행동 수는 다른 측정이다. 데이터 변환 전후에 행이 무엇을 뜻하는지 먼저 적는다.",
+      "memoryTip": "관계 행 수와 고유 작품 수 구분",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c19",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-075",
+      "prompt": "장르를 펼친 표에서 국가별 고유 작품 수를 구하려 한다. 가장 적절한 집계는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "국가별 show_id.nunique()",
+          "correct": true,
+          "explanation": "여러 장르로 반복된 같은 작품을 한 번 센다."
+        },
+        {
+          "id": "o2",
+          "text": "국가별 행 수만 계산",
+          "correct": false,
+          "explanation": "작품-장르 관계 수가 될 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "국가명의 문자 수 합계",
+          "correct": false,
+          "explanation": "작품 개수를 세는 함수가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "duration의 합계",
+          "correct": false,
+          "explanation": "작품 수가 아니라 길이 합계이며 단위도 구분해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "키와 집계 함수는 관찰 단위에 맞게 선택한다. 펼친 관계 표에서 고유 작품 수는 작품 키의 고유값을 센다.",
+      "memoryTip": "관계 행 수와 고유 작품 수 구분",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c19",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-076",
+      "prompt": "가상 관계 표의 A국 6행은 show_id 2개, B국 4행은 show_id 4개다. 원본 작품 규모 비교로 옳은 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "장르를 많이 붙이면 새 작품이 생성된다.",
+          "correct": false,
+          "explanation": "행 변환은 실제 콘텐츠 생성이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "B국 4작품이 A국 2작품보다 많다.",
+          "correct": true,
+          "explanation": "관계 행이 아니라 고유 show_id를 비교한다."
+        },
+        {
+          "id": "o3",
+          "text": "A국 6행이므로 A국 작품이 반드시 더 많다.",
+          "correct": false,
+          "explanation": "다중 장르 때문에 관계 행 수가 늘어난 사례다."
+        },
+        {
+          "id": "o4",
+          "text": "두 국가의 시청자는 총 10명이다.",
+          "correct": false,
+          "explanation": "관계 표에 시청자 정보는 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "표의 한 행과 고유 대상을 먼저 정의한 뒤 함수를 고른다. 관계 건수를 시청량이나 고유 작품 수로 해석하지 않는다.",
+      "memoryTip": "관계 행 수와 고유 작품 수 구분",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c19",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 국가별 관계 행과 고유 작품",
+        "xLabel": "국가",
+        "yLabel": "건수",
+        "labels": [
+          "A국",
+          "B국"
+        ],
+        "series": [
+          {
+            "name": "관계 행",
+            "values": [
+              6,
+              4
+            ]
+          },
+          {
+            "name": "고유 작품",
+            "values": [
+              2,
+              4
+            ]
+          }
+        ],
+        "note": "학습용 가상 데이터, 국가별로 장르를 펼친 표"
+      }
+    },
+    {
+      "id": "web-new-077",
+      "prompt": "'등급별 Movie의 분 단위 상영시간 중앙값'에 필수적인 열 묶음은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "cast·director만",
+          "correct": false,
+          "explanation": "배우와 감독 정보로 상영시간 중앙값을 구할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "title만",
+          "correct": false,
+          "explanation": "제목은 분석 변수와 필터를 제공하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "country·description만",
+          "correct": false,
+          "explanation": "등급과 길이의 직접 측정 열이 없다."
+        },
+        {
+          "id": "o4",
+          "text": "type·rating·duration",
+          "correct": true,
+          "explanation": "Movie 필터·등급 그룹·분 단위 값을 구성한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c20"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            3,
+            5,
+            6,
+            16
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "질문을 대상 필터·그룹 변수·결과 변수로 나누면 필요한 열을 찾을 수 있다. 이후 파싱과 유효 N도 계획한다.",
+      "memoryTip": "질문→열→함수→지표→한계",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c20",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-078",
+      "prompt": "카탈로그 공급과 이용자 수요를 구분한 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "장르별 작품 수는 기록된 공급 구성을 나타낸다.",
+          "correct": true,
+          "explanation": "카탈로그에 포함된 콘텐츠를 센다."
+        },
+        {
+          "id": "o2",
+          "text": "인기 비교에는 시청·완주·평가 등 별도 행동 지표가 필요하다.",
+          "correct": true,
+          "explanation": "작품 수만으로 이용자 반응을 측정할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "rating별 수는 이용자가 준 별점 평균이다.",
+          "correct": false,
+          "explanation": "이 파일의 rating은 콘텐츠 등급이다."
+        },
+        {
+          "id": "o4",
+          "text": "출연작이 많으면 반드시 시청시간도 1위다.",
+          "correct": false,
+          "explanation": "참여 작품 수와 시청량은 다른 지표다."
+        }
+      ],
+      "conceptIds": [
+        "web-c20"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            3,
+            5,
+            6,
+            16
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "카탈로그는 어떤 콘텐츠가 기록되어 있는지 보여준다. 인기·선호·시청성과는 행동 데이터를 추가해 별도 정의해야 한다.",
+      "memoryTip": "질문→열→함수→지표→한계",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c20",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-079",
+      "prompt": "'가장 인기 있는 국가'를 현재 카탈로그로 정련한 질문으로 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "누락 국가를 모두 1위 국가로 채워 순위를 확정한다.",
+          "correct": false,
+          "explanation": "근거 없는 대체로 순위가 왜곡된다."
+        },
+        {
+          "id": "o2",
+          "text": "국가 정보가 기록된 작품 중 국가별 고유 작품 수는 얼마인가?",
+          "correct": true,
+          "explanation": "현재 측정 가능한 공급 질문으로 바꾸고 원래 인기와 구분한다."
+        },
+        {
+          "id": "o3",
+          "text": "국가별 작품 수를 시청자 선호도라고 이름만 바꾼다.",
+          "correct": false,
+          "explanation": "집계 의미가 이용자 선호로 바뀌지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "country 문자열 길이가 긴 국가가 인기 있다고 본다.",
+          "correct": false,
+          "explanation": "문자열 길이는 인기를 측정하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c20"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            3,
+            5,
+            6,
+            16
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "답할 수 없는 질문은 측정 가능한 질문으로 명확히 바꿀 수 있다. 질문이 바뀌었음을 밝히고 원래 결론에 필요한 추가 데이터를 적는다.",
+      "memoryTip": "질문→열→함수→지표→한계",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c20",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-080",
+      "prompt": "팀이 '2018~2020년 Movie에서 배우별 참여 작품 비중'을 분석한다. 올바른 명세를 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "분모를 대상 기간 Movie의 고유 작품 수로 명시한다.",
+          "correct": true,
+          "explanation": "비중의 기준 모집단을 알 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "이 비중을 해당 배우의 이용자 인기 확률로 확정한다.",
+          "correct": false,
+          "explanation": "참여 공급 비중은 시청자의 선호 확률이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "show_id·type·date_added·cast를 확인한다.",
+          "correct": true,
+          "explanation": "대상·기간·배우 관계·고유 작품을 구성하는 열이다."
+        },
+        {
+          "id": "o4",
+          "text": "Movie와 완전 기간을 고른 뒤 cast를 펼치고 작품-배우 쌍을 정리한다.",
+          "correct": true,
+          "explanation": "조건을 적용한 관계 단위로 집계한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c20"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            3,
+            5,
+            6,
+            16
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "질문은 열→전처리→분자·분모→표현으로 연결한다. 카탈로그가 측정하는 공급 범위와 인기 질문에 필요한 행동 정보를 구분한다.",
+      "memoryTip": "질문→열→함수→지표→한계",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c20",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-081",
+      "prompt": "duration 파싱 규칙을 바꿔 다시 분석하려 한다. raw 파일 관리로 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "raw는 보존하고 새 processed 파일을 코드로 생성한다.",
+          "correct": true,
+          "explanation": "원본에서 변경한 규칙을 다시 적용할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "raw를 새 가공본으로 덮어쓴다.",
+          "correct": false,
+          "explanation": "이전 원천과 변환 결과를 대조하기 어려워진다."
+        },
+        {
+          "id": "o3",
+          "text": "최종 차트만 남기고 표와 원천은 지운다.",
+          "correct": false,
+          "explanation": "집계와 파싱 결과를 재검증할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "원천 파일의 날짜를 임의로 바꾼다.",
+          "correct": false,
+          "explanation": "실제 수집 시점을 추적할 수 없게 된다."
+        }
+      ],
+      "conceptIds": [
+        "web-c21"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "raw·processed·output을 구분하면 원천 보존과 변환 재실행이 가능하다. 변환 규칙은 수작업 덮어쓰기보다 코드로 남긴다.",
+      "memoryTip": "raw 보존, 변환과 계보 기록",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c21",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-082",
+      "prompt": "등록 추이 그래프의 변환 계보에 남길 항목을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "그래프 캡션의 글꼴만",
+          "correct": false,
+          "explanation": "계보를 재구성할 핵심 정보가 부족하다."
+        },
+        {
+          "id": "o2",
+          "text": "데이터 출처와 스냅샷 시점",
+          "correct": true,
+          "explanation": "입력의 범위를 설명한다."
+        },
+        {
+          "id": "o3",
+          "text": "날짜 파싱·결측 제외·연도 집계 규칙",
+          "correct": true,
+          "explanation": "원본에서 결과까지 수행한 변환을 설명한다."
+        },
+        {
+          "id": "o4",
+          "text": "코드 커밋과 실행 환경",
+          "correct": true,
+          "explanation": "같은 변환을 다시 실행할 근거다."
+        }
+      ],
+      "conceptIds": [
+        "web-c21"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "계보는 어떤 원천을 어떤 버전과 규칙으로 바꾸었는지 연결한다. 스냅샷과 실행 환경은 결과 범위를 재현하는 조건이다.",
+      "memoryTip": "raw 보존, 변환과 계보 기록",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c21",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-083",
+      "prompt": "두 CSV의 체크섬이 같다. 이 사실만으로 보장되는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "결측값이 없고 중복도 없다.",
+          "correct": false,
+          "explanation": "동일 파일에 결함이 있을 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 분석 질문에 같은 정답을 준다.",
+          "correct": false,
+          "explanation": "질문과 집계 규칙은 별도로 검증해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "두 파일의 바이트가 같은지 확인하는 근거가 된다.",
+          "correct": true,
+          "explanation": "동일성 검사를 제공하지만 열 의미의 정확성은 별도다."
+        },
+        {
+          "id": "o4",
+          "text": "등록일이 모두 사실과 일치한다.",
+          "correct": false,
+          "explanation": "파일 동일성이 원천 사실의 정확성을 증명하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c21"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "체크섬은 파일의 바이트 동일성을 확인한다. 스키마·키·단위·열 의미의 타당성은 다른 검사로 확인한다.",
+      "memoryTip": "raw 보존, 변환과 계보 기록",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c21",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-084",
+      "prompt": "가상 팀은 같은 체크섬의 raw로 서로 다른 연도별 건수를 냈다. 먼저 비교할 묶음은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "체크섬이 같으므로 두 결과 모두 자동 정답이다.",
+          "correct": false,
+          "explanation": "동일 입력에도 다른 연산을 적용할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "결과가 다른 사람의 raw만 삭제한다.",
+          "correct": false,
+          "explanation": "원인을 확인할 근거를 없앤다."
+        },
+        {
+          "id": "o3",
+          "text": "차트 색만 같게 맞춘다.",
+          "correct": false,
+          "explanation": "숫자가 달라진 변환 경로는 그대로다."
+        },
+        {
+          "id": "o4",
+          "text": "코드 버전·파싱·제외 규칙·사용 날짜 열·환경을 비교한다.",
+          "correct": true,
+          "explanation": "입력 동일 이후의 변환 차이를 찾는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c21"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "같은 입력 확인은 재현의 시작이지 끝이 아니다. 원본·변환 코드·환경·산출물의 계보를 연결해야 결과 차이를 설명할 수 있다.",
+      "memoryTip": "raw 보존, 변환과 계보 기록",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c21",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-085",
+      "prompt": "정제 전에 남겨야 할 원본 프로파일로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "차트 색상과 글꼴만",
+          "correct": false,
+          "explanation": "구조·품질 상태의 진단값이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "행·열 수, 자료형, 키 결측·중복, 범주와 결측률",
+          "correct": true,
+          "explanation": "원본 상태와 이후 처리 영향을 비교할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "수정이 끝난 뒤 남은 행 수 하나만",
+          "correct": false,
+          "explanation": "원본에서 무엇이 바뀌었는지 알기 어렵다."
+        },
+        {
+          "id": "o4",
+          "text": "예상하는 결론에 맞춘 범주 목록",
+          "correct": false,
+          "explanation": "실제 원본의 품질을 측정한 결과가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c22"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "정제 전 구조·키·결측·도메인을 측정해 기준 상태를 남긴다. 처리 후 같은 지표를 비교하면 영향과 손실을 확인할 수 있다.",
+      "memoryTip": "키·전체 행·제목 중복은 별개",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c22",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-086",
+      "prompt": "가상 표에서 제목은 같지만 show_id와 공개 연도가 다르다. 옳은 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "같은 제목이면 모든 열이 같은 중복 행이다.",
+          "correct": false,
+          "explanation": "제목 일치만으로 전체 행 일치를 알 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "show_id가 다르면 모든 다른 열의 오류도 자동 배제된다.",
+          "correct": false,
+          "explanation": "키 유일성과 다른 열의 정확성은 별개다."
+        },
+        {
+          "id": "o3",
+          "text": "동명 작품일 수 있어 제목만으로 삭제하지 않는다.",
+          "correct": true,
+          "explanation": "작품 식별 근거를 먼저 확인한다."
+        },
+        {
+          "id": "o4",
+          "text": "키 중복과 전체 행 중복을 별도로 센다.",
+          "correct": true,
+          "explanation": "각 중복이 뜻하는 품질 문제가 다르다."
+        }
+      ],
+      "conceptIds": [
+        "web-c22"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "키 중복·전체 행 중복·제목 중복은 다른 검사다. 중복 기준은 분석 대상의 식별 규칙과 원천 정보를 근거로 정한다.",
+      "memoryTip": "키·전체 행·제목 중복은 별개",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c22",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-087",
+      "prompt": "배우 순위를 만들 때 show_id가 결측인 행이 있다. 검사 등급을 정하는 합리적 원칙은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "어떤 질문이든 결측은 모두 무시한다.",
+          "correct": false,
+          "explanation": "필수 키 결측은 고유 집계의 정확성을 훼손할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "결측 하나라도 모든 파일을 영구 폐기한다.",
+          "correct": false,
+          "explanation": "결함의 영향과 복구 가능성을 평가하지 않은 대응이다."
+        },
+        {
+          "id": "o3",
+          "text": "결과 숫자가 크면 모든 품질 검사를 통과시킨다.",
+          "correct": false,
+          "explanation": "건수 크기는 품질 통과의 근거가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "고유 작품 집계에 미치는 영향을 보고 중단·검토·제외 규칙을 명시한다.",
+          "correct": true,
+          "explanation": "질문의 식별 단위에 필요한 키인지가 판단 근거다."
+        }
+      ],
+      "conceptIds": [
+        "web-c22"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "중단·경고·검토 기준은 분석 목적과 필수 조건으로 정한다. 결함의 개수·비율·대응을 함께 기록한다.",
+      "memoryTip": "키·전체 행·제목 중복은 별개",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c22",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-088",
+      "prompt": "가상 1,000행에서 show_id 결측 10행, title 중복 40행, type에 미정의 값 5행이 있다. 타당한 조치는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "세 결함을 구분해 원본 프로파일을 보존하고 키·도메인 규칙별로 조사한다.",
+          "correct": true,
+          "explanation": "서로 다른 품질 현상을 하나의 삭제 규칙으로 뭉치지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "제목 중복 40행을 모두 지우면 나머지도 자동 해결된다.",
+          "correct": false,
+          "explanation": "키 결측과 type 위반은 별도로 남는다."
+        },
+        {
+          "id": "o3",
+          "text": "중복 제목은 반드시 같은 작품이므로 원문 확인이 불필요하다.",
+          "correct": false,
+          "explanation": "동명 작품 가능성이 있다."
+        },
+        {
+          "id": "o4",
+          "text": "개수 대신 이상하다는 소감만 남긴다.",
+          "correct": false,
+          "explanation": "처리 전후 영향을 비교할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c22"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "프로파일링은 결함을 측정·분류하는 단계다. 키·전체 행·범주 검사를 나눈 뒤 질문에 필요한 규칙과 조치를 적용한다.",
+      "memoryTip": "키·전체 행·제목 중복은 별개",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c22",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-089",
+      "prompt": "director 결측 여부가 관측된 type과 관련 있어 보인다. 현재 증거의 적절한 표현은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "결측 원인이 100% 증명되었다.",
+          "correct": false,
+          "explanation": "표의 연관만으로 생성 원인을 확정할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "반드시 MNAR로 확정된다.",
+          "correct": false,
+          "explanation": "MNAR은 미관측 값 자체와 결측이 관련된 가정이며 type별 차이만으로 확정할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "type을 조건으로 한 MAR 가능성을 검토하되 결측 원인을 확정하지 않는다.",
+          "correct": true,
+          "explanation": "관측 변수와 관련된 결측 가정의 후보이며 추가 근거가 필요하다."
+        },
+        {
+          "id": "o4",
+          "text": "관계가 보였으므로 반드시 MCAR다.",
+          "correct": false,
+          "explanation": "MCAR은 관측·미관측 값과 무관한 결측 가정이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            8,
+            9,
+            12
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "MCAR은 관측·미관측 값과 무관한 결측, MAR은 관측 변수로 설명되는 결측, MNAR은 미관측 값 자체와 관련된 결측 가정이다. 유형별 차이는 가능성을 검토할 근거이지 원인 확정은 아니다.",
+      "memoryTip": "가정·유효 N·대체 한계",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c23",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-090",
+      "prompt": "가상 Movie 100개 중 director 유효 80개, TV Show 50개 중 유효 10개다. 보고할 내용을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "감독 분석 유효 N은 각각 80과 10이다.",
+          "correct": true,
+          "explanation": "실제 사용한 대상 규모를 보여준다."
+        },
+        {
+          "id": "o2",
+          "text": "감독 결측 행 삭제로 유형 구성이 달라진다.",
+          "correct": true,
+          "explanation": "유효 표에서 TV Show의 상대 비중이 크게 줄어든다."
+        },
+        {
+          "id": "o3",
+          "text": "유효 감독 표가 원본과 같은 유형 구성을 반드시 보존한다.",
+          "correct": false,
+          "explanation": "결측률 차이 때문에 구성은 달라질 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "집단별 결측률은 Movie 20%, TV Show 80%다.",
+          "correct": true,
+          "explanation": "각 집단의 전체 수를 분모로 계산한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            8,
+            9,
+            12
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "결측 처리 후에는 전체 N·유효 N·제외 N과 집단 구성을 보고한다. 집단별 결측률이 다르면 삭제가 비교 대상 구성을 바꾼다.",
+      "memoryTip": "가정·유효 N·대체 한계",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c23",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-091",
+      "prompt": "duration 결측을 Movie 중앙값 100분으로 채웠다. 올바른 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "정한 대체 규칙으로 계산용 값을 넣었으며 실제 길이를 복원한 것은 아니다.",
+          "correct": true,
+          "explanation": "대체값은 관측값과 구분해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 결측 작품의 실제 길이가 100분이었다.",
+          "correct": false,
+          "explanation": "관측하지 못한 사실을 대체 규칙으로 증명할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "대체 후 분포는 반드시 원래 모집단과 동일하다.",
+          "correct": false,
+          "explanation": "분산과 분포 모양이 달라질 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "TV Show 시즌 수에도 같은 100을 넣어도 단위가 같다.",
+          "correct": false,
+          "explanation": "분과 시즌은 다른 단위다."
+        }
+      ],
+      "conceptIds": [
+        "web-c23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            8,
+            9,
+            12
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "대체는 분석 규칙에 따른 추정값을 넣는 일이다. 실제 관측 복원과 구분하고 처리 전후 분포·집단 차이를 확인한다.",
+      "memoryTip": "가정·유효 N·대체 한계",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c23",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-092",
+      "prompt": "가상 그래프와 같은 유효 N으로 감독별 순위를 계산했다. 가장 적절한 결론은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "막대 차이만으로 MNAR 원인을 증명한다.",
+          "correct": false,
+          "explanation": "결측률·유효 N만으로 원인을 확정할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "감독 정보가 있는 작품의 순위이며 유형별 결측 차이와 N을 함께 제시한다.",
+          "correct": true,
+          "explanation": "삭제가 만든 선택 범위를 명확히 한다."
+        },
+        {
+          "id": "o3",
+          "text": "전체 TV Show 감독 활동이 Movie보다 작다고 확정한다.",
+          "correct": false,
+          "explanation": "유효 기록의 차이가 실제 활동 전체의 차이를 뜻하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "TV Show 결측 감독은 모두 같은 감독으로 채운다.",
+          "correct": false,
+          "explanation": "근거 없는 대체가 순위를 왜곡한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            8,
+            9,
+            12
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "결측 기제는 가정과 진단으로 설명하고 순위의 대상은 유효 기록으로 한정한다. 대체·삭제가 결과를 바꿀 수 있으므로 N과 민감도를 함께 본다.",
+      "memoryTip": "가정·유효 N·대체 한계",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c23",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 유형별 전체와 감독 유효 N",
+        "xLabel": "유형",
+        "yLabel": "작품 수",
+        "labels": [
+          "Movie",
+          "TV Show"
+        ],
+        "series": [
+          {
+            "name": "전체",
+            "values": [
+              100,
+              50
+            ]
+          },
+          {
+            "name": "감독 유효",
+            "values": [
+              80,
+              10
+            ]
+          }
+        ],
+        "note": "학습용 가상 데이터"
+      }
+    },
+    {
+      "id": "web-new-093",
+      "prompt": "'잘못된 공백을 제거한다', '등록 연도를 만든다', '분포와 한계를 탐색한다'의 목적을 순서대로 분류하면?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "EDA·저장·암호화",
+          "correct": false,
+          "explanation": "열의 의미 변환과 탐색 목적을 설명하지 못한다."
+        },
+        {
+          "id": "o2",
+          "text": "배포·수집·복제",
+          "correct": false,
+          "explanation": "제시된 작업의 목적과 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "모두 원본 삭제",
+          "correct": false,
+          "explanation": "세 작업 모두 원본 삭제를 뜻하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "정제·전처리·EDA",
+          "correct": true,
+          "explanation": "품질 수정, 분석용 특징 변환, 탐색·해석의 목적에 해당한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            9,
+            10,
+            21
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "정제는 품질을 바로잡고 전처리는 분석 가능한 구조·특징을 만든다. EDA는 분포·관계·이상과 한계를 탐색하는 활동이다.",
+      "memoryTip": "원문·사건·단위를 보존",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c24",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-094",
+      "prompt": "날짜·기간 파생변수의 올바른 처리법을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "date_added를 파싱하고 파싱 실패 수를 별도로 센다.",
+          "correct": true,
+          "explanation": "원문 결측과 변환 실패를 구분할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "Movie의 '90 min'과 TV Show의 '2 Seasons'를 단위별로 분리한다.",
+          "correct": true,
+          "explanation": "서로 다른 측정량을 같은 평균에 섞지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "release_year와 added_year를 각각 의미에 맞게 유지한다.",
+          "correct": true,
+          "explanation": "공개와 등록은 다른 사건이다."
+        },
+        {
+          "id": "o4",
+          "text": "숫자만 추출했으므로 모든 duration을 같은 단위로 합친다.",
+          "correct": false,
+          "explanation": "숫자 추출이 단위 차이를 없애지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            9,
+            10,
+            21
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "파생변수는 값뿐 아니라 사건과 단위를 보존해야 한다. 원문 열을 남기고 변환 실패와 유효 N을 기록한다.",
+      "memoryTip": "원문·사건·단위를 보존",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c24",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-095",
+      "prompt": "연도별 등록 그래프에서 갑작스러운 공백이 보였다. EDA의 다음 행동은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "공백을 숨기도록 축만 줄인다.",
+          "correct": false,
+          "explanation": "데이터와 처리 문제를 해결하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "원문·날짜 파싱·필터·집계를 다시 확인하고 필요하면 질문을 수정한다.",
+          "correct": true,
+          "explanation": "탐색과 품질 진단을 반복해 패턴을 검증한다."
+        },
+        {
+          "id": "o3",
+          "text": "첫 그래프를 무조건 최종 결론으로 확정한다.",
+          "correct": false,
+          "explanation": "변환 오류와 실제 패턴을 구분하지 못한다."
+        },
+        {
+          "id": "o4",
+          "text": "공백 연도를 원문 없이 무조건 0으로 채운다.",
+          "correct": false,
+          "explanation": "미관측과 실제 0을 구분해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            9,
+            10,
+            21
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "EDA는 한 번 그린 뒤 끝나는 절차가 아니다. 예상 밖 패턴에서 진단과 전처리로 돌아가 의미를 확인한다.",
+      "memoryTip": "원문·사건·단위를 보존",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c24",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-096",
+      "prompt": "가상 원문 ['90 min','2 Seasons','bad']를 숫자 [90,2,결측]으로만 바꾸었다. 올바른 개선은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "'bad'를 0분으로 바꿔 원문 열을 삭제한다.",
+          "correct": false,
+          "explanation": "실패값을 실제 0으로 바꾸고 검증 근거도 잃는다."
+        },
+        {
+          "id": "o2",
+          "text": "TV Show 2를 2분으로 자동 해석한다.",
+          "correct": false,
+          "explanation": "시즌 수와 상영시간은 다른 측정이다."
+        },
+        {
+          "id": "o3",
+          "text": "원문을 보존하고 유형·단위를 분리하며 'bad'의 파싱 실패를 기록한 뒤 분포를 확인한다.",
+          "correct": true,
+          "explanation": "품질·변환·탐색을 순환한다."
+        },
+        {
+          "id": "o4",
+          "text": "두 유효값 평균 46을 전체 콘텐츠 평균 길이로 보고한다.",
+          "correct": false,
+          "explanation": "분과 시즌을 섞은 값은 의미가 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            9,
+            10,
+            21
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "정제·전처리·EDA는 목적이 다르지만 반복 연결된다. 변환 후에도 원문·단위·파싱 실패를 점검해야 해석 가능한 분포가 된다.",
+      "memoryTip": "원문·사건·단위를 보존",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c24",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-097",
+      "prompt": "cast='가람, 나래'를 개별 배우 행으로 만드는 각 함수의 역할이 올바른 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "split은 목록화, explode는 행 펼침, strip은 각 이름의 양끝 공백 제거다.",
+          "correct": true,
+          "explanation": "하나의 다중값 문자열을 정리된 관계 행으로 바꾼다."
+        },
+        {
+          "id": "o2",
+          "text": "split은 중복 삭제, explode는 이름 정렬, strip은 집계다.",
+          "correct": false,
+          "explanation": "각 함수의 역할과 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "explode는 쉼표를 자동 판별하고 고유 작품 수까지 계산한다.",
+          "correct": false,
+          "explanation": "보통 목록화와 집계는 별도 단계다."
+        },
+        {
+          "id": "o4",
+          "text": "strip은 배우 이름의 모든 글자를 지운다.",
+          "correct": false,
+          "explanation": "양끝 공백 등 지정 문자를 제거하는 함수다."
+        }
+      ],
+      "conceptIds": [
+        "web-c25"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            10,
+            15,
+            40,
+            41,
+            42,
+            61
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "다중값은 구분자로 나누고 행을 펼친 뒤 각 값을 정리한다. show_id를 유지해야 관계를 원본 작품과 연결할 수 있다.",
+      "memoryTip": "작품-배우 쌍 중복을 제거",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c25",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-098",
+      "prompt": "가상 cast='가람, 가람, 나래'가 한 작품에 있다. 고유 참여 작품 집계에 필요한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품 ID를 변환 표에서도 유지한다.",
+          "correct": true,
+          "explanation": "관계 중복과 고유 작품 수를 판정할 키다."
+        },
+        {
+          "id": "o2",
+          "text": "split·explode 후 이름 공백을 정리한다.",
+          "correct": true,
+          "explanation": "' 가람'과 '가람' 같은 표기 차이를 줄인다."
+        },
+        {
+          "id": "o3",
+          "text": "show_id와 배우명 쌍 중복을 제거한다.",
+          "correct": true,
+          "explanation": "같은 작품의 같은 배우를 한 번 센다."
+        },
+        {
+          "id": "o4",
+          "text": "다른 작품의 가람 행까지 배우명만으로 모두 제거한다.",
+          "correct": false,
+          "explanation": "여러 작품 참여 정보를 잃는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c25"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            10,
+            15,
+            40,
+            41,
+            42,
+            61
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "중복 제거 기준은 배우명 하나가 아니라 작품-배우 쌍이다. 다른 작품의 동일 배우는 각각의 참여 기록으로 남긴다.",
+      "memoryTip": "작품-배우 쌍 중복을 제거",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c25",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-099",
+      "prompt": "국가 문자열에서 쉼표 앞 첫 국가만 남겼다. 원래 다중국가 작품 전체를 비교하려면 어떤 한계를 밝혀야 하는가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "국가별 행 수가 실제 이용자 수가 된다.",
+          "correct": false,
+          "explanation": "값 축약과 시청 행동은 관계없다."
+        },
+        {
+          "id": "o2",
+          "text": "관계 수가 줄면 반드시 원본 오류가 제거된 것이다.",
+          "correct": false,
+          "explanation": "정보를 의도적으로 잃은 경우일 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "후순위 국가 관계를 버린 축약이므로 전체 참여 국가 수를 보존하지 않는다.",
+          "correct": true,
+          "explanation": "첫 값 선택과 모든 값 펼침은 다른 분석이다."
+        },
+        {
+          "id": "o4",
+          "text": "첫 국가 선택이 모든 국가를 동일하게 보존한다.",
+          "correct": false,
+          "explanation": "나머지 값은 제외된다."
+        }
+      ],
+      "conceptIds": [
+        "web-c25"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            10,
+            15,
+            40,
+            41,
+            42,
+            61
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "다중값 축약은 분석을 단순화하지만 정보를 잃는다. 관계 행 증가와 오류 중복, 첫 값 선택의 범위를 구분한다.",
+      "memoryTip": "작품-배우 쌍 중복을 제거",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c25",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-100",
+      "prompt": "가상 원본: s1 cast='A, A, B', s2 cast='A', s3 cast='B, C'. 작품-배우 쌍 중복 제거 후 A의 참여 작품 수는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "3개",
+          "correct": false,
+          "explanation": "s1의 중복 A를 두 번 센 관계 수다."
+        },
+        {
+          "id": "o2",
+          "text": "1개",
+          "correct": false,
+          "explanation": "배우명만으로 전체 중복을 지워 여러 작품을 잃은 값이다."
+        },
+        {
+          "id": "o3",
+          "text": "6개",
+          "correct": false,
+          "explanation": "다른 배우 관계까지 포함한 원시 토큰 수다."
+        },
+        {
+          "id": "o4",
+          "text": "2개",
+          "correct": true,
+          "explanation": "s1과 s2가 A의 서로 다른 작품이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c25"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            10,
+            15,
+            40,
+            41,
+            42,
+            61
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "먼저 split→explode→strip으로 관계를 만들고 작품-배우 중복을 제거한다. 이후 배우별 고유 show_id를 세면 중복 표기에 강한 참여 작품 수가 된다.",
+      "memoryTip": "작품-배우 쌍 중복을 제거",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c25",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-101",
+      "prompt": "가상 작품 10개 중 Drama를 포함한 작품 6개, 전체 장르 관계 15개다. Drama 작품 보유율은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "6%",
+          "correct": false,
+          "explanation": "6개를 100개 기준으로 잘못 바꾼 값이다."
+        },
+        {
+          "id": "o2",
+          "text": "60%",
+          "correct": true,
+          "explanation": "분모가 고유 작품 10개이므로 6/10이다."
+        },
+        {
+          "id": "o3",
+          "text": "40%",
+          "correct": false,
+          "explanation": "6/15는 전체 장르 관계 중 구성비다."
+        },
+        {
+          "id": "o4",
+          "text": "150%",
+          "correct": false,
+          "explanation": "15/10은 작품당 평균 장르 관계에 해당한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c26"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            6,
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "작품 보유율은 해당 장르 고유 작품 수/대상 고유 작품 수다. 장르 관계 구성비는 같은 분자라도 전체 관계 수를 분모로 쓴다.",
+      "memoryTip": "비율은 분자·분모·N 한 묶음",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c26",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-102",
+      "prompt": "가상 Movie 80개 중 특정 등급 20개, TV Show 20개 중 같은 등급 10개다. 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "해당 등급의 절대 건수는 Movie가 더 크다.",
+          "correct": true,
+          "explanation": "20개와 10개를 비교한다."
+        },
+        {
+          "id": "o2",
+          "text": "유형별 조건부 비율의 분모는 항상 전체 100개다.",
+          "correct": false,
+          "explanation": "유형 내부 비교의 분모는 각 유형의 N이다."
+        },
+        {
+          "id": "o3",
+          "text": "Movie 내부 해당 등급 비율은 25%다.",
+          "correct": true,
+          "explanation": "20/80으로 계산한다."
+        },
+        {
+          "id": "o4",
+          "text": "TV Show 내부 해당 등급 비율은 50%다.",
+          "correct": true,
+          "explanation": "10/20으로 계산한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c26"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            6,
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "조건부 비율은 조건을 만족한 집단의 N을 분모로 쓴다. 절대 건수와 내부 비중은 서로 다른 순서를 보일 수 있다.",
+      "memoryTip": "비율은 분자·분모·N 한 묶음",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c26",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-103",
+      "prompt": "다중 장르 작품 보유율을 합했더니 140%다. 가장 적절한 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모든 계산이 반드시 틀렸다.",
+          "correct": false,
+          "explanation": "다중 소속의 보유율 합은 100%를 넘을 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "이용자가 40% 중복 시청했다.",
+          "correct": false,
+          "explanation": "장르 관계는 시청 행동을 측정하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "합을 맞추려면 임의로 40%의 작품을 삭제한다.",
+          "correct": false,
+          "explanation": "지표 의미를 바꾸지 말고 분모와 다중 소속을 설명해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "한 작품이 여러 장르에 포함될 수 있어 합이 100%를 넘을 수 있다.",
+          "correct": true,
+          "explanation": "서로 배타적인 구성비가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c26"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            6,
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "장르별 작품 보유율은 다중 소속이라 합계 100%가 필수 조건이 아니다. 작은 집단의 비율은 유효 N과 함께 읽는다.",
+      "memoryTip": "비율은 분자·분모·N 한 묶음",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c26",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-104",
+      "prompt": "가상 그래프에서 A유형 40/200, B유형 9/10이 특정 등급이다. 가장 타당한 보고는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "A는 20%, B는 90%이며 B의 N=10도 함께 제시한다.",
+          "correct": true,
+          "explanation": "비율과 집단 규모를 동시에 보여준다."
+        },
+        {
+          "id": "o2",
+          "text": "A가 40개로 많으므로 내부 비율도 더 크다.",
+          "correct": false,
+          "explanation": "A의 내부 비율은 B보다 작다."
+        },
+        {
+          "id": "o3",
+          "text": "B의 90%가 등급의 인과 효과를 증명한다.",
+          "correct": false,
+          "explanation": "집단 내 비율 차이만으로 원인을 알 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "두 비율의 합이 110%이므로 계산이 무조건 오류다.",
+          "correct": false,
+          "explanation": "서로 다른 조건부 집단의 비율이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c26"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            6,
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "분자·분모를 먼저 명시하고 건수와 비율을 구분한다. 비율은 규모 차이를 조정하지만 작은 N의 변동성과 인과 한계를 없애지 않는다.",
+      "memoryTip": "비율은 분자·분모·N 한 묶음",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c26",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 유형별 특정 등급 보유율",
+        "xLabel": "유형",
+        "yLabel": "집단 내부 비율(%)",
+        "labels": [
+          "A유형 (N=200)",
+          "B유형 (N=10)"
+        ],
+        "series": [
+          {
+            "name": "특정 등급 비율",
+            "values": [
+              20,
+              90
+            ]
+          }
+        ],
+        "note": "분자는 각각 40개, 9개이며 학습용 가상 데이터"
+      }
+    },
+    {
+      "id": "web-new-105",
+      "prompt": "Movie의 분 단위 상영시간 분포에서 수치 구간별 작품 수를 보고 싶다. 가장 직접적인 그래프는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "시계열 선그래프",
+          "correct": false,
+          "explanation": "시간 순서에 따른 집계 변화에 적합하다."
+        },
+        {
+          "id": "o2",
+          "text": "네트워크 그림",
+          "correct": false,
+          "explanation": "노드 간 관계를 나타낸다."
+        },
+        {
+          "id": "o3",
+          "text": "히스토그램",
+          "correct": true,
+          "explanation": "연속 수치의 범위를 구간으로 나누어 빈도를 보여준다."
+        },
+        {
+          "id": "o4",
+          "text": "국가명별 막대그래프",
+          "correct": false,
+          "explanation": "명목 범주의 빈도를 보여주는 방식이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            46,
+            47,
+            48,
+            49
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "변수의 측정 수준과 질문에 맞춰 차트를 선택한다. 범주는 빈도 막대, 연속 수치는 히스토그램이나 상자그림으로 탐색할 수 있다.",
+      "memoryTip": "범주 막대, 수치 구간 히스토그램",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c27",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-106",
+      "prompt": "빈도 막대와 히스토그램을 구분한 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "히스토그램 가로축의 구간 순서는 수치 순서다.",
+          "correct": true,
+          "explanation": "인접 구간이 이어지는 분포를 보여준다."
+        },
+        {
+          "id": "o2",
+          "text": "히스토그램은 bin 경계에 따라 모양이 달라질 수 있다.",
+          "correct": true,
+          "explanation": "구간 폭과 경계를 보고해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "막대 사이가 붙어 있으면 변수 종류와 무관하게 항상 히스토그램이다.",
+          "correct": false,
+          "explanation": "시각적 간격만으로 측정 수준과 집계를 확정할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "막대의 국가명은 범주이고 순서를 바꾸어도 국가의 의미는 유지된다.",
+          "correct": true,
+          "explanation": "범주 빈도는 수치 구간의 연속성을 전제하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            46,
+            47,
+            48,
+            49
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "그래프 유형은 막대 모양뿐 아니라 가로축 값과 집계 의미로 판단한다. 히스토그램은 수치 구간별 빈도라는 정의가 중요하다.",
+      "memoryTip": "범주 막대, 수치 구간 히스토그램",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c27",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-107",
+      "prompt": "같은 100개 Movie에서 bin 폭을 5분에서 30분으로 바꾸었다. 올바른 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "구간화가 달라져 봉우리 모양이 변할 수 있지만 원본 100개가 바뀐 것은 아니다.",
+          "correct": true,
+          "explanation": "그림 모양과 원본 관측값을 구분한다."
+        },
+        {
+          "id": "o2",
+          "text": "작품 수가 반드시 6배 증가한다.",
+          "correct": false,
+          "explanation": "bin 폭 변경은 원본 행을 늘리지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "상영시간 단위가 시즌으로 바뀐다.",
+          "correct": false,
+          "explanation": "구간 폭과 측정 단위는 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "어떤 bin이든 보이는 봉우리 수가 항상 같다.",
+          "correct": false,
+          "explanation": "구간화에 따라 세부 패턴이 달라질 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            46,
+            47,
+            48,
+            49
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "축·단위·유효 N·bin을 함께 읽어야 분포를 해석할 수 있다. 모양이 달라지면 데이터 변경인지 표현 선택인지 확인한다.",
+      "memoryTip": "범주 막대, 수치 구간 히스토그램",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c27",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-108",
+      "prompt": "가상 Movie 히스토그램의 세 구간 빈도가 10·30·10이다. 직접 알 수 있는 사실은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "90~119분 작품이 이용자에게 가장 인기다.",
+          "correct": false,
+          "explanation": "빈도는 공급 분포이지 인기 지표가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "유효 Movie 50개 중 30개가 90~119분 구간에 있다.",
+          "correct": true,
+          "explanation": "표시된 구간 빈도와 N의 합에서 읽는 사실이다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 작품의 정확한 중앙값은 105분이다.",
+          "correct": false,
+          "explanation": "구간 내부의 개별 값은 보이지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "TV Show도 평균 105시즌이다.",
+          "correct": false,
+          "explanation": "대상과 단위가 다르며 TV Show를 표시하지 않았다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            46,
+            47,
+            48,
+            49
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "히스토그램은 구간별 빈도를 보여주지만 개별 관측값과 정확한 분위수를 모두 복원하지는 못한다. 대상·분 단위·유효 N과 bin을 명시한다.",
+      "memoryTip": "범주 막대, 수치 구간 히스토그램",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c27",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "histogram",
+        "title": "가상 Movie 상영시간 분포",
+        "xLabel": "상영시간 구간(분)",
+        "yLabel": "작품 수",
+        "labels": [
+          "60~89",
+          "90~119",
+          "120~149"
+        ],
+        "series": [
+          {
+            "name": "빈도",
+            "values": [
+              10,
+              30,
+              10
+            ]
+          }
+        ],
+        "note": "가상 유효 N=50, TV Show와 결측 제외"
+      }
+    },
+    {
+      "id": "web-new-109",
+      "prompt": "가상 Q1=80분, 중앙값=100분, Q3=120분이면 IQR은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "100분",
+          "correct": false,
+          "explanation": "이는 중앙값이다."
+        },
+        {
+          "id": "o2",
+          "text": "200분",
+          "correct": false,
+          "explanation": "Q1+Q3은 IQR 정의가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "20분",
+          "correct": false,
+          "explanation": "중앙값과 한 사분위수의 차이일 뿐이다."
+        },
+        {
+          "id": "o4",
+          "text": "40분",
+          "correct": true,
+          "explanation": "IQR=Q3-Q1=120-80이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            13,
+            50,
+            51,
+            52
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "상자 아래·위 경계는 Q1·Q3이고 안의 선은 중앙값이다. IQR은 중간 50% 구간의 폭인 Q3-Q1이다.",
+      "memoryTip": "IQR=Q3-Q1, 점은 검토 신호",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c28",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-110",
+      "prompt": "가상 A·B집단의 Movie 상영시간 중앙값은 모두 100분, IQR은 A 20분·B 60분, N은 100·5다. 옳은 해석을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "중앙값으로 읽는 중심은 같다.",
+          "correct": true,
+          "explanation": "두 집단 모두 100분이다."
+        },
+        {
+          "id": "o2",
+          "text": "B는 중간 50%가 더 넓게 퍼져 있다.",
+          "correct": true,
+          "explanation": "IQR 60분이 20분보다 크다."
+        },
+        {
+          "id": "o3",
+          "text": "B의 작은 N=5도 함께 보고한다.",
+          "correct": true,
+          "explanation": "같은 중앙값이어도 근거 규모와 변동은 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "중앙값이 같으므로 두 분포 전체가 완전히 같다.",
+          "correct": false,
+          "explanation": "산포가 다르고 나머지 분포도 같은지 알 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            13,
+            50,
+            51,
+            52
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "중앙값이 같아도 산포와 꼬리는 다를 수 있다. IQR·유효 N·결측을 함께 비교해 한 숫자만으로 분포 전체를 동일시하지 않는다.",
+      "memoryTip": "IQR=Q3-Q1, 점은 검토 신호",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c28",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-111",
+      "prompt": "Q1=80, Q3=120이면 상한 경계는 180이다. 실제 최대 정상 관측값이 170일 때 수염 끝은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모든 경우 0",
+          "correct": false,
+          "explanation": "하한 고정값이 아니라 관측값과 규칙으로 정한다."
+        },
+        {
+          "id": "o2",
+          "text": "170",
+          "correct": true,
+          "explanation": "보통 수염은 경계 안의 실제 가장 먼 관측값까지 간다."
+        },
+        {
+          "id": "o3",
+          "text": "180",
+          "correct": false,
+          "explanation": "이는 계산 경계이며 반드시 실제 관측값은 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "120",
+          "correct": false,
+          "explanation": "이는 Q3로 상자의 위쪽 경계다."
+        }
+      ],
+      "conceptIds": [
+        "web-c28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            13,
+            50,
+            51,
+            52
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "1.5×IQR 경계와 수염 끝은 구분한다. 경계 밖의 점도 오류 여부를 원문으로 확인한 뒤 처리한다.",
+      "memoryTip": "IQR=Q3-Q1, 점은 검토 신호",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c28",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-112",
+      "prompt": "가상 상자그림은 수염 [60,160], Q1=80, 중앙값=100, Q3=120, 점 210을 보인다. 타당한 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "상자 안에는 전체 작품의 100%가 들어 있다.",
+          "correct": false,
+          "explanation": "상자는 대체로 중간 50%를 요약한다."
+        },
+        {
+          "id": "o2",
+          "text": "160은 Q3이므로 IQR은 80이다.",
+          "correct": false,
+          "explanation": "Q3은 120이고 IQR은 40이다."
+        },
+        {
+          "id": "o3",
+          "text": "210은 규칙상 이상점 후보이며 단위·원문을 확인한 뒤 오류 여부를 판단한다.",
+          "correct": true,
+          "explanation": "점 표시와 오류 판정·삭제는 별개다."
+        },
+        {
+          "id": "o4",
+          "text": "210은 반드시 오타이므로 즉시 지운다.",
+          "correct": false,
+          "explanation": "긴 영화가 실제로 존재할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            13,
+            50,
+            51,
+            52
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "중앙값·사분위수·수염·이상점의 역할을 나누어 읽는다. 그래프의 점은 검토 신호이지 자동 삭제 근거가 아니다.",
+      "memoryTip": "IQR=Q3-Q1, 점은 검토 신호",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c28",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "box",
+        "title": "가상 Movie 상영시간 상자그림",
+        "xLabel": "집단",
+        "yLabel": "상영시간(분)",
+        "labels": [
+          "Movie (N=50)"
+        ],
+        "series": [
+          {
+            "name": "Movie",
+            "values": [
+              60,
+              80,
+              100,
+              120,
+              160
+            ],
+            "outliers": [
+              210
+            ]
+          }
+        ],
+        "note": "학습용 가상 요약값, 1.5×IQR 규칙 사용"
+      }
+    },
+    {
+      "id": "web-new-113",
+      "prompt": "장르×등급 교차표의 Drama·TV-MA 셀이 30이다. 건수 표에서 직접 뜻하는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "분석 대상 중 해당 장르-등급 관계가 30건이다.",
+          "correct": true,
+          "explanation": "셀은 두 범주 조건을 동시에 만족하는 집계값이다."
+        },
+        {
+          "id": "o2",
+          "text": "시청자 30명이 좋아했다.",
+          "correct": false,
+          "explanation": "카탈로그 교차표는 시청 선호를 측정하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "평균 평점이 30점이다.",
+          "correct": false,
+          "explanation": "rating은 이용자 점수 평균이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "Drama 작품의 30%다.",
+          "correct": false,
+          "explanation": "건수 30과 비율 30%는 다르다."
+        }
+      ],
+      "conceptIds": [
+        "web-c29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            12,
+            13,
+            50,
+            51,
+            52,
+            60,
+            62,
+            64
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "교차표 셀은 행·열 조건과 집계 함수를 함께 읽는다. 색상은 그 값을 표현하며 컬러바가 건수인지 비율인지 확인한다.",
+      "memoryTip": "건수=규모, 행 비율=내부 구조",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c29",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-114",
+      "prompt": "가상 장르 A의 등급 건수가 [90,10], B는 [8,12]다. 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "A의 둘째 등급 비율은 10/120이다.",
+          "correct": false,
+          "explanation": "120은 두 행의 합이며 행 구성비의 분모가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "원시 첫 등급 건수는 A가 더 크다.",
+          "correct": true,
+          "explanation": "90건과 8건을 비교한다."
+        },
+        {
+          "id": "o3",
+          "text": "둘째 등급의 행 구성비는 A 10%, B 60%다.",
+          "correct": true,
+          "explanation": "각 행 합계 100과 20을 분모로 쓴다."
+        },
+        {
+          "id": "o4",
+          "text": "건수 히트맵과 행 비율 히트맵은 다른 질문을 보여준다.",
+          "correct": true,
+          "explanation": "규모와 내부 구조를 구분한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            12,
+            13,
+            50,
+            51,
+            52,
+            60,
+            62,
+            64
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "원시 건수는 집단 규모, 행 비율은 각 집단 내부의 구성이다. 같은 데이터도 정규화에 따라 강조되는 패턴이 달라진다.",
+      "memoryTip": "건수=규모, 행 비율=내부 구조",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c29",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-115",
+      "prompt": "등급 Missing을 뺀 뒤 행 비율을 다시 계산했다. 반드시 명시할 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Missing은 실제 등급이므로 항상 특정 등급으로 대체했다는 가정",
+          "correct": false,
+          "explanation": "누락값을 실제 범주로 임의 바꾸면 안 된다."
+        },
+        {
+          "id": "o2",
+          "text": "제외해도 모든 비율은 항상 같다.",
+          "correct": false,
+          "explanation": "분모가 줄어 비율이 달라질 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "제외 시점·제외 N·남은 행 분모",
+          "correct": true,
+          "explanation": "범주 제외로 비율 기준이 달라진다."
+        },
+        {
+          "id": "o4",
+          "text": "글꼴 이름만",
+          "correct": false,
+          "explanation": "분모 변경을 설명하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            12,
+            13,
+            50,
+            51,
+            52,
+            60,
+            62,
+            64
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "범주 필터와 Missing 처리 시점은 교차표 N과 비율을 바꾼다. 행 N·컬러바 범위·정규화 방식을 함께 제시한다.",
+      "memoryTip": "건수=규모, 행 비율=내부 구조",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c29",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-116",
+      "prompt": "가상 교차표의 행은 장르, 열은 등급이다. 그래프는 각 장르에서 등급2가 차지하는 비율이다. 옳은 결론은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "B장르 행의 전체 관계 건수는 A장르 행보다 많다.",
+          "correct": false,
+          "explanation": "B행의 전체 N은 20으로 A행의 100보다 적다."
+        },
+        {
+          "id": "o2",
+          "text": "60%는 해당 등급이 장르를 발생시킨 인과 확률이다.",
+          "correct": false,
+          "explanation": "교차표는 인과 효과를 측정하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "두 장르에 포함된 모든 작품은 반드시 서로 다른 작품이다.",
+          "correct": false,
+          "explanation": "다중 장르 작품은 여러 행 집단에 포함될 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "B장르에서 등급2가 차지하는 비중은 더 크지만 시청자 선호 우위는 알 수 없다.",
+          "correct": true,
+          "explanation": "등급2의 비중은 60%와 10%이며 시청량이나 선호는 측정하지 않았다."
+        }
+      ],
+      "conceptIds": [
+        "web-c29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            12,
+            13,
+            50,
+            51,
+            52,
+            60,
+            62,
+            64
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "교차표와 히트맵을 읽을 때 건수·비율·다중 소속·Missing을 구분한다. 색의 강도만으로 인기나 전략을 확정하지 않는다.",
+      "memoryTip": "건수=규모, 행 비율=내부 구조",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c29",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 등급2의 장르별 행 구성비",
+        "xLabel": "장르",
+        "yLabel": "각 장르 내부 비율(%)",
+        "labels": [
+          "A (N=100)",
+          "B (N=20)"
+        ],
+        "series": [
+          {
+            "name": "등급2 비율",
+            "values": [
+              10,
+              60
+            ]
+          }
+        ],
+        "note": "원시 건수 A=[90,10], B=[8,12], 히트맵의 한 열을 막대로 표현"
+      }
+    },
+    {
+      "id": "web-new-117",
+      "prompt": "공개 연도×등록 연도 산점도와 연도별 등록 건수 선그래프에서 한 점의 단위는 각각?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모두 전 세계 가입자 수",
+          "correct": false,
+          "explanation": "주어진 카탈로그에 가입자 수는 없다."
+        },
+        {
+          "id": "o2",
+          "text": "작품 하나·연도 집계 하나",
+          "correct": true,
+          "explanation": "개별 작품의 두 수치 관계와 시점별 합계를 구분한다."
+        },
+        {
+          "id": "o3",
+          "text": "이용자 하나·배우 하나",
+          "correct": false,
+          "explanation": "두 그래프 모두 해당 단위를 표시하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "연도 합계·개별 작품",
+          "correct": false,
+          "explanation": "두 차트의 관찰 단위를 거꾸로 읽었다."
+        }
+      ],
+      "conceptIds": [
+        "web-c30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            13,
+            14,
+            49,
+            50,
+            53,
+            54,
+            55
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "산점도의 점은 개별 관측의 두 수치 조합이고 시계열 선의 점은 시점별 집계일 수 있다. 점 하나의 의미를 먼저 확인한다.",
+      "memoryTip": "작품 좌표와 시점 집계를 구분",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c30",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-118",
+      "prompt": "x=release_year, y=added_year인 산점도에서 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "대각선 근처면 반드시 Netflix Original이다.",
+          "correct": false,
+          "explanation": "시차만으로 제작·배급 분류를 확정할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "공개와 등록은 서로 다른 사건이다.",
+          "correct": true,
+          "explanation": "같은 작품에도 서로 다른 연도가 기록될 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "(2010,2018)은 y=x 위에 있다.",
+          "correct": true,
+          "explanation": "등록 연도가 공개 연도보다 크다."
+        },
+        {
+          "id": "o4",
+          "text": "(2010,2018)의 연도 차이는 8년이다.",
+          "correct": true,
+          "explanation": "2018-2010으로 계산한 연도 단위 차이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            13,
+            14,
+            49,
+            50,
+            53,
+            54,
+            55
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "공개와 등록의 축 방향을 확인하면 대각선 위·아래를 정확히 읽을 수 있다. 시차가 짧다는 사실만으로 Original 여부는 알 수 없다.",
+      "memoryTip": "작품 좌표와 시점 집계를 구분",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c30",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-119",
+      "prompt": "등록 건수와 가상 투자액이 함께 증가했다. 현재 가능한 결론은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "실제 투자가 가입자 성장을 일으켰다.",
+          "correct": false,
+          "explanation": "가상 입력과 미측정 가입자로 인과를 주장할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "카탈로그의 모든 작품이 같은 해에 제작됐다.",
+          "correct": false,
+          "explanation": "등록 집계와 제작 연도의 관계를 보여주지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "상관이 있으면 시계열의 공통 추세는 존재할 수 없다.",
+          "correct": false,
+          "explanation": "공통 시간 추세도 상관을 만들 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "두 입력의 동행 패턴을 기술할 수 있지만 실제 투자 효과는 검증하지 않았다.",
+          "correct": true,
+          "explanation": "가상 투자액과 관찰 상관의 범위를 제한한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            13,
+            14,
+            49,
+            50,
+            53,
+            54,
+            55
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "시차·상관·추세는 기술적 관찰이며 원인이나 전략의 증거와 다르다. 실제 효과를 보려면 실제 지표와 대안 설명 검증이 필요하다.",
+      "memoryTip": "작품 좌표와 시점 집계를 구분",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c30",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-120",
+      "prompt": "가상 산점도의 작품 A=(2015,2017), B=(2017,2017), C=(2012,2018)이다. 타당한 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "C의 연도 차이가 6년으로 가장 크고 B는 같은 연도 등록이지만 Original은 확정할 수 없다.",
+          "correct": true,
+          "explanation": "좌표 차이와 분류 주장을 구분한다."
+        },
+        {
+          "id": "o2",
+          "text": "C가 선그래프의 2018년 전체 등록 건수다.",
+          "correct": false,
+          "explanation": "산점도 한 점은 작품 한 개다."
+        },
+        {
+          "id": "o3",
+          "text": "A는 대각선 아래에 있다.",
+          "correct": false,
+          "explanation": "2017>2015이므로 대각선 위다."
+        },
+        {
+          "id": "o4",
+          "text": "B는 인기 1위 작품이다.",
+          "correct": false,
+          "explanation": "좌표는 시청량이나 인기를 나타내지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            13,
+            14,
+            49,
+            50,
+            53,
+            54,
+            55
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "산점도에서는 작품별 축 값과 차이를 읽는다. 이 결과를 연도 집계나 제작 주체·인기로 확장하지 않는다.",
+      "memoryTip": "작품 좌표와 시점 집계를 구분",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c30",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "scatter",
+        "title": "가상 작품 공개·등록 연도",
+        "xLabel": "최초 공개 연도",
+        "yLabel": "등록 연도",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "series": [
+          {
+            "name": "작품",
+            "xValues": [
+              2015,
+              2017,
+              2012
+            ],
+            "values": [
+              2017,
+              2017,
+              2018
+            ]
+          }
+        ],
+        "note": "학습용 가상 좌표, 대각선은 y=x 기준"
+      }
+    },
+    {
+      "id": "web-new-121",
+      "prompt": "2020년은 12개월, 2021년은 1개월만 관측했다. 두 연간 건수를 그대로 비교하기 어려운 이유는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "부분 기간은 무조건 결측이 없는 완전 연도다.",
+          "correct": false,
+          "explanation": "부분 기간과 완전 기간은 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "1개월 건수는 항상 12배하면 정확한 연간 값이 된다.",
+          "correct": false,
+          "explanation": "계절성과 수집 조건에 따라 달라질 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "관측 노출 기간이 달라 등록 기회가 다르다.",
+          "correct": true,
+          "explanation": "같은 길이의 기간이나 완전 연도로 비교해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "2021이라는 숫자는 항상 오류다.",
+          "correct": false,
+          "explanation": "연도 값 자체보다 관측 범위가 문제다."
+        }
+      ],
+      "conceptIds": [
+        "web-c31"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            14,
+            15,
+            17,
+            22,
+            53,
+            55
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "시간 집계는 관측 기간을 맞춰 비교한다. 부분 연도는 같은 월 범위와 비교하거나 별도로 표시하고 단순 연간 감소로 단정하지 않는다.",
+      "memoryTip": "완전 기간이어도 완전 이력은 아님",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c31",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-122",
+      "prompt": "현재 카탈로그 스냅샷에 대한 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "완전한 입출고 이력을 복원하려면 등록·삭제 이벤트 기록이 필요하다.",
+          "correct": true,
+          "explanation": "스냅샷 한 장으로 누락된 과거 사건을 알기 어렵다."
+        },
+        {
+          "id": "o2",
+          "text": "현재 잔존 작품의 과거 등록 연도 분포를 계산할 수 있다.",
+          "correct": true,
+          "explanation": "데이터 범위를 현재 기록으로 한정한 기술이다."
+        },
+        {
+          "id": "o3",
+          "text": "현재 스냅샷이 있으면 모든 과거 삭제 수가 자동 산출된다.",
+          "correct": false,
+          "explanation": "삭제된 작품의 이력은 별도로 필요하다."
+        },
+        {
+          "id": "o4",
+          "text": "과거에 등록됐다가 삭제된 작품은 빠져 있을 수 있다.",
+          "correct": true,
+          "explanation": "현재 남은 기록만 포함할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c31"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            14,
+            15,
+            17,
+            22,
+            53,
+            55
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "스냅샷은 특정 시점의 상태이며 전체 사건 로그와 다르다. 과거 집계도 현재 잔존한 기록의 선택 범위를 가진다.",
+      "memoryTip": "완전 기간이어도 완전 이력은 아님",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c31",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-123",
+      "prompt": "완전 연도만 골랐는데도 등록 건수가 감소했다. 전략적 축소라고 확정하기 전에 필요한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "수집 범위·삭제 이력·계약·편성 등 대안 설명과 실제 전략 자료",
+          "correct": true,
+          "explanation": "완전 기간 조정만으로 원인이 증명되지는 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "선의 색을 빨강으로 바꾼 그림",
+          "correct": false,
+          "explanation": "표현은 원인 증거를 추가하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "현재 스냅샷만으로 모든 과거 이력을 알 수 있다는 가정",
+          "correct": false,
+          "explanation": "잔존 선택과 삭제 정보 부재가 남아 있다."
+        },
+        {
+          "id": "o4",
+          "text": "낮은 연도를 표에서 제거하고 결론을 고정",
+          "correct": false,
+          "explanation": "결론에 맞춘 제외로 검증 근거를 줄인다."
+        }
+      ],
+      "conceptIds": [
+        "web-c31"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            14,
+            15,
+            17,
+            22,
+            53,
+            55
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "급락에는 기간·수집·잔존 선택·실제 운영 변화 등 여러 설명이 가능하다. 범위를 확인한 뒤 원인에 필요한 추가 자료를 구분한다.",
+      "memoryTip": "완전 기간이어도 완전 이력은 아님",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c31",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-124",
+      "prompt": "가상 그래프의 2022년은 1월까지만, 이전 두 해는 완전 연도다. 가장 적절한 분석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "2020·2021년은 완전하므로 현재 스냅샷 선택 문제도 사라진다.",
+          "correct": false,
+          "explanation": "완전 기간과 완전 이력은 다른 조건이다."
+        },
+        {
+          "id": "o2",
+          "text": "2022년을 부분 기간으로 표시하고 같은 1월끼리 비교할 자료와 삭제 이력을 추가로 구한다.",
+          "correct": true,
+          "explanation": "기간 차이와 스냅샷 한계를 함께 다룬다."
+        },
+        {
+          "id": "o3",
+          "text": "2022년 건수가 90% 적으므로 공급 정책 축소를 확정한다.",
+          "correct": false,
+          "explanation": "기간이 다른 집계만으로 전략을 알 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "2022년 수에 12를 곱하면 실제 연간 합계가 확정된다.",
+          "correct": false,
+          "explanation": "계절성과 추후 변동을 가정한 추정일 뿐이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c31"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            14,
+            15,
+            17,
+            22,
+            53,
+            55
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "같은 기간으로 비교해도 현재 스냅샷이라는 선택 범위는 남는다. 기간 규칙과 필요한 사건 로그를 함께 밝혀야 감소 해석을 과장하지 않는다.",
+      "memoryTip": "완전 기간이어도 완전 이력은 아님",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c31",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "line",
+        "title": "가상 스냅샷의 등록 연도별 기록",
+        "xLabel": "등록 연도",
+        "yLabel": "잔존 작품 수",
+        "labels": [
+          "2020 (12개월)",
+          "2021 (12개월)",
+          "2022 (1개월)"
+        ],
+        "series": [
+          {
+            "name": "기록 수",
+            "values": [
+              1000,
+              1100,
+              100
+            ]
+          }
+        ],
+        "note": "학습용 가상 값, 마지막 해는 부분 관측"
+      }
+    },
+    {
+      "id": "web-new-125",
+      "prompt": "그림에서 점 하나가 작품이며 가로축 공개 연도, 세로축 등록 연도다. 그래프 유형과 시각적 부호는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "히스토그램·수치 구간의 빈도",
+          "correct": false,
+          "explanation": "작품별 두 좌표를 나타내는 그림과 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "상자그림·사분위수 경계",
+          "correct": false,
+          "explanation": "사분위수 요약을 제시한 그림이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "원형 차트·부채꼴 각도",
+          "correct": false,
+          "explanation": "부채꼴 구성비를 사용하지 않았다."
+        },
+        {
+          "id": "o4",
+          "text": "산점도·두 축 위 점의 위치",
+          "correct": true,
+          "explanation": "한 작품의 두 수치 관계를 위치로 표현한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c33"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            13,
+            14,
+            43,
+            48,
+            49,
+            51,
+            52,
+            53,
+            55,
+            56,
+            57,
+            62,
+            64,
+            70,
+            76,
+            85
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "차트는 이름뿐 아니라 값을 어떤 부호로 표현하는지 확인한다. 점의 위치·막대 길이·색상·선의 변화는 각각 다른 집계를 담을 수 있다.",
+      "memoryTip": "유형→축→집계→패턴→한계",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c33",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-126",
+      "prompt": "차트 설명에 'TV Show 등급별 비율 60%'를 쓸 때 확인할 항목을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "분모가 전체 작품인지 TV Show인지",
+          "correct": true,
+          "explanation": "같은 60%라도 기준 집단에 따라 의미가 달라진다."
+        },
+        {
+          "id": "o2",
+          "text": "등급 Missing을 포함했는지",
+          "correct": true,
+          "explanation": "제외 조건이 분모와 N을 바꾼다."
+        },
+        {
+          "id": "o3",
+          "text": "세로축이 건수인지 비율인지",
+          "correct": true,
+          "explanation": "표시 단위가 해석과 일치해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "색이 화려하면 열과 함수는 확인하지 않아도 된다.",
+          "correct": false,
+          "explanation": "표현의 인상은 측정 의미를 보장하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c33"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            13,
+            14,
+            43,
+            48,
+            49,
+            51,
+            52,
+            53,
+            55,
+            56,
+            57,
+            62,
+            64,
+            70,
+            76,
+            85
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "축·단위·집계 함수·분모·N·범위를 묶어 읽는다. 제목이 강하게 단정해도 실제 측정값이 지지하는 범위가 우선이다.",
+      "memoryTip": "유형→축→집계→패턴→한계",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c33",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-127",
+      "prompt": "'장르 막대가 가장 길어서 가입자들이 그 장르를 가장 좋아한다'를 바르게 고친 문장은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "가장 긴 막대의 작품은 모두 흥행했다.",
+          "correct": false,
+          "explanation": "개별 성과 정보가 없다."
+        },
+        {
+          "id": "o2",
+          "text": "이 카탈로그에서 해당 장르의 집계 작품 수가 가장 크다.",
+          "correct": true,
+          "explanation": "직접 측정한 공급 건수로 결론을 한정한다."
+        },
+        {
+          "id": "o3",
+          "text": "막대가 길면 전략적 투자 효과가 입증된다.",
+          "correct": false,
+          "explanation": "건수만으로 전략과 원인을 확인할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "작품 수와 완주율은 항상 같다.",
+          "correct": false,
+          "explanation": "공급과 사용자 행동은 다른 지표다."
+        }
+      ],
+      "conceptIds": [
+        "web-c33"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            13,
+            14,
+            43,
+            48,
+            49,
+            51,
+            52,
+            53,
+            55,
+            56,
+            57,
+            62,
+            64,
+            70,
+            76,
+            85
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "그래프 설명은 직접 관찰과 추가 가설을 분리한다. 카탈로그의 빈도를 인기·가입·인과로 바꾸려면 별도의 행동·운영 자료가 필요하다.",
+      "memoryTip": "유형→축→집계→패턴→한계",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c33",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-128",
+      "prompt": "가상 그래프는 유형별 '유효 분 단위 Movie 중앙값'이 아니라 국가별 Movie 작품 수다. 올바른 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "A국 중앙값이 40분이다.",
+          "correct": false,
+          "explanation": "세로축은 작품 수다."
+        },
+        {
+          "id": "o2",
+          "text": "A국 작품의 평점이 40점이다.",
+          "correct": false,
+          "explanation": "사용자 평점을 나타내는 값이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "범주별 건수 막대이며 A국이 40개로 가장 많고, 시청 선호나 길이 비교는 아니다.",
+          "correct": true,
+          "explanation": "축·집계·단위에 맞는 직접 관찰이다."
+        },
+        {
+          "id": "o4",
+          "text": "선그래프이므로 A국의 증가 속도가 가장 빠르다.",
+          "correct": false,
+          "explanation": "가로축은 시간이 아니라 국가 범주다."
+        }
+      ],
+      "conceptIds": [
+        "web-c33"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            13,
+            14,
+            43,
+            48,
+            49,
+            51,
+            52,
+            53,
+            55,
+            56,
+            57,
+            62,
+            64,
+            70,
+            76,
+            85
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "유형→축→단위·N·집계→패턴→한계 순서로 읽는다. 범주의 건수를 다른 수치나 시간 변화로 해석하지 않는다.",
+      "memoryTip": "유형→축→집계→패턴→한계",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c33",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 국가별 Movie 고유 작품 수",
+        "xLabel": "국가",
+        "yLabel": "작품 수",
+        "labels": [
+          "A국",
+          "B국",
+          "C국"
+        ],
+        "series": [
+          {
+            "name": "고유 작품 수",
+            "values": [
+              40,
+              25,
+              15
+            ]
+          }
+        ],
+        "note": "유효 국가가 있는 Movie N=80, 학습용 가상 값"
+      }
+    },
+    {
+      "id": "web-new-129",
+      "prompt": "'장르별 작품 수'에서 자연스럽게 확장한 복합질문은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "완전 등록 연도별로 Movie와 TV Show의 장르 보유율이 어떻게 다른가?",
+          "correct": true,
+          "explanation": "시간·유형 조건에서 장르 구성을 비교한다."
+        },
+        {
+          "id": "o2",
+          "text": "가장 많은 장르는 무엇인가?",
+          "correct": false,
+          "explanation": "기존 단일 집계와 동일한 질문이다."
+        },
+        {
+          "id": "o3",
+          "text": "CSV 파일의 이름은 무엇인가?",
+          "correct": false,
+          "explanation": "변수 간 분석 질문이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 장르가 왜 인기 있는가?",
+          "correct": false,
+          "explanation": "인기 측정과 원인 자료가 없어 범위가 불명확하다."
+        }
+      ],
+      "conceptIds": [
+        "web-c34"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            5,
+            6,
+            12,
+            13,
+            14,
+            16,
+            50,
+            55,
+            57,
+            60,
+            61
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "복합질문은 첫 결과를 다른 변수의 조건부 비교로 확장한다. 변수 이름만 늘리지 말고 어떤 차이를 측정할지 명시한다.",
+      "memoryTip": "조건을 늘리면 셀 N도 확인",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c34",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-130",
+      "prompt": "'완전 등록 연도×유형별 Drama 보유율' 분석 명세에 들어갈 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "나라별 인구를 임의로 분모에 사용",
+          "correct": false,
+          "explanation": "질문에서 정한 작품 보유율과 다른 지표가 된다."
+        },
+        {
+          "id": "o2",
+          "text": "show_id·date_added·type·listed_in과 다중 장르 처리",
+          "correct": true,
+          "explanation": "키·기간·조건·장르를 구성한다."
+        },
+        {
+          "id": "o3",
+          "text": "각 연도·유형의 고유 작품 수를 분모로 사용",
+          "correct": true,
+          "explanation": "조건 집단 내부의 보유율을 계산한다."
+        },
+        {
+          "id": "o4",
+          "text": "날짜 결측·부분 연도·최소 N 규칙",
+          "correct": true,
+          "explanation": "포함 대상과 작은 집단의 처리 기준을 정한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c34"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            5,
+            6,
+            12,
+            13,
+            14,
+            16,
+            50,
+            55,
+            57,
+            60,
+            61
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "복합질문에는 열·필터·전처리·분자·분모·차트·기준을 연결한다. 팀원이 같은 규칙으로 다시 계산할 수 있어야 한다.",
+      "memoryTip": "조건을 늘리면 셀 N도 확인",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c34",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-131",
+      "prompt": "국가×연도×유형×등급으로 나누자 여러 셀의 N이 1~2개가 됐다. 적절한 대응은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "N=1의 100%를 전체의 안정된 경향으로 확정한다.",
+          "correct": false,
+          "explanation": "작은 집단은 비율 변동이 크다."
+        },
+        {
+          "id": "o2",
+          "text": "작은 셀을 아무 기록 없이 삭제한다.",
+          "correct": false,
+          "explanation": "선택 규칙이 결과에 미친 영향을 알기 어렵다."
+        },
+        {
+          "id": "o3",
+          "text": "셀 N을 제시하고 최소 N·범주 묶음·불확실성·비교 범위를 검토한다.",
+          "correct": true,
+          "explanation": "변수 추가로 생긴 희소 집단을 관리한다."
+        },
+        {
+          "id": "o4",
+          "text": "변수가 많으므로 인과가 자동 입증된다.",
+          "correct": false,
+          "explanation": "다변수 분할만으로 교란이 해소되지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c34"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            5,
+            6,
+            12,
+            13,
+            14,
+            16,
+            50,
+            55,
+            57,
+            60,
+            61
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "다변수 분석도 작은 N·선택·교란 문제를 가진다. 복잡한 질문일수록 집단 규모와 필터의 영향을 확인한다.",
+      "memoryTip": "조건을 늘리면 셀 N도 확인",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c34",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-132",
+      "prompt": "가상 집계에서 A국의 Movie 비율은 2019년 80/100, 2020년 4/5다. 복합 비교로 옳은 판단은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "2020년은 5개뿐이므로 비율도 5%다.",
+          "correct": false,
+          "explanation": "분자는 4, 분모는 5이므로 80%다."
+        },
+        {
+          "id": "o2",
+          "text": "같은 비율이므로 두 해의 공급 규모도 같다.",
+          "correct": false,
+          "explanation": "전체 N은 100과 5로 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "국가와 연도를 넣었으므로 전략의 인과 효과가 증명된다.",
+          "correct": false,
+          "explanation": "조건 분할만으로 원인 검증이 되지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "비율은 모두 80%지만 2020년 N=5와 기간·결측 조건을 함께 보고한다.",
+          "correct": true,
+          "explanation": "같은 비율도 근거 규모와 선택 조건이 다르다."
+        }
+      ],
+      "conceptIds": [
+        "web-c34"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            5,
+            6,
+            12,
+            13,
+            14,
+            16,
+            50,
+            55,
+            57,
+            60,
+            61
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "복합질문은 조건별 지표와 N을 함께 비교한다. 같은 비율·다른 규모를 구분하고 기간·결측·선택의 한계를 명세한다.",
+      "memoryTip": "조건을 늘리면 셀 N도 확인",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c34",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-133",
+      "prompt": "같은 작품의 감독 D와 배우 A를 연결하는 무방향 단순 Graph에서 엣지 하나의 뜻은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "두 사람이 실제로 친밀하다는 증명",
+          "correct": false,
+          "explanation": "작품 협업 관계가 사적 친밀성을 뜻하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "D와 A 사이의 협업 관계",
+          "correct": true,
+          "explanation": "노드는 사람, 엣지는 정의한 관계다."
+        },
+        {
+          "id": "o3",
+          "text": "작품의 시청자 1명",
+          "correct": false,
+          "explanation": "네트워크에 사용자 노드를 정의하지 않았다."
+        },
+        {
+          "id": "o4",
+          "text": "감독의 수익 1원",
+          "correct": false,
+          "explanation": "엣지가 금액이라는 조건이 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c35"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "네트워크는 노드와 엣지를 먼저 정의해야 해석할 수 있다. 감독-배우 협업 그래프는 작품에 기록된 관계를 나타낸다.",
+      "memoryTip": "고유 이웃과 반복 협업은 별개",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c35",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-134",
+      "prompt": "D-A가 세 작품, D-B가 한 작품이면 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "단순 Graph의 D-A 엣지는 1개다.",
+          "correct": true,
+          "explanation": "반복 관계는 같은 쌍의 하나의 엣지로 합쳐진다."
+        },
+        {
+          "id": "o2",
+          "text": "D의 고유 이웃은 반드시 4명이다.",
+          "correct": false,
+          "explanation": "같은 A와의 세 협업을 별개 사람으로 세면 안 된다."
+        },
+        {
+          "id": "o3",
+          "text": "D의 고유 직접 이웃은 2명이다.",
+          "correct": true,
+          "explanation": "A와 B를 각각 한 번 센다."
+        },
+        {
+          "id": "o4",
+          "text": "협업 횟수를 가중치로 누적하면 합은 4회다.",
+          "correct": true,
+          "explanation": "반복 작품 횟수와 고유 연결 수를 구분한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c35"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "연결 수는 고유 상대 수이고 가중 협업 횟수는 반복까지 센다. 중심성을 보고할 때 정규화 함수와 표본 경계를 밝힌다.",
+      "memoryTip": "고유 이웃과 반복 협업은 별개",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c35",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-135",
+      "prompt": "상위 감독 30명만 남긴 네트워크에서 레이아웃 중앙의 배우를 발견했다. 적절한 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "중앙 위치가 전 세계 흥행 1위를 증명한다.",
+          "correct": false,
+          "explanation": "지리·수익·인기 순위가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "제외된 감독과의 관계도 모두 관측했다.",
+          "correct": false,
+          "explanation": "분석 범위에서 제외된 관계는 나타나지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "첫 감독만 남겨도 공동 감독 정보가 완전히 보존된다.",
+          "correct": false,
+          "explanation": "대표값 축약은 나머지 감독 관계를 잃을 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "포함 범위와 계산 중심성을 확인하며 화면 위치만으로 전체 영향력을 단정하지 않는다.",
+          "correct": true,
+          "explanation": "레이아웃은 시각적 배치이며 표본 선택도 관계를 바꾼다."
+        }
+      ],
+      "conceptIds": [
+        "web-c35"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "표본 선택과 레이아웃은 계산·표현에 영향을 준다. 화면의 중앙과 실제 지표, 선택한 관계와 전체 활동을 구분한다.",
+      "memoryTip": "고유 이웃과 반복 협업은 별개",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c35",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-136",
+      "prompt": "가상 6노드 단순 그래프에서 감독 D의 고유 이웃은 3명, 협업 횟수 합은 7회다. 일반 degree_centrality=k/(n-1)이면?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "0.6이며 7회와 다른 지표다. 표본 밖 영향력은 별도 검증해야 한다.",
+          "correct": true,
+          "explanation": "3/(6-1)=0.6으로 계산한다."
+        },
+        {
+          "id": "o2",
+          "text": "1.4이므로 인기도 140%다.",
+          "correct": false,
+          "explanation": "7/5는 협업 횟수를 잘못 사용했고 인기 확률도 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "중앙에 그렸으면 값은 무조건 1이다.",
+          "correct": false,
+          "explanation": "화면 위치는 공식의 입력이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "6/3=2가 정규화 중심성이다.",
+          "correct": false,
+          "explanation": "정한 공식의 분자·분모와 다르다."
+        }
+      ],
+      "conceptIds": [
+        "web-c35"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "일반 연결 중심성은 고유 이웃 수를 n-1로 나눈다. 가중 횟수·레이아웃·선택 표본의 한계를 함께 구분한다.",
+      "memoryTip": "고유 이웃과 반복 협업은 별개",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c35",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-137",
+      "prompt": "가상 소개문 한 편에 space가 5번, 다른 다섯 편에 family가 각 1번 나온다. 두 단어의 총빈도와 문서빈도는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "총빈도는 space 1·family 5, 문서빈도는 둘 다 5다.",
+          "correct": false,
+          "explanation": "space는 한 문서에 반복되었다."
+        },
+        {
+          "id": "o2",
+          "text": "둘 다 이용자 5명이 좋아했다.",
+          "correct": false,
+          "explanation": "소개문 토큰은 사용자 반응이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "총빈도는 둘 다 5, 문서빈도는 space 1·family 5다.",
+          "correct": true,
+          "explanation": "토큰 횟수와 등장 문서 수를 분리해 센다."
+        },
+        {
+          "id": "o4",
+          "text": "총빈도는 둘 다 1, 문서빈도는 둘 다 5다.",
+          "correct": false,
+          "explanation": "반복 횟수와 문서 분포를 바꾸어 세었다."
+        }
+      ],
+      "conceptIds": [
+        "web-c36"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            15,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "총빈도는 등장한 횟수, 문서빈도는 등장한 문서 수다. TF-IDF는 문서 내 사용과 전체 문서에서의 흔함을 결합한 가중 표현이다.",
+      "memoryTip": "총횟수와 등장 문서 수 구분",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c36",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-138",
+      "prompt": "장르별 설명문 단어를 비교할 때 필요한 처리를 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "장르별 유효 문서 N을 제시한다.",
+          "correct": true,
+          "explanation": "문서가 많은 집단은 총빈도도 커지기 쉽다."
+        },
+        {
+          "id": "o2",
+          "text": "문서 등장 비율 같은 정규화도 검토한다.",
+          "correct": true,
+          "explanation": "서로 다른 문서 규모의 비교를 보완한다."
+        },
+        {
+          "id": "o3",
+          "text": "일반 단어를 지우면 모든 분석 목적에서 항상 정답이다.",
+          "correct": false,
+          "explanation": "목적상 중요한 단어를 없앨 수도 있다."
+        },
+        {
+          "id": "o4",
+          "text": "토큰화·소문자화·불용어 규칙을 기록한다.",
+          "correct": true,
+          "explanation": "전처리 차이가 빈도와 특징을 바꾼다."
+        }
+      ],
+      "conceptIds": [
+        "web-c36"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            15,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "텍스트 빈도는 전처리와 문서 집합에 의존한다. 장르 비교에서는 문서 수와 다중 장르 중복 포함도 함께 확인한다.",
+      "memoryTip": "총횟수와 등장 문서 수 구분",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c36",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-139",
+      "prompt": "워드클라우드에서 crime이 가장 크게 보인다. 안전한 다음 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "설정한 전처리와 문서 집합에서 자주 나온 토큰이며 실제 문맥을 확인한다.",
+          "correct": true,
+          "explanation": "감정·선호·전략은 추가 증거가 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 시청자가 범죄물을 가장 좋아한다.",
+          "correct": false,
+          "explanation": "소개문 빈도는 이용자 선호를 측정하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "crime이 있는 모든 문서는 부정적 감정이다.",
+          "correct": false,
+          "explanation": "단어 하나로 문장 감정을 확정할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "글자 면적이 정확히 두 배면 빈도도 반드시 두 배다.",
+          "correct": false,
+          "explanation": "배치와 크기 표현만으로 정밀 수치를 읽기 어렵다."
+        }
+      ],
+      "conceptIds": [
+        "web-c36"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            15,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "워드클라우드는 탐색과 원문 검토를 돕는 표현이다. 빈도표·문서빈도와 대조하고 큰 단어를 인기나 원인으로 단정하지 않는다.",
+      "memoryTip": "총횟수와 등장 문서 수 구분",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c36",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-140",
+      "prompt": "가상 그래프의 총빈도는 space 5·family 5지만 문서빈도는 1·5다. 옳은 결론은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "TF-IDF도 두 단어의 가중치가 모든 문서에서 반드시 같다.",
+          "correct": false,
+          "explanation": "문서빈도가 달라 IDF와 문서별 TF가 다를 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "family가 더 많은 문서에 퍼져 있고 총빈도만 그린 클라우드는 그 차이를 숨길 수 있다.",
+          "correct": true,
+          "explanation": "반복과 문서 전반의 분포를 구분한다."
+        },
+        {
+          "id": "o3",
+          "text": "space가 다섯 문서 모두의 공통 주제다.",
+          "correct": false,
+          "explanation": "한 문서에서만 등장했다."
+        },
+        {
+          "id": "o4",
+          "text": "family가 이용자 만족도를 5배 높였다.",
+          "correct": false,
+          "explanation": "텍스트 빈도는 만족도의 인과 효과가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c36"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            15,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "같은 총빈도도 문서별 분포는 다를 수 있다. 전처리·문서 N·TF-IDF의 목적을 확인한 뒤 빈도와 의미 주장을 구분한다.",
+      "memoryTip": "총횟수와 등장 문서 수 구분",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c36",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 단어의 총빈도와 문서빈도",
+        "xLabel": "단어",
+        "yLabel": "횟수 또는 문서 수",
+        "labels": [
+          "space",
+          "family"
+        ],
+        "series": [
+          {
+            "name": "총빈도(회)",
+            "values": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "문서빈도(편)",
+            "values": [
+              1,
+              5
+            ]
+          }
+        ],
+        "note": "학습용 소개문 6편, 실제 Netflix 텍스트 아님"
+      }
+    },
+    {
+      "id": "web-new-141",
+      "prompt": "콘텐츠의 장르·배우·설명문을 TF-IDF 벡터로 바꾸는 주된 이유는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "시청하지 않은 이용자의 실제 만족도를 관측하기 위해",
+          "correct": false,
+          "explanation": "벡터화로 없는 사용자 반응이 생성되지는 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "작품 ID를 모두 같은 값으로 바꾸기 위해",
+          "correct": false,
+          "explanation": "ID는 대상을 식별하도록 유지해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "공개 연도를 자동으로 정답으로 보장하기 위해",
+          "correct": false,
+          "explanation": "텍스트 표현과 목표값의 정확성은 별개다."
+        },
+        {
+          "id": "o4",
+          "text": "메타데이터를 수치 특징으로 표현해 작품 간 비교에 사용하기 위해",
+          "correct": true,
+          "explanation": "텍스트를 벡터 공간의 입력으로 만든다."
+        }
+      ],
+      "conceptIds": [
+        "web-c37"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            78,
+            79,
+            80,
+            81
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "콘텐츠 기반 추천은 메타데이터의 유사성을 사용한다. TF-IDF는 문서 내 등장과 전체에서 흔한 정도를 반영해 특징을 만든다.",
+      "memoryTip": "유사도는 선호 확률이 아님",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c37",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-142",
+      "prompt": "유사도와 추천 후보 생성에 대한 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "방향이 같은 비영벡터의 코사인 유사도는 1이다.",
+          "correct": true,
+          "explanation": "크기가 달라도 방향이 같으면 같다."
+        },
+        {
+          "id": "o2",
+          "text": "기준 작품의 show_id를 명시적으로 후보에서 제외한다.",
+          "correct": true,
+          "explanation": "동률이나 정렬 위치에 의존하지 않고 자기 자신을 뺀다."
+        },
+        {
+          "id": "o3",
+          "text": "점수 0.8은 이용자가 좋아할 확률 80%다.",
+          "correct": false,
+          "explanation": "메타데이터 유사도와 선호 확률은 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "이미 본 작품을 제외하려면 사용자 이력이 필요하다.",
+          "correct": true,
+          "explanation": "카탈로그만으로 개인의 시청 여부를 알 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c37"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            78,
+            79,
+            80,
+            81
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "코사인은 벡터 방향의 유사성이다. 자기 ID 제외와 사용자 이력 필터, 실제 추천 성과 평가는 별도로 설계한다.",
+      "memoryTip": "유사도는 선호 확률이 아님",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c37",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-143",
+      "prompt": "작품 수 N을 두 배로 늘려 전체 쌍별 유사도 행렬을 만든다. 점검할 사항은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "원본 인덱스는 필터 후에도 반드시 벡터 행 위치와 같다.",
+          "correct": false,
+          "explanation": "행 제거와 재정렬로 달라질 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "셀 수가 약 4배가 되므로 비용과 ID-행 위치 매핑을 확인한다.",
+          "correct": true,
+          "explanation": "N×N 비용과 필터 후 인덱스 오류를 함께 관리한다."
+        },
+        {
+          "id": "o3",
+          "text": "셀 수가 항상 2개만 늘어난다.",
+          "correct": false,
+          "explanation": "2N×2N=4N²이다."
+        },
+        {
+          "id": "o4",
+          "text": "동명 제목은 모두 같은 작품으로 합친다.",
+          "correct": false,
+          "explanation": "제목은 유일 키가 아닐 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c37"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            78,
+            79,
+            80,
+            81
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "전체 유사도 행렬은 N² 규모다. show_id와 벡터 행 위치의 매핑, 동명 작품 처리, 계산 전략을 함께 검증한다.",
+      "memoryTip": "유사도는 선호 확률이 아님",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c37",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-144",
+      "prompt": "가상 벡터 A=(1,0), B=(3,0), C=(0,2)에서 A와 같은 ID를 제외하고 상위 1개 후보를 고르면?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "A 자신이며 자기 유사도만 가장 크면 된다.",
+          "correct": false,
+          "explanation": "기준 ID는 후보에서 명시적으로 제외해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "B의 제목이 같으면 show_id와 무관하게 삭제한다.",
+          "correct": false,
+          "explanation": "동명 작품은 서로 다른 ID일 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "B이며 코사인 1은 실제 선호 확률을 뜻하지 않는다.",
+          "correct": true,
+          "explanation": "A·B는 같은 방향, A·C는 직교한다."
+        },
+        {
+          "id": "o4",
+          "text": "C이며 코사인은 2다.",
+          "correct": false,
+          "explanation": "직교 벡터의 코사인은 0이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c37"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            78,
+            79,
+            80,
+            81
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "메타데이터 벡터화→유사도→자기 ID 제외→상위 후보 순서로 연결한다. 키·행 위치·비용을 검증하고 성과는 별도 행동 데이터로 평가한다.",
+      "memoryTip": "유사도는 선호 확률이 아님",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c37",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-145",
+      "prompt": "아이템 기반 협업 필터링의 사용자×작품 행렬에 필요한 직접 입력은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "user_id·show_id·사용자 평점 또는 정의된 행동값",
+          "correct": true,
+          "explanation": "이용자 간 상호작용 패턴을 구성한다."
+        },
+        {
+          "id": "o2",
+          "text": "Netflix 카탈로그의 rating 등급만",
+          "correct": false,
+          "explanation": "시청 등급은 개인별 별점 기록이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "작품의 줄거리 토큰만",
+          "correct": false,
+          "explanation": "이는 콘텐츠 기반 특징에 가깝다."
+        },
+        {
+          "id": "o4",
+          "text": "국가명 글자 수만",
+          "correct": false,
+          "explanation": "사용자-아이템 상호작용을 나타내지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c38"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            81,
+            82,
+            83,
+            84,
+            85
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "협업 필터링은 사용자 행동·평가 패턴을 이용한다. 카탈로그의 콘텐츠 등급을 사용자 평점으로 바꾸어 사용할 수는 없다.",
+      "memoryTip": "상관 옆에 공통 N·분산·NaN",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c38",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-146",
+      "prompt": "Pearson 아이템 상관을 계산하기 전에 확인할 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "공통 2명에서 상관 1이면 모든 사용자에게 완벽하다.",
+          "correct": false,
+          "explanation": "작은 N의 극단 상관은 안정된 성과 증거가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "두 작품을 모두 평가한 공통 사용자 수",
+          "correct": true,
+          "explanation": "쌍별 상관에 실제 사용한 N이다."
+        },
+        {
+          "id": "o3",
+          "text": "각 공통 평점 벡터의 분산",
+          "correct": true,
+          "explanation": "상수 벡터는 표준편차 0으로 상관이 정의되지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "미평가 NaN의 의미와 처리",
+          "correct": true,
+          "explanation": "미평가를 0점으로 바꾸면 다른 입력이 된다."
+        }
+      ],
+      "conceptIds": [
+        "web-c38"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            81,
+            82,
+            83,
+            84,
+            85
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "상관값 옆에 공통 N·분산·NaN을 확인한다. 계산 가능한 최소 조건과 신뢰할 만한 추천 성과는 다른 문제다.",
+      "memoryTip": "상관 옆에 공통 N·분산·NaN",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c38",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-147",
+      "prompt": "새 작품은 메타데이터는 있지만 사용자 평점이 없다. 협업 필터링에서의 적절한 판단은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "가상 평점을 만들면 실제 추천 성능이 입증된다.",
+          "correct": false,
+          "explanation": "합성 예제는 원리 실습이며 실제 성과 증거가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "작품 제목만으로 모든 사용자의 상관이 확정된다.",
+          "correct": false,
+          "explanation": "상관 계산에 실제 공통 행동값이 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "아이템 콜드 스타트이며 콘텐츠 기반 후보 등 보완 방식을 검토한다.",
+          "correct": true,
+          "explanation": "상호작용 부족으로 협업 유사도를 얻기 어렵다."
+        },
+        {
+          "id": "o4",
+          "text": "평점이 없으므로 실제 선호가 모두 0점이다.",
+          "correct": false,
+          "explanation": "미평가는 부정 평가와 다르다."
+        }
+      ],
+      "conceptIds": [
+        "web-c38"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            81,
+            82,
+            83,
+            84,
+            85
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "신규 사용자·작품의 이력 부족은 콜드 스타트다. 메타데이터와 기준선을 보완적으로 쓰고 실제 성과는 별도 평가한다.",
+      "memoryTip": "상관 옆에 공통 N·분산·NaN",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c38",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-148",
+      "prompt": "가상 공통 평가자 3명의 작품 A 평점은 [4,4,4], B는 [1,3,5]다. 옳은 결론은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모두 A를 높게 줬으므로 상관은 반드시 1이다.",
+          "correct": false,
+          "explanation": "높은 수준과 함께 변하는 패턴은 다른 개념이다."
+        },
+        {
+          "id": "o2",
+          "text": "빈 값이 없으므로 상관은 반드시 0.5다.",
+          "correct": false,
+          "explanation": "상수 벡터 문제는 결측 여부와 별개다."
+        },
+        {
+          "id": "o3",
+          "text": "B가 증가하므로 A의 선호를 인과적으로 높인다.",
+          "correct": false,
+          "explanation": "가상 평점의 관찰로 원인을 주장할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "A의 분산이 0이므로 Pearson 상관은 정의되지 않으며 실제 추천 성과도 알 수 없다.",
+          "correct": true,
+          "explanation": "공통 N이 있어도 분모가 0이면 상관을 계산할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c38"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            81,
+            82,
+            83,
+            84,
+            85
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "협업 유사도는 실제 상호작용과 계산 조건이 필요하다. 공통 N·분산·희소성·가상 예의 범위를 함께 보고한다.",
+      "memoryTip": "상관 옆에 공통 N·분산·NaN",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c38",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-149",
+      "prompt": "줄거리와 장르로 최초 공개 연도를 예측한다. X와 y의 올바른 구분은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "X는 사용자 수, y는 매출이다.",
+          "correct": false,
+          "explanation": "주어진 문제와 다른 미측정 변수를 사용했다."
+        },
+        {
+          "id": "o2",
+          "text": "X는 예측 시 이용 가능한 줄거리·장르 특징, y는 release_year다.",
+          "correct": true,
+          "explanation": "입력 특징과 예측할 목표를 분리한다."
+        },
+        {
+          "id": "o3",
+          "text": "X와 y 모두 release_year를 그대로 쓴다.",
+          "correct": false,
+          "explanation": "정답을 입력으로 주면 예측 성능 평가가 무의미해진다."
+        },
+        {
+          "id": "o4",
+          "text": "X는 MAE, y는 코드 길이다.",
+          "correct": false,
+          "explanation": "평가 지표와 코드 특성은 제시된 예측 문제의 입력·목표가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c39"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "지도학습에서는 예측에 쓸 X와 맞힐 y를 분리한다. 예측 시 알 수 없는 정답 관련 정보를 특징에 넣지 않는다.",
+      "memoryTip": "분할 먼저, train에만 fit",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c39",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-150",
+      "prompt": "TF-IDF+Ridge 연도 예측의 올바른 학습·평가 절차를 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Ridge를 train 특징과 y_train에 맞춘 뒤 test MAE를 계산한다.",
+          "correct": true,
+          "explanation": "학습과 최종 평가 데이터를 구분한다."
+        },
+        {
+          "id": "o2",
+          "text": "test MAE가 좋아질 때까지 같은 test로 alpha를 계속 고른다.",
+          "correct": false,
+          "explanation": "최종 평가 데이터가 모델 선택에 쓰인다."
+        },
+        {
+          "id": "o3",
+          "text": "먼저 train/test를 분리한다.",
+          "correct": true,
+          "explanation": "테스트 정보가 학습 과정에 들어가지 않도록 한다."
+        },
+        {
+          "id": "o4",
+          "text": "TF-IDF는 train에 fit하고 test에는 transform만 한다.",
+          "correct": true,
+          "explanation": "어휘와 IDF를 학습 데이터에서 추정한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c39"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "분할→train 전처리 fit→모델 학습→test 변환·평가 순서를 따른다. 모델 선택은 검증 세트나 교차검증으로 분리한다.",
+      "memoryTip": "분할 먼저, train에만 fit",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c39",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-151",
+      "prompt": "가상 보고서가 train MAE=1년을 최종 test 성능으로 적고 분할 조건도 생략했다. 적절한 검토는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "train 오차가 작으면 test 오차도 반드시 1년이다.",
+          "correct": false,
+          "explanation": "학습 적합과 일반화 성능은 다를 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "보고서 제목만 test로 고치면 평가가 완성된다.",
+          "correct": false,
+          "explanation": "라벨 변경으로 새로운 평가 데이터가 생기지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "전체 데이터에 TF-IDF를 fit하면 누수 문제가 사라진다.",
+          "correct": false,
+          "explanation": "test의 문서 정보가 학습 전처리에 반영될 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "별도 test 오차를 계산하고 분할·전처리·로그를 대조해 보고를 수정한다.",
+          "correct": true,
+          "explanation": "학습 오차는 미사용 데이터의 평가 결과가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c39"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "학습 데이터 오차와 미사용 test 오차를 구분해 보고한다. 전처리 fit 범위·분할·평가 N·실행 로그를 확인해야 누수와 수치 오류를 찾을 수 있다.",
+      "memoryTip": "분할 먼저, train에만 fit",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c39",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-152",
+      "prompt": "가상 test 4건의 절대 연도 오차가 [0,2,4,2]다. 올바른 보고는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "MAE는 2년이며 이 test N=4의 결과다. 전처리는 train에서만 학습했는지 점검한다.",
+          "correct": true,
+          "explanation": "(0+2+4+2)/4=2이다."
+        },
+        {
+          "id": "o2",
+          "text": "MAE는 8년이며 test와 train을 합쳐 fit해도 같다.",
+          "correct": false,
+          "explanation": "8은 오차 합이며 전체 fit은 누수 위험이 있다."
+        },
+        {
+          "id": "o3",
+          "text": "MAE 2는 정답률 2%다.",
+          "correct": false,
+          "explanation": "연도 회귀의 MAE 단위는 년이다."
+        },
+        {
+          "id": "o4",
+          "text": "몇 예측이 맞으므로 전체 모델이 완벽하다.",
+          "correct": false,
+          "explanation": "전체 평가 오차와 별도 일반화 검증이 필요하다."
+        }
+      ],
+      "conceptIds": [
+        "web-c39"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "MAE는 절대오차의 평가 평균이며 목표 단위를 유지한다. X·y 분리와 train-only fit을 지켜 누수를 막고 평가 N과 조건을 보고한다.",
+      "memoryTip": "분할 먼저, train에만 fit",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c39",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "bar",
+        "title": "가상 연도 예측의 절대오차",
+        "xLabel": "test 사례",
+        "yLabel": "절대오차(년)",
+        "labels": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "series": [
+          {
+            "name": "절대오차",
+            "values": [
+              0,
+              2,
+              4,
+              2
+            ]
+          }
+        ],
+        "note": "실제 모델 성능이 아닌 학습용 test N=4"
+      }
+    },
+    {
+      "id": "web-new-153",
+      "prompt": "'이 스냅샷에서 A장르 고유 작품이 300개'와 '이용자가 A장르를 가장 좋아한다'의 관계는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "뒤 문장이 앞 문장의 원인을 자동 증명한다.",
+          "correct": false,
+          "explanation": "관찰 집계에 없는 선호와 원인을 더했다."
+        },
+        {
+          "id": "o2",
+          "text": "카탈로그 수치가 있으면 어떤 원인도 확정된다.",
+          "correct": false,
+          "explanation": "측정하지 않은 원인을 알 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "앞은 직접 집계 사실, 뒤는 추가 행동 데이터가 필요한 결론이다.",
+          "correct": true,
+          "explanation": "공급 건수와 이용자 선호는 측정 대상이 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "두 문장은 항상 같은 의미다.",
+          "correct": false,
+          "explanation": "작품이 많아도 이용자 반응은 알 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c40"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            4,
+            5,
+            6,
+            13,
+            14,
+            15,
+            17,
+            53,
+            54,
+            55,
+            62,
+            63,
+            64,
+            65,
+            71,
+            76,
+            77,
+            79,
+            83,
+            89,
+            90
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "직접 사실·검증할 가설·현재 불가능한 결론을 나눈다. 사실에는 스냅샷·대상·집계 단위를 붙인다.",
+      "memoryTip": "측정 사실과 원인 주장을 분리",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c40",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-154",
+      "prompt": "현재 카탈로그 밖의 결론과 추가 자료를 적절히 연결한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "투자 수익률에는 실제 비용·기여 수익·귀속 기간이 필요하다.",
+          "correct": true,
+          "explanation": "카탈로그 건수만으로 수익률을 계산할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "Original 여부에는 실제 제작·배급 분류 자료가 필요하다.",
+          "correct": true,
+          "explanation": "짧은 등록 시차만으로 확정할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "감독 중심성이 높으면 실제 매출 자료는 항상 불필요하다.",
+          "correct": false,
+          "explanation": "관계 지표와 매출은 다른 측정이다."
+        },
+        {
+          "id": "o4",
+          "text": "인기 비교에는 시청시간·완주 등 행동 지표와 정의가 필요하다.",
+          "correct": true,
+          "explanation": "선호를 측정할 분자·분모를 새로 정해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c40"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            4,
+            5,
+            6,
+            13,
+            14,
+            15,
+            17,
+            53,
+            54,
+            55,
+            62,
+            63,
+            64,
+            65,
+            71,
+            76,
+            77,
+            79,
+            83,
+            89,
+            90
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "공급·수요·전략·인과는 필요한 자료가 다르다. 답할 수 없는 결론에는 어떤 열과 검증 설계가 필요한지 구체적으로 쓴다.",
+      "memoryTip": "측정 사실과 원인 주장을 분리",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c40",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-155",
+      "prompt": "'장르 단어의 빈도가 커서 Netflix가 그 장르에 전략적으로 투자했다'를 바르게 고치면?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "설정한 문서와 전처리에서 해당 단어 빈도가 컸다. 투자 전략은 확인하지 않았다.",
+          "correct": true,
+          "explanation": "직접 측정한 텍스트 범위로 문장을 한정한다."
+        },
+        {
+          "id": "o2",
+          "text": "단어가 크면 실제 투자액도 동일 비율로 크다.",
+          "correct": false,
+          "explanation": "빈도와 투자액을 연결할 자료가 없다."
+        },
+        {
+          "id": "o3",
+          "text": "워드클라우드는 회사 의사결정 로그다.",
+          "correct": false,
+          "explanation": "소개문을 시각화한 결과와 의사결정 기록은 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "자료가 부족하므로 계산한 빈도도 모두 거짓이다.",
+          "correct": false,
+          "explanation": "직접 집계 사실과 미검증 해석을 구분해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c40"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            4,
+            5,
+            6,
+            13,
+            14,
+            15,
+            17,
+            53,
+            54,
+            55,
+            62,
+            63,
+            64,
+            65,
+            71,
+            76,
+            77,
+            79,
+            83,
+            89,
+            90
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "과잉 해석은 측정한 사실로 문장을 좁혀 바로잡는다. 검증된 수치는 분명히 말하고 미검증 원인은 가설이나 한계로 둔다.",
+      "memoryTip": "측정 사실과 원인 주장을 분리",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c40",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-156",
+      "prompt": "가상 완전 연도 등록 건수와 실제 가입자가 함께 증가했다. 원인 결론을 검토할 때 적절한 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "양의 상관이면 등록 증가가 가입 증가를 일으켰다고 끝낸다.",
+          "correct": false,
+          "explanation": "상관은 방향과 교란을 해결하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "동행 패턴은 관찰할 수 있다.",
+          "correct": true,
+          "explanation": "두 측정값의 함께 변함을 기술할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "가격·프로모션·시장 확대 같은 대안 설명을 검토한다.",
+          "correct": true,
+          "explanation": "공통 원인이 두 지표를 함께 바꿀 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "인과 효과에는 추가 설계와 실제 기간별 자료가 필요하다.",
+          "correct": true,
+          "explanation": "관찰 상관만으로 효과를 확정하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c40"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            4,
+            5,
+            6,
+            13,
+            14,
+            15,
+            17,
+            53,
+            54,
+            55,
+            62,
+            63,
+            64,
+            65,
+            71,
+            76,
+            77,
+            79,
+            83,
+            89,
+            90
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "사실→가설·대안→불가능한 결론→추가 자료 순서로 설명한다. 공급과 수요의 동행은 분석할 수 있어도 원인은 별도로 검증해야 한다.",
+      "memoryTip": "측정 사실과 원인 주장을 분리",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c40",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-157",
+      "prompt": "가상 등록 건수는 2016년 100개, 2019년 280개다. 두 점 사이 평균 기울기는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "180건/년",
+          "correct": false,
+          "explanation": "건수 차이만 쓰고 3년 간격으로 나누지 않았다."
+        },
+        {
+          "id": "o2",
+          "text": "280건/년",
+          "correct": false,
+          "explanation": "마지막 수준을 기울기로 잘못 사용한 값이다."
+        },
+        {
+          "id": "o3",
+          "text": "3년/건",
+          "correct": false,
+          "explanation": "시간 간격을 건수 변화로 나누는 역단위다."
+        },
+        {
+          "id": "o4",
+          "text": "60건/년",
+          "correct": true,
+          "explanation": "(280-100)/(2019-2016)=180/3이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c41"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            14,
+            55
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "기울기는 Δy/Δx이고 단위까지 적는다. 시간 간격이 1년이면 건수 차이와 연간 기울기의 수치가 같고, 2년이면 건수 차이를 2로 나눈다.",
+      "memoryTip": "기울기=Δy/Δx, 단위까지",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c41",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-158",
+      "prompt": "가상 A집단 50→100, B집단 500→550이 모두 1년 변화다. 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "절대 기울기는 둘 다 +50건/년이다.",
+          "correct": true,
+          "explanation": "건수 차이와 시간 간격이 같다."
+        },
+        {
+          "id": "o2",
+          "text": "상대 증감률은 A 100%, B 10%다.",
+          "correct": true,
+          "explanation": "이전 집단 규모를 분모로 계산한다."
+        },
+        {
+          "id": "o3",
+          "text": "나중 수준은 B가 더 크다.",
+          "correct": true,
+          "explanation": "100과 550을 비교한다."
+        },
+        {
+          "id": "o4",
+          "text": "같은 절대 기울기면 상대 증감률도 항상 같다.",
+          "correct": false,
+          "explanation": "이전 값의 크기가 달라 비율은 다르다."
+        }
+      ],
+      "conceptIds": [
+        "web-c41"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            14,
+            55
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "수준·절대 변화·상대 변화는 서로 다른 지표다. 이전 값이 0이면 일반 증감률을 계산할 수 없으므로 별도 규칙을 둔다.",
+      "memoryTip": "기울기=Δy/Δx, 단위까지",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c41",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-159",
+      "prompt": "가상 기준을 '완전 연도에서 기울기 ≥100건/년이면 급증'으로 정했다. 결과를 본 뒤 90으로 바꾸려면?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "부분 연도를 포함해도 기간 규칙은 같다고 본다.",
+          "correct": false,
+          "explanation": "관측 노출 차이를 별도로 점검해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "변경 이유와 버전을 기록하고 인접 임계값에서 판정 민감도를 비교한다.",
+          "correct": true,
+          "explanation": "탐색 중 정련을 투명하게 남긴다."
+        },
+        {
+          "id": "o3",
+          "text": "최종 기준만 공개하고 처음 기준은 숨긴다.",
+          "correct": false,
+          "explanation": "결과 선택의 자의성을 판단하기 어렵다."
+        },
+        {
+          "id": "o4",
+          "text": "화면 각도가 가파르면 수치 기준을 삭제한다.",
+          "correct": false,
+          "explanation": "축과 화면 비율이 시각적 각도를 바꾼다."
+        }
+      ],
+      "conceptIds": [
+        "web-c41"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            14,
+            55
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "급증은 지표·시간 간격·임계값·경계 포함·기간 규칙을 명세한 판정이다. 기준 변경은 이유와 민감도를 함께 기록한다.",
+      "memoryTip": "기울기=Δy/Δx, 단위까지",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c41",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-160",
+      "prompt": "가상 완전 연도 건수는 2017=100, 2018=180, 2020=300이다. 급증 기준은 ≥70건/년일 때 해당 구간은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "두 구간 모두",
+          "correct": false,
+          "explanation": "둘째 구간은 기준 70보다 작다."
+        },
+        {
+          "id": "o2",
+          "text": "어느 구간도 아님",
+          "correct": false,
+          "explanation": "첫 구간 80이 경계 70 이상이다."
+        },
+        {
+          "id": "o3",
+          "text": "2017→2018만",
+          "correct": true,
+          "explanation": "첫 기울기 80, 둘째는 (300-180)/2=60건/년이다."
+        },
+        {
+          "id": "o4",
+          "text": "2018→2020만",
+          "correct": false,
+          "explanation": "건수 차이 120을 2년으로 나누어야 한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c41"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            14,
+            55
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "그래프 해석",
+      "review": "기울기는 건수 차이를 실제 시간 간격으로 나누어 비교한다. 완전 기간·단위·임계값의 경계를 고정하고 수준과 속도를 구분한다.",
+      "memoryTip": "기울기=Δy/Δx, 단위까지",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c41",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true,
+      "visual": {
+        "kind": "scatter",
+        "title": "가상 완전 연도별 등록 건수",
+        "xLabel": "연도",
+        "yLabel": "등록 건수",
+        "labels": [
+          "2017",
+          "2018",
+          "2020"
+        ],
+        "series": [
+          {
+            "name": "가상 건수",
+            "values": [
+              100,
+              180,
+              300
+            ],
+            "xValues": [
+              2017,
+              2018,
+              2020
+            ]
+          }
+        ],
+        "note": "학습용 가상 점, x 간격은 1년·2년으로 다름. 급증 기준 ≥70건/년"
+      }
+    },
+    {
+      "id": "web-new-161",
+      "prompt": "초기 질문 '콘텐츠는 어떻게 변했나?'를 데이터에 맞게 정련한 문장은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "현재 스냅샷의 완전 등록 연도별 유형 구성비는 어떻게 달랐는가?",
+          "correct": true,
+          "explanation": "대상·시간 사건·비교 지표를 한정한다."
+        },
+        {
+          "id": "o2",
+          "text": "콘텐츠가 얼마나 엄청나게 좋아졌나?",
+          "correct": false,
+          "explanation": "좋음의 측정값과 범위가 여전히 없다."
+        },
+        {
+          "id": "o3",
+          "text": "차트를 더 예쁘게 그릴 수 있는가?",
+          "correct": false,
+          "explanation": "내용 변화의 분석 질문이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "카탈로그로 모든 시청자의 생각을 알 수 있는가?",
+          "correct": false,
+          "explanation": "현재 데이터가 측정하지 않는 대상이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c42"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            2,
+            6,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "개념 정의",
+      "review": "정련은 모호한 말을 열·단위·분모·기간으로 바꾸는 과정이다. 실제 데이터가 답할 수 있는 범위를 확인하며 질문을 수정한다.",
+      "memoryTip": "질문과 기준의 변경 이유 기록",
+      "additionalExample": "",
+      "learningStage": "기초",
+      "learningConceptId": "web-c42",
+      "learningObjectiveIndices": [
+        0
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-162",
+      "prompt": "'배우별 고유 참여 작품 수가 유형별로 다른가?'의 분석 카드에 포함할 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "그래프만 저장하고 집계표와 필터는 버린다.",
+          "correct": false,
+          "explanation": "수치와 처리 기준을 다시 확인하기 어렵다."
+        },
+        {
+          "id": "o2",
+          "text": "show_id·cast·type, split·explode·strip·쌍 중복 제거",
+          "correct": true,
+          "explanation": "질문에서 필요한 열과 전처리를 연결한다."
+        },
+        {
+          "id": "o3",
+          "text": "유형별 배우 집계표와 대상 N·결측 제외 규칙",
+          "correct": true,
+          "explanation": "결과와 비교 범위를 재검증할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "출연 작품 수가 인기와 다르다는 한계",
+          "correct": true,
+          "explanation": "측정 범위를 넘는 해석을 막는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c42"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            2,
+            6,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "원리 이해",
+      "review": "분석 카드는 질문·대상·열·전처리·분모·차트·관찰·한계를 연결한다. 표와 코드를 남겨 차트의 수치를 다시 확인할 수 있게 한다.",
+      "memoryTip": "질문과 기준의 변경 이유 기록",
+      "additionalExample": "",
+      "learningStage": "원리",
+      "learningConceptId": "web-c42",
+      "learningObjectiveIndices": [
+        1
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-163",
+      "prompt": "탐색 중 2021년이 부분 관측임을 발견해 완전 연도 비교로 질문을 바꿨다. 적절한 기록은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "원하는 결론만 남기고 변경 사실을 지운다.",
+          "correct": false,
+          "explanation": "탐색 선택과 기준의 영향을 검토할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "질문을 바꿨으므로 결과 검증은 필요 없다.",
+          "correct": false,
+          "explanation": "최종 기준에서도 수치와 해석을 확인해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "관측 기간 차이, 변경 이유, 이전·최종 기준과 영향 및 후속 검증을 남긴다.",
+          "correct": true,
+          "explanation": "데이터 의미를 근거로 정련한 과정을 투명하게 보여준다."
+        },
+        {
+          "id": "o4",
+          "text": "분석 중 변경은 무조건 금지하므로 잘못된 비교를 유지한다.",
+          "correct": false,
+          "explanation": "발견한 데이터 조건에 맞춰 질문을 개선할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c42"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            2,
+            6,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "상황 적용",
+      "review": "탐색에서 기준을 정련하는 것과 원하는 결과만 고르는 것은 다르다. 변경 이유·버전·민감도와 새 데이터에서의 검증 계획을 기록한다.",
+      "memoryTip": "질문과 기준의 변경 이유 기록",
+      "additionalExample": "",
+      "learningStage": "적용",
+      "learningConceptId": "web-c42",
+      "learningObjectiveIndices": [
+        2
+      ],
+      "supplemental": true
+    },
+    {
+      "id": "web-new-164",
+      "prompt": "가상 팀의 첫 질문은 '인기 배우가 급증했나?'지만 파일에는 시청량이 없다. 가장 완결된 개선은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "배우 이름 수를 세고 그대로 인기라고 발표한다.",
+          "correct": false,
+          "explanation": "참여 관계와 인기는 다른 측정이다."
+        },
+        {
+          "id": "o2",
+          "text": "급증 기준은 결과가 가장 좋아 보일 때까지 숨겨 바꾼다.",
+          "correct": false,
+          "explanation": "자의적 선택과 기준 변경을 추적할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "함수만 많이 나열하고 어떤 열에 쓰는지는 생략한다.",
+          "correct": false,
+          "explanation": "질문과 전처리·지표의 연결을 설명하지 못한다."
+        },
+        {
+          "id": "o4",
+          "text": "완전 등록 연도·유형별 고유 참여 작품 비중과 기울기를 정의하고 열·분모·임계값·N·한계·변경 이유를 기록한다.",
+          "correct": true,
+          "explanation": "측정 가능한 질문과 전체 분석 경로를 연결한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c42"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            2,
+            6,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "어려움",
+      "type": "상황 적용",
+      "review": "좋은 질문은 처음 문장을 고집하기보다 데이터에 맞는 의미와 절차로 완성된다. 모호어·필요 열·분모·기울기·한계와 정련 과정을 함께 명세한다.",
+      "memoryTip": "질문과 기준의 변경 이유 기록",
+      "additionalExample": "",
+      "learningStage": "종합",
+      "learningConceptId": "web-c42",
+      "learningObjectiveIndices": [
+        0,
+        1,
+        2
+      ],
+      "supplemental": true
     }
   ],
   "flashcards": [

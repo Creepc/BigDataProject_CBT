@@ -1,11 +1,14 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Bookmark, CheckCircle2, Circle, Filter, Play, RotateCcw } from 'lucide-react'
 import type { CourseData, NavigationTarget } from '@/types'
 import { useStudy } from '@/contexts/StudyContext'
 import { DifficultyBadge, EmptyState, PageHeader, SearchInput } from '@/components/ui'
+import { QuestionCurriculum } from '@/components/QuestionCurriculum'
 
-export function BankPage({ data, navigate }: { data: CourseData; navigate: (target: NavigationTarget) => void }) {
+export function BankPage({ data, navigate, initialMode = 'course' }: { data: CourseData; navigate: (target: NavigationTarget) => void; initialMode?: 'course' | 'bank' }) {
   const { state } = useStudy()
+  const [mode, setMode] = useState<'course' | 'bank'>(initialMode)
+  const [page, setPage] = useState(0)
   const [query, setQuery] = useState('')
   const [file, setFile] = useState('all')
   const [unit, setUnit] = useState('all')
@@ -28,7 +31,7 @@ export function BankPage({ data, navigate }: { data: CourseData; navigate: (targ
       || (status === 'wrong' && attempt && (!attempt.lastCorrect || attempt.wrongCount > 0))
       || (status === 'unseen' && !attempt)
       || (status === 'bookmarked' && state.bookmarkedQuestionIds.includes(question.id))
-    return (!query || question.prompt.toLowerCase().includes(query.toLowerCase()))
+    return (!query || `${question.prompt} ${question.conceptIds.map((id) => conceptsById.get(id)?.name ?? '').join(' ')}`.toLowerCase().includes(query.toLowerCase()))
       && (file === 'all' || question.sourceRefs.some((ref) => ref.fileId === file))
       && (unit === 'all' || question.conceptIds.some((id) => conceptsById.get(id)?.unit === unit))
       && (concept === 'all' || question.conceptIds.includes(concept))
@@ -36,6 +39,16 @@ export function BankPage({ data, navigate }: { data: CourseData; navigate: (targ
       && (type === 'all' || question.type === type)
       && matchesStatus
   }), [data.questions, query, file, unit, concept, difficulty, type, status, state.attempts, state.bookmarkedQuestionIds, conceptsById])
+
+  useEffect(() => setPage(0), [query, file, unit, concept, difficulty, type, status])
+  const pageSize = 36
+  const pageCount = Math.ceil(filtered.length / pageSize)
+  const currentPage = Math.min(page, Math.max(0, pageCount - 1))
+  const visible = filtered.slice(currentPage * pageSize, (currentPage + 1) * pageSize)
+  const goToPage = (nextPage: number) => {
+    setPage(nextPage)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   const changeFile = (nextFile: string) => {
     setFile(nextFile)
@@ -60,7 +73,12 @@ export function BankPage({ data, navigate }: { data: CourseData; navigate: (targ
 
   return (
     <div className="animate-enter">
-      <PageHeader eyebrow="QUESTION BANK" title="근거가 있는 문제은행" copy={`${data.questions.length}개 문항을 자료·개념·난이도·유형으로 골라 풀 수 있습니다. 복수 정답 문항은 명확히 표시되며, 제출 전에는 정답과 해설이 노출되지 않습니다.`} action={<button onClick={() => filtered[0] && navigate({ view: 'practice', id: filtered[0].id, params: { ids: filtered.map((item) => item.id).join(',') } })} disabled={!filtered.length} className="button-primary"><Play size={17} />필터 결과 풀기</button>} />
+      <PageHeader eyebrow="QUESTION BANK" title="문제로 공부하는 문제은행" copy={`${data.questions.length}개 문항으로 ${data.concepts.length}개 개념을 공부합니다. 개념별 코스로 기초부터 익히거나 전체 문제를 조건별로 풀어 보세요. 제출 전에는 정답과 해설이 노출되지 않습니다.`} action={mode === 'bank' ? <button onClick={() => filtered[0] && navigate({ view: 'practice', id: filtered[0].id, params: { ids: filtered.map((item) => item.id).join(',') } })} disabled={!filtered.length} className="button-primary"><Play size={17} />필터 결과 풀기</button> : undefined} />
+      <div className="mb-5 flex gap-1 rounded-xl bg-slate-200/60 p-1 dark:bg-white/5 sm:w-fit" role="group" aria-label="문제 학습 방식">
+        <button className={`rounded-lg px-4 py-2.5 text-sm font-bold ${mode === 'course' ? 'bg-white text-cobalt shadow-sm dark:bg-slate-700 dark:text-blue-300' : 'text-slate-500'}`} aria-pressed={mode === 'course'} onClick={() => setMode('course')}>개념별 학습 코스</button>
+        <button className={`rounded-lg px-4 py-2.5 text-sm font-bold ${mode === 'bank' ? 'bg-white text-cobalt shadow-sm dark:bg-slate-700 dark:text-blue-300' : 'text-slate-500'}`} aria-pressed={mode === 'bank'} onClick={() => setMode('bank')}>전체 문제 {data.questions.length}</button>
+      </div>
+      {mode === 'course' ? <QuestionCurriculum data={data} state={state} navigate={navigate} /> : <>
       <div className="surface mb-5 p-4">
         <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
           <div className="md:col-span-2"><SearchInput value={query} onChange={setQuery} placeholder="문제 내용 검색" ariaLabel="문제은행 검색" /></div>
@@ -75,20 +93,22 @@ export function BankPage({ data, navigate }: { data: CourseData; navigate: (targ
       </div>
       {filtered.length ? (
         <div className="grid gap-3 lg:grid-cols-2">
-          {filtered.map((question, index) => {
+          {visible.map((question, index) => {
             const attempt = state.attempts[question.id]
             const bookmarked = state.bookmarkedQuestionIds.includes(question.id)
             const source = data.files.find((item) => item.id === question.sourceRefs[0]?.fileId)
             return (
               <button key={question.id} onClick={() => navigate({ view: 'practice', id: question.id, params: { ids: filtered.map((item) => item.id).join(',') } })} className="surface-flat group p-5 text-left transition hover:-translate-y-0.5 hover:border-cobalt/30 hover:shadow-soft">
-                <div className="flex items-center gap-2"><span className="text-xs font-black text-slate-400">Q{String(index + 1).padStart(2, '0')}</span><DifficultyBadge difficulty={question.difficulty} /><span className="chip">{question.type}</span>{question.mode === 'multiple' && <span className="rounded-full bg-violet-50 px-2 py-1 text-[10px] font-bold text-violet-700 dark:bg-violet-500/10 dark:text-violet-300">복수 정답</span>}{bookmarked && <Bookmark size={14} className="ml-auto fill-cobalt text-cobalt" />}</div>
-                <h2 className="mt-4 line-clamp-2 text-sm font-extrabold leading-6 group-hover:text-cobalt">{question.prompt}</h2>
+                <div className="flex flex-wrap items-center gap-2"><span className="text-xs font-black text-slate-400">Q{String(currentPage * pageSize + index + 1).padStart(2, '0')}</span><DifficultyBadge difficulty={question.difficulty} /><span className="chip">{question.type}</span>{question.learningStage && <span className="chip">학습형 · {question.learningStage}</span>}{question.mode === 'multiple' && <span className="rounded-full bg-violet-50 px-2 py-1 text-[10px] font-bold text-violet-700 dark:bg-violet-500/10 dark:text-violet-300">복수 정답</span>}{bookmarked && <Bookmark size={14} className="ml-auto fill-cobalt text-cobalt" />}</div>
+                <h2 className="mt-4 line-clamp-2 text-sm font-extrabold leading-6 group-hover:text-cobalt">{question.prompt.replace(/```[\s\S]*?```/g, '[코드]')}</h2>
                 <div className="mt-4 flex items-center justify-between gap-3 text-[11px] text-slate-400"><span className="truncate">{source?.shortTitle ?? '출처 미상'}</span><span className="flex shrink-0 items-center gap-1">{attempt ? attempt.lastCorrect ? <CheckCircle2 size={14} className="text-emerald-500" /> : <RotateCcw size={14} className="text-rose-500" /> : <Circle size={13} />} {attempt ? `${attempt.count}회 풀이` : '미풀이'}</span></div>
               </button>
             )
           })}
         </div>
       ) : <EmptyState title="조건에 맞는 문제가 없습니다" copy="검색어나 필터를 조정해 보세요." />}
+      {pageCount > 1 && <nav aria-label="문제은행 페이지" className="mt-6 flex flex-wrap items-center justify-center gap-4"><button className="button-secondary" disabled={currentPage === 0} onClick={() => goToPage(currentPage - 1)}>이전 페이지</button><span className="text-xs font-bold text-slate-500" aria-live="polite">{currentPage + 1} / {pageCount}페이지 · {currentPage * pageSize + 1}–{Math.min((currentPage + 1) * pageSize, filtered.length)}번</span><button className="button-secondary" disabled={currentPage === pageCount - 1} onClick={() => goToPage(currentPage + 1)}>다음 페이지</button></nav>}
+      </>}
     </div>
   )
 }

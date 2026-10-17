@@ -1,6 +1,7 @@
 export type Difficulty = '쉬움' | '보통' | '어려움'
 export type ConceptLevel = '기초' | '심화' | '시험 대비'
 export type QuestionMode = 'single' | 'multiple'
+export type QuestionLearningStage = '기초' | '원리' | '적용' | '종합'
 
 export interface SourceFile {
   id: string
@@ -81,7 +82,7 @@ export interface QuestionOption {
   text: string
   correct: boolean
   explanation: string
-  correctedStatement: string
+  correctedStatement?: string
 }
 
 export interface QuestionVisual {
@@ -116,6 +117,9 @@ export interface Question {
   visual?: QuestionVisual
   professorFocus?: string
   supplemental?: boolean
+  learningStage?: QuestionLearningStage
+  learningConceptId?: string
+  learningObjectiveIndices?: number[]
 }
 
 export interface Flashcard {

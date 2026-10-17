@@ -5,6 +5,7 @@ import { useStudy } from '@/contexts/StudyContext'
 import { formatPages, isReviewPending, isReviewRecovered } from '@/lib/study'
 import { pdfPageUrl } from '@/lib/assets'
 import { EmptyState, PageHeader } from '@/components/ui'
+import { QuestionPrompt } from '@/components/QuestionPrompt'
 
 const optionLabel = (index: number) => ['①', '②', '③', '④'][index]
 
@@ -44,7 +45,7 @@ export function WrongPage({ data, navigate }: { data: CourseData; navigate: (tar
         return (
           <article key={question.id} className="surface p-5 sm:p-6">
             <div className="flex flex-wrap items-center gap-2"><span className={`chip ${attempt.lastCorrect ? 'border-emerald-200 bg-emerald-50 text-emerald-700 dark:border-emerald-500/20 dark:bg-emerald-500/10 dark:text-emerald-300' : 'border-rose-200 bg-rose-50 text-rose-700 dark:border-rose-500/20 dark:bg-rose-500/10 dark:text-rose-300'}`}>{attempt.lastCorrect ? <CheckCircle2 size={12} /> : <XCircle size={12} />}{attempt.lastCorrect ? '최근 정답' : '최근 오답'}</span><span className="chip"><RotateCcw size={12} />누적 오답 {attempt.wrongCount}회</span><span className="chip"><History size={12} />총 {attempt.count}회</span>{complete && <span className="chip border-blue-200 bg-blue-50 text-cobalt dark:border-blue-500/20 dark:bg-blue-500/10 dark:text-blue-300"><Check size={12} />복습 완료</span>}</div>
-            <h2 className="mt-4 text-sm font-extrabold leading-7 sm:text-base">{question.prompt}</h2>
+            <QuestionPrompt prompt={question.prompt} headingClassName="mt-4 whitespace-pre-line text-sm font-extrabold leading-7 sm:text-base" />
             <time dateTime={lastWrongAt} className="mt-1 block text-[11px] text-slate-400">최근 오답 {new Date(lastWrongAt).toLocaleString('ko-KR')}</time>
             <div className="mt-4 grid gap-2 text-xs sm:grid-cols-2"><div className="rounded-xl bg-rose-50 p-3 dark:bg-rose-500/[0.07]"><span className="font-bold text-rose-600">최근 오답 선택</span><p className="mt-1 leading-5 text-slate-600 dark:text-slate-300">{selectedText || '미응답'}</p></div><div className="rounded-xl bg-emerald-50 p-3 dark:bg-emerald-500/[0.07]"><span className="font-bold text-emerald-700">정답</span><p className="mt-1 leading-5 text-slate-600 dark:text-slate-300">{answerText}</p></div></div>
             <details className="mt-4 rounded-2xl border border-black/[0.07] bg-slate-50/70 p-4 dark:border-white/[0.08] dark:bg-white/[0.025]">
