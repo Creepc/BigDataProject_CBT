@@ -100,6 +100,8 @@ export interface QuestionVisual {
     page: number
   }
   note?: string
+  /** A calendar-year axis and a year difference must not share a domain. */
+  sharedYearAxes?: boolean
 }
 
 export interface Question {
@@ -120,6 +122,20 @@ export interface Question {
   learningStage?: QuestionLearningStage
   learningConceptId?: string
   learningObjectiveIndices?: number[]
+  mockExamId?: string
+  detailedExplanation?: {
+    concept: string
+    steps: string[]
+    pitfall: string
+  }
+}
+
+export interface MockExam {
+  id: string
+  title: string
+  description: string
+  minutes: number
+  questionIds: string[]
 }
 
 export interface Flashcard {
@@ -137,6 +153,7 @@ export interface CourseData {
   concepts: Concept[]
   questions: Question[]
   flashcards: Flashcard[]
+  mockExams?: MockExam[]
   generatedAt: string
 }
 
@@ -153,6 +170,7 @@ export interface AttemptRecord {
 
 export interface ExamRecord {
   id: string
+  mockExamId?: string
   questionIds: string[]
   answers: Record<string, string[]>
   score: number

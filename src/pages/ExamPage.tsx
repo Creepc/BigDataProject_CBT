@@ -3,7 +3,7 @@ import {
   AlarmClock, AlertTriangle, Check, CheckCircle2, ChevronLeft, ChevronRight,
   Clock3, FileStack, Flag, ListChecks, Play, RotateCcw, Shuffle, Target, X,
 } from 'lucide-react'
-import type { CourseData, ExamRecord, NavigationTarget, Question } from '@/types'
+import type { CourseData, ExamRecord, MockExam, NavigationTarget, Question } from '@/types'
 import { useStudy } from '@/contexts/StudyContext'
 import { elapsedSecondsSince, isAnswerCorrect, selectExamQuestions, type ExamMix } from '@/lib/study'
 import { useDialogFocus } from '@/hooks/useDialogFocus'
@@ -11,12 +11,14 @@ import { DifficultyBadge, PageHeader, ProgressBar, Stat } from '@/components/ui'
 import { QuestionExplanation } from '@/components/QuestionExperience'
 import { QuestionVisual } from '@/components/QuestionVisual'
 import { QuestionPrompt } from '@/components/QuestionPrompt'
+import { FixedMockExamList } from '@/components/FixedMockExamList'
+import { getFixedMockExamScore, getMockExamQuestions } from '@/lib/mockExams'
 
 type Stage = 'setup' | 'taking' | 'result'
 const optionLabel = (index: number) => ['①', '②', '③', '④'][index]
 
 export function ExamPage({ data, navigate }: { data: CourseData; navigate: (target: NavigationTarget) => void }) {
-  const { recordAttempt, saveExam } = useStudy()
+  const { state, recordAttempt, saveExam } = useStudy()
   const [stage, setStage] = useState<Stage>('setup')
   const [selectedFiles, setSelectedFiles] = useState<string[]>(data.files.map((file) => file.id))
   const [count, setCount] = useState(Math.min(20, data.questions.length))
@@ -32,6 +34,8 @@ export function ExamPage({ data, navigate }: { data: CourseData; navigate: (targ
   const [showSubmit, setShowSubmit] = useState(false)
   const [result, setResult] = useState<ExamRecord | null>(null)
   const [resultIndex, setResultIndex] = useState(0)
+  const [activeMockExamId, setActiveMockExamId] = useState<string>()
+  const activeMockExam = data.mockExams?.find((exam) => exam.id === activeMockExamId)
   const submittingRef = useRef(false)
   const examContentRef = useRef<HTMLDivElement>(null)
   const submitDialogRef = useRef<HTMLDialogElement>(null)
@@ -77,9 +81,10 @@ export function ExamPage({ data, navigate }: { data: CourseData; navigate: (targ
     const durationSeconds = minutes ? Math.min(minutes * 60, wallElapsed) : wallElapsed
     const record: ExamRecord = {
       id: `exam-${Date.now()}`,
+      ...(activeMockExamId ? { mockExamId: activeMockExamId } : {}),
       questionIds: examQuestions.map((question) => question.id),
       answers,
-      score: Math.round((correctCount / examQuestions.length) * 100),
+      score: activeMockExamId ? getFixedMockExamScore(correctCount) : Math.round((correctCount / examQuestions.length) * 100),
       correctCount,
       total: examQuestions.length,
       startedAt,
@@ -91,19 +96,16 @@ export function ExamPage({ data, navigate }: { data: CourseData; navigate: (targ
     setStage('result')
     setShowSubmit(false)
     window.scrollTo({ top: 0, behavior: 'smooth' })
-  }, [answers, examQuestions, minutes, recordAttempt, saveExam, startedAt])
+  }, [activeMockExamId, answers, examQuestions, minutes, recordAttempt, saveExam, startedAt])
 
   useEffect(() => {
     if (timeUp) submitExam()
   }, [submitExam, timeUp])
 
-  const start = () => {
-    let selected = selectExamQuestions(pool, actualCount, mix, randomOrder ? Date.now() : 1)
-    if (!randomOrder) {
-      const order = new Map(pool.map((question, index) => [question.id, index]))
-      selected = [...selected].sort((a, b) => (order.get(a.id) ?? 0) - (order.get(b.id) ?? 0))
-    }
+  const beginExam = (selected: Question[], mockExamId?: string) => {
+    if (!selected.length) return
     setExamQuestions(selected)
+    setActiveMockExamId(mockExamId)
     setAnswers({})
     setCurrent(0)
     setFlagged([])
@@ -111,7 +113,36 @@ export function ExamPage({ data, navigate }: { data: CourseData; navigate: (targ
     setStartedAt(new Date().toISOString())
     submittingRef.current = false
     setResult(null)
+    setResultIndex(0)
     setStage('taking')
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const start = () => {
+    let selected = selectExamQuestions(pool, actualCount, mix, randomOrder ? Date.now() : 1)
+    if (!randomOrder) {
+      const order = new Map(pool.map((question, index) => [question.id, index]))
+      selected = [...selected].sort((a, b) => (order.get(a.id) ?? 0) - (order.get(b.id) ?? 0))
+    }
+    beginExam(selected)
+  }
+
+  const startFixed = (exam: MockExam) => {
+    const selected = getMockExamQuestions(data, exam.id)
+    if (selected.length !== 40) return
+    setMinutes(exam.minutes)
+    beginExam(selected, exam.id)
+  }
+
+  const reviewFixed = (record: ExamRecord) => {
+    const selected = getMockExamQuestions(data, record.mockExamId ?? '')
+    if (selected.length !== 40) return
+    setExamQuestions(selected)
+    setActiveMockExamId(record.mockExamId)
+    setAnswers(record.answers)
+    setResult(record)
+    setResultIndex(0)
+    setStage('result')
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
@@ -119,7 +150,10 @@ export function ExamPage({ data, navigate }: { data: CourseData; navigate: (targ
 
   if (stage === 'setup') return (
     <div className="animate-enter">
-      <PageHeader eyebrow="MOCK EXAM" title="실전 모의고사" copy="범위, 문항 수, 시간, 난이도 비율을 정해 실제 시험처럼 응시합니다. 응시 중에는 정답과 해설을 볼 수 없고, 제출 뒤 모든 선택지 해설이 열립니다." />
+      <PageHeader eyebrow="MOCK EXAM" title="실전 모의고사" copy="신규 40문항씩 5회분을 시험 또는 해설 학습으로 풀어 보세요. 시험 중에는 정답이 숨겨지고 제출 뒤 모든 문항의 상세 해설이 열립니다. 아래에서 기존 맞춤형 랜덤 시험도 만들 수 있습니다." />
+      <FixedMockExamList data={data} state={state} onStart={startFixed} onReview={reviewFixed} navigate={navigate} />
+      <h2 className="mb-2 text-xl font-black">맞춤형 랜덤 모의고사</h2>
+      <p className="mb-5 text-sm leading-7 text-slate-500">전체 문제은행에서 범위·문항 수·시간·난이도 비율을 직접 정합니다. 위의 고정형 5회분과는 별개의 랜덤 시험입니다.</p>
       <div className="grid gap-5 xl:grid-cols-[1fr_22rem]">
         <div className="surface p-5 sm:p-7">
           <section>
@@ -179,7 +213,7 @@ export function ExamPage({ data, navigate }: { data: CourseData; navigate: (targ
     const selected = answers[question.id] ?? []
     return (
       <div className="animate-enter">
-        <PageHeader eyebrow="EXAM RESULT" title={`${result.score}점 · ${result.correctCount}/${result.total} 정답`} copy="틀린 문항뿐 아니라 맞힌 문항도 모든 선택지의 근거를 확인하면 유사한 함정에 강해집니다." action={<button onClick={() => setStage('setup')} className="button-secondary"><RotateCcw size={16} />새 시험</button>} />
+        <PageHeader eyebrow="EXAM RESULT" title={`${activeMockExam?.title ?? '맞춤형 모의고사'} · ${result.score}점`} copy={`${result.correctCount}/${result.total} 정답. 문항별 결과에서 번호를 누르면 맞힌 문제까지 모든 선택지 해설과 관련 개념을 복습할 수 있습니다.`} action={<button onClick={() => setStage('setup')} className="button-secondary"><RotateCcw size={16} />모의고사 목록</button>} />
         <div className="grid grid-cols-2 gap-3 lg:grid-cols-4"><Stat icon={<Target size={18} />} label="점수" value={`${result.score}점`} /><Stat icon={<CheckCircle2 size={18} />} label="정답" value={`${result.correctCount}개`} tone="green" /><Stat icon={<X size={18} />} label="오답·미응답" value={`${result.total - result.correctCount}개`} tone="rose" /><Stat icon={<Clock3 size={18} />} label="풀이 시간" value={`${Math.floor(result.durationSeconds / 60)}분 ${result.durationSeconds % 60}초`} tone="amber" /></div>
         <div className="mt-5 grid gap-5 xl:grid-cols-[16rem_1fr]">
           <aside className="surface h-fit p-4 xl:sticky xl:top-24"><div className="mb-3 text-xs font-black text-slate-500">문항별 결과</div><div className="grid grid-cols-5 gap-2">{examQuestions.map((item, index) => { const correct = isAnswerCorrect(item, answers[item.id] ?? []); return <button key={item.id} aria-label={`문제 ${index + 1}, ${correct ? '정답' : '오답 또는 미응답'}`} aria-current={resultIndex === index ? 'step' : undefined} onClick={() => setResultIndex(index)} className={`flex h-9 items-center justify-center rounded-lg text-xs font-black ${resultIndex === index ? 'ring-2 ring-cobalt' : ''} ${correct ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-500/15 dark:text-emerald-300' : 'bg-rose-100 text-rose-700 dark:bg-rose-500/15 dark:text-rose-300'}`}>{index + 1}</button> })}</div></aside>
@@ -204,13 +238,14 @@ export function ExamPage({ data, navigate }: { data: CourseData; navigate: (targ
   return (
     <div className="mx-auto max-w-6xl animate-enter">
       <div ref={examContentRef}>
+      <p className="mb-3 text-sm font-black text-cobalt dark:text-blue-300">{activeMockExam?.title ?? '맞춤형 랜덤 모의고사'} · {examQuestions.length}문항 · 제출 후 해설 공개</p>
       <header className="surface mb-5 flex flex-wrap items-center gap-4 p-4 sm:px-6"><div className="flex items-center gap-2"><AlarmClock size={18} className={remaining !== null && remaining < 300 ? 'text-rose-500' : 'text-cobalt'} /><span className={`font-mono text-lg font-black ${remaining !== null && remaining < 300 ? 'text-rose-500' : ''}`}>{timeText}</span></div><div className="min-w-40 flex-1"><div className="mb-1 flex justify-between text-[10px] font-bold text-slate-400"><span>{answeredCount}개 응답</span><span>{examQuestions.length}문항</span></div><ProgressBar value={(answeredCount / examQuestions.length) * 100} /></div><button aria-haspopup="dialog" aria-expanded={showSubmit} onClick={() => setShowSubmit(true)} className="button-primary">시험 제출</button></header>
       <div className="grid gap-5 xl:grid-cols-[1fr_18rem]">
         <article className="surface p-5 sm:p-8">
           <div className="flex flex-wrap items-center gap-2"><span className="text-sm font-black text-cobalt">문제 {current + 1}</span><DifficultyBadge difficulty={question.difficulty} /><span className="chip">{question.mode === 'multiple' ? '복수 정답' : '단일 정답'}</span><button aria-pressed={flagged.includes(question.id)} onClick={() => setFlagged((before) => before.includes(question.id) ? before.filter((id) => id !== question.id) : [...before, question.id])} className={`ml-auto flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-bold ${flagged.includes(question.id) ? 'bg-amber-100 text-amber-700 dark:bg-amber-500/15' : 'text-slate-400'}`}><Flag size={14} fill={flagged.includes(question.id) ? 'currentColor' : 'none'} />검토</button></div>
           <QuestionPrompt prompt={question.prompt} headingLevel={1} />
           {question.visual && <QuestionVisual visual={question.visual} files={data.files} />}
-          <p className="mt-2 text-xs text-slate-500">{question.mode === 'multiple' ? '옳은 것을 모두 선택하세요.' : '가장 적절한 답 하나를 선택하세요.'}</p>
+          <p className="mt-2 text-xs text-slate-500">{question.mode === 'multiple' ? '옳은 것을 모두 선택하세요. 정답은 2개 이상입니다.' : '가장 적절한 답 하나를 선택하세요.'}</p>
           <div className="mt-6 space-y-3" role={question.mode === 'multiple' ? 'group' : 'radiogroup'} aria-label="선택지">{question.options.map((option, index) => { const picked = selected.includes(option.id); return <button key={option.id} role={question.mode === 'multiple' ? 'checkbox' : 'radio'} aria-checked={picked} onClick={() => choose(option.id)} className={`flex w-full items-start gap-3 rounded-2xl border p-4 text-left transition ${picked ? 'border-cobalt bg-blue-50 ring-1 ring-cobalt dark:border-blue-400 dark:bg-blue-500/10' : 'border-black/[0.09] hover:border-cobalt/40 dark:border-white/10'}`}><span className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border text-xs font-black ${picked ? 'border-cobalt bg-cobalt text-white' : 'border-slate-200 text-slate-500 dark:border-white/10'}`}>{picked ? <Check size={15} /> : optionLabel(index)}</span><span className="pt-0.5 text-sm font-semibold leading-6">{option.text}</span></button> })}</div>
           <div className="mt-7 flex justify-between"><button disabled={current === 0} onClick={() => setCurrent((value) => value - 1)} className="button-secondary"><ChevronLeft size={17} />이전</button><button disabled={current === examQuestions.length - 1} onClick={() => setCurrent((value) => value + 1)} className="button-primary">다음<ChevronRight size={17} /></button></div>
         </article>

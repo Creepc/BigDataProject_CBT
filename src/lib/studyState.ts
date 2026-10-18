@@ -147,6 +147,7 @@ const examRecord = (value: unknown, index: number): ExamRecord => {
   if (total !== questionIds.length || correctCount > total) fail(`exams.${index}.total`)
   return {
     id: stringValue(record.id, `exams.${index}.id`),
+    ...(record.mockExamId === undefined ? {} : { mockExamId: stringValue(record.mockExamId, `exams.${index}.mockExamId`) }),
     questionIds,
     answers,
     score: finiteValue(record.score, `exams.${index}.score`, 0, 100),

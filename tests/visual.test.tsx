@@ -49,6 +49,33 @@ describe('question visuals', () => {
     expect(html).toContain('Movie, 이상치 후보 312')
   })
 
+  it('does not treat a year difference as another calendar-year axis', () => {
+    const visual: Visual = {
+      kind: 'scatter', title: '공개 연도와 등록 시차', xLabel: '공개 연도', yLabel: '등록 연도−공개 연도(년)',
+      labels: ['P', 'Q', 'R'], sharedYearAxes: false,
+      series: [{ name: '작품', xValues: [2010, 2018, 2015], values: [8, 0, 3] }],
+    }
+    const html = renderToStaticMarkup(<QuestionVisual visual={visual} />)
+    expect(html).not.toContain('data-chart-mark="identity-line"')
+    expect(html).not.toContain('두 연도 축은 동일한 축척')
+    expect(html).toContain('data-chart-y-min="0"')
+    expect(html).toContain('data-chart-y-max="8.4"')
+    expect(courseData.questions.find((question) => question.id === 'mock-web-049')?.visual?.sharedYearAxes).toBe(false)
+  })
+
+  it('keeps small histogram densities distinct instead of rounding both to 0.01', () => {
+    const visual: Visual = {
+      kind: 'histogram', title: '확률밀도', labels: ['[70,90)', '[90,110)', '[110,130)'],
+      yLabel: '확률밀도(1/분)', series: [{ name: '밀도', values: [.005, .015, .01] }],
+    }
+    const html = renderToStaticMarkup(<QuestionVisual visual={visual} />)
+    expect(html).toContain('data-chart-y-max="0.015"')
+    expect(html).toContain('>0.00375</text>')
+    expect(html).toContain('>0.015</text>')
+    expect(html).not.toContain('data-chart-y-max="0.01"')
+    expect(html).toContain('>[110,130)</text>')
+  })
+
   it('renders source images with alt text, caption, and a page-specific original link', () => {
     const visual: Visual = {
       kind: 'source-image', title: '원본 구조도', labels: [], series: [],

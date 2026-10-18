@@ -6,7 +6,7 @@
       "conceptId": "n12-c-stack",
       "name": "빅데이터 분석 소프트웨어 스택",
       "fileId": "notion-w1",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n12-new-001",
@@ -54,7 +54,7 @@
       "conceptId": "n12-c-software",
       "name": "소프트웨어",
       "fileId": "notion-w1",
-      "totalQuestions": 4,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "n12-new-005",
@@ -101,7 +101,7 @@
       "conceptId": "n12-c-system-software",
       "name": "시스템 소프트웨어",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-009",
@@ -150,7 +150,7 @@
       "conceptId": "n12-c-os",
       "name": "운영체제",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-013",
@@ -197,7 +197,7 @@
       "conceptId": "n12-c-os-roles",
       "name": "운영체제의 역할",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-017",
@@ -244,7 +244,7 @@
       "conceptId": "n12-c-kernel",
       "name": "커널과 사용자 인터페이스",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-021",
@@ -290,7 +290,7 @@
       "conceptId": "n12-c-system-call",
       "name": "시스템 호출",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-025",
@@ -337,7 +337,7 @@
       "conceptId": "n12-c-driver",
       "name": "디바이스 드라이버",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-029",
@@ -384,7 +384,7 @@
       "conceptId": "n12-c-unix-linux-gnu",
       "name": "UNIX·Linux·GNU·macOS 계보",
       "fileId": "notion-w1",
-      "totalQuestions": 4,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "n12-new-033",
@@ -431,7 +431,7 @@
       "conceptId": "n12-c-process",
       "name": "프로그램과 프로세스",
       "fileId": "notion-w1",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n12-new-037",
@@ -478,7 +478,7 @@
       "conceptId": "n12-c-time-sharing",
       "name": "시분할",
       "fileId": "notion-w1",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n12-new-041",
@@ -526,7 +526,7 @@
       "conceptId": "n12-c-pcb-states",
       "name": "PCB와 프로세스 상태",
       "fileId": "notion-w1",
-      "totalQuestions": 7,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "n12-new-045",
@@ -572,7 +572,7 @@
       "conceptId": "n12-c-memory-management",
       "name": "메모리 관리 시스템",
       "fileId": "notion-w1",
-      "totalQuestions": 4,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "n12-new-049",
@@ -619,7 +619,7 @@
       "conceptId": "n12-c-memory-operations",
       "name": "fetch·placement·replacement",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-053",
@@ -666,7 +666,7 @@
       "conceptId": "n12-c-virtual-memory",
       "name": "가상 메모리",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-057",
@@ -713,7 +713,7 @@
       "conceptId": "n12-c-file",
       "name": "파일과 확장자",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-061",
@@ -760,7 +760,7 @@
       "conceptId": "n12-c-directory",
       "name": "디렉터리",
       "fileId": "notion-w1",
-      "totalQuestions": 4,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "n12-new-065",
@@ -807,7 +807,7 @@
       "conceptId": "n12-c-formatting",
       "name": "포맷팅",
       "fileId": "notion-w1",
-      "totalQuestions": 4,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "n12-new-069",
@@ -854,7 +854,7 @@
       "conceptId": "n12-c-file-table",
       "name": "파일 테이블",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-073",
@@ -900,7 +900,7 @@
       "conceptId": "n12-c-block",
       "name": "블록",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-077",
@@ -946,7 +946,7 @@
       "conceptId": "n12-c-fragmentation",
       "name": "단편화와 조각 모음",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-081",
@@ -992,7 +992,7 @@
       "conceptId": "n12-c-fat32",
       "name": "FAT32 연결 할당",
       "fileId": "notion-w1",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-085",
@@ -1039,7 +1039,7 @@
       "conceptId": "n12-c-free-list",
       "name": "빈 공간 리스트",
       "fileId": "notion-w1",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n12-new-089",
@@ -1086,7 +1086,7 @@
       "conceptId": "n12-c-bigdata",
       "name": "빅데이터",
       "fileId": "notion-w2",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-093",
@@ -1133,7 +1133,7 @@
       "conceptId": "n12-c-volume",
       "name": "Volume",
       "fileId": "notion-w2",
-      "totalQuestions": 4,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "n12-new-097",
@@ -1180,7 +1180,7 @@
       "conceptId": "n12-c-velocity",
       "name": "Velocity",
       "fileId": "notion-w2",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n12-new-101",
@@ -1227,7 +1227,7 @@
       "conceptId": "n12-c-variety",
       "name": "Variety",
       "fileId": "notion-w2",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-105",
@@ -1273,7 +1273,7 @@
       "conceptId": "n12-c-veracity",
       "name": "Veracity",
       "fileId": "notion-w2",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-109",
@@ -1320,7 +1320,7 @@
       "conceptId": "n12-c-value",
       "name": "Value",
       "fileId": "notion-w2",
-      "totalQuestions": 7,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "n12-new-113",
@@ -1367,7 +1367,7 @@
       "conceptId": "n12-c-data-sources",
       "name": "빅데이터 원천",
       "fileId": "notion-w2",
-      "totalQuestions": 4,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "n12-new-117",
@@ -1414,7 +1414,7 @@
       "conceptId": "n12-c-bigdata-history",
       "name": "빅데이터 발전사",
       "fileId": "notion-w2",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n12-new-121",
@@ -1461,7 +1461,7 @@
       "conceptId": "n12-c-applications",
       "name": "빅데이터 응용 분야",
       "fileId": "notion-w2",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n12-new-125",
@@ -1507,7 +1507,7 @@
       "conceptId": "n12-c-data-forms",
       "name": "구조화·반구조화·비구조화 데이터",
       "fileId": "notion-w2",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n12-new-129",
@@ -1554,7 +1554,7 @@
       "conceptId": "n12-c-time-series",
       "name": "시계열 데이터",
       "fileId": "notion-w2",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-133",
@@ -1601,7 +1601,7 @@
       "conceptId": "n12-c-geospatial",
       "name": "공간 데이터",
       "fileId": "notion-w2",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n12-new-137",
@@ -1647,7 +1647,7 @@
       "conceptId": "n34-C01",
       "name": "Scale-up과 Scale-out",
       "fileId": "w3-infra",
-      "totalQuestions": 6,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "n34-new-001",
@@ -1694,7 +1694,7 @@
       "conceptId": "n34-C02",
       "name": "분산 컴퓨팅과 내결함성",
       "fileId": "w3-infra",
-      "totalQuestions": 6,
+      "totalQuestions": 10,
       "learningQuestions": [
         {
           "id": "n34-new-005",
@@ -1740,7 +1740,7 @@
       "conceptId": "n34-C03",
       "name": "하드웨어 인프라 진화",
       "fileId": "w3-infra",
-      "totalQuestions": 5,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n34-new-009",
@@ -1787,7 +1787,7 @@
       "conceptId": "n34-C04",
       "name": "클라우드·컨테이너·엣지",
       "fileId": "w3-infra",
-      "totalQuestions": 4,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "n34-new-013",
@@ -1833,7 +1833,7 @@
       "conceptId": "n34-C05",
       "name": "웹 크롤링과 스크래핑",
       "fileId": "w3-infra",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n34-new-017",
@@ -1879,7 +1879,7 @@
       "conceptId": "n34-C06",
       "name": "REST·GraphQL·API 운영",
       "fileId": "w3-infra",
-      "totalQuestions": 5,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n34-new-021",
@@ -1925,7 +1925,7 @@
       "conceptId": "n34-C07",
       "name": "실시간 수집과 MQTT",
       "fileId": "w3-infra",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n34-new-025",
@@ -1972,7 +1972,7 @@
       "conceptId": "n34-C08",
       "name": "엣지 전처리",
       "fileId": "w3-infra",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n34-new-029",
@@ -2018,7 +2018,7 @@
       "conceptId": "n34-C09",
       "name": "Full/Incremental Load와 ETL/ELT",
       "fileId": "w3-infra",
-      "totalQuestions": 6,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "n34-new-033",
@@ -2065,7 +2065,7 @@
       "conceptId": "n34-C10",
       "name": "Kafka와 스트림 처리",
       "fileId": "w3-infra",
-      "totalQuestions": 7,
+      "totalQuestions": 11,
       "learningQuestions": [
         {
           "id": "n34-new-037",
@@ -2111,7 +2111,7 @@
       "conceptId": "n34-C11",
       "name": "HDFS",
       "fileId": "w3-infra",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n34-new-041",
@@ -2157,7 +2157,7 @@
       "conceptId": "n34-C12",
       "name": "NoSQL 네 가지 모델",
       "fileId": "w3-infra",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n34-new-045",
@@ -2204,7 +2204,7 @@
       "conceptId": "n34-C13",
       "name": "오브젝트 스토리지·데이터 레이크·DWH",
       "fileId": "w3-infra",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n34-new-049",
@@ -2250,7 +2250,7 @@
       "conceptId": "n34-C14",
       "name": "결측·이상·중복·표준화",
       "fileId": "w3-infra",
-      "totalQuestions": 4,
+      "totalQuestions": 10,
       "learningQuestions": [
         {
           "id": "n34-new-053",
@@ -2297,7 +2297,7 @@
       "conceptId": "n34-C15",
       "name": "프로파일링·품질 규칙·드리프트",
       "fileId": "w3-infra",
-      "totalQuestions": 4,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n34-new-057",
@@ -2343,7 +2343,7 @@
       "conceptId": "n34-C16",
       "name": "메타데이터·카탈로그·거버넌스",
       "fileId": "w3-infra",
-      "totalQuestions": 5,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n34-new-061",
@@ -2390,7 +2390,7 @@
       "conceptId": "n34-C17",
       "name": "개인정보보호와 다층 보안",
       "fileId": "w3-infra",
-      "totalQuestions": 6,
+      "totalQuestions": 10,
       "learningQuestions": [
         {
           "id": "n34-new-065",
@@ -2437,7 +2437,7 @@
       "conceptId": "n34-C18",
       "name": "데이터 분석 6단계",
       "fileId": "w4-netflix",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n34-new-069",
@@ -2483,7 +2483,7 @@
       "conceptId": "n34-C19",
       "name": "Netflix 데이터 스키마",
       "fileId": "w4-netflix",
-      "totalQuestions": 6,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "n34-new-073",
@@ -2529,7 +2529,7 @@
       "conceptId": "n34-C20",
       "name": "데이터 로드와 1차 점검",
       "fileId": "w4-netflix",
-      "totalQuestions": 4,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "n34-new-077",
@@ -2575,7 +2575,7 @@
       "conceptId": "n34-C21",
       "name": "Netflix 전처리와 파생변수",
       "fileId": "w4-netflix",
-      "totalQuestions": 7,
+      "totalQuestions": 13,
       "learningQuestions": [
         {
           "id": "n34-new-081",
@@ -2622,7 +2622,7 @@
       "conceptId": "n34-C22",
       "name": "기술 통계와 EDA",
       "fileId": "w4-netflix",
-      "totalQuestions": 4,
+      "totalQuestions": 10,
       "learningQuestions": [
         {
           "id": "n34-new-085",
@@ -2668,7 +2668,7 @@
       "conceptId": "n34-C23",
       "name": "그래프 유형 선택",
       "fileId": "w4-netflix",
-      "totalQuestions": 6,
+      "totalQuestions": 10,
       "learningQuestions": [
         {
           "id": "n34-new-089",
@@ -2714,7 +2714,7 @@
       "conceptId": "n34-C24",
       "name": "박스플롯 해석",
       "fileId": "w4-netflix",
-      "totalQuestions": 5,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "n34-new-093",
@@ -2760,7 +2760,7 @@
       "conceptId": "n34-C25",
       "name": "히트맵과 분할표",
       "fileId": "w4-netflix",
-      "totalQuestions": 6,
+      "totalQuestions": 10,
       "learningQuestions": [
         {
           "id": "n34-new-097",
@@ -2807,7 +2807,7 @@
       "conceptId": "n34-C26",
       "name": "산점도·선 그래프·기울기",
       "fileId": "w4-netflix",
-      "totalQuestions": 7,
+      "totalQuestions": 12,
       "learningQuestions": [
         {
           "id": "n34-new-101",
@@ -2855,7 +2855,7 @@
       "conceptId": "n34-C27",
       "name": "단순 빈도형 Netflix 질문",
       "fileId": "w4-netflix",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n34-new-105",
@@ -2902,7 +2902,7 @@
       "conceptId": "n34-C28",
       "name": "범주형 관계 분석",
       "fileId": "w4-netflix",
-      "totalQuestions": 6,
+      "totalQuestions": 11,
       "learningQuestions": [
         {
           "id": "n34-new-109",
@@ -2949,7 +2949,7 @@
       "conceptId": "n34-C29",
       "name": "네트워크 분석과 중심성",
       "fileId": "w4-netflix",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n34-new-113",
@@ -2995,7 +2995,7 @@
       "conceptId": "n34-C30",
       "name": "텍스트 마이닝과 워드클라우드",
       "fileId": "w4-netflix",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "n34-new-117",
@@ -3042,7 +3042,7 @@
       "conceptId": "n34-C31",
       "name": "콘텐츠 기반 추천",
       "fileId": "w4-netflix",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "n34-new-121",
@@ -3089,7 +3089,7 @@
       "conceptId": "n34-C32",
       "name": "아이템 기반 협업 필터링",
       "fileId": "w4-netflix",
-      "totalQuestions": 7,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "n34-new-125",
@@ -3135,7 +3135,7 @@
       "conceptId": "n34-C33",
       "name": "TF-IDF Ridge 회귀와 MAE",
       "fileId": "w4-netflix",
-      "totalQuestions": 6,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "n34-new-129",
@@ -3181,7 +3181,7 @@
       "conceptId": "n34-C34",
       "name": "복합 질문 명세와 컬럼·함수 선택",
       "fileId": "w4-netflix",
-      "totalQuestions": 15,
+      "totalQuestions": 19,
       "learningQuestions": [
         {
           "id": "n34-new-133",
@@ -3228,7 +3228,7 @@
       "conceptId": "web-c01",
       "name": "빅데이터·DevOps·생성형 AI 3축",
       "fileId": "web1",
-      "totalQuestions": 4,
+      "totalQuestions": 5,
       "learningQuestions": [
         {
           "id": "web-new-001",
@@ -3275,7 +3275,7 @@
       "conceptId": "web-c02",
       "name": "데이터 파이프라인 5계층",
       "fileId": "web1",
-      "totalQuestions": 5,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "web-new-005",
@@ -3322,7 +3322,7 @@
       "conceptId": "web-c03",
       "name": "평가·과제 연속성",
       "fileId": "web1",
-      "totalQuestions": 5,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "web-new-009",
@@ -3369,7 +3369,7 @@
       "conceptId": "web-c04",
       "name": "생성형 AI 검증 순환",
       "fileId": "web1",
-      "totalQuestions": 6,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "web-new-013",
@@ -3416,7 +3416,7 @@
       "conceptId": "web-c05",
       "name": "재현 가능한 실습 환경",
       "fileId": "web1",
-      "totalQuestions": 5,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "web-new-017",
@@ -3463,7 +3463,7 @@
       "conceptId": "web-c06",
       "name": "빅데이터 5V",
       "fileId": "web2",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "web-new-021",
@@ -3510,7 +3510,7 @@
       "conceptId": "web-c07",
       "name": "스케일업과 스케일아웃",
       "fileId": "web2",
-      "totalQuestions": 8,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "web-new-025",
@@ -3557,7 +3557,7 @@
       "conceptId": "web-c08",
       "name": "공정한 성능 측정",
       "fileId": "web2",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "web-new-029",
@@ -3604,7 +3604,7 @@
       "conceptId": "web-c09",
       "name": "빅데이터 생태계 계층 지도",
       "fileId": "web2",
-      "totalQuestions": 4,
+      "totalQuestions": 5,
       "learningQuestions": [
         {
           "id": "web-new-033",
@@ -3651,7 +3651,7 @@
       "conceptId": "web-c10",
       "name": "운영체제와 분산 작업",
       "fileId": "web2",
-      "totalQuestions": 4,
+      "totalQuestions": 5,
       "learningQuestions": [
         {
           "id": "web-new-037",
@@ -3698,7 +3698,7 @@
       "conceptId": "web-c11",
       "name": "스필·스왑·블록",
       "fileId": "web2",
-      "totalQuestions": 4,
+      "totalQuestions": 5,
       "learningQuestions": [
         {
           "id": "web-new-041",
@@ -3745,7 +3745,7 @@
       "conceptId": "web-c12",
       "name": "구조화 프롬프트",
       "fileId": "web2",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "web-new-045",
@@ -3792,7 +3792,7 @@
       "conceptId": "web-c13",
       "name": "AI 결함 검증 리포트",
       "fileId": "web2",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "web-new-049",
@@ -3839,7 +3839,7 @@
       "conceptId": "web-c14",
       "name": "수집 방식 선택",
       "fileId": "web2",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "web-new-053",
@@ -3886,7 +3886,7 @@
       "conceptId": "web-c15",
       "name": "HDFS 아키텍처",
       "fileId": "web2",
-      "totalQuestions": 5,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "web-new-057",
@@ -3933,7 +3933,7 @@
       "conceptId": "web-c16",
       "name": "NoSQL·데이터 레이크 선택",
       "fileId": "web2",
-      "totalQuestions": 6,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "web-new-061",
@@ -3980,7 +3980,7 @@
       "conceptId": "web-c17",
       "name": "데이터 품질·메타데이터·거버넌스",
       "fileId": "web2",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "web-new-065",
@@ -4027,7 +4027,7 @@
       "conceptId": "web-c18",
       "name": "개인정보 보호와 다층 보안",
       "fileId": "web2",
-      "totalQuestions": 5,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "web-new-069",
@@ -4074,7 +4074,7 @@
       "conceptId": "web-c19",
       "name": "관찰 단위",
       "fileId": "web3",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "web-new-073",
@@ -4121,7 +4121,7 @@
       "conceptId": "web-c20",
       "name": "질문-변수 적합성",
       "fileId": "web3",
-      "totalQuestions": 9,
+      "totalQuestions": 11,
       "learningQuestions": [
         {
           "id": "web-new-077",
@@ -4168,7 +4168,7 @@
       "conceptId": "web-c21",
       "name": "원본 불변성과 데이터 계보",
       "fileId": "web3",
-      "totalQuestions": 5,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "web-new-081",
@@ -4215,7 +4215,7 @@
       "conceptId": "web-c22",
       "name": "품질 프로파일링",
       "fileId": "web3",
-      "totalQuestions": 7,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "web-new-085",
@@ -4262,7 +4262,7 @@
       "conceptId": "web-c23",
       "name": "결측 메커니즘과 유효 N",
       "fileId": "web3",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "web-new-089",
@@ -4309,7 +4309,7 @@
       "conceptId": "web-c24",
       "name": "정제·전처리·EDA 구분",
       "fileId": "web3",
-      "totalQuestions": 5,
+      "totalQuestions": 6,
       "learningQuestions": [
         {
           "id": "web-new-093",
@@ -4356,7 +4356,7 @@
       "conceptId": "web-c25",
       "name": "다중값 열의 장형 정규화",
       "fileId": "web3",
-      "totalQuestions": 7,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "web-new-097",
@@ -4403,7 +4403,7 @@
       "conceptId": "web-c26",
       "name": "분자·분모와 구성비",
       "fileId": "web3",
-      "totalQuestions": 8,
+      "totalQuestions": 10,
       "learningQuestions": [
         {
           "id": "web-new-101",
@@ -4450,7 +4450,7 @@
       "conceptId": "web-c27",
       "name": "단변량 차트 선택",
       "fileId": "web3",
-      "totalQuestions": 8,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "web-new-105",
@@ -4497,7 +4497,7 @@
       "conceptId": "web-c28",
       "name": "박스플롯 해석",
       "fileId": "web3",
-      "totalQuestions": 7,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "web-new-109",
@@ -4544,7 +4544,7 @@
       "conceptId": "web-c29",
       "name": "히트맵의 건수와 행 비율",
       "fileId": "web3",
-      "totalQuestions": 7,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "web-new-113",
@@ -4591,7 +4591,7 @@
       "conceptId": "web-c30",
       "name": "산점도·시계열과 사건 구분",
       "fileId": "web3",
-      "totalQuestions": 7,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "web-new-117",
@@ -4638,7 +4638,7 @@
       "conceptId": "web-c31",
       "name": "부분 기간·스냅샷 생존 편향",
       "fileId": "web3",
-      "totalQuestions": 7,
+      "totalQuestions": 9,
       "learningQuestions": [
         {
           "id": "web-new-121",
@@ -4685,7 +4685,7 @@
       "conceptId": "web-c33",
       "name": "그래프 식별과 의미 읽기",
       "fileId": "web3",
-      "totalQuestions": 11,
+      "totalQuestions": 13,
       "learningQuestions": [
         {
           "id": "web-new-125",
@@ -4732,7 +4732,7 @@
       "conceptId": "web-c34",
       "name": "복합질문 설계",
       "fileId": "web3",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "web-new-129",
@@ -4779,7 +4779,7 @@
       "conceptId": "web-c35",
       "name": "감독-배우 네트워크와 중심성",
       "fileId": "web3",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "web-new-133",
@@ -4826,7 +4826,7 @@
       "conceptId": "web-c36",
       "name": "텍스트 빈도·워드클라우드",
       "fileId": "web3",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "web-new-137",
@@ -4873,7 +4873,7 @@
       "conceptId": "web-c37",
       "name": "콘텐츠 기반 추천",
       "fileId": "web3",
-      "totalQuestions": 6,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "web-new-141",
@@ -4920,7 +4920,7 @@
       "conceptId": "web-c38",
       "name": "아이템 기반 협업 필터링",
       "fileId": "web3",
-      "totalQuestions": 6,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "web-new-145",
@@ -4967,7 +4967,7 @@
       "conceptId": "web-c39",
       "name": "TF-IDF·Ridge 회귀 평가",
       "fileId": "web3",
-      "totalQuestions": 5,
+      "totalQuestions": 7,
       "learningQuestions": [
         {
           "id": "web-new-149",
@@ -5014,7 +5014,7 @@
       "conceptId": "web-c40",
       "name": "사실·추정·불가능한 결론",
       "fileId": "web3",
-      "totalQuestions": 16,
+      "totalQuestions": 18,
       "learningQuestions": [
         {
           "id": "web-new-153",
@@ -5061,7 +5061,7 @@
       "conceptId": "web-c41",
       "name": "기울기와 급증 기준",
       "fileId": "web3",
-      "totalQuestions": 8,
+      "totalQuestions": 10,
       "learningQuestions": [
         {
           "id": "web-new-157",
@@ -5108,7 +5108,7 @@
       "conceptId": "web-c42",
       "name": "질문 반복 정련",
       "fileId": "web3",
-      "totalQuestions": 7,
+      "totalQuestions": 8,
       "learningQuestions": [
         {
           "id": "web-new-161",

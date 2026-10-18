@@ -31,7 +31,7 @@ describe('question-only learning curriculum', () => {
     expect(getLearningQuestions(courseData).slice(0, 4)).toEqual(firstCourse)
     expect(firstCourse.map((question) => question.learningStage)).toEqual(learningStages)
     expect(getLearningQuestions(courseData, 'not-a-concept')).toEqual([])
-    expect(courseData.questions.filter((question) => !question.learningStage)).toHaveLength(116)
+    expect(courseData.questions.filter((question) => !question.learningStage && !question.mockExamId)).toHaveLength(116)
   })
 
   it('continues unseen questions before revisiting wrong answers, and never equates submission with mastery', () => {

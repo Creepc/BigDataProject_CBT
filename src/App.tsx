@@ -3,6 +3,7 @@ import { QuestionPlayer } from '@/components/QuestionExperience'
 import { courseData } from '@/data/courseData'
 import { useNavigation } from '@/hooks/useNavigation'
 import { getLearningQuestions } from '@/lib/curriculum'
+import { getMockExamQuestions } from '@/lib/mockExams'
 import { BankPage } from '@/pages/BankPage'
 import { CardsPage } from '@/pages/CardsPage'
 import { DashboardPage } from '@/pages/DashboardPage'
@@ -25,6 +26,8 @@ export default function App() {
         const ids = params.ids?.split(',').filter(Boolean)
         const questions = params.scope === 'curriculum'
           ? getLearningQuestions(courseData, params.concept)
+          : params.scope === 'mock'
+          ? getMockExamQuestions(courseData, params.exam ?? '')
           : ids?.length
           ? ids.map((id) => courseData.questions.find((question) => question.id === id)).filter(Boolean) as typeof courseData.questions
           : params.concept
@@ -32,7 +35,7 @@ export default function App() {
             : params.scope === 'wrong'
               ? courseData.questions.filter((question) => question.id === target.id)
               : courseData.questions
-        return <QuestionPlayer questions={questions} initialId={target.id} concepts={courseData.concepts} files={courseData.files} navigate={navigate} curriculumMode={params.scope === 'curriculum'} />
+        return <QuestionPlayer questions={questions} initialId={target.id} concepts={courseData.concepts} files={courseData.files} navigate={navigate} curriculumMode={params.scope === 'curriculum'} mockExam={params.scope === 'mock' ? courseData.mockExams?.find((exam) => exam.id === params.exam) : undefined} />
       }
       case 'exam': return <ExamPage data={courseData} navigate={navigate} />
       case 'wrong': return <WrongPage data={courseData} navigate={navigate} />

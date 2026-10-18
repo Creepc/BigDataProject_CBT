@@ -7,7 +7,10 @@ const palette = ['#3159d8', '#31b58b', '#ee9d35', '#e35d7a']
 const tickRatios = [0, .25, .5, .75, 1]
 const plot = { left: 58, right: 500, top: 38, bottom: 205 }
 const numberFormatter = new Intl.NumberFormat('ko-KR', { maximumFractionDigits: 2 })
-const formatValue = (value: number) => numberFormatter.format(Number(value.toFixed(2)))
+const smallNumberFormatter = new Intl.NumberFormat('ko-KR', { maximumSignificantDigits: 4 })
+const formatValue = (value: number) => Math.abs(value) > 0 && Math.abs(value) < .1
+  ? smallNumberFormatter.format(value)
+  : numberFormatter.format(Number(value.toFixed(2)))
 
 export function QuestionVisual({ visual, files = [] }: { visual: Visual; files?: SourceFile[] }) {
   const accessibleId = useId()
@@ -43,8 +46,10 @@ export function QuestionVisual({ visual, files = [] }: { visual: Visual; files?:
   const hasExplicitScatterX = visual.series.some((series) => series.xValues?.length)
   const hasComparableYearAxes = visual.kind === 'scatter'
     && hasExplicitScatterX
-    && /(?:연도|year)/i.test(visual.xLabel ?? '')
-    && /(?:연도|year)/i.test(visual.yLabel ?? '')
+    && (visual.sharedYearAxes ?? (
+      /(?:연도|year)/i.test(visual.xLabel ?? '')
+      && /(?:연도|year)/i.test(visual.yLabel ?? '')
+    ))
   const domainValues = hasComparableYearAxes ? [...allValues, ...scatterXValues] : allValues
   const rawMax = Math.max(...domainValues)
   const rawMin = Math.min(...domainValues)
@@ -112,7 +117,7 @@ export function QuestionVisual({ visual, files = [] }: { visual: Visual; files?:
             const value = series.values[index] ?? 0
             const valueY = yAt(value)
             return <rect key={`${series.name}-${seriesIndex}`} data-chart-mark={visual.kind} x={groupStart + seriesIndex * barWidth} y={Math.min(zeroY, valueY)} width={Math.max(0, histogram ? barWidth : barWidth - 2)} height={Math.abs(zeroY - valueY)} rx={histogram ? 0 : 4} fill={palette[seriesIndex % palette.length]} opacity=".9" />
-          })}<text x={plot.left + index * groupWidth + groupWidth / 2} y="224" textAnchor="middle" fontSize="9" fill="currentColor" opacity=".65">{label.slice(0, 8)}</text></g>
+          })}<text x={plot.left + index * groupWidth + groupWidth / 2} y="224" textAnchor="middle" fontSize="9" fill="currentColor" opacity=".65">{histogram ? label : label.slice(0, 8)}</text></g>
         })}
 
         {visual.kind === 'line' && visual.series.map((series, seriesIndex) => {

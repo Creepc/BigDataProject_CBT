@@ -75,7 +75,7 @@ describe('course content integrity', () => {
 
   it('keeps all generated study assets connected to valid sources', () => {
     expect(courseData.concepts).toHaveLength(110)
-    expect(courseData.questions).toHaveLength(556)
+    expect(courseData.questions).toHaveLength(756)
     expect(courseData.flashcards).toHaveLength(131)
     expect(validateCourseData(courseData)).toEqual([])
 

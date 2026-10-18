@@ -3,7 +3,7 @@ import {
   ArrowLeft, ArrowRight, Bookmark, BookmarkCheck, Check, CheckCircle2,
   ExternalLink, Lightbulb, Link2, X, XCircle,
 } from 'lucide-react'
-import type { Concept, NavigationTarget, Question, SourceFile } from '@/types'
+import type { Concept, MockExam, NavigationTarget, Question, SourceFile } from '@/types'
 import { correctOptionIds, formatPages, isAnswerCorrect } from '@/lib/study'
 import { pdfPageUrl } from '@/lib/assets'
 import { useStudy } from '@/contexts/StudyContext'
@@ -70,15 +70,31 @@ export function QuestionExplanation({
         </div>
       </div>
 
+      {question.detailedExplanation && <section className="rounded-2xl border border-blue-200 bg-blue-50/40 p-4 dark:border-blue-500/20 dark:bg-blue-500/[0.04] sm:p-6" aria-label="개념과 단계별 상세 해설">
+        <h3 className="flex items-center gap-2 text-base font-black text-cobalt dark:text-blue-300"><Lightbulb size={18} />이 문제에 필요한 개념</h3>
+        <p className="mt-3 whitespace-pre-line text-sm leading-8 text-slate-700 dark:text-slate-200">{question.detailedExplanation.concept}</p>
+        <h4 className="mt-6 text-sm font-black">단계별 풀이</h4>
+        <ol className="mt-3 space-y-3">
+          {question.detailedExplanation.steps.map((step, index) => <li key={index} className="flex gap-3 rounded-xl bg-white/80 p-3 dark:bg-white/[0.04] sm:p-4">
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cobalt text-[11px] font-black text-white">{index + 1}</span>
+            <p className="whitespace-pre-line text-sm leading-7 text-slate-700 dark:text-slate-200">{step}</p>
+          </li>)}
+        </ol>
+        <div className="mt-5 rounded-xl border-l-4 border-amber bg-amber-50 p-4 dark:bg-amber-500/10">
+          <h4 className="text-sm font-black text-amber-800 dark:text-amber-200">꼭 구분할 점</h4>
+          <p className="mt-2 whitespace-pre-line text-sm leading-7 text-slate-700 dark:text-slate-200">{question.detailedExplanation.pitfall}</p>
+        </div>
+      </section>}
+
       <div className="grid gap-3 md:grid-cols-2">
         <div className="rounded-2xl bg-blue-50 p-4 dark:bg-blue-500/[0.08]">
-          <div className="flex items-center gap-2 text-sm font-black text-cobalt dark:text-blue-300"><Lightbulb size={17} />핵심 개념 복습</div>
-          <p className="mt-2 text-sm leading-7 text-slate-600 dark:text-slate-300">{question.review}</p>
+          <div className="flex items-center gap-2 text-sm font-black text-cobalt dark:text-blue-300"><Lightbulb size={17} />{question.detailedExplanation ? '다른 상황에 적용하면' : '핵심 개념 복습'}</div>
+          <p className="mt-2 text-sm leading-7 text-slate-600 dark:text-slate-300">{question.detailedExplanation ? question.additionalExample : question.review}</p>
         </div>
         <div className="rounded-2xl bg-amber-50 p-4 dark:bg-amber-500/[0.08]">
           <div className="text-sm font-black text-amber-700 dark:text-amber-300">시험 직전 암기 포인트</div>
           <p className="mt-2 text-sm leading-7 text-slate-600 dark:text-slate-300">{question.memoryTip}</p>
-          {question.additionalExample && <p className="mt-2 border-t border-amber-200/60 pt-2 text-xs leading-6 text-slate-500 dark:border-amber-500/20 dark:text-slate-400">예시 · {question.additionalExample}</p>}
+          {!question.detailedExplanation && question.additionalExample && <p className="mt-2 border-t border-amber-200/60 pt-2 text-xs leading-6 text-slate-500 dark:border-amber-500/20 dark:text-slate-400">예시 · {question.additionalExample}</p>}
         </div>
       </div>
 
@@ -111,6 +127,7 @@ export function QuestionPlayer({
   files,
   navigate,
   curriculumMode = false,
+  mockExam,
 }: {
   questions: Question[]
   initialId?: string
@@ -118,6 +135,7 @@ export function QuestionPlayer({
   files: SourceFile[]
   navigate: (target: NavigationTarget) => void
   curriculumMode?: boolean
+  mockExam?: MockExam
 }) {
   const start = Math.max(0, questions.findIndex((question) => question.id === initialId))
   const queueKey = questions.map((question) => question.id).join(',')
@@ -163,7 +181,7 @@ export function QuestionPlayer({
   return (
     <div className="mx-auto max-w-4xl">
       <div className="mb-4 flex items-center justify-between gap-4">
-        <button onClick={() => navigate({ view: 'bank', params: { mode: curriculumMode ? 'course' : 'bank' } })} className="button-secondary"><ArrowLeft size={17} />{curriculumMode ? '학습 코스' : '문제은행'}</button>
+        <button onClick={() => navigate(mockExam ? { view: 'exam' } : { view: 'bank', params: { mode: curriculumMode ? 'course' : 'bank' } })} className="button-secondary"><ArrowLeft size={17} />{mockExam ? '모의고사 목록' : curriculumMode ? '학습 코스' : '문제은행'}</button>
         <div className="min-w-0 flex-1 text-center">
           <div className="text-xs font-bold text-slate-500">{index + 1} / {questions.length}</div>
           <ProgressBar value={((index + 1) / questions.length) * 100} />
@@ -172,6 +190,9 @@ export function QuestionPlayer({
           {bookmarked ? <BookmarkCheck size={18} className="text-cobalt" /> : <Bookmark size={18} />}
         </button>
       </div>
+
+      {mockExam && <div className="mb-5 rounded-2xl bg-blue-50 p-4 dark:bg-blue-500/10"><h1 className="text-base font-black text-cobalt dark:text-blue-300">{mockExam.title} · 해설 학습</h1><p className="mt-1 text-xs leading-6 text-slate-500 dark:text-slate-300">시간 제한 없이 한 문제씩 제출하고 개념·단계별 풀이를 읽습니다. 학습 응답은 기록되며, 시험 점수와는 별도로 표시됩니다.</p></div>}
+      {mockExam && <details className="surface mb-5 p-4"><summary className="cursor-pointer text-xs font-bold text-slate-500">40문항 바로가기 · 답을 선택한 문항에 표시</summary><div className="mt-4 grid grid-cols-8 gap-2 sm:grid-cols-10">{questions.map((item, itemIndex) => <button type="button" key={item.id} onClick={() => go(itemIndex)} aria-label={`학습 문제 ${itemIndex + 1}${state.attempts[item.id]?.lastSelected.length ? ', 응답 기록 있음' : ', 미응답'}`} aria-current={index === itemIndex ? 'step' : undefined} className={`rounded-lg p-2 text-xs font-bold ${index === itemIndex ? 'bg-cobalt text-white' : state.attempts[item.id]?.lastSelected.length ? 'bg-blue-50 text-cobalt dark:bg-blue-500/10 dark:text-blue-300' : 'bg-slate-100 text-slate-500 dark:bg-white/5'}`}>{itemIndex + 1}</button>)}</div></details>}
 
       <article className="surface p-5 sm:p-7 lg:p-9">
         <div className="flex flex-wrap items-center gap-2">
@@ -212,7 +233,7 @@ export function QuestionPlayer({
         </div>
 
         {!submitted ? (
-          <button onClick={submit} disabled={!selected.length} className="button-primary mt-6 w-full sm:w-auto sm:min-w-36">답안 제출</button>
+          <div className="mt-6 flex flex-wrap gap-2"><button onClick={submit} disabled={!selected.length} className="button-primary w-full sm:w-auto sm:min-w-36">답안 제출</button>{mockExam && state.attempts[question.id] && <button type="button" onClick={() => { setSelected(state.attempts[question.id].lastSelected); setSubmitted(true) }} className="button-secondary">지난 응답과 해설 보기</button>}</div>
         ) : (
           <QuestionExplanation question={question} selected={selected} concepts={concepts} files={files} navigate={navigate} />
         )}
@@ -222,7 +243,9 @@ export function QuestionPlayer({
         <button disabled={index === 0} onClick={() => go(index - 1)} className="button-secondary"><ArrowLeft size={17} />이전</button>
         <div className="flex flex-wrap justify-end gap-2">
           {submitted && similarIndex >= 0 && similarIndex !== index + 1 && <button onClick={() => go(similarIndex)} className="button-secondary">유사 문제</button>}
-          {submitted && index === questions.length - 1 && curriculumMode
+          {submitted && index === questions.length - 1 && mockExam
+            ? <button onClick={() => navigate({ view: 'exam' })} className="button-primary">모의고사 목록으로<ArrowRight size={17} /></button>
+            : submitted && index === questions.length - 1 && curriculumMode
             ? nextLearningConcept
               ? <button onClick={() => navigate({ view: 'practice', params: { scope: 'curriculum', concept: nextLearningConcept.id } })} className="button-primary">다음 개념 공부<ArrowRight size={17} /></button>
               : <button onClick={() => navigate({ view: 'bank', params: { mode: 'course' } })} className="button-primary">학습 코스로 돌아가기<ArrowRight size={17} /></button>

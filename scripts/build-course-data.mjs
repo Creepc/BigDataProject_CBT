@@ -307,7 +307,10 @@ for (const input of inputs) {
   }
 }
 
-const questionBankFiles = ['questions-notion12.json', 'questions-notion34.json', 'questions-web123.json']
+const questionBankFiles = [
+  'questions-notion12.json', 'questions-notion34.json', 'questions-web123.json',
+  'mock-questions-notion12.json', 'mock-questions-notion34.json', 'mock-questions-web123.json',
+]
 for (const file of questionBankFiles) {
   const bank = JSON.parse(fs.readFileSync(path.join(root, 'analysis', file), 'utf8'))
   for (const question of bank.questions) {
@@ -361,12 +364,25 @@ const concepts = normalizedConcepts.map((concept) => {
   return { ...concept, relatedQuestionIds: [...direct, ...unitRelated], lesson: lessonMap.get(concept.id) }
 })
 
+const mockExamConfig = JSON.parse(fs.readFileSync(path.join(root, 'analysis', 'mock-exams.json'), 'utf8'))
+const mockExams = mockExamConfig.exams.map((exam) => {
+  // Interleave the three authoring banks so each exam mixes all source groups.
+  const groups = ['mock-n12-', 'mock-n34-', 'mock-web-'].map((prefix) =>
+    questions.filter((question) => question.mockExamId === exam.id && question.id.startsWith(prefix)))
+  const questionIds = []
+  for (let index = 0; index < Math.max(...groups.map((group) => group.length)); index += 1) {
+    for (const group of groups) if (group[index]) questionIds.push(group[index].id)
+  }
+  return { ...exam, questionIds }
+})
+
 const courseData = {
   files,
   pageSummaries,
   concepts,
   questions,
   flashcards,
+  mockExams,
   generatedAt: new Date().toISOString().slice(0, 10),
 }
 
@@ -448,7 +464,38 @@ for (const question of questions) {
     const allowedSources = [{ fileId: concept?.fileId, pages: concept?.pages ?? [] }, ...(concept?.lesson?.sourceRefs ?? [])]
     if (question.sourceRefs.some((ref) => ref.pages.some((page) => !allowedSources.some((source) => source.fileId === ref.fileId && source.pages.includes(page))))) errors.push(`${question.id}: source outside learning concept evidence`)
   }
+  if (question.mockExamId) {
+    if (!mockExams.some((exam) => exam.id === question.mockExamId)) errors.push(`${question.id}: unknown fixed mock exam`)
+    if (question.learningStage) errors.push(`${question.id}: fixed mock exam must not replace the learning course`)
+    const detail = question.detailedExplanation
+    if (!hasText(detail?.concept) || detail.concept.length < 100 || !hasTexts(detail?.steps, 3) || detail.steps.some((step) => step.length < 20) || !hasText(detail?.pitfall) || detail.pitfall.length < 20) errors.push(`${question.id}: incomplete detailed explanation`)
+    if (!hasText(question.review) || question.review.length < 80 || !hasText(question.additionalExample) || question.additionalExample.length < 30) errors.push(`${question.id}: missing standalone concept review or transfer example`)
+    const evidence = question.conceptIds.flatMap((id) => {
+      const concept = concepts.find((item) => item.id === id)
+      return [{ fileId: concept?.fileId, pages: concept?.pages ?? [] }, ...(concept?.lesson?.sourceRefs ?? [])]
+    })
+    if (question.sourceRefs.some((ref) => ref.pages.some((page) => !evidence.some((source) => source.fileId === ref.fileId && source.pages.includes(page))))) errors.push(`${question.id}: mock source outside connected concept evidence`)
+  }
 }
+
+if (mockExams.length !== 5 || new Set(mockExams.map((exam) => exam.id)).size !== 5) errors.push('Exactly five unique fixed mock exams are required')
+const mockIds = new Set()
+for (const exam of mockExams) {
+  if (!hasText(exam.title) || !hasText(exam.description) || !Number.isInteger(exam.minutes) || exam.minutes <= 0) errors.push(`${exam.id}: invalid exam metadata`)
+  if (exam.questionIds.length !== 40) errors.push(`${exam.id}: expected 40 new questions, got ${exam.questionIds.length}`)
+  const items = exam.questionIds.map((id) => questions.find((question) => question.id === id))
+  if (items.filter((question) => question?.mode === 'multiple').length < 10) errors.push(`${exam.id}: insufficient multiple-answer items`)
+  if (items.filter((question) => question?.visual).length < 4) errors.push(`${exam.id}: insufficient visual questions`)
+  for (const id of exam.questionIds) {
+    if (mockIds.has(id)) errors.push(`${exam.id}: question reused across fixed exams: ${id}`)
+    mockIds.add(id)
+    const question = questions.find((item) => item.id === id)
+    if (!question || question.mockExamId !== exam.id || !id.startsWith('mock-')) errors.push(`${exam.id}: invalid fixed mock question ${id}`)
+  }
+}
+if (mockIds.size !== 200 || questions.filter((question) => question.mockExamId).length !== 200) errors.push('Fixed mock exams must contain exactly 200 new unique questions')
+const mockConceptIds = new Set(questions.filter((question) => question.mockExamId).flatMap((question) => question.conceptIds))
+for (const concept of concepts) if (!mockConceptIds.has(concept.id)) errors.push(`${concept.id}: not covered by the new fixed mock exams`)
 for (const concept of concepts) {
   const course = questions.filter((question) => question.learningConceptId === concept.id)
   if (course.length !== 4 || learningStages.some((stage) => !course.some((question) => question.learningStage === stage))) errors.push(`${concept.id}: incomplete four-stage question course`)
@@ -474,6 +521,19 @@ const coverage = concepts.map((concept) => {
   }
 })
 fs.writeFileSync(path.join(root, 'analysis', 'question-coverage.json'), `${JSON.stringify({ conceptCount: concepts.length, learningQuestionCount: coverage.reduce((sum, item) => sum + item.learningQuestions.length, 0), coverage }, null, 2)}\n`, 'utf8')
+fs.writeFileSync(path.join(root, 'analysis', 'mock-exam-coverage.json'), `${JSON.stringify({
+  examCount: mockExams.length,
+  newQuestionCount: mockIds.size,
+  coveredConcepts: mockConceptIds.size,
+  exams: mockExams.map((exam) => {
+    const items = questions.filter((question) => question.mockExamId === exam.id)
+    return { ...exam,
+      multiple: items.filter((question) => question.mode === 'multiple').length,
+      visuals: items.filter((question) => question.visual).length,
+      conceptIds: [...new Set(items.flatMap((question) => question.conceptIds))],
+    }
+  }),
+}, null, 2)}\n`, 'utf8')
 console.log(JSON.stringify({
   files: files.length,
   pages: pageSummaries.length,
@@ -487,4 +547,7 @@ console.log(JSON.stringify({
   multiple: questions.filter((question) => question.mode === 'multiple').length,
   visuals: questions.filter((question) => question.visual).length,
   flashcards: flashcards.length,
+  fixedMockExams: mockExams.length,
+  newMockQuestions: mockIds.size,
+  mockCoveredConcepts: mockConceptIds.size,
 }, null, 2))

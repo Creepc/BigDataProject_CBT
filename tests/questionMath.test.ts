@@ -28,4 +28,19 @@ describe('worked question arithmetic', () => {
     expect(answer(question.id)).toContain('시청자 선호')
     expect(answer(question.id)).not.toContain('전체 작품 수나')
   })
+
+  it('checks the new exam calculations against block, timing, conditional-rate and weighted-mean rules', () => {
+    expect(answer('mock-n12-001')).toContain(`${(2 * 2 + 4 * 8) / (2 + 8)}점`)
+    expect(answer('mock-n12-020')).toContain('16KiB') // four separately allocated 1KiB files
+    expect(answer('mock-n12-046')).toBe('첫 실행 2ms, 완료 3ms다.')
+    expect(answer('mock-n12-055')).toContain('할당 공간은 4KiB 증가') // ceil(9/4)*4 - ceil(6/4)*4
+    expect(answer('mock-n12-070')).toContain(`${(1 * 100 + 9 * 20) / 10}이다`)
+    expect(answer('mock-n34-001')).toContain(`전체 ${12 + 8}분이며 속도 향상은 ${60 / (12 + 8)}배`)
+    expect(answer('mock-n34-005')).toContain('A는 논리 블록 300개, B는 3개')
+    expect(answer('mock-n34-005')).toContain(`${300 * 2}MB`)
+    expect(answer('mock-n34-011')).toBe(`30÷(30+20)=${30 / (30 + 20) * 100}%`)
+    expect(answer('mock-n34-027')).toContain(`총 ${15 + 10 + 75 / 3}초`)
+    expect(answer('mock-n34-036')).toBe(`3÷4=${3 / 4}`)
+    expect(answer('mock-n34-038')).toContain(`MAE는 둘 다 ${(10 + 10 + 10 + 10) / 4}년`)
+  })
 })

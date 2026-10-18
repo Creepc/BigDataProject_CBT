@@ -1,4 +1,5 @@
 import type { AttemptRecord, CourseData, Difficulty, Question } from '@/types'
+import { validateMockExams } from '@/lib/mockExams'
 
 export const arraysEqualAsSets = (left: string[], right: string[]) => {
   const actual = new Set(left)
@@ -121,7 +122,7 @@ export const conceptStats = (data: CourseData, attempts: Record<string, AttemptR
   })
 
 export const validateCourseData = (data: CourseData) => {
-  const errors: string[] = []
+  const errors: string[] = validateMockExams(data)
   const fileIds = new Set<string>()
   const filesById = new Map(data.files.map((file) => [file.id, file]))
   data.files.forEach((file) => {
