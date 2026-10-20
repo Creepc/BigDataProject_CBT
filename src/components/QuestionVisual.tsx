@@ -12,6 +12,79 @@ const formatValue = (value: number) => Math.abs(value) > 0 && Math.abs(value) < 
   ? smallNumberFormatter.format(value)
   : numberFormatter.format(Number(value.toFixed(2)))
 
+const labelWidth = (label: string) => Array.from(label).reduce((width, character) => width + (character.codePointAt(0)! > 255 ? 12 : 7), 0)
+const heatChannels = (ratio: number) => {
+  const light = [239, 246, 255]
+  const dark = [49, 89, 216]
+  return light.map((value, index) => Math.round(value + (dark[index] - value) * ratio))
+}
+const heatColor = (ratio: number) => `rgb(${heatChannels(ratio).join(', ')})`
+const heatTextColor = (ratio: number) => {
+  const linear = heatChannels(ratio).map((channel) => {
+    const component = channel / 255
+    return component <= .04045 ? component / 12.92 : ((component + .055) / 1.055) ** 2.4
+  })
+  const luminance = linear[0] * .2126 + linear[1] * .7152 + linear[2] * .0722
+  return luminance > .179 ? '#000000' : '#ffffff'
+}
+
+function HeatmapVisual({ visual, accessibleId }: { visual: Visual; accessibleId: string }) {
+  const cells = visual.series.flatMap((series) => visual.labels.map((_, index) => series.values[index])).filter(Number.isFinite)
+  const min = cells.length ? Math.min(...cells) : 0
+  const max = cells.length ? Math.max(...cells) : 0
+  const constant = min === max
+  const intensity = (value: number) => constant ? value === 0 ? 0 : .5 : (value - min) / (max - min)
+  const left = Math.max(104, ...visual.series.map((series) => labelWidth(series.name) + 44))
+  const cellWidth = Math.max(88, ...visual.labels.map((label) => labelWidth(label) + 24))
+  const cellHeight = 52
+  const top = 62
+  const gridWidth = visual.labels.length * cellWidth
+  const gridHeight = visual.series.length * cellHeight
+  const chartWidth = left + gridWidth + 24
+  const chartHeight = top + gridHeight + 86
+  const legendY = top + gridHeight + 28
+  const legendWidth = Math.min(220, Math.max(88, gridWidth))
+  const gradientId = `${accessibleId}-heatmap-gradient`
+  const description = visual.series.map((series) => `${series.name}: ${visual.labels.map((label, index) => `${label} ${Number.isFinite(series.values[index]) ? formatValue(series.values[index]) : '값 없음'}`).join(', ')}`).join('. ')
+
+  return <figure className="mt-5 overflow-hidden rounded-2xl border border-black/[0.08] bg-white p-4 dark:border-white/10 dark:bg-slate-950/40">
+    <figcaption className="mb-3 text-center text-xs font-black">{visual.title}</figcaption>
+    <div className="overflow-x-auto overscroll-x-contain">
+      <svg viewBox={`0 0 ${chartWidth} ${chartHeight}`} className="mx-auto h-auto w-full" style={{ minWidth: chartWidth, maxWidth: Math.max(chartWidth, 540) }} role="img" aria-labelledby={`${accessibleId}-title ${accessibleId}-description`} data-chart-kind="heatmap" data-heatmap-min={formatValue(min)} data-heatmap-max={formatValue(max)}>
+        <title id={`${accessibleId}-title`}>{visual.title}</title>
+        <desc id={`${accessibleId}-description`}>히트맵. 가로 범주: {visual.xLabel ?? '열'}. 세로 범주: {visual.yLabel ?? '행'}. 셀 숫자가 실제 값이며, {constant ? `모든 유효 셀의 값은 ${formatValue(min)}이다.` : `색이 진할수록 값이 크다. 색 범위 ${formatValue(min)}부터 ${formatValue(max)}.`} {description}</desc>
+        <defs><linearGradient id={gradientId}><stop offset="0%" stopColor={heatColor(0)} /><stop offset="100%" stopColor={heatColor(1)} /></linearGradient></defs>
+        {visual.xLabel && <text x={left + gridWidth / 2} y="17" textAnchor="middle" fontSize="12" fontWeight="700" fill="currentColor">{visual.xLabel}</text>}
+        {visual.yLabel && <text x="17" y={top + gridHeight / 2} transform={`rotate(-90 17 ${top + gridHeight / 2})`} textAnchor="middle" fontSize="12" fontWeight="700" fill="currentColor">{visual.yLabel}</text>}
+        {visual.labels.map((label, columnIndex) => <text key={`${label}-${columnIndex}`} x={left + (columnIndex + .5) * cellWidth} y={top - 14} textAnchor="middle" fontSize="12" fill="currentColor">{label}</text>)}
+        {visual.series.map((series, rowIndex) => <g key={`${series.name}-${rowIndex}`}>
+          <text x={left - 12} y={top + (rowIndex + .5) * cellHeight} textAnchor="end" dominantBaseline="middle" fontSize="12" fill="currentColor">{series.name}</text>
+          {visual.labels.map((label, columnIndex) => {
+            const value = series.values[columnIndex]
+            const valid = Number.isFinite(value)
+            const ratio = valid ? intensity(value) : 0
+            return <g key={`${label}-${columnIndex}`}>
+              <rect data-chart-mark="heatmap-cell" data-chart-row={series.name} data-chart-column={label} data-chart-value={valid ? value : undefined} x={left + columnIndex * cellWidth} y={top + rowIndex * cellHeight} width={cellWidth} height={cellHeight} fill={valid ? heatColor(ratio) : '#e2e8f0'} stroke="#ffffff" strokeWidth="2">
+                <title>{`${series.name}, ${label}: ${valid ? formatValue(value) : '값 없음'}`}</title>
+              </rect>
+              <text x={left + (columnIndex + .5) * cellWidth} y={top + (rowIndex + .5) * cellHeight} textAnchor="middle" dominantBaseline="middle" fontSize="14" fontWeight="700" fill={heatTextColor(ratio)}>{valid ? formatValue(value) : '—'}</text>
+            </g>
+          })}
+        </g>)}
+        <text x={left} y={legendY - 8} fontSize="11" fill="currentColor">셀 값</text>
+        <rect x={left} y={legendY} width={legendWidth} height="12" rx="3" fill={constant ? heatColor(intensity(min)) : `url(#${gradientId})`} stroke="currentColor" strokeOpacity=".15" />
+        {constant ? <text x={left + legendWidth / 2} y={legendY + 29} textAnchor="middle" fontSize="11" fill="currentColor">동일값 {formatValue(min)}</text> : <>
+          <text x={left} y={legendY + 29} fontSize="11" fill="currentColor">{formatValue(min)}</text>
+          <text x={left + legendWidth} y={legendY + 29} textAnchor="end" fontSize="11" fill="currentColor">{formatValue(max)}</text>
+          <text x={left + legendWidth / 2} y={legendY + 29} textAnchor="middle" fontSize="10" fill="currentColor">작음 → 큼</text>
+        </>}
+      </svg>
+    </div>
+    <div className="sr-only"><table><caption>히트맵 데이터 · {visual.title}</caption><thead><tr><th scope="col">{visual.yLabel ?? '행'} / {visual.xLabel ?? '열'}</th>{visual.labels.map((label, index) => <th key={`${label}-${index}`} scope="col">{label}</th>)}</tr></thead><tbody>{visual.series.map((series, rowIndex) => <tr key={`${series.name}-${rowIndex}`}><th scope="row">{series.name}</th>{visual.labels.map((label, columnIndex) => <td key={`${label}-${columnIndex}`}>{Number.isFinite(series.values[columnIndex]) ? formatValue(series.values[columnIndex]) : '값 없음'}</td>)}</tr>)}</tbody></table></div>
+    {visual.note && <p className="mt-2 text-center text-[10px] leading-5 text-slate-400">※ {visual.note}</p>}
+  </figure>
+}
+
 export function QuestionVisual({ visual, files = [] }: { visual: Visual; files?: SourceFile[] }) {
   const accessibleId = useId()
   if (visual.kind === 'source-image') {
@@ -39,6 +112,7 @@ export function QuestionVisual({ visual, files = [] }: { visual: Visual; files?:
       </figure>
     )
   }
+  if (visual.kind === 'heatmap') return <HeatmapVisual visual={visual} accessibleId={accessibleId} />
   const allValues = visual.series.flatMap((series) => [...series.values, ...(series.outliers ?? [])]).filter(Number.isFinite)
   const scatterXValues = visual.series.flatMap((series) =>
     series.values.map((_, index) => series.xValues?.[index] ?? index),

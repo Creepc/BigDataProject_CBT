@@ -10045,7 +10045,8 @@ export const courseData: CourseData = {
         "mid-inf-001",
         "mid-inf-003",
         "mid-inf-014",
-        "mid-inf-026"
+        "mid-inf-026",
+        "graph-type-013"
       ],
       "lesson": {
         "conceptId": "n12-c-data-forms",
@@ -13362,7 +13363,17 @@ export const courseData: CourseData = {
         "mock-n34-008",
         "mock-n34-021",
         "mock-n34-033",
-        "final-nfx-002"
+        "final-nfx-002",
+        "graph-type-001",
+        "graph-type-002",
+        "graph-type-003",
+        "graph-type-004",
+        "graph-type-005",
+        "graph-type-007",
+        "graph-type-012",
+        "graph-type-014",
+        "graph-type-015",
+        "graph-type-019"
       ],
       "lesson": {
         "conceptId": "n34-C19",
@@ -14035,7 +14046,18 @@ export const courseData: CourseData = {
         "basic-nfx-030",
         "basic-nfx-042",
         "mid-nfx-010",
-        "mid-nfx-030"
+        "mid-nfx-030",
+        "graph-chart-001",
+        "graph-chart-002",
+        "graph-chart-004",
+        "graph-chart-005",
+        "graph-chart-006",
+        "graph-chart-009",
+        "graph-chart-012",
+        "graph-chart-015",
+        "graph-chart-016",
+        "graph-chart-017",
+        "graph-chart-019"
       ],
       "lesson": {
         "conceptId": "n34-C23",
@@ -14363,7 +14385,8 @@ export const courseData: CourseData = {
         "mock-n34-050",
         "mock-n34-062",
         "mock-n34-063",
-        "basic-nfx-024"
+        "basic-nfx-024",
+        "graph-chart-008"
       ],
       "lesson": {
         "conceptId": "n34-C25",
@@ -14545,7 +14568,8 @@ export const courseData: CourseData = {
         "mock-n34-049",
         "mock-n34-058",
         "mock-n34-061",
-        "mid-nfx-038"
+        "mid-nfx-038",
+        "graph-chart-013"
       ],
       "lesson": {
         "conceptId": "n34-C26",
@@ -18844,7 +18868,15 @@ export const courseData: CourseData = {
         "mid-nfx-001",
         "mid-nfx-002",
         "mid-nfx-004",
-        "mid-nfx-012"
+        "mid-nfx-012",
+        "graph-type-001",
+        "graph-type-009",
+        "graph-type-012",
+        "graph-type-013",
+        "graph-type-017",
+        "graph-type-019",
+        "graph-chart-003",
+        "graph-chart-020"
       ],
       "lesson": {
         "conceptId": "web-c19",
@@ -19673,7 +19705,8 @@ export const courseData: CourseData = {
         "mid-nfx-018",
         "mid-nfx-020",
         "mid-nfx-025",
-        "mid-nfx-033"
+        "mid-nfx-033",
+        "graph-chart-020"
       ],
       "lesson": {
         "conceptId": "web-c24",
@@ -20223,7 +20256,34 @@ export const courseData: CourseData = {
         "mid-nfx-010",
         "mid-nfx-021",
         "mid-nfx-030",
-        "mid-nfx-037"
+        "mid-nfx-037",
+        "graph-type-002",
+        "graph-type-004",
+        "graph-type-005",
+        "graph-type-006",
+        "graph-type-008",
+        "graph-type-010",
+        "graph-type-011",
+        "graph-type-012",
+        "graph-type-013",
+        "graph-type-014",
+        "graph-type-015",
+        "graph-type-018",
+        "graph-type-019",
+        "graph-type-020",
+        "graph-chart-001",
+        "graph-chart-002",
+        "graph-chart-003",
+        "graph-chart-005",
+        "graph-chart-006",
+        "graph-chart-007",
+        "graph-chart-010",
+        "graph-chart-011",
+        "graph-chart-012",
+        "graph-chart-014",
+        "graph-chart-015",
+        "graph-chart-016",
+        "graph-chart-018"
       ],
       "lesson": {
         "conceptId": "web-c27",
@@ -20386,7 +20446,17 @@ export const courseData: CourseData = {
         "mid-nfx-015",
         "mid-nfx-022",
         "mid-nfx-037",
-        "mid-nfx-039"
+        "mid-nfx-039",
+        "graph-type-006",
+        "graph-type-008",
+        "graph-type-011",
+        "graph-type-016",
+        "graph-type-020",
+        "graph-chart-002",
+        "graph-chart-010",
+        "graph-chart-011",
+        "graph-chart-019",
+        "graph-chart-020"
       ],
       "lesson": {
         "conceptId": "web-c28",
@@ -20562,7 +20632,13 @@ export const courseData: CourseData = {
         "basic-nfx-024",
         "basic-nfx-047",
         "mid-nfx-023",
-        "mid-nfx-045"
+        "mid-nfx-045",
+        "graph-type-007",
+        "graph-type-016",
+        "graph-chart-004",
+        "graph-chart-008",
+        "graph-chart-009",
+        "graph-chart-014"
       ],
       "lesson": {
         "conceptId": "web-c29",
@@ -20745,7 +20821,19 @@ export const courseData: CourseData = {
         "mid-nfx-024",
         "mid-nfx-035",
         "mid-nfx-042",
-        "mid-nfx-047"
+        "mid-nfx-047",
+        "graph-type-004",
+        "graph-type-009",
+        "graph-type-010",
+        "graph-type-014",
+        "graph-type-017",
+        "graph-chart-005",
+        "graph-chart-007",
+        "graph-chart-013",
+        "graph-chart-014",
+        "graph-chart-017",
+        "graph-chart-018",
+        "graph-chart-019"
       ],
       "lesson": {
         "conceptId": "web-c30",
@@ -94616,6 +94704,3018 @@ export const courseData: CourseData = {
         ],
         "pitfall": "변수를 많이 나열하거나 인기라는 말을 넣는 것보다 실제 열과 관측 기간으로 답할 수 있는지가 중요하다."
       }
+    },
+    {
+      "id": "graph-type-001",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "data-forms",
+          "netflix-schema"
+        ]
+      },
+      "prompt": "작품 식별코드는 101·102·103이고 상영시간은 80·95·110분이다. 모두 정수로 저장돼 있다. 분석에서 두 열의 역할을 순서대로 구분하면?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "수치형 · 범주형",
+          "correct": false,
+          "explanation": "식별코드의 숫자 차이는 양의 차이를 뜻하지 않으며 상영시간의 차이는 분 단위 의미가 있다."
+        },
+        {
+          "id": "o2",
+          "text": "수치형 · 수치형",
+          "correct": false,
+          "explanation": "정수로 저장됐어도 작품 코드는 식별용 값이다."
+        },
+        {
+          "id": "o3",
+          "text": "범주형 · 수치형",
+          "correct": true,
+          "explanation": "코드는 작품을 구별하고 시간은 길이를 비교하거나 평균 낼 수 있는 양이다."
+        },
+        {
+          "id": "o4",
+          "text": "범주형 · 범주형",
+          "correct": false,
+          "explanation": "상영시간은 식별자가 아니라 분으로 측정한 길이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19",
+        "n34-C19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "사례 판단",
+      "supplemental": false,
+      "review": "저장 형식이 정수라는 사실만으로 수치형 측정값이라고 판단하지 않는다. 작품 식별코드는 대상을 구별하는 값이고 평균 코드나 코드 차이에 길이의 의미는 없다. 반면 상영시간은 분이라는 단위가 있어 차이나 평균으로 길이를 요약할 수 있다.",
+      "memoryTip": "숫자로 적혔는지보다 그 숫자의 차이가 어떤 양을 뜻하는지 본다.",
+      "additionalExample": "학번은 숫자로 적혀 있어도 학생 식별에 쓰고, 학생별 키는 길이를 측정한 수치로 평균을 계산할 수 있다.",
+      "detailedExplanation": {
+        "concept": "분석 변수의 역할은 값이 나타내는 의미에 따라 판단한다. 식별코드는 관측 대상을 구별하기 위한 값이고 측정값은 크기나 양을 나타낸다. 둘 다 정수로 저장할 수 있지만 평균과 차이를 해석하는 방식은 다르다. 코드가 두 배라고 작품이 두 배 길거나 많아지는 것은 아니며 분 단위 상영시간에는 양의 비교가 가능하다.",
+        "steps": [
+          "두 열이 모두 정수라는 저장 조건과 실제 의미를 분리한다.",
+          "식별코드는 작품을 구별하고 상영시간은 분 단위 길이를 나타냄을 읽는다.",
+          "범주형 식별값과 수치형 측정값의 순서로 두 역할을 연결한다."
+        ],
+        "pitfall": "숫자 열이라는 공통점만으로 식별코드와 측정값에 같은 계산 의미를 부여하지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-002",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "data-forms"
+        ]
+      },
+      "prompt": "A파일의 rating은 PG·R·TV-MA이고 B파일은 같은 등급을 10·20·30으로 부호화했다. 두 파일에서 이 열의 분석상 성격은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "A와 B 모두 범주형이다.",
+          "correct": true,
+          "explanation": "표현만 달라졌고 두 파일 모두 작품의 시청 등급을 나타낸다."
+        },
+        {
+          "id": "o2",
+          "text": "A는 범주형, B는 측정 수치형이다.",
+          "correct": false,
+          "explanation": "숫자 코드를 붙여도 등급이 만족도나 길이 같은 측정량으로 바뀌지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "A는 측정 수치형, B는 범주형이다.",
+          "correct": false,
+          "explanation": "A의 PG·R·TV-MA도 시청 등급의 범주값이다."
+        },
+        {
+          "id": "o4",
+          "text": "A와 B 모두 측정 수치형이다.",
+          "correct": false,
+          "explanation": "두 파일의 rating은 수업 자료에서 시청 등급이며 수량 측정 열이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C19",
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "사례 판단",
+      "supplemental": false,
+      "review": "범주값을 숫자로 부호화하는 것은 저장 표현을 바꾸는 것이다. PG·R·TV-MA를 10·20·30으로 바꿔도 시청 등급이라는 뜻은 유지된다. 코드의 크기나 간격을 실제 만족도 차이처럼 해석하기보다 등급별 빈도와 구성을 분석한다.",
+      "memoryTip": "범주에 번호를 붙여도 번호가 측정값이 되는 것은 아니다.",
+      "additionalExample": "제작 국가를 국가명 대신 정수 코드로 기록해도 국가 코드의 평균을 평균적인 국가 크기처럼 해석할 수는 없다.",
+      "detailedExplanation": {
+        "concept": "분석 변수의 의미는 부호화 방법과 구별한다. 문자열로 저장한 시청 등급을 숫자 코드로 바꾸는 것은 같은 범주를 다른 표기로 표현한 것이다. 숫자가 생겼다는 이유로 등급 사이 간격을 실제 양의 차이로 해석하지 않는다. 코드표를 확인해 같은 등급끼리 대응시킨 뒤 범주별 빈도나 비율을 비교할 수 있다.",
+        "steps": [
+          "B의 숫자는 새로운 측정이 아니라 A의 등급을 부호화한 값임을 읽는다.",
+          "두 파일에서 rating이 같은 시청 등급을 나타낸다는 점을 확인한다.",
+          "저장 표현과 별개로 두 열을 모두 범주형으로 분류한다."
+        ],
+        "pitfall": "자료형이 정수로 바뀌었다는 사실을 등급의 의미가 측정량으로 바뀌었다는 뜻으로 보지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-003",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "data-forms"
+        ]
+      },
+      "prompt": "영화 길이는 모두 분 단위라고 확인했다. 값이 문자열 '8'·'90'·'120'으로 읽혀 문자 정렬하면 '120'·'8'·'90'이 된다. 짧은 영화부터 나열하려면?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "문자 정렬 결과를 길이 순서로 사용한다.",
+          "correct": false,
+          "explanation": "문자 정렬은 숫자의 크기 순서와 다를 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "문자열별 빈도 내림차순으로 정렬한다.",
+          "correct": false,
+          "explanation": "몇 번 등장했는지의 순서는 상영시간의 짧고 긴 순서가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "각 문자열에 임의의 순번을 새로 붙인다.",
+          "correct": false,
+          "explanation": "임의의 순번은 분 단위 크기를 보존하지 않을 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "수치형으로 변환해 값의 오름차순으로 정렬한다.",
+          "correct": true,
+          "explanation": "단위를 확인한 시간값을 숫자로 다루면 8·90·120분의 크기 순서를 얻는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            15,
+            16
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "처리 판단",
+      "supplemental": false,
+      "review": "문자열로 읽혔다는 사실과 변수의 실제 의미는 다르다. 여기서는 모든 값이 영화 길이의 분 단위라고 확인했으므로 숫자로 변환해 크기순으로 정렬한다. 문자 정렬이나 등장 빈도 순서는 짧은 영화부터 나열한다는 목적과 다르다.",
+      "memoryTip": "의미와 단위를 확인한 뒤 계산·정렬에 맞는 자료형으로 바꾼다.",
+      "additionalExample": "숫자 문자열 '2'와 '10'도 문자 정렬과 수치 정렬의 결과가 다를 수 있으므로 측정값이면 숫자로 변환해 비교한다.",
+      "detailedExplanation": {
+        "concept": "자료형은 저장과 연산 방식을 나타내고 변수의 의미는 무엇을 측정했는지 나타낸다. 수치 측정값이 문자열로 읽힐 수 있으므로 문자인지 숫자인지만으로 범주 여부를 결정하지 않는다. 모든 값의 단위가 같은 분이라고 확인한 뒤 수치 변환하면 길이 비교와 평균 같은 계산을 할 수 있다. 변환에 실패한 값은 별도로 확인한다.",
+        "steps": [
+          "모든 값이 영화의 분 단위 길이라는 사전 확인 조건을 읽는다.",
+          "문자 정렬 결과가 8분보다 120분을 먼저 놓는지 확인한다.",
+          "값을 수치형으로 변환한 뒤 오름차순 정렬을 적용한다."
+        ],
+        "pitfall": "단위를 확인하지 않은 채 문자열에서 숫자만 뽑아 서로 다른 양을 한꺼번에 정렬하지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-004",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "data-forms",
+          "charts-time"
+        ]
+      },
+      "prompt": "release_year를 1990~1999는 '1990년대', 2000~2009는 '2000년대'로 묶었다. 시대별 작품 구성비를 구할 때 새로 만든 열을 사용하는 역할은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "개별 작품의 길이 측정값",
+          "correct": false,
+          "explanation": "시대 구간은 상영시간이나 시즌 수를 측정한 값이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "공개 시기를 묶은 범주값",
+          "correct": true,
+          "explanation": "공개연도를 구간으로 묶어 시대별 작품 수와 비율을 집계할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "개별 작품을 구별하는 식별값",
+          "correct": false,
+          "explanation": "같은 시대에 공개된 여러 작품이 같은 값을 가지므로 작품 식별자가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "공개와 등록 사이의 시간차",
+          "correct": false,
+          "explanation": "시대 라벨은 공개연도를 묶은 것이며 등록 연도를 빼서 만든 차이가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C19",
+        "web-c30",
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            15,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "사례 판단",
+      "supplemental": false,
+      "review": "연도는 시간의 위치를 나타내지만 분석 목적에 맞춰 시대 구간으로 묶을 수 있다. '1990년대' 같은 파생 라벨은 여러 작품이 속하는 범주다. 시대별 작품 구성비를 구할 때 이 범주로 집계하며, 각 작품의 식별자나 등록 시차로 읽지 않는다.",
+      "memoryTip": "시간값을 구간으로 묶으면 그 구간을 범주로 비교할 수 있다.",
+      "additionalExample": "상영시간을 원래 분 값으로 분석할 수도 있고 짧음·보통·김이라는 기준 구간으로 묶어 구성비를 비교할 수도 있다.",
+      "detailedExplanation": {
+        "concept": "변수의 분석 역할은 원래 값뿐 아니라 어떤 파생값을 만들었는지에 따라서도 달라진다. release_year는 최초 공개 시점을 나타내는 연도다. 이를 십 년 단위 구간으로 묶으면 시대별 범주를 얻는다. 범주에는 시간 순서가 있지만 개별 작품의 정확한 공개연도 정보보다 거칠며, 구성비 질문에는 그 구간별 집계를 사용할 수 있다.",
+        "steps": [
+          "파생 열이 공개연도를 십 년 단위로 묶은 결과라는 점을 읽는다.",
+          "여러 작품이 같은 시대 라벨을 가질 수 있다는 점을 확인한다.",
+          "시대별 작품 수와 구성비를 구하는 범주값으로 연결한다."
+        ],
+        "pitfall": "시대별 라벨을 만들었다고 작품의 정확한 연도 정보까지 그대로 담고 있다고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-005",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "netflix-schema"
+        ]
+      },
+      "prompt": "rating에 있는 8개 시청 등급의 작품 수를 모두 비교하려 한다. 등급 사이의 작은 건수 차이를 같은 축에서 읽기에 가장 직접적인 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "등급별 비중의 원그래프",
+          "correct": false,
+          "explanation": "전체 구성은 볼 수 있지만 비슷한 크기의 범주를 정밀하게 비교하기에는 막대가 더 직접적이다."
+        },
+        {
+          "id": "o2",
+          "text": "등급별 작품 수 막대그래프",
+          "correct": true,
+          "explanation": "공통 기준선 위 막대의 길이로 각 등급의 건수를 비교할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "등급 코드의 히스토그램",
+          "correct": false,
+          "explanation": "임의의 등급 코드를 수치 구간으로 묶으면 등급별 개수 비교 목적과 어긋날 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "등급 코드와 행 번호의 산점도",
+          "correct": false,
+          "explanation": "작품 수를 등급별로 집계하지 않아 범주별 건수 비교에 직접 답하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "n34-C19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "방법 선택",
+      "supplemental": false,
+      "review": "시청 등급은 범주형이고 질문은 등급마다 몇 작품이 있는지다. 각 범주의 빈도를 먼저 집계하고 막대 높이로 비교하면 된다. 원그래프도 구성을 보여 주지만 비슷한 건수의 정밀 비교에는 공통 축의 막대가 더 직접적이다.",
+      "memoryTip": "범주마다 몇 개인지를 같은 기준선에서 비교한다.",
+      "additionalExample": "제작 국가별 작품 수를 비교할 때도 국가별 빈도를 집계한 막대그래프로 작은 차이를 읽을 수 있다.",
+      "detailedExplanation": {
+        "concept": "그래프 선택은 변수 종류와 질문 목적을 함께 본다. 범주형 변수의 빈도를 비교할 때는 각 범주의 작품 수를 계산해 공통 축의 길이로 표시할 수 있다. 숫자 코드를 임의 구간으로 묶는 히스토그램과는 집계 방식이 다르다. 원그래프가 가능한 상황에서도 정밀한 크기 비교라는 목적이면 막대가 더 직접적인 선택이 된다.",
+        "steps": [
+          "rating이 수치 점수가 아니라 시청 등급의 범주임을 확인한다.",
+          "질문이 각 등급의 작품 수 차이를 정밀하게 비교하는 것임을 읽는다.",
+          "등급별 빈도를 공통 축으로 보여 주는 막대그래프를 선택한다."
+        ],
+        "pitfall": "시청 등급을 숫자로 부호화했다고 코드 간격을 실제 양의 차이처럼 그래프에 쓰지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-006",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "두 영화 집단의 평균 길이는 같다. 짧은 영화와 긴 영화가 어느 구간에 몰려 있는지 분포 모양을 비교하려 한다. 가장 적절한 방법은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "집단별 평균 길이만 막대로 표시한다.",
+          "correct": false,
+          "explanation": "평균이 같다는 사실은 보여도 구간별 몰림이나 분포 모양을 보여 주지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "두 집단의 전체 작품 수만 원으로 표시한다.",
+          "correct": false,
+          "explanation": "작품 수의 비중은 길이가 어느 구간에 몰렸는지 알려 주지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "집단별 중앙값 하나만 점으로 표시한다.",
+          "correct": false,
+          "explanation": "중앙값 하나만으로 분포의 봉우리나 꼬리 모양을 비교하기 어렵다."
+        },
+        {
+          "id": "o4",
+          "text": "같은 분 구간을 사용한 집단별 히스토그램을 그린다.",
+          "correct": true,
+          "explanation": "같은 구간별 빈도나 비율을 비교하면 길이의 몰림과 꼬리 모양을 탐색할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "web-c28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "방법 선택",
+      "supplemental": false,
+      "review": "평균이 같아도 분포는 다를 수 있다. 질문이 어느 길이 구간에 작품이 몰렸는지라면 여러 구간의 빈도나 비율을 봐야 한다. 두 집단에 같은 구간을 사용한 히스토그램을 비교하고, 표본 수가 다르면 상대도수와 유효 N도 함께 확인한다.",
+      "memoryTip": "대표값이 같다는 것과 분포 모양이 같다는 것은 다르다.",
+      "additionalExample": "모든 값이 평균 근처에 있는 집단과 짧은 작품·긴 작품으로 나뉜 집단은 평균이 같아도 히스토그램 모양이 다를 수 있다.",
+      "detailedExplanation": {
+        "concept": "히스토그램은 수치 값을 구간에 넣어 각 구간의 빈도나 비율을 보여 준다. 평균이나 중앙값 한 개는 대표 위치를 요약하지만 전체 분포 모양을 보존하지 않는다. 몰림과 꼬리를 비교하려면 같은 구간과 축을 사용하는 것이 좋다. 집단 크기가 다를 때는 건수 차이와 분포 비율 차이를 나누어 해석한다.",
+        "steps": [
+          "알고 싶은 것이 평균 차이가 아니라 길이 구간의 몰림이라는 점을 읽는다.",
+          "대표값 한 개나 전체 작품 수만으로는 그 질문에 답하기 어렵다고 확인한다.",
+          "같은 분 구간의 집단별 히스토그램으로 분포 모양을 비교한다."
+        ],
+        "pitfall": "두 평균이 같다는 사실만으로 짧고 긴 작품의 분포도 같다고 결론 내리지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-007",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda",
+          "netflix-schema"
+        ]
+      },
+      "prompt": "Movie·TV Show 각각에서 PG·R·TV-MA가 몇 작품씩 있는지 조합 전체를 격자로 비교하려 한다. 먼저 만들 자료와 표현의 조합은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "유형×등급의 교차표와 히트맵",
+          "correct": true,
+          "explanation": "두 범주의 조합별 건수를 표의 셀로 만들고 색으로 표현할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "유형 코드의 평균과 히스토그램",
+          "correct": false,
+          "explanation": "유형 코드 평균은 유형×등급의 작품 수를 요약하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "등급 코드의 사분위수와 상자그림",
+          "correct": false,
+          "explanation": "임의 등급 코드의 수치 분포보다 두 범주의 조합별 집계가 필요하다."
+        },
+        {
+          "id": "o4",
+          "text": "작품 행 번호와 유형 코드의 산점도",
+          "correct": false,
+          "explanation": "행 번호와 유형만 표시하면 등급 조합별 건수를 보여 주지 못한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c29",
+        "n34-C19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "방법 선택",
+      "supplemental": false,
+      "review": "type과 rating은 모두 범주형이다. 조합별 작품 수를 묻는다면 유형을 행, 등급을 열로 두는 교차표를 만들 수 있다. 그 셀 값을 히트맵으로 표현하면 조합 전체를 비교할 수 있다. 코드의 평균이나 사분위수는 이 질문의 집계가 아니다.",
+      "memoryTip": "두 범주의 조합을 셀로 만들고 각 셀에 무엇을 셌는지 적는다.",
+      "additionalExample": "국가와 등급을 비교할 때도 조합별 수를 교차표로 만들 수 있으나 복수 국가를 어떻게 나눴는지 함께 밝혀야 한다.",
+      "detailedExplanation": {
+        "concept": "교차표는 두 범주형 변수의 조합별 관측 수를 행과 열에 배치한다. 히트맵은 이 표의 셀 값을 색으로 보여 주는 방식이다. 유형과 등급을 숫자로 바꾼 뒤 평균을 내는 것보다 범주의 의미를 유지한 조합별 집계가 질문에 직접 답한다. 건수표인지 비율표인지에 따라 셀의 해석은 달라지므로 표시 단위도 확인한다.",
+        "steps": [
+          "두 열이 작품 유형과 시청 등급이라는 범주값임을 확인한다.",
+          "질문이 두 범주의 조합마다 몇 작품인지 묻는다는 점을 읽는다.",
+          "유형과 등급의 교차표를 만든 뒤 그 셀을 히트맵으로 표시한다."
+        ],
+        "pitfall": "히트맵 색이 나타내는 값이 건수인지 비율인지 확인하지 않고 조합 규모를 비교하지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-008",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "Movie만 남겨 국가별 상영시간의 중앙값과 가운데 절반의 퍼짐을 함께 비교하려 한다. 가장 직접적인 표현은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "국가별 평균 길이 막대그래프",
+          "correct": false,
+          "explanation": "평균 하나로는 중앙값과 가운데 절반의 범위를 함께 보여 주지 못한다."
+        },
+        {
+          "id": "o2",
+          "text": "국가별 작품 수 막대그래프",
+          "correct": false,
+          "explanation": "국가별 규모를 보여 주지만 상영시간 분포의 중심과 퍼짐은 보여 주지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "국가별 상영시간 상자그림",
+          "correct": true,
+          "explanation": "집단마다 중앙값과 Q1~Q3 범위를 함께 표시할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "전체 영화를 합친 길이 히스토그램",
+          "correct": false,
+          "explanation": "전체 분포는 보이지만 국가별 중심과 퍼짐을 나누어 비교하지 못한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c28",
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "방법 선택",
+      "supplemental": false,
+      "review": "국가는 집단을 나누는 범주이고 상영시간은 분 단위 수치다. 집단별 중앙값과 가운데 절반의 퍼짐을 비교할 목적에는 상자그림이 직접적이다. 평균만 표시한 막대나 국가를 합친 전체 히스토그램은 원하는 정보를 모두 보여 주지 못한다.",
+      "memoryTip": "집단별 수치의 중심과 퍼짐을 함께 물으면 분포 요약을 본다.",
+      "additionalExample": "같은 평균 길이를 가진 국가 집단도 중앙값과 Q1~Q3 폭이 다를 수 있으므로 유효 작품 수와 분포를 함께 비교한다.",
+      "detailedExplanation": {
+        "concept": "상자그림은 수치 분포의 중앙값과 사분위 범위를 요약한다. 범주별로 나누어 그리면 집단의 대표 위치와 가운데 값들의 퍼짐을 함께 비교할 수 있다. 범주형과 수치형이 함께 있다고 평균 막대만 정답인 것은 아니다. 질문이 평균 한 값인지 전체적인 분포 요약인지에 따라 표현을 선택한다.",
+        "steps": [
+          "국가는 집단 구분이고 길이는 비교할 수치라는 역할을 나눈다.",
+          "질문이 평균만이 아니라 중앙값과 가운데 절반의 퍼짐을 함께 요구함을 읽는다.",
+          "국가별 상자그림을 선택하고 집단별 유효 작품 수도 함께 확인한다."
+        ],
+        "pitfall": "상자그림의 상자 길이를 작품 수라고 읽거나 집단 차이만으로 인과를 단정하지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-009",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "lecture",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda",
+          "netflix-schema"
+        ]
+      },
+      "prompt": "작품마다 공개연도와 상영시간을 대응시켜 그린 그림이다. 점 하나가 나타내는 대상으로 알맞은 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "해당 연도의 모든 영화 길이 평균",
+          "correct": false,
+          "explanation": "연도별 평균 집계가 아니라 각 작품의 두 관측값을 좌표로 놓았다."
+        },
+        {
+          "id": "o2",
+          "text": "해당 연도의 전체 등록 작품 수",
+          "correct": false,
+          "explanation": "세로축은 등록 건수가 아니라 분 단위 상영시간이다."
+        },
+        {
+          "id": "o3",
+          "text": "해당 연도에 포함된 모든 장르 관계",
+          "correct": false,
+          "explanation": "점은 장르 관계 수로 집계한 결과가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "한 작품의 공개연도와 길이 한 쌍",
+          "correct": true,
+          "explanation": "산점도에서 각 작품의 공개연도와 상영시간을 두 축의 좌표로 나타냈다."
+        }
+      ],
+      "visual": {
+        "kind": "scatter",
+        "title": "가상 영화 관측값",
+        "xLabel": "공개연도",
+        "yLabel": "상영시간(분)",
+        "labels": [
+          "a",
+          "b",
+          "c"
+        ],
+        "series": [
+          {
+            "name": "관측값",
+            "xValues": [
+              2010,
+              2015,
+              2020
+            ],
+            "values": [
+              80,
+              100,
+              90
+            ]
+          }
+        ],
+        "note": "학습용 값이며 실제 카탈로그 통계가 아니다.",
+        "sharedYearAxes": false
+      },
+      "conceptIds": [
+        "web-c30",
+        "web-c19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            13,
+            14,
+            49,
+            50
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "그림 해석",
+      "supplemental": false,
+      "review": "공개연도와 상영시간의 관계를 작품별로 그린 산점도에서는 점 하나가 작품 하나의 관측값 한 쌍이다. 가로축은 시간의 위치, 세로축은 길이를 나타낸다. 연도별 작품 수나 평균으로 집계한 점과는 관찰 단위가 다르다.",
+      "memoryTip": "점을 읽기 전에 한 점이 원래 관측인지 집계 결과인지 확인한다.",
+      "additionalExample": "같은 연도의 영화 두 편은 같은 가로 좌표에 놓일 수 있지만 길이가 다르면 서로 다른 세로 좌표에 나타난다.",
+      "detailedExplanation": {
+        "concept": "산점도는 각 관측 대상의 두 수치값을 가로축과 세로축의 좌표로 나타낸다. 이 문제는 작품별 공개연도와 길이를 직접 대응시켰으므로 점 하나가 작품 하나다. 연도가 축에 있다고 연도별 빈도 그래프가 되는 것은 아니다. 같은 축 변수라도 작품별 원자료를 그렸는지 연도별로 집계했는지에 따라 점의 의미가 달라진다.",
+        "steps": [
+          "가로축은 공개연도이고 세로축은 상영시간이라는 두 값을 읽는다.",
+          "문제에서 각 작품의 값을 대응시켰다는 관찰 단위를 확인한다.",
+          "점 하나를 한 작품의 연도와 길이 한 쌍으로 해석한다."
+        ],
+        "pitfall": "가로축에 연도가 있다는 이유만으로 세로축도 연도별 작품 수라고 추측하지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-010",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "netflix-schema"
+        ]
+      },
+      "prompt": "같은 해의 월별 Netflix 등록 건수를 시간 흐름에 따라 선으로 연결하려 한다. 월 라벨이 문자 정렬로 '1월·10월·2월' 순서다. 먼저 할 수정은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "등록 건수 내림차순으로 월을 재배치한다.",
+          "correct": false,
+          "explanation": "크기 순서는 높은 달을 찾는 데 쓰지만 시간 흐름의 순서는 보존하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "실제 월의 시간 순서로 집계값을 정렬한다.",
+          "correct": true,
+          "explanation": "시계열 변화는 월의 시간 순서를 맞춘 뒤 연결해야 한다."
+        },
+        {
+          "id": "o3",
+          "text": "원본 파일에서 나타난 월 순서로 연결한다.",
+          "correct": false,
+          "explanation": "원본 등장 순서가 실제 시간 순서를 보장하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "현재 순서를 유지하고 점 간격만 동일하게 둔다.",
+          "correct": false,
+          "explanation": "간격만 같게 해도 10월이 2월보다 먼저 놓인 시간 순서 문제는 남는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c30",
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "처리 판단",
+      "supplemental": false,
+      "review": "시간 흐름을 보려면 월을 실제 순서대로 놓아야 한다. 문자열을 그대로 정렬하면 10월이 2월보다 먼저 올 수 있다. 날짜나 월 숫자로 순서를 확인해 집계값을 정렬한다. 작품 수 크기로 정렬하는 것은 순위 질문에는 맞지만 시간 추이 질문과는 다르다.",
+      "memoryTip": "순위 비교는 값의 순서, 시간 추이는 사건의 시간 순서를 보존한다.",
+      "additionalExample": "연도와 월을 함께 다룰 때는 월 숫자만 정렬하지 말고 2020년 12월 다음에 2021년 1월이 오도록 확인한다.",
+      "detailedExplanation": {
+        "concept": "선그래프의 연결 순서는 관측 사이 관계의 해석에 영향을 준다. 시계열에서는 실제 시간의 앞뒤가 중요하므로 날짜나 월 순서대로 값을 놓는다. 문자 라벨의 사전 순서나 값의 크기 순서는 다른 정렬 목적이다. 등록 추이를 묻는다면 공개연도가 아니라 등록일에서 만든 월을 사용했는지도 함께 확인한다.",
+        "steps": [
+          "질문 목적이 월의 순위가 아니라 등록 건수의 시간 흐름임을 읽는다.",
+          "문자 정렬의 1월·10월·2월 순서가 시간 순서와 다름을 확인한다.",
+          "실제 월 순서로 집계값을 정렬한 뒤 선으로 연결한다."
+        ],
+        "pitfall": "막대그래프에서 유용한 값 내림차순 정렬을 시간 추이 그래프에도 그대로 적용하지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-011",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "가상 영화 표를 장르별로 집계한 그림이다. 이 그림만으로 직접 비교할 수 있는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "장르별 상영시간의 사분위범위",
+          "correct": false,
+          "explanation": "중앙값만 표시했으므로 Q1과 Q3의 차이는 이 그림에서 알 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "장르별 유효 작품 수",
+          "correct": false,
+          "explanation": "막대 높이는 작품 수가 아니라 분 단위 중앙값이다."
+        },
+        {
+          "id": "o3",
+          "text": "장르별 상영시간의 중앙값",
+          "correct": true,
+          "explanation": "세로축의 집계값이 중앙값이므로 드라마 100분과 코미디 85분을 비교한다."
+        },
+        {
+          "id": "o4",
+          "text": "장르별 가장 빈번한 길이 구간",
+          "correct": false,
+          "explanation": "길이 구간별 빈도가 아니라 대표값 하나씩을 표시한 그림이다."
+        }
+      ],
+      "visual": {
+        "kind": "bar",
+        "title": "가상 영화 집계",
+        "xLabel": "장르",
+        "yLabel": "중앙값(분)",
+        "labels": [
+          "드라마",
+          "코미디"
+        ],
+        "series": [
+          {
+            "name": "집계값",
+            "values": [
+              100,
+              85
+            ]
+          }
+        ],
+        "note": "학습용 집계이며 영화의 분 단위 값만 사용했다."
+      },
+      "conceptIds": [
+        "web-c27",
+        "web-c28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "그림 해석",
+      "supplemental": false,
+      "review": "막대그래프는 빈도뿐 아니라 범주별 평균이나 중앙값도 표현할 수 있다. 이 그림의 세로축은 중앙값을 분으로 표시했다. 따라서 장르별 대표 길이는 비교할 수 있지만 작품 수나 사분위범위, 최빈 길이 구간은 별도 자료가 필요하다.",
+      "memoryTip": "막대 모양만 보지 말고 세로축의 집계값과 단위를 읽는다.",
+      "additionalExample": "국가별 평균 상영시간 막대의 높이가 100이라고 해서 그 국가 작품이 100편이라는 뜻은 아니다.",
+      "detailedExplanation": {
+        "concept": "범주를 가로축으로 둔 막대의 높이는 선택한 집계 함수에 따라 달라진다. 빈도 집계면 건수이고 평균이나 중앙값을 계산했다면 수치 변수의 대표값이다. 대표값 하나로는 분포 전체의 퍼짐이나 구간별 빈도를 복원할 수 없다. 그래프 유형을 알아도 축과 집계 정의를 읽지 않으면 값의 뜻을 잘못 해석할 수 있다.",
+        "steps": [
+          "가로축이 장르 범주이고 세로축이 중앙값의 분 단위임을 확인한다.",
+          "두 막대에서 드라마 100분과 코미디 85분이라는 대표값을 읽는다.",
+          "표시되지 않은 작품 수나 퍼짐 대신 중앙값만 직접 비교한다."
+        ],
+        "pitfall": "범주형 변수를 가로축에 놓았다는 이유로 모든 막대 높이를 빈도라고 읽지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-012",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "lecture",
+        "focusIds": [
+          "data-forms",
+          "netflix-schema"
+        ]
+      },
+      "prompt": "작품별 요약 표에 출연배우 수·작품 번호·등급 코드·국가 코드가 모두 정수로 저장됐다. 양의 크기를 요약하는 평균으로 가장 자연스러운 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품당 출연배우 수의 평균",
+          "correct": true,
+          "explanation": "출연배우 수는 인원이라는 양을 세는 이산 수치여서 작품당 평균을 해석할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "작품 번호의 평균",
+          "correct": false,
+          "explanation": "작품 번호는 식별값이므로 그 평균을 작품 규모의 측정값으로 해석하기 어렵다."
+        },
+        {
+          "id": "o3",
+          "text": "시청 등급 코드의 평균",
+          "correct": false,
+          "explanation": "등급에 붙인 임의 코드는 실제 양의 간격을 보장하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "제작 국가 코드의 평균",
+          "correct": false,
+          "explanation": "국가 식별 코드를 평균 낸 값은 인원이나 길이 같은 양을 뜻하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19",
+        "n34-C19",
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            2,
+            3,
+            4,
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "요약 판단",
+      "supplemental": false,
+      "review": "같은 정수라도 개수를 센 값과 이름 대신 붙인 코드는 다르다. 출연배우 수는 인원 수라는 양이고 작품당 평균을 해석할 수 있다. 작품 번호·등급 코드·국가 코드는 식별과 분류에 쓰이므로 코드 평균을 양의 대표값처럼 읽지 않는다.",
+      "memoryTip": "정수에는 개수를 센 수치와 대상을 구별하는 코드가 함께 있을 수 있다.",
+      "additionalExample": "교실 번호와 수강 인원이 모두 정수여도 평균 수강 인원은 해석할 수 있지만 평균 교실 번호가 평균 공간 크기를 뜻하지는 않는다.",
+      "detailedExplanation": {
+        "concept": "수치형 변수에는 길이처럼 측정한 값뿐 아니라 인원 수처럼 센 값도 포함된다. 이산적인 정수라는 이유로 범주형으로만 다룰 필요는 없다. 반면 임의로 배정한 코드의 숫자는 대상이나 종류를 구별할 뿐이다. 평균이 어떤 단위의 양으로 해석되는지 확인하면 개수 변수와 코드 변수를 구별하기 쉽다.",
+        "steps": [
+          "네 열이 모두 정수라는 저장 형식 외에 실제 의미를 살핀다.",
+          "출연배우 수는 인원이라는 양을 세고 나머지는 코드를 나타냄을 확인한다.",
+          "작품당 평균 인원으로 해석할 수 있는 출연배우 수를 선택한다."
+        ],
+        "pitfall": "정수인 개수 자료를 모두 범주로만 보거나 정수 코드에 측정 단위를 부여하지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-013",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "lecture",
+        "focusIds": [
+          "data-forms"
+        ]
+      },
+      "prompt": "자료 사전에는 학번은 학생 식별, 길이는 분 단위, 국가 코드는 제작 국가 식별, 출연배우 수는 인원 집계라고 적혀 있다. 양의 크기를 나타내는 수치형 변수를 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "분 단위 길이",
+          "correct": true,
+          "explanation": "길이는 단위가 있는 측정값으로 차이와 평균을 해석할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "숫자로 저장된 학번",
+          "correct": false,
+          "explanation": "학번은 학생을 구별하는 식별값이며 숫자 차이가 학생의 양을 뜻하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "작품별 출연배우 수",
+          "correct": true,
+          "explanation": "인원을 세어 얻은 개수는 이산적인 수치형 변수다."
+        },
+        {
+          "id": "o4",
+          "text": "숫자로 저장된 국가 코드",
+          "correct": false,
+          "explanation": "국가 코드는 범주를 구별하는 값이지 국가의 크기나 수량 측정값이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "web-c19",
+        "n12-c-data-forms"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            2,
+            3,
+            4,
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "사례 판단",
+      "supplemental": false,
+      "review": "분석 분류에서는 자료 사전의 뜻을 먼저 읽는다. 길이는 측정한 양이고 배우 수는 센 양이므로 모두 수치형이다. 학번과 국가 코드는 식별 또는 분류를 위한 표기다. 코드가 숫자라는 사실과 그 숫자가 양을 나타낸다는 것은 구별한다.",
+      "memoryTip": "측정한 양과 센 개수는 수치, 식별용 번호는 코드로 읽는다.",
+      "additionalExample": "우편번호와 주문 금액이 둘 다 숫자여도 우편번호는 지역을 구별하고 주문 금액은 돈의 양을 나타낸다.",
+      "detailedExplanation": {
+        "concept": "범주형과 수치형을 나누는 판단은 문자의 존재 여부보다 의미에 달려 있다. 연속적으로 측정한 길이와 정수로 센 개수는 모두 양을 나타낸다. 반면 학생이나 국가를 구별하려고 붙인 숫자는 식별자나 범주 코드다. 자료 사전이 주어지면 그 용도를 확인한 뒤 적절한 집계와 그래프를 정한다.",
+        "steps": [
+          "자료 사전에서 각 숫자가 무엇을 나타내는지 먼저 확인한다.",
+          "측정 길이와 집계 인원은 양의 크기를 가진 값으로 분류한다.",
+          "학번과 국가 코드는 식별 목적이므로 수치 측정 변수에서 구별한다."
+        ],
+        "pitfall": "같은 숫자 저장 형식이라는 이유로 코드의 평균과 측정값의 평균에 같은 의미를 붙이지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-014",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "charts-time",
+          "data-forms"
+        ]
+      },
+      "prompt": "release_year를 분석할 때 적절한 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품을 구별하는 번호이므로 연도의 앞뒤는 해석하지 않는다.",
+          "correct": false,
+          "explanation": "release_year는 작품 식별번호가 아니라 최초 공개 시점의 연도다."
+        },
+        {
+          "id": "o2",
+          "text": "두 공개연도의 차이는 연도 단위의 시간 간격이다.",
+          "correct": true,
+          "explanation": "연도의 차이는 몇 년 떨어졌는지를 나타내며 정확한 일수 차이와는 구별한다."
+        },
+        {
+          "id": "o3",
+          "text": "공개연도 평균은 한 작품을 제작한 평균 소요 기간이다.",
+          "correct": false,
+          "explanation": "시점의 대표값과 시작부터 끝까지 걸린 기간은 다른 개념이다."
+        },
+        {
+          "id": "o4",
+          "text": "시대 구간으로 묶어 구간별 작품 수를 비교할 수 있다.",
+          "correct": true,
+          "explanation": "공개 시점을 시대 범주로 만들면 그 범주별 빈도와 구성을 볼 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C19",
+        "web-c30",
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            15,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "사례 판단",
+      "supplemental": false,
+      "review": "release_year는 숫자로 저장된 시간의 위치다. 두 값의 차이를 연 단위 간격으로 해석하거나 시대별 구간으로 묶어 빈도를 비교할 수 있다. 연도의 평균을 계산하더라도 그것은 공개 시점의 요약이지 작품 제작에 걸린 기간을 나타내지는 않는다.",
+      "memoryTip": "시점·기간·시대 구간을 서로 다른 분석 값으로 구별한다.",
+      "additionalExample": "입학 연도 평균은 입학 시점의 요약이며 각 학생이 졸업까지 걸린 평균 학업 기간과는 다르다.",
+      "detailedExplanation": {
+        "concept": "연도는 시간상 위치를 나타내는 숫자다. 연도 차이는 시간 간격을 표현하고 연도를 묶은 라벨은 시대별 범주를 만든다. 어떤 요약을 쓰는지는 분석 목적에 달려 있다. 연도 평균을 사용할 수 없다고 일반화할 필요는 없지만 그 값을 제작 기간이나 등록 지연처럼 다른 사건의 길이로 해석하지 않도록 주의한다.",
+        "steps": [
+          "release_year가 최초 공개 시점이라는 열의 의미를 확인한다.",
+          "연도 차이는 시간 간격이고 시대 구간은 범주별 집계가 가능함을 연결한다.",
+          "공개 시점의 요약을 제작 소요 기간으로 바꾼 설명은 제외한다."
+        ],
+        "pitfall": "숫자 계산이 가능하다는 이유만으로 계산 결과에 원래 기록하지 않은 기간의 의미를 붙이지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-015",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "data-forms",
+          "charts-time"
+        ]
+      },
+      "prompt": "duration에 '95 min'·'3 Seasons'·'125 min'이 있다. 이 열을 분석하는 방법으로 적절한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "영화의 분 단위 값을 나누어 수치 분포를 탐색한다.",
+          "correct": true,
+          "explanation": "유형과 단위를 확인해 분 단위 영화 길이만 비교하면 수치 분포를 볼 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "문자열이므로 수치 의미를 추출하지 않고 범주 빈도만 허용한다.",
+          "correct": false,
+          "explanation": "문자열 안의 값과 단위를 확인하면 길이 또는 시즌 수의 수치값을 추출할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "숫자만 추출해 95·3·125를 같은 단위의 길이로 본다.",
+          "correct": false,
+          "explanation": "3시즌과 95분은 서로 다른 단위이므로 같은 길이로 섞지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "TV의 시즌 수는 같은 단위끼리 개수의 분포를 볼 수 있다.",
+          "correct": true,
+          "explanation": "시즌 수는 이산 수치이며 TV만 구분해 값별 빈도 등을 분석할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C19",
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            15,
+            16
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "처리 판단",
+      "supplemental": false,
+      "review": "duration은 원래 문자열이지만 숫자의 의미를 추출할 수 있다. 영화의 분과 TV의 시즌 수를 유형과 단위로 분리해야 한다. 분 단위 영화 길이 분포와 TV 시즌 수의 분포는 각각 탐색할 수 있지만 서로 다른 단위를 한 수치 분포로 합치지는 않는다.",
+      "memoryTip": "문자형 저장 여부보다 안에 담긴 값과 단위를 확인한다.",
+      "additionalExample": "같은 열에 80cm와 2m가 있으면 단위를 확인해 변환할 수 있지만 80분과 2시즌은 단순 길이 단위 변환으로 합칠 수 없다.",
+      "detailedExplanation": {
+        "concept": "원자료의 문자열은 범주 이름일 수도 있고 숫자와 단위를 합친 표현일 수도 있다. duration은 유형에 따라 영화 길이와 TV 시즌 수를 담는다. 수치 분석을 하려면 숫자뿐 아니라 단위를 함께 추출해야 한다. 같은 단위 안에서 길이나 개수 분포를 비교하는 것은 가능하지만 서로 다른 양을 합쳐 하나의 평균이나 히스토그램으로 읽지는 않는다.",
+        "steps": [
+          "각 값에 min과 Seasons라는 다른 단위가 있다는 점을 확인한다.",
+          "영화와 TV를 나누고 같은 단위의 수치값끼리 정리한다.",
+          "영화 길이 분포와 TV 시즌 수 분포를 각각 탐색하는 방법을 고른다."
+        ],
+        "pitfall": "문자열이면 수치 분석이 불가능하다고 보거나 숫자를 뽑았으니 단위도 같아졌다고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-016",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "변수와 분석 목적을 함께 고려한 표현으로 적절한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "유형×등급의 조합 수는 임의 범주 코드의 산점도로 비교한다.",
+          "correct": false,
+          "explanation": "두 범주의 조합 수는 교차 집계가 필요하며 임의 코드의 위치 관계로 대신하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "유형×등급의 조합 수는 교차표를 히트맵으로 표시한다.",
+          "correct": true,
+          "explanation": "행과 열의 범주 조합마다 집계한 값을 셀의 색으로 표현할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "등급별 영화 길이의 중심과 퍼짐은 집단별 상자그림으로 비교한다.",
+          "correct": true,
+          "explanation": "등급은 집단 범주이고 길이는 수치이므로 분포 요약을 집단별로 비교할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "등급별 영화 길이의 퍼짐은 등급별 작품 수 막대로 판단한다.",
+          "correct": false,
+          "explanation": "작품 수는 집단 규모이며 길이의 퍼짐을 나타내지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c29",
+        "web-c28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "방법 선택",
+      "supplemental": false,
+      "review": "두 범주형 변수의 조합 수를 묻는 질문과 범주별 수치 분포를 묻는 질문은 다르다. 유형과 등급의 건수는 교차표 셀로 만들 수 있다. 등급별 영화 길이의 중심과 퍼짐은 수치 분포를 집단별로 요약해야 하므로 상자그림이 적절하다.",
+      "memoryTip": "변수 두 개라는 사실보다 조합 수인지 수치 분포인지 먼저 구별한다.",
+      "additionalExample": "국가×장르의 작품 관계 수와 국가별 상영시간 분포는 국가가 공통으로 있어도 집계와 표현의 목적이 다르다.",
+      "detailedExplanation": {
+        "concept": "범주형 두 개는 조합별 개수나 비율을 집계하는 질문에 자주 사용된다. 범주형과 수치형의 조합에서는 집단마다 수치의 평균이나 분포를 비교할 수 있다. 히트맵과 상자그림은 각각 이러한 목적을 표현하는 한 방법이다. 차트를 변수 개수만으로 고르지 말고 셀이나 막대가 어떤 양을 나타낼지 먼저 정한다.",
+        "steps": [
+          "유형과 등급은 두 범주이며 필요한 값이 조합별 건수임을 확인한다.",
+          "등급과 길이는 집단 범주와 비교할 수치라는 역할을 나눈다.",
+          "교차표 히트맵과 집단별 상자그림을 각 목적에 맞춰 연결한다."
+        ],
+        "pitfall": "집단 크기를 나타낸 작품 수 막대를 그 집단 길이 분포의 퍼짐으로 읽지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-017",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "lecture",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "㉠ 등록연도별 작품 수의 순서에 따른 변화를 본다. ㉡ 작품마다 공개연도와 길이의 관계를 본다. 목적에 맞게 연결한 방법을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "㉠은 연도순으로 놓은 집계값의 선그래프를 사용한다.",
+          "correct": true,
+          "explanation": "시점별 집계의 시간 순서에 따른 흐름을 연결해 볼 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "㉡은 작품별 두 값의 산점도를 사용한다.",
+          "correct": true,
+          "explanation": "각 작품의 공개연도와 길이를 한 쌍의 좌표로 표시해 관계를 탐색한다."
+        },
+        {
+          "id": "o3",
+          "text": "㉠은 연도 라벨을 숨긴 길이 히스토그램을 사용한다.",
+          "correct": false,
+          "explanation": "길이 구간별 분포는 등록연도별 집계의 시간 변화를 대신하지 못한다."
+        },
+        {
+          "id": "o4",
+          "text": "㉡은 각 공개연도의 작품 수 원그래프로 두 값의 관계를 본다.",
+          "correct": false,
+          "explanation": "연도별 작품 수 구성만 표시하면 작품별 길이와의 대응은 사라진다."
+        }
+      ],
+      "conceptIds": [
+        "web-c30",
+        "web-c19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            13,
+            14,
+            49,
+            50,
+            53,
+            54,
+            55
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "방법 선택",
+      "supplemental": false,
+      "review": "연도가 사용된다는 공통점만으로 같은 차트를 고르지 않는다. 등록연도별 작품 수는 시점별로 집계한 값의 시간 흐름이다. 공개연도와 길이를 작품마다 대응한 것은 개별 작품의 두 변수 관계다. 선의 점과 산점도의 점이 나타내는 단위도 다르다.",
+      "memoryTip": "시간별 집계의 흐름과 개별 관측의 두 값 관계를 구별한다.",
+      "additionalExample": "월별 평균 길이의 변화는 월 집계를 연결하고, 각 작품의 공개연도와 길이 관계는 작품별 좌표로 비교할 수 있다.",
+      "detailedExplanation": {
+        "concept": "선그래프는 시간순으로 배열한 집계의 변화를 보여 주는 데 쓰이고 산점도는 관측별 두 수치값의 대응을 나타내는 데 쓰인다. 같은 연도 변수가 있어도 점의 관찰 단위는 다를 수 있다. 무엇을 집계했는지와 한 점이 작품인지 시점별 요약인지 먼저 정하면 그래프의 선택과 해석을 함께 연결할 수 있다.",
+        "steps": [
+          "첫 질문의 한 점은 등록연도별로 센 작품 수라는 집계임을 읽는다.",
+          "두 번째 질문의 한 점은 작품 하나의 연도와 길이라는 쌍임을 확인한다.",
+          "시간 집계에는 선그래프를 작품별 관계에는 산점도를 연결한다."
+        ],
+        "pitfall": "가로축에 연도가 있으면 모두 시계열 집계라고 보고 점의 관찰 단위를 생략하지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-018",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "lecture",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "P는 장르별 작품 수, Q는 장르별 평균 상영시간을 막대로 그렸다. 두 그림을 해석하는 방법으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "둘 다 막대이므로 막대 높이는 작품 수로 읽는다.",
+          "correct": false,
+          "explanation": "P는 건수지만 Q는 분 단위의 평균 길이다."
+        },
+        {
+          "id": "o2",
+          "text": "Q의 평균값이 큰 장르는 P에서도 작품 수가 많다고 본다.",
+          "correct": false,
+          "explanation": "평균 길이와 작품 수는 다른 요약이며 어느 한쪽의 순위가 다른 순위를 결정하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "같은 막대 모양이어도 높이의 집계 의미는 다를 수 있다.",
+          "correct": true,
+          "explanation": "빈도 막대와 수치 요약 막대는 같은 형태로 그릴 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "장르가 범주형이어도 높이에 수치 변수의 평균을 표시할 수 있다.",
+          "correct": true,
+          "explanation": "범주로 집단을 나누고 각 집단의 수치 요약을 막대로 표현할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            11,
+            12,
+            46,
+            47,
+            48,
+            49
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "그림 해석",
+      "supplemental": false,
+      "review": "막대 모양이 그래프의 집계 함수를 정해 주지는 않는다. 작품 수를 센 막대와 평균 길이를 계산한 막대는 높이의 단위부터 다르다. 범주형 변수를 가로축에 쓰면서 수치형 변수의 평균이나 중앙값을 세로축에 표현하는 것도 가능하다.",
+      "memoryTip": "범주형 가로축이라고 세로축도 빈도라고 정하지 않는다.",
+      "additionalExample": "국가별 매출 합계와 국가별 고객 수를 모두 막대로 그릴 수 있지만 높이의 단위와 해석은 각각 다르다.",
+      "detailedExplanation": {
+        "concept": "막대그래프는 범주별로 정한 값을 길이로 표시하는 표현이다. 그 값은 빈도일 수도 있고 평균이나 합계 같은 수치 요약일 수도 있다. 따라서 변수 조합만으로 막대가 부적절하다고 판단하지 말고 표시할 집계값을 확인한다. 작품 수와 평균 길이는 다른 질문에 답하므로 순위가 다르게 나타나도 모순이 아니다.",
+        "steps": [
+          "P의 세로축은 작품 수이고 Q는 평균 길이라는 정의를 확인한다.",
+          "같은 장르 범주라도 서로 다른 집계값을 표시했다는 점을 읽는다.",
+          "막대의 모양보다 축의 단위와 집계 함수를 따라 각각 해석한다."
+        ],
+        "pitfall": "평균값이 큰 집단에 관측 수도 많다고 보거나 같은 막대 모양에 같은 단위를 붙이지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-019",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "lecture",
+        "focusIds": [
+          "data-forms",
+          "netflix-schema"
+        ]
+      },
+      "prompt": "CSV를 읽으니 국가 코드는 정수형이고 영화 길이는 문자열이었다. 변수 분류와 전처리 판단으로 적절한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "국가 코드는 정수여도 어떤 국가를 구별하는 값인지 확인한다.",
+          "correct": true,
+          "explanation": "숫자 저장 형식보다 국가 식별이라는 실제 의미가 분석 역할을 결정한다."
+        },
+        {
+          "id": "o2",
+          "text": "길이는 문자열이므로 수치 비교 대상에서 제외한다.",
+          "correct": false,
+          "explanation": "분 단위의 길이가 문자열로 표현된 것이라면 확인 후 수치로 변환할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "길이의 단위와 변환 가능 여부를 확인해 수치 분석을 준비한다.",
+          "correct": true,
+          "explanation": "문자열 안의 값과 단위를 확인하고 변환 실패를 점검하는 것이 적절하다."
+        },
+        {
+          "id": "o4",
+          "text": "국가 코드가 정수이므로 평균 코드를 국가 규모로 사용한다.",
+          "correct": false,
+          "explanation": "국가 코드의 평균은 국가 크기나 규모의 측정값이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C19",
+        "web-c27",
+        "web-c19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "web3",
+          "pages": [
+            2,
+            3,
+            4,
+            11,
+            12
+          ]
+        },
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "처리 판단",
+      "supplemental": false,
+      "review": "읽어 들인 자료형은 중요한 점검 정보지만 변수의 분석 의미를 대신하지 않는다. 국가 코드는 숫자라도 범주 식별값이고, 영화 길이는 문자열이라도 수치 측정값을 담을 수 있다. 길이는 단위와 변환 실패를 확인하고 같은 양끼리 수치로 비교한다.",
+      "memoryTip": "저장 자료형을 확인한 뒤 자료 사전의 뜻과 맞춰 본다.",
+      "additionalExample": "우편번호가 정수로 읽히고 금액이 쉼표를 포함한 문자열로 읽힌 경우에도 우편번호와 금액의 분석 의미는 서로 다르다.",
+      "detailedExplanation": {
+        "concept": "자동으로 읽힌 자료형은 파일의 표기와 파싱 규칙에 영향을 받는다. 숫자 코드는 정수로 읽혀도 범주를 구별하며 수치 측정값은 단위나 기호 때문에 문자열로 읽힐 수 있다. 분석 전에는 자료 사전과 실제 값을 확인해 적절히 변환한다. 자료형의 이름 하나만으로 가능한 계산과 불가능한 계산을 정하지 않는다.",
+        "steps": [
+          "국가 코드와 영화 길이가 각각 무엇을 나타내는지 확인한다.",
+          "길이에는 단위와 변환 실패 점검이 필요하다는 점을 읽는다.",
+          "코드는 범주로 이해하고 확인된 길이는 수치 분석을 준비한다."
+        ],
+        "pitfall": "정수형이면 수치 측정이고 문자열이면 범주라는 한 가지 규칙으로 모든 열을 분류하지 않는다."
+      }
+    },
+    {
+      "id": "graph-type-020",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "같은 Movie 표의 rating과 분 단위 길이를 사용한다. 분석 목적에 맞는 그래프 연결을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "등급별 길이의 가운데 절반 범위를 비교하려고 평균 막대를 쓴다.",
+          "correct": false,
+          "explanation": "평균 한 값만으로 Q1~Q3 범위를 알 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "등급별 길이의 중앙값과 퍼짐을 비교하려고 상자그림을 쓴다.",
+          "correct": true,
+          "explanation": "범주별 수치 분포를 중앙값과 사분위 범위로 요약할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "등급별 평균 길이만 비교하려고 작품 수 막대를 쓴다.",
+          "correct": false,
+          "explanation": "건수 집계는 평균 길이를 표시하지 않으므로 집계값이 목적과 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "등급별 평균 길이만 비교하려고 평균값 막대를 쓴다.",
+          "correct": true,
+          "explanation": "질문이 집단별 평균 한 값이면 그 요약값을 공통 축으로 비교할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "web-c28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "방법 선택",
+      "supplemental": false,
+      "review": "범주형과 수치형의 조합이라고 해서 그래프를 하나로 고정하지 않는다. 등급별 평균만 비교할 목적이면 평균 막대가 가능하고, 중앙값과 퍼짐을 함께 보려면 집단별 상자그림이 적절하다. 변수의 종류에 더해 원하는 요약과 분포 정보를 확인한다.",
+      "memoryTip": "변수 조합 다음에는 평균인지 분포인지 질문 목적을 확인한다.",
+      "additionalExample": "국가별 평균 길이 비교와 국가별 길이 분포 비교는 같은 두 열을 사용해도 보여 줘야 할 정보가 다르다.",
+      "detailedExplanation": {
+        "concept": "범주형 변수는 집단을 나누고 수치형 변수는 그 집단에서 요약하거나 분포를 비교할 대상을 제공한다. 어떤 그래프가 적절한지는 평균 하나를 묻는지 중앙값과 퍼짐을 묻는지에 따라 달라진다. 요약 막대가 가능한 질문도 있고 분포 요약이 필요한 질문도 있다. 각 차트에 실제로 무엇을 집계해 표시할지 함께 정해야 한다.",
+        "steps": [
+          "rating은 집단 범주이고 길이는 비교할 수치라는 역할을 확인한다.",
+          "평균 한 값을 요구하는 질문과 중심·퍼짐을 요구하는 질문을 나눈다.",
+          "평균 막대와 집단별 상자그림을 각 목적에 맞춰 선택한다."
+        ],
+        "pitfall": "범주형과 수치형이라는 조합만 외워 그래프를 하나로 고정하고 분석 목적을 생략하지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-001",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "팀이 영화마다 제목을 가로축, 상영시간을 막대 높이로 그렸다. '어느 길이대에 작품이 모이는가?'를 보려면 어떻게 바꾸는 것이 가장 직접적인가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "제목을 가나다순으로 바꾸고 같은 길이 막대를 유지한다.",
+          "correct": false,
+          "explanation": "작품별 값의 나열이며 길이 구간에 모인 정도를 직접 집계하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 영화의 길이를 합해 하나의 막대로 그린다.",
+          "correct": false,
+          "explanation": "총합 한 값은 길이가 어디에 모이는지 보여 주지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "길이를 구간으로 묶고 각 구간의 작품 수를 높이로 그린다.",
+          "correct": true,
+          "explanation": "수치 길이의 구간별 빈도로 바꾸면 분포를 살필 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "유형별 평균 길이만 계산해 두 막대로 그린다.",
+          "correct": false,
+          "explanation": "집단의 평균을 비교할 뿐 영화 길이의 분포는 사라진다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "자료 해석",
+      "review": "그래프 선택에는 변수의 종류와 함께 질문의 목적이 필요하다. 영화별 제목과 길이를 나열한 막대는 각 작품의 길이를 비교한다. 길이대별로 얼마나 모였는지 알고 싶다면 숫자 길이를 구간으로 나누고 빈도를 집계한 히스토그램이 직접적이다. 같은 원자료라도 작품별 비교, 평균 비교, 전체 분포는 서로 다른 질문이므로 집계부터 달라진다.",
+      "memoryTip": "작품별 길이와 길이별 빈도는 다르다",
+      "additionalExample": "학생 이름별 점수 막대와 점수 구간별 학생 수 히스토그램은 같은 점수표를 써도 서로 다른 질문에 답한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "그래프 선택에는 변수의 종류와 함께 질문의 목적이 필요하다. 영화별 제목과 길이를 나열한 막대는 각 작품의 길이를 비교한다. 길이대별로 얼마나 모였는지 알고 싶다면 숫자 길이를 구간으로 나누고 빈도를 집계한 히스토그램이 직접적이다. 같은 원자료라도 작품별 비교, 평균 비교, 전체 분포는 서로 다른 질문이므로 집계부터 달라진다.",
+        "steps": [
+          "현재 그림이 개별 작품의 길이를 나열하고 있다는 점을 먼저 확인한다.",
+          "질문이 작품별 순위가 아니라 상영시간 분포의 모임을 묻는지 확인한다.",
+          "길이 구간별 작품 수를 집계해 분포를 나타내는 그림으로 바꾼다."
+        ],
+        "pitfall": "수치 자료를 막대로 그렸다는 외형만으로 그것이 이미 히스토그램이라고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-002",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "국가별 영화 자료로 서로 다른 질문 두 개를 분석한다. 목적과 표현을 알맞게 연결한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "국가별 작품 수의 크기 비교 → 빈도 막대그래프",
+          "correct": true,
+          "explanation": "국가 범주별 관측 개수를 막대 높이로 비교한다."
+        },
+        {
+          "id": "o2",
+          "text": "국가별 길이 분포의 차이 비교 → 국가별 작품 수만 그린 막대",
+          "correct": false,
+          "explanation": "작품 개수만으로 각 국가 영화 길이의 분포를 알 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "국가별 영화 길이의 중심·퍼짐 비교 → 집단별 상자그림",
+          "correct": true,
+          "explanation": "국가로 나눈 수치 분포의 중앙값과 사분위 범위를 비교한다."
+        },
+        {
+          "id": "o4",
+          "text": "국가별 작품 수의 크기 비교 → 영화 길이 전체 히스토그램",
+          "correct": false,
+          "explanation": "길이 구간의 분포는 국가별 개수 비교와 다른 질문이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "web-c28",
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "사례 판단",
+      "review": "같은 국가 열을 쓰더라도 무엇을 비교할지에 따라 필요한 수치와 그림이 달라진다. 국가별 작품 수는 범주별 빈도라 막대그래프가 직접적이다. 국가별 영화 길이의 분포는 범주형 집단과 수치형 길이를 연결하므로 상자그림으로 중심과 퍼짐을 볼 수 있다. 그래프를 고를 때는 축에 등장하는 이름뿐 아니라 높이나 상자가 나타낼 계산값을 확인한다.",
+      "memoryTip": "같은 범주도 빈도와 분포 질문은 다름",
+      "additionalExample": "학과별 학생 수는 빈도 막대, 학과별 시험 점수의 중심과 퍼짐은 집단별 상자그림으로 구분할 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "같은 국가 열을 쓰더라도 무엇을 비교할지에 따라 필요한 수치와 그림이 달라진다. 국가별 작품 수는 범주별 빈도라 막대그래프가 직접적이다. 국가별 영화 길이의 분포는 범주형 집단과 수치형 길이를 연결하므로 상자그림으로 중심과 퍼짐을 볼 수 있다. 그래프를 고를 때는 축에 등장하는 이름뿐 아니라 높이나 상자가 나타낼 계산값을 확인한다.",
+        "steps": [
+          "첫 질문의 결과가 국가별 작품 개수라는 범주 빈도임을 확인한다.",
+          "둘째 질문은 국가별로 나눈 상영시간의 분포를 비교함을 확인한다.",
+          "개수의 막대와 분포의 상자그림을 각 목적에 맞게 연결한 두 항목을 고른다."
+        ],
+        "pitfall": "범주형 열이 있다는 이유만으로 어떤 질문이든 작품 수 막대 하나가 충분하다고 판단하지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-003",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "multivariate-eda",
+          "charts-time",
+          "data-forms"
+        ]
+      },
+      "prompt": "그림의 코드 1·2·3은 각각 PG·R·TV-MA를 뜻한다. 이 그림이 나타내는 원자료 변수와 집계에 대한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "시청 등급을 범주로 구분해 등급별 작품 수를 비교한다.",
+          "correct": true,
+          "explanation": "숫자 코드는 등급 이름을 대신하며 높이는 각 범주의 빈도다."
+        },
+        {
+          "id": "o2",
+          "text": "같은 간격의 상영시간을 구간으로 나누어 작품 수를 비교한다.",
+          "correct": false,
+          "explanation": "코드는 상영시간의 구간이 아니라 시청 등급을 가리킨다."
+        },
+        {
+          "id": "o3",
+          "text": "한 작품의 평점 변화를 코드 순서대로 추적한다.",
+          "correct": false,
+          "explanation": "코드별 작품 수 집계이며 개인 평점의 시간 변화가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "두 수치 변수의 작품별 좌표 관계를 비교한다.",
+          "correct": false,
+          "explanation": "각 막대는 개별 작품의 두 속성 좌표가 아니라 범주 집계다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19",
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "표현 선택",
+      "review": "저장된 값이 숫자여도 그 의미가 범주를 가리키면 범주형으로 읽는다. 이 그림의 1·2·3은 시청 등급 이름을 대신하는 코드이며 숫자 사이의 간격이 길이나 점수 차이를 뜻하지 않는다. 등급별 작품 수를 세었으므로 빈도 막대그래프다. 히스토그램인지 판단할 때도 숫자 표시나 막대 모양보다 가로축이 실제 수치 구간인지 확인한다.",
+      "memoryTip": "숫자 코드도 의미가 등급이면 범주",
+      "additionalExample": "버스 노선 1번·2번·3번의 이용 건수를 그려도 노선 번호는 거리의 연속 구간이 아니라 범주를 구별하는 이름이다.",
+      "visual": {
+        "kind": "bar",
+        "title": "가상 등급 코드별 작품 수",
+        "xLabel": "등급 코드",
+        "yLabel": "작품 수(편)",
+        "labels": [
+          "1",
+          "2",
+          "3"
+        ],
+        "series": [
+          {
+            "name": "작품 수",
+            "values": [
+              8,
+              5,
+              7
+            ]
+          }
+        ],
+        "note": "코드의 대응 등급은 발문에 제시했다. 학습용 가상 자료다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "저장된 값이 숫자여도 그 의미가 범주를 가리키면 범주형으로 읽는다. 이 그림의 1·2·3은 시청 등급 이름을 대신하는 코드이며 숫자 사이의 간격이 길이나 점수 차이를 뜻하지 않는다. 등급별 작품 수를 세었으므로 빈도 막대그래프다. 히스토그램인지 판단할 때도 숫자 표시나 막대 모양보다 가로축이 실제 수치 구간인지 확인한다.",
+        "steps": [
+          "가로축 숫자가 분 단위 값이 아니라 시청 등급 코드라는 설명을 확인한다.",
+          "각 막대의 높이는 그 등급에 해당하는 작품 수로 해석한다.",
+          "범주 빈도 비교와 수치 구간 분포를 구분한 설명을 선택한다."
+        ],
+        "pitfall": "가로축에 숫자가 있다는 이유만으로 범주 코드를 연속 수치 구간이나 시간 순서로 읽지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-004",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "lecture",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "등록 연도와 월이 모두 숫자로 저장돼 있다. 목표는 '어느 연·월 조합에 등록 작품이 많았나?'를 격자의 색으로 비교하는 것이다. 알맞은 설계는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품마다 연도와 월을 좌표로 찍고 집계 없이 산점도로 표시한다.",
+          "correct": false,
+          "explanation": "개별 좌표는 겹칠 수 있으며 조합별 건수를 색으로 비교하는 목적과 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "월을 제외하고 등록 연도만 구간으로 묶어 히스토그램으로 표시한다.",
+          "correct": false,
+          "explanation": "연도별 분포만 남아 어느 월 조합인지 비교할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "연도를 제외하고 월별 등록 건수만 합쳐 막대로 표시한다.",
+          "correct": false,
+          "explanation": "어느 연도의 어느 월인지라는 두 기준의 조합이 사라진다."
+        },
+        {
+          "id": "o4",
+          "text": "연도×월의 등록 건수 교차표를 만들고 히트맵으로 표시한다.",
+          "correct": true,
+          "explanation": "셀 하나에 특정 연도와 월 조합의 집계 건수를 넣는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c29",
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "자료 해석",
+      "review": "숫자로 기록된 두 열이 있다고 산점도를 고정적으로 선택하지 않는다. 연도와 월을 조합별 집계 기준으로 사용하면 한 셀은 특정 연·월의 건수를 나타낸다. 이 표를 색으로 표현하면 월별 패턴과 연도별 차이를 격자에서 비교할 수 있다. 개별 관측의 두 수치 관계를 보는 질문과 조합별 집계값을 비교하는 질문은 구분해야 한다.",
+      "memoryTip": "조합별 건수는 교차표의 셀로",
+      "additionalExample": "요일과 시간대가 숫자로 코딩되어 있어도 요일×시간대의 방문 건수를 색으로 비교하면 조합별 히트맵이다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "숫자로 기록된 두 열이 있다고 산점도를 고정적으로 선택하지 않는다. 연도와 월을 조합별 집계 기준으로 사용하면 한 셀은 특정 연·월의 건수를 나타낸다. 이 표를 색으로 표현하면 월별 패턴과 연도별 차이를 격자에서 비교할 수 있다. 개별 관측의 두 수치 관계를 보는 질문과 조합별 집계값을 비교하는 질문은 구분해야 한다.",
+        "steps": [
+          "질문이 작품별 두 좌표 관계가 아니라 연도와 월 조합의 건수를 묻는지 확인한다.",
+          "연도를 행, 월을 열에 두어 각 조합의 등록 작품 수를 집계한다.",
+          "각 셀의 집계값을 색으로 나타내는 히트맵 설계를 선택한다."
+        ],
+        "pitfall": "숫자 열 두 개라는 저장 형태만 보고 실제 질문의 집계 목적을 빼놓지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-005",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "그래프의 가로·세로축에 숫자가 보인다. 원자료 변수와 집계 결과를 구분한 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "히스토그램은 축이 두 개이므로 원자료의 수치 변수 두 개를 사용한 분석이다.",
+          "correct": false,
+          "explanation": "한 수치 변수의 분포도 두 축을 사용해 그릴 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "상영시간 히스토그램의 세로축 빈도는 길이 구간에서 집계한 값이다.",
+          "correct": true,
+          "explanation": "작품별로 원래 관측한 두 번째 속성이 아니라 구간별 개수다."
+        },
+        {
+          "id": "o3",
+          "text": "두 축에 숫자가 있으면 두 그래프의 한 점은 모두 작품 한 편이다.",
+          "correct": false,
+          "explanation": "히스토그램 막대는 구간의 집계이며 산점도의 작품별 점과 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "공개 연도와 길이 산점도는 작품마다 두 속성 값을 짝지어 표시한다.",
+          "correct": true,
+          "explanation": "한 점은 같은 작품의 연도와 길이 관측을 연결한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C23",
+        "web-c27",
+        "web-c30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "사례 판단",
+      "review": "차트의 축 수와 원자료에서 분석한 변수 수는 같지 않을 수 있다. 히스토그램은 상영시간이라는 한 변수를 구간으로 나눈 뒤 개수를 계산해 세로축에 놓는다. 반면 산점도는 작품별 공개 연도와 길이처럼 두 속성을 한 쌍으로 사용한다. 원래 관측한 값인지 집계해서 만든 빈도인지 구분하면 단변량과 이변량 분석을 더 정확히 판단할 수 있다.",
+      "memoryTip": "축 두 개와 원변수 두 개는 다르다",
+      "additionalExample": "키 히스토그램의 세로축 학생 수는 키 자료를 모아 계산한 것이며 키와 몸무게 산점도의 몸무게 관측과는 다르다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "차트의 축 수와 원자료에서 분석한 변수 수는 같지 않을 수 있다. 히스토그램은 상영시간이라는 한 변수를 구간으로 나눈 뒤 개수를 계산해 세로축에 놓는다. 반면 산점도는 작품별 공개 연도와 길이처럼 두 속성을 한 쌍으로 사용한다. 원래 관측한 값인지 집계해서 만든 빈도인지 구분하면 단변량과 이변량 분석을 더 정확히 판단할 수 있다.",
+        "steps": [
+          "각 축의 값이 원자료 열에서 온 값인지 계산한 집계인지 나눈다.",
+          "히스토그램의 빈도는 한 길이 변수에서 계산한 개수임을 확인한다.",
+          "산점도는 같은 작품의 두 관측값을 좌표로 쓴다는 설명을 함께 고른다."
+        ],
+        "pitfall": "모든 그래프에 가로축과 세로축이 있다는 사실을 원자료 변수 두 개의 증거로 쓰지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-006",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "그림을 만든 원자료에는 각 영화의 분 단위 상영시간만 사용했다. 세로축에 작품 수가 있다는 이유로 '두 수치 변수의 관계'라고 분류한 설명을 어떻게 고치는가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "상영시간과 작품 수를 영화마다 짝지은 산점 분석이다.",
+          "correct": false,
+          "explanation": "각 작품의 두 수치 관측을 점으로 표시한 것이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "상영시간 한 변수의 구간별 분포를 나타낸 분석이다.",
+          "correct": true,
+          "explanation": "작품 수는 상영시간 구간에서 계산한 빈도다."
+        },
+        {
+          "id": "o3",
+          "text": "상영시간과 시청 등급의 두 범주 교차 분석이다.",
+          "correct": false,
+          "explanation": "등급 범주를 사용하지 않았고 길이는 수치 자료다."
+        },
+        {
+          "id": "o4",
+          "text": "시간에 따라 같은 영화의 길이가 변하는 추이 분석이다.",
+          "correct": false,
+          "explanation": "가로축은 관측 시점이 아니라 상영시간의 값 구간이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "표현 선택",
+      "review": "히스토그램은 수치 변수 하나의 분포를 표현한다. 각 영화의 상영시간을 정해진 구간에 넣고 그 구간에 들어간 작품을 세어 막대 높이를 만든다. 따라서 세로축에 개수가 있어도 원자료에서 수집한 두 수치 속성의 관계를 그린 것은 아니다. 분석에 사용한 원자료 열과 그래프를 만들며 새로 계산한 집계값을 나누어 생각한다.",
+      "memoryTip": "길이 히스토그램은 길이 한 변수의 분포",
+      "additionalExample": "학생 키 30개를 구간별로 세어 그린 히스토그램도 키와 학생 수를 학생마다 두 속성으로 관측한 것은 아니다.",
+      "visual": {
+        "kind": "histogram",
+        "title": "가상 영화 길이 구간별 집계",
+        "xLabel": "상영시간(분)",
+        "yLabel": "작품 수(편)",
+        "labels": [
+          "60 이상 90 미만",
+          "90 이상 120 미만",
+          "120 이상 150 미만"
+        ],
+        "series": [
+          {
+            "name": "작품 수",
+            "values": [
+              4,
+              10,
+              6
+            ]
+          }
+        ],
+        "note": "구간은 시작값을 포함하고 끝값을 포함하지 않는다. 학습용 가상 자료다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "히스토그램은 수치 변수 하나의 분포를 표현한다. 각 영화의 상영시간을 정해진 구간에 넣고 그 구간에 들어간 작품을 세어 막대 높이를 만든다. 따라서 세로축에 개수가 있어도 원자료에서 수집한 두 수치 속성의 관계를 그린 것은 아니다. 분석에 사용한 원자료 열과 그래프를 만들며 새로 계산한 집계값을 나누어 생각한다.",
+        "steps": [
+          "원자료에서 사용한 속성이 영화의 분 단위 길이 하나임을 확인한다.",
+          "세로축 작품 수는 각 길이 구간에 들어간 관측을 센 값임을 확인한다.",
+          "한 수치 변수의 분포를 나타낸 분석이라는 설명으로 고친다."
+        ],
+        "pitfall": "빈도도 숫자라는 이유만으로 이를 작품마다 따로 수집한 두 번째 원변수로 세지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-007",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "상영시간 히스토그램과 '공개 연도×상영시간' 산점도를 비교한다. 두 그림의 세로축에 대한 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "히스토그램의 세로축은 특정 길이 구간에 들어간 작품 수일 수 있다.",
+          "correct": true,
+          "explanation": "한 수치 변수를 구간으로 나눈 뒤 빈도를 계산한다."
+        },
+        {
+          "id": "o2",
+          "text": "히스토그램의 세로 위치는 각 작품의 정확한 공개 연도다.",
+          "correct": false,
+          "explanation": "구간별 작품 수와 작품별 연도 관측을 바꿔 읽은 설명이다."
+        },
+        {
+          "id": "o3",
+          "text": "산점도의 세로 위치는 해당 공개 연도의 전체 작품 수다.",
+          "correct": false,
+          "explanation": "주어진 산점도의 세로축은 집계 건수가 아니라 작품별 길이다."
+        },
+        {
+          "id": "o4",
+          "text": "산점도의 세로 위치는 그 점에 해당하는 작품의 상영시간이다.",
+          "correct": true,
+          "explanation": "같은 작품의 공개 연도와 길이를 한 점의 좌표로 사용한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "web-c30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "자료 해석",
+      "review": "두 그림에 숫자 축이 있어도 자료를 표시하는 단위는 다르다. 히스토그램은 상영시간 구간별로 묶인 여러 작품의 개수를 나타낸다. 공개 연도와 상영시간 산점도는 한 작품의 두 값을 점의 위치로 표현한다. 구간 집계와 개별 관측의 차이를 알면 세로축이 빈도인지 길이인지, 점이나 막대가 무엇을 뜻하는지 정확히 설명할 수 있다.",
+      "memoryTip": "히스토그램은 구간 집계, 산점도는 관측 쌍",
+      "additionalExample": "몸무게 구간별 인원 히스토그램과 키×몸무게 산점도는 모두 몸무게를 써도 세로축 의미와 표시 단위가 다르다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "두 그림에 숫자 축이 있어도 자료를 표시하는 단위는 다르다. 히스토그램은 상영시간 구간별로 묶인 여러 작품의 개수를 나타낸다. 공개 연도와 상영시간 산점도는 한 작품의 두 값을 점의 위치로 표현한다. 구간 집계와 개별 관측의 차이를 알면 세로축이 빈도인지 길이인지, 점이나 막대가 무엇을 뜻하는지 정확히 설명할 수 있다.",
+        "steps": [
+          "히스토그램이 작품들을 길이 구간으로 묶어 개수를 세는지 확인한다.",
+          "산점도의 한 점이 같은 작품의 연도와 길이 쌍인지 확인한다.",
+          "구간 집계와 작품별 수치 관측에 맞는 세로축 설명 두 개를 고른다."
+        ],
+        "pitfall": "차트가 비슷한 위치에 숫자를 표시한다는 이유로 집계 건수와 개별 작품의 길이를 같은 뜻으로 읽지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-008",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "그림의 각 셀은 장르와 시청 등급의 관계 건수다. '각 장르 안의 등급 구성'을 비율 색으로 비교하려면 어떤 처리가 알맞은가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "각 셀을 그 셀이 속한 장르 행의 합계로 나눈다.",
+          "correct": true,
+          "explanation": "장르 안의 등급 비율이므로 그 장르 전체 관계 수가 분모다."
+        },
+        {
+          "id": "o2",
+          "text": "각 셀을 그 셀이 속한 등급 열의 합계로 나눈다.",
+          "correct": false,
+          "explanation": "이는 각 등급 안에서 장르가 차지하는 구성이다."
+        },
+        {
+          "id": "o3",
+          "text": "각 셀을 표 전체 관계 수의 합계로 나눈다.",
+          "correct": false,
+          "explanation": "이는 전체 표에서 그 조합의 비중이며 장르 안 구성과 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "각 셀을 그 행에서 가장 큰 셀 값으로 나눈다.",
+          "correct": false,
+          "explanation": "최댓값 대비 크기이며 장르 전체에 대한 구성비가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c29",
+        "n34-C25"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "사례 판단",
+      "review": "히트맵은 표의 셀 값을 색으로 표현하며 어떤 값을 넣는지에 따라 질문이 달라진다. 장르와 등급의 원시 건수표에서 각 장르 안의 구성을 보려면 같은 장르 행의 합계를 분모로 사용한다. 열 합계나 전체 합계로 나누면 다른 조건의 비율이 된다. 색의 진하기를 비교하기 전에 셀의 지표와 정규화 방향을 명확히 정한다.",
+      "memoryTip": "장르 안 비율이면 장르 행 합이 분모",
+      "additionalExample": "학과×합격 여부 표에서 학과별 합격 비율을 비교할 때도 각 학과 행의 전체 지원자가 분모가 된다.",
+      "visual": {
+        "kind": "heatmap",
+        "title": "가상 장르와 시청 등급별 관계 집계",
+        "xLabel": "시청 등급",
+        "yLabel": "장르",
+        "labels": [
+          "PG",
+          "R"
+        ],
+        "series": [
+          {
+            "name": "Dramas",
+            "values": [
+              6,
+              14
+            ]
+          },
+          {
+            "name": "Comedies",
+            "values": [
+              8,
+              2
+            ]
+          }
+        ],
+        "note": "셀 값은 작품-장르 관계 건수다. 학습용 가상 자료다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "히트맵은 표의 셀 값을 색으로 표현하며 어떤 값을 넣는지에 따라 질문이 달라진다. 장르와 등급의 원시 건수표에서 각 장르 안의 구성을 보려면 같은 장르 행의 합계를 분모로 사용한다. 열 합계나 전체 합계로 나누면 다른 조건의 비율이 된다. 색의 진하기를 비교하기 전에 셀의 지표와 정규화 방향을 명확히 정한다.",
+        "steps": [
+          "히트맵의 행은 장르이고 열은 시청 등급이라는 구조를 확인한다.",
+          "질문의 장르 안이라는 표현에 맞춰 각 장르 행의 전체 관계 수를 구한다.",
+          "그 행의 각 셀을 행 합계로 나누어 장르별 구성비 히트맵을 만든다."
+        ],
+        "pitfall": "행 기준 구성비와 열 기준 구성비는 둘 다 비율이지만 서로 다른 질문에 답하므로 바꾸어 쓰지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-009",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "lecture",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "다음은 질문과 히트맵 셀의 설계다. 질문에 맞는 집계값을 셀에 넣은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "장르 안 등급 구성비 비교 → 장르×등급 셀의 원시 건수",
+          "correct": false,
+          "explanation": "구성비를 보려면 장르 행의 전체 관계 수로 나누어야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "장르별 등급 건수 비교 → 장르×등급 셀의 관계 수",
+          "correct": true,
+          "explanation": "두 범주 조합의 건수를 비교하는 질문과 셀 지표가 맞는다."
+        },
+        {
+          "id": "o3",
+          "text": "연도별 월 등록 건수 비교 → 연도×월 셀의 등록 수",
+          "correct": true,
+          "explanation": "해당 연·월에 새로 등록된 작품 수를 각 셀에 넣는다."
+        },
+        {
+          "id": "o4",
+          "text": "월별 신규 등록 건수 비교 → 연도×월 셀의 연초 누적 수",
+          "correct": false,
+          "explanation": "누적 수에는 이전 월이 포함돼 그달 신규 건수와 다르다."
+        }
+      ],
+      "conceptIds": [
+        "web-c29",
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "표현 선택",
+      "review": "히트맵은 행과 열의 이름이 같아도 셀에 넣은 지표에 따라 다른 질문에 답한다. 장르와 등급의 건수 비교에는 조합별 관계 수, 연·월별 신규 등록에는 해당 기간의 등록 수가 맞다. 구성비를 묻는데 원시 건수를 쓰거나 월별 신규를 묻는데 누적 수를 넣으면 질문과 값이 어긋난다. 차트 종류뿐 아니라 셀의 집계를 함께 선택해야 한다.",
+      "memoryTip": "축뿐 아니라 셀의 지표도 질문과 맞추기",
+      "additionalExample": "국가×장르 표라도 셀에 건수를 넣은 그림과 국가 내부 구성비를 넣은 그림은 같은 질문에 답하지 않는다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "히트맵은 행과 열의 이름이 같아도 셀에 넣은 지표에 따라 다른 질문에 답한다. 장르와 등급의 건수 비교에는 조합별 관계 수, 연·월별 신규 등록에는 해당 기간의 등록 수가 맞다. 구성비를 묻는데 원시 건수를 쓰거나 월별 신규를 묻는데 누적 수를 넣으면 질문과 값이 어긋난다. 차트 종류뿐 아니라 셀의 집계를 함께 선택해야 한다.",
+        "steps": [
+          "각 질문이 건수인지 구성비인지, 신규인지 누적인지 먼저 구분한다.",
+          "셀에 넣은 집계값이 질문에서 요구한 값과 같은 의미인지 확인한다.",
+          "조합별 관계 수와 기간별 신규 등록 수가 각각 맞게 연결된 두 설계를 고른다."
+        ],
+        "pitfall": "가로·세로 범주를 맞췄다고 집계까지 올바른 것은 아니므로 셀 값의 의미도 확인한다."
+      }
+    },
+    {
+      "id": "graph-chart-010",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "그림을 각 집단의 평균 하나만 나타내는 막대그래프로 바꾼다고 하자. 바꾼 그림만으로 직접 비교하기 어려워지는 정보는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "비교한 집단의 이름과 개수",
+          "correct": false,
+          "explanation": "평균 막대도 집단 이름을 축에 표시할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "평균 길이를 표시하는 분 단위",
+          "correct": false,
+          "explanation": "평균 막대의 세로축에도 분 단위를 표시할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "집단별 중앙값과 가운데 절반의 퍼짐",
+          "correct": true,
+          "explanation": "평균 막대 하나는 중앙값과 사분위 범위를 직접 표시하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "어느 집단의 평균이 더 큰지",
+          "correct": false,
+          "explanation": "집단별 평균을 그린 막대에서 직접 비교할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c28",
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "자료 해석",
+      "review": "상자그림과 평균 막대는 같은 집단 자료를 써도 요약하는 정보가 다르다. 상자그림은 중앙값과 사분위 범위 등 분포의 위치와 퍼짐을 보여 준다. 평균 막대는 집단당 평균 한 값을 비교하므로 그 자체만으로 중앙값이나 가운데 절반의 범위를 알 수 없다. 평균을 비교할지 분포를 비교할지 질문의 목적에 따라 그림을 선택해야 한다.",
+      "memoryTip": "평균 막대는 한 값, 상자는 분포 요약",
+      "additionalExample": "두 반의 평균 점수가 같아 막대가 같아도 점수가 고르게 모였는지 넓게 퍼졌는지는 상자그림으로 따로 확인할 수 있다.",
+      "visual": {
+        "kind": "box",
+        "title": "가상 집단별 영화 상영시간 요약",
+        "xLabel": "집단",
+        "yLabel": "상영시간(분)",
+        "labels": [
+          "A",
+          "B"
+        ],
+        "series": [
+          {
+            "name": "A",
+            "values": [
+              60,
+              80,
+              95,
+              110,
+              150
+            ]
+          },
+          {
+            "name": "B",
+            "values": [
+              50,
+              75,
+              100,
+              130,
+              180
+            ]
+          }
+        ],
+        "note": "각 집단 N=20. 학습용으로 수염은 각 집단의 최솟값과 최댓값이다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "상자그림과 평균 막대는 같은 집단 자료를 써도 요약하는 정보가 다르다. 상자그림은 중앙값과 사분위 범위 등 분포의 위치와 퍼짐을 보여 준다. 평균 막대는 집단당 평균 한 값을 비교하므로 그 자체만으로 중앙값이나 가운데 절반의 범위를 알 수 없다. 평균을 비교할지 분포를 비교할지 질문의 목적에 따라 그림을 선택해야 한다.",
+        "steps": [
+          "현재 그림의 상자와 가운데 선이 분포 요약을 보여 준다는 점을 확인한다.",
+          "변경 후 그림에는 집단당 평균 한 값만 남는다는 조건을 확인한다.",
+          "평균만으로 직접 알 수 없는 중앙값과 가운데 퍼짐을 선택한다."
+        ],
+        "pitfall": "집단당 막대가 하나 있다는 이유로 그 안에 중앙값·사분위수·최댓값까지 모두 표현되었다고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-011",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "팀이 원자료를 잃고 등급별 평균 상영시간 표만 보관했다. 이 표만으로 할 수 있는 표현과 추가 자료의 필요성을 바르게 설명한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "평균을 각 상자의 중앙선으로 놓으면 원래 상자그림이 복원된다.",
+          "correct": false,
+          "explanation": "평균은 중앙값이 아니며 상자 경계도 주어지지 않았다."
+        },
+        {
+          "id": "o2",
+          "text": "평균 막대 비교는 가능하지만 상자그림용 사분위수는 복원할 수 없다.",
+          "correct": true,
+          "explanation": "집단 평균만으로 중앙값과 사분위 범위를 알 수는 없다."
+        },
+        {
+          "id": "o3",
+          "text": "등급 평균을 그 집단의 모든 작품 길이로 반복하면 원래 분포가 복원된다.",
+          "correct": false,
+          "explanation": "같은 평균을 가진 다른 분포가 가능해 평균 반복으로 실제 분포를 복원할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "등급별 평균들의 히스토그램을 원래 개별 영화 길이 분포로 사용한다.",
+          "correct": false,
+          "explanation": "평균값들의 분포와 개별 작품 길이의 분포는 관측 단위가 다르다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "web-c28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "사례 판단",
+      "review": "집단별 평균은 여러 원자료를 한 숫자로 압축한 요약값이다. 그 표로 평균의 크기를 막대로 비교할 수는 있지만 같은 평균을 가진 서로 다른 분포가 가능하다. 중앙값과 Q1·Q3, 구간별 빈도는 별도 자료가 없으면 복원할 수 없다. 필요한 차트를 그릴 수 있는지 판단할 때 현재 표에 어떤 수준의 정보가 남아 있는지 먼저 확인한다.",
+      "memoryTip": "평균 하나로 분포 전체를 복원할 수 없다",
+      "additionalExample": "평균 점수가 80점인 반에는 모두 80점인 경우와 60·100점으로 나뉜 경우가 모두 가능하다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "집단별 평균은 여러 원자료를 한 숫자로 압축한 요약값이다. 그 표로 평균의 크기를 막대로 비교할 수는 있지만 같은 평균을 가진 서로 다른 분포가 가능하다. 중앙값과 Q1·Q3, 구간별 빈도는 별도 자료가 없으면 복원할 수 없다. 필요한 차트를 그릴 수 있는지 판단할 때 현재 표에 어떤 수준의 정보가 남아 있는지 먼저 확인한다.",
+        "steps": [
+          "남아 있는 자료가 개별 영화 길이가 아니라 등급별 평균뿐인지 확인한다.",
+          "평균 막대는 바로 만들 수 있지만 사분위수와 개별 빈도는 없음을 구분한다.",
+          "원자료나 별도 분포 요약을 추가로 확보해야 상자그림을 만들 수 있다고 판단한다."
+        ],
+        "pitfall": "평균을 반복하거나 등급을 숫자로 바꾸는 작업이 사라진 원자료 분포를 복원하는 것은 아니다."
+      }
+    },
+    {
+      "id": "graph-chart-012",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "가로축은 시청 등급, 세로축은 각 등급 영화의 평균 길이(분)인 막대그래프다. 이 표현에 대한 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "막대 높이가 큰 등급은 표시된 평균 상영시간이 더 크다.",
+          "correct": true,
+          "explanation": "세로축은 빈도가 아니라 집단별 평균 길이다."
+        },
+        {
+          "id": "o2",
+          "text": "범주형 등급으로 집단을 나누고 수치 길이를 요약한 그림이다.",
+          "correct": true,
+          "explanation": "등급은 집단 기준이고 길이 평균은 계산한 수치 요약이다."
+        },
+        {
+          "id": "o3",
+          "text": "막대가 높으면 그 등급의 작품 수도 같은 비율로 더 많다.",
+          "correct": false,
+          "explanation": "평균 길이만으로 집단별 작품 개수를 알 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "막대그래프이므로 사용한 원자료 변수는 등급 하나뿐이다.",
+          "correct": false,
+          "explanation": "등급뿐 아니라 평균을 계산한 영화 길이도 사용했다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "표현 선택",
+      "review": "막대그래프는 범주별 개수만 나타내는 그래프가 아니다. 세로축에 평균이나 비율 같은 집계값을 넣을 수도 있다. 등급별 평균 영화 길이를 그리면 범주형 등급과 수치형 길이를 함께 사용한 집단 요약 비교가 된다. 모양이 막대라는 이유로 단변량 빈도 분석이라고 분류하지 말고 집단 기준과 집계한 원자료 변수를 함께 확인한다.",
+      "memoryTip": "막대의 높이는 집계 함수와 축에서 확인",
+      "additionalExample": "학과별 학생 수 막대는 빈도지만 학과별 평균 시험 점수 막대는 학과와 점수 두 변수를 사용한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "막대그래프는 범주별 개수만 나타내는 그래프가 아니다. 세로축에 평균이나 비율 같은 집계값을 넣을 수도 있다. 등급별 평균 영화 길이를 그리면 범주형 등급과 수치형 길이를 함께 사용한 집단 요약 비교가 된다. 모양이 막대라는 이유로 단변량 빈도 분석이라고 분류하지 말고 집단 기준과 집계한 원자료 변수를 함께 확인한다.",
+        "steps": [
+          "세로축이 작품 수가 아니라 분 단위 평균 길이라는 표기를 확인한다.",
+          "등급으로 집단을 나누고 각 집단의 길이를 평균 냈다는 계산을 따라간다.",
+          "평균의 크기와 원자료의 두 변수를 설명한 두 문장을 선택한다."
+        ],
+        "pitfall": "모든 막대 높이를 개수라고 읽거나 막대라는 이름만으로 원자료 변수 수를 결정하지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-013",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "그림에서 점 하나는 영화 한 편이다. 점을 공개 연도순으로 선으로 이을 때의 해석 원칙으로 옳은 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "선이 오른쪽으로 갈수록 각 영화가 해마다 더 오래 재생된다고 읽는다.",
+          "correct": false,
+          "explanation": "각 점이 다른 영화이며 반복 관측한 재생 시간이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "같은 연도의 두 점은 같은 영화의 반복 측정이므로 하나로 합친다.",
+          "correct": false,
+          "explanation": "발문은 점마다 서로 다른 영화라고 정했으므로 같은 연도도 별개 작품일 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "연결선의 보간값을 미관측 연도의 실제 평균 길이로 확정한다.",
+          "correct": false,
+          "explanation": "개별 작품 사이를 이은 선이 미관측 연도의 평균을 측정한 것은 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "연결된 점들은 다른 작품이므로 한 영화의 길이 변화로 읽지 않는다.",
+          "correct": true,
+          "explanation": "작품별 속성 관계이지 같은 대상을 반복 관측한 선이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c30",
+        "n34-C26"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            17,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "자료 해석",
+      "review": "산점도는 같은 관측 대상의 두 속성을 좌표로 표시한다. 이 그림의 한 점은 한 영화의 공개 연도와 상영시간이다. 여러 점을 선으로 연결해도 점의 대상이 같은 영화로 바뀌지 않으므로 한 작품이 시간에 따라 길어졌다고 읽을 수 없다. 시간순 집계의 변화와 개별 작품들의 수치 관계는 한 점의 의미를 기준으로 구분한다.",
+      "memoryTip": "선을 이어도 점의 대상은 바뀌지 않는다",
+      "additionalExample": "사람별 나이와 키를 점으로 찍어 나이순 연결해도 한 사람이 성장하는 과정을 직접 관측한 선은 아니다.",
+      "visual": {
+        "kind": "scatter",
+        "title": "가상 영화별 공개 연도와 길이",
+        "xLabel": "최초 공개 연도",
+        "yLabel": "상영시간(분)",
+        "labels": [
+          "영화"
+        ],
+        "series": [
+          {
+            "name": "영화",
+            "xValues": [
+              2014,
+              2014,
+              2016,
+              2018,
+              2020
+            ],
+            "values": [
+              80,
+              120,
+              95,
+              110,
+              90
+            ]
+          }
+        ],
+        "sharedYearAxes": false,
+        "note": "점 하나는 서로 다른 영화 한 편이다. 학습용 가상 자료다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "산점도는 같은 관측 대상의 두 속성을 좌표로 표시한다. 이 그림의 한 점은 한 영화의 공개 연도와 상영시간이다. 여러 점을 선으로 연결해도 점의 대상이 같은 영화로 바뀌지 않으므로 한 작품이 시간에 따라 길어졌다고 읽을 수 없다. 시간순 집계의 변화와 개별 작품들의 수치 관계는 한 점의 의미를 기준으로 구분한다.",
+        "steps": [
+          "각 점이 서로 다른 영화의 공개 연도와 길이를 짝지은 것인지 확인한다.",
+          "선을 연결하더라도 같은 영화를 여러 번 관측한 자료가 아님을 확인한다.",
+          "선의 모양보다 원래 점의 관측 단위를 유지해 작품 간 관계로 해석한다."
+        ],
+        "pitfall": "가로축에 연도가 있고 선을 그었다는 이유만으로 같은 작품의 시간 변화라고 해석하지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-014",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "그래프 개수나 색의 수가 아니라 사용한 원자료 변수를 기준으로 분석을 분류한다. 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "상영시간 히스토그램은 가로·세로축이 있으므로 원변수가 둘이다.",
+          "correct": false,
+          "explanation": "세로축 빈도는 길이 한 변수에서 계산한 값이다."
+        },
+        {
+          "id": "o2",
+          "text": "공개 연도×길이 산점도에 type별 색을 추가해도 원변수는 둘이다.",
+          "correct": false,
+          "explanation": "색으로 Movie·TV Show를 구분했다면 type이라는 추가 변수를 사용했다."
+        },
+        {
+          "id": "o3",
+          "text": "같은 영화 길이를 히스토그램과 상자그림 두 장으로 그려도 원변수는 하나다.",
+          "correct": true,
+          "explanation": "여러 표현을 썼다는 이유만으로 원자료 속성이 늘지는 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "장르×등급의 빈도 히트맵은 두 범주의 조합을 분석한다.",
+          "correct": true,
+          "explanation": "색에 쓴 건수는 두 범주의 조합에서 계산한 집계다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "web-c29",
+        "web-c30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "사례 판단",
+      "review": "단변량과 다변량을 나눌 때는 그림의 장수나 장식이 아니라 분석에 실제 사용한 원자료 속성을 본다. 한 길이 변수를 여러 차트로 보여 주어도 원변수가 늘지 않는다. 장르와 등급 교차표의 건수는 두 범주에서 계산한 값이다. 반대로 산점도의 색을 실제 유형 열에 대응시키면 그 유형 정보도 분석에 포함된 추가 변수다.",
+      "memoryTip": "그림 장수 대신 사용한 열을 세기",
+      "additionalExample": "학생 점수만 두 그림으로 그리면 원변수 하나지만 점수×공부시간 산점도에서 반별 색을 주면 반 정보까지 사용한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "단변량과 다변량을 나눌 때는 그림의 장수나 장식이 아니라 분석에 실제 사용한 원자료 속성을 본다. 한 길이 변수를 여러 차트로 보여 주어도 원변수가 늘지 않는다. 장르와 등급 교차표의 건수는 두 범주에서 계산한 값이다. 반대로 산점도의 색을 실제 유형 열에 대응시키면 그 유형 정보도 분석에 포함된 추가 변수다.",
+        "steps": [
+          "각 그림을 만들 때 참조한 원자료 열을 이름으로 나열한다.",
+          "집계로 얻은 빈도와 실제 추가한 type 같은 속성을 서로 구분한다.",
+          "차트 장수와 축 수가 아니라 사용한 원변수를 기준으로 설명을 고른다."
+        ],
+        "pitfall": "색깔을 여러 개 썼다는 사실만으로 변수가 늘지는 않지만 실제 열을 색에 연결했다면 그 열도 사용한 변수다."
+      }
+    },
+    {
+      "id": "graph-chart-015",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "lecture",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "TV Show의 시즌 수가 1·2·3·4인 작품이 각각 몇 편인지 정확히 비교하려 한다. 서로 다른 시즌 수를 큰 구간으로 묶지 않을 때 알맞은 설계는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "1~2시즌과 3~4시즌을 합쳐 두 구간만 그린다.",
+          "correct": false,
+          "explanation": "서로 다른 시즌 수를 큰 구간으로 묶지 않는다는 조건과 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 TV Show의 시즌 수 평균 하나를 그린다.",
+          "correct": false,
+          "explanation": "한 평균값으로는 각 시즌 수의 빈도를 알 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "시즌 수 1·2·3·4마다 빈도 막대를 하나씩 둔다.",
+          "correct": true,
+          "explanation": "이산값별 개수를 별도 막대로 직접 비교할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "시즌 수를 작품 ID 순서로 연결해 시간 추이로 그린다.",
+          "correct": false,
+          "explanation": "작품 ID 순서는 시간 흐름이 아니며 시즌 수별 개수도 집계하지 않았다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "표현 선택",
+      "review": "수치형이라고 모든 질문에서 연속 구간 히스토그램이나 시간 선을 선택하는 것은 아니다. 시즌 수처럼 가능한 값이 이산적이고 각각의 개수를 비교하려면 값별 빈도 막대가 직접적일 수 있다. 여러 값을 넓은 구간으로 묶으면 세부 빈도가 사라진다. 자료의 수치 성격과 함께 정확한 값별 비교라는 목적을 반영해 표현을 고른다.",
+      "memoryTip": "이산 수치의 값별 빈도에는 값별 막대",
+      "additionalExample": "가구원 수 1·2·3·4명인 가구가 각각 몇 개인지 묻는 경우에도 값별 빈도 막대가 세부 비교에 알맞다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "수치형이라고 모든 질문에서 연속 구간 히스토그램이나 시간 선을 선택하는 것은 아니다. 시즌 수처럼 가능한 값이 이산적이고 각각의 개수를 비교하려면 값별 빈도 막대가 직접적일 수 있다. 여러 값을 넓은 구간으로 묶으면 세부 빈도가 사라진다. 자료의 수치 성격과 함께 정확한 값별 비교라는 목적을 반영해 표현을 고른다.",
+        "steps": [
+          "질문이 시즌 수의 평균이나 시간 변화가 아니라 각 정수값의 개수인지 확인한다.",
+          "시즌 수를 큰 구간에 합치지 않는다는 조건을 유지한다.",
+          "각 시즌 수에 해당하는 작품 수를 별도 막대로 비교하는 설계를 고른다."
+        ],
+        "pitfall": "정수로 저장된 열이라는 이유로 작품 ID 순서에 연결선을 그려 시간 추이라고 부르지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-016",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "두 그림 모두 직사각형 막대를 사용한다. 빈도 막대그래프와 히스토그램을 구분하기 위해 우선 확인할 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "가로축이 범주 이름인지 수치 범위의 구간인지 확인한다.",
+          "correct": true,
+          "explanation": "축이 표현한 대상이 범주별 빈도인지 수치 구간의 분포인지 가른다."
+        },
+        {
+          "id": "o2",
+          "text": "막대 사이의 공백만 보고 원자료의 변수 종류를 확정한다.",
+          "correct": false,
+          "explanation": "범주 막대도 스타일에 따라 붙일 수 있어 공백만으로 확정하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "막대 높이를 만든 집계가 범주별 개수인지 구간별 개수인지 확인한다.",
+          "correct": true,
+          "explanation": "겉모양보다 실제 값을 묶은 기준을 확인한다."
+        },
+        {
+          "id": "o4",
+          "text": "가로축에 숫자가 있으면 등급 코드도 수치 구간으로 읽는다.",
+          "correct": false,
+          "explanation": "숫자가 범주 이름을 대신하는 코드일 수 있으므로 의미를 확인한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "자료 해석",
+      "review": "빈도 막대그래프와 히스토그램은 막대 모양이 닮았지만 자료를 묶는 기준이 다르다. 범주 막대는 유형이나 등급처럼 구별되는 이름의 빈도를 나타낸다. 히스토그램은 상영시간 같은 수치 값을 구간으로 나누어 분포를 표현한다. 막대 사이 간격이나 색은 바꿀 수 있으므로 가로축의 의미와 빈도를 만든 집계 규칙을 먼저 읽는다.",
+      "memoryTip": "막대 간격보다 축 의미와 묶음 기준",
+      "additionalExample": "등급 코드 1·2·3 막대를 붙여 그려도 실제 분 구간 60~90·90~120을 집계한 히스토그램으로 바뀌지는 않는다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "빈도 막대그래프와 히스토그램은 막대 모양이 닮았지만 자료를 묶는 기준이 다르다. 범주 막대는 유형이나 등급처럼 구별되는 이름의 빈도를 나타낸다. 히스토그램은 상영시간 같은 수치 값을 구간으로 나누어 분포를 표현한다. 막대 사이 간격이나 색은 바꿀 수 있으므로 가로축의 의미와 빈도를 만든 집계 규칙을 먼저 읽는다.",
+        "steps": [
+          "가로축의 항목이 서로 구별되는 이름인지 수치 구간인지 읽는다.",
+          "원자료를 어떤 기준으로 묶어 막대 높이를 계산했는지 확인한다.",
+          "공백이나 숫자 표시만으로 분류하지 않는 두 점검 항목을 고른다."
+        ],
+        "pitfall": "히스토그램은 막대가 붙고 막대그래프는 떨어진다는 외형 규칙만으로 모든 그래프를 판정하지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-017",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "lecture",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "영화마다 출연 배우 수와 분 단위 길이를 구했다. '배우가 많은 작품에서 길이도 긴 편인가?'를 개별 작품 수준에서 탐색할 설계는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "배우 수의 전체 평균과 길이의 전체 평균 두 막대를 비교한다.",
+          "correct": false,
+          "explanation": "각 변수의 평균 두 개는 작품별로 함께 변하는 관계를 남기지 못한다."
+        },
+        {
+          "id": "o2",
+          "text": "배우 수를 제외하고 길이만 구간별로 집계한다.",
+          "correct": false,
+          "explanation": "길이 분포는 볼 수 있지만 배우 수와의 관계는 사라진다."
+        },
+        {
+          "id": "o3",
+          "text": "배우 이름별 작품 수를 내림차순 막대로 그린다.",
+          "correct": false,
+          "explanation": "배우의 참여 빈도이며 작품의 배우 수와 길이 관계가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "가로축 배우 수·세로축 길이에 작품별 점을 찍는다.",
+          "correct": true,
+          "explanation": "같은 작품의 두 수치 속성을 짝지어 관계를 탐색한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C23",
+        "web-c30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "사례 판단",
+      "review": "두 수치 속성의 관계를 개별 작품 수준에서 살피려면 같은 작품에서 관측한 값의 짝을 보존해야 한다. 출연 배우 수와 영화 길이를 각각 가로·세로 위치에 놓으면 산점도로 관계를 탐색할 수 있다. 각 변수 평균이나 길이 분포만 남기면 어느 배우 수에 어떤 길이가 연결되었는지 알 수 없다. 관계 분석에는 짝지어진 관측이 핵심이다.",
+      "memoryTip": "두 수치 관계는 같은 대상의 값 쌍",
+      "additionalExample": "학생별 공부시간과 점수 관계를 보려면 각 학생의 시간과 점수를 연결해야 하며 두 전체 평균만으로는 부족하다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "두 수치 속성의 관계를 개별 작품 수준에서 살피려면 같은 작품에서 관측한 값의 짝을 보존해야 한다. 출연 배우 수와 영화 길이를 각각 가로·세로 위치에 놓으면 산점도로 관계를 탐색할 수 있다. 각 변수 평균이나 길이 분포만 남기면 어느 배우 수에 어떤 길이가 연결되었는지 알 수 없다. 관계 분석에는 짝지어진 관측이 핵심이다.",
+        "steps": [
+          "질문이 두 변수의 각각 평균이 아니라 같은 작품 안의 관계를 묻는지 확인한다.",
+          "각 작품의 배우 수와 길이를 한 쌍으로 유지해 좌표를 정한다.",
+          "작품별 두 수치를 점으로 나타내는 산점도 설계를 선택한다."
+        ],
+        "pitfall": "두 변수의 전체 평균을 따로 아는 것만으로 개별 관측에서 두 변수가 어떻게 함께 변하는지 알 수는 없다."
+      }
+    },
+    {
+      "id": "graph-chart-018",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "그림은 등록 월별 영화 평균 길이를 시간순으로 연결했다. 이를 만드는 집계와 관찰 단위를 알맞게 설명한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "등록 월별 유효 영화 길이를 평균 내며 한 점은 한 달의 집계다.",
+          "correct": true,
+          "explanation": "월별 평균 추이를 그렸으므로 점은 개별 영화가 아닌 해당 월의 요약값이다."
+        },
+        {
+          "id": "o2",
+          "text": "영화별 길이를 등록 월순으로 나열하며 한 점은 한 영화다.",
+          "correct": false,
+          "explanation": "그림은 각 월의 평균을 그렸고 작품별 원값을 모두 찍은 것이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "등급별 작품 수를 평균 내며 한 점은 한 시청 등급이다.",
+          "correct": false,
+          "explanation": "가로축은 등록 월이고 세로축은 영화 길이의 평균이다."
+        },
+        {
+          "id": "o4",
+          "text": "각 월의 길이 구간별 빈도를 세며 한 점은 한 길이 구간이다.",
+          "correct": false,
+          "explanation": "그림은 길이 분포가 아니라 시간순 월별 평균의 변화를 나타낸다."
+        }
+      ],
+      "conceptIds": [
+        "web-c30",
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            17,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "표현 선택",
+      "review": "시간 추이 그래프의 세로축에는 건수뿐 아니라 평균 같은 집계값도 올 수 있다. 등록 월별 평균 영화 길이는 해당 월의 유효한 분 단위 영화 길이를 모아 평균 낸 값이다. 선의 한 점은 영화 한 편이 아니라 그달의 요약이다. 같은 등록 월을 사용해도 작품별 길이 산점도나 월별 길이 분포와는 관측 단위와 질문이 달라진다.",
+      "memoryTip": "시간 추이의 점도 집계 단위를 확인",
+      "additionalExample": "월별 평균 기온 선그래프의 점 하나는 그달의 평균이며 하루하루 측정값을 모두 나타내는 점은 아니다.",
+      "visual": {
+        "kind": "line",
+        "title": "가상 등록 월별 영화 길이 요약",
+        "xLabel": "등록 월",
+        "yLabel": "평균 상영시간(분)",
+        "labels": [
+          "1월",
+          "2월",
+          "3월",
+          "4월"
+        ],
+        "series": [
+          {
+            "name": "월별 평균",
+            "values": [
+              92,
+              101,
+              96,
+              104
+            ]
+          }
+        ],
+        "note": "같은 해의 완전한 네 달을 관측했다. 각 달 유효 영화 N=20이며 학습용 값이다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "시간 추이 그래프의 세로축에는 건수뿐 아니라 평균 같은 집계값도 올 수 있다. 등록 월별 평균 영화 길이는 해당 월의 유효한 분 단위 영화 길이를 모아 평균 낸 값이다. 선의 한 점은 영화 한 편이 아니라 그달의 요약이다. 같은 등록 월을 사용해도 작품별 길이 산점도나 월별 길이 분포와는 관측 단위와 질문이 달라진다.",
+        "steps": [
+          "가로축이 시간순 등록 월이고 세로축이 평균 길이인지 확인한다.",
+          "각 월에 속한 영화의 유효한 분 단위 값을 모아 평균 낸다고 정리한다.",
+          "점 하나가 한 달의 집계라는 설명을 개별 영화 점과 구분한다."
+        ],
+        "pitfall": "시간축 위에 점이 있다는 이유로 모든 점을 원자료 한 행이나 영화 한 편으로 해석하지 않는다."
+      }
+    },
+    {
+      "id": "graph-chart-019",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "charts-time",
+          "multivariate-eda"
+        ]
+      },
+      "prompt": "같은 등록 월 열을 쓰더라도 분석 목적에 따라 표현을 달리하려 한다. 알맞은 연결을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "월별 영화 길이의 중심·퍼짐 → 월별 작품 수만 그린 막대",
+          "correct": false,
+          "explanation": "작품 수만으로 영화 길이의 중앙값과 퍼짐을 알 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "월별 등록 건수의 시간 추이 → 월순으로 연결한 건수 선그래프",
+          "correct": true,
+          "explanation": "시간 순서에 따른 집계 건수의 변화를 보는 목적이다."
+        },
+        {
+          "id": "o3",
+          "text": "월별 등록 건수의 시간 추이 → 월 정보를 뺀 전체 길이 히스토그램",
+          "correct": false,
+          "explanation": "시간별 건수 대신 전체 길이 분포만 남겨 질문이 달라진다."
+        },
+        {
+          "id": "o4",
+          "text": "월별 영화 길이의 중심·퍼짐 → 월을 집단으로 나눈 상자그림",
+          "correct": true,
+          "explanation": "월별 수치 분포를 비교하는 질문에 맞다."
+        }
+      ],
+      "conceptIds": [
+        "web-c28",
+        "web-c30",
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            17,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "자료 해석",
+      "review": "시간 열이 있다는 이유만으로 모든 질문이 같은 선그래프를 요구하는 것은 아니다. 월별 등록 건수의 변화는 시간순 집계를 연결하면 좋지만 월별 영화 길이의 분포는 월을 집단으로 두고 상자그림으로 비교할 수 있다. 먼저 무엇을 세거나 요약할지 정하고 중심·퍼짐·추이 중 어떤 관계를 보려는지 확인한다.",
+      "memoryTip": "같은 시간 열도 추이와 분포 목적은 다름",
+      "additionalExample": "연도별 학생 수 변화는 시간 선, 입학 연도별 학생 키 분포는 집단 상자그림처럼 같은 연도 열을 다르게 쓸 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "시간 열이 있다는 이유만으로 모든 질문이 같은 선그래프를 요구하는 것은 아니다. 월별 등록 건수의 변화는 시간순 집계를 연결하면 좋지만 월별 영화 길이의 분포는 월을 집단으로 두고 상자그림으로 비교할 수 있다. 먼저 무엇을 세거나 요약할지 정하고 중심·퍼짐·추이 중 어떤 관계를 보려는지 확인한다.",
+        "steps": [
+          "두 질문 모두 등록 월을 쓰지만 비교할 결과가 건수와 길이 분포로 다른지 확인한다.",
+          "시간순 건수 변화에는 월별 집계 선을 대응시킨다.",
+          "각 월의 길이 중심과 퍼짐에는 월별 집단 상자그림을 대응시킨다."
+        ],
+        "pitfall": "월이나 연도라는 열 이름만으로 그래프를 고정하지 말고 시간 추이인지 집단 분포 비교인지 목적을 확인한다."
+      }
+    },
+    {
+      "id": "graph-chart-020",
+      "finalExamId": "final-10",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "'시청 등급별 영화 길이의 중심과 퍼짐'을 비교할 분석 카드로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "영화·TV 숫자 부분 전체 선택 → 등급별 상자그림",
+          "correct": false,
+          "explanation": "분과 시즌을 섞어 같은 길이 분포로 비교할 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "Movie·분 단위 유효값 선택 → 등급별 상자그림",
+          "correct": true,
+          "explanation": "대상과 단위를 맞춘 뒤 집단별 길이 분포를 비교한다."
+        },
+        {
+          "id": "o3",
+          "text": "Movie·분 단위 유효값 선택 → 등급별 평균 막대만",
+          "correct": false,
+          "explanation": "평균 하나만으로 중앙값과 가운데 퍼짐을 직접 비교할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "Movie·분 단위 유효값 선택 → 등급별 작품 수 막대",
+          "correct": false,
+          "explanation": "집단의 작품 수는 길이의 중심과 퍼짐을 나타내지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19",
+        "web-c24",
+        "web-c28"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "사례 판단",
+      "review": "그래프 선택은 적절한 원자료 준비와 연결되어야 한다. 등급별 영화 길이의 중심과 퍼짐을 묻는다면 Movie의 분 단위 유효 길이를 사용하고 등급별로 수치 분포를 비교한다. 상자그림은 중앙값과 사분위 범위를 직접 보여 준다. 영화와 TV의 단위를 섞거나 평균 또는 개수 하나만 남기면 원래 분포 질문에 필요한 정보가 부족해진다.",
+      "memoryTip": "대상·단위 확인 뒤 목적에 맞는 차트",
+      "additionalExample": "학과별 시험 점수 분포를 비교하면서 출석 일수까지 같은 수치 열에 넣으면 상자그림을 골라도 의미가 어긋난다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "그래프 선택은 적절한 원자료 준비와 연결되어야 한다. 등급별 영화 길이의 중심과 퍼짐을 묻는다면 Movie의 분 단위 유효 길이를 사용하고 등급별로 수치 분포를 비교한다. 상자그림은 중앙값과 사분위 범위를 직접 보여 준다. 영화와 TV의 단위를 섞거나 평균 또는 개수 하나만 남기면 원래 분포 질문에 필요한 정보가 부족해진다.",
+        "steps": [
+          "분석 대상을 영화로 제한하고 분 단위 유효 상영시간만 선택한다.",
+          "시청 등급을 집단 기준으로 하여 각 집단의 길이 분포를 나눈다.",
+          "평균이나 빈도만이 아닌 중심과 퍼짐을 표시하는 상자그림 카드를 고른다."
+        ],
+        "pitfall": "좋은 그래프 종류를 골랐더라도 분과 시즌 같은 서로 다른 단위를 섞었다면 올바른 분석이 되지 않는다."
+      }
     }
   ],
   "flashcards": [
@@ -96950,6 +100050,55 @@ export const courseData: CourseData = {
           "mid-nfx-047",
           "mid-nfx-048"
         ]
+      },
+      {
+        "id": "final-10",
+        "title": "그래프 집중 · 범주·수치와 차트 선택",
+        "description": "변수의 의미와 분석 목적을 연결하는 신규 40문항입니다. 범주·수치 구분부터 막대·히스토그램·상자·산점도·히트맵·선그래프까지 연습합니다.",
+        "minutes": 50,
+        "level": "standard",
+        "questionIds": [
+          "graph-type-001",
+          "graph-chart-001",
+          "graph-type-002",
+          "graph-chart-002",
+          "graph-type-003",
+          "graph-chart-003",
+          "graph-type-004",
+          "graph-chart-004",
+          "graph-type-005",
+          "graph-chart-005",
+          "graph-type-006",
+          "graph-chart-006",
+          "graph-type-007",
+          "graph-chart-007",
+          "graph-type-008",
+          "graph-chart-008",
+          "graph-type-009",
+          "graph-chart-009",
+          "graph-type-010",
+          "graph-chart-010",
+          "graph-type-011",
+          "graph-chart-011",
+          "graph-type-012",
+          "graph-chart-012",
+          "graph-type-013",
+          "graph-chart-013",
+          "graph-type-014",
+          "graph-chart-014",
+          "graph-type-015",
+          "graph-chart-015",
+          "graph-type-016",
+          "graph-chart-016",
+          "graph-type-017",
+          "graph-chart-017",
+          "graph-type-018",
+          "graph-chart-018",
+          "graph-type-019",
+          "graph-chart-019",
+          "graph-type-020",
+          "graph-chart-020"
+        ]
       }
     ],
     "focusItems": [
@@ -97290,7 +100439,7 @@ export const courseData: CourseData = {
     ],
     "cautions": [
       "최종 PDF와 구술 필기를 함께 반영했습니다. 구술 강조 문항의 원문 링크는 관련 기존 강의자료로 연결합니다. 실제 출제·점수를 보장하지 않습니다.",
-      "범위는 Netflix 분석·추천 방식까지입니다. 기본 다지기와 중간 난도 각 120문항은 모두 핵심 범위입니다. 기존 고난도에 있던 보충 12문항은 그대로 구분하며 핵심 범위만 골라 학습할 수도 있습니다.",
+      "범위는 Netflix 분석·추천 방식까지입니다. 기본 다지기와 중간 난도(그래프 집중 포함)는 모두 핵심 범위입니다. 기존 고난도에 있던 보충 12문항은 그대로 구분하며 핵심 범위만 골라 학습할 수도 있습니다.",
       "자료의 단순화된 표현을 절대 명제로 외우지 않도록 가상메모리≠스왑, ETL·ELT 선택 조건, 추천 후보 생성과 개인화 평가의 차이를 명시했습니다."
     ]
   },

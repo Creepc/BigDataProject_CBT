@@ -86,10 +86,11 @@ export interface QuestionOption {
 }
 
 export interface QuestionVisual {
-  kind: 'bar' | 'line' | 'histogram' | 'scatter' | 'box' | 'source-image'
+  kind: 'bar' | 'line' | 'histogram' | 'scatter' | 'box' | 'heatmap' | 'source-image'
   title: string
   xLabel?: string
   yLabel?: string
+  /** Heatmaps use labels as column categories and each series as a named row. */
   labels: string[]
   series: Array<{ name: string; values: number[]; xValues?: number[]; outliers?: number[] }>
   sourceImage?: {

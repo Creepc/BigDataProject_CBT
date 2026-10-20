@@ -77,7 +77,7 @@ describe('course content integrity', () => {
 
   it('keeps all generated study assets connected to valid sources', () => {
     expect(courseData.concepts).toHaveLength(110)
-    expect(courseData.questions).toHaveLength(1116)
+    expect(courseData.questions).toHaveLength(1156)
     expect(courseData.flashcards).toHaveLength(131)
     expect(validateCourseData(courseData)).toEqual([])
 
@@ -135,7 +135,7 @@ describe('course content integrity', () => {
     expect(charts.length).toBeGreaterThanOrEqual(32)
     expect(sourceImages).toHaveLength(10)
     charts.forEach((visual) => {
-      expect(['bar', 'line', 'histogram', 'scatter', 'box']).toContain(visual.kind)
+      expect(['bar', 'line', 'histogram', 'scatter', 'box', 'heatmap']).toContain(visual.kind)
       expect(visual.series.length).toBeGreaterThan(0)
       visual.series.forEach((series) => expect(series.values.length).toBeGreaterThan(0))
     })

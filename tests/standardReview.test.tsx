@@ -16,14 +16,14 @@ describe('separate standard-difficulty final review additions', () => {
   beforeEach(() => vi.mocked(useStudy).mockReturnValue({ state: createInitialStudyState(), recordAttempt: vi.fn(() => false), toggleBookmark: vi.fn(), toggleConcept: vi.fn(), toggleReview: vi.fn(), saveExam: vi.fn(), setTheme: vi.fn(), rateCard: vi.fn(), exportData: vi.fn(() => ''), importData: vi.fn(), reset: vi.fn() }))
 
   it('preserves all 996 published questions and six final papers, including foundation', () => {
-    const previous = courseData.questions.filter((question) => !question.id.startsWith('mid-'))
+    const previous = courseData.questions.filter((question) => !question.id.startsWith('mid-') && !question.id.startsWith('graph-'))
     expect(previous).toHaveLength(996)
     expect(digest(previous)).toBe('9963cc74cb19827400bfc20efb874dbf6d52011694a23f67a28f88225a6deb7a')
     expect(digest(courseData.finalReview!.exams.filter((exam) => exam.level !== 'standard'))).toBe('69b9086843528ca85547bafd578a38a5a130680df8c09054b059bac778559ef6')
   })
 
   it('adds only medium questions in three disjoint papers, without supplement or bilingual answer cues', () => {
-    const exams = getFinalExams(courseData, 'standard')
+    const exams = getFinalExams(courseData, 'standard').filter((exam) => exam.id !== 'final-10')
     expect(exams.map((exam) => exam.id)).toEqual(['final-07', 'final-08', 'final-09'])
     const questions = exams.flatMap((exam) => {
       const items = getMockExamQuestions(courseData, exam.id)
@@ -50,11 +50,11 @@ describe('separate standard-difficulty final review additions', () => {
 
   it('isolates the new difficulty series and covers every oral focus and topic', () => {
     const questions = getFinalQuestions(courseData, { level: 'standard' })
-    expect(questions).toHaveLength(120)
+    expect(questions).toHaveLength(160)
     expect(getFinalQuestions(courseData, { level: 'standard', difficulty: '보통' })).toEqual(questions)
     expect(getFinalQuestions(courseData, { level: 'standard', difficulty: '쉬움' })).toEqual([])
     expect(getFinalQuestions(courseData, { level: 'standard', difficulty: '어려움' })).toEqual([])
-    expect(getFinalQuestions(courseData, { level: 'all' })).toHaveLength(360)
+    expect(getFinalQuestions(courseData, { level: 'all' })).toHaveLength(400)
     for (const focus of courseData.finalReview!.focusItems) expect(questions.some((question) => question.finalReview!.focusIds.includes(focus.id)), focus.label).toBe(true)
     for (const topic of courseData.finalReview!.topics) expect(getFinalQuestions(courseData, { level: 'standard', topic: topic.id }).length, topic.title).toBeGreaterThan(0)
     expect(getFinalQueueLevel(courseData, questions)).toBe('standard')
@@ -72,13 +72,13 @@ describe('separate standard-difficulty final review additions', () => {
     expect(html).toContain('중간 난도 · 40문항씩 적용')
     expect(html).toContain('중간 난도 1회 · 개념 구분')
     expect(html).toContain('보통 40')
-    expect(html).toContain('선택한 120문항 이어 풀기')
+    expect(html).toContain('선택한 160문항 이어 풀기')
     expect(html).not.toContain('기본 다지기 1회 · 용어와 역할')
     expect(html).not.toContain('최종 대비 1회 · 조건과 경계')
     expect(basic).toContain('기본 다지기 1회 · 용어와 역할')
     expect(challenge).toContain('최종 대비 1회 · 조건과 경계')
-    expect(all).toContain('선택한 360문항 이어 풀기')
-    expect(all).toContain('세 단계 · 전체 9회')
+    expect(all).toContain('선택한 400문항 이어 풀기')
+    expect(all).toContain('세 단계 · 전체 10회')
   })
 
   it('keeps solutions hidden until answering, then supplies detailed learning material', () => {
@@ -96,7 +96,7 @@ describe('separate standard-difficulty final review additions', () => {
     expect(shown).toContain('다른 상황에 적용하면')
   })
 
-  it('round-trips records from all nine final exams without dropping old progress or mixing paper membership', () => {
+  it('round-trips records from all final exams without dropping old progress or mixing paper membership', () => {
     const state = createInitialStudyState()
     state.bookmarkedQuestionIds = ['n12-q01', 'basic-inf-001', 'mid-inf-001']
     state.completedConceptIds = ['n12-c-os']

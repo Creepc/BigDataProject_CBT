@@ -27,7 +27,7 @@ const grams = (text) => {
   const normalized = text.toLowerCase().replace(/[^\p{L}\p{N}]/gu, '')
   return new Set(Array.from({ length: Math.max(0, normalized.length - 2) }, (_, index) => normalized.slice(index, index + 3)))
 }
-const baselineQuestions = baselineData?.questions ?? current.questions.filter((question) => !question.id.startsWith('mid-'))
+const baselineQuestions = baselineData?.questions ?? current.questions.filter((question) => !question.id.startsWith('graph-'))
 const baselineIds = new Set(baselineQuestions.map((question) => question.id))
 const base = baselineQuestions.map((question) => ({ id: question.id, grams: grams(question.prompt), prompt: question.prompt }))
 const similarities = current.questions.filter((question) => !baselineIds.has(question.id)).map((question) => {

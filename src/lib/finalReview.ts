@@ -2,6 +2,7 @@ import type { CourseData, MockExam, Question, StudyState } from '@/types'
 
 export interface FinalFilters {
   level?: string
+  exam?: string
   topic?: string
   evidence?: string
   difficulty?: string
@@ -9,6 +10,8 @@ export interface FinalFilters {
   status?: string
   search?: string
 }
+
+export const GRAPH_REVIEW_EXAM_ID = 'final-10'
 
 /** Legacy final papers remain the challenge series without rewriting their metadata. */
 export const getFinalExamLevel = (exam: MockExam) => exam.level ?? 'challenge'
@@ -35,6 +38,7 @@ export const getFinalQuestions = (data: CourseData, filters: FinalFilters = {}, 
   return data.questions.filter((question) => {
     if (!question.finalExamId || !question.finalReview) return false
     if (!examIds.has(question.finalExamId)) return false
+    if (filters.exam && question.finalExamId !== filters.exam) return false
     const { topicId, evidence } = question.finalReview
     const attempt = attempts[question.id]
     return (!filters.topic || topicId === filters.topic)

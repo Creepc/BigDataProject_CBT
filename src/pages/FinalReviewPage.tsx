@@ -3,7 +3,7 @@ import { ArrowRight, BookOpen, CheckCircle2, ChevronDown, ExternalLink, FileText
 import type { CourseData, NavigationTarget } from '@/types'
 import { useStudy } from '@/contexts/StudyContext'
 import { pdfPageUrl } from '@/lib/assets'
-import { evidenceLabel, getFinalExamLevel, getFinalExams, getFinalLevelLabel, getFinalQuestions, nextFinalQuestion, type FinalFilters } from '@/lib/finalReview'
+import { evidenceLabel, getFinalExamLevel, getFinalExams, getFinalLevelLabel, getFinalQuestions, GRAPH_REVIEW_EXAM_ID, nextFinalQuestion, type FinalFilters } from '@/lib/finalReview'
 import { getMockExamProgress, getMockExamQuestions } from '@/lib/mockExams'
 import { DifficultyBadge, EmptyState, ProgressBar, SearchInput } from '@/components/ui'
 
@@ -19,21 +19,24 @@ export function FinalReviewPage({ data, navigate, initialLevel = 'standard' }: {
   const foundation = getFinalQuestions(data, { level: 'foundation' })
   const standard = getFinalQuestions(data, { level: 'standard' })
   const challenge = getFinalQuestions(data, { level: 'challenge' })
+  const graphExam = review.exams.find((exam) => exam.id === GRAPH_REVIEW_EXAM_ID)
+  const graphQuestions = getMockExamQuestions(data, GRAPH_REVIEW_EXAM_ID)
+  const graphProgress = graphExam ? getMockExamProgress(graphExam, state.attempts, state.exams) : undefined
   const levelLabel = getFinalLevelLabel(level)
   const seriesCopy = level === 'standard'
-    ? { eyebrow: 'APPLY AND DISTINGUISH', heading: '중간 난도 · 40문항씩 적용', intro: '120문항 모두 보통 난도입니다. 용어의 뜻을 보기에 함께 주지 않고, 비슷한 개념과 짧은 사례를 구분합니다. 기존 고난도처럼 긴 복합 조건은 쌓지 않았어요.' }
+    ? { eyebrow: 'APPLY AND DISTINGUISH', heading: '중간 난도 · 40문항씩 적용', intro: `${standard.length}문항 모두 보통 난도입니다. 기존 3회에 그래프 집중 1회를 더했습니다. 특정 주제만 연습하려면 위의 그래프 집중 묶음을 선택하세요.` }
     : level === 'foundation'
       ? { eyebrow: 'START WITH THE BASICS', heading: '기본 다지기 · 40문항씩 연습', intro: '기존 기본 다지기 120문항을 그대로 유지합니다. 용어와 역할부터 익히고 싶을 때 풀어 보세요.' }
       : level === 'challenge'
         ? { eyebrow: 'ORIGINAL CHALLENGE PAPERS', heading: '기존 고난도 · 40문항씩 점검', intro: '기존 최종 대비 1~3회입니다. 이전 문제와 풀이 기록을 그대로 확인할 수 있어요. 조건을 복합적으로 판단하는 연습입니다.' }
-        : { eyebrow: 'ALL FINAL PAPERS', heading: '세 단계 · 전체 9회', intro: '기본 다지기·중간 난도·기존 고난도를 모두 표시합니다. 비슷한 수준만 이어 풀려면 위에서 문제 묶음을 선택하세요.' }
+        : { eyebrow: 'ALL FINAL PAPERS', heading: `세 단계 · 전체 ${review.exams.length}회`, intro: '기본 다지기·중간 난도·기존 고난도를 모두 표시합니다. 비슷한 수준만 이어 풀려면 위에서 문제 묶음을 선택하세요.' }
   const items = getFinalQuestions(data, { ...filters, level }, state.attempts)
   const source = data.files.find((file) => file.id === review.fileId)
   const answered = all.filter((question) => state.attempts[question.id]?.lastSelected.length).length
   const correct = all.filter((question) => state.attempts[question.id]?.lastSelected.length && state.attempts[question.id]?.lastCorrect).length
   const setFilter = (key: keyof FinalFilters, value: string) => { setFilters((before) => ({ ...before, [key]: value })); setLimit(12) }
   const study = (params: Record<string, string> = {}) => {
-    const selected = getFinalQuestions(data, { level, ...params }, state.attempts)
+    const selected = params.exam ? getMockExamQuestions(data, params.exam) : getFinalQuestions(data, { level, ...params }, state.attempts)
     if (selected.length) navigate({ view: 'practice', id: nextFinalQuestion(selected, state.attempts), params: { scope: 'final', level, ...params, ids: selected.map((question) => question.id).join(',') } })
   }
 
@@ -43,17 +46,29 @@ export function FinalReviewPage({ data, navigate, initialLevel = 'standard' }: {
       <div className="relative">
         <div className="flex items-center gap-2 text-xs font-bold tracking-wide text-blue-300"><GraduationCap size={17} />FINAL REVIEW · 교수님 마지막 안내 반영</div>
         <h1 className="mt-4 text-3xl font-black tracking-tight sm:text-4xl">외우는 답에서,<br className="sm:hidden" /> 판단하는 답으로.</h1>
-        <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300">기본보다 한 단계 높은 중간 난도 {standard.length}문항을 추가했어요. 새 묶음은 모두 보통 난도입니다.<br />용어 번역 대신 사례로 판단하고, 비슷한 보기 사이의 차이를 찾아보세요. 기존 기본·고난도 문제와 기록은 그대로입니다.</p>
+        <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300">범주·수치 구분과 그래프 선택을 연습하는 {graphQuestions.length}문항을 추가했어요. 중간 난도는 총 {standard.length}문항입니다.<br />변수의 모양보다 의미와 분석 목적을 보고 판단해 보세요. 기존 기본·중간·고난도 문제와 기록은 그대로입니다.</p>
         <div className="mt-6 flex flex-wrap gap-2">
           <button onClick={() => study({ level: 'standard' })} className="button-primary bg-white text-ink hover:bg-blue-100"><BookOpen size={16} />중간 난도 {standard.length}문항 해설 학습</button>
-          <button onClick={() => navigate({ view: 'final', params: { level: 'foundation' } })} className="button-secondary border-white/20 bg-white/5 text-white hover:bg-white/10">기본 다지기 보기</button>
+          <button onClick={() => study({ level: 'standard', exam: GRAPH_REVIEW_EXAM_ID })} className="button-secondary border-white/20 bg-white/5 text-white hover:bg-white/10">그래프 {graphQuestions.length}문항만 풀기</button>
           {source && <a className="button-secondary border-white/20 bg-white/5 text-white hover:bg-white/10" href={pdfPageUrl(source, 1)} target="_blank" rel="noreferrer"><FileText size={16} />최종 PDF<ExternalLink size={13} /></a>}
         </div>
         <div className="mt-7 grid grid-cols-2 gap-4 border-t border-white/15 pt-5 sm:grid-cols-4">
-          {[[`중간 ${standard.length}문항 추가`, '40문항 × 3회 · 전부 보통'], [`기존 ${foundation.length + challenge.length}문항 유지`, '기본·고난도·풀이 기록 보존'], [`총 ${all.length}문항`, '기본 3회 + 중간 3회 + 고난도 3회'], [`${answered} / ${all.length} 응답`, `최근 응답 중 ${correct}개 정답`]].map(([title, description]) => <div key={title}><strong className="text-base sm:text-lg">{title}</strong><p className="mt-1 text-[11px] text-slate-400">{description}</p></div>)}
+          {[[`그래프 ${graphQuestions.length}문항 추가`, '범주·수치·차트 선택 집중'], [`기존 ${all.length - graphQuestions.length}문항 유지`, '문제·정답·해설·기록 보존'], [`총 ${all.length}문항`, `기본 3회 + 중간 ${getFinalExams(data, 'standard').length}회 + 고난도 3회`], [`${answered} / ${all.length} 응답`, `최근 응답 중 ${correct}개 정답`]].map(([title, description]) => <div key={title}><strong className="text-base sm:text-lg">{title}</strong><p className="mt-1 text-[11px] text-slate-400">{description}</p></div>)}
         </div>
       </div>
     </header>
+
+    {graphExam && graphProgress && <section className="surface mt-6 border-cobalt/20 p-5 sm:p-6" aria-labelledby="graph-pack-heading">
+      <div className="eyebrow">FOCUSED PRACTICE · NEW 40</div>
+      <h2 id="graph-pack-heading" className="mt-1 text-xl font-black">범주·수치·그래프 선택 {graphQuestions.length}문항</h2>
+      <p className="mt-2 text-sm leading-7 text-slate-500">숫자 코드와 수치의 차이, 막대와 히스토그램, 집단별 분포와 요약값, 두 변수의 관계와 시간 추이를 사례로 구분합니다. 이 주제만 따로 이어 풀 수 있어요.</p>
+      <div className="mt-3 flex flex-wrap gap-2"><span className="chip">전부 보통</span><span className="chip">복수 정답 {graphQuestions.filter((question) => question.mode === 'multiple').length}</span><span className="chip">시각자료 {graphQuestions.filter((question) => question.visual).length}</span><span className="chip">응답 {graphProgress.answered}/{graphQuestions.length}</span></div>
+      <div className="mt-4 flex flex-wrap gap-2">
+        <button className="button-primary" onClick={() => study({ level: 'standard', exam: GRAPH_REVIEW_EXAM_ID })}><BookOpen size={16} />그래프 집중 해설 학습</button>
+        <button className="button-secondary" onClick={() => navigate({ view: 'exam', params: { paper: GRAPH_REVIEW_EXAM_ID, level: 'standard' } })}><Play size={16} />그래프 집중 40문항 시험</button>
+        {graphProgress.latestExam && <button className="button-secondary" onClick={() => navigate({ view: 'exam', params: { paper: GRAPH_REVIEW_EXAM_ID, review: 'latest', level: 'standard' } })}>그래프 집중 최근 시험 해설</button>}
+      </div>
+    </section>}
 
     <div className="surface mt-6 p-4 sm:p-5">
       <div role="group" aria-label="최종 대비 문제 묶음" className="flex flex-wrap gap-2">{[

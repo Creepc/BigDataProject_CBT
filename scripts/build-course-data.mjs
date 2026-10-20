@@ -242,7 +242,7 @@ const normalizeVisual = (raw, questionKey) => {
     }
   }
 
-  if (!['bar', 'line', 'histogram', 'scatter', 'box'].includes(raw.kind)) return undefined
+  if (!['bar', 'line', 'histogram', 'scatter', 'box', 'heatmap'].includes(raw.kind)) return undefined
   const series = asArray(raw.series).map((item, index) => {
     const rawValues = asArray(item.values ?? item.data)
     const outliers = numericValues(item.outliers)
@@ -324,6 +324,7 @@ const questionBankFiles = [
   'final-questions-systems.json', 'final-questions-infrastructure.json', 'final-questions-netflix.json',
   'foundation-questions-systems.json', 'foundation-questions-infrastructure.json', 'foundation-questions-netflix.json',
   'standard-questions-systems.json', 'standard-questions-infrastructure.json', 'standard-questions-netflix.json',
+  'graph-questions-types.json', 'graph-questions-charts.json',
 ]
 for (const file of questionBankFiles) {
   const bank = JSON.parse(fs.readFileSync(path.join(root, 'analysis', file), 'utf8'))
@@ -393,7 +394,8 @@ const mockExams = mockExamConfig.exams.map((exam) => {
 const finalReview = {
   ...finalConfig,
   exams: finalConfig.exams.map((exam) => {
-    const prefixes = exam.level === 'foundation' ? ['basic-sys-', 'basic-inf-', 'basic-nfx-']
+    const prefixes = exam.id === 'final-10' ? ['graph-type-', 'graph-chart-']
+      : exam.level === 'foundation' ? ['basic-sys-', 'basic-inf-', 'basic-nfx-']
       : exam.level === 'standard' ? ['mid-sys-', 'mid-inf-', 'mid-nfx-'] : ['final-sys-', 'final-inf-', 'final-nfx-']
     const groups = prefixes.map((prefix) =>
       questions.filter((question) => question.finalExamId === exam.id && question.id.startsWith(prefix)))
@@ -457,9 +459,10 @@ for (const concept of concepts) {
   }
 }
 const finalQuestions = questions.filter((question) => question.finalExamId)
-if (finalReview.exams.length !== 9 || finalQuestions.length !== 360) errors.push('Final review requires nine papers and 360 questions')
+if (finalReview.exams.length !== 10 || finalQuestions.length !== 400) errors.push('Final review requires ten papers and 400 questions')
 for (const examLevel of ['foundation', 'standard', 'challenge']) {
-  if (finalReview.exams.filter((exam) => (exam.level ?? 'challenge') === examLevel).length !== 3) errors.push(`${examLevel}: expected three final papers`)
+  const expected = examLevel === 'standard' ? 4 : 3
+  if (finalReview.exams.filter((exam) => (exam.level ?? 'challenge') === examLevel).length !== expected) errors.push(`${examLevel}: expected ${expected} final papers`)
 }
 const finalIds = new Set()
 const focusIds = new Set(finalReview.focusItems.map((item) => item.id))
@@ -624,6 +627,7 @@ fs.writeFileSync(path.join(root, 'analysis', 'professor-final-coverage.json'), `
   focusCoverage: finalReview.focusItems.map((focus) => ({ ...focus, questionIds: finalQuestions.filter((question) => question.finalReview.evidence !== 'supplement' && question.finalReview.focusIds.includes(focus.id)).map((question) => question.id) })),
   foundationQuestionCount: finalQuestions.filter((question) => finalReview.exams.some((exam) => exam.id === question.finalExamId && exam.level === 'foundation')).length,
   standardQuestionCount: finalQuestions.filter((question) => finalReview.exams.some((exam) => exam.id === question.finalExamId && exam.level === 'standard')).length,
+  graphQuestionCount: finalQuestions.filter((question) => question.finalExamId === 'final-10').length,
 }, null, 2)}\n`, 'utf8')
 console.log(JSON.stringify({
   files: files.length,

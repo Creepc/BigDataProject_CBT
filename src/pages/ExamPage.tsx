@@ -168,7 +168,7 @@ export function ExamPage({ data, navigate, initialExamId, reviewLatest = false, 
   if (stage === 'setup') return (
     <div className="animate-enter">
       <PageHeader eyebrow="MOCK EXAM" title="실전 모의고사" copy="신규 40문항씩 5회분을 시험 또는 해설 학습으로 풀어 보세요. 시험 중에는 정답이 숨겨지고 제출 뒤 모든 문항의 상세 해설이 열립니다. 아래에서 기존 맞춤형 랜덤 시험도 만들 수 있습니다." />
-      <button onClick={() => navigate({ view: 'final' })} className="button-primary mb-5">최종 대비 · 중간 난도 120문항 추가 · 기본과 고난도 유지</button>
+      <button onClick={() => navigate({ view: 'final' })} className="button-primary mb-5">최종 대비 · 범주·수치·그래프 집중 40문항 추가</button>
       <FixedMockExamList data={data} state={state} onStart={startFixed} onReview={reviewFixed} navigate={navigate} />
       <h2 className="mb-2 text-xl font-black">맞춤형 랜덤 모의고사</h2>
       <p className="mb-5 text-sm leading-7 text-slate-500">전체 문제은행에서 범위·문항 수·시간·난이도 비율을 직접 정합니다. 위의 고정형 5회분과는 별개의 랜덤 시험입니다.</p>

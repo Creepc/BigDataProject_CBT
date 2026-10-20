@@ -18,8 +18,8 @@ describe('professor final review', () => {
 
   it('adds three disjoint papers of forty without altering the previous five', () => {
     expect(courseData.mockExams).toHaveLength(5)
-    expect(courseData.finalReview?.exams).toHaveLength(9)
-    expect(getAllFixedExams(courseData)).toHaveLength(14)
+    expect(courseData.finalReview?.exams).toHaveLength(10)
+    expect(getAllFixedExams(courseData)).toHaveLength(15)
     const all = getFinalExams(courseData, 'challenge').flatMap((exam) => {
       const items = getMockExamQuestions(courseData, exam.id)
       expect(items.map((question) => question.id)).toEqual(exam.questionIds)
@@ -59,7 +59,7 @@ describe('professor final review', () => {
     const [first, second] = getFinalQuestions(courseData)
     const attempts = { [first.id]: attempt(first.id, ['o1']), [second.id]: attempt(second.id, []) }
     expect(getFinalQuestions(courseData, { status: 'wrong' }, attempts).map((question) => question.id)).toEqual([first.id])
-    expect(getFinalQuestions(courseData, { status: 'new' }, attempts)).toHaveLength(359)
+    expect(getFinalQuestions(courseData, { status: 'new' }, attempts)).toHaveLength(399)
     expect(nextFinalQuestion([first, second], attempts)).toBe(second.id)
     expect(getFinalQuestions(courseData, { search: '존재하지않는검색문자' })).toEqual([])
     expect(getFinalQuestions(courseData, { mode: 'visual' }).every((question) => question.visual)).toBe(true)
@@ -80,9 +80,9 @@ describe('professor final review', () => {
 
   it('renders source, papers, topic teaching and filters without leaking per-question solutions', () => {
     const html = renderToStaticMarkup(<FinalReviewPage data={courseData} navigate={() => {}} />)
-    expect(html).toContain('중간 120문항 추가')
-    expect(html).toContain('40문항 × 3회 · 전부 보통')
-    expect(html).toContain('기존 240문항 유지')
+    expect(html).toContain('그래프 40문항 추가')
+    expect(html).toContain('범주·수치·차트 선택 집중')
+    expect(html).toContain('기존 360문항 유지')
     expect(html).toContain('professor-final-review.pdf#page=1')
     expect(html).toContain('최종 대비 주제')
     expect(html).toContain('최종 대비 풀이 상태')

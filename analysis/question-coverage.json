@@ -1507,7 +1507,7 @@
       "conceptId": "n12-c-data-forms",
       "name": "구조화·반구조화·비구조화 데이터",
       "fileId": "notion-w2",
-      "totalQuestions": 20,
+      "totalQuestions": 21,
       "learningQuestions": [
         {
           "id": "n12-new-129",
@@ -2483,7 +2483,7 @@
       "conceptId": "n34-C19",
       "name": "Netflix 데이터 스키마",
       "fileId": "w4-netflix",
-      "totalQuestions": 10,
+      "totalQuestions": 20,
       "learningQuestions": [
         {
           "id": "n34-new-073",
@@ -2668,7 +2668,7 @@
       "conceptId": "n34-C23",
       "name": "그래프 유형 선택",
       "fileId": "w4-netflix",
-      "totalQuestions": 17,
+      "totalQuestions": 28,
       "learningQuestions": [
         {
           "id": "n34-new-089",
@@ -2760,7 +2760,7 @@
       "conceptId": "n34-C25",
       "name": "히트맵과 분할표",
       "fileId": "w4-netflix",
-      "totalQuestions": 11,
+      "totalQuestions": 12,
       "learningQuestions": [
         {
           "id": "n34-new-097",
@@ -2807,7 +2807,7 @@
       "conceptId": "n34-C26",
       "name": "산점도·선 그래프·기울기",
       "fileId": "w4-netflix",
-      "totalQuestions": 13,
+      "totalQuestions": 14,
       "learningQuestions": [
         {
           "id": "n34-new-101",
@@ -4074,7 +4074,7 @@
       "conceptId": "web-c19",
       "name": "관찰 단위",
       "fileId": "web3",
-      "totalQuestions": 27,
+      "totalQuestions": 35,
       "learningQuestions": [
         {
           "id": "web-new-073",
@@ -4309,7 +4309,7 @@
       "conceptId": "web-c24",
       "name": "정제·전처리·EDA 구분",
       "fileId": "web3",
-      "totalQuestions": 27,
+      "totalQuestions": 28,
       "learningQuestions": [
         {
           "id": "web-new-093",
@@ -4450,7 +4450,7 @@
       "conceptId": "web-c27",
       "name": "단변량 차트 선택",
       "fileId": "web3",
-      "totalQuestions": 26,
+      "totalQuestions": 53,
       "learningQuestions": [
         {
           "id": "web-new-105",
@@ -4497,7 +4497,7 @@
       "conceptId": "web-c28",
       "name": "박스플롯 해석",
       "fileId": "web3",
-      "totalQuestions": 18,
+      "totalQuestions": 28,
       "learningQuestions": [
         {
           "id": "web-new-109",
@@ -4544,7 +4544,7 @@
       "conceptId": "web-c29",
       "name": "히트맵의 건수와 행 비율",
       "fileId": "web3",
-      "totalQuestions": 18,
+      "totalQuestions": 24,
       "learningQuestions": [
         {
           "id": "web-new-113",
@@ -4591,7 +4591,7 @@
       "conceptId": "web-c30",
       "name": "산점도·시계열과 사건 구분",
       "fileId": "web3",
-      "totalQuestions": 24,
+      "totalQuestions": 36,
       "learningQuestions": [
         {
           "id": "web-new-117",

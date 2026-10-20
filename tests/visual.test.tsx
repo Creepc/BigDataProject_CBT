@@ -95,4 +95,68 @@ describe('question visuals', () => {
     expect(html).toContain('#page=4')
     expect(html).toContain('원본 강의자료')
   })
+
+  it('renders a 2-by-2 heatmap with categorical axes, cell values, and accessible table headers', () => {
+    const visual: Visual = {
+      kind: 'heatmap', title: '장르별 시청 등급', xLabel: '시청 등급', yLabel: '장르',
+      labels: ['PG', 'TV-MA'], series: [{ name: '가족', values: [8, 0] }, { name: '드라마', values: [4, 12] }],
+    }
+    const html = renderToStaticMarkup(<QuestionVisual visual={visual} />)
+    expect(html).toContain('data-chart-kind="heatmap"')
+    expect(html.match(/data-chart-mark="heatmap-cell"/g)).toHaveLength(4)
+    expect(html).toContain('data-chart-row="가족" data-chart-column="TV-MA" data-chart-value="0"')
+    expect(html).toContain('data-heatmap-min="0" data-heatmap-max="12"')
+    expect(html).toContain('가로 범주: 시청 등급. 세로 범주: 장르.')
+    expect(html).toContain('가족: PG 8, TV-MA 0')
+    expect(html).toContain('<th scope="col">TV-MA</th>')
+    expect(html).toContain('<th scope="row">드라마</th><td>4</td><td>12</td>')
+    expect(html).toContain('작음 → 큼')
+    expect(html).toContain('fill="rgb(239, 246, 255)"')
+    expect(html).toContain('fill="rgb(49, 89, 216)"')
+    expect(html).toContain('font-weight="700" fill="#000000">0</text>')
+    expect(html).toContain('font-weight="700" fill="#ffffff">12</text>')
+    expect(html).not.toMatch(/\b(?:NaN|Infinity)\b/)
+  })
+
+  it('maps a 2-by-3 heatmap to three columns and preserves complete category labels', () => {
+    const visual: Visual = {
+      kind: 'heatmap', title: '유형과 등록 기간', xLabel: '등록 기간', yLabel: '작품 유형',
+      labels: ['2019년 이전', '2020년', '2021년 이후'],
+      series: [{ name: 'Movie', values: [2, 6, 10] }, { name: 'TV Show', values: [1, 5, 9] }],
+    }
+    const html = renderToStaticMarkup(<QuestionVisual visual={visual} />)
+    expect(html.match(/data-chart-mark="heatmap-cell"/g)).toHaveLength(6)
+    expect(html).toContain('data-chart-row="TV Show" data-chart-column="2021년 이후" data-chart-value="9"')
+    expect(html).toContain('<th scope="row">Movie</th><td>2</td><td>6</td><td>10</td>')
+    expect(html).toContain('2019년 이전')
+    expect(html).toContain('overflow-x-auto')
+    expect(html).toContain('min-width:')
+    expect(html).toContain('max-width:540px')
+    expect(html).not.toContain('data-chart-y-min=')
+    expect(html).not.toMatch(/\b(?:NaN|Infinity)\b/)
+  })
+
+  it.each([0, 7])('keeps a constant heatmap value of %s finite and visible', (value) => {
+    const visual: Visual = {
+      kind: 'heatmap', title: '동일값 점검', labels: ['A', 'B'],
+      series: [{ name: '행 1', values: [value, value] }, { name: '행 2', values: [value, value] }],
+    }
+    const html = renderToStaticMarkup(<QuestionVisual visual={visual} />)
+    expect(html.match(/data-chart-mark="heatmap-cell"/g)).toHaveLength(4)
+    expect(html).toContain(`data-heatmap-min="${value}" data-heatmap-max="${value}"`)
+    expect(html).toContain(`동일값 ${value}`)
+    expect(html).toContain(`모든 유효 셀의 값은 ${value}이다.`)
+    expect(html).not.toMatch(/\b(?:NaN|Infinity)\b/)
+  })
+
+  it('does not display a missing heatmap value as an observed zero', () => {
+    const visual: Visual = {
+      kind: 'heatmap', title: '부분 기록', labels: ['A', 'B'], series: [{ name: '관측', values: [0] }],
+    }
+    const html = renderToStaticMarkup(<QuestionVisual visual={visual} />)
+    expect(html).toContain('data-chart-column="A" data-chart-value="0"')
+    expect(html).not.toContain('data-chart-column="B" data-chart-value="0"')
+    expect(html).toContain('<td>0</td><td>값 없음</td>')
+    expect(html).not.toMatch(/\b(?:NaN|Infinity)\b/)
+  })
 })
