@@ -1,6 +1,7 @@
-import type { CourseData, Question, StudyState } from '@/types'
+import type { CourseData, MockExam, Question, StudyState } from '@/types'
 
 export interface FinalFilters {
+  level?: string
   topic?: string
   evidence?: string
   difficulty?: string
@@ -9,13 +10,27 @@ export interface FinalFilters {
   search?: string
 }
 
+/** Legacy final papers remain the challenge series without rewriting their metadata. */
+export const getFinalExamLevel = (exam: MockExam) => exam.level ?? 'challenge'
+
+export const getFinalExams = (data: CourseData, level?: string) => (data.finalReview?.exams ?? [])
+  .filter((exam) => !level || level === 'all' || getFinalExamLevel(exam) === level)
+
+export const getFinalQueueLevel = (data: CourseData, questions: Question[]) => {
+  const exams = new Map((data.finalReview?.exams ?? []).map((exam) => [exam.id, getFinalExamLevel(exam)]))
+  const levels = new Set(questions.flatMap((question) => question.finalExamId && exams.has(question.finalExamId) ? [exams.get(question.finalExamId)!] : []))
+  return levels.size === 1 ? [...levels][0] : 'all'
+}
+
 export const evidenceLabel = (evidence?: string) => evidence === 'pdf' ? '최종 PDF 중심'
   : evidence === 'lecture' ? '마지막 필기 강조' : '보충'
 
 export const getFinalQuestions = (data: CourseData, filters: FinalFilters = {}, attempts: StudyState['attempts'] = {}) => {
   const search = (filters.search ?? '').trim().toLocaleLowerCase()
+  const examIds = new Set(getFinalExams(data, filters.level).map((exam) => exam.id))
   return data.questions.filter((question) => {
     if (!question.finalExamId || !question.finalReview) return false
+    if (!examIds.has(question.finalExamId)) return false
     const { topicId, evidence } = question.finalReview
     const attempt = attempts[question.id]
     return (!filters.topic || topicId === filters.topic)

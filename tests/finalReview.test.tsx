@@ -2,7 +2,7 @@ import { renderToStaticMarkup } from 'react-dom/server'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { existsSync } from 'node:fs'
 import { courseData } from '@/data/courseData'
-import { getFinalQuestions, nextFinalQuestion } from '@/lib/finalReview'
+import { getFinalExams, getFinalQuestions, nextFinalQuestion } from '@/lib/finalReview'
 import { getAllFixedExams, getMockExamQuestions, getMockExamProgress, validateMockExams } from '@/lib/mockExams'
 import { FinalReviewPage } from '@/pages/FinalReviewPage'
 import { QuestionExplanation, QuestionPlayer } from '@/components/QuestionExperience'
@@ -18,9 +18,9 @@ describe('professor final review', () => {
 
   it('adds three disjoint papers of forty without altering the previous five', () => {
     expect(courseData.mockExams).toHaveLength(5)
-    expect(courseData.finalReview?.exams).toHaveLength(3)
-    expect(getAllFixedExams(courseData)).toHaveLength(8)
-    const all = courseData.finalReview!.exams.flatMap((exam) => {
+    expect(courseData.finalReview?.exams).toHaveLength(6)
+    expect(getAllFixedExams(courseData)).toHaveLength(11)
+    const all = getFinalExams(courseData, 'challenge').flatMap((exam) => {
       const items = getMockExamQuestions(courseData, exam.id)
       expect(items.map((question) => question.id)).toEqual(exam.questionIds)
       expect(items).toHaveLength(40)
@@ -33,7 +33,7 @@ describe('professor final review', () => {
       return items
     })
     expect(new Set(all.map((question) => question.id)).size).toBe(120)
-    expect(getFinalQuestions(courseData, { evidence: 'core' })).toHaveLength(108)
+    expect(getFinalQuestions(courseData, { level: 'challenge', evidence: 'core' })).toHaveLength(108)
     expect(getFinalQuestions(courseData, { evidence: 'supplement' })).toHaveLength(12)
     expect(validateMockExams(courseData)).toEqual([])
   })
@@ -59,7 +59,7 @@ describe('professor final review', () => {
     const [first, second] = getFinalQuestions(courseData)
     const attempts = { [first.id]: attempt(first.id, ['o1']), [second.id]: attempt(second.id, []) }
     expect(getFinalQuestions(courseData, { status: 'wrong' }, attempts).map((question) => question.id)).toEqual([first.id])
-    expect(getFinalQuestions(courseData, { status: 'new' }, attempts)).toHaveLength(119)
+    expect(getFinalQuestions(courseData, { status: 'new' }, attempts)).toHaveLength(239)
     expect(nextFinalQuestion([first, second], attempts)).toBe(second.id)
     expect(getFinalQuestions(courseData, { search: '존재하지않는검색문자' })).toEqual([])
     expect(getFinalQuestions(courseData, { mode: 'visual' }).every((question) => question.visual)).toBe(true)
@@ -80,9 +80,9 @@ describe('professor final review', () => {
 
   it('renders source, papers, topic teaching and filters without leaking per-question solutions', () => {
     const html = renderToStaticMarkup(<FinalReviewPage data={courseData} navigate={() => {}} />)
-    expect(html).toContain('새 문제 120개')
-    expect(html).toContain('어려움 84개')
-    expect(html).toContain('핵심 108 + 보충 12')
+    expect(html).toContain('기본 120문항 추가')
+    expect(html).toContain('쉬움 60 · 보통 60')
+    expect(html).toContain('기존 120문항 유지')
     expect(html).toContain('professor-final-review.pdf#page=1')
     expect(html).toContain('최종 대비 주제')
     expect(html).toContain('최종 대비 풀이 상태')

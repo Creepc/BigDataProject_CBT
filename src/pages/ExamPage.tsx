@@ -17,7 +17,7 @@ import { getAllFixedExams, getFixedMockExamScore, getMockExamQuestions } from '@
 type Stage = 'setup' | 'taking' | 'result'
 const optionLabel = (index: number) => ['①', '②', '③', '④'][index]
 
-export function ExamPage({ data, navigate, initialExamId, reviewLatest = false }: { data: CourseData; navigate: (target: NavigationTarget) => void; initialExamId?: string; reviewLatest?: boolean }) {
+export function ExamPage({ data, navigate, initialExamId, reviewLatest = false, returnFinalLevel }: { data: CourseData; navigate: (target: NavigationTarget) => void; initialExamId?: string; reviewLatest?: boolean; returnFinalLevel?: string }) {
   const { state, recordAttempt, saveExam } = useStudy()
   const [stage, setStage] = useState<Stage>('setup')
   const [selectedFiles, setSelectedFiles] = useState<string[]>(data.files.map((file) => file.id))
@@ -156,19 +156,19 @@ export function ExamPage({ data, navigate, initialExamId, reviewLatest = false }
       .filter((item) => item.mockExamId === exam.id && item.questionIds.length === 40 && new Set(item.questionIds).size === 40 && item.questionIds.every((id) => exam.questionIds.includes(id)))
       .sort((a, b) => b.submittedAt.localeCompare(a.submittedAt))[0] : undefined
     if (record) reviewFixed(record)
-    else if (reviewLatest) navigate({ view: 'final' })
+    else if (reviewLatest) navigate({ view: 'final', params: { level: returnFinalLevel ?? exam.level ?? 'challenge' } })
     else startFixed(exam)
-  }, [data, initialExamId, reviewLatest, state.exams])
+  }, [data, initialExamId, reviewLatest, returnFinalLevel, state.exams])
 
   const backToExams = () => activeMockExamId?.startsWith('final-')
-    ? navigate({ view: 'final' }) : setStage('setup')
+    ? navigate({ view: 'final', params: { level: returnFinalLevel ?? activeMockExam?.level ?? 'challenge' } }) : setStage('setup')
 
   const toggleFile = (id: string) => setSelectedFiles((before) => before.includes(id) ? before.filter((item) => item !== id) : [...before, id])
 
   if (stage === 'setup') return (
     <div className="animate-enter">
       <PageHeader eyebrow="MOCK EXAM" title="실전 모의고사" copy="신규 40문항씩 5회분을 시험 또는 해설 학습으로 풀어 보세요. 시험 중에는 정답이 숨겨지고 제출 뒤 모든 문항의 상세 해설이 열립니다. 아래에서 기존 맞춤형 랜덤 시험도 만들 수 있습니다." />
-      <button onClick={() => navigate({ view: 'final' })} className="button-primary mb-5">교수님 마지막 정리 기반 · 신규 120문항 보기</button>
+      <button onClick={() => navigate({ view: 'final' })} className="button-primary mb-5">최종 대비 · 기본 120문항 추가 + 기존 고난도 120문항</button>
       <FixedMockExamList data={data} state={state} onStart={startFixed} onReview={reviewFixed} navigate={navigate} />
       <h2 className="mb-2 text-xl font-black">맞춤형 랜덤 모의고사</h2>
       <p className="mb-5 text-sm leading-7 text-slate-500">전체 문제은행에서 범위·문항 수·시간·난이도 비율을 직접 정합니다. 위의 고정형 5회분과는 별개의 랜덤 시험입니다.</p>

@@ -5286,7 +5286,14 @@ export const courseData: CourseData = {
         "final-sys-013",
         "final-sys-019",
         "final-sys-025",
-        "final-sys-026"
+        "final-sys-026",
+        "basic-sys-001",
+        "basic-sys-007",
+        "basic-sys-013",
+        "basic-sys-021",
+        "basic-sys-022",
+        "basic-sys-025",
+        "basic-sys-036"
       ],
       "lesson": {
         "conceptId": "n12-c-software",
@@ -5580,7 +5587,8 @@ export const courseData: CourseData = {
         "n12-new-015",
         "n12-new-016",
         "mock-n12-004",
-        "mock-n12-039"
+        "mock-n12-039",
+        "basic-sys-002"
       ],
       "lesson": {
         "conceptId": "n12-c-os",
@@ -5736,7 +5744,11 @@ export const courseData: CourseData = {
         "final-sys-031",
         "final-sys-032",
         "final-sys-035",
-        "final-sys-036"
+        "final-sys-036",
+        "basic-sys-002",
+        "basic-sys-009",
+        "basic-sys-031",
+        "basic-sys-033"
       ],
       "lesson": {
         "conceptId": "n12-c-os-roles",
@@ -5883,7 +5895,10 @@ export const courseData: CourseData = {
         "final-sys-014",
         "final-sys-018",
         "final-sys-027",
-        "final-sys-031"
+        "final-sys-031",
+        "basic-sys-014",
+        "basic-sys-019",
+        "basic-sys-026"
       ],
       "lesson": {
         "conceptId": "n12-c-kernel",
@@ -6025,7 +6040,8 @@ export const courseData: CourseData = {
         "mock-n12-007",
         "mock-n12-042",
         "final-sys-014",
-        "final-sys-027"
+        "final-sys-027",
+        "basic-sys-026"
       ],
       "lesson": {
         "conceptId": "n12-c-system-call",
@@ -6172,7 +6188,10 @@ export const courseData: CourseData = {
         "final-sys-007",
         "final-sys-008",
         "final-sys-025",
-        "final-sys-030"
+        "final-sys-030",
+        "basic-sys-005",
+        "basic-sys-019",
+        "basic-sys-023"
       ],
       "lesson": {
         "conceptId": "n12-c-driver",
@@ -6483,7 +6502,9 @@ export const courseData: CourseData = {
         "final-sys-016",
         "final-sys-026",
         "final-sys-028",
-        "final-sys-029"
+        "final-sys-029",
+        "basic-sys-003",
+        "basic-sys-021"
       ],
       "lesson": {
         "conceptId": "n12-c-process",
@@ -6631,7 +6652,9 @@ export const courseData: CourseData = {
         "final-sys-015",
         "final-sys-018",
         "final-sys-028",
-        "final-sys-031"
+        "final-sys-031",
+        "basic-sys-028",
+        "basic-sys-031"
       ],
       "lesson": {
         "conceptId": "n12-c-time-sharing",
@@ -6793,7 +6816,14 @@ export const courseData: CourseData = {
         "final-sys-017",
         "final-sys-018",
         "final-sys-028",
-        "final-sys-029"
+        "final-sys-029",
+        "basic-sys-004",
+        "basic-sys-010",
+        "basic-sys-015",
+        "basic-sys-016",
+        "basic-sys-027",
+        "basic-sys-028",
+        "basic-sys-034"
       ],
       "lesson": {
         "conceptId": "n12-c-pcb-states",
@@ -6946,7 +6976,14 @@ export const courseData: CourseData = {
         "final-sys-019",
         "final-sys-020",
         "final-sys-026",
-        "final-sys-033"
+        "final-sys-033",
+        "basic-sys-007",
+        "basic-sys-008",
+        "basic-sys-018",
+        "basic-sys-022",
+        "basic-sys-032",
+        "basic-sys-033",
+        "basic-sys-036"
       ],
       "lesson": {
         "conceptId": "n12-c-memory-management",
@@ -7250,7 +7287,11 @@ export const courseData: CourseData = {
         "final-sys-020",
         "final-sys-021",
         "final-sys-032",
-        "final-sys-033"
+        "final-sys-033",
+        "basic-sys-011",
+        "basic-sys-018",
+        "basic-sys-029",
+        "basic-sys-033"
       ],
       "lesson": {
         "conceptId": "n12-c-virtual-memory",
@@ -7404,7 +7445,9 @@ export const courseData: CourseData = {
         "final-sys-011",
         "final-sys-022",
         "final-sys-034",
-        "final-sys-036"
+        "final-sys-036",
+        "basic-sys-006",
+        "basic-sys-035"
       ],
       "lesson": {
         "conceptId": "n12-c-file",
@@ -7547,7 +7590,8 @@ export const courseData: CourseData = {
         "mock-n12-017",
         "mock-n12-052",
         "final-sys-022",
-        "final-sys-036"
+        "final-sys-036",
+        "basic-sys-017"
       ],
       "lesson": {
         "conceptId": "n12-c-directory",
@@ -7690,7 +7734,9 @@ export const courseData: CourseData = {
         "mock-n12-053",
         "final-sys-011",
         "final-sys-023",
-        "final-sys-035"
+        "final-sys-035",
+        "basic-sys-012",
+        "basic-sys-030"
       ],
       "lesson": {
         "conceptId": "n12-c-formatting",
@@ -7839,7 +7885,10 @@ export const courseData: CourseData = {
         "final-sys-023",
         "final-sys-024",
         "final-sys-034",
-        "final-sys-035"
+        "final-sys-035",
+        "basic-sys-006",
+        "basic-sys-024",
+        "basic-sys-035"
       ],
       "lesson": {
         "conceptId": "n12-c-file-table",
@@ -7983,7 +8032,8 @@ export const courseData: CourseData = {
         "n12-new-080",
         "mock-n12-020",
         "mock-n12-055",
-        "final-sys-024"
+        "final-sys-024",
+        "basic-sys-020"
       ],
       "lesson": {
         "conceptId": "n12-c-block",
@@ -8269,7 +8319,8 @@ export const courseData: CourseData = {
         "n12-new-087",
         "n12-new-088",
         "mock-n12-022",
-        "mock-n12-057"
+        "mock-n12-057",
+        "basic-sys-024"
       ],
       "lesson": {
         "conceptId": "n12-c-fat32",
@@ -8412,7 +8463,9 @@ export const courseData: CourseData = {
         "n12-new-092",
         "mock-n12-023",
         "mock-n12-058",
-        "final-sys-012"
+        "final-sys-012",
+        "basic-sys-020",
+        "basic-sys-024"
       ],
       "lesson": {
         "conceptId": "n12-c-free-list",
@@ -8557,7 +8610,8 @@ export const courseData: CourseData = {
         "n12-new-095",
         "n12-new-096",
         "mock-n12-024",
-        "mock-n12-059"
+        "mock-n12-059",
+        "basic-inf-025"
       ],
       "lesson": {
         "conceptId": "n12-c-bigdata",
@@ -8697,7 +8751,8 @@ export const courseData: CourseData = {
         "n12-new-100",
         "mock-n12-025",
         "mock-n12-060",
-        "final-inf-025"
+        "final-inf-025",
+        "basic-inf-005"
       ],
       "lesson": {
         "conceptId": "n12-c-volume",
@@ -8842,7 +8897,8 @@ export const courseData: CourseData = {
         "mock-n12-026",
         "mock-n12-061",
         "final-inf-003",
-        "final-inf-015"
+        "final-inf-015",
+        "basic-inf-001"
       ],
       "lesson": {
         "conceptId": "n12-c-velocity",
@@ -8982,7 +9038,8 @@ export const courseData: CourseData = {
         "n12-new-107",
         "n12-new-108",
         "mock-n12-027",
-        "mock-n12-062"
+        "mock-n12-062",
+        "basic-inf-002"
       ],
       "lesson": {
         "conceptId": "n12-c-variety",
@@ -9122,7 +9179,10 @@ export const courseData: CourseData = {
         "n12-new-111",
         "n12-new-112",
         "mock-n12-028",
-        "mock-n12-063"
+        "mock-n12-063",
+        "basic-inf-013",
+        "basic-inf-026",
+        "basic-inf-035"
       ],
       "lesson": {
         "conceptId": "n12-c-veracity",
@@ -9267,7 +9327,9 @@ export const courseData: CourseData = {
         "n12-new-115",
         "n12-new-116",
         "mock-n12-029",
-        "mock-n12-064"
+        "mock-n12-064",
+        "basic-inf-003",
+        "basic-inf-026"
       ],
       "lesson": {
         "conceptId": "n12-c-value",
@@ -9419,7 +9481,9 @@ export const courseData: CourseData = {
         "n12-new-119",
         "n12-new-120",
         "mock-n12-030",
-        "mock-n12-065"
+        "mock-n12-065",
+        "basic-inf-004",
+        "basic-inf-025"
       ],
       "lesson": {
         "conceptId": "n12-c-data-sources",
@@ -9894,7 +9958,11 @@ export const courseData: CourseData = {
         "final-inf-002",
         "final-inf-014",
         "final-inf-025",
-        "final-inf-026"
+        "final-inf-026",
+        "basic-inf-004",
+        "basic-inf-014",
+        "basic-inf-015",
+        "basic-inf-027"
       ],
       "lesson": {
         "conceptId": "n12-c-data-forms",
@@ -10039,7 +10107,9 @@ export const courseData: CourseData = {
         "mock-n12-034",
         "mock-n12-069",
         "final-inf-002",
-        "final-inf-026"
+        "final-inf-026",
+        "basic-inf-004",
+        "basic-inf-014"
       ],
       "lesson": {
         "conceptId": "n12-c-time-series",
@@ -10351,7 +10421,10 @@ export const courseData: CourseData = {
         "final-inf-005",
         "final-inf-016",
         "final-inf-027",
-        "final-inf-028"
+        "final-inf-028",
+        "basic-inf-006",
+        "basic-inf-016",
+        "basic-inf-029"
       ],
       "lesson": {
         "conceptId": "n34-C01",
@@ -10503,7 +10576,9 @@ export const courseData: CourseData = {
         "mock-n34-041",
         "mock-n34-043",
         "final-inf-016",
-        "final-inf-020"
+        "final-inf-020",
+        "basic-inf-006",
+        "basic-inf-028"
       ],
       "lesson": {
         "conceptId": "n34-C02",
@@ -10658,7 +10733,10 @@ export const courseData: CourseData = {
         "mock-n34-001",
         "mock-n34-027",
         "mock-n34-040",
-        "final-inf-028"
+        "final-inf-028",
+        "basic-inf-006",
+        "basic-inf-017",
+        "basic-inf-028"
       ],
       "lesson": {
         "conceptId": "n34-C03",
@@ -10813,7 +10891,8 @@ export const courseData: CourseData = {
         "mock-n34-002",
         "mock-n34-053",
         "final-inf-005",
-        "final-inf-030"
+        "final-inf-030",
+        "basic-inf-018"
       ],
       "lesson": {
         "conceptId": "n34-C04",
@@ -10965,7 +11044,8 @@ export const courseData: CourseData = {
         "n34-new-020",
         "mock-n34-003",
         "mock-n34-042",
-        "final-inf-018"
+        "final-inf-018",
+        "basic-inf-019"
       ],
       "lesson": {
         "conceptId": "n34-C05",
@@ -11119,7 +11199,9 @@ export const courseData: CourseData = {
         "mock-n34-043",
         "final-inf-006",
         "final-inf-018",
-        "final-inf-031"
+        "final-inf-031",
+        "basic-inf-007",
+        "basic-inf-019"
       ],
       "lesson": {
         "conceptId": "n34-C06",
@@ -11567,7 +11649,10 @@ export const courseData: CourseData = {
         "mock-n34-054",
         "final-inf-007",
         "final-inf-019",
-        "final-inf-032"
+        "final-inf-032",
+        "basic-inf-008",
+        "basic-inf-020",
+        "basic-inf-031"
       ],
       "lesson": {
         "conceptId": "n34-C09",
@@ -11876,7 +11961,9 @@ export const courseData: CourseData = {
         "mock-n34-031",
         "final-inf-008",
         "final-inf-020",
-        "final-inf-033"
+        "final-inf-033",
+        "basic-inf-010",
+        "basic-inf-022"
       ],
       "lesson": {
         "conceptId": "n34-C11",
@@ -12035,7 +12122,9 @@ export const courseData: CourseData = {
         "mock-n34-045",
         "final-inf-008",
         "final-inf-021",
-        "final-inf-033"
+        "final-inf-033",
+        "basic-inf-010",
+        "basic-inf-032"
       ],
       "lesson": {
         "conceptId": "n34-C12",
@@ -12367,7 +12456,12 @@ export const courseData: CourseData = {
         "final-inf-022",
         "final-inf-030",
         "final-inf-031",
-        "final-inf-034"
+        "final-inf-034",
+        "basic-inf-009",
+        "basic-inf-011",
+        "basic-inf-021",
+        "basic-inf-033",
+        "basic-inf-035"
       ],
       "lesson": {
         "conceptId": "n34-C14",
@@ -12679,7 +12773,8 @@ export const courseData: CourseData = {
         "n34-new-064",
         "mock-n34-007",
         "mock-n34-018",
-        "mock-n34-047"
+        "mock-n34-047",
+        "basic-inf-021"
       ],
       "lesson": {
         "conceptId": "n34-C16",
@@ -13000,7 +13095,9 @@ export const courseData: CourseData = {
         "final-inf-009",
         "final-inf-010",
         "final-inf-023",
-        "final-inf-035"
+        "final-inf-035",
+        "basic-inf-011",
+        "basic-inf-023"
       ],
       "lesson": {
         "conceptId": "n34-C18",
@@ -13298,7 +13395,8 @@ export const courseData: CourseData = {
         "n34-new-079",
         "n34-new-080",
         "mock-n34-022",
-        "mock-n34-048"
+        "mock-n34-048",
+        "basic-nfx-019"
       ],
       "lesson": {
         "conceptId": "n34-C20",
@@ -13473,7 +13571,10 @@ export const courseData: CourseData = {
         "mock-n34-058",
         "final-inf-034",
         "final-nfx-004",
-        "final-nfx-018"
+        "final-nfx-018",
+        "basic-nfx-022",
+        "basic-nfx-027",
+        "basic-nfx-036"
       ],
       "lesson": {
         "conceptId": "n34-C21",
@@ -13644,7 +13745,10 @@ export const courseData: CourseData = {
         "mock-n34-028",
         "mock-n34-034",
         "mock-n34-038",
-        "mock-n34-059"
+        "mock-n34-059",
+        "basic-inf-034",
+        "basic-nfx-021",
+        "basic-nfx-033"
       ],
       "lesson": {
         "conceptId": "n34-C22",
@@ -13809,7 +13913,10 @@ export const courseData: CourseData = {
         "mock-n34-049",
         "mock-n34-055",
         "final-nfx-006",
-        "final-nfx-022"
+        "final-nfx-022",
+        "basic-nfx-010",
+        "basic-nfx-030",
+        "basic-nfx-042"
       ],
       "lesson": {
         "conceptId": "n34-C23",
@@ -13972,7 +14079,9 @@ export const courseData: CourseData = {
         "mock-n34-049",
         "mock-n34-060",
         "final-nfx-008",
-        "final-nfx-024"
+        "final-nfx-024",
+        "basic-nfx-023",
+        "basic-nfx-038"
       ],
       "lesson": {
         "conceptId": "n34-C24",
@@ -14132,7 +14241,8 @@ export const courseData: CourseData = {
         "mock-n34-011",
         "mock-n34-050",
         "mock-n34-062",
-        "mock-n34-063"
+        "mock-n34-063",
+        "basic-nfx-024"
       ],
       "lesson": {
         "conceptId": "n34-C25",
@@ -14831,7 +14941,10 @@ export const courseData: CourseData = {
         "mock-n34-051",
         "final-nfx-011",
         "final-nfx-027",
-        "final-nfx-043"
+        "final-nfx-043",
+        "basic-nfx-014",
+        "basic-nfx-028",
+        "basic-nfx-044"
       ],
       "lesson": {
         "conceptId": "n34-C29",
@@ -14995,7 +15108,10 @@ export const courseData: CourseData = {
         "mock-n34-064",
         "final-inf-026",
         "final-nfx-012",
-        "final-nfx-044"
+        "final-nfx-044",
+        "basic-inf-015",
+        "basic-nfx-011",
+        "basic-nfx-040"
       ],
       "lesson": {
         "conceptId": "n34-C30",
@@ -15152,7 +15268,9 @@ export const courseData: CourseData = {
         "n34-new-123",
         "n34-new-124",
         "mock-n34-026",
-        "mock-n34-052"
+        "mock-n34-052",
+        "basic-nfx-012",
+        "basic-nfx-043"
       ],
       "lesson": {
         "conceptId": "n34-C31",
@@ -15315,7 +15433,8 @@ export const courseData: CourseData = {
         "mock-n34-037",
         "mock-n34-065",
         "final-nfx-014",
-        "final-nfx-045"
+        "final-nfx-045",
+        "basic-nfx-032"
       ],
       "lesson": {
         "conceptId": "n34-C32",
@@ -15698,7 +15817,9 @@ export const courseData: CourseData = {
         "mock-n34-061",
         "final-inf-023",
         "final-inf-035",
-        "final-nfx-010"
+        "final-nfx-010",
+        "basic-inf-023",
+        "basic-nfx-048"
       ],
       "lesson": {
         "conceptId": "n34-C34",
@@ -16011,7 +16132,8 @@ export const courseData: CourseData = {
         "web-new-007",
         "web-new-008",
         "mock-web-014",
-        "final-inf-011"
+        "final-inf-011",
+        "basic-inf-030"
       ],
       "lesson": {
         "conceptId": "web-c02",
@@ -16301,7 +16423,9 @@ export const courseData: CourseData = {
         "web-new-015",
         "web-new-016",
         "mock-web-040",
-        "final-inf-013"
+        "final-inf-013",
+        "basic-inf-012",
+        "basic-inf-024"
       ],
       "lesson": {
         "conceptId": "web-c04",
@@ -16448,7 +16572,9 @@ export const courseData: CourseData = {
         "mock-web-041",
         "final-inf-011",
         "final-inf-013",
-        "final-inf-019"
+        "final-inf-019",
+        "basic-inf-012",
+        "basic-inf-036"
       ],
       "lesson": {
         "conceptId": "web-c05",
@@ -16597,7 +16723,13 @@ export const courseData: CourseData = {
         "final-inf-003",
         "final-inf-015",
         "final-inf-025",
-        "final-inf-027"
+        "final-inf-027",
+        "basic-inf-001",
+        "basic-inf-002",
+        "basic-inf-003",
+        "basic-inf-005",
+        "basic-inf-013",
+        "basic-inf-026"
       ],
       "lesson": {
         "conceptId": "web-c06",
@@ -16748,7 +16880,10 @@ export const courseData: CourseData = {
         "final-inf-004",
         "final-inf-017",
         "final-inf-027",
-        "final-inf-029"
+        "final-inf-029",
+        "basic-inf-016",
+        "basic-inf-017",
+        "basic-inf-029"
       ],
       "lesson": {
         "conceptId": "web-c07",
@@ -16897,7 +17032,8 @@ export const courseData: CourseData = {
         "mock-web-054",
         "final-inf-004",
         "final-inf-017",
-        "final-inf-029"
+        "final-inf-029",
+        "basic-inf-029"
       ],
       "lesson": {
         "conceptId": "web-c08",
@@ -17035,7 +17171,8 @@ export const courseData: CourseData = {
         "web-new-034",
         "web-new-035",
         "web-new-036",
-        "mock-web-042"
+        "mock-web-042",
+        "basic-inf-030"
       ],
       "lesson": {
         "conceptId": "web-c09",
@@ -17175,7 +17312,8 @@ export const courseData: CourseData = {
         "web-new-038",
         "web-new-039",
         "web-new-040",
-        "mock-web-043"
+        "mock-web-043",
+        "basic-inf-028"
       ],
       "lesson": {
         "conceptId": "web-c10",
@@ -17610,7 +17748,8 @@ export const courseData: CourseData = {
         "web-new-052",
         "mock-web-016",
         "mock-web-056",
-        "final-inf-013"
+        "final-inf-013",
+        "basic-inf-024"
       ],
       "lesson": {
         "conceptId": "web-c13",
@@ -17770,7 +17909,9 @@ export const courseData: CourseData = {
         "mock-web-057",
         "final-inf-006",
         "final-inf-018",
-        "final-inf-031"
+        "final-inf-031",
+        "basic-inf-007",
+        "basic-inf-019"
       ],
       "lesson": {
         "conceptId": "web-c14",
@@ -17918,7 +18059,8 @@ export const courseData: CourseData = {
         "web-new-058",
         "web-new-059",
         "web-new-060",
-        "mock-web-030"
+        "mock-web-030",
+        "basic-inf-022"
       ],
       "lesson": {
         "conceptId": "web-c15",
@@ -18069,7 +18211,8 @@ export const courseData: CourseData = {
         "web-new-062",
         "web-new-063",
         "web-new-064",
-        "mock-web-031"
+        "mock-web-031",
+        "basic-inf-032"
       ],
       "lesson": {
         "conceptId": "web-c16",
@@ -18524,7 +18667,17 @@ export const courseData: CourseData = {
         "final-nfx-034",
         "final-nfx-036",
         "final-nfx-041",
-        "final-nfx-047"
+        "final-nfx-047",
+        "basic-nfx-001",
+        "basic-nfx-002",
+        "basic-nfx-004",
+        "basic-nfx-006",
+        "basic-nfx-009",
+        "basic-nfx-017",
+        "basic-nfx-018",
+        "basic-nfx-020",
+        "basic-nfx-034",
+        "basic-nfx-039"
       ],
       "lesson": {
         "conceptId": "web-c19",
@@ -18685,7 +18838,11 @@ export const courseData: CourseData = {
         "mock-web-005",
         "mock-web-059",
         "final-inf-035",
-        "final-nfx-009"
+        "final-nfx-009",
+        "basic-nfx-003",
+        "basic-nfx-013",
+        "basic-nfx-035",
+        "basic-nfx-048"
       ],
       "lesson": {
         "conceptId": "web-c20",
@@ -18828,7 +18985,9 @@ export const courseData: CourseData = {
         "web-new-084",
         "mock-web-006",
         "final-nfx-003",
-        "final-nfx-035"
+        "final-nfx-035",
+        "basic-nfx-005",
+        "basic-nfx-025"
       ],
       "lesson": {
         "conceptId": "web-c21",
@@ -18984,7 +19143,11 @@ export const courseData: CourseData = {
         "final-nfx-024",
         "final-nfx-025",
         "final-nfx-035",
-        "final-nfx-041"
+        "final-nfx-041",
+        "basic-nfx-006",
+        "basic-nfx-019",
+        "basic-nfx-033",
+        "basic-nfx-045"
       ],
       "lesson": {
         "conceptId": "web-c22",
@@ -19145,7 +19308,11 @@ export const courseData: CourseData = {
         "final-nfx-017",
         "final-nfx-019",
         "final-nfx-033",
-        "final-nfx-040"
+        "final-nfx-040",
+        "basic-inf-009",
+        "basic-inf-035",
+        "basic-nfx-015",
+        "basic-nfx-031"
       ],
       "lesson": {
         "conceptId": "web-c23",
@@ -19302,7 +19469,18 @@ export const courseData: CourseData = {
         "final-nfx-003",
         "final-nfx-004",
         "final-nfx-018",
-        "final-nfx-019"
+        "final-nfx-019",
+        "basic-inf-033",
+        "basic-inf-034",
+        "basic-nfx-004",
+        "basic-nfx-005",
+        "basic-nfx-009",
+        "basic-nfx-015",
+        "basic-nfx-022",
+        "basic-nfx-025",
+        "basic-nfx-031",
+        "basic-nfx-036",
+        "basic-nfx-045"
       ],
       "lesson": {
         "conceptId": "web-c24",
@@ -19474,7 +19652,11 @@ export const courseData: CourseData = {
         "final-nfx-030",
         "final-nfx-035",
         "final-nfx-037",
-        "final-nfx-047"
+        "final-nfx-047",
+        "basic-nfx-007",
+        "basic-nfx-027",
+        "basic-nfx-034",
+        "basic-nfx-046"
       ],
       "lesson": {
         "conceptId": "web-c25",
@@ -19647,7 +19829,11 @@ export const courseData: CourseData = {
         "final-nfx-037",
         "final-nfx-038",
         "final-nfx-040",
-        "final-nfx-048"
+        "final-nfx-048",
+        "basic-nfx-007",
+        "basic-nfx-037",
+        "basic-nfx-046",
+        "basic-nfx-047"
       ],
       "lesson": {
         "conceptId": "web-c26",
@@ -19816,7 +20002,12 @@ export const courseData: CourseData = {
         "final-nfx-021",
         "final-nfx-022",
         "final-nfx-034",
-        "final-nfx-038"
+        "final-nfx-038",
+        "basic-nfx-008",
+        "basic-nfx-010",
+        "basic-nfx-021",
+        "basic-nfx-030",
+        "basic-nfx-037"
       ],
       "lesson": {
         "conceptId": "web-c27",
@@ -19973,7 +20164,9 @@ export const courseData: CourseData = {
         "mock-web-048",
         "final-nfx-008",
         "final-nfx-024",
-        "final-nfx-039"
+        "final-nfx-039",
+        "basic-nfx-023",
+        "basic-nfx-038"
       ],
       "lesson": {
         "conceptId": "web-c28",
@@ -20144,7 +20337,10 @@ export const courseData: CourseData = {
         "final-nfx-007",
         "final-nfx-021",
         "final-nfx-023",
-        "final-nfx-040"
+        "final-nfx-040",
+        "basic-nfx-013",
+        "basic-nfx-024",
+        "basic-nfx-047"
       ],
       "lesson": {
         "conceptId": "web-c29",
@@ -20315,7 +20511,13 @@ export const courseData: CourseData = {
         "mock-web-049",
         "final-nfx-009",
         "final-nfx-025",
-        "final-nfx-041"
+        "final-nfx-041",
+        "basic-nfx-003",
+        "basic-nfx-016",
+        "basic-nfx-018",
+        "basic-nfx-026",
+        "basic-nfx-035",
+        "basic-nfx-042"
       ],
       "lesson": {
         "conceptId": "web-c30",
@@ -20485,7 +20687,10 @@ export const courseData: CourseData = {
         "final-nfx-010",
         "final-nfx-026",
         "final-nfx-036",
-        "final-nfx-042"
+        "final-nfx-042",
+        "basic-nfx-026",
+        "basic-nfx-039",
+        "basic-nfx-041"
       ],
       "lesson": {
         "conceptId": "web-c31",
@@ -20999,7 +21204,10 @@ export const courseData: CourseData = {
         "mock-web-063",
         "final-nfx-011",
         "final-nfx-027",
-        "final-nfx-043"
+        "final-nfx-043",
+        "basic-nfx-014",
+        "basic-nfx-028",
+        "basic-nfx-044"
       ],
       "lesson": {
         "conceptId": "web-c35",
@@ -21158,7 +21366,9 @@ export const courseData: CourseData = {
         "final-nfx-012",
         "final-nfx-028",
         "final-nfx-031",
-        "final-nfx-044"
+        "final-nfx-044",
+        "basic-nfx-011",
+        "basic-nfx-040"
       ],
       "lesson": {
         "conceptId": "web-c36",
@@ -21327,7 +21537,10 @@ export const courseData: CourseData = {
         "final-nfx-013",
         "final-nfx-029",
         "final-nfx-030",
-        "final-nfx-046"
+        "final-nfx-046",
+        "basic-nfx-012",
+        "basic-nfx-029",
+        "basic-nfx-043"
       ],
       "lesson": {
         "conceptId": "web-c37",
@@ -21481,7 +21694,9 @@ export const courseData: CourseData = {
         "final-nfx-014",
         "final-nfx-029",
         "final-nfx-045",
-        "final-nfx-046"
+        "final-nfx-046",
+        "basic-nfx-029",
+        "basic-nfx-032"
       ],
       "lesson": {
         "conceptId": "web-c38",
@@ -21849,7 +22064,11 @@ export const courseData: CourseData = {
         "final-nfx-039",
         "final-nfx-042",
         "final-nfx-046",
-        "final-nfx-048"
+        "final-nfx-048",
+        "basic-inf-024",
+        "basic-nfx-008",
+        "basic-nfx-020",
+        "basic-nfx-041"
       ],
       "lesson": {
         "conceptId": "web-c40",
@@ -22025,7 +22244,8 @@ export const courseData: CourseData = {
         "mock-web-012",
         "mock-web-039",
         "final-nfx-010",
-        "final-nfx-042"
+        "final-nfx-042",
+        "basic-nfx-016"
       ],
       "lesson": {
         "conceptId": "web-c41",
@@ -22182,7 +22402,8 @@ export const courseData: CourseData = {
         "web-new-162",
         "web-new-163",
         "web-new-164",
-        "mock-web-026"
+        "mock-web-026",
+        "basic-nfx-048"
       ],
       "lesson": {
         "conceptId": "web-c42",
@@ -76850,6 +77071,8568 @@ export const courseData: CourseData = {
         ],
         "pitfall": "결과가 없는 행을 계산에서 빼면 수식이 실행되더라도 가장 어려운 실패가 사라져 전체 성능처럼 보일 수 있다."
       }
+    },
+    {
+      "id": "basic-sys-001",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "foundations",
+        "evidence": "lecture",
+        "focusIds": [
+          "hardware-software"
+        ]
+      },
+      "prompt": "노트북을 구성하는 다음 항목 중 하드웨어에 해당하는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "컴퓨터의 운영체제",
+          "correct": false,
+          "explanation": "운영체제도 컴퓨터를 관리하는 프로그램이므로 소프트웨어다."
+        },
+        {
+          "id": "o2",
+          "text": "사진을 편집하는 프로그램",
+          "correct": false,
+          "explanation": "사진 편집 프로그램은 작업 명령을 담은 소프트웨어다."
+        },
+        {
+          "id": "o3",
+          "text": "화면을 표시하는 물리적인 모니터",
+          "correct": true,
+          "explanation": "모니터는 실제 부품으로 이루어진 출력 장치이므로 하드웨어다."
+        },
+        {
+          "id": "o4",
+          "text": "음악을 재생하는 앱",
+          "correct": false,
+          "explanation": "음악 재생 앱은 장치를 이용해 음악을 처리하는 소프트웨어다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기본 용어 확인",
+      "supplemental": false,
+      "review": "하드웨어는 모니터·키보드·CPU처럼 실제 부품으로 이루어진 장치다. 소프트웨어는 그 장치에서 실행할 명령과 프로그램이다. 눈에 보이는 화면의 모양이 아니라, 물리 장치인지 프로그램인지로 구분하면 된다.",
+      "memoryTip": "장치와 부품은 하드웨어, 명령과 프로그램은 소프트웨어.",
+      "additionalExample": "스마트폰 본체와 터치 화면은 하드웨어이고, 그 화면에서 실행하는 메신저 앱은 소프트웨어다.",
+      "detailedExplanation": {
+        "concept": "컴퓨터는 실제 장치인 하드웨어와 장치가 수행할 일을 정하는 소프트웨어가 함께 작동한다. 모니터는 전자 부품으로 구성된 물리 장치다. 사진 편집 앱이나 운영체제는 저장된 명령을 실행하는 프로그램이다. 운영체제가 중요하다고 해서 하드웨어로 분류되는 것은 아니다.",
+        "steps": [
+          "선택지에서 실제 부품으로 이루어진 물리 장치를 찾는다.",
+          "모니터와 달리 앱과 운영체제는 실행할 명령이라는 점을 확인한다.",
+          "물리 장치인 모니터를 하드웨어로 분류해 정답을 고른다."
+        ],
+        "pitfall": "화면에 표시되는 앱 아이콘과 실제 화면 장치를 구별한다."
+      }
+    },
+    {
+      "id": "basic-sys-002",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "foundations",
+        "evidence": "pdf",
+        "focusIds": [
+          "os-role"
+        ]
+      },
+      "prompt": "온라인 수업을 들으면서 메모 앱도 쓰고 있다. 두 앱에 CPU 실행 차례와 메모리를 나누어 주는 기본 소프트웨어는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "운영체제",
+          "correct": true,
+          "explanation": "운영체제는 여러 프로그램에 CPU·메모리 등 실행 자원을 배분한다."
+        },
+        {
+          "id": "o2",
+          "text": "수업 영상 파일",
+          "correct": false,
+          "explanation": "영상 파일은 재생할 데이터이며 자원을 배분하는 관리 프로그램이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "메모 문서의 제목",
+          "correct": false,
+          "explanation": "문서 제목은 파일을 구별하는 이름 정보다."
+        },
+        {
+          "id": "o4",
+          "text": "모니터 케이블",
+          "correct": false,
+          "explanation": "케이블은 신호를 전달하는 하드웨어이며 CPU 차례를 관리하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-os",
+        "n12-c-os-roles"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "생활 속 역할 연결",
+      "supplemental": false,
+      "review": "CPU와 메모리는 여러 앱이 함께 필요로 하는 자원이다. 운영체제는 앱마다 실행 기회를 주고 필요한 메모리를 관리한다. 학생이 수업 앱과 메모 앱 사이의 자원 배분을 직접 계산하지 않아도 되는 이유가 여기에 있다.",
+      "memoryTip": "여러 앱의 공통 자원을 관리하는 기본 프로그램은 운영체제.",
+      "additionalExample": "사진 앱과 브라우저를 함께 열 때도 운영체제가 두 프로그램의 실행과 메모리 사용을 관리한다.",
+      "detailedExplanation": {
+        "concept": "운영체제는 응용 프로그램이 컴퓨터의 자원을 사용할 수 있도록 돕는 기본 소프트웨어다. CPU의 실행 시간, 메모리 공간, 저장된 파일, 입출력 장치 등을 관리한다. 각각의 앱이 다른 앱의 사용 상황까지 모두 직접 조절하는 대신, 운영체제가 공통 관리 역할을 맡는다.",
+        "steps": [
+          "질문에서 관리 대상이 CPU의 실행 차례와 메모리라는 점을 읽는다.",
+          "이 자원들은 수업 앱과 메모 앱이 함께 이용하는 대상임을 확인한다.",
+          "여러 프로그램의 공통 자원을 관리하는 운영체제를 선택한다."
+        ],
+        "pitfall": "사용자가 직접 여는 응용 앱과 그 아래에서 자원을 관리하는 운영체제를 구별한다."
+      }
+    },
+    {
+      "id": "basic-sys-003",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "pdf",
+        "focusIds": [
+          "process-pcb"
+        ]
+      },
+      "prompt": "압축 프로그램을 실행해 사진을 압축하고 있다. 이처럼 프로그램이 실제로 실행되는 작업을 무엇이라고 부르는가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일 확장자",
+          "correct": false,
+          "explanation": "확장자는 .zip처럼 파일 이름 뒤에 붙여 형식을 나타내는 요소다."
+        },
+        {
+          "id": "o2",
+          "text": "디렉터리",
+          "correct": false,
+          "explanation": "디렉터리는 파일과 하위 폴더를 조직하는 공간이다."
+        },
+        {
+          "id": "o3",
+          "text": "물리 섹터",
+          "correct": false,
+          "explanation": "물리 섹터는 저장장치에서 데이터를 읽고 쓰는 물리적 단위다."
+        },
+        {
+          "id": "o4",
+          "text": "프로세스",
+          "correct": true,
+          "explanation": "프로세스는 프로그램이 실행되고 있는 한 작업의 실체다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-process"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "실행 단위 확인",
+      "supplemental": false,
+      "review": "프로그램은 실행할 명령이 저장된 것이고, 프로세스는 그 프로그램을 실행하는 작업이다. 압축 프로그램이 사진을 읽고 계산하며 결과를 만드는 동안 운영체제는 이를 프로세스로 관리한다. 파일이 저장돼 있는 상태와 실행 상태를 나누어 기억한다.",
+      "memoryTip": "저장된 명령은 프로그램, 실행되는 작업은 프로세스.",
+      "additionalExample": "다운로드한 게임 설치 파일 자체는 파일이고, 게임을 실행해 진행 중인 작업은 프로세스로 관리된다.",
+      "detailedExplanation": {
+        "concept": "프로세스는 흔히 살아 있는 프로그램이라고 설명한다. 저장장치에 프로그램 파일이 있다는 것만으로 CPU에서 작업하는 것은 아니다. 프로그램을 실행하면 운영체제는 실행에 필요한 메모리와 관리 정보를 준비하고 프로세스로 관리한다. 여기서는 사진 압축을 실제 수행하고 있으므로 프로세스에 해당한다.",
+        "steps": [
+          "프로그램 파일을 보관 중인지 실제 작업 중인지 먼저 확인한다.",
+          "사진을 압축하고 있으므로 프로그램이 실행되고 있음을 찾는다.",
+          "실행되는 한 작업을 뜻하는 프로세스라는 용어를 고른다."
+        ],
+        "pitfall": "프로세스라는 말을 저장된 프로그램 파일의 이름이나 확장자와 같은 뜻으로 쓰지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-004",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "process-pcb"
+        ]
+      },
+      "prompt": "운영체제가 각 프로세스의 상태와 실행을 이어 갈 정보를 적어 두는 관리 기록은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "이미지 파일의 해상도",
+          "correct": false,
+          "explanation": "해상도는 이미지의 가로·세로 픽셀 수와 관련된 정보다."
+        },
+        {
+          "id": "o2",
+          "text": "PCB(프로세스 제어 블록)",
+          "correct": true,
+          "explanation": "PCB에는 프로세스 상태와 실행 위치 등 프로세스 관리 정보가 담긴다."
+        },
+        {
+          "id": "o3",
+          "text": "모니터 밝기 설정",
+          "correct": false,
+          "explanation": "밝기는 화면 출력 설정이며 프로세스의 실행 문맥을 기록하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "파일 확장자",
+          "correct": false,
+          "explanation": "확장자는 파일 형식을 나타내는 이름 요소다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-pcb-states"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            35,
+            36,
+            37
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "관리 정보 이름 확인",
+      "supplemental": false,
+      "review": "PCB는 운영체제가 프로세스를 관리할 때 사용하는 기록이다. 프로세스의 상태와 실행 위치 등 다시 작업을 이어 가는 데 필요한 정보가 포함된다. 프로그램이 여러 개 실행되면 각 프로세스를 구별하고 관리해야 하므로 이런 기록이 필요하다.",
+      "memoryTip": "PCB는 프로세스별 관리 기록.",
+      "additionalExample": "학생마다 출석과 진도 기록이 따로 있듯, 운영체제도 각 프로세스의 상태와 실행 정보를 구별해 관리한다.",
+      "detailedExplanation": {
+        "concept": "PCB는 Process Control Block을 줄인 말로, 프로세스 제어 블록이라고 부른다. 운영체제는 어떤 프로세스가 준비 중인지 실행 중인지, 어디서 작업을 이어 가야 하는지를 알아야 한다. PCB는 이런 프로세스의 관리 정보를 보관한다. 실제 계산 결과를 담은 일반 문서 파일과는 역할이 다르다.",
+        "steps": [
+          "문제에서 기록하는 대상이 개별 프로세스라는 점을 확인한다.",
+          "상태와 실행 위치처럼 작업 관리에 필요한 정보를 묻는지 살핀다.",
+          "그 정보를 관리하는 프로세스 제어 블록 PCB를 선택한다."
+        ],
+        "pitfall": "PCB를 사용자의 문서 내용이나 프로그램 설치 파일 자체라고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-005",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "kernel-interrupt-driver"
+        ]
+      },
+      "prompt": "스캐너 제조사가 장치를 운영체제에서 사용할 수 있도록 설치 프로그램을 제공했다. 장치별 제어를 맡는 소프트웨어의 이름은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "스캐너의 유리판",
+          "correct": false,
+          "explanation": "유리판은 스캐너를 구성하는 물리 부품이다."
+        },
+        {
+          "id": "o2",
+          "text": "디바이스 드라이버",
+          "correct": true,
+          "explanation": "드라이버는 운영체제와 장치 사이에서 해당 장치의 제어를 돕는 소프트웨어다."
+        },
+        {
+          "id": "o3",
+          "text": "스캔한 사진 파일",
+          "correct": false,
+          "explanation": "사진 파일은 장치를 사용해 얻은 결과 데이터다."
+        },
+        {
+          "id": "o4",
+          "text": "폴더의 이름",
+          "correct": false,
+          "explanation": "폴더 이름은 저장 위치를 조직할 때 사용하는 이름 정보다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-driver"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            21,
+            22
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "장치와 소프트웨어 연결",
+      "supplemental": false,
+      "review": "드라이버는 운영체제가 특정 장치를 제어할 수 있도록 돕는 소프트웨어다. 스캐너·프린터 같은 장치는 기능과 제어 방식이 다를 수 있다. 드라이버는 이런 장치별 차이를 다루며, 장치의 물리 부품이나 결과 파일 자체를 뜻하지 않는다.",
+      "memoryTip": "장치를 다루는 제어 소프트웨어는 드라이버.",
+      "additionalExample": "새 그래픽 장치에 맞는 드라이버를 설치하면 운영체제가 해당 장치의 기능을 사용하도록 도울 수 있다.",
+      "detailedExplanation": {
+        "concept": "디바이스 드라이버는 특정 하드웨어를 운영체제에서 다루기 위한 소프트웨어다. 응용 프로그램이 장치의 모든 세부 제어법을 직접 구현하지 않아도 운영체제와 드라이버를 통해 기능을 사용할 수 있다. 장치 본체는 하드웨어이고, 본체를 어떻게 제어할지 설명하는 프로그램은 소프트웨어라는 차이도 함께 기억한다.",
+        "steps": [
+          "제조사가 제공한 대상이 장치 본체가 아니라 프로그램임을 확인한다.",
+          "프로그램의 역할이 해당 스캐너를 운영체제에서 제어하는 것인지 읽는다.",
+          "특정 장치의 제어를 돕는 소프트웨어인 드라이버를 고른다."
+        ],
+        "pitfall": "스캐너를 움직이게 한다고 해서 드라이버를 모터나 케이블 같은 물리 부품으로 분류하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-006",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "filesystem",
+        "evidence": "pdf",
+        "focusIds": [
+          "filesystem-format"
+        ]
+      },
+      "prompt": "사용자가 파일 이름으로 저장한 문서를 다시 찾을 수 있도록, 이름과 저장 위치를 관리하는 체계는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "CPU의 계산 기능만",
+          "correct": false,
+          "explanation": "CPU는 명령을 실행하지만 파일 이름과 위치를 조직하는 체계의 이름은 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "키보드 배열",
+          "correct": false,
+          "explanation": "키보드 배열은 입력 키의 배치다."
+        },
+        {
+          "id": "o3",
+          "text": "모니터의 화면 크기",
+          "correct": false,
+          "explanation": "화면 크기는 출력 장치의 특성이며 파일 저장 위치를 관리하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "파일시스템",
+          "correct": true,
+          "explanation": "파일시스템은 파일을 이름·경로·저장 위치 등으로 조직하고 관리한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-file",
+        "n12-c-file-table"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "저장 관리 역할 확인",
+      "supplemental": false,
+      "review": "파일시스템은 저장장치의 데이터를 사용자가 파일과 폴더로 이용할 수 있게 조직한다. 이름과 실제 저장 위치를 연결하고 사용 공간도 관리한다. 사용자는 보통 파일이 저장된 물리적 위치를 외우는 대신 파일 이름과 경로를 이용한다.",
+      "memoryTip": "파일의 이름과 위치를 연결하는 저장 관리 체계는 파일시스템.",
+      "additionalExample": "수천 개의 사진을 날짜별 폴더에 저장해 이름으로 다시 열 수 있는 것도 파일시스템의 도움을 받는 예다.",
+      "detailedExplanation": {
+        "concept": "파일시스템은 저장된 자료를 파일과 디렉터리로 조직하는 관리 방식이다. 단순히 저장장치에 빈 용량이 있다는 것만으로 파일 이름과 내용의 위치를 찾을 수 있는 것은 아니다. 파일시스템은 이름과 위치를 연결하는 관리 정보를 유지한다. 덕분에 사용자는 파일의 물리 주소 대신 익숙한 이름과 경로로 자료를 다룬다.",
+        "steps": [
+          "질문에서 파일 이름으로 저장한 자료를 다시 찾는 상황을 확인한다.",
+          "이름과 실제 저장 위치를 연결하는 관리 역할이 필요함을 생각한다.",
+          "그 역할을 맡는 체계인 파일시스템을 정답으로 고른다."
+        ],
+        "pitfall": "저장장치의 물리 부품과 그 위에서 파일을 조직하는 파일시스템을 같은 뜻으로 쓰지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-007",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "foundations",
+        "evidence": "lecture",
+        "focusIds": [
+          "von-neumann"
+        ]
+      },
+      "prompt": "폰 노이만의 저장 프로그램 구조를 한 문장으로 정리한 것으로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "명령과 데이터를 메모리에 저장하고 CPU가 명령을 읽어 실행한다.",
+          "correct": true,
+          "explanation": "프로그램을 저장해 두고 CPU가 읽어 실행하는 것이 저장 프로그램 구조의 핵심이다."
+        },
+        {
+          "id": "o2",
+          "text": "명령은 프로그램이 아니라 키보드 부품에만 존재한다.",
+          "correct": false,
+          "explanation": "저장 프로그램 구조에서는 실행할 명령이 메모리에 저장된다."
+        },
+        {
+          "id": "o3",
+          "text": "컴퓨터에는 데이터를 저장할 메모리가 필요 없다.",
+          "correct": false,
+          "explanation": "메모리는 명령과 데이터를 저장하는 중요한 구성 요소다."
+        },
+        {
+          "id": "o4",
+          "text": "CPU는 계산하지 않고 결과 파일을 영구 보관하기만 한다.",
+          "correct": false,
+          "explanation": "CPU는 명령의 해석과 실행을 담당하며 영구 파일 보관 장치가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-software",
+        "n12-c-memory-management"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            6,
+            7,
+            41,
+            42
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "구조의 핵심 한 문장",
+      "supplemental": false,
+      "review": "폰 노이만 구조의 핵심은 실행할 프로그램도 메모리에 저장한다는 점이다. CPU는 저장된 명령을 읽고 해석해 실행하며 필요한 데이터를 사용한다. 복잡한 명령 주소 계산을 하기 전에 CPU와 메모리의 기본 역할부터 연결해 기억하면 된다.",
+      "memoryTip": "메모리에 명령·데이터를 저장하고 CPU가 읽어 실행한다.",
+      "additionalExample": "계산기 프로그램의 명령과 계산에 쓸 값이 준비되면 CPU는 명령에 따라 더하기 같은 연산을 수행한다.",
+      "detailedExplanation": {
+        "concept": "저장 프로그램 방식은 컴퓨터가 수행할 명령을 메모리에 저장해 두고 순서에 따라 실행하도록 하는 방식이다. CPU는 명령을 가져와 어떤 일을 할지 해석하고 실제 연산이나 제어를 수행한다. 메모리는 필요한 명령과 데이터를 담는다. CPU의 물리적인 설치 위치보다 이런 기능의 연결이 구조를 이해하는 핵심이다.",
+        "steps": [
+          "문제가 묻는 것은 부품 배치가 아니라 저장 프로그램 구조임을 확인한다.",
+          "메모리에 명령과 데이터가 저장된다는 핵심 내용을 찾는다.",
+          "CPU가 저장된 명령을 읽고 실행한다는 설명과 연결한다."
+        ],
+        "pitfall": "CPU가 모든 메인보드의 기하학적 정중앙에 있어야 한다는 뜻으로 외우지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-008",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "memory",
+        "evidence": "pdf",
+        "focusIds": [
+          "os-role",
+          "virtual-memory"
+        ]
+      },
+      "prompt": "가상 컴퓨터에서 같은 순간에 측정한 앱별 RAM 사용량이다. RAM을 가장 많이 사용하는 앱은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "메모 앱",
+          "correct": false,
+          "explanation": "메모 앱은 200MB를 사용하며 세 앱 중 가장 작다."
+        },
+        {
+          "id": "o2",
+          "text": "음악 앱",
+          "correct": false,
+          "explanation": "음악 앱은 400MB로, 사진 앱의 800MB보다 작다."
+        },
+        {
+          "id": "o3",
+          "text": "사진 앱",
+          "correct": true,
+          "explanation": "사진 앱의 800MB가 세 값 중 가장 크다."
+        },
+        {
+          "id": "o4",
+          "text": "세 앱의 RAM 사용량은 같다.",
+          "correct": false,
+          "explanation": "막대 높이가 각각 200·400·800MB로 다르다."
+        }
+      ],
+      "visual": {
+        "kind": "bar",
+        "title": "가상 앱별 RAM 사용량",
+        "xLabel": "앱",
+        "yLabel": "MB",
+        "labels": [
+          "메모 앱",
+          "음악 앱",
+          "사진 앱"
+        ],
+        "series": [
+          {
+            "name": "사용 중인 RAM",
+            "values": [
+              200,
+              400,
+              800
+            ]
+          }
+        ],
+        "note": "학습용 측정값이다. 설치 파일 크기가 아니라 같은 순간의 RAM 사용량이다."
+      },
+      "conceptIds": [
+        "n12-c-memory-management"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            8,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "자원 사용 막대 읽기",
+      "supplemental": false,
+      "review": "세로축은 프로그램이 실행 중 사용하는 RAM의 양을 MB로 나타낸다. 가장 높은 막대인 사진 앱이 800MB로 가장 많이 사용한다. 이 값은 설치 파일 크기나 앱의 인기도가 아니라 측정한 순간의 메모리 사용량이라는 점도 함께 확인한다.",
+      "memoryTip": "막대를 읽기 전에 세로축이 무엇을 어떤 단위로 나타내는지 본다.",
+      "additionalExample": "배터리 사용량 그래프의 막대라면 같은 높이 비교라도 RAM이 아니라 전력 사용량을 비교하는 것이다.",
+      "detailedExplanation": {
+        "concept": "RAM은 현재 실행하는 프로그램이 필요한 내용을 두는 메모리다. 여러 앱을 열면 앱마다 쓰는 RAM의 양이 다를 수 있다. 막대그래프는 각 앱의 측정값을 길이로 보여 주므로 같은 단위에서 높은 막대가 더 큰 사용량을 뜻한다. 저장장치의 설치 파일 용량과 실행 중 RAM 사용량은 서로 다른 측정값이다.",
+        "steps": [
+          "세로축의 단위가 MB이고 측정 대상이 RAM 사용량임을 확인한다.",
+          "세 앱의 막대에서 200MB·400MB·800MB를 차례로 읽는다.",
+          "가장 큰 값인 800MB에 해당하는 사진 앱을 정답으로 고른다."
+        ],
+        "pitfall": "RAM 사용량이 가장 크다는 관찰만으로 그 앱의 성능이 가장 나쁘다고 결론 내리지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-009",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "foundations",
+        "evidence": "lecture",
+        "focusIds": [
+          "os-role"
+        ]
+      },
+      "prompt": "공용 컴퓨터의 운영체제가 맡는 역할을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "여러 프로그램에 CPU 실행 차례를 배분한다.",
+          "correct": true,
+          "explanation": "CPU 시간은 운영체제가 관리하는 공통 자원이다."
+        },
+        {
+          "id": "o2",
+          "text": "모든 문서의 맞춤법이 정확하다고 보장한다.",
+          "correct": false,
+          "explanation": "운영체제의 자원 관리가 문서 내용의 정확성까지 보장하지는 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "권한이 없는 사용자의 파일 접근을 제한한다.",
+          "correct": true,
+          "explanation": "파일 접근 보호는 운영체제의 중요한 역할이다."
+        },
+        {
+          "id": "o4",
+          "text": "저장된 모든 사진의 촬영 장소를 자동으로 알아낸다.",
+          "correct": false,
+          "explanation": "사진 내용이나 촬영 장소의 자동 추정은 운영체제의 기본 자원 배분 역할이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-os-roles"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "자원 관리와 내용 판단 구별",
+      "supplemental": false,
+      "review": "운영체제는 CPU·메모리·파일 등 공통 자원을 관리하고 접근을 보호한다. 하지만 문서의 맞춤법이나 사진의 의미처럼 응용이 다루는 내용까지 모두 판단하는 것은 아니다. 자원을 잘 배분한다는 것과 자료 내용이 올바르다는 것은 별개의 문제다.",
+      "memoryTip": "운영체제는 실행 자원과 접근을 관리한다. 내용의 정답까지 보증하지 않는다.",
+      "additionalExample": "파일을 정상 저장했다고 해서 보고서의 계산식이 옳은 것은 아니며, 계산식 검토는 따로 해야 한다.",
+      "detailedExplanation": {
+        "concept": "운영체제의 주요 책임에는 자원 관리와 보호가 있다. 여러 앱이 CPU를 사용하도록 차례를 조절하고, 파일에 접근할 권한도 확인한다. 반면 앱이 만든 보고서의 주장이나 사진의 의미가 맞는지까지 자동으로 보장하지 않는다. 실행 기반을 제공하는 역할과 응용 데이터의 내용을 판단하는 역할을 나누면 선택하기 쉽다.",
+        "steps": [
+          "각 선택지가 실행 자원이나 접근 권한을 다루는지 먼저 살핀다.",
+          "CPU 차례 배분과 파일 접근 제한이 운영체제의 관리 기능임을 찾는다.",
+          "문서나 사진의 내용 판단은 별도의 응용 기능이라는 점을 확인한다."
+        ],
+        "pitfall": "운영체제가 정상 동작한다는 사실을 모든 앱의 출력 내용도 정확하다는 뜻으로 넓히지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-010",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "process-pcb"
+        ]
+      },
+      "prompt": "준비·실행·대기를 구별하는 기본 상태 모델이다. 상태 설명이 올바른 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "준비 상태는 프로그램 파일을 아직 설치하지 않은 상태다.",
+          "correct": false,
+          "explanation": "준비 상태의 프로세스는 실행할 준비가 됐지만 CPU 차례를 기다린다."
+        },
+        {
+          "id": "o2",
+          "text": "준비 상태는 CPU를 배정받을 차례를 기다리는 상태다.",
+          "correct": true,
+          "explanation": "준비는 입출력 완료가 아니라 CPU 배정을 기다리는 상태다."
+        },
+        {
+          "id": "o3",
+          "text": "대기 상태는 항상 CPU에서 명령을 계산하는 상태다.",
+          "correct": false,
+          "explanation": "대기는 입출력 완료 같은 사건을 기다리는 상태다."
+        },
+        {
+          "id": "o4",
+          "text": "실행 상태는 CPU를 배정받아 명령을 수행하는 상태다.",
+          "correct": true,
+          "explanation": "현재 CPU에서 실제 명령을 수행하면 실행 상태다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-pcb-states"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "세 상태의 뜻 비교",
+      "supplemental": false,
+      "review": "준비와 대기는 둘 다 기다리는 모습이지만 기다리는 대상이 다르다. 준비는 CPU 차례를 기다리고, 대기는 입출력 완료 같은 사건을 기다린다. 실행은 CPU를 받은 상태다. 먼저 각 상태의 뜻을 익히면 복잡한 시간표 없이도 기본 문제를 풀 수 있다.",
+      "memoryTip": "준비=CPU 차례, 대기=사건 완료, 실행=CPU에서 수행.",
+      "additionalExample": "파일 읽기를 기다리면 대기이고, 읽기를 마친 뒤 CPU 차례만 기다리면 준비 상태가 된다.",
+      "detailedExplanation": {
+        "concept": "프로세스 상태는 운영체제가 현재 작업의 상황을 구별하는 방법이다. 기본 모델에서 준비는 CPU를 받으면 실행할 수 있는 상태이고, 실행은 CPU에서 명령을 수행하는 상태다. 대기는 파일 읽기처럼 아직 끝나지 않은 사건을 기다리는 상태다. 기다린다는 표현이 공통으로 보여도 무엇을 기다리는지 확인하면 준비와 대기를 나눌 수 있다.",
+        "steps": [
+          "준비 상태가 기다리는 대상이 CPU 배정이라는 뜻을 확인한다.",
+          "실행 상태에서는 CPU를 받아 명령을 수행한다는 뜻을 확인한다.",
+          "입출력 등 사건을 기다리는 대기를 CPU 실행과 구별한다."
+        ],
+        "pitfall": "준비 상태를 프로그램이 설치되지 않았거나 아직 존재하지 않는 상태로 해석하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-011",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "memory",
+        "evidence": "lecture",
+        "focusIds": [
+          "virtual-memory"
+        ]
+      },
+      "prompt": "RAM과 스왑을 공부하고 있다. 올바른 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "스왑은 SSD 같은 저장장치 공간을 메모리 관리에 활용한다.",
+          "correct": true,
+          "explanation": "스왑은 RAM 내용의 일부를 저장장치로 옮겨 관리할 때 사용하는 공간이다."
+        },
+        {
+          "id": "o2",
+          "text": "스왑 공간을 만들면 물리 RAM 칩의 용량도 늘어난다.",
+          "correct": false,
+          "explanation": "스왑은 저장장치 공간이므로 RAM 칩 자체의 용량은 그대로다."
+        },
+        {
+          "id": "o3",
+          "text": "스왑을 만들면 저장장치가 항상 RAM과 같은 속도가 된다.",
+          "correct": false,
+          "explanation": "저장장치를 사용하는 스왑은 RAM과 같은 속도를 보장하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "RAM과 저장장치 사이의 이동이 잦으면 작업이 느려질 수 있다.",
+          "correct": true,
+          "explanation": "필요한 내용을 반복 이동하면 저장장치 접근과 전송 시간이 든다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-virtual-memory"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "RAM과 스왑의 기본 차이",
+      "supplemental": false,
+      "review": "스왑은 저장장치의 공간을 메모리 관리에 이용하는 방법이다. RAM이 부족할 때 일부 내용을 옮겨 관리하는 데 도움이 되지만, RAM 칩이 늘어나거나 저장장치가 RAM 속도로 변하지는 않는다. 이동이 잦으면 실행 시간이 늘어날 수 있다.",
+      "memoryTip": "스왑은 저장장치 활용이지 RAM 칩 증설이 아니다.",
+      "additionalExample": "책상 공간이 부족해 책 일부를 서랍에 넣을 수는 있지만, 계속 꺼내고 넣는 시간이 추가되는 것과 비슷하다.",
+      "detailedExplanation": {
+        "concept": "RAM은 실행 중 필요한 내용을 빠르게 사용하는 메모리다. 스왑은 저장장치 공간을 활용해 메모리의 일부 내용을 관리한다. 두 공간은 위치와 성능 특성이 다르다. 스왑은 메모리 부족 상황에서 도움이 될 수 있지만 RAM을 직접 추가한 것과 같지 않으며, 내용 이동이 반복되면 오히려 체감 성능이 떨어질 수 있다.",
+        "steps": [
+          "스왑의 실제 공간이 RAM 칩이 아니라 저장장치임을 확인한다.",
+          "저장장치 활용과 물리 RAM 용량 증가를 서로 다른 변화로 나눈다.",
+          "반복 이동에는 시간이 들므로 느려질 수 있다는 설명을 고른다."
+        ],
+        "pitfall": "스왑 용량이 충분하면 어떤 프로그램이든 빠르게 실행된다고 보장하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-012",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "filesystem",
+        "evidence": "lecture",
+        "focusIds": [
+          "filesystem-format"
+        ]
+      },
+      "prompt": "보관용 USB를 포맷하기 전에 확인할 내용으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "포맷은 USB 케이스의 색을 바꾸는 작업이다.",
+          "correct": false,
+          "explanation": "포맷은 물리 케이스가 아니라 파일시스템 관리 구조를 준비·초기화하는 작업이다."
+        },
+        {
+          "id": "o2",
+          "text": "필요한 파일은 다른 곳에 먼저 백업한다.",
+          "correct": true,
+          "explanation": "포맷으로 기존 파일 접근이 사라질 수 있으므로 필요한 자료를 먼저 보존한다."
+        },
+        {
+          "id": "o3",
+          "text": "포맷은 사용할 파일시스템의 구조를 준비하거나 초기화하는 작업이다.",
+          "correct": true,
+          "explanation": "파일을 조직할 관리 구조를 만드는 것이 포맷의 기본 목적이다."
+        },
+        {
+          "id": "o4",
+          "text": "포맷은 기존 파일을 반드시 모두 보존하므로 백업이 불필요하다.",
+          "correct": false,
+          "explanation": "기존 파일 보존을 보장하지 않으므로 필요한 자료는 미리 백업해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-formatting"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            55,
+            56
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "포맷의 의미와 안전한 준비",
+      "supplemental": false,
+      "review": "포맷은 저장공간을 파일시스템으로 사용할 수 있도록 구조를 준비하거나 초기화하는 작업이다. 기존 파일에 접근할 수 없게 될 수 있으므로 필요한 자료는 먼저 별도 매체에 백업한다. 단순한 파일 정리나 케이스 교체와는 다르다.",
+      "memoryTip": "포맷 전에는 필요한 자료를 백업하고 대상 매체를 확인한다.",
+      "additionalExample": "수업 자료 USB를 새 파일시스템으로 사용할 때도 원본 자료를 다른 디스크에 복사한 뒤 작업해야 한다.",
+      "detailedExplanation": {
+        "concept": "포맷은 파일과 빈 공간을 관리할 파일시스템 구조를 준비하는 작업이다. 새 저장장치를 사용하기 위해 할 수도 있고 기존 파일시스템을 초기화하기 위해 할 수도 있다. 이 과정에서 기존 파일의 목록과 관리 정보가 바뀌어 접근이 불가능해질 수 있다. 따라서 파일 보존이 필요하다면 실행 전에 별도 위치에 백업하는 것이 기본이다.",
+        "steps": [
+          "포맷이 물리 부품 교체가 아니라 파일시스템 구조 작업임을 확인한다.",
+          "USB에 계속 보관해야 하는 자료가 있는지 먼저 점검한다.",
+          "필요한 자료를 별도 위치에 백업한 뒤 포맷을 검토한다."
+        ],
+        "pitfall": "포맷하면 기존 파일도 반드시 그대로 남는다고 생각하고 백업을 생략하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-013",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "foundations",
+        "evidence": "lecture",
+        "focusIds": [
+          "hardware-software"
+        ]
+      },
+      "prompt": "전자책 단말기의 배터리와 화면은 그대로 두고, 책 검색 기능을 프로그램 업데이트로 개선했다. 바뀐 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "배터리의 물리 용량",
+          "correct": false,
+          "explanation": "배터리를 바꿨다는 조건은 없으며 프로그램 갱신이 물리 용량을 늘리지는 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "소프트웨어",
+          "correct": true,
+          "explanation": "실행할 프로그램을 업데이트했으므로 소프트웨어 변경이다."
+        },
+        {
+          "id": "o3",
+          "text": "화면의 물리 크기",
+          "correct": false,
+          "explanation": "화면 부품은 그대로이므로 화면의 물리 크기는 바뀌지 않았다."
+        },
+        {
+          "id": "o4",
+          "text": "충전 단자의 모양",
+          "correct": false,
+          "explanation": "단자 모양은 하드웨어의 특성이며 이 사례에서 바꾼 대상이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "업데이트 대상 분류",
+      "supplemental": false,
+      "review": "같은 기기에서도 프로그램이 바뀌면 기능이나 동작이 달라질 수 있다. 이 사례는 물리 부품을 교체하지 않고 책 검색 프로그램을 업데이트했다. 따라서 바뀐 대상은 소프트웨어이며 배터리·화면·단자의 물리적 특성이 바뀌었다고 볼 수 없다.",
+      "memoryTip": "부품 교체 없이 프로그램을 갱신하면 소프트웨어 변경.",
+      "additionalExample": "지도 앱을 업데이트해 검색 기능이 달라져도 스마트폰 화면이나 배터리를 새 부품으로 바꾼 것은 아니다.",
+      "detailedExplanation": {
+        "concept": "소프트웨어는 하드웨어에서 실행할 명령과 프로그램이다. 소프트웨어를 업데이트하면 같은 물리 장치를 이용하면서도 제공하는 기능이 달라질 수 있다. 하드웨어 변경은 배터리나 화면처럼 실제 부품이 바뀌는 경우를 말한다. 무엇이 좋아졌는지만 보기보다 실제로 바꾼 대상이 프로그램인지 부품인지를 확인하면 된다.",
+        "steps": [
+          "배터리와 화면 같은 물리 부품은 그대로라는 조건을 확인한다.",
+          "실제 변경 대상이 책 검색 기능의 프로그램이라는 점을 찾는다.",
+          "프로그램 갱신을 뜻하는 소프트웨어 변경을 정답으로 선택한다."
+        ],
+        "pitfall": "기기의 기능이 좋아졌다는 결과만 보고 물리 부품도 바뀌었다고 판단하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-014",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "kernel-interrupt-driver"
+        ]
+      },
+      "prompt": "운영체제의 핵심 부분으로, 프로세스·메모리·장치 관리 같은 중요한 기능을 수행하는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "문서 편집기의 글꼴 목록",
+          "correct": false,
+          "explanation": "글꼴 목록은 문서의 표현에 사용하는 응용 프로그램의 기능이다."
+        },
+        {
+          "id": "o2",
+          "text": "사용자가 만든 발표 자료",
+          "correct": false,
+          "explanation": "발표 자료는 사용자 데이터이며 운영체제의 핵심 관리 부분이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "압축 파일의 확장자",
+          "correct": false,
+          "explanation": "확장자는 파일 형식을 나타내는 이름 요소다."
+        },
+        {
+          "id": "o4",
+          "text": "커널",
+          "correct": true,
+          "explanation": "커널은 운영체제의 핵심 기능을 수행하는 부분이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-kernel"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            19
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "커널의 기본 역할",
+      "supplemental": false,
+      "review": "커널은 운영체제에서 자원 관리와 보호 같은 핵심 기능을 수행하는 부분이다. 프로세스의 실행, 메모리, 장치 접근 등과 관련된다. 사용자가 보는 모든 화면이나 모든 응용 프로그램을 커널이라고 부르지는 않는다.",
+      "memoryTip": "커널은 운영체제의 핵심 관리 부분.",
+      "additionalExample": "앱이 파일을 읽도록 요청하면 운영체제의 핵심 기능을 이용하지만, 그 앱 자체가 커널이 되는 것은 아니다.",
+      "detailedExplanation": {
+        "concept": "운영체제에는 사용자와 상호작용하는 도구와 여러 관리 기능이 있다. 그중 커널은 프로세스와 메모리, 장치 같은 자원을 다루는 핵심 부분이다. 응용 프로그램은 운영체제가 제공하는 기능을 이용하지만 커널 그 자체는 아니다. 커널의 뜻을 먼저 알아 두면 시스템 호출이나 드라이버가 연결되는 위치도 이해하기 쉽다.",
+        "steps": [
+          "문제에서 운영체제의 핵심 부분을 묻는다는 점을 확인한다.",
+          "프로세스와 메모리 관리가 핵심 자원 관리 기능임을 떠올린다.",
+          "그 기능을 수행하는 부분의 이름인 커널을 정답으로 고른다."
+        ],
+        "pitfall": "컴퓨터에서 실행된다는 이유만으로 문서나 일반 응용 앱을 커널이라고 부르지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-015",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "process-pcb"
+        ]
+      },
+      "prompt": "기본 프로세스 상태 모델에서 음악 재생 작업은 실행할 준비를 마쳤고 CPU 차례만 기다린다. 이 작업의 상태는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "종료",
+          "correct": false,
+          "explanation": "종료는 작업을 마쳐 실행을 끝낸 상태다."
+        },
+        {
+          "id": "o2",
+          "text": "입출력 대기",
+          "correct": false,
+          "explanation": "입출력 대기는 읽기나 입력 같은 사건의 완료를 기다리는 상태다."
+        },
+        {
+          "id": "o3",
+          "text": "준비",
+          "correct": true,
+          "explanation": "실행할 수 있지만 CPU 차례만 기다리면 준비 상태다."
+        },
+        {
+          "id": "o4",
+          "text": "실행",
+          "correct": false,
+          "explanation": "실행 상태는 CPU를 실제로 배정받아 명령을 수행하는 상태다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-pcb-states"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기다리는 대상 확인",
+      "supplemental": false,
+      "review": "준비 상태는 실행에 필요한 준비가 됐지만 아직 CPU 차례를 받지 못한 상태다. CPU를 받으면 실행으로 넘어갈 수 있다. 입출력 완료처럼 다른 사건을 기다리는 대기 상태와 달리, 이 문제에서는 CPU 차례만 기다린다는 조건이 중요하다.",
+      "memoryTip": "CPU 차례만 기다리면 준비 상태.",
+      "additionalExample": "계산 작업이 필요한 자료를 갖춘 뒤 다른 작업이 CPU를 쓰고 있어 기다리는 경우도 준비 상태다.",
+      "detailedExplanation": {
+        "concept": "프로세스의 준비 상태와 대기 상태는 둘 다 당장 CPU에서 계산하지 않는다는 점이 비슷하다. 하지만 준비는 CPU를 배정받으면 실행할 수 있고, 대기는 입출력 같은 사건이 먼저 끝나야 한다. 문제에서는 음악 재생 작업이 CPU 차례만 기다린다고 명시했으므로 준비 상태를 고르면 된다.",
+        "steps": [
+          "작업이 끝난 것이 아니라 계속 실행할 준비가 됐다는 조건을 읽는다.",
+          "기다리는 대상이 입출력 완료가 아니라 CPU 차례인지 확인한다.",
+          "CPU 차례만 기다리는 상태에 해당하는 준비를 정답으로 고른다."
+        ],
+        "pitfall": "기다린다는 말이 보인다고 모든 경우를 입출력 대기 상태로 고르지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-016",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "process-pcb"
+        ]
+      },
+      "prompt": "준비 상태의 프로세스를 선택해 CPU에서 실행하도록 보내는 동작을 무엇이라고 하는가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "디스패치",
+          "correct": true,
+          "explanation": "디스패치는 준비 상태의 프로세스에 CPU를 주어 실행시키는 동작이다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 압축",
+          "correct": false,
+          "explanation": "압축은 데이터 표현을 바꾸어 크기를 줄이는 작업이다."
+        },
+        {
+          "id": "o3",
+          "text": "입출력 대기",
+          "correct": false,
+          "explanation": "입출력 대기는 장치 작업 등 사건의 완료를 기다리는 상태다."
+        },
+        {
+          "id": "o4",
+          "text": "포맷",
+          "correct": false,
+          "explanation": "포맷은 저장공간에 파일시스템 구조를 준비·초기화하는 작업이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-pcb-states"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "상태 전이 이름 확인",
+      "supplemental": false,
+      "review": "디스패치는 준비 상태에서 실행 상태로 넘어가도록 CPU를 배정하는 동작이다. 준비는 CPU 차례를 기다리는 상태이고 실행은 CPU를 받은 상태다. 준비→실행이라는 화살표와 디스패치라는 용어를 함께 연결해 기억하면 된다.",
+      "memoryTip": "준비 → 실행 = 디스패치.",
+      "additionalExample": "계산을 기다리던 작업을 운영체제가 골라 CPU에서 시작하게 했다면 준비에서 실행으로 디스패치한 것이다.",
+      "detailedExplanation": {
+        "concept": "운영체제는 실행할 준비가 된 여러 프로세스 중 다음 작업을 선택해 CPU를 사용할 기회를 준다. 선택된 작업이 실제 실행 상태로 옮겨 가는 동작을 디스패치라고 한다. 용어가 낯설어도 준비와 실행의 뜻을 먼저 연결하면 쉽게 이해할 수 있다. 파일을 저장하거나 디스크 구조를 만드는 작업과는 별개다.",
+        "steps": [
+          "동작 이전의 프로세스 상태가 준비라는 점을 확인한다.",
+          "CPU를 받은 뒤의 상태는 실행이라는 점을 연결한다.",
+          "준비에서 실행으로 보내는 동작의 이름인 디스패치를 고른다."
+        ],
+        "pitfall": "디스패치를 실행에서 대기로 이동하거나 파일을 저장하는 동작과 같은 뜻으로 외우지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-017",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "filesystem",
+        "evidence": "lecture",
+        "focusIds": [
+          "filesystem-format"
+        ]
+      },
+      "prompt": "경로 /교양/과제/답안.txt에서 답안.txt가 직접 들어 있는 디렉터리의 이름은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "CPU",
+          "correct": false,
+          "explanation": "CPU는 명령을 실행하는 장치이며 주어진 경로의 디렉터리가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "답안",
+          "correct": false,
+          "explanation": "답안은 파일 이름의 일부이며 여기서는 디렉터리 이름이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "txt",
+          "correct": false,
+          "explanation": "txt는 파일 이름 끝의 확장자다."
+        },
+        {
+          "id": "o4",
+          "text": "과제",
+          "correct": true,
+          "explanation": "파일 이름 바로 앞의 디렉터리는 과제이며 전체 위치는 /교양/과제다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-directory"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            54
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "파일 경로 읽기",
+      "supplemental": false,
+      "review": "디렉터리는 파일과 다른 디렉터리를 조직하는 폴더다. 주어진 경로는 교양 폴더 아래 과제 폴더가 있고 그 안에 답안.txt가 있다는 뜻이다. 직접 담고 있는 폴더를 묻고 있으므로 파일 이름 바로 앞의 과제를 고르면 된다.",
+      "memoryTip": "경로의 마지막 항목은 파일 이름, 그 바로 앞은 직접 담은 폴더.",
+      "additionalExample": "/수업/발표/그림.png에서 그림.png를 직접 담는 디렉터리는 발표이고, 파일 확장자는 png다.",
+      "detailedExplanation": {
+        "concept": "경로는 디렉터리와 파일의 위치를 차례로 나타낸다. 디렉터리는 흔히 폴더라고 부르며 파일과 하위 디렉터리를 담는다. 이 문제의 마지막 항목 답안.txt는 파일이고, 그 바로 앞에 있는 과제가 파일을 직접 담는 디렉터리다. 더 위의 교양도 상위 폴더지만 직접 담는 폴더와는 구별한다.",
+        "steps": [
+          "경로의 마지막에 있는 답안.txt를 파일 이름으로 확인한다.",
+          "파일 바로 앞 항목인 과제가 직접 담는 폴더임을 읽는다.",
+          "파일 확장자 txt와 폴더 이름 과제를 나누어 정답을 고른다."
+        ],
+        "pitfall": "파일 이름의 확장자 txt를 폴더 이름이나 저장장치의 종류로 읽지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-018",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "memory",
+        "evidence": "lecture",
+        "focusIds": [
+          "virtual-memory"
+        ]
+      },
+      "prompt": "가상메모리의 기본 역할을 가장 잘 설명한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "프로세스가 보는 주소 공간을 실제 메모리와 연결해 관리한다.",
+          "correct": true,
+          "explanation": "가상메모리는 프로세스의 주소 공간과 실제 메모리의 대응을 관리한다."
+        },
+        {
+          "id": "o2",
+          "text": "SSD를 물리적으로 RAM 칩으로 바꾼다.",
+          "correct": false,
+          "explanation": "가상메모리는 관리 방식이며 SSD 부품을 RAM 부품으로 바꾸는 작업이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 파일의 이름을 자동으로 바꾼다.",
+          "correct": false,
+          "explanation": "파일 이름 변경은 가상메모리의 기본 역할이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "화면 속 가상 인물을 그리는 기능만 뜻한다.",
+          "correct": false,
+          "explanation": "가상메모리는 화면 효과가 아니라 메모리 관리와 관련된 개념이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-virtual-memory",
+        "n12-c-memory-management"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            41,
+            42,
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "가상메모리 한 문장 이해",
+      "supplemental": false,
+      "review": "가상메모리는 프로세스가 사용하는 주소와 실제 메모리 위치를 연결해 관리하는 방식이다. 필요한 일부 내용을 저장장치와 주고받는 방법을 함께 활용할 수도 있다. 가상메모리 전체를 스왑 공간과 같은 뜻으로 외우기보다 주소 공간 관리라는 핵심을 먼저 기억한다.",
+      "memoryTip": "가상메모리의 핵심은 프로세스의 주소 공간 관리.",
+      "additionalExample": "각 프로그램이 자신의 작업 공간을 이용하더라도 운영체제는 그 주소를 실제 RAM 위치와 연결해 관리할 수 있다.",
+      "detailedExplanation": {
+        "concept": "프로그램이 사용하는 주소와 실제 RAM의 위치를 언제나 그대로 같게 다룰 필요는 없다. 가상메모리는 프로세스별 주소 공간과 실제 메모리의 대응을 관리하는 방식이다. 이 과정에서 저장장치 공간을 활용할 수 있지만 저장장치 자체가 RAM으로 변하는 것은 아니다. 주소를 관리하는 큰 개념과 스왑이라는 한 방법을 구별한다.",
+        "steps": [
+          "질문이 부품 교체가 아니라 메모리 관리의 역할을 묻는지 확인한다.",
+          "프로세스가 보는 주소와 실제 메모리 위치를 연결한다는 설명을 읽는다.",
+          "주소 공간을 관리하는 설명을 가상메모리의 기본 역할로 고른다."
+        ],
+        "pitfall": "가상메모리라는 말을 저장장치가 RAM과 똑같은 부품이나 속도가 된다는 뜻으로 읽지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-019",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "kernel-interrupt-driver"
+        ]
+      },
+      "prompt": "키보드 장치가 새 입력이 들어왔다는 사건을 CPU에 알릴 때 사용할 수 있는 신호 방식은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "디스크 포맷",
+          "correct": false,
+          "explanation": "포맷은 파일시스템 구조를 준비하거나 초기화하는 작업이다."
+        },
+        {
+          "id": "o2",
+          "text": "문서의 파일명 변경",
+          "correct": false,
+          "explanation": "파일명 변경은 저장 자료의 이름을 바꾸는 동작이다."
+        },
+        {
+          "id": "o3",
+          "text": "하드웨어 인터럽트",
+          "correct": true,
+          "explanation": "하드웨어 인터럽트는 장치가 처리할 사건을 알리는 데 사용할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "이미지 압축",
+          "correct": false,
+          "explanation": "이미지 압축은 사진 데이터의 크기나 표현을 바꾸는 처리다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-kernel",
+        "n12-c-driver"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            19,
+            21,
+            22
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "장치 사건과 인터럽트 연결",
+      "supplemental": false,
+      "review": "인터럽트는 장치 등에서 처리할 사건이 생겼음을 알리는 방식으로 쓰인다. 키 입력이나 장치 작업 완료를 알리면 운영체제가 그 사건에 맞는 처리를 할 수 있다. 프로그램이 커널 기능을 요청하는 시스템 호출과는 시작하는 주체가 다르다.",
+      "memoryTip": "장치의 사건 알림은 인터럽트, 앱의 서비스 요청은 시스템 호출.",
+      "additionalExample": "디스크 장치가 읽기 작업을 마쳤다는 사실을 알릴 때도 하드웨어 인터럽트를 사용할 수 있다.",
+      "detailedExplanation": {
+        "concept": "장치는 CPU와 별도로 동작하다가 입력 도착이나 작업 완료처럼 알려야 할 사건을 만날 수 있다. 하드웨어 인터럽트는 이런 사건을 CPU에 알리는 방법이다. 운영체제의 커널은 알림에 맞는 처리를 수행할 수 있다. 모든 입력 장치가 오직 한 방식으로만 동작한다고 단정하기보다, 이 문제처럼 사용할 수 있는 대표 방식으로 이해한다.",
+        "steps": [
+          "알림을 시작하는 쪽이 응용 앱이 아니라 키보드 장치임을 확인한다.",
+          "전달하려는 내용이 새 입력이 생겼다는 사건이라는 점을 읽는다.",
+          "장치의 사건 알림에 사용할 수 있는 하드웨어 인터럽트를 선택한다."
+        ],
+        "pitfall": "인터럽트를 앱이 커널 서비스를 요청하는 시스템 호출과 완전히 같은 뜻으로 외우지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-020",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "filesystem",
+        "evidence": "lecture",
+        "focusIds": [
+          "filesystem-format"
+        ]
+      },
+      "prompt": "가상 저장공간의 블록 상태다. 빈 블록 중 2개를 새 파일에 배정하면 빈 블록은 몇 개 남는가? 다른 변화는 없다.",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "2개",
+          "correct": false,
+          "explanation": "2개는 이번에 새 파일에 배정한 수다. 배정 후 남는 수는 7−2=5개다."
+        },
+        {
+          "id": "o2",
+          "text": "5개",
+          "correct": true,
+          "explanation": "빈 블록 7개 중 2개를 사용하므로 7−2=5개가 남는다."
+        },
+        {
+          "id": "o3",
+          "text": "9개",
+          "correct": false,
+          "explanation": "새로 사용하면 빈 블록은 2개 늘어나는 것이 아니라 줄어든다."
+        },
+        {
+          "id": "o4",
+          "text": "7개",
+          "correct": false,
+          "explanation": "7개는 새 파일에 배정하기 전의 빈 블록 수다."
+        }
+      ],
+      "visual": {
+        "kind": "bar",
+        "title": "가상 저장공간의 블록 상태",
+        "xLabel": "배정 상태",
+        "yLabel": "블록 수(개)",
+        "labels": [
+          "사용 중",
+          "빈 블록"
+        ],
+        "series": [
+          {
+            "name": "새 파일 배정 전",
+            "values": [
+              3,
+              7
+            ]
+          }
+        ],
+        "note": "모든 블록의 크기는 같으며 새 파일에 빈 블록 2개를 배정한다."
+      },
+      "conceptIds": [
+        "n12-c-free-list",
+        "n12-c-block"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            57,
+            61
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "빈 공간 한 단계 계산",
+      "supplemental": false,
+      "review": "파일시스템은 현재 사용하는 블록과 아직 사용할 수 있는 빈 블록을 구별해 관리한다. 그래프에서 빈 블록은 7개이고 그중 2개를 새 파일에 준다. 따라서 남은 빈 블록 수는 7−2=5개다. 새로 배정할수록 빈 공간은 줄어든다.",
+      "memoryTip": "남은 빈 블록 = 기존 빈 블록 − 새로 배정한 블록.",
+      "additionalExample": "빈 좌석이 7개인 열람실에서 2명이 자리를 잡으면 빈 좌석이 5개 남는 것과 같은 계산이다.",
+      "detailedExplanation": {
+        "concept": "파일을 저장할 때 파일시스템은 데이터를 넣을 빈 공간을 찾아 배정한다. 블록을 단위로 관리하는 경우 사용 중인 블록을 새 파일에 중복 배정하지 않고 빈 블록에서 고른다. 문제에서는 빈 블록 7개 중 2개를 배정한다고 했으므로 남는 수만 빼기로 구하면 된다. 복잡한 파일 연결 주소를 추적할 필요는 없다.",
+        "steps": [
+          "그래프의 빈 블록 막대에서 배정 전 수량 7개를 읽는다.",
+          "새 파일에 줄 블록 2개를 기존 빈 블록에서 뺀다.",
+          "7−2=5개를 구하고 남은 빈 블록 수로 답한다."
+        ],
+        "pitfall": "이번에 배정한 2개와 배정하고 남은 5개를 같은 수로 답하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-021",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "process-pcb"
+        ]
+      },
+      "prompt": "예약 알림 앱의 파일을 저장한 뒤 앱을 실행했다. 프로그램과 프로세스를 설명한 문장 중 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "저장된 앱의 명령 집합을 프로그램이라고 부른다.",
+          "correct": true,
+          "explanation": "프로그램은 실행할 명령들이 저장된 것이다."
+        },
+        {
+          "id": "o2",
+          "text": "실제로 실행되는 앱의 작업은 프로세스로 관리된다.",
+          "correct": true,
+          "explanation": "운영체제는 실행 중인 프로그램의 작업을 프로세스로 관리한다."
+        },
+        {
+          "id": "o3",
+          "text": "앱을 실행하지 않아도 저장된 파일은 항상 CPU에서 계산한다.",
+          "correct": false,
+          "explanation": "파일이 저장돼 있다는 사실과 프로그램이 실행되는 것은 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "프로세스는 물리 키보드의 다른 이름이다.",
+          "correct": false,
+          "explanation": "키보드는 입력 하드웨어이며 프로세스는 실행되는 작업이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-process",
+        "n12-c-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            6,
+            7,
+            15,
+            32,
+            33
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "명령 집합과 실행 작업 비교",
+      "supplemental": false,
+      "review": "프로그램은 명령이 저장된 것이고 프로세스는 실행되는 작업이다. 예약 알림 앱 파일이 저장돼 있어도 실행하지 않았다면 그 파일 자체가 CPU에서 작업하는 것은 아니다. 실행하면 운영체제가 필요한 자원과 관리 정보를 준비해 프로세스로 다룬다.",
+      "memoryTip": "프로그램은 할 일의 명령, 프로세스는 실제 실행되는 작업.",
+      "additionalExample": "요리법이 적힌 문서와 그 요리법대로 실제 요리하는 작업을 나누어 생각하면 프로그램과 프로세스의 차이를 이해하기 쉽다.",
+      "detailedExplanation": {
+        "concept": "프로그램과 프로세스는 관련되지만 같은 단어가 아니다. 프로그램은 실행할 절차를 나타내는 명령 집합이고 프로세스는 그 프로그램이 실행되는 한 작업이다. 운영체제는 프로세스마다 상태와 자원을 관리한다. 저장장치에 앱 파일을 갖고 있는 것과 실제로 앱을 실행하는 것을 구별하는 것이 이 개념의 출발점이다.",
+        "steps": [
+          "앱 파일에 저장된 명령을 프로그램이라는 용어와 연결한다.",
+          "앱을 실행한 뒤 생긴 작업을 프로세스라는 용어와 연결한다.",
+          "파일 보관만으로 CPU 계산이 시작되지는 않는다는 점을 확인한다."
+        ],
+        "pitfall": "설치 파일이 존재한다는 이유만으로 그 프로그램이 현재 실행되고 있다고 판단하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-022",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "foundations",
+        "evidence": "lecture",
+        "focusIds": [
+          "von-neumann"
+        ]
+      },
+      "prompt": "CPU와 메모리의 기본 역할에 대한 설명 중 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "CPU의 주된 역할은 모든 파일을 영구 보관하는 것이다.",
+          "correct": false,
+          "explanation": "CPU는 명령을 실행하며, 영구적인 파일 보관은 저장장치와 관련된다."
+        },
+        {
+          "id": "o2",
+          "text": "CPU는 프로그램의 명령을 해석하고 실행한다.",
+          "correct": true,
+          "explanation": "CPU는 명령에 따라 연산과 제어를 수행한다."
+        },
+        {
+          "id": "o3",
+          "text": "메모리는 실행에 필요한 명령과 데이터를 담는 데 사용된다.",
+          "correct": true,
+          "explanation": "CPU가 작업하는 동안 필요한 내용이 메모리에 놓일 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "메모리가 있으면 CPU의 명령 실행 기능은 필요 없다.",
+          "correct": false,
+          "explanation": "내용을 담는 역할과 명령을 실행하는 역할은 서로 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-memory-management",
+        "n12-c-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            6,
+            7,
+            41,
+            42
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "CPU와 메모리 역할 연결",
+      "supplemental": false,
+      "review": "CPU는 명령을 해석해 연산과 제어를 수행하고, 메모리는 그 실행에 필요한 명령과 데이터를 담는다. 두 부품은 서로 다른 역할로 연결된다. 메모리에 내용이 준비돼 있어도 CPU의 실행 기능이 필요하며, CPU를 파일 영구 보관함으로 보지는 않는다.",
+      "memoryTip": "CPU는 실행, 메모리는 실행에 필요한 내용 보관.",
+      "additionalExample": "문서 편집에서도 메모리에 작업 내용을 두고 CPU가 글자 입력 처리나 계산에 필요한 명령을 실행한다.",
+      "detailedExplanation": {
+        "concept": "컴퓨터 구조를 이해하려면 부품 이름을 외우는 것과 함께 역할을 나누어 보는 것이 좋다. CPU는 주어진 명령을 읽고 해석해 실제 동작을 수행한다. 메모리는 실행 중 필요한 명령과 데이터를 담는 공간으로 쓰인다. 저장장치는 파일을 지속적으로 보관하는 역할을 맡으므로 세 역할을 한 가지로 합쳐 외우지 않는다.",
+        "steps": [
+          "CPU가 해야 할 일은 명령의 해석과 실행이라는 점을 확인한다.",
+          "메모리가 실행에 필요한 내용을 담는 공간이라는 점을 확인한다.",
+          "내용 보관과 명령 실행이 서로 필요한 다른 역할임을 연결한다."
+        ],
+        "pitfall": "CPU·RAM·저장장치를 모두 파일을 영구 보관하는 동일한 장치로 외우지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-023",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "kernel-interrupt-driver"
+        ]
+      },
+      "prompt": "장치 드라이버를 점검하는 상황이다. 올바른 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "드라이버는 해당 장치 제어를 돕는 소프트웨어다.",
+          "correct": true,
+          "explanation": "장치의 제어 방식에 맞는 프로그램이 드라이버다."
+        },
+        {
+          "id": "o2",
+          "text": "드라이버는 장치를 연결하는 금속 핀 자체다.",
+          "correct": false,
+          "explanation": "금속 핀은 물리 부품이며 드라이버는 프로그램이다."
+        },
+        {
+          "id": "o3",
+          "text": "USB 단자가 같으면 모든 종류의 장치 기능도 반드시 같다.",
+          "correct": false,
+          "explanation": "같은 연결 단자를 써도 저장장치·프린터 등의 기능은 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "설치할 때는 장치와 운영체제에 맞는 드라이버인지 확인한다.",
+          "correct": true,
+          "explanation": "장치와 실행 환경에 맞는 제어 소프트웨어를 사용해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-driver"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            21,
+            22
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "드라이버의 성격과 선택",
+      "supplemental": false,
+      "review": "드라이버는 장치 자체가 아니라 그 장치를 제어하기 위한 소프트웨어다. 연결 단자가 같아도 장치의 목적과 제어 방법은 다를 수 있다. 따라서 단자의 모양만 보지 말고 장치 모델과 운영체제에 맞는 드라이버인지 확인하는 것이 기본이다.",
+      "memoryTip": "같은 단자라고 같은 장치는 아니다. 맞는 드라이버를 확인한다.",
+      "additionalExample": "USB로 연결하는 마우스와 스캐너는 연결 방식이 비슷해도 수행하는 작업과 제어 기능은 서로 다르다.",
+      "detailedExplanation": {
+        "concept": "드라이버는 장치별 동작을 운영체제에서 이용하도록 돕는 제어 프로그램이다. 하드웨어인 연결 핀이나 케이블과 달리 소프트웨어로 분류한다. USB 같은 연결 규격을 공유해도 마우스·저장장치·프린터의 기능은 서로 다르다. 설치 자료를 확인할 때는 연결 단자뿐 아니라 실제 장치와 운영체제의 지원 조건을 함께 살펴야 한다.",
+        "steps": [
+          "드라이버를 물리 부품이 아닌 장치 제어 프로그램으로 분류한다.",
+          "같은 연결 단자를 사용해도 장치의 기능은 다를 수 있음을 확인한다.",
+          "장치와 운영체제에 맞는 드라이버인지 확인하는 설명을 고른다."
+        ],
+        "pitfall": "케이블이 연결됐다는 사실만으로 장치 제어 소프트웨어도 반드시 올바르다고 판단하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-024",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "filesystem",
+        "evidence": "lecture",
+        "focusIds": [
+          "filesystem-format"
+        ]
+      },
+      "prompt": "파일시스템과 저장장치를 설명한 문장 중 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일시스템과 SSD는 완전히 같은 말이다.",
+          "correct": false,
+          "explanation": "SSD는 물리 저장장치이고 파일시스템은 그 공간의 파일을 조직하는 관리 방식이다."
+        },
+        {
+          "id": "o2",
+          "text": "FAT32는 파일시스템 종류의 한 예다.",
+          "correct": true,
+          "explanation": "FAT32는 파일과 저장공간을 관리하는 파일시스템의 한 종류다."
+        },
+        {
+          "id": "o3",
+          "text": "파일시스템은 사용 중인 공간과 빈 공간을 관리한다.",
+          "correct": true,
+          "explanation": "새 파일을 넣을 위치를 정하기 위해 사용·미사용 공간을 구별한다."
+        },
+        {
+          "id": "o4",
+          "text": "빈 공간을 관리하지 않아도 같은 블록을 무조건 덮어쓰면 된다.",
+          "correct": false,
+          "explanation": "사용 중인 블록을 잘못 덮어쓰면 기존 파일 내용이 손상될 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-fat32",
+        "n12-c-free-list",
+        "n12-c-file-table"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            56,
+            60,
+            61
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "물리 장치와 관리 방식 비교",
+      "supplemental": false,
+      "review": "SSD는 데이터를 보관하는 물리 장치이고 파일시스템은 그 공간을 파일과 폴더로 조직하는 방식이다. FAT32처럼 여러 종류의 파일시스템이 있다. 새 파일을 저장하려면 이미 사용 중인 블록과 빈 블록을 구별해 기존 자료를 보호해야 한다.",
+      "memoryTip": "SSD는 장치, FAT32는 파일시스템의 한 종류.",
+      "additionalExample": "공책이라는 물리 물건과 목차·페이지 번호로 내용을 정리하는 규칙을 구별하듯 저장장치와 관리 방식을 나눈다.",
+      "detailedExplanation": {
+        "concept": "파일시스템은 물리 저장장치 그 자체가 아니다. 저장장치에 있는 공간을 파일 이름과 경로, 할당 정보 등으로 관리하는 체계다. 파일시스템마다 구체적인 관리 방법과 제한이 다를 수 있으며 FAT32는 그중 한 종류다. 사용 중인 공간과 빈 공간의 구별은 새 파일을 저장하면서 기존 파일을 손상시키지 않기 위한 기본 관리 기능이다.",
+        "steps": [
+          "물리 장치 SSD와 파일 관리 체계인 파일시스템을 나눈다.",
+          "FAT32가 장치 부품이 아니라 파일시스템 종류임을 확인한다.",
+          "기존 자료를 보호하려면 사용 공간과 빈 공간을 구별해야 함을 찾는다."
+        ],
+        "pitfall": "파일시스템의 이름과 물리 저장장치의 종류를 같은 분류 기준으로 나열하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-025",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "foundations",
+        "evidence": "lecture",
+        "focusIds": [
+          "hardware-software"
+        ]
+      },
+      "prompt": "수리 기록에 ‘고장 난 키보드를 새 제품으로 교체했다’고 적혀 있다. 이 작업의 분류는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일시스템 포맷",
+          "correct": false,
+          "explanation": "포맷은 저장공간의 파일 관리 구조를 준비하는 작업이다."
+        },
+        {
+          "id": "o2",
+          "text": "응용 프로그램 업데이트",
+          "correct": false,
+          "explanation": "앱의 명령을 갱신한 것이 아니라 물리 장치를 바꿨다."
+        },
+        {
+          "id": "o3",
+          "text": "파일 압축",
+          "correct": false,
+          "explanation": "파일 압축은 데이터의 표현과 크기를 다루는 작업이다."
+        },
+        {
+          "id": "o4",
+          "text": "하드웨어 교체",
+          "correct": true,
+          "explanation": "실제 입력 장치인 키보드를 바꿨으므로 하드웨어 교체다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-software"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "물리 장치 교체 분류",
+      "supplemental": false,
+      "review": "하드웨어는 키보드·마우스·저장장치처럼 실제 부품으로 이루어진 장치다. 고장 난 키보드를 새 제품으로 교체했다면 프로그램이 아니라 물리 장치를 바꾼 것이다. 따라서 하드웨어 교체로 분류하며 앱 업데이트나 파일 처리와 구별한다.",
+      "memoryTip": "실제 부품이나 장치를 바꾸면 하드웨어 교체.",
+      "additionalExample": "고장 난 노트북 화면을 새 부품으로 교체하는 것도 소프트웨어 업데이트가 아니라 하드웨어 교체다.",
+      "detailedExplanation": {
+        "concept": "하드웨어와 소프트웨어는 변경 대상을 기준으로 구별할 수 있다. 입력 장치인 키보드는 실제 물리 부품이다. 키보드를 새 제품으로 바꾼 작업은 하드웨어 교체에 해당한다. 프로그램 안의 명령을 수정하거나 새 버전을 설치한 경우에 소프트웨어 변경이라고 한다. 수리인지 업데이트인지 말만 보지 말고 무엇을 바꿨는지 확인한다.",
+        "steps": [
+          "수리 기록에서 교체한 대상이 실제 키보드라는 점을 확인한다.",
+          "키보드는 물리 부품으로 이루어진 입력 장치라는 점을 떠올린다.",
+          "물리 장치 변경에 해당하는 하드웨어 교체를 정답으로 고른다."
+        ],
+        "pitfall": "컴퓨터와 관련된 모든 수리 작업을 프로그램 업데이트라고 부르지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-026",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "kernel-interrupt-driver"
+        ]
+      },
+      "prompt": "메모 앱이 파일 저장을 위해 커널의 서비스를 요청한다. 응용 프로그램이 이런 요청을 전달하는 인터페이스는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일 확장자",
+          "correct": false,
+          "explanation": "확장자는 파일 형식을 나타내는 이름 요소이며 커널 서비스 요청 인터페이스가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "시스템 호출",
+          "correct": true,
+          "explanation": "시스템 호출은 응용 프로그램이 커널 기능을 요청하는 통제된 인터페이스다."
+        },
+        {
+          "id": "o3",
+          "text": "모니터 케이블",
+          "correct": false,
+          "explanation": "모니터 케이블은 화면 신호를 전달하는 하드웨어다."
+        },
+        {
+          "id": "o4",
+          "text": "스왑 영역",
+          "correct": false,
+          "explanation": "스왑 영역은 메모리 관리에 활용하는 저장장치 공간이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-system-call",
+        "n12-c-kernel"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            19,
+            20
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "앱의 커널 서비스 요청",
+      "supplemental": false,
+      "review": "시스템 호출은 응용 프로그램이 커널의 기능을 요청할 때 사용하는 인터페이스다. 파일 저장처럼 운영체제가 관리하는 자원을 사용하는 요청에 연결된다. 파일 확장자는 이름 정보이고 스왑은 저장공간이므로 시스템 호출과 역할이 다르다.",
+      "memoryTip": "앱이 커널 기능을 부탁하는 통로는 시스템 호출.",
+      "additionalExample": "앱이 운영체제에 파일을 열어 달라고 요청하는 경우도 시스템 호출을 통해 커널 서비스를 이용하는 예다.",
+      "detailedExplanation": {
+        "concept": "응용 프로그램은 파일이나 장치를 사용할 때 운영체제의 관리 기능을 이용한다. 시스템 호출은 응용이 커널 서비스를 요청하기 위한 통제된 인터페이스다. 요청을 받는 커널은 권한과 조건 등을 확인해 기능을 제공할 수 있다. 시스템 호출은 파일의 이름이나 저장장치의 한 영역을 뜻하는 말이 아니라 요청 방식의 이름이다.",
+        "steps": [
+          "메모 앱이 직접 관리하는 계산이 아니라 커널 서비스를 요청함을 읽는다.",
+          "요청하는 기능이 운영체제가 관리하는 파일 저장과 관련됨을 확인한다.",
+          "앱의 커널 기능 요청 인터페이스인 시스템 호출을 정답으로 고른다."
+        ],
+        "pitfall": "시스템 호출을 파일 확장자나 스왑 공간처럼 저장 정보의 한 종류라고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-027",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "process-pcb"
+        ]
+      },
+      "prompt": "기본 상태 모델에서 계산 작업이 CPU를 배정받아 덧셈 명령을 수행하고 있다. 현재 상태는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "실행",
+          "correct": true,
+          "explanation": "CPU를 배정받아 실제 명령을 수행하고 있으므로 실행 상태다."
+        },
+        {
+          "id": "o2",
+          "text": "입출력 대기",
+          "correct": false,
+          "explanation": "입출력 대기는 장치 작업 같은 사건의 완료를 기다리는 상태다."
+        },
+        {
+          "id": "o3",
+          "text": "준비",
+          "correct": false,
+          "explanation": "준비는 CPU를 받기 전 차례를 기다리는 상태다."
+        },
+        {
+          "id": "o4",
+          "text": "종료",
+          "correct": false,
+          "explanation": "종료는 작업을 끝낸 상태이며 여기서는 계산이 진행 중이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-pcb-states"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "실행 상태의 뜻 확인",
+      "supplemental": false,
+      "review": "실행 상태는 프로세스가 CPU를 배정받아 명령을 수행하는 상태다. 준비 상태는 CPU 차례를 기다리고 대기 상태는 입출력 등의 사건을 기다린다. 이 문제는 덧셈 명령을 실제 수행한다고 했으므로 실행 상태라는 단서를 바로 찾을 수 있다.",
+      "memoryTip": "CPU에서 명령을 실제 수행하면 실행 상태.",
+      "additionalExample": "사진 밝기를 바꾸는 계산 명령을 CPU에서 수행 중인 작업도 그 순간에는 실행 상태에 해당한다.",
+      "detailedExplanation": {
+        "concept": "프로세스의 상태는 현재 어떤 상황에 있는지 나타낸다. 실행은 CPU를 이용해 실제 명령을 처리하는 상태다. 준비나 대기와 달리 지금 CPU에서 작업한다는 점이 핵심이다. 프로그램이 살아 있다는 넓은 뜻의 실행 중이라는 표현과, 상태 이름인 실행을 구별하면 좋다. 이 문제는 CPU 배정과 명령 수행을 직접 제시했다.",
+        "steps": [
+          "문제에서 계산 작업이 이미 CPU를 배정받았는지 확인한다.",
+          "덧셈 명령을 실제로 수행 중이라는 두 번째 단서를 읽는다.",
+          "CPU에서 명령을 수행하는 상태의 이름인 실행을 고른다."
+        ],
+        "pitfall": "CPU에서 계산 중이라는 명확한 조건이 있는데도 기다리는 상태를 선택하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-028",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "process-pcb"
+        ]
+      },
+      "prompt": "여러 프로세스가 번갈아 CPU를 사용한다. 각 작업이 멈춘 지점에서 이어지도록 실행 위치 등의 정보를 관리해야 하는 이유는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모든 작업의 파일 이름을 똑같이 만들기 위해",
+          "correct": false,
+          "explanation": "실행 정보 보존의 목적은 파일 이름 통일이 아니라 작업 재개다."
+        },
+        {
+          "id": "o2",
+          "text": "모니터를 항상 같은 색으로 표시하기 위해",
+          "correct": false,
+          "explanation": "화면 색상 설정과 프로세스 실행 문맥 관리는 다른 기능이다."
+        },
+        {
+          "id": "o3",
+          "text": "프로세스별 작업을 올바른 지점에서 계속하기 위해",
+          "correct": true,
+          "explanation": "실행 위치와 필요한 상태를 보존해야 해당 작업을 정확하게 재개할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "프로그램 파일을 매번 삭제하기 위해",
+          "correct": false,
+          "explanation": "작업을 잠시 멈춘다고 프로그램 파일을 삭제하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-pcb-states",
+        "n12-c-time-sharing"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "실행 정보 보존의 목적",
+      "supplemental": false,
+      "review": "작업이 잠시 CPU를 다른 프로세스에 넘겨도 처음부터 다시 시작할 필요는 없다. 운영체제는 각 작업의 실행 위치와 필요한 상태를 보존해 두었다가 다시 사용할 수 있게 관리한다. PCB는 이런 프로세스 관리에 사용하는 기록이다.",
+      "memoryTip": "중단한 작업을 이어 하려면 어디까지 했는지 기록한다.",
+      "additionalExample": "책을 바꿔 읽을 때 책마다 책갈피를 두면 이어 읽을 위치를 찾을 수 있듯 프로세스도 각자의 실행 정보를 관리한다.",
+      "detailedExplanation": {
+        "concept": "여러 프로세스가 CPU를 나누어 쓰려면 한 작업을 멈추고 다른 작업을 실행할 수 있어야 한다. 멈춘 작업을 다시 시작할 때는 그 작업이 어디까지 진행했는지 알아야 한다. 운영체제는 프로세스별 실행 위치와 필요한 상태를 관리해 이어서 실행하도록 돕는다. 이 기록은 서로 다른 작업의 진도가 섞이지 않게 하는 데 중요하다.",
+        "steps": [
+          "CPU를 다른 작업에 넘겨도 기존 작업은 나중에 계속해야 함을 읽는다.",
+          "정확히 계속하려면 중단한 위치와 필요한 상태가 있어야 함을 확인한다.",
+          "작업을 올바른 지점에서 재개하려는 목적이라는 답을 선택한다."
+        ],
+        "pitfall": "잠시 CPU 차례가 바뀌는 것을 프로그램 파일의 삭제나 모든 계산의 초기화라고 해석하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-029",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "memory",
+        "evidence": "lecture",
+        "focusIds": [
+          "virtual-memory"
+        ]
+      },
+      "prompt": "컴퓨터 설정에 ‘SSD의 일부를 스왑 공간으로 사용’한다고 적혀 있다. 이 스왑 공간의 실제 위치는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "새로 추가된 RAM 칩",
+          "correct": false,
+          "explanation": "SSD 공간을 활용한 것이므로 RAM 칩을 추가한 것은 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "키보드의 입력 키",
+          "correct": false,
+          "explanation": "키보드는 입력 장치이며 이 문제의 스왑 공간이 놓인 위치가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "저장장치",
+          "correct": true,
+          "explanation": "SSD는 저장장치이며 그 안의 일부 공간을 스왑으로 활용한다."
+        },
+        {
+          "id": "o4",
+          "text": "모니터의 픽셀",
+          "correct": false,
+          "explanation": "픽셀은 화면을 구성하는 요소이며 스왑 공간이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-virtual-memory"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "스왑의 물리 위치 확인",
+      "supplemental": false,
+      "review": "SSD는 저장장치다. SSD 일부를 스왑 공간으로 정하면 메모리 관리를 위해 저장장치의 공간을 활용하는 것이다. 이 설정만으로 RAM 칩의 용량이 늘어나지는 않는다. 스왑의 이름보다 실제 어디에 놓이는 공간인지 먼저 확인하면 이해하기 쉽다.",
+      "memoryTip": "SSD에 만든 스왑은 저장장치 공간이다.",
+      "additionalExample": "하드디스크의 일부를 스왑으로 사용해도 하드디스크가 물리적인 RAM 칩으로 바뀌는 것은 아니다.",
+      "detailedExplanation": {
+        "concept": "스왑 공간은 RAM 내용의 일부를 저장장치에 두고 관리할 때 사용하는 공간이다. 문제에서는 그 공간을 SSD에서 마련한다고 명확하게 제시했다. 따라서 실제 위치는 저장장치다. 메모리 관리에 쓰인다는 용도와 RAM 칩이라는 물리 장치의 종류는 구별해야 한다. 스왑을 사용하는 설정과 RAM 부품의 증설은 다른 작업이다.",
+        "steps": [
+          "설정 문장에서 스왑 공간을 마련하는 대상이 SSD임을 찾는다.",
+          "SSD를 컴퓨터의 저장장치라는 분류와 연결한다.",
+          "메모리 관리 용도로 쓰여도 물리 위치는 저장장치라고 답한다."
+        ],
+        "pitfall": "메모리 관리에 사용한다는 이유만으로 SSD 속 공간을 RAM 칩의 일부라고 부르지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-030",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "filesystem",
+        "evidence": "lecture",
+        "focusIds": [
+          "filesystem-format"
+        ]
+      },
+      "prompt": "포맷이 완료된 USB의 파일 목록이 비어 있다. 가장 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "목록이 비어도 모든 물리 데이터의 보안 삭제를 뜻하지는 않는다.",
+          "correct": true,
+          "explanation": "파일시스템 초기화와 복구 불가능한 보안 삭제는 목적과 확인 기준이 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "목록이 비면 모든 물리 데이터의 복구가 불가능하다고 보장된다.",
+          "correct": false,
+          "explanation": "일반 목록에 보이지 않는다는 사실만으로 보안 삭제를 증명할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "포맷은 기존 파일 이름을 알파벳순으로 정렬하는 작업이다.",
+          "correct": false,
+          "explanation": "포맷은 파일 이름 정렬이 아니라 파일시스템 구조를 준비하거나 초기화하는 작업이다."
+        },
+        {
+          "id": "o4",
+          "text": "포맷은 기존 파일을 다른 폴더로 이동하는 작업과 같다.",
+          "correct": false,
+          "explanation": "파일 이동과 파일시스템 구조의 초기화는 다른 작업이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-formatting"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            55,
+            56
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "포맷과 보안 삭제 구별",
+      "supplemental": false,
+      "review": "포맷 뒤 파일 목록이 비었다는 것은 일반적인 파일 접근에서 예전 파일이 보이지 않는다는 뜻이다. 하지만 목록만 보고 저장장치의 모든 물리 위치가 복구 불가능하게 지워졌다고 말할 수는 없다. 파일시스템 초기화와 보안 삭제의 목적을 구별한다.",
+      "memoryTip": "파일 목록이 비었다는 것만으로 보안 삭제를 증명하지 못한다.",
+      "additionalExample": "책의 목차를 새로 만들었다고 예전 본문이 적힌 모든 종이까지 반드시 없어진 것은 아니라는 비유로 구별할 수 있다.",
+      "detailedExplanation": {
+        "concept": "파일시스템은 관리 정보를 이용해 파일의 이름과 위치를 연결한다. 포맷으로 이 관리 구조가 새로 준비되면 예전 파일이 일반 목록에서 보이지 않을 수 있다. 그러나 목록에 보이지 않는다는 관찰과 모든 데이터가 물리적으로 복구 불가능해졌다는 주장은 다르다. 개인정보 삭제가 목적이라면 목록 확인만으로 충분하다고 보지 않는다.",
+        "steps": [
+          "문제에서 직접 확인한 것은 파일 목록이 비었다는 사실임을 읽는다.",
+          "파일 목록의 표시와 모든 물리 데이터의 삭제를 서로 나눈다.",
+          "일반 목록이 비어도 보안 삭제를 보장하지 않는다는 설명을 고른다."
+        ],
+        "pitfall": "파일 탐색기에 보이지 않는다는 사실을 모든 물리 데이터가 확실히 지워졌다는 증거로 쓰지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-031",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "foundations",
+        "evidence": "pdf",
+        "focusIds": [
+          "os-role"
+        ]
+      },
+      "prompt": "가상 단일 CPU의 총 사용 시간 10초를 작업별로 나눈 그래프다. 작업 A가 차지한 비율은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "6%",
+          "correct": false,
+          "explanation": "6은 작업 A의 초 단위 시간이다. 비율은 전체 10초로 나누어 계산한다."
+        },
+        {
+          "id": "o2",
+          "text": "60%",
+          "correct": true,
+          "explanation": "작업 A의 6초를 전체 10초로 나누고 100을 곱하면 60%다."
+        },
+        {
+          "id": "o3",
+          "text": "40%",
+          "correct": false,
+          "explanation": "나머지 B·C의 시간은 4초이고 그 비율이 40%다."
+        },
+        {
+          "id": "o4",
+          "text": "100%",
+          "correct": false,
+          "explanation": "A 외에도 B·C가 CPU를 사용했으므로 A 혼자 전체를 차지한 것은 아니다."
+        }
+      ],
+      "visual": {
+        "kind": "bar",
+        "title": "가상 CPU 사용 시간의 구성",
+        "xLabel": "작업",
+        "yLabel": "CPU 사용 시간(초)",
+        "labels": [
+          "작업 A",
+          "작업 B",
+          "작업 C"
+        ],
+        "series": [
+          {
+            "name": "사용 시간",
+            "values": [
+              6,
+              3,
+              1
+            ]
+          }
+        ],
+        "note": "서로 겹치지 않는 CPU 사용 시간이며 세 작업의 합은 10초다."
+      },
+      "conceptIds": [
+        "n12-c-os-roles",
+        "n12-c-time-sharing"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "자원 비중 한 단계 계산",
+      "supplemental": false,
+      "review": "운영체제는 여러 프로세스가 CPU를 사용하도록 실행 시간을 관리한다. 이 그래프는 전체 10초를 세 작업이 나누어 사용한 구성이다. A의 비율은 부분인 6초를 전체인 10초로 나눈 뒤 100을 곱한 60%이며, 시간 6초 자체가 6%인 것은 아니다.",
+      "memoryTip": "부분의 비율 = 부분 ÷ 전체 × 100.",
+      "additionalExample": "총 공부 시간 10시간 중 운영체제를 6시간 공부했다면 운영체제 공부 비중도 같은 계산으로 60%다.",
+      "detailedExplanation": {
+        "concept": "비율은 어떤 전체에서 한 부분이 차지하는 몫이다. CPU 사용 비중을 구할 때는 한 작업의 CPU 사용 시간을 전체 사용 시간으로 나눈다. 이 문제의 전체는 세 작업의 합인 10초이고 부분은 A의 6초다. 초끼리 나누면 단위가 없어지며, 여기에 100을 곱해 퍼센트로 표시한다. 단순 시간과 비율을 나누어 읽는 연습이다.",
+        "steps": [
+          "작업 A의 막대에서 CPU 사용 시간이 6초임을 읽는다.",
+          "분모는 전체 사용 시간인 10초로 정하고 6÷10을 계산한다.",
+          "0.6에 100을 곱해 작업 A의 비중을 60%로 나타낸다."
+        ],
+        "pitfall": "사용 시간이 6초라는 사실을 분모 계산 없이 6%라고 바꾸어 쓰지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-032",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "memory",
+        "evidence": "pdf",
+        "focusIds": [
+          "virtual-memory"
+        ]
+      },
+      "prompt": "CSV를 읽은 뒤 RAM 사용량이 SSD에 저장된 CSV 파일 크기보다 커졌다. 가장 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "메모리 사용량은 언제나 파일 크기와 정확히 같아야 한다.",
+          "correct": false,
+          "explanation": "실행 중 자료 표현과 중간 결과 때문에 RAM 사용량은 파일 크기와 다를 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 크기보다 커졌으므로 모든 데이터가 반드시 중복됐다.",
+          "correct": false,
+          "explanation": "자료형이나 객체 관리에도 공간이 필요하므로 크기 증가만으로 중복을 확정할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "CSV 파일이 자동으로 화면 이미지로 변환됐다.",
+          "correct": false,
+          "explanation": "RAM 사용량의 증가가 이미지 변환을 뜻하지는 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "실행 중 자료형·문자열 객체·중간 결과가 추가 공간을 쓸 수 있다.",
+          "correct": true,
+          "explanation": "파일의 저장 표현과 RAM에 읽어 들인 표현은 달라 추가 공간이 필요할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-memory-management"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "파일 크기와 RAM 사용량 비교",
+      "supplemental": false,
+      "review": "SSD에 있는 CSV는 저장된 파일의 크기이고, RAM 사용량은 읽어서 처리하는 중 실제 필요한 공간이다. 문자열 객체나 자료형 표현, 계산 중 만든 결과가 추가 공간을 차지할 수 있다. 따라서 두 크기가 다르다는 사실만으로 오류나 중복을 단정하지 않는다.",
+      "memoryTip": "디스크의 파일 크기와 실행 중 RAM 사용량은 다를 수 있다.",
+      "additionalExample": "사진 파일을 압축된 상태로 보관하다가 편집을 위해 펼쳐 읽으면 실행 중 필요한 공간이 저장 크기와 달라질 수 있다.",
+      "detailedExplanation": {
+        "concept": "파일은 저장장치에서 한 형식으로 보관되지만 프로그램이 읽으면 계산에 맞는 자료구조로 바뀐다. 문자열을 담는 객체나 자료형 정보에도 공간이 들고, 분석 과정에서 새로운 표와 중간 결과를 만들 수도 있다. 따라서 파일의 바이트 수와 프로그램의 RAM 사용량은 같은 값이라고 가정하지 않는다. 차이가 보이면 사용 방식을 관찰해 해석한다.",
+        "steps": [
+          "비교 대상이 SSD의 파일 크기와 실행 중 RAM 사용량임을 나눈다.",
+          "RAM에서는 자료형 표현과 중간 결과에도 공간이 들 수 있음을 확인한다.",
+          "크기 차이를 설명하는 추가 공간 사용 가능성의 선택지를 고른다."
+        ],
+        "pitfall": "RAM 사용량이 파일보다 크다는 한 가지 사실로 데이터가 반드시 잘못 읽혔다고 단정하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-033",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "memory",
+        "evidence": "lecture",
+        "focusIds": [
+          "virtual-memory",
+          "os-role"
+        ]
+      },
+      "prompt": "RAM이 부족해 작업이 느리다. 메모리 사용량을 줄이기 위해 검토할 수 있는 방법을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "저장할 내용을 확인한 뒤 사용하지 않는 앱을 정상 종료한다.",
+          "correct": true,
+          "explanation": "필요 없는 앱을 종료하면 해당 앱이 사용하던 메모리를 돌려받을 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "내용이 같은 파일의 이름만 더 짧게 바꾸면 RAM 부족이 반드시 해결된다.",
+          "correct": false,
+          "explanation": "파일 이름을 줄이는 것만으로 분석에 필요한 메모리 사용량이 크게 줄어든다고 보장할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "같은 결과가 나오는지 검증하면서 자료를 일부씩 나누어 처리한다.",
+          "correct": true,
+          "explanation": "한 번에 메모리에 올리는 자료를 줄이면 최대 사용량을 낮출 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "사용하지 않는 대용량 앱을 더 많이 실행한다.",
+          "correct": false,
+          "explanation": "앱을 추가로 실행하면 오히려 RAM 사용량이 늘어날 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-memory-management",
+        "n12-c-virtual-memory",
+        "n12-c-os-roles"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            13,
+            14,
+            41,
+            42,
+            43,
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "메모리 부족의 쉬운 대응",
+      "supplemental": false,
+      "review": "메모리 부족 상황에서는 필요 없는 작업을 줄이거나 한 번에 처리하는 자료량을 줄이는 방법을 검토할 수 있다. 사용하지 않는 앱을 정상 종료하면 그 앱의 메모리를 회수할 수 있다. 분할 처리는 전체 결과가 달라지지 않는지 확인하면서 적용해야 한다.",
+      "memoryTip": "필요 없는 앱은 줄이고, 자료는 결과를 검증하며 나누어 처리한다.",
+      "additionalExample": "큰 표를 한꺼번에 읽는 대신 일정 행씩 읽어 합계를 누적하면 최대 메모리 사용량을 줄이는 방법이 될 수 있다.",
+      "detailedExplanation": {
+        "concept": "RAM은 여러 프로그램이 함께 사용하는 제한된 자원이다. 메모리가 부족하면 사용하지 않는 앱을 정상적으로 종료하거나 작업 방식을 바꾸는 방법을 검토할 수 있다. 자료를 일부씩 처리하면 한 번에 필요한 공간을 줄일 수 있지만, 전체를 처리한 것과 같은 결과가 나오는지도 확인해야 한다. 이런 방법은 저장장치 이름이나 화면 설정을 바꾸는 것과 달리 실제 메모리 수요를 다룬다.",
+        "steps": [
+          "RAM을 실제 사용하는 프로그램과 처리 자료량을 먼저 떠올린다.",
+          "사용하지 않는 앱을 저장 후 정상 종료하는 방법을 확인한다.",
+          "같은 결과를 검증하며 일부씩 처리하는 방법을 추가로 고른다."
+        ],
+        "pitfall": "메모리를 줄이려다 저장하지 않은 작업을 잃거나 분할 처리의 결과 검증을 생략하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-034",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "process",
+        "evidence": "lecture",
+        "focusIds": [
+          "process-pcb"
+        ]
+      },
+      "prompt": "입출력을 기다리면 대기 상태가 되는 기본 5상태 모델이다. 올바른 상태 변화를 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "실행 중인 작업이 파일 읽기 완료를 기다리게 되면 종료로 간다.",
+          "correct": false,
+          "explanation": "입출력 완료를 기다리는 것이므로 대기 상태로 가며 작업 종료와는 다르다."
+        },
+        {
+          "id": "o2",
+          "text": "실행 중인 작업이 파일 읽기 완료를 기다리게 되면 대기로 간다.",
+          "correct": true,
+          "explanation": "작업을 이어 가려면 입출력이 끝나야 하므로 대기 상태가 된다."
+        },
+        {
+          "id": "o3",
+          "text": "대기하던 작업의 입출력이 끝나면 준비로 갈 수 있다.",
+          "correct": true,
+          "explanation": "대기 원인이 해소되면 CPU 차례를 기다리는 준비 상태로 이동한다."
+        },
+        {
+          "id": "o4",
+          "text": "입출력이 끝난 작업은 CPU 배정 없이 반드시 즉시 실행한다.",
+          "correct": false,
+          "explanation": "입출력이 끝나도 실제 실행에는 CPU 배정이 필요하다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-pcb-states"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "입출력 전후 상태 연결",
+      "supplemental": false,
+      "review": "기본 모델에서 실행하던 프로세스가 입출력을 기다리면 대기로 이동한다. 입출력이 끝나면 기다리던 원인이 사라져 준비 상태로 갈 수 있다. 준비는 아직 CPU 차례를 기다릴 수 있는 상태이므로 입출력 완료가 곧 즉시 실행을 보장하지는 않는다.",
+      "memoryTip": "입출력을 기다리면 대기, 완료 후 CPU를 기다리면 준비.",
+      "additionalExample": "다운로드할 자료를 기다리는 작업도 필요한 사건이 끝난 뒤 다른 준비 작업과 CPU 실행 차례를 나눌 수 있다.",
+      "detailedExplanation": {
+        "concept": "프로세스가 파일 읽기를 요청하고 그 결과가 필요하면 입출력이 끝날 때까지 계산을 계속하지 못할 수 있다. 기본 5상태 모델에서는 이런 상황을 대기로 나타낸다. 입출력이 끝나면 대기 원인이 없어져 준비로 옮긴다. CPU를 실제 배정받는 동작은 별도이므로 대기 완료와 실행 시작을 같은 사건으로 외우지 않는다.",
+        "steps": [
+          "파일 읽기 완료를 기다리는 상황을 입출력 대기로 연결한다.",
+          "읽기가 끝나면 기다리던 원인이 없어졌다는 점을 확인한다.",
+          "그 뒤에는 CPU 차례를 기다릴 수 있으므로 준비로 연결한다."
+        ],
+        "pitfall": "입출력 작업이 완료됐다는 이유만으로 다른 프로세스의 CPU를 반드시 즉시 빼앗는다고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-035",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "filesystem",
+        "evidence": "lecture",
+        "focusIds": [
+          "filesystem-format"
+        ]
+      },
+      "prompt": "파일 탐색기에서 보고서 파일의 속성을 확인한다. 일반적인 파일 관리 정보에 해당하는 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일 이름",
+          "correct": true,
+          "explanation": "이름은 파일을 구별하고 경로로 찾는 데 사용하는 관리 정보다."
+        },
+        {
+          "id": "o2",
+          "text": "보고서에 쓴 주장이 사실인지 여부",
+          "correct": false,
+          "explanation": "주장의 진위는 내용 검증의 대상이며 파일시스템이 일반 속성으로 판정하는 정보가 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "보고서를 읽을 사람의 만족도",
+          "correct": false,
+          "explanation": "독자의 만족도는 파일 이름이나 크기처럼 파일시스템이 관리하는 일반 속성이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "파일 크기",
+          "correct": true,
+          "explanation": "파일의 내용 길이를 나타내는 크기는 일반적인 파일 관리 정보다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-file",
+        "n12-c-file-table"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            50,
+            51,
+            52,
+            53,
+            56
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "파일 속성 알아보기",
+      "supplemental": false,
+      "review": "파일시스템은 내용만 저장하는 것이 아니라 파일을 다루기 위한 관리 정보도 유지한다. 파일 이름과 크기는 이런 정보의 예다. 보고서의 주장이 사실인지, 독자가 만족하는지 같은 내용 평가는 파일시스템의 일반 속성과 구별한다.",
+      "memoryTip": "파일 이름과 크기는 관리 정보, 보고서 본문의 주장은 파일 내용.",
+      "additionalExample": "사진 파일의 이름과 바이트 수는 파일 속성이고, 사진에 어떤 풍경이 찍혔는지는 내용에 관한 질문이다.",
+      "detailedExplanation": {
+        "concept": "파일은 사용자가 읽는 내용과 그 파일을 관리하기 위한 정보를 함께 생각할 수 있다. 일반적인 관리 정보에는 이름과 크기 등이 있다. 파일시스템은 이런 정보를 사용해 파일을 찾고 다룬다. 보고서가 다루는 주제나 본문 속 수치가 무엇이든 그것이 곧 일반적인 파일시스템 속성이 되는 것은 아니다. 이 문제는 파일 내용과 관리 정보의 기본 차이를 묻는다.",
+        "steps": [
+          "일반적인 파일 관리 정보와 보고서 본문 내용을 먼저 구별한다.",
+          "이름은 파일을 찾고 구별하는 데 필요한 정보임을 확인한다.",
+          "크기는 파일 내용의 길이 정보이므로 이름과 함께 선택한다."
+        ],
+        "pitfall": "어떤 정보가 문서 안에 적힐 수 있다는 이유만으로 그것을 파일시스템의 일반 속성이라고 부르지 않는다."
+      }
+    },
+    {
+      "id": "basic-sys-036",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "foundations",
+        "evidence": "lecture",
+        "focusIds": [
+          "von-neumann",
+          "hardware-software"
+        ]
+      },
+      "prompt": "폰 노이만 구조의 기본 구성과 연결을 설명한 문장 중 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "CPU의 중심 역할은 모든 보드에서 물리적으로 정중앙에 놓인다는 뜻이다.",
+          "correct": false,
+          "explanation": "중심 역할은 실행과 제어의 기능을 뜻하며 보드의 기하학적 위치를 강제하지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "CPU는 메모리에 저장된 명령을 읽어 실행할 수 있다.",
+          "correct": true,
+          "explanation": "메모리에 저장된 프로그램을 CPU가 읽어 실행하는 것이 핵심이다."
+        },
+        {
+          "id": "o3",
+          "text": "키보드 같은 입력 장치와 화면 같은 출력 장치도 컴퓨터 구성에 포함된다.",
+          "correct": true,
+          "explanation": "입출력 장치는 외부와 정보를 주고받는 구성 요소다."
+        },
+        {
+          "id": "o4",
+          "text": "메모리가 있으면 입력과 출력이라는 역할 자체가 사라진다.",
+          "correct": false,
+          "explanation": "메모리의 보관 역할과 입출력의 정보 전달 역할은 다르다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-software",
+        "n12-c-memory-management"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w1",
+          "pages": [
+            6,
+            7,
+            41,
+            42
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "구조의 기능 관계 확인",
+      "supplemental": false,
+      "review": "컴퓨터 구조는 CPU·메모리·입출력 장치의 역할과 연결로 이해한다. CPU는 저장된 명령을 실행하고 메모리는 필요한 내용을 담는다. 입력 장치와 출력 장치는 외부와 정보를 주고받는다. CPU가 중요한 중심 역할을 한다는 말은 물리적으로 정중앙에 있어야 한다는 뜻이 아니다.",
+      "memoryTip": "실행·보관·입출력이라는 역할로 구조를 읽는다.",
+      "additionalExample": "노트북마다 부품 배치는 달라도 키보드로 입력하고 CPU가 처리하며 화면으로 출력하는 기본 역할은 연결해 볼 수 있다.",
+      "detailedExplanation": {
+        "concept": "폰 노이만 구조를 공부할 때는 도형의 위치보다 각 요소가 맡는 기능을 먼저 본다. CPU는 명령 실행과 제어를 하고 메모리는 명령과 데이터를 담는다. 입력과 출력은 외부에서 자료를 받아들이고 처리한 결과를 전달하는 역할이다. 구성 요소의 기능은 연결돼 있지만 하나가 있다고 다른 모든 역할이 없어지는 것은 아니다.",
+        "steps": [
+          "CPU와 메모리의 연결에서 저장된 명령을 읽어 실행한다는 뜻을 확인한다.",
+          "키보드와 화면이 각각 입력과 출력 역할을 맡는다는 점을 찾는다.",
+          "기능의 중심이라는 말과 부품의 물리적 정중앙 위치를 구별한다."
+        ],
+        "pitfall": "개념도에서 CPU가 가운데 그려졌다는 이유로 실제 모든 컴퓨터의 배치도 같아야 한다고 외우지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-001",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "pdf",
+        "focusIds": [
+          "five-v-sources"
+        ]
+      },
+      "prompt": "도서 반납 기록을 받은 뒤 10초 안에 알림을 보내야 한다. '얼마나 빨리 받아서 처리하는가'와 가장 직접적으로 관련된 5V는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Variety · 다양성",
+          "correct": false,
+          "explanation": "CSV·JSON·이미지처럼 형식과 구조가 다양한 정도다."
+        },
+        {
+          "id": "o2",
+          "text": "Volume · 규모",
+          "correct": false,
+          "explanation": "쌓인 자료의 양과 저장할 규모를 뜻한다."
+        },
+        {
+          "id": "o3",
+          "text": "Velocity · 속도",
+          "correct": true,
+          "explanation": "자료가 들어오는 속도와 필요한 처리 시간을 다루는 관점이다."
+        },
+        {
+          "id": "o4",
+          "text": "Veracity · 신뢰성",
+          "correct": false,
+          "explanation": "자료의 누락·오류·중복 등 품질을 살피는 관점이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-velocity",
+        "web-c06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · 5V 속도 찾기",
+      "review": "Velocity는 데이터가 얼마나 빨리 발생하고 들어오며 언제까지 처리해야 하는지를 다룬다. 이 문제의 핵심은 기록 개수가 아니라 '10초 안에 알림'이라는 시간 조건이다. 같은 양의 자료라도 다음 날 보고서를 만들 때와 즉시 알림을 보낼 때는 필요한 처리 방식이 달라질 수 있다.",
+      "memoryTip": "언제까지 처리? → Velocity",
+      "additionalExample": "주차장 출입 기록을 받아 차단기를 바로 여는 서비스는 한 달 뒤 출입 통계를 만드는 작업보다 짧은 처리 지연을 요구한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "빅데이터의 5V는 규모·속도·다양성·신뢰성·가치를 나누어 살피는 기준이다. 그중 Velocity는 유입 속도와 처리 시점을 묻는다. 초당 건수가 얼마나 되는지와 한 건의 결과가 나오기까지 얼마나 걸리는지는 관련되지만 같은 수치는 아니다. 여기서는 알림을 완료해야 하는 10초라는 제한이 판단 근거다.",
+        "steps": [
+          "발문에서 자료의 양보다 '10초 안에'라는 시간 조건을 먼저 찾는다.",
+          "시간 안에 자료를 받아 처리하는 요구를 속도라는 말로 바꾸어 본다.",
+          "5V 중 속도를 뜻하는 Velocity를 골라 정답과 연결한다."
+        ],
+        "pitfall": "자료가 들어오는 상황이라고 해서 무조건 Volume을 고르지 말고 무엇을 묻는지 확인한다."
+      }
+    },
+    {
+      "id": "basic-inf-002",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "pdf",
+        "focusIds": [
+          "five-v-sources",
+          "data-forms"
+        ]
+      },
+      "prompt": "동물보호소가 입양 기록 CSV, 상담 응답 JSON, 동물 사진을 함께 분석한다. 이처럼 입력 형식이 여러 종류라는 특징에 해당하는 5V는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Variety · 다양성",
+          "correct": true,
+          "explanation": "표·JSON·사진처럼 자료의 형식과 구조가 다양한 특징이다."
+        },
+        {
+          "id": "o2",
+          "text": "Value · 가치",
+          "correct": false,
+          "explanation": "분석이 실제 결정이나 업무 개선에 얼마나 도움이 되는지를 뜻한다."
+        },
+        {
+          "id": "o3",
+          "text": "Velocity · 속도",
+          "correct": false,
+          "explanation": "자료의 발생·유입·처리 속도에 관한 특징이다."
+        },
+        {
+          "id": "o4",
+          "text": "Volume · 규모",
+          "correct": false,
+          "explanation": "자료의 크기와 양에 관한 특징이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-variety",
+        "web-c06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · 5V 다양성 찾기",
+      "review": "Variety는 자료의 형식과 구조가 여러 종류라는 뜻이다. 표 형태의 CSV, 키와 값으로 표현하는 JSON, 사진을 함께 다루면 각각 읽고 전처리하는 방법을 검토해야 한다. 다양성은 파일 개수가 많다는 말과 다르며, 같은 CSV라도 열 이름이나 자료형이 다르면 구조 차이를 확인할 필요가 있다.",
+      "memoryTip": "형식이 여러 종류 → Variety",
+      "additionalExample": "여행 분석에서 예약 표, 여행 후기 문장, 장소 사진을 함께 쓰면 자료의 다양성을 고려하여 처리 방법을 나누어야 한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "Variety는 서로 다른 형식과 스키마를 함께 다루는 문제다. CSV를 읽는 방식만으로 사진의 내용을 바로 분석할 수는 없으므로 자료별 준비가 필요하다. 또한 같은 확장자의 파일이라도 한쪽은 날짜를 문자열로, 다른 쪽은 숫자로 저장할 수 있다. 형식과 열 구조를 확인하는 것이 다양성을 다루는 출발점이다.",
+        "steps": [
+          "발문에 등장하는 CSV·JSON·사진이 서로 다른 표현 형식임을 확인한다.",
+          "자료의 양이나 속도를 계산하라는 조건은 없다는 점을 확인한다.",
+          "다양한 형식과 구조를 뜻하는 Variety를 정답으로 선택한다."
+        ],
+        "pitfall": "파일 개수만 세어 다양성을 판단하지 말고 실제 형식과 열 구조가 다른지 살핀다."
+      }
+    },
+    {
+      "id": "basic-inf-003",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "pdf",
+        "focusIds": [
+          "five-v-sources"
+        ]
+      },
+      "prompt": "급식 잔반 기록을 분석해 다음 주 조리량을 조정했고 실제 음식 낭비가 줄었다. 분석이 업무 개선에 도움이 되었는지를 묻는 5V는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Volume · 규모",
+          "correct": false,
+          "explanation": "자료가 얼마나 쌓였는지를 살피는 관점이다."
+        },
+        {
+          "id": "o2",
+          "text": "Variety · 다양성",
+          "correct": false,
+          "explanation": "자료 형식과 구조가 얼마나 다양한지를 살피는 관점이다."
+        },
+        {
+          "id": "o3",
+          "text": "Velocity · 속도",
+          "correct": false,
+          "explanation": "자료가 발생하고 처리되는 속도를 살피는 관점이다."
+        },
+        {
+          "id": "o4",
+          "text": "Value · 가치",
+          "correct": true,
+          "explanation": "분석 결과가 의사결정과 실제 개선에 주는 도움을 뜻한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-value",
+        "web-c06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · 5V 가치 찾기",
+      "review": "Value는 데이터를 많이 모았는지가 아니라 모은 자료가 어떤 결정에 도움이 되었는지를 묻는다. 잔반 기록을 바탕으로 조리량을 조정하고 실제 낭비를 줄였다면 자료 활용의 가치를 확인한 사례다. 멋진 그래프를 만들었다는 사실만으로 업무에 도움이 되었는지까지 입증되지는 않는다.",
+      "memoryTip": "그래서 어떤 결정이 좋아졌나? → Value",
+      "additionalExample": "도서 대출 기록으로 추가 구입할 책을 고르고 대기 기간을 줄였다면 데이터 분석이 도서관 운영에 가치를 준 사례다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "5V의 Value는 분석 결과를 활용해서 얻는 효용을 뜻한다. 자료의 크기나 분석 도구의 수와는 다른 질문이다. 업무 목표가 음식 낭비 감소라면 그래프 제작을 끝내는 데서 멈추지 않고 조리량을 어떻게 바꾸었으며 실제 낭비가 줄었는지 확인한다. 이렇게 목표와 관찰한 결과를 연결할 때 분석의 가치를 설명할 수 있다.",
+        "steps": [
+          "분석의 목적이 기록 저장 자체가 아니라 음식 낭비를 줄이는 일임을 찾는다.",
+          "조리량 결정이 바뀌고 실제 업무 결과도 개선되었다는 근거를 확인한다.",
+          "의사결정의 도움과 활용 효과를 뜻하는 Value를 선택한다."
+        ],
+        "pitfall": "파일 크기가 커지거나 차트가 많아진 사실만으로 분석의 가치가 커졌다고 단정하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-004",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "lecture",
+        "focusIds": [
+          "five-v-sources",
+          "data-forms"
+        ]
+      },
+      "prompt": "가게의 '날짜·상품번호·판매수량' 고정 열을 가진 일별 판매 표에 대한 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "고정된 열로 표현한 정형 데이터다.",
+          "correct": true,
+          "explanation": "행마다 정해진 열에 값을 기록하는 표 구조다."
+        },
+        {
+          "id": "o2",
+          "text": "숫자가 있으므로 빅데이터 분석 대상이 될 수 없다.",
+          "correct": false,
+          "explanation": "판매 수량이나 센서 측정값 같은 수치형 자료도 분석 대상이다."
+        },
+        {
+          "id": "o3",
+          "text": "날짜 순으로 판매량의 변화를 분석할 수 있다.",
+          "correct": true,
+          "explanation": "날짜가 있어 시간 흐름에 따른 판매 추이를 살필 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "시계열로 분석하면 정형 데이터라는 성질이 사라진다.",
+          "correct": false,
+          "explanation": "표의 구조와 시간 특성은 함께 성립할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-data-forms",
+        "n12-c-time-series",
+        "n12-c-data-sources"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            5,
+            6,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 정형 표와 시계열",
+      "review": "정형 데이터는 열과 구조가 정해진 표로 표현할 수 있는 자료다. 시계열은 시간에 따른 관측 순서를 이용하는 특성이다. 따라서 일별 판매 표는 정형 데이터이면서 시계열 분석의 대상일 수 있다. 수치형 자료도 규모나 발생 속도에 따라 빅데이터 환경에서 다루며 텍스트와 이미지만 해당하는 것은 아니다.",
+      "memoryTip": "정형은 구조, 시계열은 시간",
+      "additionalExample": "공장별 매시간 전력 사용량을 고정 열로 기록한 표도 정형 데이터이면서 시간별 사용량 변화를 분석할 수 있는 자료다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "자료를 분류하는 기준에는 서로 다른 축이 있다. 정형·반정형·비정형은 표현 구조를 나누며, 시계열은 시간에 따른 관측이라는 성격을 말한다. 두 분류를 반드시 하나만 골라야 하는 것으로 외우지 않는다. 날짜와 판매수량을 가진 정형 표에서 날짜 순으로 값을 비교하면 시계열 추이를 살필 수 있다.",
+        "steps": [
+          "날짜·상품번호·판매수량이라는 고정 열이 있다는 구조 조건을 확인한다.",
+          "날짜 열을 이용하면 일별 판매량의 순서와 변화를 비교할 수 있음을 확인한다.",
+          "정형 구조와 시간 분석이 모두 가능한 설명 두 개를 선택한다."
+        ],
+        "pitfall": "정형과 시계열을 서로 반대되는 말로 외우거나 숫자 자료를 빅데이터에서 제외하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-005",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "pdf",
+        "focusIds": [
+          "five-v-sources"
+        ]
+      },
+      "prompt": "그림은 가상 녹음 서비스의 요일별 새 파일 저장량이다. 저장량이 가장 큰 요일과, 이처럼 자료의 양을 보는 5V를 바르게 연결한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "월요일 · Velocity",
+          "correct": false,
+          "explanation": "월요일은 최대가 아니며 Velocity는 처리 속도의 관점이다."
+        },
+        {
+          "id": "o2",
+          "text": "화요일 · Volume",
+          "correct": true,
+          "explanation": "화요일 막대가 9GB로 가장 높고 저장량은 Volume의 관점이다."
+        },
+        {
+          "id": "o3",
+          "text": "수요일 · Veracity",
+          "correct": false,
+          "explanation": "수요일은 최대가 아니며 Veracity는 자료의 신뢰성이다."
+        },
+        {
+          "id": "o4",
+          "text": "화요일 · Variety",
+          "correct": false,
+          "explanation": "화요일의 저장량이 가장 크지만 자료의 양은 Volume에 해당한다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-volume",
+        "web-c06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 차트 · 자료의 양 읽기",
+      "visual": {
+        "kind": "bar",
+        "title": "가상 서비스의 요일별 새 파일 저장량",
+        "xLabel": "요일",
+        "yLabel": "저장량(GB)",
+        "labels": [
+          "월요일",
+          "화요일",
+          "수요일"
+        ],
+        "series": [
+          {
+            "name": "새 파일",
+            "values": [
+              4,
+              9,
+              6
+            ]
+          }
+        ],
+        "note": "하루 동안 추가 저장한 파일의 합계이며 처리 속도나 품질을 측정한 그림은 아니다."
+      },
+      "review": "막대그래프에서 같은 단위의 양을 비교할 때는 막대의 높이와 축을 먼저 읽는다. 이 그림은 GB 단위의 저장량을 보여 주므로 화요일 9GB가 가장 크다. 5V 중 Volume은 자료의 양을 뜻한다. 이 그림만으로 처리 시간이 가장 길거나 자료 품질이 가장 좋았다고 말할 수는 없다.",
+      "memoryTip": "GB로 잰 자료의 양 → Volume",
+      "additionalExample": "연구실의 월별 백업 파일 크기를 비교하는 그래프도 저장할 양을 확인하는 자료이며, 파일의 오류 여부는 별도로 검사한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "차트는 어떤 값을 측정했는지에 맞추어 해석한다. 이 막대의 세로축은 GB로 표시한 파일 저장량이므로 자료 규모인 Volume과 연결된다. 화요일의 막대가 가장 높다는 것은 그날 저장한 자료가 가장 많다는 뜻이다. 처리 속도·자료 형식의 종류·신뢰성은 다른 관찰이 필요하므로 이 그림에 없는 의미를 덧붙이지 않는다.",
+        "steps": [
+          "세로축 단위가 GB이므로 그림이 파일의 저장량을 비교함을 확인한다.",
+          "세 막대 중 9GB인 화요일의 막대가 가장 높다는 사실을 읽는다.",
+          "자료의 양을 뜻하는 Volume과 화요일을 연결한 선택지를 고른다."
+        ],
+        "pitfall": "저장량이 많다는 사실을 곧바로 처리 속도가 느리다거나 품질이 높다는 뜻으로 바꾸지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-006",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "lecture",
+        "focusIds": [
+          "scale-network-cloud"
+        ]
+      },
+      "prompt": "파일을 여러 서버에 나누어 분석하려 한다. 스케일아웃과 네트워크에 관한 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "서버를 추가하면 어떤 작업이든 정확히 서버 수만큼 빨라진다.",
+          "correct": false,
+          "explanation": "자료 분배와 통신 및 병합에 시간이 들어 속도 증가가 제한될 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "여러 서버로 자료와 작업을 나누는 것은 스케일아웃이다.",
+          "correct": true,
+          "explanation": "장비 수를 늘려 일을 분산하는 확장 방식이다."
+        },
+        {
+          "id": "o3",
+          "text": "서버끼리 결과를 합칠 때 네트워크는 필요하지 않다.",
+          "correct": false,
+          "explanation": "서로 다른 컴퓨터 사이의 자료 교환에 네트워크를 사용한다."
+        },
+        {
+          "id": "o4",
+          "text": "서버 사이의 전송 시간이 전체 처리 시간에 영향을 줄 수 있다.",
+          "correct": true,
+          "explanation": "통신이 느리면 계산이 끝나도 자료 교환을 기다릴 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C01",
+        "n34-C02",
+        "n34-C03"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 분산과 통신",
+      "review": "스케일아웃은 여러 장비에 자료와 작업을 나누는 방식이다. 장비들이 서로 결과를 주고받을 때 네트워크를 사용하므로 통신 속도도 처리 시간에 영향을 준다. 서버를 늘리면 계산 자원은 늘지만 분배·통신·병합 비용이 생기므로 모든 작업이 서버 수에 비례해서 빨라지는 것은 아니다.",
+      "memoryTip": "여러 대로 나누면 아웃, 서로 주고받는 비용도 있다",
+      "additionalExample": "반별 설문 파일을 각 서버에서 집계해도 최종 학교 전체 결과를 만들려면 서버별 집계값을 모으는 통신 과정이 필요하다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "분산 처리는 여러 컴퓨터의 자원을 함께 쓰는 방식이지만 각 컴퓨터가 완전히 고립되어 일하는 것은 아니다. 입력을 나누거나 중간 결과를 교환하고 최종 결과를 합치는 과정에서 통신이 발생할 수 있다. 그래서 스케일아웃의 효과를 판단할 때는 계산 시간뿐 아니라 자료 분배와 네트워크 전송 시간도 함께 확인한다.",
+        "steps": [
+          "한 서버의 사양만 바꾸는 상황이 아니라 여러 서버에 나누는 상황임을 확인한다.",
+          "여러 서버의 결과를 모으는 데 컴퓨터 사이 통신이 필요함을 생각한다.",
+          "스케일아웃의 정의와 전송 시간의 영향을 설명한 두 문장을 선택한다."
+        ],
+        "pitfall": "서버 개수 증가를 성능 증가와 무조건 일대일로 대응시키지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-007",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "lecture",
+        "focusIds": [
+          "collection-api"
+        ]
+      },
+      "prompt": "박물관이 전시 ID·제목·시작일을 JSON으로 주는 공식 조회 기능을 제공한다. 화면 HTML의 모양과 별개로 이 기능에 요청하여 자료를 받는 방법은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "저장 디스크를 포맷한다.",
+          "correct": false,
+          "explanation": "포맷은 파일시스템을 준비하는 작업이며 원격 전시 자료 조회가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "서버의 RAM을 교체한다.",
+          "correct": false,
+          "explanation": "메모리 교체는 장비 증설이며 자료를 요청하는 수집 방식이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "그래프에서 막대 색만 바꾼다.",
+          "correct": false,
+          "explanation": "차트 꾸미기는 이미 얻은 자료를 표시하는 작업이다."
+        },
+        {
+          "id": "o4",
+          "text": "제공된 API를 호출한다.",
+          "correct": true,
+          "explanation": "정해진 요청과 응답 규칙으로 자료를 받는 인터페이스를 이용한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C06",
+        "web-c14"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            8,
+            9
+          ]
+        },
+        {
+          "fileId": "web2",
+          "pages": [
+            23,
+            24,
+            25
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · API 수집의 의미",
+      "review": "API는 다른 프로그램에 정해진 규칙으로 요청하고 응답을 받는 인터페이스다. 제공된 조회 기능이 필요한 열을 JSON으로 준다면 그 기능을 호출하여 자료를 받을 수 있다. 화면의 HTML 요소를 찾아 내용을 꺼내는 방식과 구분하며, API를 이용해도 응답 열과 실제 내용을 확인해야 한다.",
+      "memoryTip": "정해진 요청·응답으로 자료 받기 → API",
+      "additionalExample": "날씨 서비스가 지역 코드를 보내면 온도와 관측 시각을 JSON으로 주도록 정해 두었다면 프로그램은 그 API로 날씨를 수집한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "자료 수집에서는 웹 화면을 읽는 방식과 제공자가 마련한 API를 이용하는 방식을 구분할 수 있다. API는 요청할 주소·매개변수·응답 형식 등의 약속을 통해 프로그램끼리 자료를 교환하게 한다. 필요한 전시 열을 공식 기능이 직접 제공한다는 조건이 있으므로 여기서는 그 인터페이스를 호출하는 것이 발문에 해당한다.",
+        "steps": [
+          "박물관이 프로그램용 공식 조회 기능을 제공한다는 조건을 먼저 확인한다.",
+          "정해진 요청에 JSON 응답을 받는 구조가 API의 역할임을 연결한다.",
+          "수집과 무관한 포맷·장비 교체·차트 꾸미기를 제외하고 API 호출을 고른다."
+        ],
+        "pitfall": "JSON이라는 응답 형식과 자료 수집 후의 그래프 작성 작업을 같은 단계로 보지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-008",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "lecture",
+        "focusIds": [
+          "etl-elt-storage"
+        ]
+      },
+      "prompt": "ETL이라는 이름에 적힌 순서대로 데이터 작업을 나열한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "추출 → 적재 → 변환",
+          "correct": false,
+          "explanation": "이 순서는 ELT다."
+        },
+        {
+          "id": "o2",
+          "text": "추출 → 변환 → 적재",
+          "correct": true,
+          "explanation": "E는 Extract, T는 Transform, L은 Load다."
+        },
+        {
+          "id": "o3",
+          "text": "변환 → 적재 → 추출",
+          "correct": false,
+          "explanation": "ETL은 원천에서 자료를 가져오는 추출로 시작한다."
+        },
+        {
+          "id": "o4",
+          "text": "적재 → 추출 → 변환",
+          "correct": false,
+          "explanation": "ETL에서 목표 저장소 적재는 변환 뒤에 온다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C09"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · ETL 순서",
+      "review": "ETL은 Extract·Transform·Load의 머리글자다. 원천 자료를 추출하고 분석 목적에 맞게 변환한 뒤 목표 저장소에 적재한다. ELT는 추출 다음에 먼저 적재하고 그 뒤 변환하는 순서다. 두 방식은 T와 L의 위치가 다르며 어떤 방식이 항상 모든 상황에서 더 좋다는 뜻은 아니다.",
+      "memoryTip": "ETL = 가져와서 → 바꾸고 → 저장",
+      "additionalExample": "주소록을 가져와 공백과 표기를 정리한 다음 분석용 테이블에 넣는다면 목표 테이블 기준으로 ETL 순서에 해당한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "ETL과 ELT는 자료 이동과 변환의 순서를 나타내는 말이다. 추출 E는 원천에서 자료를 가져오는 일이고, 변환 T는 형식 변경이나 정제처럼 자료를 바꾸는 일이며, 적재 L은 목표 저장소에 쓰는 일이다. ETL은 목표 저장소에 넣기 전에 변환한다는 점을 먼저 기억하면 글자의 위치와 작업 순서를 쉽게 연결할 수 있다.",
+        "steps": [
+          "E가 추출이므로 원천에서 자료를 가져오는 작업을 첫 자리에 놓는다.",
+          "ETL의 두 번째 글자 T를 자료를 정제하거나 바꾸는 변환과 연결한다.",
+          "마지막 L을 목표 저장소에 넣는 적재와 연결해 전체 순서를 완성한다."
+        ],
+        "pitfall": "ETL과 ELT의 글자가 같다는 이유로 두 작업 순서도 같다고 외우지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-009",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "analysis",
+        "evidence": "pdf",
+        "focusIds": [
+          "quality-standardization"
+        ]
+      },
+      "prompt": "택배 표의 무게가 비어 있다. 담당자는 '비어 있으니 실제 무게가 0kg'라고 기록하려 한다. 가장 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "알 수 없는 무게와 실제 0kg을 구분하고 처리 규칙을 정한다.",
+          "correct": true,
+          "explanation": "결측은 정보가 없다는 뜻이므로 0으로 바꿀 근거가 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "결측값은 뜻과 관계없이 언제나 실제 0이다.",
+          "correct": false,
+          "explanation": "값을 모르는 것과 무게가 실제로 0인 것은 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "무게가 하나 비면 표의 다른 모든 행도 반드시 삭제한다.",
+          "correct": false,
+          "explanation": "결측 처리 범위는 분석 목적과 필요한 열을 보고 정한다."
+        },
+        {
+          "id": "o4",
+          "text": "빈 값을 남기면 그래프를 전혀 만들 수 없다.",
+          "correct": false,
+          "explanation": "질문별 유효 자료를 사용하고 제외 건수 등을 밝히며 분석할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C14",
+        "web-c23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            4,
+            15,
+            16,
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 결측과 실제 0 구분",
+      "review": "결측은 값이 기록되지 않았거나 알 수 없다는 뜻이다. 실제 무게 0kg이라는 관측값과는 다르다. 근거 없이 0으로 채우면 평균 무게 등이 낮아질 수 있다. 무엇을 분석하는지에 따라 원자료 확인, 해당 분석에서 제외, 적절한 대체 등을 정하고 처리 규칙과 유효 자료 수를 기록한다.",
+      "memoryTip": "모름 ≠ 실제 0",
+      "additionalExample": "설문에서 나이를 쓰지 않은 사람을 0세로 기록하면 평균 나이가 달라지므로 무응답과 실제 나이를 분리하여 관리해야 한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "결측 처리에는 값의 의미를 먼저 확인하는 과정이 필요하다. 비어 있는 무게는 측정하지 않았거나 입력을 빠뜨린 것일 수 있으며 실제 0kg을 뜻하지 않는다. 0은 평균 계산 등에 들어가는 실제 수치이므로 근거 없이 채우면 결과를 바꾼다. 질문에 필요한 열인지 확인한 다음 처리 방법과 제외·대체한 건수를 기록하는 것이 기본이다.",
+        "steps": [
+          "빈 무게는 측정된 숫자가 없다는 상태이지 0kg이라는 측정 결과가 아님을 확인한다.",
+          "평균 계산에 0을 넣으면 결과가 달라질 수 있어 대체 근거가 필요한지 살핀다.",
+          "결측과 실제 0을 나누고 질문에 맞는 처리 규칙을 정하는 선택지를 고른다."
+        ],
+        "pitfall": "프로그램 실행을 편하게 만들기 위해 모든 빈 숫자를 0으로 채우면 자료의 의미가 달라질 수 있다."
+      }
+    },
+    {
+      "id": "basic-inf-010",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "lecture",
+        "focusIds": [
+          "etl-elt-storage"
+        ]
+      },
+      "prompt": "HDFS와 NoSQL의 기본 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "HDFS는 여러 컴퓨터에 파일을 나누어 보관하는 분산 파일시스템이다.",
+          "correct": true,
+          "explanation": "여러 저장 노드를 이용해 대용량 파일을 관리하는 방식이다."
+        },
+        {
+          "id": "o2",
+          "text": "HDFS는 사진을 자동으로 작품 소개문으로 바꾸는 도구다.",
+          "correct": false,
+          "explanation": "HDFS의 기본 역할은 파일 저장과 관리다."
+        },
+        {
+          "id": "o3",
+          "text": "NoSQL을 쓰면 입력 데이터의 오류 검사가 필요 없다.",
+          "correct": false,
+          "explanation": "저장 모델과 별개로 필수 값·형식·중복 등의 품질 검사가 필요하다."
+        },
+        {
+          "id": "o4",
+          "text": "NoSQL에는 문서형과 키-값형 등 여러 데이터 모델이 있다.",
+          "correct": true,
+          "explanation": "NoSQL은 단일한 표 구조 하나만을 가리키는 이름이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C11",
+        "n34-C12"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 저장 기술의 역할",
+      "review": "HDFS는 파일을 여러 컴퓨터에 나누어 보관하고 관리하는 분산 파일시스템이다. NoSQL은 문서형·키-값형·컬럼형·그래프형 등 다양한 저장 모델을 포함한다. 두 이름을 모든 처리를 자동으로 해 주는 도구로 외우지 않는다. 저장 방식을 골라도 자료의 오류와 필수 값은 별도로 확인해야 한다.",
+      "memoryTip": "HDFS는 분산 파일 저장, NoSQL은 다양한 저장 모델",
+      "additionalExample": "소개문이 포함된 상품 문서를 NoSQL에 넣더라도 상품 ID 누락과 가격 자료형은 별도 규칙으로 검사해야 한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "자료를 어디에 어떤 구조로 보관할지는 분석 계산과 구분되는 책임이다. HDFS는 여러 노드의 저장공간을 활용해 파일을 나누어 관리한다. NoSQL은 문서나 키와 값 등 여러 데이터 모델을 제공하는 범주다. 어떤 저장소를 선택했는지와 값이 정확한지 또는 분석이 타당한지는 다른 질문이므로 저장 기능만으로 품질 검증이 끝났다고 보지 않는다.",
+        "steps": [
+          "HDFS의 주된 역할을 내용 해석이 아니라 파일 저장과 관리로 정리한다.",
+          "NoSQL이 문서형과 키-값형 등 여러 모델을 포함한다는 점을 확인한다.",
+          "입력 품질 검사는 여전히 필요하므로 정의에 맞는 두 문장만 선택한다."
+        ],
+        "pitfall": "저장 기술의 이름을 선택했다는 사실만으로 데이터 품질이나 분석 결과가 자동 보장되지는 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-011",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "analysis",
+        "evidence": "lecture",
+        "focusIds": [
+          "analysis-six-steps",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "분석 결과를 해석하다가 지역명이 '서울'과 '서울시'로 나뉘어 같은 지역이 따로 집계된 것을 발견했다. 다음 행동으로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "해석 단계까지 왔으므로 잘못된 집계를 그대로 제출한다.",
+          "correct": false,
+          "explanation": "분석 과정은 필요하면 앞 단계로 돌아가 수정한다."
+        },
+        {
+          "id": "o2",
+          "text": "지역명 열을 지우고 모든 지역 비교를 끝낸다.",
+          "correct": false,
+          "explanation": "먼저 동일 지역의 표기 규칙을 확인하고 고칠 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "지역 표기 기준을 확인해 정제한 뒤 다시 집계하고 해석한다.",
+          "correct": true,
+          "explanation": "확인한 품질 문제를 앞 단계에서 고친 다음 결과를 다시 만든다."
+        },
+        {
+          "id": "o4",
+          "text": "그래프 색을 같게 칠하면 집계도 합쳐진다.",
+          "correct": false,
+          "explanation": "색 변경은 실제 데이터의 표기와 집계값을 수정하지 않는다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C18",
+        "n34-C14"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 분석 단계의 반복",
+      "review": "데이터 분석 6단계는 한 번 지나간 단계로 절대 돌아가지 않는 절차가 아니다. 결과 해석 중에도 표기 오류나 질문의 한계를 발견하면 정제·전처리 등 필요한 단계로 돌아가 수정한다. 같은 지역을 같은 기준으로 묶은 뒤 결과를 다시 계산해야 하며 그래프 색만 바꾸는 것으로 집계 문제가 해결되지는 않는다.",
+      "memoryTip": "해석 중 문제 발견 → 필요한 앞 단계로 돌아가기",
+      "additionalExample": "월별 결과가 이상해서 날짜 형식을 잘못 읽은 것을 발견했다면 날짜 처리 규칙을 고치고 월별 집계를 다시 계산한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "분석은 문제 정의부터 결과 해석까지 이어지지만 각 단계가 단 한 번만 실행되는 것은 아니다. 탐색과 해석에서 새로운 품질 문제를 발견하면 원인에 해당하는 단계로 돌아갈 수 있다. 동일한 지역이 다른 이름으로 분리된 경우에는 표기 기준을 검증하고 정제한 뒤 같은 계산을 다시 수행해야 수정된 결과를 설명할 수 있다.",
+        "steps": [
+          "현재 문제는 그래프 색이 아니라 같은 지역이 다른 이름으로 집계된 것임을 찾는다.",
+          "지역 표기 기준을 확인해 같은 대상을 하나의 표기로 정리하는 작업을 정한다.",
+          "정제 결과로 집계와 해석을 다시 하는 반복 흐름을 선택한다."
+        ],
+        "pitfall": "6단계를 순서대로 배웠다는 이유로 앞 단계의 오류를 발견해도 고치지 않는 절차로 이해하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-012",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "analysis",
+        "evidence": "pdf",
+        "focusIds": [
+          "analysis-six-steps",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "AI가 제안한 분석 코드를 팀 과제에 쓰려 한다. 기본 검증과 재현성을 위해 적절한 행동을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "AI가 자신 있다고 했으므로 실행하지 않고 결과를 제출한다.",
+          "correct": false,
+          "explanation": "검증에는 실제 입력과 실행 결과에 대한 관찰이 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "실제 파일의 열 이름을 확인하고 작은 입력으로 실행해 본다.",
+          "correct": true,
+          "explanation": "코드가 자신의 자료와 환경에서 작동하는지 직접 점검한다."
+        },
+        {
+          "id": "o3",
+          "text": "사용한 데이터·버전·실행 순서를 함께 기록한다.",
+          "correct": true,
+          "explanation": "다른 사람이 같은 조건을 준비하고 다시 실행하는 데 필요하다."
+        },
+        {
+          "id": "o4",
+          "text": "최종 그림만 남기면 코드와 입력 파일은 필요 없다.",
+          "correct": false,
+          "explanation": "그림만으로는 어떤 입력과 절차에서 결과가 나왔는지 재현하기 어렵다."
+        }
+      ],
+      "conceptIds": [
+        "web-c04",
+        "web-c05"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            3,
+            5,
+            6,
+            11
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · AI 검증과 재현성",
+      "review": "AI가 만든 코드는 검증할 초안이다. 실제 열 이름과 입력을 확인하고 작은 예제로 실행해 예상한 결과가 나오는지 확인한다. 재현성을 위해서는 결과 그림뿐 아니라 사용 데이터, 코드, 라이브러리 버전, 실행 순서를 남겨야 한다. 다른 사람이 같은 조건을 준비할 수 있어야 결과를 다시 만들기 쉽다.",
+      "memoryTip": "AI 초안 → 실제 실행 확인 → 조건 기록",
+      "additionalExample": "친구가 같은 보고 표를 만들려면 화면 캡처만 보내는 것보다 입력 파일 위치와 설치 버전 및 실행 명령을 함께 알려 주는 편이 낫다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "AI는 열 이름이나 현재 버전을 모르고도 그럴듯한 코드를 제안할 수 있다. 따라서 실행 전에는 입력과 API를 확인하고 실행 후에는 결과의 내용을 확인한다. 재현성은 같은 그림을 우연히 얻는 것이 아니라 자료·코드·환경·절차를 따라 결과를 다시 생성할 수 있게 하는 성질이다. 실행 검증과 조건 기록은 서로 보완하는 기본 작업이다.",
+        "steps": [
+          "AI의 설명만으로 검증이 끝나지 않았으므로 실제 파일 열을 먼저 확인한다.",
+          "작은 입력으로 코드를 실행해 오류와 기대한 출력 여부를 직접 확인한다.",
+          "다른 사람이 다시 실행하도록 데이터·버전·순서를 기록하는 문장도 선택한다."
+        ],
+        "pitfall": "AI가 확신하는 말투나 보기 좋은 최종 그림을 실제 실행과 재현 조건의 대체물로 삼지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-013",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "pdf",
+        "focusIds": [
+          "five-v-sources",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "학생 출석 표에서 같은 출석 ID가 두 번 저장되었다. 중복 기록을 확인하여 자료를 믿을 수 있게 만드는 일과 가장 관련된 5V는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Variety · 다양성",
+          "correct": false,
+          "explanation": "자료의 형식과 구조가 다양한 정도다."
+        },
+        {
+          "id": "o2",
+          "text": "Veracity · 신뢰성",
+          "correct": true,
+          "explanation": "중복·오류·결측 등 자료를 믿을 수 있는지 확인하는 관점이다."
+        },
+        {
+          "id": "o3",
+          "text": "Volume · 규모",
+          "correct": false,
+          "explanation": "저장하고 처리할 자료의 양이다."
+        },
+        {
+          "id": "o4",
+          "text": "Velocity · 속도",
+          "correct": false,
+          "explanation": "자료가 들어오고 처리되는 속도다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-veracity",
+        "web-c06"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · 5V 신뢰성 찾기",
+      "review": "Veracity는 자료의 신뢰성과 품질을 뜻한다. 출석 ID가 중복되면 학생이 실제보다 많이 출석한 것처럼 집계될 수 있으므로 중복을 확인할 필요가 있다. 어떤 ID를 기준으로 중복을 판단할지 먼저 정하고 실제 오류인지 조사한다. 자료 양이 많아졌다는 사실만으로 품질이 좋아지는 것은 아니다.",
+      "memoryTip": "오류·중복·결측 점검 → Veracity",
+      "additionalExample": "같은 주문번호가 두 번 들어간 쇼핑 기록을 검사하는 일도 단순히 파일 크기를 재는 것이 아니라 자료 신뢰성을 확인하는 작업이다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "5V 중 Veracity는 관측값과 집계 결과를 믿을 수 있는지 묻는다. 중복과 결측, 잘못된 형식은 품질을 떨어뜨릴 수 있다. 같은 출석 ID를 두 번 세면 원래 사건의 수보다 집계가 커질 수 있으므로 중복 기준을 세우고 확인한다. 반면 자료가 여러 종류인지 묻는 Variety나 유입 속도를 묻는 Velocity는 이 발문의 직접적인 초점이 아니다.",
+        "steps": [
+          "발문이 파일 크기나 응답 속도가 아니라 중복 출석 기록을 문제 삼는지 확인한다.",
+          "중복이 집계의 정확성과 믿을 만함에 영향을 줄 수 있음을 연결한다.",
+          "자료의 신뢰성을 뜻하는 Veracity를 정답으로 선택한다."
+        ],
+        "pitfall": "ID가 같은 기록의 오류 여부를 살피는 것과 이름이 같은 서로 다른 사람을 삭제하는 일을 구분한다."
+      }
+    },
+    {
+      "id": "basic-inf-014",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "lecture",
+        "focusIds": [
+          "data-forms"
+        ]
+      },
+      "prompt": "기상대가 매시간 같은 지점의 기온을 '관측시각·기온' 두 열에 기록했다. 이 표로 가장 직접적으로 할 수 있는 분석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "사진 속 사람 얼굴을 분류한다.",
+          "correct": false,
+          "explanation": "표에는 얼굴 사진이 아니라 시각과 기온이 있다."
+        },
+        {
+          "id": "o2",
+          "text": "지역 좌표 없이 지역 간 거리를 계산한다.",
+          "correct": false,
+          "explanation": "다른 지역의 위치 정보가 제시되지 않았다."
+        },
+        {
+          "id": "o3",
+          "text": "기온만으로 관측자의 독서 취향을 확정한다.",
+          "correct": false,
+          "explanation": "개인의 취향을 나타내는 자료가 없다."
+        },
+        {
+          "id": "o4",
+          "text": "시간 흐름에 따른 기온 변화를 살핀다.",
+          "correct": true,
+          "explanation": "관측시각 순서로 기온을 비교하는 시계열 분석이 가능하다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-time-series",
+        "n12-c-data-forms"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · 시계열 자료의 활용",
+      "review": "시계열 데이터는 시간의 순서에 따라 관측한 자료다. 같은 지점의 매시간 기온은 관측시각을 기준으로 정렬해 상승과 하락을 살필 수 있다. 먼저 실제로 기록된 열이 어떤 질문에 답할 수 있는지 확인한다. 시간과 기온만 있는 표에서 사진 분류나 개인의 취향까지 알아낼 수는 없다.",
+      "memoryTip": "시각 순서대로 값의 변화 보기 → 시계열",
+      "additionalExample": "매일 같은 계량기에서 기록한 전력 사용량도 날짜 순서로 정리하면 사용량이 늘거나 줄어드는 시기를 살필 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "시계열 분석은 시간에 따라 관측한 값의 변화를 보는 방법이다. 시간 열은 어떤 값이 먼저 또는 나중에 관측되었는지 알려 주고 기온 열은 그때의 측정값을 제공한다. 자료에 있는 두 열을 연결하면 추이 분석이 가능하다. 반대로 분석에 필요한 사진·위치·선호 자료가 없다면 해당 질문의 답을 이 표만으로 만들 수 없다.",
+        "steps": [
+          "제공된 열이 관측시각과 기온이라는 사실을 먼저 확인한다.",
+          "시각 순으로 기온을 놓으면 시간에 따른 변화를 살필 수 있음을 생각한다.",
+          "표에 없는 사진·거리·개인 취향이 아닌 기온 추이 분석을 선택한다."
+        ],
+        "pitfall": "관측값의 종류와 필요한 열을 확인하지 않은 채 어떤 분석이든 가능하다고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-015",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "lecture",
+        "focusIds": [
+          "data-forms"
+        ]
+      },
+      "prompt": "전시 후기 CSV에 '후기번호·작성일·자유 서술 후기'가 저장되어 있다. 자료의 구조와 내용에 대한 설명으로 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "CSV의 행과 열은 정해진 표 구조로 정리할 수 있다.",
+          "correct": true,
+          "explanation": "후기번호·작성일·후기라는 고정 열에 각 기록을 담고 있다."
+        },
+        {
+          "id": "o2",
+          "text": "자유 서술 후기의 문장 내용은 별도의 텍스트 전처리 대상이다.",
+          "correct": true,
+          "explanation": "표 안에 들어 있어도 문장 내용의 단어와 표현을 분석하려면 처리가 필요하다."
+        },
+        {
+          "id": "o3",
+          "text": "CSV에 넣으면 문장 속 모든 의미가 자동으로 숫자 열이 된다.",
+          "correct": false,
+          "explanation": "파일에 저장했다는 사실만으로 문장 의미가 수치 특징으로 변환되지는 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "표에 텍스트 열이 하나 있으면 작성일 열은 사용할 수 없다.",
+          "correct": false,
+          "explanation": "작성일을 날짜로 처리하면 시간별 후기 수 등을 분석할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-data-forms",
+        "n34-C30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            12,
+            13
+          ]
+        },
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            48,
+            49,
+            50
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 표와 텍스트 내용 구분",
+      "review": "표의 바깥 구조와 셀 안에 들어 있는 내용은 나누어 볼 수 있다. CSV는 고정된 열로 기록을 정리하지만 자유 서술 후기는 문장 내용이다. 문장을 단어 빈도나 특징으로 분석하려면 텍스트 전처리가 필요하다. 텍스트가 있다고 해서 작성일 같은 다른 열의 정보까지 사용할 수 없어지는 것은 아니다.",
+      "memoryTip": "표에 담긴 문장도 텍스트 처리가 필요하다",
+      "additionalExample": "상담 날짜와 상담 메모를 한 표에 저장해도 날짜별 건수 집계와 메모의 핵심 단어 추출은 서로 다른 준비 과정을 거친다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "정형 표가 비구조화 내용의 저장 용기가 될 수 있다. 후기 CSV는 후기번호와 작성일처럼 고정 열을 갖지만 자유 서술문은 정해진 범주 하나로만 표현된 값이 아니다. 문장 분석을 하려면 분석 목적에 맞게 단어를 나누고 표기를 정리하거나 특징을 만드는 과정이 필요하다. 파일 확장자만으로 셀 안의 모든 내용이 정형 특징으로 바뀌었다고 보지 않는다.",
+        "steps": [
+          "CSV의 고정된 열이라는 외부 구조와 후기 문장이라는 내용을 나누어 읽는다.",
+          "문장 의미가 자동으로 수치화된 것이 아니므로 텍스트 준비가 필요함을 확인한다.",
+          "표 구조와 텍스트 전처리의 필요성을 각각 설명한 두 선택지를 고른다."
+        ],
+        "pitfall": "CSV로 저장한 문장의 의미가 자동으로 분석 가능한 숫자 특징이 되었다고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-016",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "pdf",
+        "focusIds": [
+          "scale-network-cloud"
+        ]
+      },
+      "prompt": "연구실은 분석용 컴퓨터 수를 그대로 두고, 한 컴퓨터를 더 빠른 CPU가 있는 상위 사양으로 바꾸었다. 이 확장 방식은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "스케일업",
+          "correct": true,
+          "explanation": "한 장비의 CPU·메모리 등 사양을 높이는 확장이다."
+        },
+        {
+          "id": "o2",
+          "text": "스케일아웃",
+          "correct": false,
+          "explanation": "장비 수를 늘려 작업과 데이터를 나누는 확장이다."
+        },
+        {
+          "id": "o3",
+          "text": "데이터 정규화",
+          "correct": false,
+          "explanation": "값이나 구조를 기준에 맞게 정리하는 작업이며 장비 증설 이름이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "결측값 대체",
+          "correct": false,
+          "explanation": "없는 값을 정한 규칙에 따라 채우는 데이터 처리다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C01",
+        "web-c07"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · 스케일업 구별",
+      "review": "스케일업은 한 장비에 더 좋은 CPU나 더 큰 메모리, 빠른 저장장치 등을 사용해 사양을 높이는 방식이다. 스케일아웃은 여러 장비에 자료와 작업을 나누는 방식이다. 이 문제는 컴퓨터 수가 유지된 채 한 대의 사양이 좋아졌으므로 스케일업에 해당한다. 실제 효과는 작업의 병목에 따라 확인해야 한다.",
+      "memoryTip": "한 대를 더 강하게 → 스케일업",
+      "additionalExample": "서버 한 대의 저장장치를 더 빠른 장치로 바꾸는 것도 스케일업의 예이며, 서버를 추가하여 일을 나누는 경우와 구별한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "확장 방식을 나눌 때는 자료가 많은지보다 자원을 늘리는 방향을 먼저 본다. 한 대의 자원을 강화하면 스케일업이고 여러 대를 함께 활용하면 스케일아웃이다. 여기서는 컴퓨터 대수가 늘지 않았고 CPU 사양을 높였다는 조건만으로 방향을 판단할 수 있다. 다만 스케일업이라는 분류와 실제로 작업이 얼마나 빨라졌는지는 별도로 측정해야 한다.",
+        "steps": [
+          "컴퓨터 수가 그대로라는 조건을 읽어 여러 대로 나눈 상황이 아님을 확인한다.",
+          "CPU를 더 빠른 사양으로 바꾼 것은 한 장비의 자원 강화임을 정리한다.",
+          "한 장비의 사양을 높이는 방식인 스케일업을 선택한다."
+        ],
+        "pitfall": "스케일업이라는 이름만으로 어떤 작업이든 반드시 빨라졌다고 단정하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-017",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "pdf",
+        "focusIds": [
+          "scale-network-cloud"
+        ]
+      },
+      "prompt": "가상 작업의 세 단계는 차례로 실행된다. 그림에서 현재 소요 시간이 가장 긴 단계를 먼저 자세히 점검하려면 무엇을 보아야 하는가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "계산 단계",
+          "correct": false,
+          "explanation": "계산은 2초로 제시된 세 단계 중 가장 짧다."
+        },
+        {
+          "id": "o2",
+          "text": "입력 읽기 단계",
+          "correct": false,
+          "explanation": "읽기는 4초이며 전송보다 짧다."
+        },
+        {
+          "id": "o3",
+          "text": "네트워크 전송 단계",
+          "correct": true,
+          "explanation": "전송이 10초로 가장 길어 우선 조사할 시간 비중이 가장 크다."
+        },
+        {
+          "id": "o4",
+          "text": "차트의 배경색",
+          "correct": false,
+          "explanation": "배경색은 제시된 작업 단계의 소요 시간 원인이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C03",
+        "web-c07"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 차트 · 단계별 소요 시간",
+      "visual": {
+        "kind": "bar",
+        "title": "가상 분석의 단계별 소요 시간",
+        "xLabel": "작업 단계",
+        "yLabel": "소요 시간(초)",
+        "labels": [
+          "입력 읽기",
+          "계산",
+          "네트워크 전송"
+        ],
+        "series": [
+          {
+            "name": "측정 시간",
+            "values": [
+              4,
+              2,
+              10
+            ]
+          }
+        ],
+        "note": "각 단계는 겹치지 않고 실행된다. 가장 긴 단계를 우선 조사하는 문제이며 원인을 확정한 것은 아니다."
+      },
+      "review": "작업이 느리다고 해서 CPU 계산만 원인인 것은 아니다. 읽기·계산·네트워크 전송을 나누어 측정하면 어디에 시간이 많이 쓰였는지 볼 수 있다. 그림에서는 전송이 10초로 가장 길어 우선 점검할 대상이다. 시간이 길다는 관찰만으로 회선 고장까지 확정하지는 말고 전송량과 대기 등을 더 확인한다.",
+      "memoryTip": "느리면 먼저 단계별 시간을 비교한다",
+      "additionalExample": "계산은 금방 끝나는데 원격 저장소에서 파일을 가져오는 데 오래 걸린다면 CPU 교체에 앞서 파일 읽기와 전송 조건을 조사한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "병목을 찾기 위해서는 작업 전체가 느리다는 느낌보다 단계별 관찰이 필요하다. CPU가 처리하는 계산 외에도 입력을 읽고 다른 컴퓨터와 자료를 교환하는 과정이 시간을 쓴다. 차례로 진행하는 단계에서 전송 시간이 가장 크면 그 부분을 먼저 조사할 근거가 된다. 다만 그래프 한 개는 추가 조사의 출발점이지 네트워크 장애의 확정 증거는 아니다.",
+        "steps": [
+          "세로축이 초 단위 소요 시간이며 세 단계가 겹치지 않는다는 조건을 확인한다.",
+          "막대 높이를 비교하여 네트워크 전송의 10초가 가장 길다는 사실을 읽는다.",
+          "전송 단계부터 자세히 점검하되 구체적인 원인은 추가 조사한다는 판단을 한다."
+        ],
+        "pitfall": "전송 단계가 오래 걸렸다는 사실만으로 회선 고장이나 CPU 부족까지 바로 확정하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-018",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "lecture",
+        "focusIds": [
+          "scale-network-cloud"
+        ]
+      },
+      "prompt": "팀이 직접 서버를 구입하는 대신 서비스 제공자의 컴퓨팅 자원을 네트워크로 빌려 사용한다. 이 설명과 가장 가까운 개념은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "파일 확장자",
+          "correct": false,
+          "explanation": "파일 이름에서 형식을 나타내는 요소다."
+        },
+        {
+          "id": "o2",
+          "text": "클라우드 컴퓨팅",
+          "correct": true,
+          "explanation": "네트워크를 통해 제공자의 컴퓨팅 자원을 이용하는 방식이다."
+        },
+        {
+          "id": "o3",
+          "text": "중앙값",
+          "correct": false,
+          "explanation": "자료를 정렬했을 때 가운데 위치하는 값이다."
+        },
+        {
+          "id": "o4",
+          "text": "빈도표",
+          "correct": false,
+          "explanation": "범주별로 몇 건인지 세어 정리한 표다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C04"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · 클라우드의 의미",
+      "review": "클라우드 컴퓨팅은 네트워크를 통해 제공받는 컴퓨팅 자원을 이용하는 방식이다. 서버나 저장공간을 직접 모두 마련하는 대신 필요한 서비스를 빌릴 수 있다. 원격 자원을 빌렸다는 것과 작업을 여러 서버로 분산했다는 것은 별개다. 클라우드를 사용해도 입력 품질과 코드 및 분석 해석은 확인해야 한다.",
+      "memoryTip": "네트워크로 컴퓨팅 자원을 제공받기 → 클라우드",
+      "additionalExample": "기간이 짧은 설문 분석을 위해 제공자의 가상 서버와 저장공간을 빌려 쓰는 경우도 클라우드 자원을 활용한 사례다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "클라우드는 사용자가 네트워크를 통해 컴퓨팅 자원을 제공받는 운영 방식이다. 제공받는 대상에는 계산 자원과 저장공간 등이 포함될 수 있다. 자료를 외부 자원에 놓았다는 사실만으로 모든 계산이 여러 노드로 나뉜 것은 아니므로 클라우드와 분산 처리는 구별한다. 또한 서비스 제공 방식과 데이터의 정확성은 다른 문제라서 품질 검사는 남는다.",
+        "steps": [
+          "서버를 직접 구입하기보다 외부 제공자의 자원을 빌린다는 조건을 확인한다.",
+          "네트워크를 통한 컴퓨팅 자원 이용이 클라우드의 설명과 맞는지 연결한다.",
+          "파일 형식이나 통계 표가 아닌 클라우드 컴퓨팅을 정답으로 선택한다."
+        ],
+        "pitfall": "클라우드 서버 한 대를 이용했다는 사실을 곧 여러 대에 나눈 분산 처리로 설명하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-019",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "lecture",
+        "focusIds": [
+          "collection-api"
+        ]
+      },
+      "prompt": "학교 공지 자료를 프로그램으로 수집하려 한다. 수집 계획으로 적절한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "API라는 이름만 확인하면 실제 응답 열은 살필 필요가 없다.",
+          "correct": false,
+          "explanation": "필요한 공지 ID·제목·작성일이 실제 응답에 있는지 확인해야 한다."
+        },
+        {
+          "id": "o2",
+          "text": "제공된 API가 필요한 열을 주는지 응답 예제로 확인한다.",
+          "correct": true,
+          "explanation": "수집 방식 선택 전에 필요한 정보가 제공되는지 확인한다."
+        },
+        {
+          "id": "o3",
+          "text": "제목 대신 페이지 메뉴만 저장되어도 수집 성공으로 확정한다.",
+          "correct": false,
+          "explanation": "페이지에 접속한 것과 필요한 내용을 정확히 저장한 것은 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "HTML에서 제목을 추출한다면 실제 공지 제목이 저장되는지 확인한다.",
+          "correct": true,
+          "explanation": "추출 대상과 저장 결과를 직접 대조해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C05",
+        "n34-C06",
+        "web-c14"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "fileId": "web2",
+          "pages": [
+            23,
+            24,
+            25
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 수집 내용 확인",
+      "review": "수집 방법을 정할 때는 크롤링이나 API라는 이름보다 필요한 정보를 실제로 얻는지 확인한다. API의 응답 열에 필요한 항목이 있는지 보고 HTML 추출 결과도 원문과 대조한다. 접속 성공만으로 공지 제목을 정확히 모았다는 뜻은 아니다. 작은 예제로 내용을 확인한 뒤 수집 범위를 늘리는 것이 좋다.",
+      "memoryTip": "접속 성공과 내용 수집 성공을 구별한다",
+      "additionalExample": "책 소개 페이지에서 본문이 아니라 사이트의 메뉴 글자만 저장되었다면 요청은 성공했어도 필요한 소개문 수집은 실패한 것이다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "수집은 자료에 접근하는 것뿐 아니라 분석에 필요한 내용을 가져오는 책임이다. API가 정해진 응답을 제공해도 그 안에 필요한 열이 있는지 확인해야 한다. HTML에서는 잘못된 요소를 선택하면 메뉴나 광고를 저장할 수 있다. 따라서 접근 성공 코드나 저장 파일의 존재만 보지 않고 원문과 응답·저장값의 내용을 비교하는 기본 검증이 필요하다.",
+        "steps": [
+          "분석에 필요한 공지 정보가 무엇인지 먼저 정하고 수집 결과와 비교한다.",
+          "API 응답 예제에 필요한 열이 실제로 존재하는지 확인하는 행동을 고른다.",
+          "HTML 추출값이 실제 공지 제목인지 대조하는 행동도 함께 선택한다."
+        ],
+        "pitfall": "서버 응답을 받거나 파일이 생겼다는 사실만으로 필요한 내용이 정확하게 수집됐다고 확정하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-020",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "lecture",
+        "focusIds": [
+          "etl-elt-storage"
+        ]
+      },
+      "prompt": "분석 저장소에 승인된 원본을 먼저 넣고, 그 저장소 안에서 날짜 형식을 변환했다. 이처럼 '추출 → 적재 → 변환' 순서인 흐름의 이름은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "ELT",
+          "correct": true,
+          "explanation": "E 추출 뒤 L 적재를 먼저 하고 T 변환을 수행한다."
+        },
+        {
+          "id": "o2",
+          "text": "ETL",
+          "correct": false,
+          "explanation": "ETL은 목표 저장소에 적재하기 전에 변환한다."
+        },
+        {
+          "id": "o3",
+          "text": "PCB",
+          "correct": false,
+          "explanation": "운영체제가 프로세스 정보를 관리하는 자료구조다."
+        },
+        {
+          "id": "o4",
+          "text": "EDA",
+          "correct": false,
+          "explanation": "자료의 분포와 관계를 살피는 탐색적 분석이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C09"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · ELT 흐름 읽기",
+      "review": "ELT는 추출한 원본을 목표 저장소에 먼저 적재하고 나중에 변환하는 순서다. 이 문제는 적재 뒤 저장소 안에서 날짜를 바꾸므로 ELT다. ETL과 비교할 때 T와 L의 순서가 달라진다. 원본을 먼저 보관할 수 있는지 등 조건을 검토하여 선택하며 ELT가 모든 ETL을 없앤 것은 아니다.",
+      "memoryTip": "ELT = 가져와서 → 저장하고 → 바꾸기",
+      "additionalExample": "승인된 주문 원본을 분석 저장소에 넣은 다음 저장소 안에서 날짜별 합계를 만드는 흐름은 적재가 변환보다 앞에 있는 예다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "ELT는 Extract·Load·Transform이라는 작업 순서를 줄인 말이다. 원본을 가져오는 추출 뒤 목표 저장소에 쓰는 적재가 오고, 그다음 목적에 맞게 변환한다. ETL과 사용하는 작업 종류가 완전히 다른 것이 아니라 적재와 변환의 순서가 다르다. 발문에서 어떤 저장소를 기준으로 적재를 말하는지 확인하면 두 흐름을 구별하기 쉽다.",
+        "steps": [
+          "발문에서 목표가 분석 저장소이며 그곳에 원본을 먼저 넣었다는 점을 확인한다.",
+          "날짜 형식을 바꾸는 변환 작업이 적재보다 나중에 수행됐음을 찾는다.",
+          "추출 E 다음 적재 L과 변환 T가 오는 ELT를 선택한다."
+        ],
+        "pitfall": "원본을 먼저 적재하는 순서를 배웠다고 해서 모든 자료를 아무 조건 없이 먼저 보관해도 된다고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-021",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "analysis",
+        "evidence": "lecture",
+        "focusIds": [
+          "quality-standardization"
+        ]
+      },
+      "prompt": "같은 국가를 나타내는 코드 'KR'과 'KOR'를 합치기로 했고, 승인된 대응표에 둘 다 '대한민국'으로 정해 두었다. 적절한 표준화 방법을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "대응표에 따라 두 코드를 같은 표준 국가명으로 바꾼다.",
+          "correct": true,
+          "explanation": "같은 의미를 합의한 표기로 통일하여 별도 집계를 막는다."
+        },
+        {
+          "id": "o2",
+          "text": "길이가 짧은 코드가 붙은 행을 모두 오류로 삭제한다.",
+          "correct": false,
+          "explanation": "코드 길이가 다르다는 사실만으로 유효한 행을 삭제할 수는 없다."
+        },
+        {
+          "id": "o3",
+          "text": "원래 코드와 사용한 대응 기준을 남긴다.",
+          "correct": true,
+          "explanation": "어떤 값이 어떤 기준으로 바뀌었는지 나중에 확인할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "통일 전과 후의 값을 같은 집계에 모두 더한다.",
+          "correct": false,
+          "explanation": "동일 기록을 이중으로 세어 국가별 건수가 부풀 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C14",
+        "n34-C16"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 표기 표준화",
+      "review": "표준화는 같은 의미의 값을 정한 기준에 맞추어 표현하는 일이다. 이 문제는 승인된 대응표가 두 코드를 같은 국가로 정했으므로 그 기준대로 통일할 수 있다. 원본 코드와 변환 기준을 남기면 나중에 결과를 검토하거나 다시 처리할 수 있다. 원본과 변환 결과를 중복 합산하지 않도록 주의한다.",
+      "memoryTip": "같은 의미는 같은 표기, 바꾼 기준은 기록",
+      "additionalExample": "배송 지역의 약칭을 공식 지역명으로 바꿀 때도 승인된 대응표를 사용하고 원래 값을 따로 보관하면 잘못 연결된 값을 점검하기 쉽다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "표기가 다른 값이 같은 대상을 뜻한다면 합의한 대응 기준으로 통일하여 집계할 수 있다. 이는 값이 다르게 생겼다는 이유만으로 삭제하는 것과 다르다. 표준화를 적용할 때 원래 값과 규칙을 남기면 변환을 검증하고 기준이 바뀌었을 때 다시 처리할 수 있다. 전후 표를 모두 더하는 것이 아니라 목적에 맞는 한 결과를 사용해 중복을 피한다.",
+        "steps": [
+          "KR과 KOR가 같은 국가라는 승인된 대응표가 있다는 조건을 먼저 확인한다.",
+          "그 기준으로 표준 국가명에 연결하는 행동이 의미를 보존하는지 살핀다.",
+          "변경을 추적할 원래 코드와 기준도 남기는 두 선택지를 고른다."
+        ],
+        "pitfall": "형식 차이를 발견했을 때 대응 기준 없이 무조건 삭제하거나 원본과 변환 결과를 이중 집계하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-022",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "lecture",
+        "focusIds": [
+          "etl-elt-storage"
+        ]
+      },
+      "prompt": "대용량 실험 파일을 여러 컴퓨터에 나누어 저장하면서 하나의 분산 파일시스템으로 관리하려 한다. 해당하는 기술은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "워드클라우드",
+          "correct": false,
+          "explanation": "단어의 빈도나 가중치를 시각적으로 표현하는 방법이다."
+        },
+        {
+          "id": "o2",
+          "text": "히스토그램",
+          "correct": false,
+          "explanation": "수치 자료를 구간별로 나누어 분포를 보는 차트다."
+        },
+        {
+          "id": "o3",
+          "text": "PCB",
+          "correct": false,
+          "explanation": "운영체제가 프로세스 상태와 실행 정보를 관리하는 구조다."
+        },
+        {
+          "id": "o4",
+          "text": "HDFS",
+          "correct": true,
+          "explanation": "여러 저장 노드를 사용하는 분산 파일시스템이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C11",
+        "web-c15"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            14,
+            15
+          ]
+        },
+        {
+          "fileId": "web2",
+          "pages": [
+            30,
+            31
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · HDFS의 역할",
+      "review": "HDFS는 Hadoop Distributed File System의 약자로 분산 파일시스템이다. 여러 컴퓨터의 저장 노드를 이용해 파일을 나누어 저장하고 관리하는 역할을 한다. 차트를 그리거나 텍스트 의미를 자동으로 해석하는 기능과 구별한다. 분산 저장을 사용한다는 사실만으로 분석 결론까지 정해지는 것은 아니다.",
+      "memoryTip": "HDFS의 FS = File System",
+      "additionalExample": "여러 실험실에서 모은 큰 로그 파일을 분산 저장한 뒤 별도 처리 프로그램이 읽어 집계한다면 저장과 계산이 서로 다른 역할을 맡는다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "분산 파일시스템은 여러 컴퓨터에 걸쳐 파일을 저장하고 관리하는 시스템이다. HDFS는 그러한 목적을 가진 기술이며 파일 내용의 통계나 의미를 자동으로 결정하는 분석 기법이 아니다. 파이프라인에서 저장 계층에 어떤 기술을 사용하는지와 저장한 파일에 어떤 처리를 수행할지는 구분해서 생각한다. 발문은 여러 저장 노드로 파일을 관리하는 역할을 묻는다.",
+        "steps": [
+          "발문이 차트 작성이나 프로세스 관리가 아니라 파일의 분산 저장을 묻는지 확인한다.",
+          "여러 컴퓨터의 저장공간을 활용하는 분산 파일시스템이라는 설명을 찾는다.",
+          "해당 저장 기술인 HDFS를 선택하고 나머지 시각화·관리 용어를 제외한다."
+        ],
+        "pitfall": "HDFS에 파일을 넣었다는 사실만으로 텍스트 분석이나 그래프 작성까지 끝났다고 보지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-023",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "analysis",
+        "evidence": "lecture",
+        "focusIds": [
+          "analysis-six-steps"
+        ]
+      },
+      "prompt": "팀이 '배송이 늦는 시간대가 있는가?'를 분석하려 한다. 분석을 시작할 때 가장 먼저 명확히 할 내용은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "결과를 보지 않고 원하는 결론을 확정한다.",
+          "correct": false,
+          "explanation": "결론은 실제 자료와 분석 근거에 따라 판단한다."
+        },
+        {
+          "id": "o2",
+          "text": "어떤 열이 있는지 확인하기 전에 모든 행을 삭제한다.",
+          "correct": false,
+          "explanation": "자료를 보지 않고 삭제하면 질문에 답할 근거를 잃을 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "지연의 기준과 필요한 주문 시각·완료 시각 열을 정한다.",
+          "correct": true,
+          "explanation": "문제를 명확하게 정의하고 답에 필요한 자료를 확인한다."
+        },
+        {
+          "id": "o4",
+          "text": "차트 제목의 글꼴만 정하고 분석을 마친다.",
+          "correct": false,
+          "explanation": "글꼴은 질문의 정의나 필요한 지표를 대신하지 못한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C18",
+        "n34-C34"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 문제 정의와 필요 열",
+      "review": "분석의 시작은 답하고 싶은 질문을 명확히 정하는 것이다. 배송 지연을 비교하려면 무엇을 지연으로 볼지 기준이 있어야 하며 주문과 완료 시각처럼 시간을 계산할 열이 필요하다. 질문과 열을 확인하기 전에 결론을 확정하거나 보기 좋은 차트부터 고르면 실제로 답할 수 없는 분석이 되기 쉽다.",
+      "memoryTip": "무엇을 묻나 → 기준은 무엇인가 → 어떤 열이 필요한가",
+      "additionalExample": "빠르게 늘어난 장르를 찾으려 해도 먼저 증가를 작품 수로 볼지 비율로 볼지 정하고 그 계산에 필요한 기간과 장르 열을 확인한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "문제 정의는 자연어 질문을 자료로 판단할 수 있게 구체화하는 과정이다. '늦다'라는 말만 있으면 사람마다 기준이 다를 수 있으므로 어떤 시간을 비교할지와 지연의 기준을 정한다. 이어서 실제 표에 그 계산에 필요한 열이 존재하는지 확인한다. 질문이 명확해야 수집·정제·시각화 단계에서 어떤 작업을 해야 할지도 정할 수 있다.",
+        "steps": [
+          "팀이 알고 싶은 대상이 시간대별 배송 지연이라는 점을 먼저 정리한다.",
+          "지연을 판정할 기준과 시간을 계산할 주문·완료 시각 열이 필요한지 확인한다.",
+          "기준과 필요한 열을 명확히 하는 행동을 문제 정의의 출발점으로 선택한다."
+        ],
+        "pitfall": "분석 전에 원하는 결론을 정해 놓고 자료를 그 결론에 맞추어 선택하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-024",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "analysis",
+        "evidence": "pdf",
+        "focusIds": [
+          "analysis-six-steps"
+        ]
+      },
+      "prompt": "AI가 만든 집계 코드는 오류 없이 종료됐다. '실행 성공'과 '결과의 정확성'을 구분하는 점검으로 적절한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "오류 메시지가 없으면 어떤 집계 결과도 정답으로 확정한다.",
+          "correct": false,
+          "explanation": "코드가 실행되어도 잘못된 열이나 집계 규칙을 썼을 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "표의 행 수와 질문은 보지 않고 화면 색상만 확인한다.",
+          "correct": false,
+          "explanation": "색상만으로 계산 대상이나 집계값의 정확성을 확인할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "답을 직접 셀 수 있는 작은 예제의 기대 결과와 비교한다.",
+          "correct": true,
+          "explanation": "실제 출력이 의도한 계산과 맞는지 확인할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "작품 수를 묻는데 배우별 관계 수를 세지 않았는지 확인한다.",
+          "correct": true,
+          "explanation": "질문에 맞는 관찰 단위와 집계 대상인지 점검한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c04",
+        "web-c13",
+        "web-c40"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            5,
+            11,
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 실행 성공과 정답 검증",
+      "review": "오류 없이 종료됐다는 것은 프로그램이 실행을 마쳤다는 증거다. 질문에 맞는 계산을 했다는 보장은 아니다. 답을 직접 확인할 수 있는 작은 입력으로 기대값과 출력을 비교하고 관찰 단위와 필요한 열도 점검한다. 작품을 세려는데 배우 관계 행을 세면 실행에 성공해도 질문에 대한 답은 잘못될 수 있다.",
+      "memoryTip": "실행됐나?와 제대로 계산했나?는 다른 질문",
+      "additionalExample": "10개의 주문을 직접 세었는데 코드가 주문 상품 행 15개를 주문 수로 출력했다면 프로그램은 실행됐어도 집계 대상이 잘못된 것이다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "프로그램 실행의 성공은 문법과 환경이 동작했다는 점을 보여 주지만 분석의 타당성을 모두 보장하지는 않는다. 잘못된 열을 합하거나 다른 단위의 행을 세어도 오류가 나지 않을 수 있다. 그래서 작은 예제에서 기대한 계산을 확인하고 실제 질문의 관찰 단위와 집계 규칙을 대조한다. AI가 작성한 코드도 같은 검증 과정을 거친다.",
+        "steps": [
+          "오류 없이 종료됐다는 사실이 계산 규칙의 정확성까지 뜻하지는 않음을 확인한다.",
+          "직접 답을 알 수 있는 작은 예제를 만들어 출력과 기대값을 비교한다.",
+          "작품과 배우 관계처럼 집계 단위가 바뀌지 않았는지도 점검하는 문장을 선택한다."
+        ],
+        "pitfall": "에러가 없다는 이유만으로 결과를 믿으면 단위나 집계 대상이 다른 오류를 놓칠 수 있다."
+      }
+    },
+    {
+      "id": "basic-inf-025",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "lecture",
+        "focusIds": [
+          "five-v-sources"
+        ]
+      },
+      "prompt": "빌딩의 전력 센서가 매초 숫자로 된 사용량을 전송한다. 이 자료에 대한 설명으로 가장 적절한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "숫자이므로 빅데이터의 생성원이 될 수 없다.",
+          "correct": false,
+          "explanation": "수치형 센서 측정도 규모와 유입 속도에 따라 빅데이터로 다룬다."
+        },
+        {
+          "id": "o2",
+          "text": "빅데이터는 SNS 사진만을 뜻한다.",
+          "correct": false,
+          "explanation": "웹 로그·거래·센서 수치 등 다양한 자료를 포함한다."
+        },
+        {
+          "id": "o3",
+          "text": "숫자라면 단위와 오류를 확인할 필요가 없다.",
+          "correct": false,
+          "explanation": "수치라도 측정 단위·결측·오류 등 품질을 검사해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "IoT 센서가 만드는 수치형 데이터도 빅데이터의 생성원이 된다.",
+          "correct": true,
+          "explanation": "인터넷에 연결된 장치의 측정값도 중요한 데이터 생성원이다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-data-sources",
+        "n12-c-bigdata"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            2,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · 수치형 IoT 생성원",
+      "review": "빅데이터의 생성원에는 SNS 문장과 사진뿐 아니라 웹 로그, 거래 기록, IoT 장치의 수치형 측정값도 있다. 숫자라는 이유만으로 제외되지 않는다. 많은 장치가 계속 값을 보내면 수집 속도와 저장량 및 품질을 함께 고려해야 한다. 수치라도 단위가 무엇인지와 제대로 측정됐는지는 확인해야 한다.",
+      "memoryTip": "숫자 센서값도 빅데이터 생성원",
+      "additionalExample": "수많은 수도 계량기가 시간별 사용량을 전송하는 경우에도 텍스트가 아니라는 이유로 빅데이터 분석 대상에서 제외하지 않는다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "빅데이터는 문장이나 사진 같은 특정 자료형만을 뜻하지 않는다. 전력·온도·위치 등 장치가 만든 수치형 측정도 중요한 생성원이다. 장치 수와 발생 속도가 늘면 수집과 저장 및 처리에 대한 요구가 커질 수 있다. 또한 숫자라는 사실만으로 정확한 값이 되는 것은 아니므로 단위와 측정 오류 및 누락을 확인하는 품질 관리가 필요하다.",
+        "steps": [
+          "매초 사용량을 전송하는 장치가 IoT 센서의 한 사례라는 점을 확인한다.",
+          "생성되는 값이 숫자여도 빅데이터의 분석 대상이 될 수 있음을 연결한다.",
+          "숫자를 제외하거나 품질 검사를 생략하지 않는 설명을 정답으로 선택한다."
+        ],
+        "pitfall": "빅데이터를 비정형 텍스트·이미지와 같은 말로 외워 수치형 센서 기록을 제외하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-026",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "pdf",
+        "focusIds": [
+          "five-v-sources"
+        ]
+      },
+      "prompt": "'파일이 크면 품질도 좋고 업무 가치도 자동으로 높다'라는 설명을 검토한다. 5V에 맞는 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "자료의 양과 자료의 신뢰성은 별도로 살펴야 한다.",
+          "correct": true,
+          "explanation": "Volume이 커도 중복이나 오류가 많을 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "파일 크기만 알면 활용 효과를 확인할 필요가 없다.",
+          "correct": false,
+          "explanation": "Value는 의사결정에 주는 도움을 확인하는 별도의 관점이다."
+        },
+        {
+          "id": "o3",
+          "text": "5V는 모두 파일의 바이트 수를 다르게 부르는 이름이다.",
+          "correct": false,
+          "explanation": "양·속도·다양성·신뢰성·가치는 서로 다른 질문이다."
+        },
+        {
+          "id": "o4",
+          "text": "업무 개선에 도움이 되었는지는 Value 관점에서 확인한다.",
+          "correct": true,
+          "explanation": "자료가 실제 결정과 결과에 주는 효용을 살핀다."
+        }
+      ],
+      "conceptIds": [
+        "web-c06",
+        "n12-c-value",
+        "n12-c-veracity"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            8,
+            9,
+            11
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 5V의 서로 다른 관점",
+      "review": "5V는 같은 파일 크기를 다섯 방식으로 부르는 말이 아니다. Volume은 양이고 Veracity는 신뢰성이며 Value는 활용 가치다. 자료가 많아도 중복과 오류가 많을 수 있고 어떤 결정에 쓸지 모를 수도 있다. 따라서 크기만으로 품질과 효과를 단정하지 말고 각 관점에 맞는 근거를 확인한다.",
+      "memoryTip": "많다 ≠ 정확하다 ≠ 도움이 된다",
+      "additionalExample": "잘못된 주문을 수백만 건 복사해 파일을 키워도 주문 집계가 정확해지거나 고객 대응에 도움이 되는 것은 아니다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "5V는 하나의 크기 기준을 반복하는 대신 서로 다른 요구를 나누어 묻도록 돕는다. 많은 자료를 저장했다는 말은 Volume에 대한 설명이다. 그 안에 틀린 값과 누락이 있는지는 Veracity로, 분석이 업무를 개선했는지는 Value로 살핀다. 한 축의 수치가 크다고 다른 축의 결과가 자동으로 좋아지는 것은 아니므로 각 질문에 맞는 관찰이 필요하다.",
+        "steps": [
+          "처음 문장이 파일 크기에서 품질과 가치까지 자동으로 결론내리는지 확인한다.",
+          "자료의 양과 신뢰성은 서로 다른 기준이므로 별도로 확인해야 함을 찾는다.",
+          "업무 개선 효과는 Value로 살피는 설명을 함께 선택한다."
+        ],
+        "pitfall": "자료를 많이 모았다는 사실만으로 정제와 활용 효과의 검증을 생략하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-027",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "bigdata",
+        "evidence": "lecture",
+        "focusIds": [
+          "data-forms"
+        ]
+      },
+      "prompt": "도서 정보가 JSON의 키와 값으로 저장되어 있고, 어떤 책에는 번역자 키가 있고 어떤 책에는 없다. 이처럼 구조는 있으나 필드가 유연한 표현에 가장 가까운 분류는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모든 열이 고정된 정형 표만을 뜻한다.",
+          "correct": false,
+          "explanation": "발문은 책마다 선택 필드가 달라질 수 있는 표현이다."
+        },
+        {
+          "id": "o2",
+          "text": "반정형 데이터",
+          "correct": true,
+          "explanation": "키와 계층의 구조가 있으면서 필드 구성은 유연할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "아무 구조도 없는 원본 사진과 완전히 같다.",
+          "correct": false,
+          "explanation": "JSON에는 키와 값 등 명시적인 표현 구조가 있다."
+        },
+        {
+          "id": "o4",
+          "text": "파일 크기를 나타내는 GB 단위",
+          "correct": false,
+          "explanation": "GB는 자료량의 단위이며 자료 구조의 분류가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n12-c-data-forms"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "notion-w2",
+          "pages": [
+            12,
+            13
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · 반정형 JSON",
+      "review": "반정형 데이터는 키와 계층처럼 구조를 표현하는 방식이 있으면서 모든 기록의 필드가 완전히 고정된 표는 아닐 수 있다. 발문의 JSON은 책에 따라 번역자 키가 달라질 수 있으므로 반정형 표현에 가깝다. 반정형이라고 규칙을 정할 수 없다는 뜻은 아니며 필요한 키와 값의 형식을 검사할 수 있다.",
+      "memoryTip": "키와 구조는 있고 필드는 유연 → 반정형",
+      "additionalExample": "행사 JSON에서 행사명은 공통이지만 온라인 행사에만 접속 주소가 있는 경우에도 필요한 키와 선택 키를 나누어 정의할 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "정형 표는 일반적으로 고정 열과 자료형을 기준으로 기록을 정리한다. 반정형 표현은 키와 계층 같은 구조가 있지만 선택 필드가 다르게 나타날 수 있다. 이 문제는 번역자 키의 존재가 책마다 다르면서도 JSON 구조가 분명히 있다는 점이 판단 근거다. 반정형이라고 해서 품질 규칙이나 필수 키 검증을 두지 못하는 것은 아니다.",
+        "steps": [
+          "JSON이 키와 값이라는 명시적인 구조를 갖는다는 점을 먼저 확인한다.",
+          "책에 따라 번역자 키가 있을 수도 없을 수도 있어 필드가 유연함을 읽는다.",
+          "구조와 유연성을 함께 설명하는 반정형 데이터 분류를 선택한다."
+        ],
+        "pitfall": "반정형이라는 말을 아무 구조나 검증 규칙도 없다는 뜻으로 외우지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-028",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "pdf",
+        "focusIds": [
+          "scale-network-cloud"
+        ]
+      },
+      "prompt": "분산 분석에서 컴퓨터 A가 계산한 일부 결과를 컴퓨터 B로 보내야 한다. 이때 두 컴퓨터 사이 자료 교환을 담당하는 기반은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "그래프의 범례 색",
+          "correct": false,
+          "explanation": "범례는 차트에서 자료 계열을 구별하는 표시다."
+        },
+        {
+          "id": "o2",
+          "text": "값을 정렬한 중앙값",
+          "correct": false,
+          "explanation": "중앙값은 자료의 대표값이지 컴퓨터 간 전송 수단이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "네트워크",
+          "correct": true,
+          "explanation": "서로 다른 컴퓨터가 데이터를 주고받는 연결 기반이다."
+        },
+        {
+          "id": "o4",
+          "text": "한 컴퓨터 안의 CPU 레지스터만",
+          "correct": false,
+          "explanation": "레지스터는 CPU 내부의 작은 저장공간으로 원격 컴퓨터 연결망이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C02",
+        "n34-C03",
+        "web-c10"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · 분산의 네트워크 기반",
+      "review": "분산 처리는 여러 컴퓨터가 일을 나누는 방식이며 자료나 결과를 교환할 때 네트워크를 사용한다. 네트워크 인프라의 발전은 여러 컴퓨터를 함께 활용하기 쉽게 만든 배경이다. 그러나 연결이 있다고 모든 전송이 즉시 끝나는 것은 아니므로 큰 자료의 전송 시간도 전체 성능에 영향을 줄 수 있다.",
+      "memoryTip": "컴퓨터 사이 자료 이동 → 네트워크",
+      "additionalExample": "서버별 로그 집계값을 중앙 분석 서버로 보내 학교 전체 결과를 만드는 경우에도 서로 다른 컴퓨터 사이 전송에 네트워크를 이용한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "한 컴퓨터 안의 CPU와 메모리가 값을 주고받는 일과 서로 다른 컴퓨터가 통신하는 일은 구분한다. 분산 시스템은 여러 장비의 결과를 연결하기 위해 네트워크를 사용한다. 그 기반이 발전하면서 원격 자원을 함께 활용하는 방식도 널리 쓰일 수 있었다. 실제 처리에서는 통신 속도와 지연이 성능의 일부이므로 계산 시간만 보지 않는다.",
+        "steps": [
+          "자료를 보내는 대상이 같은 CPU 내부가 아니라 별도의 컴퓨터 B임을 확인한다.",
+          "서로 다른 컴퓨터 사이의 통신에 필요한 연결 기반을 생각한다.",
+          "전송 역할에 해당하는 네트워크를 선택하고 통계·차트 용어를 제외한다."
+        ],
+        "pitfall": "컴퓨터 수를 늘리면서 결과 교환에 필요한 네트워크 시간은 없다고 가정하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-029",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "pdf",
+        "focusIds": [
+          "scale-network-cloud"
+        ]
+      },
+      "prompt": "아주 작은 작업을 여러 서버로 나누었더니 자료 분배와 결과 병합 때문에 단일 서버보다 늦어졌다. 가장 적절한 해석은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "분산의 추가 비용이 이득보다 클 수 있으므로 실제 시간을 비교해야 한다.",
+          "correct": true,
+          "explanation": "작은 작업은 분배·통신·병합 비용이 계산 시간 절감보다 클 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "서버를 여러 대 썼다면 측정 결과와 무관하게 반드시 더 빠르다.",
+          "correct": false,
+          "explanation": "발문의 실제 측정은 분산 실행이 더 늦었음을 보여 준다."
+        },
+        {
+          "id": "o3",
+          "text": "분산 처리는 어떤 크기의 작업에서도 항상 느리다.",
+          "correct": false,
+          "explanation": "작업 크기와 나눌 수 있는 정도 및 통신 비용에 따라 효과가 다르다."
+        },
+        {
+          "id": "o4",
+          "text": "단일 서버 결과가 정확한지는 비교할 필요가 없다.",
+          "correct": false,
+          "explanation": "성능 비교 전에 같은 입력에서 같은 계산 결과인지 확인해야 한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c07",
+        "web-c08",
+        "n34-C01"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 분산의 추가 비용",
+      "review": "스케일아웃은 계산 자원을 늘리지만 자료 분배, 통신, 결과 병합 같은 추가 작업이 생긴다. 아주 작은 작업에서는 이 비용이 계산 시간 절감보다 클 수 있다. 따라서 서버 수만 보고 빠르다고 결론내리지 않고 같은 입력과 같은 결과를 기준으로 실제 실행 시간을 비교해야 한다.",
+      "memoryTip": "나누는 비용도 시간이다",
+      "additionalExample": "몇 줄의 표를 합산하는 데 여러 서버를 준비하고 결과를 모으는 절차가 오래 걸리면 한 컴퓨터에서 바로 계산하는 편이 빠를 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "분산 처리의 성능은 계산을 나눈 효과와 추가 비용의 합으로 나타난다. 계산 자체가 짧으면 서버를 준비하고 자료를 보내며 결과를 모으는 비용이 더 크게 보일 수 있다. 이것은 분산이 언제나 나쁘다는 뜻이 아니라 작업에 맞는 선택이 필요하다는 뜻이다. 비교할 때는 정확성이 같은 결과인지 먼저 확인하고 같은 조건에서 시간을 측정한다.",
+        "steps": [
+          "작업이 아주 작고 분배와 병합에 시간이 들었다는 조건을 확인한다.",
+          "추가 비용이 계산 절감 효과보다 클 수 있다는 설명과 측정 결과를 연결한다.",
+          "항상 빠르거나 항상 느리다는 결론 대신 실제 조건에서 비교한다는 답을 고른다."
+        ],
+        "pitfall": "한 번의 작은 작업 결과를 모든 크기의 작업에서도 분산이 항상 느리다는 결론으로 확대하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-030",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "pdf",
+        "focusIds": [
+          "collection-api",
+          "etl-elt-storage"
+        ]
+      },
+      "prompt": "파이프라인에서 '수집·저장·처리' 역할을 바르게 연결한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "원본 파일을 그대로 보관하는 일은 시청 선호 해석이다.",
+          "correct": false,
+          "explanation": "원본을 보관하는 일은 저장 역할이다."
+        },
+        {
+          "id": "o2",
+          "text": "공개 API에서 응답 데이터를 받아오는 일은 수집이다.",
+          "correct": true,
+          "explanation": "원천에서 분석에 필요한 자료를 가져오는 역할이다."
+        },
+        {
+          "id": "o3",
+          "text": "날짜 문자열을 날짜형으로 바꾸는 일은 처리에 해당한다.",
+          "correct": true,
+          "explanation": "원본 값을 분석 가능한 형태로 변환하는 작업이다."
+        },
+        {
+          "id": "o4",
+          "text": "수집·저장·처리에는 반드시 서로 다른 서버 세 대가 필요하다.",
+          "correct": false,
+          "explanation": "역할의 구분이며 한 컴퓨터가 여러 역할을 수행할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c02",
+        "web-c09"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            4,
+            5,
+            6,
+            10
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 파이프라인 책임",
+      "review": "파이프라인 단계는 서버 대수가 아니라 책임을 나눈 것이다. 수집은 원천에서 자료를 가져오고 저장은 원본과 가공본을 보관하며 처리는 값을 정제하거나 변환한다. API 응답 받기는 수집이고 날짜형 변환은 처리다. 한 컴퓨터나 도구가 여러 책임을 맡을 수도 있으므로 단계 수와 장비 수를 같게 보지 않는다.",
+      "memoryTip": "가져오기=수집, 보관=저장, 바꾸기=처리",
+      "additionalExample": "노트북 한 대에서 CSV를 내려받고 원본 폴더에 보관한 뒤 날짜를 바꾸어도 수집·저장·처리라는 서로 다른 책임을 수행한 것이다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "파이프라인은 원천부터 결과까지의 연결을 책임별로 이해하는 틀이다. 수집은 자료가 어디에서 들어오는지, 저장은 어디에 보관되는지, 처리는 어떤 규칙으로 바뀌는지를 설명한다. 따라서 기술 이름보다 실제 입력과 출력을 살피는 것이 중요하다. 책임을 구분했다고 해서 반드시 단계마다 물리적으로 다른 컴퓨터를 마련해야 하는 것은 아니다.",
+        "steps": [
+          "공개 API에서 자료를 받아오는 행동을 원천 자료의 수집과 연결한다.",
+          "날짜 문자열의 자료형을 바꾸는 행동을 처리와 변환의 역할로 연결한다.",
+          "역할 수와 서버 대수는 다를 수 있으므로 두 올바른 연결만 선택한다."
+        ],
+        "pitfall": "파이프라인의 단계 개수를 반드시 같은 수의 물리 서버를 설치하라는 뜻으로 이해하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-031",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "lecture",
+        "focusIds": [
+          "etl-elt-storage"
+        ]
+      },
+      "prompt": "ETL과 ELT의 공통 작업인 Load(L)가 뜻하는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "분석 질문을 마음대로 바꾸는 일",
+          "correct": false,
+          "explanation": "질문 설정은 문제 정의이며 Load의 뜻이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "자료의 모든 오류를 자동으로 없애는 일",
+          "correct": false,
+          "explanation": "적재만으로 정제와 품질 검사가 완료되지는 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "자료를 목표 저장소에 적재하는 일",
+          "correct": true,
+          "explanation": "Load는 가져온 자료를 대상 저장소에 쓰는 작업이다."
+        },
+        {
+          "id": "o4",
+          "text": "워드클라우드의 글자 크기를 바꾸는 일",
+          "correct": false,
+          "explanation": "단어 시각화 설정은 적재와 다른 작업이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C09"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            11,
+            12
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · 적재의 의미",
+      "review": "ETL과 ELT에서 L은 Load, 즉 자료를 목표 저장소에 적재하는 일이다. E는 원천에서 가져오는 추출이고 T는 값을 바꾸는 변환이다. L 자체가 자동 오류 제거를 뜻하지는 않는다. 두 흐름은 이 적재가 변환보다 뒤에 있는지 앞에 있는지가 다르다는 점을 연결해 기억하면 된다.",
+      "memoryTip": "L = Load = 목표 저장소에 넣기",
+      "additionalExample": "가공한 설문 응답을 분석용 데이터베이스 테이블에 쓰는 작업은 적재이며, 응답을 내려받는 추출이나 표기를 고치는 변환과 구분한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "ETL과 ELT는 추출·변환·적재라는 같은 종류의 작업을 다른 순서로 배치한 흐름이다. Load는 해당 흐름의 목표 저장소에 데이터를 쓰는 작업이다. 저장했다고 값이 자동으로 정확해지는 것은 아니므로 변환 규칙과 품질 검증은 따로 확인한다. 먼저 E·T·L 각각의 뜻을 이해하면 순서를 외울 때도 단어만 반복하는 것보다 구체적으로 판단할 수 있다.",
+        "steps": [
+          "문제가 전체 순서가 아니라 공통 글자 L의 작업 뜻을 묻는지 확인한다.",
+          "Load를 대상 저장소에 자료를 쓰는 적재라는 말과 연결한다.",
+          "질문 수정이나 오류 자동 제거가 아니라 목표 저장소 적재를 선택한다."
+        ],
+        "pitfall": "자료를 저장했다는 말과 자료의 오류를 고쳤다는 말을 같은 작업으로 외우지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-032",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "infrastructure",
+        "evidence": "lecture",
+        "focusIds": [
+          "etl-elt-storage"
+        ]
+      },
+      "prompt": "'고객번호 → 고객 설정값'처럼 키로 값을 조회하는 모델과 문서형 모델 등을 포함하는 저장 기술의 범주는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "NoSQL",
+          "correct": true,
+          "explanation": "키-값형·문서형 등 여러 저장 모델을 포함하는 범주다."
+        },
+        {
+          "id": "o2",
+          "text": "히스토그램",
+          "correct": false,
+          "explanation": "수치 구간별 빈도를 보여 주는 차트다."
+        },
+        {
+          "id": "o3",
+          "text": "시스템 호출",
+          "correct": false,
+          "explanation": "프로그램이 커널 기능을 요청하는 인터페이스다."
+        },
+        {
+          "id": "o4",
+          "text": "인터럽트",
+          "correct": false,
+          "explanation": "장치 등에서 처리할 사건이 생겼음을 CPU에 알리는 방식이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C12",
+        "web-c16"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w3-infra",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "fileId": "web2",
+          "pages": [
+            31,
+            32,
+            33
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · NoSQL 모델 범주",
+      "review": "NoSQL에는 키-값형, 문서형, 컬럼형, 그래프형 등 여러 데이터 모델이 있다. 고객번호를 키로 설정값을 조회하는 표현은 키-값형 모델의 예다. NoSQL은 하나의 제품이나 모든 자료에 같은 구조를 강제하는 단일 방식이 아니다. 선택할 때는 실제 조회 방식과 자료 구조를 보고 검토한다.",
+      "memoryTip": "키-값·문서·컬럼·그래프 → NoSQL의 여러 모델",
+      "additionalExample": "사용자별 환경 설정을 키로 빠르게 찾는 요구와 다양한 속성을 가진 상품 문서를 보관하는 요구는 서로 다른 저장 모델 검토로 이어질 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "NoSQL은 관계형 테이블 방식만으로 설명하지 않는 여러 저장 모델의 범주다. 키-값형은 어떤 키를 이용해 대응하는 값을 찾고 문서형은 필드를 가진 문서 단위로 자료를 표현한다. 따라서 발문에 제시한 키-값과 문서 모델을 묶어 설명하는 개념은 NoSQL이다. 저장 방식의 이름을 안 뒤에도 필수 값과 조회 요구를 검토해야 한다.",
+        "steps": [
+          "고객번호에 대응하는 설정값을 찾는 표현이 키-값 모델의 예임을 확인한다.",
+          "키-값형과 문서형을 함께 포함하는 저장 모델의 범주를 생각한다.",
+          "차트나 운영체제 사건이 아닌 NoSQL을 정답으로 선택한다."
+        ],
+        "pitfall": "NoSQL을 단 하나의 저장 형태나 데이터 검사가 필요 없는 기술이라는 뜻으로 외우지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-033",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "analysis",
+        "evidence": "pdf",
+        "focusIds": [
+          "quality-standardization",
+          "analysis-six-steps"
+        ]
+      },
+      "prompt": "공장 측정값 중 유독 큰 값 하나를 발견했다. 오류인지 아직 모른다. 처리 방법으로 적절한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "원래 측정 기록과 단위를 확인한다.",
+          "correct": true,
+          "explanation": "큰 정상 값인지 단위·입력 오류인지 조사할 근거를 찾는다."
+        },
+        {
+          "id": "o2",
+          "text": "삭제나 유지의 기준과 결정 이유를 기록한다.",
+          "correct": true,
+          "explanation": "처리 판단을 설명하고 같은 규칙으로 다시 분석할 수 있게 한다."
+        },
+        {
+          "id": "o3",
+          "text": "평균에서 멀리 떨어진 모든 값을 확인 없이 삭제한다.",
+          "correct": false,
+          "explanation": "큰 값이 실제 사고나 중요한 정상 관측일 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "값이 크다는 사실만으로 장비 고장을 확정한다.",
+          "correct": false,
+          "explanation": "장비 고장이라는 원인은 추가 확인 없이 확정할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C14",
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            16,
+            17,
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 이상 후보 조사",
+      "review": "다른 값보다 유독 큰 수치는 이상 후보일 수 있지만 곧바로 오류가 되는 것은 아니다. 실제로 큰 관측일 수도 있고 단위가 다르거나 잘못 입력된 값일 수도 있다. 원문과 단위를 확인한 다음 분석 목적에 맞는 기준으로 유지·수정·제외를 정하고 그 이유를 기록해야 한다.",
+      "memoryTip": "큰 값 발견 → 확인 → 기준으로 결정",
+      "additionalExample": "평소보다 높은 진동 측정값이 실제 충격을 기록한 것이라면 지워야 할 오류가 아니라 원인을 조사할 중요한 관측일 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "이상 후보는 일반적인 범위에서 벗어난 값을 찾아 더 확인하자는 표시다. 그 값이 실제 오류라는 결론은 별도 조사에 달려 있다. 원본 기록과 단위 및 측정 상황을 확인하면 입력 오류인지 실제 사건인지 판단하는 데 도움이 된다. 분석 목적과 정한 기준에 따라 처리하고 이유를 남겨야 결과의 차이가 어떤 결정에서 생겼는지 설명할 수 있다.",
+        "steps": [
+          "현재 확실한 사실은 값이 크다는 관찰이며 오류 여부는 아직 모른다는 점을 읽는다.",
+          "원문 측정 기록과 단위를 확인하는 행동이 판단 근거를 늘리는지 확인한다.",
+          "조사 후 적용할 처리 기준과 결정 이유를 기록하는 행동도 함께 고른다."
+        ],
+        "pitfall": "이상 후보라는 표시를 자동 삭제 명령이나 특정 원인의 확정 증거로 받아들이지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-034",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "analysis",
+        "evidence": "pdf",
+        "focusIds": [
+          "analysis-six-steps"
+        ]
+      },
+      "prompt": "정제한 자료의 범주별 건수와 수치 분포를 표와 차트로 보면서 어떤 특징이 있는지 살피고 있다. 가장 가까운 분석 활동은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "하드웨어 교체",
+          "correct": false,
+          "explanation": "컴퓨터의 물리 부품을 바꾸는 작업이다."
+        },
+        {
+          "id": "o2",
+          "text": "EDA · 탐색적 데이터 분석",
+          "correct": true,
+          "explanation": "분포와 관계를 살펴 자료의 특징을 이해하는 활동이다."
+        },
+        {
+          "id": "o3",
+          "text": "디스크 포맷",
+          "correct": false,
+          "explanation": "저장장치의 파일시스템 구조를 준비하거나 초기화하는 작업이다."
+        },
+        {
+          "id": "o4",
+          "text": "입력 자료 없이 결과 확정",
+          "correct": false,
+          "explanation": "분석은 실제 자료의 관찰과 근거를 바탕으로 한다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C22",
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17,
+            19
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "기초 · EDA의 의미",
+      "review": "EDA는 탐색적 데이터 분석으로 자료의 분포와 관계 및 특징을 표와 차트로 살피는 활동이다. 범주별 건수, 수치의 분포, 변수 간 관계를 보면서 다음에 확인할 질문을 만들 수 있다. 그림을 빨리 그리는 것만이 목적은 아니며 그 값이 무엇을 뜻하고 어떤 한계가 있는지 함께 읽어야 한다.",
+      "memoryTip": "자료가 어떻게 생겼나 살펴보기 → EDA",
+      "additionalExample": "설문 자료에서 응답 범주별 인원과 연령 분포를 먼저 확인한 뒤 연령대별 응답 차이를 추가로 살피는 과정은 EDA에 해당한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "탐색적 데이터 분석은 정리한 자료를 여러 관점에서 살펴 특징과 추가 질문을 찾는 과정이다. 범주형 값은 건수를 세고 수치형 값은 분포를 확인하며 필요하면 두 변수의 관계를 비교한다. 이런 관찰은 질문을 구체화하거나 전처리 문제를 발견하는 데 도움이 된다. 다만 관찰한 차이를 곧바로 원인이나 관측되지 않은 선호로 단정하지 않는다.",
+        "steps": [
+          "지금 하는 일이 장비 조작이 아니라 표와 차트로 자료를 살피는 활동임을 확인한다.",
+          "범주별 건수와 수치 분포를 보는 목적이 자료 특징의 탐색임을 연결한다.",
+          "탐색적 데이터 분석을 뜻하는 EDA를 정답으로 선택한다."
+        ],
+        "pitfall": "차트를 만들었다는 사실만으로 인과관계까지 입증되었다고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "basic-inf-035",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "analysis",
+        "evidence": "pdf",
+        "focusIds": [
+          "quality-standardization",
+          "five-v-sources"
+        ]
+      },
+      "prompt": "가상 배송 표 200행의 열별 결측 건수가 그림과 같다. 결측이 가장 많은 열과, 이런 품질을 살피는 5V를 바르게 연결한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "제품 ID · Volume",
+          "correct": false,
+          "explanation": "제품 ID 결측은 2건이며 파일 규모가 아니라 열의 누락을 보는 그림이다."
+        },
+        {
+          "id": "o2",
+          "text": "배송 지역 · Velocity",
+          "correct": false,
+          "explanation": "배송 지역은 5건이며 유입이나 처리 속도를 측정한 그림이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "무게 · Variety",
+          "correct": false,
+          "explanation": "무게 결측이 가장 많지만 누락 점검은 형식 다양성보다 신뢰성에 해당한다."
+        },
+        {
+          "id": "o4",
+          "text": "무게 · Veracity",
+          "correct": true,
+          "explanation": "무게 결측 20건이 가장 많고 결측 품질 점검은 신뢰성의 관점이다."
+        }
+      ],
+      "conceptIds": [
+        "n34-C14",
+        "n12-c-veracity",
+        "web-c23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            9,
+            15,
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 차트 · 결측 품질 진단",
+      "visual": {
+        "kind": "bar",
+        "title": "가상 배송 표의 열별 결측 건수",
+        "xLabel": "검사 열",
+        "yLabel": "결측 건수(행)",
+        "labels": [
+          "제품 ID",
+          "무게",
+          "배송 지역"
+        ],
+        "series": [
+          {
+            "name": "결측",
+            "values": [
+              2,
+              20,
+              5
+            ]
+          }
+        ],
+        "note": "모든 열은 같은 200행에서 검사했다. 결측이 가장 많다는 사실이 자동 삭제 기준이 되지는 않는다."
+      },
+      "review": "자료 품질을 살필 때 열별 결측 건수는 무엇이 얼마나 비어 있는지 보여 준다. 이 그림에서는 무게가 20건으로 가장 많이 비어 있다. 누락과 오류를 점검하는 관점은 Veracity다. 다만 결측이 많다는 이유만으로 무게가 빈 모든 행을 삭제할 것은 아니며 분석 목적에 따라 처리 방법을 정한다.",
+      "memoryTip": "결측 건수 비교 후 목적에 맞게 처리",
+      "additionalExample": "설문에서 직업 열이 가장 많이 비었더라도 나이 분포를 묻는 분석에서는 직업 결측만을 이유로 모든 응답을 버릴 필요가 없다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "결측 진단은 자료의 신뢰성을 확인하는 기본 품질 점검이다. 같은 표에서 열별로 비어 있는 행을 세면 누락이 어느 부분에 많은지 비교할 수 있다. 그래프는 무게 결측이 가장 많다는 사실을 보여 주지만 삭제·대체 방법까지 자동으로 정해 주지는 않는다. 실제로 필요한 열과 분석 질문을 확인한 뒤 처리 기준과 유효 자료 수를 함께 기록한다.",
+        "steps": [
+          "세로축이 결측 건수이며 모든 열이 같은 200행에서 검사되었음을 확인한다.",
+          "막대 높이를 비교해 무게 열의 결측 20건이 가장 크다는 사실을 읽는다.",
+          "누락이라는 품질 문제를 Veracity와 연결한 선택지를 정답으로 고른다."
+        ],
+        "pitfall": "결측 건수가 많은 열을 찾는 진단과 그 열이 빈 모든 행을 무조건 삭제하는 결정을 구분한다."
+      }
+    },
+    {
+      "id": "basic-inf-036",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "analysis",
+        "evidence": "pdf",
+        "focusIds": [
+          "analysis-six-steps"
+        ]
+      },
+      "prompt": "팀원이 같은 분석 결과를 다시 만들 수 있도록 전달하려 한다. 재현 가능한 제출물에 필요한 내용을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "어떤 파일을 썼는지 밝히지 않은 결과 화면만 전달한다.",
+          "correct": false,
+          "explanation": "입력이 다르면 같은 코드로도 결과가 달라질 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "'내 컴퓨터에서는 됨'이라는 말만 남긴다.",
+          "correct": false,
+          "explanation": "다른 사람이 환경과 순서를 준비할 정보가 부족하다."
+        },
+        {
+          "id": "o3",
+          "text": "입력 파일의 버전 또는 취득 방법을 설명한다.",
+          "correct": true,
+          "explanation": "같은 자료를 준비하도록 돕는 재현 조건이다."
+        },
+        {
+          "id": "o4",
+          "text": "실행 코드·사용 환경·실행 순서를 함께 적는다.",
+          "correct": true,
+          "explanation": "다른 사람이 필요한 조건을 갖추어 같은 절차를 수행할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c05"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            3,
+            5,
+            6
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "기초 적용 · 재현 가능한 제출물",
+      "review": "재현 가능한 분석을 전달하려면 최종 그림뿐 아니라 입력 자료와 코드 및 실행 조건을 알려 주어야 한다. 같은 이름의 CSV라도 버전이 다르면 행 수와 결과가 달라질 수 있다. 파일 버전이나 취득 방법, 사용 환경과 실행 순서를 기록하면 다른 사람이 같은 과정을 준비하고 결과를 다시 확인하기 쉽다.",
+      "memoryTip": "데이터 + 코드 + 환경 + 실행 순서",
+      "additionalExample": "새 팀원이 보고서를 만들 때 같은 데이터 버전과 라이브러리 및 실행 명령을 안내하면 파일을 임의로 찾아 실행할 때보다 결과를 대조하기 쉽다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "재현성은 결과 그림의 모양만 복사하는 것이 아니라 기록한 입력과 절차를 따라 다시 결과를 생성할 수 있게 하는 성질이다. 자료가 바뀌거나 라이브러리 버전과 실행 순서가 달라지면 결과 또는 실행 여부가 바뀔 수 있다. 그러므로 입력의 버전이나 취득 방법과 코드 및 환경·절차를 함께 제공하는 것이 재현 가능한 분석의 기본 조건이다.",
+        "steps": [
+          "같은 계산을 하려면 먼저 같은 입력 자료를 준비할 수 있어야 함을 확인한다.",
+          "입력 버전이나 취득 방법을 설명하는 선택지가 그 조건을 돕는지 살핀다.",
+          "사용 환경과 코드 및 실행 순서를 전달하는 선택지도 함께 고른다."
+        ],
+        "pitfall": "본인 컴퓨터에서 실행된 사실이나 최종 화면 한 장을 다른 사람이 재현할 수 있다는 증거로 대신하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-001",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "Netflix 작품 목록 CSV를 열었더니 한 줄에 제목·출연진·장르가 적혀 있다. 이 표의 한 행은 무엇을 나타내는가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "한 사용자의 시청 한 번",
+          "correct": false,
+          "explanation": "시청 한 번을 세려면 별도의 재생 로그가 필요하다."
+        },
+        {
+          "id": "o2",
+          "text": "Netflix 이용자 한 명",
+          "correct": false,
+          "explanation": "이 표에는 이용자별 행이 없다."
+        },
+        {
+          "id": "o3",
+          "text": "카탈로그에 등록된 작품 한 건",
+          "correct": true,
+          "explanation": "한 행에 영화나 TV 프로그램 한 작품의 정보가 담긴다."
+        },
+        {
+          "id": "o4",
+          "text": "하루의 전체 매출",
+          "correct": false,
+          "explanation": "매출을 기록한 표가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "관측 단위는 표의 한 행이 가리키는 대상이다. 수업의 Netflix CSV는 작품을 한 행씩 기록한 카탈로그이므로 행을 세면 작품 수가 나온다. 사용자가 영상을 몇 번 봤는지, 누가 봤는지는 별도 기록이 필요하다. 데이터의 단위를 먼저 알면 작품 수를 시청 횟수로 잘못 읽는 일을 줄일 수 있다.",
+      "memoryTip": "카탈로그의 한 행 = 작품 하나",
+      "additionalExample": "작품 목록에 영화가 30행 있으면 영화 30편이 있다는 뜻이지, 사람들이 총 30번 봤다는 뜻은 아니다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "관측 단위는 표의 한 행이 가리키는 대상이다. 수업의 Netflix CSV는 작품을 한 행씩 기록한 카탈로그이므로 행을 세면 작품 수가 나온다. 사용자가 영상을 몇 번 봤는지, 누가 봤는지는 별도 기록이 필요하다. 데이터의 단위를 먼저 알면 작품 수를 시청 횟수로 잘못 읽는 일을 줄일 수 있다.",
+        "steps": [
+          "한 행에 함께 적힌 제목·출연진·장르가 무엇의 속성인지 확인한다.",
+          "이 속성들은 이용자나 매출이 아니라 작품 한 건을 설명한다.",
+          "따라서 이 표를 읽을 때 기본 단위를 작품 한 건으로 정한다."
+        ],
+        "pitfall": "한 작품이 여러 번 시청되어도 이 카탈로그 행이 시청 횟수만큼 늘어나는 것은 아니다."
+      }
+    },
+    {
+      "id": "basic-nfx-002",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "작품 상세 표의 rating에 TV-MA, PG 같은 값이 있다. 이 열을 소개하는 설명으로 알맞은 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품의 시청 등급",
+          "correct": true,
+          "explanation": "rating은 이용자가 매긴 점수가 아니라 관람·시청 등급이다."
+        },
+        {
+          "id": "o2",
+          "text": "이용자들의 별점 평균",
+          "correct": false,
+          "explanation": "별점 평균은 사용자 평가 자료에서 구한다."
+        },
+        {
+          "id": "o3",
+          "text": "월별 재생 횟수",
+          "correct": false,
+          "explanation": "재생 횟수는 시청 로그에 기록되는 값이다."
+        },
+        {
+          "id": "o4",
+          "text": "추천 알고리즘의 정확도",
+          "correct": false,
+          "explanation": "추천 정확도는 평가 자료로 별도 측정한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "같은 영어 단어도 데이터마다 의미가 다를 수 있다. 이 Netflix 파일의 rating은 TV-MA나 PG처럼 작품에 붙은 시청 등급을 뜻한다. 이용자가 준 별점이나 만족도 점수가 아니다. 따라서 rating을 보아 어느 등급 작품이 많은지는 셀 수 있지만, 어떤 작품의 만족도가 높은지는 알 수 없다.",
+      "memoryTip": "여기서 rating = 시청 등급",
+      "additionalExample": "TV-MA 작품 15편을 셌다면 해당 시청 등급의 작품이 15편이라는 뜻이며 별점 15점이라는 뜻은 아니다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "같은 영어 단어도 데이터마다 의미가 다를 수 있다. 이 Netflix 파일의 rating은 TV-MA나 PG처럼 작품에 붙은 시청 등급을 뜻한다. 이용자가 준 별점이나 만족도 점수가 아니다. 따라서 rating을 보아 어느 등급 작품이 많은지는 셀 수 있지만, 어떤 작품의 만족도가 높은지는 알 수 없다.",
+        "steps": [
+          "rating 열의 실제 값이 숫자 별점인지 등급 이름인지 살펴본다.",
+          "TV-MA와 PG는 작품을 구분하는 시청 등급 범주로 읽는다.",
+          "열을 설명할 때는 사용자 평점 대신 시청 등급이라고 적는다."
+        ],
+        "pitfall": "열 이름만 보고 rating을 별점이라고 번역하지 말고 자료 사전과 실제 값을 함께 확인한다."
+      }
+    },
+    {
+      "id": "basic-nfx-003",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "팀원이 'Netflix에 2020년 등록된 작품 목록'을 만들려고 한다. 먼저 확인할 날짜 열은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "release_year",
+          "correct": false,
+          "explanation": "release_year는 작품이 처음 공개된 연도다."
+        },
+        {
+          "id": "o2",
+          "text": "duration",
+          "correct": false,
+          "explanation": "duration은 영화 길이나 TV 시즌 수다."
+        },
+        {
+          "id": "o3",
+          "text": "rating",
+          "correct": false,
+          "explanation": "rating은 시청 등급이다."
+        },
+        {
+          "id": "o4",
+          "text": "date_added",
+          "correct": true,
+          "explanation": "date_added는 Netflix 카탈로그에 등록된 날이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c20",
+        "web-c30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            18
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "날짜를 고를 때는 어떤 사건이 일어난 날짜를 묻는지 먼저 확인한다. date_added는 작품이 Netflix 카탈로그에 등록된 날짜이고 release_year는 작품이 최초 공개된 연도다. 오래전에 공개된 작품도 나중에 Netflix에 들어올 수 있다. 등록 연도별 목록을 만들려면 date_added에서 연도를 읽어야 한다.",
+      "memoryTip": "등록은 date_added, 첫 공개는 release_year",
+      "additionalExample": "2012년에 공개된 영화가 2020년에 Netflix에 들어왔다면 이 영화는 2020년 등록 목록에 들어간다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "날짜를 고를 때는 어떤 사건이 일어난 날짜를 묻는지 먼저 확인한다. date_added는 작품이 Netflix 카탈로그에 등록된 날짜이고 release_year는 작품이 최초 공개된 연도다. 오래전에 공개된 작품도 나중에 Netflix에 들어올 수 있다. 등록 연도별 목록을 만들려면 date_added에서 연도를 읽어야 한다.",
+        "steps": [
+          "발문이 작품의 최초 공개가 아니라 Netflix 등록을 묻는지 확인한다.",
+          "등록 사건을 기록하는 date_added 열에서 연도 정보를 추출한다.",
+          "그 연도가 2020인 행을 골라 등록 작품 목록을 만든다."
+        ],
+        "pitfall": "등록 연도가 필요할 때 공개 연도를 사용하면 오래된 작품의 신규 등록을 놓칠 수 있다."
+      }
+    },
+    {
+      "id": "basic-nfx-004",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "TV Show만 골라 duration='3 Seasons'를 읽었다. TV 프로그램의 길이를 비교하는 표에 쓸 단위는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "분",
+          "correct": false,
+          "explanation": "분은 이 값에 적힌 단위가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "시즌 수",
+          "correct": true,
+          "explanation": "3 Seasons는 시즌이 3개라는 뜻이다."
+        },
+        {
+          "id": "o3",
+          "text": "시청자 수",
+          "correct": false,
+          "explanation": "시청자 수를 나타내는 값이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "평점",
+          "correct": false,
+          "explanation": "시즌 수는 평가 점수가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19",
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            16
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "duration은 작품 유형에 따라 뜻과 단위가 달라진다. 영화에는 분 단위 상영시간이, TV Show에는 시즌 수가 기록될 수 있다. 3 Seasons에서 숫자 3은 3분이 아니라 세 시즌을 뜻한다. 비교용 숫자를 만들 때도 단위를 함께 남기고, 같은 종류의 단위끼리 비교해야 결과에 의미가 생긴다.",
+      "memoryTip": "Seasons = 시즌 수",
+      "additionalExample": "2 Seasons와 4 Seasons는 시즌 수끼리 비교할 수 있지만 90 min과 그대로 합쳐 평균을 내면 안 된다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "duration은 작품 유형에 따라 뜻과 단위가 달라진다. 영화에는 분 단위 상영시간이, TV Show에는 시즌 수가 기록될 수 있다. 3 Seasons에서 숫자 3은 3분이 아니라 세 시즌을 뜻한다. 비교용 숫자를 만들 때도 단위를 함께 남기고, 같은 종류의 단위끼리 비교해야 결과에 의미가 생긴다.",
+        "steps": [
+          "type이 TV Show이고 원문 단위가 Seasons인지 먼저 확인한다.",
+          "숫자 3을 시즌 수로 읽고 표의 열 이름에도 시즌을 표시한다.",
+          "이 값을 영화의 분 단위 상영시간과 따로 비교한다."
+        ],
+        "pitfall": "문자열에서 숫자만 뽑으면 단위가 사라져 3시즌을 3분처럼 읽을 수 있다."
+      }
+    },
+    {
+      "id": "basic-nfx-005",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "분석하다 실수해도 처음부터 다시 시작할 수 있게 하려 한다. 정제한 표의 저장 방법으로 알맞은 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "원본 CSV를 바로 덮어쓴다.",
+          "correct": false,
+          "explanation": "처리 전 값을 잃어 되돌리기 어려워진다."
+        },
+        {
+          "id": "o2",
+          "text": "원본은 보관하고 정제본을 다른 파일로 저장한다.",
+          "correct": true,
+          "explanation": "원본과 분석용 결과를 분리하면 처리 규칙을 바꿔 다시 실행할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "원본의 일부 열을 지운 뒤 백업을 만든다.",
+          "correct": false,
+          "explanation": "수정 전 원본을 보관해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "완성한 그래프만 남기고 입력 파일을 지운다.",
+          "correct": false,
+          "explanation": "입력 자료가 없으면 결과를 다시 계산하기 어렵다."
+        }
+      ],
+      "conceptIds": [
+        "web-c21",
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            16
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "원본 데이터는 분석의 출발점이므로 가능한 한 변경하지 않고 보존한다. 정제는 공백 제거, 날짜 변환, 결측 처리처럼 값을 바꿀 수 있는 작업이다. 정제본을 별도 파일로 만들면 다른 처리 기준을 시험하거나 실수를 고칠 때 같은 원본에서 다시 시작할 수 있다. 무엇을 바꿨는지 기록하는 일도 함께 필요하다.",
+      "memoryTip": "원본 보존 + 정제본 분리",
+      "additionalExample": "netflix_raw.csv를 보관하고 공백을 정리한 결과를 netflix_clean.csv로 저장하면 두 상태를 비교할 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "원본 데이터는 분석의 출발점이므로 가능한 한 변경하지 않고 보존한다. 정제는 공백 제거, 날짜 변환, 결측 처리처럼 값을 바꿀 수 있는 작업이다. 정제본을 별도 파일로 만들면 다른 처리 기준을 시험하거나 실수를 고칠 때 같은 원본에서 다시 시작할 수 있다. 무엇을 바꿨는지 기록하는 일도 함께 필요하다.",
+        "steps": [
+          "처리 전 CSV를 원본으로 따로 보관하고 직접 덮어쓰지 않는다.",
+          "공백 제거 같은 변환은 복사한 표나 새 분석용 표에서 수행한다.",
+          "완성한 정제본은 원본과 다른 파일 이름으로 저장한다."
+        ],
+        "pitfall": "수정이 끝난 뒤 만든 백업은 이미 변한 값만 보관하므로 수정 전 원본을 대신하지 못한다."
+      }
+    },
+    {
+      "id": "basic-nfx-006",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "팀의 작품 상세 화면은 제목이 같아도 서로 다른 작품을 구분해야 한다. 수업 고정 CSV에서 작품 식별에 우선 사용할 열은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "title의 글자 수",
+          "correct": false,
+          "explanation": "서로 다른 작품의 제목 길이는 같을 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "rating",
+          "correct": false,
+          "explanation": "같은 등급인 작품이 여러 편 있다."
+        },
+        {
+          "id": "o3",
+          "text": "country의 첫 글자",
+          "correct": false,
+          "explanation": "국가 첫 글자만으로 작품을 구분할 수 없다."
+        },
+        {
+          "id": "o4",
+          "text": "show_id",
+          "correct": true,
+          "explanation": "수업 고정본의 show_id는 작품 식별자 후보이며 중복과 결측이 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19",
+        "web-c22"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            14,
+            15,
+            16
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "식별자는 각각의 대상을 구별하는 값이다. 수업 고정본의 show_id는 작품을 구분하는 식별자 후보이며 그 파일에서 중복과 결측이 없는지 검사한다. 제목은 사람이 읽기 좋은 이름이지만 동명 작품이 있을 수 있어 항상 고유하지는 않다. 상세 페이지나 작품 수 집계에서는 이름과 식별자의 역할을 구분한다.",
+      "memoryTip": "이름은 title, 식별은 show_id",
+      "additionalExample": "제목이 '봄'인 두 작품도 show_id가 서로 다르고 별개 작품으로 확인되면 상세 화면을 각각 유지한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "식별자는 각각의 대상을 구별하는 값이다. 수업 고정본의 show_id는 작품을 구분하는 식별자 후보이며 그 파일에서 중복과 결측이 없는지 검사한다. 제목은 사람이 읽기 좋은 이름이지만 동명 작품이 있을 수 있어 항상 고유하지는 않다. 상세 페이지나 작품 수 집계에서는 이름과 식별자의 역할을 구분한다.",
+        "steps": [
+          "목표가 작품의 이름을 표시하는 것인지 고유하게 구분하는 것인지 나눈다.",
+          "수업 파일에서 고유성과 결측 여부를 확인한 show_id를 고른다.",
+          "title은 표시용 이름으로 남기고 ID와 같은 뜻으로 쓰지 않는다."
+        ],
+        "pitfall": "제목이 같다는 사실 하나만으로 같은 작품이라고 합치면 동명 작품이 사라질 수 있다."
+      }
+    },
+    {
+      "id": "basic-nfx-007",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "한 영화의 listed_in이 'Dramas, Comedies'다. 장르별 작품 수 막대에서 이 영화가 두 장르에 각각 포함되는 이유는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "한 작품이 여러 장르에 속할 수 있기 때문이다.",
+          "correct": true,
+          "explanation": "이 영화는 드라마와 코미디 두 장르에 모두 속한다."
+        },
+        {
+          "id": "o2",
+          "text": "두 번 재생되었기 때문이다.",
+          "correct": false,
+          "explanation": "재생 횟수는 장르 정보에 들어 있지 않다."
+        },
+        {
+          "id": "o3",
+          "text": "원본 작품이 두 편이기 때문이다.",
+          "correct": false,
+          "explanation": "한 작품에 장르가 두 개 붙은 것이다."
+        },
+        {
+          "id": "o4",
+          "text": "등급이 두 개이기 때문이다.",
+          "correct": false,
+          "explanation": "listed_in은 등급이 아니라 장르를 담는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c25",
+        "web-c26"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            18
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "장르는 한 작품에 하나만 붙는 분류가 아니다. 한 영화가 드라마이면서 코미디일 수 있으므로 장르를 각각 세면 같은 영화가 두 장르에 한 번씩 포함된다. 이때 작품 자체가 복제된 것은 아니다. 작품 수와 작품에 붙은 장르 관계 수를 구분하면 장르별 비율 합이 100%를 넘는 이유도 이해할 수 있다.",
+      "memoryTip": "한 작품에 여러 장르 가능",
+      "additionalExample": "가족·애니메이션 두 장르를 가진 한 작품은 가족 막대에도 애니메이션 막대에도 각각 포함될 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "장르는 한 작품에 하나만 붙는 분류가 아니다. 한 영화가 드라마이면서 코미디일 수 있으므로 장르를 각각 세면 같은 영화가 두 장르에 한 번씩 포함된다. 이때 작품 자체가 복제된 것은 아니다. 작품 수와 작품에 붙은 장르 관계 수를 구분하면 장르별 비율 합이 100%를 넘는 이유도 이해할 수 있다.",
+        "steps": [
+          "원본에 작품이 한 행이고 장르 이름이 두 개 적혔는지 확인한다.",
+          "장르별 집계에서는 드라마 한 건과 코미디 한 건으로 각각 반영한다.",
+          "두 막대에 포함되더라도 실제 고유 작품은 한 편임을 유지한다."
+        ],
+        "pitfall": "장르 관계를 두 건 셌다고 원본 영화가 두 편으로 늘어난 것은 아니다."
+      }
+    },
+    {
+      "id": "basic-nfx-008",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "가상 카탈로그의 장르별 작품 수를 그린 그림이다. 이 막대의 높이를 비교해 바로 말할 수 있는 내용은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "가족 장르의 이용자 만족도가 가장 높다.",
+          "correct": false,
+          "explanation": "만족도 자료를 그린 그래프가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "범죄 장르의 평균 상영시간이 가장 길다.",
+          "correct": false,
+          "explanation": "세로축은 시간이 아니라 작품 수다."
+        },
+        {
+          "id": "o3",
+          "text": "가족 장르로 분류된 작품이 가장 많다.",
+          "correct": true,
+          "explanation": "가족 막대가 8편으로 가장 높다."
+        },
+        {
+          "id": "o4",
+          "text": "모험 장르의 가입자가 가장 많다.",
+          "correct": false,
+          "explanation": "가입자 수는 이 그림에 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "web-c40"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "막대그래프는 범주별 값을 막대 높이로 비교한다. 먼저 가로축이 무엇을 구분하고 세로축이 무엇을 세는지 읽는다. 이 그림은 장르별 카탈로그 작품 수이므로 가장 높은 막대는 해당 장르로 분류된 작품이 가장 많다는 뜻이다. 시청자 만족도나 가입자 수는 표시하지 않았으므로 그 결론까지 넓힐 수 없다.",
+      "memoryTip": "막대 높이의 뜻은 세로축에서 확인",
+      "additionalExample": "국가별 작품 수 막대에서 A국이 가장 높아도 그 나라 작품의 시청 시간까지 가장 길다는 뜻은 아니다.",
+      "visual": {
+        "kind": "bar",
+        "title": "가상 카탈로그의 장르별 작품 수",
+        "xLabel": "장르",
+        "yLabel": "작품 수(편)",
+        "labels": [
+          "모험",
+          "가족",
+          "범죄"
+        ],
+        "series": [
+          {
+            "name": "고유 작품 수",
+            "values": [
+              3,
+              8,
+              5
+            ]
+          }
+        ],
+        "note": "각 장르의 고유 작품 수이며 시청량은 포함하지 않는다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "막대그래프는 범주별 값을 막대 높이로 비교한다. 먼저 가로축이 무엇을 구분하고 세로축이 무엇을 세는지 읽는다. 이 그림은 장르별 카탈로그 작품 수이므로 가장 높은 막대는 해당 장르로 분류된 작품이 가장 많다는 뜻이다. 시청자 만족도나 가입자 수는 표시하지 않았으므로 그 결론까지 넓힐 수 없다.",
+        "steps": [
+          "가로축이 장르이고 세로축이 작품 수인지 먼저 확인한다.",
+          "세 막대의 높이 3편·8편·5편을 비교해 가장 큰 값을 찾는다.",
+          "8편인 가족 장르의 카탈로그 작품 수가 가장 많다고 설명한다."
+        ],
+        "pitfall": "막대가 높다는 뜻은 세로축의 값이 크다는 것이지 모든 의미에서 더 인기 있다는 뜻은 아니다."
+      }
+    },
+    {
+      "id": "basic-nfx-009",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "'영화의 평균 상영시간(분)'을 구하기 전 점검할 내용을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "type이 Movie인 작품을 골랐는지 확인한다.",
+          "correct": true,
+          "explanation": "영화의 시간을 묻기 때문에 먼저 영화만 고른다."
+        },
+        {
+          "id": "o2",
+          "text": "TV 시즌 수를 분과 함께 평균 낸다.",
+          "correct": false,
+          "explanation": "시즌 수와 분은 단위가 달라 합쳐 평균 낼 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "duration을 분 단위 숫자로 읽었는지 확인한다.",
+          "correct": true,
+          "explanation": "평균 계산에 사용할 값의 단위와 숫자 변환을 확인한다."
+        },
+        {
+          "id": "o4",
+          "text": "rating을 시간 단위로 사용한다.",
+          "correct": false,
+          "explanation": "rating은 시청 등급이며 상영시간이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19",
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "평균은 같은 의미와 같은 단위의 값을 더한 뒤 개수로 나누는 요약값이다. 영화 평균 상영시간을 구하려면 분석 대상을 Movie로 정하고 duration의 분 단위 숫자를 사용한다. TV Show의 시즌 수나 시청 등급은 다른 양이므로 섞지 않는다. 계산에 실제로 사용한 영화 수와 결측 처리 방법도 함께 남기면 결과를 이해하기 쉽다.",
+      "memoryTip": "대상은 Movie, 단위는 min",
+      "additionalExample": "영화 80분과 100분의 평균은 90분이지만 여기에 TV 2시즌을 숫자 2로 더해서는 안 된다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "평균은 같은 의미와 같은 단위의 값을 더한 뒤 개수로 나누는 요약값이다. 영화 평균 상영시간을 구하려면 분석 대상을 Movie로 정하고 duration의 분 단위 숫자를 사용한다. TV Show의 시즌 수나 시청 등급은 다른 양이므로 섞지 않는다. 계산에 실제로 사용한 영화 수와 결측 처리 방법도 함께 남기면 결과를 이해하기 쉽다.",
+        "steps": [
+          "분석 대상이 영화이므로 type이 Movie인 행을 먼저 선택한다.",
+          "선택한 행의 duration이 분 단위이며 숫자로 변환됐는지 살핀다.",
+          "유효한 분 단위 값으로 평균을 계산하고 사용한 작품 수를 적는다."
+        ],
+        "pitfall": "숫자로 바꿀 수 있다는 이유만으로 90분과 3시즌을 같은 평균에 넣지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-010",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "가상 영화 길이 그림에서 가로축은 분 구간이고 세로축은 작품 수다. 이 히스토그램이 주로 보여 주는 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "각 영화의 정확한 제목",
+          "correct": false,
+          "explanation": "작품별 제목을 나열한 그래프가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "배우들 사이의 협업 관계",
+          "correct": false,
+          "explanation": "배우 연결은 네트워크로 표현할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "하루 동안의 가입자 변화",
+          "correct": false,
+          "explanation": "시간 흐름에 따른 가입자 자료가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "영화 상영시간이 어느 구간에 많이 모였는지",
+          "correct": true,
+          "explanation": "수치 값을 구간으로 묶어 분포를 보여 준다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "히스토그램은 숫자 자료를 일정한 구간으로 나누어 각 구간에 들어간 관측 수를 그린다. 영화 상영시간을 그리면 짧은 영화와 긴 영화가 얼마나 있는지, 어느 길이에 많이 모이는지 살펴볼 수 있다. 개별 영화 제목이나 모든 정확한 길이를 보여 주는 표는 아니다. 구간 폭이 달라지면 보이는 모양도 달라질 수 있다.",
+      "memoryTip": "히스토그램 = 수치 구간별 분포",
+      "additionalExample": "키를 150~160cm, 160~170cm처럼 묶어 몇 명인지 그리는 것과 영화 길이 히스토그램은 같은 원리다.",
+      "visual": {
+        "kind": "histogram",
+        "title": "가상 영화의 상영시간 분포",
+        "xLabel": "상영시간(분)",
+        "yLabel": "작품 수(편)",
+        "labels": [
+          "60 이상 90 미만",
+          "90 이상 120 미만",
+          "120 이상 150 미만"
+        ],
+        "series": [
+          {
+            "name": "영화 수",
+            "values": [
+              2,
+              7,
+              3
+            ]
+          }
+        ],
+        "note": "각 구간은 시작값을 포함하고 끝값을 포함하지 않는다. 이 그림은 학습용 가상 자료다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "히스토그램은 숫자 자료를 일정한 구간으로 나누어 각 구간에 들어간 관측 수를 그린다. 영화 상영시간을 그리면 짧은 영화와 긴 영화가 얼마나 있는지, 어느 길이에 많이 모이는지 살펴볼 수 있다. 개별 영화 제목이나 모든 정확한 길이를 보여 주는 표는 아니다. 구간 폭이 달라지면 보이는 모양도 달라질 수 있다.",
+        "steps": [
+          "가로축이 작품 이름이 아니라 상영시간의 수치 구간인지 확인한다.",
+          "각 막대 높이를 그 길이 구간에 들어간 작품 수로 읽는다.",
+          "막대들을 함께 보며 상영시간의 분포를 설명한다."
+        ],
+        "pitfall": "히스토그램의 막대 한 개는 영화 한 편이 아니라 같은 길이 구간에 들어간 여러 영화를 묶는다."
+      }
+    },
+    {
+      "id": "basic-nfx-011",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "network-text",
+        "evidence": "lecture",
+        "focusIds": [
+          "network-text"
+        ]
+      },
+      "prompt": "한글 작품 소개문으로 단어 빈도를 만들려고 한다. 의미를 지키는 처리로 적절한 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "분석 목적에 맞게 활용형을 기본형으로 묶는다.",
+          "correct": true,
+          "explanation": "같은 뜻의 활용형을 묶으면 단어 분산을 줄일 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "'재미없다'를 무조건 '재미'만 남긴다.",
+          "correct": false,
+          "explanation": "부정 의미가 사라져 원문 뜻이 달라질 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "모든 문장에서 마지막 두 글자를 지운다.",
+          "correct": false,
+          "explanation": "일괄 삭제는 단어와 고유명사를 손상할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "부정 표현이 사라지지 않았는지 예문을 확인한다.",
+          "correct": true,
+          "explanation": "전처리 결과와 원문을 비교해 의미 보존을 점검한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c36",
+        "n34-C30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "한국어 단어는 조사나 어미가 붙으면서 형태가 달라질 수 있다. 같은 의미의 활용형을 분석 목적에 맞게 묶으면 빈도를 더 일관되게 볼 수 있다. 다만 글자를 기계적으로 자르면 고유명사나 부정 표현을 훼손할 수 있다. 정규화는 단어를 무조건 짧게 만드는 일이 아니라 필요한 의미를 보존하면서 표현 차이를 정리하는 작업이다.",
+      "memoryTip": "형태는 정리하고 의미는 보존",
+      "additionalExample": "'먹는다'와 '먹었다'를 '먹다'로 묶을 수 있지만 '먹지 않는다'의 부정 의미까지 없애지는 않아야 한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "한국어 단어는 조사나 어미가 붙으면서 형태가 달라질 수 있다. 같은 의미의 활용형을 분석 목적에 맞게 묶으면 빈도를 더 일관되게 볼 수 있다. 다만 글자를 기계적으로 자르면 고유명사나 부정 표현을 훼손할 수 있다. 정규화는 단어를 무조건 짧게 만드는 일이 아니라 필요한 의미를 보존하면서 표현 차이를 정리하는 작업이다.",
+        "steps": [
+          "소개문 몇 개를 읽어 같은 뜻으로 묶을 활용형을 먼저 정한다.",
+          "분석 목적에 맞는 형태 분석을 적용하고 바뀐 단어를 확인한다.",
+          "부정어와 작품 이름이 손상되지 않았는지 원문과 비교한다."
+        ],
+        "pitfall": "단어 수가 줄었다는 것만으로 좋은 정규화라고 판단할 수 없으며 원래 뜻이 남아야 한다."
+      }
+    },
+    {
+      "id": "basic-nfx-012",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "recommendation",
+        "evidence": "lecture",
+        "focusIds": [
+          "recommendations"
+        ]
+      },
+      "prompt": "추천 화면이 기준 영화의 장르와 줄거리를 읽어 내용이 비슷한 영화를 보여 준다. 이 방식의 이름은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "콘텐츠 기반 추천",
+          "correct": true,
+          "explanation": "장르와 줄거리 같은 작품 특징을 바탕으로 비슷한 작품을 찾는다."
+        },
+        {
+          "id": "o2",
+          "text": "무작위 추천",
+          "correct": false,
+          "explanation": "기준 작품의 특징을 이용하므로 무작위 선택이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "아이템 기반 협업 필터링",
+          "correct": false,
+          "explanation": "여러 이용자의 공통 행동이 아니라 작품 내용을 사용했다."
+        },
+        {
+          "id": "o4",
+          "text": "연도별 등록 건수 집계",
+          "correct": false,
+          "explanation": "추천이 아니라 시간별 건수를 세는 작업이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c37",
+        "n34-C31"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            55,
+            56,
+            57,
+            58
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "콘텐츠 기반 추천은 아이템 자체의 특징을 이용한다. 영화라면 장르, 줄거리, 배우 같은 정보가 그 특징이 될 수 있다. 기준 작품과 이런 특징이 비슷한 작품을 후보로 찾는 것이 핵심이다. 여러 사용자가 함께 보거나 평가한 패턴에서 관계를 구하는 아이템 기반 협업 필터링과는 유사성을 계산하는 근거가 다르다.",
+      "memoryTip": "작품의 내용·특징으로 비교 = 콘텐츠 기반",
+      "additionalExample": "우주 모험 영화의 장르와 소개문을 기준으로 또 다른 우주 모험 영화를 찾는 방식이 이에 해당한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "콘텐츠 기반 추천은 아이템 자체의 특징을 이용한다. 영화라면 장르, 줄거리, 배우 같은 정보가 그 특징이 될 수 있다. 기준 작품과 이런 특징이 비슷한 작품을 후보로 찾는 것이 핵심이다. 여러 사용자가 함께 보거나 평가한 패턴에서 관계를 구하는 아이템 기반 협업 필터링과는 유사성을 계산하는 근거가 다르다.",
+        "steps": [
+          "추천기가 무엇을 입력으로 사용하는지 장르와 줄거리에서 확인한다.",
+          "이 입력은 다른 이용자들의 공동 행동이 아니라 작품 자체의 특징이다.",
+          "작품 특징의 유사성을 이용하므로 콘텐츠 기반 추천으로 분류한다."
+        ],
+        "pitfall": "추천 결과에 비슷한 영화가 나온다는 사실보다 그 유사성을 어떤 자료로 구했는지가 중요하다."
+      }
+    },
+    {
+      "id": "basic-nfx-013",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "'영화와 TV Show에서 시청 등급 구성이 다른가?'를 살펴보려 한다. 필요한 열을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "duration",
+          "correct": false,
+          "explanation": "이번 질문은 길이 비교가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "type",
+          "correct": true,
+          "explanation": "영화와 TV Show를 나눌 기준 열이다."
+        },
+        {
+          "id": "o3",
+          "text": "rating",
+          "correct": true,
+          "explanation": "두 유형에서 비교할 시청 등급을 담는다."
+        },
+        {
+          "id": "o4",
+          "text": "description",
+          "correct": false,
+          "explanation": "소개문의 문장 내용은 이번 집계에 필수인 열이 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c20",
+        "web-c29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            17,
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "두 집단의 범주 구성을 비교하려면 집단을 나누는 열과 비교할 범주를 담은 열이 필요하다. 영화와 TV Show를 나누는 열은 type이고, 시청 등급을 담은 열은 rating이다. 두 열로 교차표를 만든 뒤 집단별 건수와 비율을 볼 수 있다. 질문에 필요한 열을 먼저 찾으면 불필요한 텍스트 처리나 시간 계산을 줄일 수 있다.",
+      "memoryTip": "집단을 나눌 열 + 비교할 열",
+      "additionalExample": "국가별 시청 등급 구성을 묻는다면 국가를 나타내는 country와 등급을 나타내는 rating이 필요하다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "두 집단의 범주 구성을 비교하려면 집단을 나누는 열과 비교할 범주를 담은 열이 필요하다. 영화와 TV Show를 나누는 열은 type이고, 시청 등급을 담은 열은 rating이다. 두 열로 교차표를 만든 뒤 집단별 건수와 비율을 볼 수 있다. 질문에 필요한 열을 먼저 찾으면 불필요한 텍스트 처리나 시간 계산을 줄일 수 있다.",
+        "steps": [
+          "질문에서 나눌 집단이 Movie와 TV Show임을 먼저 표시한다.",
+          "집단 구분은 type, 비교할 등급 범주는 rating에서 가져온다.",
+          "두 열을 교차 집계하고 각 유형 안의 등급 구성을 살펴본다."
+        ],
+        "pitfall": "시청 등급을 묻는 질문에서 소개문이나 상영시간이 항상 필수인 것은 아니다."
+      }
+    },
+    {
+      "id": "basic-nfx-014",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "network-text",
+        "evidence": "lecture",
+        "focusIds": [
+          "network-text"
+        ]
+      },
+      "prompt": "가상 배우 네트워크는 배우를 점으로, 같은 작품에 출연한 배우 쌍을 선으로 표현한다. 배우 P와 Q 사이에 선이 있다는 뜻은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "두 배우의 나이가 같다.",
+          "correct": false,
+          "explanation": "나이를 기준으로 연결한 그래프가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "두 배우의 출연료가 같다.",
+          "correct": false,
+          "explanation": "출연료 자료는 연결 기준에 포함되지 않았다."
+        },
+        {
+          "id": "o3",
+          "text": "두 배우가 같은 작품에 출연한 기록이 있다.",
+          "correct": true,
+          "explanation": "문항에서 선의 기준을 공동 출연으로 정의했다."
+        },
+        {
+          "id": "o4",
+          "text": "두 배우가 반드시 실제 친구다.",
+          "correct": false,
+          "explanation": "공동 출연 기록만으로 개인적 친분을 알 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c35",
+        "n34-C29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "네트워크에서 노드는 대상이고 간선은 대상 사이에 정의한 관계다. 그래프를 읽을 때 점과 선이 무엇을 뜻하는지 먼저 알아야 한다. 이 문항에서는 점이 배우이고 선이 공동 출연 기록이므로 연결은 같은 작품에 참여했다는 뜻이다. 관계의 정의에 없는 나이, 출연료, 사적 친분은 선 하나만으로 판단할 수 없다.",
+      "memoryTip": "네트워크는 점과 선의 정의부터",
+      "additionalExample": "점이 국가이고 선이 공동 제작이라면 선은 국가 간 친분이 아니라 정해 둔 공동 제작 기록을 나타낸다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "네트워크에서 노드는 대상이고 간선은 대상 사이에 정의한 관계다. 그래프를 읽을 때 점과 선이 무엇을 뜻하는지 먼저 알아야 한다. 이 문항에서는 점이 배우이고 선이 공동 출연 기록이므로 연결은 같은 작품에 참여했다는 뜻이다. 관계의 정의에 없는 나이, 출연료, 사적 친분은 선 하나만으로 판단할 수 없다.",
+        "steps": [
+          "그래프의 점이 배우를 나타낸다는 노드 정의를 확인한다.",
+          "두 점을 연결하는 선의 기준이 공동 출연인지 확인한다.",
+          "P와 Q 사이의 선은 같은 작품 참여 기록으로만 해석한다."
+        ],
+        "pitfall": "작품에서 함께 일했다는 기록을 곧바로 실제 친분이나 개인적 관계로 확대하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-015",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "한 작품의 director는 비어 있지만 type은 Movie로 확인됐다. 영화·TV Show의 수를 셀 때 적절한 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "감독을 몰라도 유형 집계에는 이 작품을 사용할 수 있다.",
+          "correct": true,
+          "explanation": "이번 질문에 필요한 type 값이 확인되어 있다."
+        },
+        {
+          "id": "o2",
+          "text": "감독이 비었으므로 모든 분석에서 반드시 삭제한다.",
+          "correct": false,
+          "explanation": "결측 처리 대상은 분석에 필요한 열에 따라 정한다."
+        },
+        {
+          "id": "o3",
+          "text": "감독별 작품 수 집계에서는 감독 정보 결측을 따로 처리한다.",
+          "correct": true,
+          "explanation": "감독을 묻는 분석에서는 해당 열의 누락을 고려해야 한다."
+        },
+        {
+          "id": "o4",
+          "text": "director가 비었으니 type도 TV Show로 바꾼다.",
+          "correct": false,
+          "explanation": "감독 누락은 작품 유형을 바꿀 근거가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c23",
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "결측은 필요한 정보가 기록되지 않은 상태다. 어떤 열이 비었다고 그 행의 모든 정보가 쓸모없어지는 것은 아니다. 영화와 TV Show의 수를 묻는 질문에는 type이 필요하므로 director가 없어도 type이 확인된 작품은 사용할 수 있다. 반대로 감독별 집계에서는 감독 결측을 따로 표시하거나 제외하고 제외 건수를 남겨야 한다.",
+      "memoryTip": "결측 처리는 질문에 필요한 열 기준",
+      "additionalExample": "국가가 비어 있어도 상영시간이 확인된 영화는 영화 길이 분포를 살펴보는 분석에는 사용할 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "결측은 필요한 정보가 기록되지 않은 상태다. 어떤 열이 비었다고 그 행의 모든 정보가 쓸모없어지는 것은 아니다. 영화와 TV Show의 수를 묻는 질문에는 type이 필요하므로 director가 없어도 type이 확인된 작품은 사용할 수 있다. 반대로 감독별 집계에서는 감독 결측을 따로 표시하거나 제외하고 제외 건수를 남겨야 한다.",
+        "steps": [
+          "먼저 이번 질문에 필요한 열이 type임을 분명하게 정한다.",
+          "director의 누락과 type의 유효 여부를 별개로 확인한다.",
+          "유형 집계에는 사용하되 감독 분석에서는 결측 처리 규칙을 적용한다."
+        ],
+        "pitfall": "감독 정보 누락을 이유로 작품 유형까지 바꾸거나 모든 분석에서 자동 삭제하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-016",
+      "finalExamId": "final-04",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "가상 등록 건수의 선그래프다. 세 연도는 모두 12개월을 관측했다. 2023년에서 2024년으로의 변화는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "20편 증가",
+          "correct": false,
+          "explanation": "2024년 값이 2023년보다 작다."
+        },
+        {
+          "id": "o2",
+          "text": "20편 감소",
+          "correct": true,
+          "explanation": "80−100=−20이므로 20편 줄었다."
+        },
+        {
+          "id": "o3",
+          "text": "100편 감소",
+          "correct": false,
+          "explanation": "100편은 2023년 건수이며 두 값의 차이가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "변화 없음",
+          "correct": false,
+          "explanation": "100편과 80편은 서로 다른 값이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c30",
+        "web-c41"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "시간별 건수의 변화는 나중 값에서 이전 값을 빼서 구한다. 결과가 양수이면 증가이고 음수이면 감소다. 이 그림에서 2023년은 100편, 2024년은 80편이므로 차이는 마이너스 20편이다. 같은 기간을 관측했는지도 함께 확인해야 비교가 공정하다. 이 변화는 카탈로그 등록 건수의 변화이지 시청자 수의 변화가 아니다.",
+      "memoryTip": "변화량 = 나중 값 − 이전 값",
+      "additionalExample": "등록 건수가 40편에서 55편이 되었다면 55−40=15편 증가라고 같은 방식으로 읽을 수 있다.",
+      "visual": {
+        "kind": "line",
+        "title": "가상 등록 연도별 작품 수",
+        "xLabel": "등록 연도",
+        "yLabel": "등록 건수(편)",
+        "labels": [
+          "2022",
+          "2023",
+          "2024"
+        ],
+        "series": [
+          {
+            "name": "등록 작품 수",
+            "values": [
+              60,
+              100,
+              80
+            ]
+          }
+        ],
+        "note": "모두 12개월을 관측한 학습용 가상 자료이며 시청 횟수가 아니다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "시간별 건수의 변화는 나중 값에서 이전 값을 빼서 구한다. 결과가 양수이면 증가이고 음수이면 감소다. 이 그림에서 2023년은 100편, 2024년은 80편이므로 차이는 마이너스 20편이다. 같은 기간을 관측했는지도 함께 확인해야 비교가 공정하다. 이 변화는 카탈로그 등록 건수의 변화이지 시청자 수의 변화가 아니다.",
+        "steps": [
+          "가로축에서 비교할 두 시점인 2023년과 2024년을 찾는다.",
+          "세로축의 등록 건수 100편과 80편을 각각 읽는다.",
+          "나중 값 80에서 이전 값 100을 빼 20편 감소로 설명한다."
+        ],
+        "pitfall": "감소량을 말할 때 이전 값 전체를 감소량으로 적지 말고 두 시점의 차이를 구한다."
+      }
+    },
+    {
+      "id": "basic-nfx-017",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "Kaggle에서 Netflix CSV 파일 자체와 자료 설명을 찾고 싶다. 우선 살펴볼 영역은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Discussion만 보기",
+          "correct": false,
+          "explanation": "Discussion은 주로 질문과 의견을 나누는 영역이다."
+        },
+        {
+          "id": "o2",
+          "text": "Dataset",
+          "correct": true,
+          "explanation": "Dataset은 데이터 파일과 자료 설명을 제공하는 영역이다."
+        },
+        {
+          "id": "o3",
+          "text": "Competition 순위표만 보기",
+          "correct": false,
+          "explanation": "순위표는 대회 성적을 보여 주며 원하는 CSV의 설명을 대신하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "다른 사람의 그래프 이미지만 저장하기",
+          "correct": false,
+          "explanation": "이미지만으로 원본 파일과 열 설명을 확보할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "Kaggle에서는 데이터와 코드를 구분해서 찾는다. Dataset은 데이터 파일과 설명을 제공하고, Code 또는 Notebook은 다른 사람이 작성한 분석 코드를 보여 준다. 남의 그래프를 참고하는 것과 분석 입력 파일을 확보하는 것은 다르다. CSV를 받았다면 파일 버전, 행과 열 수, 열 이름을 확인한 뒤 자신의 환경에서 결과를 계산한다.",
+      "memoryTip": "파일은 Dataset, 실행 코드는 Notebook",
+      "additionalExample": "누군가 만든 막대그래프는 Notebook에서 참고하더라도 직접 계산하려면 그 분석에 사용한 CSV 파일이 필요하다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "Kaggle에서는 데이터와 코드를 구분해서 찾는다. Dataset은 데이터 파일과 설명을 제공하고, Code 또는 Notebook은 다른 사람이 작성한 분석 코드를 보여 준다. 남의 그래프를 참고하는 것과 분석 입력 파일을 확보하는 것은 다르다. CSV를 받았다면 파일 버전, 행과 열 수, 열 이름을 확인한 뒤 자신의 환경에서 결과를 계산한다.",
+        "steps": [
+          "필요한 것이 분석 결과 그림이 아니라 입력 CSV와 자료 설명인지 확인한다.",
+          "파일과 설명을 제공하는 Dataset 영역에서 적합한 자료를 찾는다.",
+          "내려받은 파일의 버전과 열 구성을 확인하고 분석을 시작한다."
+        ],
+        "pitfall": "Notebook의 결과 숫자를 읽은 것만으로 내가 가진 CSV도 같은 버전이라고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-018",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "release_year에 1998, 2005, 2021 같은 숫자가 있다. 이 열의 의미는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Netflix 이용자의 나이",
+          "correct": false,
+          "explanation": "이용자 나이는 이 작품 카탈로그의 열이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "Netflix 등록 횟수",
+          "correct": false,
+          "explanation": "등록 횟수를 세는 열이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "작품별 총매출",
+          "correct": false,
+          "explanation": "매출 정보가 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "작품이 처음 공개된 연도",
+          "correct": true,
+          "explanation": "release_year는 작품 최초 공개 연도다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19",
+        "web-c30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            15,
+            18
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "숫자로 저장된 열이라고 모두 금액이나 수량인 것은 아니다. release_year의 숫자는 작품이 처음 공개된 시간의 위치를 나타낸다. 이를 이용하면 공개 연도별 작품 구성을 볼 수 있다. Netflix에 등록된 시점은 date_added라는 다른 열에 있으므로 두 날짜의 의미를 분리해야 오래된 작품이 나중에 등록된 상황도 올바르게 읽을 수 있다.",
+      "memoryTip": "release_year = 최초 공개 연도",
+      "additionalExample": "2005년에 처음 공개된 영화가 2021년에 Netflix에 등록되면 공개 연도는 여전히 2005다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "숫자로 저장된 열이라고 모두 금액이나 수량인 것은 아니다. release_year의 숫자는 작품이 처음 공개된 시간의 위치를 나타낸다. 이를 이용하면 공개 연도별 작품 구성을 볼 수 있다. Netflix에 등록된 시점은 date_added라는 다른 열에 있으므로 두 날짜의 의미를 분리해야 오래된 작품이 나중에 등록된 상황도 올바르게 읽을 수 있다.",
+        "steps": [
+          "열 이름과 자료 사전에서 release_year가 기록하는 사건을 확인한다.",
+          "1998이나 2021을 횟수나 금액이 아니라 공개 연도로 읽는다.",
+          "Netflix 등록 시점을 묻는 질문에는 다른 열인 date_added를 사용한다."
+        ],
+        "pitfall": "최초 공개 연도가 오래되었다고 Netflix에도 그해 등록되었다고 단정하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-019",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "CSV를 읽은 뒤 df.shape의 결과가 (7787, 12)였다. 이 결과를 읽는 방법은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품마다 배우가 7,787명이고 감독이 12명이다.",
+          "correct": false,
+          "explanation": "shape는 배우나 감독 수가 아니라 표의 크기를 나타낸다."
+        },
+        {
+          "id": "o2",
+          "text": "7,787행과 12열이다.",
+          "correct": true,
+          "explanation": "첫 값은 행 수이고 둘째 값은 열 수다."
+        },
+        {
+          "id": "o3",
+          "text": "12행과 7,787열이다.",
+          "correct": false,
+          "explanation": "shape의 순서는 행 수, 열 수다."
+        },
+        {
+          "id": "o4",
+          "text": "결측이 7,787개이고 중복이 12개다.",
+          "correct": false,
+          "explanation": "결측과 중복은 별도 검사로 확인한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c22",
+        "n34-C20"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "데이터프레임의 shape는 표의 크기를 행 수와 열 수 순서로 알려 준다. 수업 고정본의 (7787, 12)는 작품을 기록한 7,787행과 속성을 담은 12열을 뜻한다. 이 결과만으로 결측 개수나 중복 개수까지 알 수는 없다. 파일을 제대로 읽었는지 먼저 크기를 확인하고 다음으로 열 이름과 실제 값을 살펴보는 출발점으로 사용한다.",
+      "memoryTip": "shape = (행 수, 열 수)",
+      "additionalExample": "작품 20개에 제목·유형·등급 세 열만 있는 표라면 shape는 (20, 3)으로 나타난다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "데이터프레임의 shape는 표의 크기를 행 수와 열 수 순서로 알려 준다. 수업 고정본의 (7787, 12)는 작품을 기록한 7,787행과 속성을 담은 12열을 뜻한다. 이 결과만으로 결측 개수나 중복 개수까지 알 수는 없다. 파일을 제대로 읽었는지 먼저 크기를 확인하고 다음으로 열 이름과 실제 값을 살펴보는 출발점으로 사용한다.",
+        "steps": [
+          "shape 결과의 첫 번째 숫자가 행 수라는 순서를 확인한다.",
+          "7,787은 작품 행 수이고 12는 속성 열 수로 해석한다.",
+          "결측과 중복 여부는 별도 검사 결과에서 확인한다."
+        ],
+        "pitfall": "행과 열의 수를 안다는 것만으로 모든 값이 정확하거나 결측이 없다고 보장되지는 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-020",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "팀이 description을 읽고 '실제 시청자 후기 모음'이라고 이름 붙였다. 이 열의 알맞은 이름은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품 소개문",
+          "correct": true,
+          "explanation": "description은 작품의 내용을 소개하는 글이다."
+        },
+        {
+          "id": "o2",
+          "text": "시청자별 재생 로그",
+          "correct": false,
+          "explanation": "개인의 재생 내역을 담은 열이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "이용자 별점 내역",
+          "correct": false,
+          "explanation": "사용자가 매긴 별점이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "가입 해지 이유",
+          "correct": false,
+          "explanation": "이용자의 가입·해지 자료가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19",
+        "web-c40"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            19
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "description은 카탈로그가 작품 내용을 소개하는 문장이다. 실제 이용자가 쓴 후기나 만족도 설문과는 자료의 출처와 목적이 다르다. 소개문에 자주 등장하는 소재를 탐색할 수는 있지만 그것만으로 이용자가 어떤 반응을 보였는지 알 수는 없다. 텍스트 분석에서도 먼저 누가 어떤 목적으로 작성한 글인지 확인해야 해석 범위를 정할 수 있다.",
+      "memoryTip": "description = 소개문, 후기 아님",
+      "additionalExample": "소개문에 '가족'이 많이 나온다면 가족 소재가 자주 소개된다는 뜻이지 가족 시청자의 만족도가 높다는 뜻은 아니다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "description은 카탈로그가 작품 내용을 소개하는 문장이다. 실제 이용자가 쓴 후기나 만족도 설문과는 자료의 출처와 목적이 다르다. 소개문에 자주 등장하는 소재를 탐색할 수는 있지만 그것만으로 이용자가 어떤 반응을 보였는지 알 수는 없다. 텍스트 분석에서도 먼저 누가 어떤 목적으로 작성한 글인지 확인해야 해석 범위를 정할 수 있다.",
+        "steps": [
+          "description이 이용자 후기인지 작품 안내 문구인지 자료 설명을 확인한다.",
+          "이 열의 문장은 작품을 소개하는 내용으로 분류한다.",
+          "표나 워드클라우드 제목에도 작품 소개문이라는 출처를 드러낸다."
+        ],
+        "pitfall": "작품에 관한 문장이라는 이유만으로 소개문을 시청자의 감상이나 반응으로 취급하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-021",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "type 열에 Movie와 TV Show가 몇 개씩 있는지 먼저 확인하려고 한다. 가장 직접적인 요약은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "소개문 전체를 한 문장으로 합치기",
+          "correct": false,
+          "explanation": "텍스트를 합쳐도 유형별 개수는 바로 알 수 없다."
+        },
+        {
+          "id": "o2",
+          "text": "show_id의 평균 계산",
+          "correct": false,
+          "explanation": "식별자 평균은 유형별 개수에 답하지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "유형별 빈도표",
+          "correct": true,
+          "explanation": "각 유형이 나타난 행 수를 세면 질문에 바로 답할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "등록 날짜를 모두 삭제하기",
+          "correct": false,
+          "explanation": "열을 지우는 것은 유형별 집계가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "n34-C22"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "빈도는 특정 값이 몇 번 나타났는지를 뜻한다. Movie와 TV Show처럼 이름으로 구분되는 범주의 개수를 묻는다면 각 범주에 속한 행 수를 세면 된다. 이 결과를 빈도표나 막대그래프로 나타낼 수 있다. 질문이 단순한 유형별 개수라면 복잡한 모델부터 만들 필요 없이 표의 기본 집계로 먼저 답을 확인한다.",
+      "memoryTip": "몇 개씩? → 빈도표",
+      "additionalExample": "rating에서 각 시청 등급이 몇 작품인지 궁금할 때도 등급별 빈도표를 같은 방식으로 만들 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "빈도는 특정 값이 몇 번 나타났는지를 뜻한다. Movie와 TV Show처럼 이름으로 구분되는 범주의 개수를 묻는다면 각 범주에 속한 행 수를 세면 된다. 이 결과를 빈도표나 막대그래프로 나타낼 수 있다. 질문이 단순한 유형별 개수라면 복잡한 모델부터 만들 필요 없이 표의 기본 집계로 먼저 답을 확인한다.",
+        "steps": [
+          "질문이 type이라는 범주의 개수를 묻고 있음을 확인한다.",
+          "Movie인 행과 TV Show인 행을 각각 세어 빈도표를 만든다.",
+          "집계 결과를 표나 막대로 보여 주며 작품 수라고 단위를 적는다."
+        ],
+        "pitfall": "식별자나 제목처럼 이번 질문과 관계없는 열의 평균을 계산해도 유형별 개수는 나오지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-022",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "영화 70분과 110분의 길이를 비교하는 표를 만든다. 이 표에 그대로 추가해도 단위가 맞는 값은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "영화 95 min",
+          "correct": true,
+          "explanation": "95 min은 같은 분 단위 영화 길이다."
+        },
+        {
+          "id": "o2",
+          "text": "TV 프로그램 5 Seasons",
+          "correct": false,
+          "explanation": "시즌 수는 분 단위 길이와 다르다."
+        },
+        {
+          "id": "o3",
+          "text": "시청 등급 TV-PG",
+          "correct": false,
+          "explanation": "시청 등급은 상영시간이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "등록 연도 2020",
+          "correct": false,
+          "explanation": "연도는 분 단위 상영시간과 다른 양이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c24",
+        "n34-C21"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "수치 비교와 평균 계산은 값의 단위가 같아야 의미가 있다. 70분과 110분을 모은 영화 길이 표에는 같은 분 단위 상영시간인 95분을 추가할 수 있다. TV의 시즌 수, 작품 등급, 등록 연도는 각각 다른 종류의 정보다. 숫자가 들어 있다는 이유로 한 열에 섞지 말고 대상과 단위를 함께 표시한다.",
+      "memoryTip": "같은 뜻·같은 단위끼리 비교",
+      "additionalExample": "거리 2km와 3km는 함께 평균 낼 수 있지만 여기에 4시간을 숫자 4로 넣어 평균 내면 안 되는 것과 같다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "수치 비교와 평균 계산은 값의 단위가 같아야 의미가 있다. 70분과 110분을 모은 영화 길이 표에는 같은 분 단위 상영시간인 95분을 추가할 수 있다. TV의 시즌 수, 작품 등급, 등록 연도는 각각 다른 종류의 정보다. 숫자가 들어 있다는 이유로 한 열에 섞지 말고 대상과 단위를 함께 표시한다.",
+        "steps": [
+          "이미 표에 들어 있는 두 값이 모두 영화 상영시간의 분 단위인지 확인한다.",
+          "선택지 중 같은 의미와 단위를 가진 영화 95 min을 찾는다.",
+          "시즌 수와 연도 등 다른 양은 해당 목적의 별도 표에서 다룬다."
+        ],
+        "pitfall": "숫자 5와 숫자 2020도 계산은 가능하지만 분 단위 영화 길이와 함께 요약하면 뜻이 없다."
+      }
+    },
+    {
+      "id": "basic-nfx-023",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "그림은 가상 영화 상영시간의 상자그림이다. 상자 안의 가운데 선에 표시된 100분은 무엇인가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품 수",
+          "correct": false,
+          "explanation": "세로축의 단위는 편수가 아니라 분이다."
+        },
+        {
+          "id": "o2",
+          "text": "가장 짧은 영화의 길이",
+          "correct": false,
+          "explanation": "이 그림에서 최솟값은 60분이다."
+        },
+        {
+          "id": "o3",
+          "text": "이용자 만족도",
+          "correct": false,
+          "explanation": "시청자 평가는 이 상자그림에 들어 있지 않다."
+        },
+        {
+          "id": "o4",
+          "text": "중앙값",
+          "correct": true,
+          "explanation": "상자 안의 선은 자료를 정렬했을 때 가운데 위치를 나타낸다."
+        }
+      ],
+      "conceptIds": [
+        "web-c28",
+        "n34-C24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "상자그림은 수치 자료의 가운데 위치와 퍼진 정도를 간단히 보여 준다. 상자 안에 그린 선은 중앙값이며, 데이터를 크기순으로 놓았을 때 가운데에 해당하는 값이다. 상자의 아래와 위는 각각 첫째·셋째 사분위수다. 그림을 읽을 때 이 선을 평균이나 작품 수로 읽지 않고 축의 단위인 분과 함께 해석한다.",
+      "memoryTip": "상자 안의 선 = 중앙값",
+      "additionalExample": "정렬한 영화 길이가 80·90·100·110·120분이면 가운데 값인 100분이 중앙값이 된다.",
+      "visual": {
+        "kind": "box",
+        "title": "가상 영화 상영시간의 다섯 수 요약",
+        "xLabel": "작품 집단",
+        "yLabel": "상영시간(분)",
+        "labels": [
+          "영화"
+        ],
+        "series": [
+          {
+            "name": "상영시간",
+            "values": [
+              60,
+              80,
+              100,
+              120,
+              160
+            ]
+          }
+        ],
+        "note": "학습용으로 수염 끝은 최솟값 60분과 최댓값 160분으로 정의한다. Q1=80분, 중앙값=100분, Q3=120분이다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "상자그림은 수치 자료의 가운데 위치와 퍼진 정도를 간단히 보여 준다. 상자 안에 그린 선은 중앙값이며, 데이터를 크기순으로 놓았을 때 가운데에 해당하는 값이다. 상자의 아래와 위는 각각 첫째·셋째 사분위수다. 그림을 읽을 때 이 선을 평균이나 작품 수로 읽지 않고 축의 단위인 분과 함께 해석한다.",
+        "steps": [
+          "세로축이 영화 상영시간의 분 단위인지 먼저 확인한다.",
+          "상자 안의 선에 표시된 100분을 중앙값으로 읽는다.",
+          "작품 개수나 별점이 아니라 길이 분포의 가운데 위치로 설명한다."
+        ],
+        "pitfall": "상자 안의 선은 기본적으로 중앙값이며 별도 표시가 없다면 평균이라고 읽지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-024",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "장르×시청 등급 히트맵에서 범례에 '색이 진할수록 해당 조합의 작품 관계 수가 많음'이라고 적혔다. 진한 칸을 읽는 방법은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "반드시 시청자의 별점이 높다.",
+          "correct": false,
+          "explanation": "색의 기준은 별점이 아니라 관계 수다."
+        },
+        {
+          "id": "o2",
+          "text": "반드시 영화의 길이가 길다.",
+          "correct": false,
+          "explanation": "길이를 그린 히트맵이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "그 장르와 등급 조합의 관계 수가 많다.",
+          "correct": true,
+          "explanation": "색의 의미는 범례에 명시한 집계 값에 따른다."
+        },
+        {
+          "id": "o4",
+          "text": "반드시 오류가 있다는 뜻이다.",
+          "correct": false,
+          "explanation": "진한 색은 범례에 정한 큰 값을 뜻한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c29",
+        "n34-C25"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "히트맵은 행과 열이 만나는 칸의 값을 색으로 표현한다. 같은 진한 색이라도 어떤 그림에서는 건수, 다른 그림에서는 비율이나 상관계수를 뜻할 수 있으므로 범례를 먼저 읽어야 한다. 이 문제는 색을 작품 관계 수에 연결했으므로 진한 칸은 해당 장르와 시청 등급 조합이 많이 기록되었다는 뜻이다.",
+      "memoryTip": "히트맵의 색 뜻은 범례에서",
+      "additionalExample": "다른 히트맵의 범례가 비율이라면 진한 칸은 많은 건수가 아니라 높은 비율을 나타낼 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "히트맵은 행과 열이 만나는 칸의 값을 색으로 표현한다. 같은 진한 색이라도 어떤 그림에서는 건수, 다른 그림에서는 비율이나 상관계수를 뜻할 수 있으므로 범례를 먼저 읽어야 한다. 이 문제는 색을 작품 관계 수에 연결했으므로 진한 칸은 해당 장르와 시청 등급 조합이 많이 기록되었다는 뜻이다.",
+        "steps": [
+          "히트맵의 행은 장르이고 열은 시청 등급임을 확인한다.",
+          "범례에서 색을 결정한 값이 작품 관계 수임을 읽는다.",
+          "진한 칸을 그 조합의 관계 수가 많은 것으로 설명한다."
+        ],
+        "pitfall": "진한 색을 무조건 높은 인기나 좋은 평가라고 생각하지 말고 범례의 지표를 확인한다."
+      }
+    },
+    {
+      "id": "basic-nfx-025",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "원본 CSV와 분석용 정제본을 함께 관리할 때 좋은 방법을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "변환 규칙을 코드나 기록으로 남긴다.",
+          "correct": true,
+          "explanation": "어떤 처리를 했는지 알아야 같은 결과를 다시 만들 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "결과가 보기 좋으면 원본을 삭제한다.",
+          "correct": false,
+          "explanation": "그림의 모양이 원본 삭제의 근거가 되지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "원본 값과 정제된 값을 필요할 때 비교한다.",
+          "correct": true,
+          "explanation": "변환이 의도대로 되었는지 점검할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "파일 이름만 다르면 처리 내용은 기록하지 않는다.",
+          "correct": false,
+          "explanation": "이름이 달라도 무엇을 바꿨는지 모르면 검증하기 어렵다."
+        }
+      ],
+      "conceptIds": [
+        "web-c21",
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            16
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "분석용 정제본은 원본에 특정 규칙을 적용해 만든 결과다. 두 파일을 분리해 보관하는 것뿐 아니라 공백을 어떻게 없앴는지, 어떤 결측을 제외했는지 같은 변환 규칙도 남겨야 한다. 원본과 정제본을 비교하면 의도하지 않은 값 변화나 행 삭제를 발견할 수 있다. 좋은 데이터 관리는 저장과 검증 기록을 함께 포함한다.",
+      "memoryTip": "두 파일 + 변환 규칙 + 전후 확인",
+      "additionalExample": "날짜 공백을 제거했다면 어떤 열에 적용했는지 기록하고 몇 행의 원문·결과를 비교해 잘못 잘리지 않았는지 본다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "분석용 정제본은 원본에 특정 규칙을 적용해 만든 결과다. 두 파일을 분리해 보관하는 것뿐 아니라 공백을 어떻게 없앴는지, 어떤 결측을 제외했는지 같은 변환 규칙도 남겨야 한다. 원본과 정제본을 비교하면 의도하지 않은 값 변화나 행 삭제를 발견할 수 있다. 좋은 데이터 관리는 저장과 검증 기록을 함께 포함한다.",
+        "steps": [
+          "변경하지 않은 원본을 따로 보관하고 정제 규칙을 정리한다.",
+          "그 규칙을 적용한 코드나 처리 기록을 정제본과 함께 남긴다.",
+          "일부 원본 값과 처리 후 값을 비교해 예상한 변화인지 확인한다."
+        ],
+        "pitfall": "파일 이름을 raw와 clean으로 나눈 것만으로 처리 과정의 재현성과 정확성이 보장되지는 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-026",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "가상 선그래프의 가로축은 등록 월, 세로축은 해당 월의 등록 작품 수다. 이 그림이 답하기에 가장 알맞은 질문은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "등록 작품 수가 월별로 어떻게 변했는가?",
+          "correct": true,
+          "explanation": "시간 순서에 따른 등록 건수의 추이를 읽을 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "배우별 출연료가 얼마인가?",
+          "correct": false,
+          "explanation": "출연료가 축이나 자료에 없다."
+        },
+        {
+          "id": "o3",
+          "text": "어떤 작품의 별점이 가장 높은가?",
+          "correct": false,
+          "explanation": "작품별 평점을 보여 주지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "제작 국가 사이의 거리는 얼마인가?",
+          "correct": false,
+          "explanation": "위치나 거리 자료가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c30",
+        "web-c31"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "선그래프는 순서가 있는 시간축을 따라 값이 어떻게 변하는지 살펴보기에 알맞다. 등록 월별 작품 수를 연결했다면 어느 달에 건수가 늘거나 줄었는지 읽는다. 이 그림의 한 점은 한 작품이 아니라 한 달의 집계값이다. 질문이 그래프와 맞는지 확인하려면 시간 단위와 세로축 지표를 문장 안에 함께 넣어 본다.",
+      "memoryTip": "선그래프 = 시간에 따른 변화",
+      "additionalExample": "일별 접속 건수를 연결한 선은 하루하루 접속량이 어떻게 달라졌는지 보여 주며 개별 접속자의 신원을 보여 주지는 않는다.",
+      "visual": {
+        "kind": "line",
+        "title": "가상 월별 Netflix 등록 작품 수",
+        "xLabel": "등록 월",
+        "yLabel": "등록 작품 수(편)",
+        "labels": [
+          "1월",
+          "2월",
+          "3월"
+        ],
+        "series": [
+          {
+            "name": "월별 등록 건수",
+            "values": [
+              10,
+              18,
+              14
+            ]
+          }
+        ],
+        "note": "같은 해의 완전한 세 달을 관측한 학습용 가상 자료다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "선그래프는 순서가 있는 시간축을 따라 값이 어떻게 변하는지 살펴보기에 알맞다. 등록 월별 작품 수를 연결했다면 어느 달에 건수가 늘거나 줄었는지 읽는다. 이 그림의 한 점은 한 작품이 아니라 한 달의 집계값이다. 질문이 그래프와 맞는지 확인하려면 시간 단위와 세로축 지표를 문장 안에 함께 넣어 본다.",
+        "steps": [
+          "가로축이 1월·2월·3월이라는 시간 순서임을 확인한다.",
+          "세로축이 매달 카탈로그에 등록된 작품 수임을 확인한다.",
+          "따라서 월별 등록 건수의 변화라는 질문과 그림을 연결한다."
+        ],
+        "pitfall": "선그래프의 점 하나를 작품 한 편으로 읽지 말고 해당 시간 단위의 집계값으로 읽는다."
+      }
+    },
+    {
+      "id": "basic-nfx-027",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "listed_in='Dramas, Comedies'를 장르별 집계에 쓰려고 한다. 올바른 처리를 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "문자열 전체를 반드시 하나의 장르 이름으로 센다.",
+          "correct": false,
+          "explanation": "드라마와 코미디 두 장르를 따로 세려는 목적에 맞지 않는다."
+        },
+        {
+          "id": "o2",
+          "text": "쉼표를 기준으로 두 장르를 나눈다.",
+          "correct": true,
+          "explanation": "한 셀의 다중 값을 개별 장르로 분리한다."
+        },
+        {
+          "id": "o3",
+          "text": "' Comedies'의 앞쪽 공백을 정리한다.",
+          "correct": true,
+          "explanation": "같은 장르가 공백 차이 때문에 다른 이름으로 집계되지 않게 한다."
+        },
+        {
+          "id": "o4",
+          "text": "장르 두 개를 만들었으므로 show_id를 지운다.",
+          "correct": false,
+          "explanation": "어떤 작품의 장르인지 알 수 있도록 식별자를 유지한다."
+        }
+      ],
+      "conceptIds": [
+        "web-c25",
+        "n34-C21"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "쉼표로 여러 장르가 적힌 셀은 장르별 집계를 위해 나누고 펼칠 수 있다. split은 문자열을 항목 목록으로 나누고 explode는 그 목록을 행으로 펼치는 데 쓸 수 있다. 각 항목의 앞뒤 공백도 정리해야 같은 이름을 같은 장르로 센다. 펼친 뒤에도 작품 식별자를 남겨 장르 관계와 원본 작품을 연결한다.",
+      "memoryTip": "나누기 → 공백 정리 → 작품 ID 유지",
+      "additionalExample": "country가 'Korea, Japan'이라면 같은 원리로 두 국가를 나누고 각 국가와 원래 작품의 관계를 유지할 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "쉼표로 여러 장르가 적힌 셀은 장르별 집계를 위해 나누고 펼칠 수 있다. split은 문자열을 항목 목록으로 나누고 explode는 그 목록을 행으로 펼치는 데 쓸 수 있다. 각 항목의 앞뒤 공백도 정리해야 같은 이름을 같은 장르로 센다. 펼친 뒤에도 작품 식별자를 남겨 장르 관계와 원본 작품을 연결한다.",
+        "steps": [
+          "쉼표가 장르를 구분하는 기준인지 실제 셀을 먼저 확인한다.",
+          "Dramas와 Comedies로 나누고 각 이름의 앞뒤 공백을 정리한다.",
+          "각 장르에 원래 show_id를 붙여 장르별 집계에 사용한다."
+        ],
+        "pitfall": "분리 후 앞쪽 공백을 그대로 두면 Comedies와 공백이 붙은 Comedies가 다른 범주가 될 수 있다."
+      }
+    },
+    {
+      "id": "basic-nfx-028",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "network-text",
+        "evidence": "lecture",
+        "focusIds": [
+          "network-text"
+        ]
+      },
+      "prompt": "네트워크 설명에 '배우는 노드, 공동 출연은 간선'이라고 적혔다. 노드와 간선의 역할을 알맞게 연결한 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "노드는 관계, 간선은 대상",
+          "correct": false,
+          "explanation": "이 문항에서는 노드가 배우라는 대상이고 간선이 관계다."
+        },
+        {
+          "id": "o2",
+          "text": "노드는 날짜, 간선은 평균값",
+          "correct": false,
+          "explanation": "네트워크의 기본 역할을 설명한 문장이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "노드는 대상, 간선은 대상 사이의 관계",
+          "correct": true,
+          "explanation": "점으로 대상을, 연결선으로 정의한 관계를 나타낸다."
+        },
+        {
+          "id": "o4",
+          "text": "노드는 오답, 간선은 정답",
+          "correct": false,
+          "explanation": "문제의 정오 여부를 표시하는 요소가 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c35",
+        "n34-C29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "네트워크는 여러 대상과 그 사이의 관계를 표현하는 방식이다. 노드는 대상에 해당하는 점이고 간선은 두 대상 사이에 정한 관계를 나타내는 선이다. 배우 네트워크에서는 배우를 노드로, 공동 출연을 간선으로 정할 수 있다. 다른 분석에서는 노드와 관계의 의미가 달라질 수 있으므로 정의를 먼저 읽는 습관이 중요하다.",
+      "memoryTip": "노드 = 대상, 간선 = 관계",
+      "additionalExample": "웹페이지 연결망에서는 웹페이지를 노드로 두고 페이지 사이의 링크를 간선으로 정할 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "네트워크는 여러 대상과 그 사이의 관계를 표현하는 방식이다. 노드는 대상에 해당하는 점이고 간선은 두 대상 사이에 정한 관계를 나타내는 선이다. 배우 네트워크에서는 배우를 노드로, 공동 출연을 간선으로 정할 수 있다. 다른 분석에서는 노드와 관계의 의미가 달라질 수 있으므로 정의를 먼저 읽는 습관이 중요하다.",
+        "steps": [
+          "네트워크의 대상이 누구인지 읽어 배우를 노드로 대응시킨다.",
+          "어떤 기준으로 대상을 연결했는지 읽어 공동 출연을 간선으로 대응시킨다.",
+          "노드는 대상이고 간선은 관계라는 기본 역할을 정리한다."
+        ],
+        "pitfall": "노드와 간선이 항상 배우와 공동 출연을 뜻하는 것은 아니며 분석마다 정의가 달라질 수 있다."
+      }
+    },
+    {
+      "id": "basic-nfx-029",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "recommendation",
+        "evidence": "lecture",
+        "focusIds": [
+          "recommendations"
+        ]
+      },
+      "prompt": "추천 방식과 주로 사용하는 자료를 알맞게 짝지은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "콘텐츠 기반 — 장르·줄거리 같은 작품 특징",
+          "correct": true,
+          "explanation": "콘텐츠 기반은 아이템 자체의 특징을 비교한다."
+        },
+        {
+          "id": "o2",
+          "text": "아이템 기반 협업 필터링 — 여러 이용자의 평가·선택 기록",
+          "correct": true,
+          "explanation": "공통 행동 자료에서 아이템 사이의 관계를 구한다."
+        },
+        {
+          "id": "o3",
+          "text": "콘텐츠 기반 — 반드시 다른 이용자의 공동 평가만 사용",
+          "correct": false,
+          "explanation": "그 설명은 협업 필터링의 자료 근거에 가깝다."
+        },
+        {
+          "id": "o4",
+          "text": "아이템 기반 협업 필터링 — 반드시 줄거리 단어만 사용",
+          "correct": false,
+          "explanation": "줄거리 특징만 비교하는 방식은 콘텐츠 기반이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c37",
+        "web-c38"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "추천 방식을 구분할 때는 추천 목록 모양보다 유사성의 근거를 본다. 콘텐츠 기반은 장르나 소개문 같은 아이템 특징에서 비슷함을 찾는다. 아이템 기반 협업 필터링은 여러 이용자의 공통 시청, 선택, 평점 같은 행동에서 아이템 간 관계를 찾는다. 둘 다 작품을 추천할 수 있지만 필요한 입력 자료가 다르다.",
+      "memoryTip": "내용의 닮음 vs 이용자 행동의 닮음",
+      "additionalExample": "줄거리가 비슷해서 추천하면 콘텐츠 기반이고 같은 사람들이 함께 높게 평가해서 추천하면 아이템 기반 협업 방식이다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "추천 방식을 구분할 때는 추천 목록 모양보다 유사성의 근거를 본다. 콘텐츠 기반은 장르나 소개문 같은 아이템 특징에서 비슷함을 찾는다. 아이템 기반 협업 필터링은 여러 이용자의 공통 시청, 선택, 평점 같은 행동에서 아이템 간 관계를 찾는다. 둘 다 작품을 추천할 수 있지만 필요한 입력 자료가 다르다.",
+        "steps": [
+          "콘텐츠 기반에서 비교하는 것이 장르와 줄거리 같은 특징임을 확인한다.",
+          "아이템 기반 협업 필터링에서는 여러 이용자의 행동 기록을 확인한다.",
+          "작품 내용과 공동 행동이라는 서로 다른 자료 근거로 두 방식을 나눈다."
+        ],
+        "pitfall": "두 추천기가 같은 작품을 골랐다는 이유만으로 두 방식이 같다고 판단하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-030",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "가상 히스토그램에서 영화가 가장 많이 모인 상영시간 구간은 어디인가? 각 구간은 왼쪽 값을 포함하고 오른쪽 값을 제외한다.",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "30분 이상 60분 미만",
+          "correct": false,
+          "explanation": "이 구간의 영화는 1편이다."
+        },
+        {
+          "id": "o2",
+          "text": "60분 이상 90분 미만",
+          "correct": true,
+          "explanation": "이 구간의 막대가 9편으로 가장 높다."
+        },
+        {
+          "id": "o3",
+          "text": "120분 이상 150분 미만",
+          "correct": false,
+          "explanation": "이 구간의 영화는 2편이다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 구간의 작품 수가 같다.",
+          "correct": false,
+          "explanation": "막대 높이는 1·9·4·2편으로 서로 다르다."
+        }
+      ],
+      "conceptIds": [
+        "web-c27",
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "히스토그램에서 막대 높이는 그 수치 구간에 속한 자료의 수다. 따라서 가장 높은 막대를 찾으면 자료가 가장 많이 모인 구간을 알 수 있다. 구간 이름은 범위를 뜻하므로 정확한 한 작품의 길이를 말하는 것은 아니다. 60분 이상 90분 미만이라는 표기는 60분은 포함하고 90분은 다음 구간에 넣는다는 뜻이다.",
+      "memoryTip": "히스토그램 최고 막대 = 가장 많은 구간",
+      "additionalExample": "시험 점수 히스토그램에서 80점 이상 90점 미만 막대가 가장 높으면 그 점수 범위의 학생이 가장 많다는 뜻이다.",
+      "visual": {
+        "kind": "histogram",
+        "title": "가상 영화 길이의 구간별 작품 수",
+        "xLabel": "영화 길이(분)",
+        "yLabel": "작품 수(편)",
+        "labels": [
+          "30 이상 60 미만",
+          "60 이상 90 미만",
+          "90 이상 120 미만",
+          "120 이상 150 미만"
+        ],
+        "series": [
+          {
+            "name": "영화 수",
+            "values": [
+              1,
+              9,
+              4,
+              2
+            ]
+          }
+        ],
+        "note": "모든 구간은 시작값을 포함하고 끝값을 포함하지 않는다. 학습용 가상 자료다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "히스토그램에서 막대 높이는 그 수치 구간에 속한 자료의 수다. 따라서 가장 높은 막대를 찾으면 자료가 가장 많이 모인 구간을 알 수 있다. 구간 이름은 범위를 뜻하므로 정확한 한 작품의 길이를 말하는 것은 아니다. 60분 이상 90분 미만이라는 표기는 60분은 포함하고 90분은 다음 구간에 넣는다는 뜻이다.",
+        "steps": [
+          "가로축의 상영시간 구간과 세로축의 영화 수를 확인한다.",
+          "네 막대의 높이 1·9·4·2편 중 가장 큰 9편을 찾는다.",
+          "그 막대에 적힌 60분 이상 90분 미만을 답으로 고른다."
+        ],
+        "pitfall": "가장 높은 구간을 안다고 그 안의 영화 길이가 모두 똑같거나 평균이 구간 중간값이라고 알 수는 없다."
+      }
+    },
+    {
+      "id": "basic-nfx-031",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "감독 누락값을 Unknown으로 표시했다. 이 값의 뜻을 설명한 문장 중 옳은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Unknown이라는 실제 감독이 새로 확인되었다.",
+          "correct": false,
+          "explanation": "이 표시는 감독을 새로 찾아낸 결과가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "감독 정보를 알 수 없다는 표시다.",
+          "correct": true,
+          "explanation": "Unknown은 실제 인물이 아니라 미상을 나타내는 값이다."
+        },
+        {
+          "id": "o3",
+          "text": "감독 순위에 넣을 때 미상임을 구분해야 한다.",
+          "correct": true,
+          "explanation": "미상을 실제 감독의 실적으로 해석하지 않도록 따로 처리한다."
+        },
+        {
+          "id": "o4",
+          "text": "감독 누락의 원인이 모두 해결되었다.",
+          "correct": false,
+          "explanation": "표시를 채웠을 뿐 빠진 실제 정보를 알아낸 것은 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c23",
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "Unknown으로 채우기는 비어 있는 값을 미상이라는 표시로 바꾸는 일이다. 실제 감독의 이름을 알아낸 것은 아니며 결측의 원인이 사라진 것도 아니다. 감독별 순위를 만들 때 이 표시가 여러 작품에서 반복되면 한 명의 감독이 많은 작품을 만든 것처럼 보일 수 있다. 따라서 미상 범주를 별도로 표시하거나 집계 목적에 맞게 제외한다.",
+      "memoryTip": "Unknown은 새 정보가 아니라 미상 표시",
+      "additionalExample": "국가 누락을 Unknown으로 채웠다면 Unknown을 실제 제작 국가 중 하나로 지도에 표시하면 안 된다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "Unknown으로 채우기는 비어 있는 값을 미상이라는 표시로 바꾸는 일이다. 실제 감독의 이름을 알아낸 것은 아니며 결측의 원인이 사라진 것도 아니다. 감독별 순위를 만들 때 이 표시가 여러 작품에서 반복되면 한 명의 감독이 많은 작품을 만든 것처럼 보일 수 있다. 따라서 미상 범주를 별도로 표시하거나 집계 목적에 맞게 제외한다.",
+        "steps": [
+          "Unknown이 실제 인명인지 결측 표시인지 처리 규칙을 확인한다.",
+          "이 값은 감독을 알 수 없다는 뜻이라고 해석한다.",
+          "감독 순위에서는 실제 감독과 미상 범주를 구분해 제시한다."
+        ],
+        "pitfall": "빈칸을 문자열로 채워 isna 결과가 줄었다고 실제 감독 정보가 새로 생긴 것은 아니다."
+      }
+    },
+    {
+      "id": "basic-nfx-032",
+      "finalExamId": "final-05",
+      "finalReview": {
+        "topicId": "recommendation",
+        "evidence": "lecture",
+        "focusIds": [
+          "recommendations"
+        ]
+      },
+      "prompt": "여러 이용자의 작품 평가 기록에서 '같이 높은 평가를 받는 작품 쌍'을 찾았다. 이를 이용해 작품을 추천하는 방식은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "줄거리만 이용한 콘텐츠 기반 추천",
+          "correct": false,
+          "explanation": "제시된 입력은 줄거리가 아니라 여러 이용자의 평가 기록이다."
+        },
+        {
+          "id": "o2",
+          "text": "원본 CSV의 글자 수 세기",
+          "correct": false,
+          "explanation": "평가 패턴으로 작품 관계를 찾는 분석이다."
+        },
+        {
+          "id": "o3",
+          "text": "시청 등급별 단순 건수 집계",
+          "correct": false,
+          "explanation": "등급의 빈도가 아니라 사용자 평가의 공통 패턴을 사용했다."
+        },
+        {
+          "id": "o4",
+          "text": "아이템 기반 협업 필터링",
+          "correct": true,
+          "explanation": "여러 이용자의 평가에서 아이템 사이의 관계를 찾는다."
+        }
+      ],
+      "conceptIds": [
+        "web-c38",
+        "n34-C32"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "아이템 기반 협업 필터링은 여러 이용자의 행동 자료를 이용해 아이템 사이의 관계를 찾는다. 사람들이 어떤 작품들을 함께 높게 평가하거나 함께 선택하는지가 단서가 된다. 이때 비교하는 대상은 작품이지만 근거는 작품 줄거리가 아니라 이용자 행동이다. 작품의 특징을 비교하는 콘텐츠 기반과 입력 자료의 차이를 중심으로 구분한다.",
+      "memoryTip": "여러 이용자의 공통 평가 → 아이템 협업",
+      "additionalExample": "A와 B를 함께 좋아한 이용자가 많다는 기록을 이용해 A를 좋아한 사람에게 B를 추천하는 경우가 이에 해당한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "아이템 기반 협업 필터링은 여러 이용자의 행동 자료를 이용해 아이템 사이의 관계를 찾는다. 사람들이 어떤 작품들을 함께 높게 평가하거나 함께 선택하는지가 단서가 된다. 이때 비교하는 대상은 작품이지만 근거는 작품 줄거리가 아니라 이용자 행동이다. 작품의 특징을 비교하는 콘텐츠 기반과 입력 자료의 차이를 중심으로 구분한다.",
+        "steps": [
+          "작품 관계를 찾는 데 여러 이용자의 평가 기록을 사용했는지 확인한다.",
+          "함께 높은 평가를 받는 패턴에서 작품 간 유사성을 구했음을 읽는다.",
+          "공동 평가를 근거로 한 아이템 기반 협업 필터링으로 분류한다."
+        ],
+        "pitfall": "작품과 작품을 비교한다고 모두 콘텐츠 기반은 아니며 비교에 사용한 자료가 무엇인지 본다."
+      }
+    },
+    {
+      "id": "basic-nfx-033",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "처음 받은 Netflix CSV를 잘 모르는 상태다. EDA를 시작하는 행동으로 가장 알맞은 것은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "자료를 읽기 전에 분석 결론을 확정한다.",
+          "correct": false,
+          "explanation": "관찰하지 않은 결과를 먼저 확정하면 근거가 없다."
+        },
+        {
+          "id": "o2",
+          "text": "그래프의 색부터 최종 결정하고 값은 보지 않는다.",
+          "correct": false,
+          "explanation": "값과 의미를 살펴야 그래프도 제대로 해석할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "이름이 낯선 열을 모두 즉시 삭제한다.",
+          "correct": false,
+          "explanation": "열의 역할을 확인하지 않고 삭제하면 필요한 정보를 잃을 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "열과 값, 결측, 분포를 살펴 자료의 특징을 파악한다.",
+          "correct": true,
+          "explanation": "EDA는 자료의 구조와 분포·관계를 탐색하는 과정이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c22",
+        "n34-C22"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            16,
+            19
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "EDA는 탐색적 데이터 분석을 뜻하며 데이터가 어떻게 생겼는지 알아보는 과정이다. 행과 열의 의미, 비어 있는 값, 범주별 개수, 수치의 분포 등을 살펴 질문을 더 분명하게 만든다. 처음부터 거창한 모델을 만드는 것만이 분석은 아니다. 자료를 관찰하면서 예상과 다른 점을 찾고 다음에 확인할 질문을 정하는 것이 중요하다.",
+      "memoryTip": "EDA = 먼저 살펴보고 질문을 다듬기",
+      "additionalExample": "영화 길이 분포에 매우 긴 작품이 보이면 곧장 삭제하기보다 실제 값인지 다시 확인할 질문을 만들 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "EDA는 탐색적 데이터 분석을 뜻하며 데이터가 어떻게 생겼는지 알아보는 과정이다. 행과 열의 의미, 비어 있는 값, 범주별 개수, 수치의 분포 등을 살펴 질문을 더 분명하게 만든다. 처음부터 거창한 모델을 만드는 것만이 분석은 아니다. 자료를 관찰하면서 예상과 다른 점을 찾고 다음에 확인할 질문을 정하는 것이 중요하다.",
+        "steps": [
+          "표의 크기와 열 이름을 확인해 어떤 정보가 있는지 파악한다.",
+          "몇 행을 읽고 결측이나 범주별 개수 같은 기본 특징을 살핀다.",
+          "관찰한 사실을 바탕으로 비교할 변수와 다음 질문을 정한다."
+        ],
+        "pitfall": "EDA는 보기 좋은 차트를 많이 그리는 일만이 아니라 값의 의미와 품질을 이해하는 과정이다."
+      }
+    },
+    {
+      "id": "basic-nfx-034",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "'이 작품에 누가 출연했나?'에 답하려고 한다. 우선 읽을 열은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "rating",
+          "correct": false,
+          "explanation": "rating은 시청 등급이다."
+        },
+        {
+          "id": "o2",
+          "text": "release_year",
+          "correct": false,
+          "explanation": "release_year는 최초 공개 연도다."
+        },
+        {
+          "id": "o3",
+          "text": "cast",
+          "correct": true,
+          "explanation": "cast는 작품의 출연진을 기록한다."
+        },
+        {
+          "id": "o4",
+          "text": "duration",
+          "correct": false,
+          "explanation": "duration은 영화 길이나 시즌 수다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19",
+        "web-c25"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            14,
+            15,
+            16
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "컬럼은 표에서 대상의 특정 속성을 담은 열이다. 질문에 필요한 속성이 무엇인지 먼저 정하면 필요한 열을 쉽게 찾을 수 있다. Netflix 자료에서 cast는 출연진, director는 감독, title은 작품명이다. 한 작품에 배우가 여러 명이면 cast 한 셀에 여러 이름이 들어갈 수 있으므로 배우별 집계에서는 이를 따로 나누어 다룬다.",
+      "memoryTip": "누가 출연? → cast",
+      "additionalExample": "누가 연출했는지 궁금하면 director를, 누가 출연했는지 궁금하면 cast를 확인하는 식으로 질문과 열을 연결한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "컬럼은 표에서 대상의 특정 속성을 담은 열이다. 질문에 필요한 속성이 무엇인지 먼저 정하면 필요한 열을 쉽게 찾을 수 있다. Netflix 자료에서 cast는 출연진, director는 감독, title은 작품명이다. 한 작품에 배우가 여러 명이면 cast 한 셀에 여러 이름이 들어갈 수 있으므로 배우별 집계에서는 이를 따로 나누어 다룬다.",
+        "steps": [
+          "질문에서 묻는 대상이 감독이 아니라 출연진인지 확인한다.",
+          "자료 사전에서 출연진을 담은 cast 열을 찾는다.",
+          "한 셀에 여러 배우가 있을 수 있음을 고려하며 실제 값을 읽는다."
+        ],
+        "pitfall": "영화에 참여한 사람이라는 공통점이 있어도 감독 열과 배우 열의 역할은 다르다."
+      }
+    },
+    {
+      "id": "basic-nfx-035",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "'제작 국가별로 작품의 최초 공개 연도가 어떻게 분포하는가?'를 보려 한다. 필요한 열 묶음은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "country와 release_year",
+          "correct": true,
+          "explanation": "제작 국가와 최초 공개 연도를 함께 담은 열이다."
+        },
+        {
+          "id": "o2",
+          "text": "rating과 description",
+          "correct": false,
+          "explanation": "시청 등급과 소개문으로 국가별 공개 연도를 바로 집계할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "cast와 duration",
+          "correct": false,
+          "explanation": "배우와 길이는 질문의 두 기준이 아니다."
+        },
+        {
+          "id": "o4",
+          "text": "show_id만",
+          "correct": false,
+          "explanation": "식별자만으로 국가와 공개 연도를 알 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c20",
+        "web-c30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            19
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "복합 질문도 먼저 문장을 나누면 필요한 열을 찾기 쉬워진다. 이 질문의 집단 기준은 제작 국가이고 살펴볼 시간 정보는 최초 공개 연도다. 따라서 country와 release_year를 연결해야 한다. 국가가 여러 개 적힌 작품은 다중 국가 처리 기준을 따로 정할 수 있지만, 기본적으로 어느 두 열이 필요한지 확인하는 것이 출발점이다.",
+      "memoryTip": "질문의 명사를 열 이름에 연결",
+      "additionalExample": "국가별 등록 연도 분포를 묻는다면 country는 그대로 쓰되 공개 연도 대신 date_added에서 만든 등록 연도를 사용한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "복합 질문도 먼저 문장을 나누면 필요한 열을 찾기 쉬워진다. 이 질문의 집단 기준은 제작 국가이고 살펴볼 시간 정보는 최초 공개 연도다. 따라서 country와 release_year를 연결해야 한다. 국가가 여러 개 적힌 작품은 다중 국가 처리 기준을 따로 정할 수 있지만, 기본적으로 어느 두 열이 필요한지 확인하는 것이 출발점이다.",
+        "steps": [
+          "문장에서 집단을 나누는 표현인 제작 국가별을 먼저 찾는다.",
+          "비교할 속성인 최초 공개 연도에 release_year를 대응시킨다.",
+          "country와 release_year 두 열을 함께 읽는 분석으로 정한다."
+        ],
+        "pitfall": "연도라는 말만 보고 date_added를 고르지 말고 최초 공개인지 Netflix 등록인지 확인한다."
+      }
+    },
+    {
+      "id": "basic-nfx-036",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "Movie의 duration 값 '100 min'을 상영시간 계산에 쓰려고 한다. 적절한 분석용 값은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "작품 제목을 숫자 100으로 바꾼다.",
+          "correct": false,
+          "explanation": "제목이 아니라 duration을 처리하는 작업이다."
+        },
+        {
+          "id": "o2",
+          "text": "시청 등급 100점으로 바꾼다.",
+          "correct": false,
+          "explanation": "상영시간과 평가 점수는 다른 정보다."
+        },
+        {
+          "id": "o3",
+          "text": "숫자 100과 단위 min을 구분해 보관한다.",
+          "correct": true,
+          "explanation": "숫자는 계산에 쓰고 단위는 의미 확인에 사용한다."
+        },
+        {
+          "id": "o4",
+          "text": "100시즌으로 기록한다.",
+          "correct": false,
+          "explanation": "원문 단위는 시즌이 아니라 분이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c24",
+        "n34-C21"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            16
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "문자열에는 숫자와 단위가 함께 들어갈 수 있다. 100 min은 상영시간 100분이라는 뜻이므로 계산용 숫자 100을 만들고 단위 min도 보존한다. 이때 작품 유형이 Movie인지 확인하면 분과 시즌을 잘못 섞는 일을 줄일 수 있다. 원문도 남겨 두면 숫자 추출이 제대로 되었는지 검증하고 다른 규칙으로 다시 처리할 수 있다.",
+      "memoryTip": "숫자는 계산용, 단위는 의미 확인용",
+      "additionalExample": "원문이 85 min인 영화는 값 85·단위 min으로 나누고 TV 3 Seasons는 값 3·단위 Seasons로 따로 남긴다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "문자열에는 숫자와 단위가 함께 들어갈 수 있다. 100 min은 상영시간 100분이라는 뜻이므로 계산용 숫자 100을 만들고 단위 min도 보존한다. 이때 작품 유형이 Movie인지 확인하면 분과 시즌을 잘못 섞는 일을 줄일 수 있다. 원문도 남겨 두면 숫자 추출이 제대로 되었는지 검증하고 다른 규칙으로 다시 처리할 수 있다.",
+        "steps": [
+          "duration 원문이 100 min이고 작품 유형이 Movie인지 확인한다.",
+          "계산에 쓸 숫자 100과 의미를 나타내는 단위 min을 나눈다.",
+          "원문과 분석용 값을 함께 보며 올바르게 변환됐는지 확인한다."
+        ],
+        "pitfall": "숫자 100만 남기고 모든 단위를 버리면 나중에 분인지 시즌인지 다시 구분하기 어려워진다."
+      }
+    },
+    {
+      "id": "basic-nfx-037",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "가상 표의 모든 작품을 Movie와 TV Show로 나눈 막대그래프다. 전체 작품 수는 몇 편인가?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "10편",
+          "correct": false,
+          "explanation": "10은 두 유형의 차이이며 전체 합이 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "50편",
+          "correct": true,
+          "explanation": "Movie 20편과 TV Show 30편을 더하면 50편이다."
+        },
+        {
+          "id": "o3",
+          "text": "20편",
+          "correct": false,
+          "explanation": "Movie만 센 값이다."
+        },
+        {
+          "id": "o4",
+          "text": "30편",
+          "correct": false,
+          "explanation": "TV Show만 센 값이다."
+        }
+      ],
+      "conceptIds": [
+        "web-c26",
+        "web-c27"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "서로 겹치지 않는 범주가 전체를 빠짐없이 나누면 전체 개수는 각 범주의 개수를 더해 구한다. 이 그림에서는 모든 작품이 Movie 또는 TV Show 중 하나에 속한다고 정했으므로 20편과 30편을 합하면 된다. 이 합은 비율을 계산할 때 전체 분모로도 쓰인다. 여러 장르가 중첩되는 경우와는 조건이 다르다는 점을 확인한다.",
+      "memoryTip": "겹치지 않고 전체를 나누면 합계가 전체",
+      "additionalExample": "전체 50편 중 Movie가 20편이면 Movie 비율은 20÷50×100=40%로 이어서 계산할 수 있다.",
+      "visual": {
+        "kind": "bar",
+        "title": "가상 카탈로그의 전체 유형 구성",
+        "xLabel": "작품 유형",
+        "yLabel": "작품 수(편)",
+        "labels": [
+          "Movie",
+          "TV Show"
+        ],
+        "series": [
+          {
+            "name": "작품 수",
+            "values": [
+              20,
+              30
+            ]
+          }
+        ],
+        "note": "모든 작품은 두 유형 중 하나에만 속하며 유형 결측은 없다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "서로 겹치지 않는 범주가 전체를 빠짐없이 나누면 전체 개수는 각 범주의 개수를 더해 구한다. 이 그림에서는 모든 작품이 Movie 또는 TV Show 중 하나에 속한다고 정했으므로 20편과 30편을 합하면 된다. 이 합은 비율을 계산할 때 전체 분모로도 쓰인다. 여러 장르가 중첩되는 경우와는 조건이 다르다는 점을 확인한다.",
+        "steps": [
+          "모든 작품이 두 유형 중 하나에만 속한다는 조건을 확인한다.",
+          "막대에서 Movie 20편과 TV Show 30편을 각각 읽는다.",
+          "두 범주의 개수를 더해 전체가 50편이라고 계산한다."
+        ],
+        "pitfall": "유형처럼 겹치지 않는 분류의 합과 한 작품이 여러 번 포함되는 장르 합을 같은 조건으로 보지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-038",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "가상 상자그림에서 상자는 Q1=80분부터 Q3=120분까지다. 상자 부분이 요약하는 범위는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "모든 영화가 반드시 들어 있는 전체 범위",
+          "correct": false,
+          "explanation": "상자는 최솟값부터 최댓값까지의 전체 범위가 아니다."
+        },
+        {
+          "id": "o2",
+          "text": "가장 긴 영화 한 편의 길이",
+          "correct": false,
+          "explanation": "한 작품이 아니라 분포의 가운데 부분을 요약한다."
+        },
+        {
+          "id": "o3",
+          "text": "시청자 절반의 평점 범위",
+          "correct": false,
+          "explanation": "자료는 시청자 평점이 아니라 영화 상영시간이다."
+        },
+        {
+          "id": "o4",
+          "text": "상영시간 자료의 가운데 약 50% 범위",
+          "correct": true,
+          "explanation": "첫째 사분위수부터 셋째 사분위수 사이를 나타낸다."
+        }
+      ],
+      "conceptIds": [
+        "web-c28",
+        "n34-C24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "사분위수는 데이터를 크기순으로 놓고 네 부분으로 나누는 위치를 말한다. Q1은 약 25% 지점이고 Q3는 약 75% 지점이므로 그 사이에는 가운데 약 절반의 자료가 놓인다. 상자그림의 상자는 바로 이 범위를 요약한다. 모든 영화의 길이가 상자 안에 있다는 뜻은 아니며 더 짧거나 긴 작품도 바깥에 있을 수 있다.",
+      "memoryTip": "Q1~Q3 = 가운데 약 절반",
+      "additionalExample": "시험 점수 상자그림에서도 상자 안은 점수순 가운데 약 절반의 학생을 요약하며 최고점과 최저점은 더 멀리 있을 수 있다.",
+      "visual": {
+        "kind": "box",
+        "title": "가상 영화 길이의 가운데 범위",
+        "xLabel": "작품 집단",
+        "yLabel": "상영시간(분)",
+        "labels": [
+          "영화"
+        ],
+        "series": [
+          {
+            "name": "길이 분포",
+            "values": [
+              50,
+              80,
+              100,
+              120,
+              170
+            ]
+          }
+        ],
+        "note": "학습용으로 수염은 최솟값 50분과 최댓값 170분으로 정의한다. 상자는 Q1=80분부터 Q3=120분까지다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "사분위수는 데이터를 크기순으로 놓고 네 부분으로 나누는 위치를 말한다. Q1은 약 25% 지점이고 Q3는 약 75% 지점이므로 그 사이에는 가운데 약 절반의 자료가 놓인다. 상자그림의 상자는 바로 이 범위를 요약한다. 모든 영화의 길이가 상자 안에 있다는 뜻은 아니며 더 짧거나 긴 작품도 바깥에 있을 수 있다.",
+        "steps": [
+          "상자의 아래쪽이 Q1이고 위쪽이 Q3라는 표시를 확인한다.",
+          "Q1부터 Q3까지는 정렬한 자료의 가운데 약 절반에 해당한다.",
+          "따라서 이 그림의 상자는 가운데 약 50% 길이 범위로 읽는다."
+        ],
+        "pitfall": "상자가 80~120분이라고 해서 이 범위 바깥에 영화가 하나도 없다고 생각하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-039",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "작년에 받은 CSV에 없는 작품을 오늘 Netflix 화면에서 발견했다. 먼저 고려할 설명은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "CSV에 없으면 오늘 화면도 무조건 잘못됐다.",
+          "correct": false,
+          "explanation": "파일을 수집한 시점과 현재 시점이 다를 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "카탈로그는 시점에 따라 달라질 수 있다.",
+          "correct": true,
+          "explanation": "CSV는 특정 시점의 스냅샷일 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "작품 제목이 있으면 사용자 선호가 증명됐다.",
+          "correct": false,
+          "explanation": "목록의 존재 여부는 이용자 선호를 뜻하지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "작년 CSV는 미래의 모든 작품을 포함해야 한다.",
+          "correct": false,
+          "explanation": "과거 파일이 이후 변화까지 포함하는 것은 아니다."
+        }
+      ],
+      "conceptIds": [
+        "web-c19",
+        "web-c31"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            15,
+            18
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "스냅샷은 어떤 시점의 상태를 기록한 자료다. 카탈로그는 작품이 새로 등록되거나 빠지면서 바뀔 수 있으므로 작년에 저장한 CSV와 오늘 화면이 꼭 같을 필요는 없다. 서로 다른 자료를 비교할 때는 수집 시점과 파일 버전을 먼저 확인한다. 한 시점의 작품 목록을 모든 시점의 완전한 역사로 해석하지 않는 것이 중요하다.",
+      "memoryTip": "스냅샷은 그 시점의 모습",
+      "additionalExample": "같은 이름의 Netflix CSV라도 2020년 수집본과 2021년 수집본은 작품 수와 구성이 다를 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "스냅샷은 어떤 시점의 상태를 기록한 자료다. 카탈로그는 작품이 새로 등록되거나 빠지면서 바뀔 수 있으므로 작년에 저장한 CSV와 오늘 화면이 꼭 같을 필요는 없다. 서로 다른 자료를 비교할 때는 수집 시점과 파일 버전을 먼저 확인한다. 한 시점의 작품 목록을 모든 시점의 완전한 역사로 해석하지 않는 것이 중요하다.",
+        "steps": [
+          "CSV를 언제 수집했는지 파일 설명이나 버전 기록을 확인한다.",
+          "오늘 화면은 다른 시점의 상태를 보여 준다는 점을 구분한다.",
+          "새 등록이나 삭제 같은 카탈로그 변화 가능성을 먼저 검토한다."
+        ],
+        "pitfall": "과거 파일에 없다는 이유만으로 현재 작품이 잘못 등록되었다고 단정하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-040",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "network-text",
+        "evidence": "lecture",
+        "focusIds": [
+          "network-text"
+        ]
+      },
+      "prompt": "워드클라우드에 분석 목적과 무관한 일반 단어만 크게 보인다. 단어를 세기 전에 검토할 방법은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "목적에 맞는 불용어 목록을 정하고 예문을 점검한다.",
+          "correct": true,
+          "explanation": "분석에 정보가 적은 단어를 제외하되 중요한 의미가 남는지 확인한다."
+        },
+        {
+          "id": "o2",
+          "text": "소개문을 모두 삭제한다.",
+          "correct": false,
+          "explanation": "분석할 텍스트 자체를 없애는 방법은 목적에 맞지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "빈도가 높은 단어는 예외 없이 모두 지운다.",
+          "correct": false,
+          "explanation": "핵심 주제 단어도 자주 나올 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "작품 수를 시청 횟수로 바꾼다.",
+          "correct": false,
+          "explanation": "단어 처리 문제와 관계없고 자료 의미도 달라진다."
+        }
+      ],
+      "conceptIds": [
+        "web-c36",
+        "n34-C30"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        }
+      ],
+      "difficulty": "쉬움",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "불용어는 특정 텍스트 분석에서 정보가 적어 제외하기로 정한 단어다. 어떤 단어를 제외할지는 언어와 분석 목적에 따라 달라질 수 있다. 워드클라우드를 만들기 전에 일반적인 기능어 등을 검토하면 주제 단어를 보기 쉬워진다. 다만 자주 나온다는 이유만으로 모두 지우면 중요한 소재나 부정 표현도 사라질 수 있으므로 예문 확인이 필요하다.",
+      "memoryTip": "불용어는 목적에 맞게 정하고 확인",
+      "additionalExample": "영어 소개문에서 the 같은 단어를 제외할 수 있어도 이번 주제인 family나 crime까지 자동으로 지우지는 않는다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "불용어는 특정 텍스트 분석에서 정보가 적어 제외하기로 정한 단어다. 어떤 단어를 제외할지는 언어와 분석 목적에 따라 달라질 수 있다. 워드클라우드를 만들기 전에 일반적인 기능어 등을 검토하면 주제 단어를 보기 쉬워진다. 다만 자주 나온다는 이유만으로 모두 지우면 중요한 소재나 부정 표현도 사라질 수 있으므로 예문 확인이 필요하다.",
+        "steps": [
+          "현재 큰 단어들이 질문에 필요한 주제 정보를 주는지 먼저 살핀다.",
+          "목적에 맞춰 제외할 일반 단어 목록을 정하고 적용한다.",
+          "원문 예문과 비교해 중요한 소재나 부정 의미가 남았는지 확인한다."
+        ],
+        "pitfall": "빈도가 높다는 이유만으로 단어를 모두 제거하지 말고 분석에 필요한 정보인지 판단한다."
+      }
+    },
+    {
+      "id": "basic-nfx-041",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "올해는 1~2월 자료만 있고 작년은 12개월 자료가 있다. 등록 건수를 비교할 때 적절한 방법을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "올해 자료가 두 달뿐이라는 사실을 그래프에 표시한다.",
+          "correct": true,
+          "explanation": "관측 기간을 밝혀 수치를 올바르게 읽게 한다."
+        },
+        {
+          "id": "o2",
+          "text": "두 합계만 보고 올해 연간 등록이 줄었다고 확정한다.",
+          "correct": false,
+          "explanation": "비교한 기간 길이가 달라 연간 결론을 확정할 수 없다."
+        },
+        {
+          "id": "o3",
+          "text": "가능하면 두 해 모두 1~2월처럼 같은 기간을 비교한다.",
+          "correct": true,
+          "explanation": "같은 길이와 시기의 관측 기간을 맞추는 방법이다."
+        },
+        {
+          "id": "o4",
+          "text": "올해 두 달 합계를 이미 끝난 연간 실적으로 적는다.",
+          "correct": false,
+          "explanation": "아직 관측되지 않은 달의 값을 안다고 할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c31",
+        "web-c40"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            18,
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "건수는 관측한 기간이 길수록 많이 쌓일 수 있다. 따라서 두 달 합계와 열두 달 합계를 그대로 놓고 연간 감소를 판단하면 기간 차이의 영향을 섞게 된다. 부분 관측이라는 표시를 남기고 가능하면 같은 달 범위를 맞춰 비교한다. 아직 관측하지 않은 달이 있으므로 올해 연간 결과가 확정되었다고 쓰지 않는 것이 핵심이다.",
+      "memoryTip": "건수 비교 전에 기간부터 맞추기",
+      "additionalExample": "올해 1~2월이 20편이고 작년 전체가 100편이어도 작년 1~2월이 몇 편인지 알아야 같은 기간 비교가 가능하다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "건수는 관측한 기간이 길수록 많이 쌓일 수 있다. 따라서 두 달 합계와 열두 달 합계를 그대로 놓고 연간 감소를 판단하면 기간 차이의 영향을 섞게 된다. 부분 관측이라는 표시를 남기고 가능하면 같은 달 범위를 맞춰 비교한다. 아직 관측하지 않은 달이 있으므로 올해 연간 결과가 확정되었다고 쓰지 않는 것이 핵심이다.",
+        "steps": [
+          "올해는 두 달, 작년은 열두 달이라는 관측 기간 차이를 확인한다.",
+          "부분 연도라는 사실을 표와 그래프 설명에 분명히 표시한다.",
+          "비교 목적에 맞게 같은 달 범위를 맞추고 남는 한계를 적는다."
+        ],
+        "pitfall": "현재 두 달의 합계가 작년 열두 달보다 작다는 사실만으로 연간 사업 축소를 확정하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-042",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "가상 산점도는 가로축에 공개 연도, 세로축에 영화 길이를 놓고 작품마다 점 하나를 찍었다. 이 그림의 목적은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "한 달마다 가입한 사람 수를 더하는 것",
+          "correct": false,
+          "explanation": "축과 점에 가입자 자료가 없다."
+        },
+        {
+          "id": "o2",
+          "text": "감독과 배우의 공동 작업 선을 그리는 것",
+          "correct": false,
+          "explanation": "관계를 선으로 연결하는 네트워크 그림이 아니다."
+        },
+        {
+          "id": "o3",
+          "text": "공개 시기와 상영시간의 관계를 살펴보는 것",
+          "correct": true,
+          "explanation": "두 수치·시간 속성을 같은 작품의 점으로 연결해 본다."
+        },
+        {
+          "id": "o4",
+          "text": "모든 영화의 시청 등급을 별점으로 바꾸는 것",
+          "correct": false,
+          "explanation": "그림에는 등급이나 별점 변환이 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c30",
+        "n34-C23"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            17,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "산점도는 두 속성의 값을 가로·세로 위치에 대응시켜 관계를 살펴보는 그림이다. 이 예에서는 한 점이 영화 한 편이며 공개 연도와 분 단위 길이가 점의 위치를 결정한다. 점들이 어떤 방향으로 모이거나 넓게 퍼지는지 관찰할 수 있다. 하지만 그림에 경향이 보여도 공개 시기가 영화 길이의 원인이라고 바로 증명되는 것은 아니다.",
+      "memoryTip": "산점도 = 두 속성의 관계",
+      "additionalExample": "가로축에 영화 길이, 세로축에 제작비를 놓으면 길이와 제작비가 어떤 관계를 보이는지 같은 원리로 살필 수 있다.",
+      "visual": {
+        "kind": "scatter",
+        "title": "가상 영화의 공개 연도와 상영시간",
+        "xLabel": "최초 공개 연도",
+        "yLabel": "영화 길이(분)",
+        "labels": [
+          "가상 영화"
+        ],
+        "series": [
+          {
+            "name": "영화",
+            "xValues": [
+              2010,
+              2012,
+              2015,
+              2018,
+              2020
+            ],
+            "values": [
+              90,
+              110,
+              95,
+              120,
+              100
+            ]
+          }
+        ],
+        "sharedYearAxes": false,
+        "note": "점 하나는 영화 한 편이며 숫자는 학습용 가상 값이다."
+      },
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "산점도는 두 속성의 값을 가로·세로 위치에 대응시켜 관계를 살펴보는 그림이다. 이 예에서는 한 점이 영화 한 편이며 공개 연도와 분 단위 길이가 점의 위치를 결정한다. 점들이 어떤 방향으로 모이거나 넓게 퍼지는지 관찰할 수 있다. 하지만 그림에 경향이 보여도 공개 시기가 영화 길이의 원인이라고 바로 증명되는 것은 아니다.",
+        "steps": [
+          "그림에서 점 하나가 한 영화라는 관측 단위를 확인한다.",
+          "가로 위치는 공개 연도, 세로 위치는 분 단위 상영시간으로 읽는다.",
+          "두 속성이 함께 어떤 분포를 보이는지 탐색하는 그림으로 설명한다."
+        ],
+        "pitfall": "산점도에서 함께 변하는 모양이 보인다는 사실만으로 한 변수가 다른 변수의 원인이라고 확정하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-043",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "recommendation",
+        "evidence": "lecture",
+        "focusIds": [
+          "recommendations"
+        ]
+      },
+      "prompt": "사용자가 좋아한 영화의 장르를 모아 선호 특징을 만들고 새 영화의 장르와 비교했다. 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "장르 같은 콘텐츠 특징을 활용한다.",
+          "correct": true,
+          "explanation": "작품 특징을 바탕으로 사용자의 선호와 후보를 비교한다."
+        },
+        {
+          "id": "o2",
+          "text": "다른 이용자의 행동이 없어도 이런 비교를 구성할 수 있다.",
+          "correct": true,
+          "explanation": "사용자의 선택과 작품 메타데이터로 특징 비교를 시작할 수 있다."
+        },
+        {
+          "id": "o3",
+          "text": "과거 행동을 썼으니 반드시 아이템 협업 필터링이다.",
+          "correct": false,
+          "explanation": "과거 행동은 콘텐츠 기반 선호 프로필을 만드는 데에도 쓰인다."
+        },
+        {
+          "id": "o4",
+          "text": "이 방식은 작품 장르를 전혀 사용하지 않는다.",
+          "correct": false,
+          "explanation": "문항에서 장르 비교를 사용한다고 명시했다."
+        }
+      ],
+      "conceptIds": [
+        "web-c37",
+        "n34-C31"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            55,
+            56,
+            57,
+            58
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "콘텐츠 기반 추천도 사용자가 과거에 선택한 작품을 활용할 수 있다. 좋아한 작품들의 장르나 소재를 모아 선호 특징을 만들고 후보 작품의 특징과 비교하기 때문이다. 과거 행동을 사용했다는 말 하나만으로 협업 필터링이라고 분류하지 않는다. 여러 이용자의 공통 행동으로 아이템 간 관계를 구했는지, 작품 특징을 비교했는지가 구분 기준이다.",
+      "memoryTip": "이력은 콘텐츠 선호 프로필에도 사용 가능",
+      "additionalExample": "좋아한 영화 세 편이 모두 우주 소재라서 우주 소재 후보를 찾는 것은 작품 특징을 이용한 콘텐츠 기반 접근이다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "콘텐츠 기반 추천도 사용자가 과거에 선택한 작품을 활용할 수 있다. 좋아한 작품들의 장르나 소재를 모아 선호 특징을 만들고 후보 작품의 특징과 비교하기 때문이다. 과거 행동을 사용했다는 말 하나만으로 협업 필터링이라고 분류하지 않는다. 여러 이용자의 공통 행동으로 아이템 간 관계를 구했는지, 작품 특징을 비교했는지가 구분 기준이다.",
+        "steps": [
+          "좋아한 작품에서 모은 정보가 장르라는 콘텐츠 특징임을 확인한다.",
+          "이 선호 특징과 새 작품의 장르를 비교하는 과정을 읽는다.",
+          "과거 행동 사용 여부만이 아니라 유사성의 근거로 방식을 판단한다."
+        ],
+        "pitfall": "사용자 이력이 한 번 등장했다고 모든 추천을 협업 필터링으로 분류하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-044",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "network-text",
+        "evidence": "lecture",
+        "focusIds": [
+          "network-text"
+        ]
+      },
+      "prompt": "가상 단순 배우 네트워크에서 P는 Q와 R에게 각각 연결되고 다른 선은 없다. P의 고유 이웃 수는?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "0명",
+          "correct": false,
+          "explanation": "P에서 Q와 R로 가는 두 연결이 있다."
+        },
+        {
+          "id": "o2",
+          "text": "2명",
+          "correct": true,
+          "explanation": "P와 직접 연결된 서로 다른 대상은 Q와 R 두 명이다."
+        },
+        {
+          "id": "o3",
+          "text": "3명",
+          "correct": false,
+          "explanation": "P 자신은 자신의 이웃으로 세지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "네트워크의 모든 배우 수와 같다.",
+          "correct": false,
+          "explanation": "고유 이웃은 P에 직접 연결된 대상만 센다."
+        }
+      ],
+      "conceptIds": [
+        "web-c35",
+        "n34-C29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "w4-netflix",
+          "pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "네트워크에서 어떤 노드의 이웃은 그 노드와 간선으로 직접 연결된 다른 노드다. 고유 이웃 수는 같은 대상을 중복하지 않고 몇 명과 연결되는지 센 값이다. P가 Q와 R에게 연결되어 있으면 이웃은 두 명이다. 이 기본 개념은 복잡한 중심성 공식을 외우기 전에 점과 선의 관계를 정확히 읽는 데 도움이 된다.",
+      "memoryTip": "고유 이웃 수 = 직접 연결된 다른 대상 수",
+      "additionalExample": "P가 Q와 같은 작품에 여러 번 참여했더라도 단순 그래프의 고유 이웃을 셀 때 Q는 한 명으로 센다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "네트워크에서 어떤 노드의 이웃은 그 노드와 간선으로 직접 연결된 다른 노드다. 고유 이웃 수는 같은 대상을 중복하지 않고 몇 명과 연결되는지 센 값이다. P가 Q와 R에게 연결되어 있으면 이웃은 두 명이다. 이 기본 개념은 복잡한 중심성 공식을 외우기 전에 점과 선의 관계를 정확히 읽는 데 도움이 된다.",
+        "steps": [
+          "기준 노드 P에서 출발하는 선이 어느 노드로 가는지 확인한다.",
+          "직접 연결된 서로 다른 대상 Q와 R의 이름을 나열한다.",
+          "P 자신을 빼고 고유한 대상 두 명을 세어 답을 구한다."
+        ],
+        "pitfall": "네트워크에 등장한 모든 노드를 이웃으로 세지 말고 기준 노드와 직접 연결됐는지 확인한다."
+      }
+    },
+    {
+      "id": "basic-nfx-045",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "영화 길이 자료에서 다른 작품보다 매우 긴 값이 보였다. 처리 원칙으로 알맞은 것을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "상자 밖에 있으니 확인 없이 삭제한다.",
+          "correct": false,
+          "explanation": "극단적인 값도 실제 정상 작품일 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "원문과 단위, 실제 작품 정보를 확인한다.",
+          "correct": true,
+          "explanation": "긴 정상 작품인지 입력 오류인지 먼저 조사한다."
+        },
+        {
+          "id": "o3",
+          "text": "길다는 이유로 자동으로 0분으로 바꾼다.",
+          "correct": false,
+          "explanation": "확인 없이 값을 바꾸면 분석 자료를 왜곡할 수 있다."
+        },
+        {
+          "id": "o4",
+          "text": "유지하거나 수정한 근거를 기록한다.",
+          "correct": true,
+          "explanation": "판단 기준을 남겨야 처리 결과를 검증할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c22",
+        "web-c24"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "이상 후보는 다른 값과 많이 다르기 때문에 확인이 필요한 관측이지 곧바로 오류라는 뜻은 아니다. 매우 긴 영화가 실제로 존재할 수 있고 단위 입력 실수일 수도 있다. 원문과 작품 정보를 확인한 뒤 유지, 수정, 제외 중 알맞은 처리를 정한다. 중요한 것은 그래프 모양을 예쁘게 만드는 일이 아니라 근거 있는 규칙과 기록이다.",
+      "memoryTip": "이상 후보 발견 → 확인 → 근거 있는 처리",
+      "additionalExample": "10시간짜리 작품이 발견되면 실제 장편 콘텐츠일 가능성과 분·시간 입력 오류 가능성을 모두 확인한 뒤 결정한다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "이상 후보는 다른 값과 많이 다르기 때문에 확인이 필요한 관측이지 곧바로 오류라는 뜻은 아니다. 매우 긴 영화가 실제로 존재할 수 있고 단위 입력 실수일 수도 있다. 원문과 작품 정보를 확인한 뒤 유지, 수정, 제외 중 알맞은 처리를 정한다. 중요한 것은 그래프 모양을 예쁘게 만드는 일이 아니라 근거 있는 규칙과 기록이다.",
+        "steps": [
+          "눈에 띄는 긴 값을 발견하면 먼저 확인할 후보로 표시한다.",
+          "원문 duration과 단위, 실제 작품의 길이 정보를 함께 살핀다.",
+          "정상인지 오류인지에 따른 처리 결정을 하고 근거를 남긴다."
+        ],
+        "pitfall": "상자그림 밖에 있는 점이라는 이유만으로 모든 값을 오류라고 판단하거나 자동 삭제하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-046",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "netflix-quality",
+        "evidence": "pdf",
+        "focusIds": [
+          "netflix-schema",
+          "quality-standardization"
+        ]
+      },
+      "prompt": "한 작품의 country가 'Korea, Japan'이다. 공동 제작에 참여한 국가를 빠뜨리지 않고 집계하려면?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "앞에 있는 Korea만 남긴다.",
+          "correct": false,
+          "explanation": "Japan의 공동 제작 참여가 빠진다."
+        },
+        {
+          "id": "o2",
+          "text": "국가가 두 개면 작품 전체를 지운다.",
+          "correct": false,
+          "explanation": "공동 제작은 가능한 정상 기록이며 삭제가 목적에 맞지 않는다."
+        },
+        {
+          "id": "o3",
+          "text": "국가 이름을 더해 KoreaJapan이라는 새 국가로 만든다.",
+          "correct": false,
+          "explanation": "두 실제 국가의 참여를 각각 비교하려는 질문에 맞지 않는다."
+        },
+        {
+          "id": "o4",
+          "text": "두 국가를 각각 분리하되 원래 작품 ID를 유지한다.",
+          "correct": true,
+          "explanation": "어느 작품이 각 국가와 연결되는지 보존할 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c25",
+        "web-c26"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            15,
+            16,
+            18
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "country 한 셀에는 공동 제작 국가가 여러 개 들어갈 수 있다. 국가별 참여 작품을 빠짐없이 보려면 각 국가를 분리하고 원래 작품 식별자를 함께 보관한다. 이렇게 만든 표의 행은 작품과 국가의 관계다. 같은 작품이 두 국가에 포함될 수 있으므로 국가별 건수의 합을 고유 작품 전체 수라고 그대로 읽지 않는 것도 중요하다.",
+      "memoryTip": "공동 제작은 국가별 관계로, 작품 ID 유지",
+      "additionalExample": "s10이 Korea와 Japan 공동 제작이면 (s10, Korea), (s10, Japan) 두 관계를 만들되 고유 작품은 s10 한 편이다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "country 한 셀에는 공동 제작 국가가 여러 개 들어갈 수 있다. 국가별 참여 작품을 빠짐없이 보려면 각 국가를 분리하고 원래 작품 식별자를 함께 보관한다. 이렇게 만든 표의 행은 작품과 국가의 관계다. 같은 작품이 두 국가에 포함될 수 있으므로 국가별 건수의 합을 고유 작품 전체 수라고 그대로 읽지 않는 것도 중요하다.",
+        "steps": [
+          "한 셀에 두 국가가 적힌 공동 제작 작품임을 확인한다.",
+          "Korea와 Japan을 각각 나누고 두 관계에 같은 원래 ID를 붙인다.",
+          "국가별 참여 건수를 세되 중복 가능한 관계 수임을 설명한다."
+        ],
+        "pitfall": "다중 국가 셀에서 첫 국가만 남기면 뒤에 적힌 국가의 참여 작품 수를 적게 셀 수 있다."
+      }
+    },
+    {
+      "id": "basic-nfx-047",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "영화와 TV Show의 작품 수가 서로 다르다. 각 유형 안에서 특정 등급이 차지하는 비중을 비교할 때 적절한 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "o1",
+          "text": "영화 비중은 해당 등급 영화 수를 전체 영화 수로 나눈다.",
+          "correct": true,
+          "explanation": "영화 집단 안의 비율이므로 전체 영화 수가 분모다."
+        },
+        {
+          "id": "o2",
+          "text": "TV Show 비중도 전체 영화 수를 분모로 사용한다.",
+          "correct": false,
+          "explanation": "TV Show 안의 비중은 전체 TV Show 수를 분모로 삼는다."
+        },
+        {
+          "id": "o3",
+          "text": "비율 옆에 각 집단의 작품 수도 함께 적는다.",
+          "correct": true,
+          "explanation": "분모 크기를 알면 비율의 의미를 이해하기 쉽다."
+        },
+        {
+          "id": "o4",
+          "text": "건수가 더 크면 집단 안의 비율도 반드시 크다.",
+          "correct": false,
+          "explanation": "집단 크기가 다르면 건수와 비율의 순서가 다를 수 있다."
+        }
+      ],
+      "conceptIds": [
+        "web-c26",
+        "web-c29"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            17,
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "집단 안의 비율은 관심 있는 값의 개수를 그 집단 전체 개수로 나눈 값이다. 영화 안의 특정 등급 비중은 전체 영화 수, TV Show 안의 같은 등급 비중은 전체 TV Show 수가 각각 분모다. 집단 크기가 다르면 건수만 비교하는 것과 비율을 비교하는 결과가 달라질 수 있다. 비율과 집단별 작품 수를 함께 보여 주면 해석이 분명해진다.",
+      "memoryTip": "집단 안 비율의 분모 = 그 집단 전체",
+      "additionalExample": "영화 20편 중 10편과 TV 10편 중 5편이 특정 등급이라면 건수는 다르지만 집단 안 비중은 둘 다 50%다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "집단 안의 비율은 관심 있는 값의 개수를 그 집단 전체 개수로 나눈 값이다. 영화 안의 특정 등급 비중은 전체 영화 수, TV Show 안의 같은 등급 비중은 전체 TV Show 수가 각각 분모다. 집단 크기가 다르면 건수만 비교하는 것과 비율을 비교하는 결과가 달라질 수 있다. 비율과 집단별 작품 수를 함께 보여 주면 해석이 분명해진다.",
+        "steps": [
+          "질문이 전체 카탈로그가 아니라 각 유형 안의 비중을 묻는지 확인한다.",
+          "영화 비율에는 전체 영화 수, TV 비율에는 전체 TV Show 수를 각각 사용한다.",
+          "비율을 보고할 때 분모가 되는 각 집단의 작품 수도 함께 표시한다."
+        ],
+        "pitfall": "서로 크기가 다른 집단에서 관심 등급의 건수만 보고 비율까지 더 높다고 단정하지 않는다."
+      }
+    },
+    {
+      "id": "basic-nfx-048",
+      "finalExamId": "final-06",
+      "finalReview": {
+        "topicId": "visualization",
+        "evidence": "pdf",
+        "focusIds": [
+          "multivariate-eda",
+          "charts-time"
+        ]
+      },
+      "prompt": "팀의 질문 'Netflix를 분석해 보자'를 자료로 답할 수 있게 구체화하려 한다. 가장 알맞은 질문은?",
+      "mode": "single",
+      "options": [
+        {
+          "id": "o1",
+          "text": "이 CSV의 Movie와 TV Show는 각각 몇 편인가?",
+          "correct": true,
+          "explanation": "대상·기준 열·집계 방식이 분명하고 type으로 답할 수 있다."
+        },
+        {
+          "id": "o2",
+          "text": "Netflix의 모든 성공 원인은 무엇인가?",
+          "correct": false,
+          "explanation": "필요한 자료와 판단 범위가 너무 넓고 불분명하다."
+        },
+        {
+          "id": "o3",
+          "text": "세상에서 무조건 가장 좋은 작품은 무엇인가?",
+          "correct": false,
+          "explanation": "좋음의 기준과 평가 자료가 정해지지 않았다."
+        },
+        {
+          "id": "o4",
+          "text": "이 CSV만으로 모든 이용자의 마음을 알아낼 수 있는가?",
+          "correct": false,
+          "explanation": "개인 선호가 기록되지 않은 자료로 직접 답할 수 없다."
+        }
+      ],
+      "conceptIds": [
+        "web-c20",
+        "web-c42",
+        "n34-C34"
+      ],
+      "sourceRefs": [
+        {
+          "fileId": "prof-final",
+          "pages": [
+            13,
+            19
+          ]
+        }
+      ],
+      "difficulty": "보통",
+      "type": "최종 대비 기초·한 개념씩 익히기",
+      "review": "좋은 분석 질문은 대상과 기준, 필요한 열, 구할 값을 분명히 한다. 이 CSV의 유형별 작품 수를 묻는 질문은 대상이 현재 파일의 작품이고 기준 열은 type이며 결과는 각 범주의 개수다. 실제 자료로 계산 가능하고 답을 검증하기도 쉽다. 처음에는 이렇게 명확한 질문에서 출발한 뒤 다른 변수와 연결해 더 복합적인 질문으로 확장할 수 있다.",
+      "memoryTip": "대상·필요 열·구할 값이 보이는 질문",
+      "additionalExample": "유형별 작품 수를 확인한 다음에는 등록 연도를 더해 연도별 영화·TV 구성 변화라는 질문으로 확장할 수 있다.",
+      "supplemental": false,
+      "detailedExplanation": {
+        "concept": "좋은 분석 질문은 대상과 기준, 필요한 열, 구할 값을 분명히 한다. 이 CSV의 유형별 작품 수를 묻는 질문은 대상이 현재 파일의 작품이고 기준 열은 type이며 결과는 각 범주의 개수다. 실제 자료로 계산 가능하고 답을 검증하기도 쉽다. 처음에는 이렇게 명확한 질문에서 출발한 뒤 다른 변수와 연결해 더 복합적인 질문으로 확장할 수 있다.",
+        "steps": [
+          "막연한 주제에서 현재 가진 CSV로 관찰할 수 있는 대상을 고른다.",
+          "질문의 기준 열이 type이고 결과가 작품 개수임을 확인한다.",
+          "Movie와 TV Show를 각각 세어 답할 수 있는 구체적인 질문을 선택한다."
+        ],
+        "pitfall": "어려운 말이나 많은 변수를 넣는다고 좋은 질문이 되는 것은 아니며 자료로 답할 수 있어야 한다."
+      }
     }
   ],
   "flashcards": [
@@ -78890,6 +87673,153 @@ export const courseData: CourseData = {
           "final-nfx-047",
           "final-nfx-048"
         ]
+      },
+      {
+        "id": "final-04",
+        "title": "기본 다지기 1회 · 용어와 역할",
+        "description": "짧은 상황에서 핵심 용어·역할·컬럼 뜻을 하나씩 익힙니다. 쉬움 20개·보통 20개입니다.",
+        "minutes": 50,
+        "level": "foundation",
+        "questionIds": [
+          "basic-sys-001",
+          "basic-inf-001",
+          "basic-nfx-001",
+          "basic-sys-002",
+          "basic-inf-002",
+          "basic-nfx-002",
+          "basic-sys-003",
+          "basic-inf-003",
+          "basic-nfx-003",
+          "basic-sys-004",
+          "basic-inf-004",
+          "basic-nfx-004",
+          "basic-sys-005",
+          "basic-inf-005",
+          "basic-nfx-005",
+          "basic-sys-006",
+          "basic-inf-006",
+          "basic-nfx-006",
+          "basic-sys-007",
+          "basic-inf-007",
+          "basic-nfx-007",
+          "basic-sys-008",
+          "basic-inf-008",
+          "basic-nfx-008",
+          "basic-sys-009",
+          "basic-inf-009",
+          "basic-nfx-009",
+          "basic-sys-010",
+          "basic-inf-010",
+          "basic-nfx-010",
+          "basic-sys-011",
+          "basic-inf-011",
+          "basic-nfx-011",
+          "basic-sys-012",
+          "basic-inf-012",
+          "basic-nfx-012",
+          "basic-nfx-013",
+          "basic-nfx-014",
+          "basic-nfx-015",
+          "basic-nfx-016"
+        ]
+      },
+      {
+        "id": "final-05",
+        "title": "기본 다지기 2회 · 흐름과 비교",
+        "description": "처리 순서와 개념의 차이를 한 단계씩 판단합니다. 복잡한 복합 계산은 넣지 않았습니다.",
+        "minutes": 50,
+        "level": "foundation",
+        "questionIds": [
+          "basic-sys-013",
+          "basic-inf-013",
+          "basic-nfx-017",
+          "basic-sys-014",
+          "basic-inf-014",
+          "basic-nfx-018",
+          "basic-sys-015",
+          "basic-inf-015",
+          "basic-nfx-019",
+          "basic-sys-016",
+          "basic-inf-016",
+          "basic-nfx-020",
+          "basic-sys-017",
+          "basic-inf-017",
+          "basic-nfx-021",
+          "basic-sys-018",
+          "basic-inf-018",
+          "basic-nfx-022",
+          "basic-sys-019",
+          "basic-inf-019",
+          "basic-nfx-023",
+          "basic-sys-020",
+          "basic-inf-020",
+          "basic-nfx-024",
+          "basic-sys-021",
+          "basic-inf-021",
+          "basic-nfx-025",
+          "basic-sys-022",
+          "basic-inf-022",
+          "basic-nfx-026",
+          "basic-sys-023",
+          "basic-inf-023",
+          "basic-nfx-027",
+          "basic-sys-024",
+          "basic-inf-024",
+          "basic-nfx-028",
+          "basic-nfx-029",
+          "basic-nfx-030",
+          "basic-nfx-031",
+          "basic-nfx-032"
+        ]
+      },
+      {
+        "id": "final-06",
+        "title": "기본 다지기 3회 · 그래프와 적용",
+        "description": "기본 그래프와 친숙한 예시로 배운 개념을 적용합니다. 쉬운 해설로 다시 확인하세요.",
+        "minutes": 50,
+        "level": "foundation",
+        "questionIds": [
+          "basic-sys-025",
+          "basic-inf-025",
+          "basic-nfx-033",
+          "basic-sys-026",
+          "basic-inf-026",
+          "basic-nfx-034",
+          "basic-sys-027",
+          "basic-inf-027",
+          "basic-nfx-035",
+          "basic-sys-028",
+          "basic-inf-028",
+          "basic-nfx-036",
+          "basic-sys-029",
+          "basic-inf-029",
+          "basic-nfx-037",
+          "basic-sys-030",
+          "basic-inf-030",
+          "basic-nfx-038",
+          "basic-sys-031",
+          "basic-inf-031",
+          "basic-nfx-039",
+          "basic-sys-032",
+          "basic-inf-032",
+          "basic-nfx-040",
+          "basic-sys-033",
+          "basic-inf-033",
+          "basic-nfx-041",
+          "basic-sys-034",
+          "basic-inf-034",
+          "basic-nfx-042",
+          "basic-sys-035",
+          "basic-inf-035",
+          "basic-nfx-043",
+          "basic-sys-036",
+          "basic-inf-036",
+          "basic-nfx-044",
+          "basic-nfx-045",
+          "basic-nfx-046",
+          "basic-nfx-047",
+          "basic-nfx-048"
+        ]
       }
     ],
     "focusItems": [
@@ -79230,7 +88160,7 @@ export const courseData: CourseData = {
     ],
     "cautions": [
       "최종 PDF와 구술 필기를 함께 반영했습니다. 구술 강조 문항의 원문 링크는 관련 기존 강의자료로 연결합니다. 실제 출제·점수를 보장하지 않습니다.",
-      "범위는 Netflix 분석·추천 방식까지입니다. 보충 12문항은 따로 표시하며 핵심 범위만 골라 학습할 수 있습니다.",
+      "범위는 Netflix 분석·추천 방식까지입니다. 기본 다지기 120문항은 모두 핵심 범위입니다. 기존 고난도에 있던 보충 12문항은 그대로 구분하며 핵심 범위만 골라 학습할 수도 있습니다.",
       "자료의 단순화된 표현을 절대 명제로 외우지 않도록 가상메모리≠스왑, ETL·ELT 선택 조건, 추천 후보 생성과 개인화 평가의 차이를 명시했습니다."
     ]
   },

@@ -4,7 +4,7 @@ import { courseData } from '@/data/courseData'
 import { useNavigation } from '@/hooks/useNavigation'
 import { getLearningQuestions } from '@/lib/curriculum'
 import { getAllFixedExams, getMockExamQuestions } from '@/lib/mockExams'
-import { getFinalQuestions } from '@/lib/finalReview'
+import { getFinalExamLevel, getFinalQuestions, getFinalQueueLevel } from '@/lib/finalReview'
 import { BankPage } from '@/pages/BankPage'
 import { CardsPage } from '@/pages/CardsPage'
 import { DashboardPage } from '@/pages/DashboardPage'
@@ -41,10 +41,12 @@ export default function App() {
             : params.scope === 'wrong'
               ? courseData.questions.filter((question) => question.id === target.id)
               : courseData.questions
-        return <QuestionPlayer questions={questions} initialId={target.id} concepts={courseData.concepts} files={courseData.files} navigate={navigate} curriculumMode={params.scope === 'curriculum'} finalMode={params.scope === 'final'} mockExam={['mock', 'final'].includes(params.scope) ? getAllFixedExams(courseData).find((exam) => exam.id === params.exam) : undefined} />
+        const mockExam = ['mock', 'final'].includes(params.scope) ? getAllFixedExams(courseData).find((exam) => exam.id === params.exam) : undefined
+        const finalLevel = params.level ?? (mockExam ? getFinalExamLevel(mockExam) : getFinalQueueLevel(courseData, questions))
+        return <QuestionPlayer questions={questions} initialId={target.id} concepts={courseData.concepts} files={courseData.files} navigate={navigate} curriculumMode={params.scope === 'curriculum'} finalMode={params.scope === 'final'} finalLevel={finalLevel} mockExam={mockExam} />
       }
-      case 'exam': return <ExamPage key={`${params.paper ?? 'custom'}-${params.review ?? 'take'}`} data={courseData} navigate={navigate} initialExamId={params.paper} reviewLatest={params.review === 'latest'} />
-      case 'final': return <FinalReviewPage data={courseData} navigate={navigate} />
+      case 'exam': return <ExamPage key={`${params.paper ?? 'custom'}-${params.review ?? 'take'}`} data={courseData} navigate={navigate} initialExamId={params.paper} reviewLatest={params.review === 'latest'} returnFinalLevel={params.level} />
+      case 'final': return <FinalReviewPage key={params.level ?? 'foundation'} data={courseData} navigate={navigate} initialLevel={params.level} />
       case 'wrong': return <WrongPage data={courseData} navigate={navigate} />
       case 'stats': return <StatsPage data={courseData} navigate={navigate} />
       case 'cards': return <CardsPage data={courseData} />

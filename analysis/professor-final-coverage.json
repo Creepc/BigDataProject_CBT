@@ -1,6 +1,6 @@
 {
-  "questionCount": 120,
-  "coreCount": 108,
+  "questionCount": 240,
+  "coreCount": 228,
   "supplementalCount": 12,
   "exams": [
     {
@@ -50,6 +50,8 @@
         "final-nfx-015",
         "final-nfx-016"
       ],
+      "easy": 0,
+      "medium": 12,
       "hard": 28,
       "multiple": 18,
       "visuals": 8
@@ -101,6 +103,8 @@
         "final-nfx-031",
         "final-nfx-032"
       ],
+      "easy": 0,
+      "medium": 12,
       "hard": 28,
       "multiple": 20,
       "visuals": 8
@@ -152,9 +156,173 @@
         "final-nfx-047",
         "final-nfx-048"
       ],
+      "easy": 0,
+      "medium": 12,
       "hard": 28,
       "multiple": 18,
       "visuals": 8
+    },
+    {
+      "id": "final-04",
+      "title": "기본 다지기 1회 · 용어와 역할",
+      "description": "짧은 상황에서 핵심 용어·역할·컬럼 뜻을 하나씩 익힙니다. 쉬움 20개·보통 20개입니다.",
+      "minutes": 50,
+      "level": "foundation",
+      "questionIds": [
+        "basic-sys-001",
+        "basic-inf-001",
+        "basic-nfx-001",
+        "basic-sys-002",
+        "basic-inf-002",
+        "basic-nfx-002",
+        "basic-sys-003",
+        "basic-inf-003",
+        "basic-nfx-003",
+        "basic-sys-004",
+        "basic-inf-004",
+        "basic-nfx-004",
+        "basic-sys-005",
+        "basic-inf-005",
+        "basic-nfx-005",
+        "basic-sys-006",
+        "basic-inf-006",
+        "basic-nfx-006",
+        "basic-sys-007",
+        "basic-inf-007",
+        "basic-nfx-007",
+        "basic-sys-008",
+        "basic-inf-008",
+        "basic-nfx-008",
+        "basic-sys-009",
+        "basic-inf-009",
+        "basic-nfx-009",
+        "basic-sys-010",
+        "basic-inf-010",
+        "basic-nfx-010",
+        "basic-sys-011",
+        "basic-inf-011",
+        "basic-nfx-011",
+        "basic-sys-012",
+        "basic-inf-012",
+        "basic-nfx-012",
+        "basic-nfx-013",
+        "basic-nfx-014",
+        "basic-nfx-015",
+        "basic-nfx-016"
+      ],
+      "easy": 20,
+      "medium": 20,
+      "hard": 0,
+      "multiple": 12,
+      "visuals": 5
+    },
+    {
+      "id": "final-05",
+      "title": "기본 다지기 2회 · 흐름과 비교",
+      "description": "처리 순서와 개념의 차이를 한 단계씩 판단합니다. 복잡한 복합 계산은 넣지 않았습니다.",
+      "minutes": 50,
+      "level": "foundation",
+      "questionIds": [
+        "basic-sys-013",
+        "basic-inf-013",
+        "basic-nfx-017",
+        "basic-sys-014",
+        "basic-inf-014",
+        "basic-nfx-018",
+        "basic-sys-015",
+        "basic-inf-015",
+        "basic-nfx-019",
+        "basic-sys-016",
+        "basic-inf-016",
+        "basic-nfx-020",
+        "basic-sys-017",
+        "basic-inf-017",
+        "basic-nfx-021",
+        "basic-sys-018",
+        "basic-inf-018",
+        "basic-nfx-022",
+        "basic-sys-019",
+        "basic-inf-019",
+        "basic-nfx-023",
+        "basic-sys-020",
+        "basic-inf-020",
+        "basic-nfx-024",
+        "basic-sys-021",
+        "basic-inf-021",
+        "basic-nfx-025",
+        "basic-sys-022",
+        "basic-inf-022",
+        "basic-nfx-026",
+        "basic-sys-023",
+        "basic-inf-023",
+        "basic-nfx-027",
+        "basic-sys-024",
+        "basic-inf-024",
+        "basic-nfx-028",
+        "basic-nfx-029",
+        "basic-nfx-030",
+        "basic-nfx-031",
+        "basic-nfx-032"
+      ],
+      "easy": 20,
+      "medium": 20,
+      "hard": 0,
+      "multiple": 12,
+      "visuals": 5
+    },
+    {
+      "id": "final-06",
+      "title": "기본 다지기 3회 · 그래프와 적용",
+      "description": "기본 그래프와 친숙한 예시로 배운 개념을 적용합니다. 쉬운 해설로 다시 확인하세요.",
+      "minutes": 50,
+      "level": "foundation",
+      "questionIds": [
+        "basic-sys-025",
+        "basic-inf-025",
+        "basic-nfx-033",
+        "basic-sys-026",
+        "basic-inf-026",
+        "basic-nfx-034",
+        "basic-sys-027",
+        "basic-inf-027",
+        "basic-nfx-035",
+        "basic-sys-028",
+        "basic-inf-028",
+        "basic-nfx-036",
+        "basic-sys-029",
+        "basic-inf-029",
+        "basic-nfx-037",
+        "basic-sys-030",
+        "basic-inf-030",
+        "basic-nfx-038",
+        "basic-sys-031",
+        "basic-inf-031",
+        "basic-nfx-039",
+        "basic-sys-032",
+        "basic-inf-032",
+        "basic-nfx-040",
+        "basic-sys-033",
+        "basic-inf-033",
+        "basic-nfx-041",
+        "basic-sys-034",
+        "basic-inf-034",
+        "basic-nfx-042",
+        "basic-sys-035",
+        "basic-inf-035",
+        "basic-nfx-043",
+        "basic-sys-036",
+        "basic-inf-036",
+        "basic-nfx-044",
+        "basic-nfx-045",
+        "basic-nfx-046",
+        "basic-nfx-047",
+        "basic-nfx-048"
+      ],
+      "easy": 20,
+      "medium": 20,
+      "hard": 0,
+      "multiple": 12,
+      "visuals": 5
     }
   ],
   "focusCoverage": [
@@ -167,7 +335,11 @@
         "final-sys-013",
         "final-sys-019",
         "final-sys-025",
-        "final-sys-026"
+        "final-sys-026",
+        "basic-sys-001",
+        "basic-sys-013",
+        "basic-sys-025",
+        "basic-sys-036"
       ]
     },
     {
@@ -188,7 +360,12 @@
         "final-sys-028",
         "final-sys-032",
         "final-sys-033",
-        "final-sys-035"
+        "final-sys-035",
+        "basic-sys-002",
+        "basic-sys-008",
+        "basic-sys-009",
+        "basic-sys-031",
+        "basic-sys-033"
       ]
     },
     {
@@ -205,7 +382,16 @@
         "final-sys-018",
         "final-sys-028",
         "final-sys-029",
-        "final-sys-031"
+        "final-sys-031",
+        "basic-sys-003",
+        "basic-sys-004",
+        "basic-sys-010",
+        "basic-sys-015",
+        "basic-sys-016",
+        "basic-sys-021",
+        "basic-sys-027",
+        "basic-sys-028",
+        "basic-sys-034"
       ]
     },
     {
@@ -221,7 +407,12 @@
         "final-sys-025",
         "final-sys-027",
         "final-sys-030",
-        "final-sys-031"
+        "final-sys-031",
+        "basic-sys-005",
+        "basic-sys-014",
+        "basic-sys-019",
+        "basic-sys-023",
+        "basic-sys-026"
       ]
     },
     {
@@ -230,7 +421,10 @@
       "questionIds": [
         "final-sys-002",
         "final-sys-019",
-        "final-sys-026"
+        "final-sys-026",
+        "basic-sys-007",
+        "basic-sys-022",
+        "basic-sys-036"
       ]
     },
     {
@@ -243,7 +437,13 @@
         "final-sys-020",
         "final-sys-021",
         "final-sys-032",
-        "final-sys-033"
+        "final-sys-033",
+        "basic-sys-008",
+        "basic-sys-011",
+        "basic-sys-018",
+        "basic-sys-029",
+        "basic-sys-032",
+        "basic-sys-033"
       ]
     },
     {
@@ -254,7 +454,14 @@
         "final-sys-022",
         "final-sys-023",
         "final-sys-034",
-        "final-sys-035"
+        "final-sys-035",
+        "basic-sys-006",
+        "basic-sys-012",
+        "basic-sys-017",
+        "basic-sys-020",
+        "basic-sys-024",
+        "basic-sys-030",
+        "basic-sys-035"
       ]
     },
     {
@@ -268,7 +475,16 @@
         "final-inf-025",
         "final-inf-026",
         "final-inf-027",
-        "final-inf-031"
+        "final-inf-031",
+        "basic-inf-001",
+        "basic-inf-002",
+        "basic-inf-003",
+        "basic-inf-004",
+        "basic-inf-005",
+        "basic-inf-013",
+        "basic-inf-025",
+        "basic-inf-026",
+        "basic-inf-035"
       ]
     },
     {
@@ -279,7 +495,12 @@
         "final-inf-014",
         "final-inf-025",
         "final-inf-026",
-        "final-inf-034"
+        "final-inf-034",
+        "basic-inf-002",
+        "basic-inf-004",
+        "basic-inf-014",
+        "basic-inf-015",
+        "basic-inf-027"
       ]
     },
     {
@@ -298,7 +519,13 @@
         "final-inf-027",
         "final-inf-028",
         "final-inf-029",
-        "final-inf-030"
+        "final-inf-030",
+        "basic-inf-006",
+        "basic-inf-016",
+        "basic-inf-017",
+        "basic-inf-018",
+        "basic-inf-028",
+        "basic-inf-029"
       ]
     },
     {
@@ -309,7 +536,10 @@
         "final-inf-011",
         "final-inf-018",
         "final-inf-031",
-        "final-inf-033"
+        "final-inf-033",
+        "basic-inf-007",
+        "basic-inf-019",
+        "basic-inf-030"
       ]
     },
     {
@@ -322,7 +552,14 @@
         "final-inf-020",
         "final-inf-021",
         "final-inf-032",
-        "final-inf-033"
+        "final-inf-033",
+        "basic-inf-008",
+        "basic-inf-010",
+        "basic-inf-020",
+        "basic-inf-022",
+        "basic-inf-030",
+        "basic-inf-031",
+        "basic-inf-032"
       ]
     },
     {
@@ -350,7 +587,38 @@
         "final-nfx-025",
         "final-nfx-033",
         "final-nfx-035",
-        "final-nfx-040"
+        "final-nfx-040",
+        "basic-inf-009",
+        "basic-inf-011",
+        "basic-inf-012",
+        "basic-inf-013",
+        "basic-inf-021",
+        "basic-inf-033",
+        "basic-inf-035",
+        "basic-nfx-001",
+        "basic-nfx-002",
+        "basic-nfx-003",
+        "basic-nfx-004",
+        "basic-nfx-005",
+        "basic-nfx-006",
+        "basic-nfx-007",
+        "basic-nfx-009",
+        "basic-nfx-015",
+        "basic-nfx-017",
+        "basic-nfx-018",
+        "basic-nfx-019",
+        "basic-nfx-020",
+        "basic-nfx-022",
+        "basic-nfx-025",
+        "basic-nfx-027",
+        "basic-nfx-031",
+        "basic-nfx-033",
+        "basic-nfx-034",
+        "basic-nfx-035",
+        "basic-nfx-036",
+        "basic-nfx-039",
+        "basic-nfx-045",
+        "basic-nfx-046"
       ]
     },
     {
@@ -363,7 +631,14 @@
         "final-inf-013",
         "final-inf-022",
         "final-inf-023",
-        "final-inf-035"
+        "final-inf-035",
+        "basic-inf-011",
+        "basic-inf-012",
+        "basic-inf-023",
+        "basic-inf-024",
+        "basic-inf-033",
+        "basic-inf-034",
+        "basic-inf-036"
       ]
     },
     {
@@ -385,7 +660,31 @@
         "final-nfx-034",
         "final-nfx-036",
         "final-nfx-037",
-        "final-nfx-041"
+        "final-nfx-041",
+        "basic-nfx-001",
+        "basic-nfx-002",
+        "basic-nfx-003",
+        "basic-nfx-004",
+        "basic-nfx-005",
+        "basic-nfx-006",
+        "basic-nfx-007",
+        "basic-nfx-009",
+        "basic-nfx-015",
+        "basic-nfx-017",
+        "basic-nfx-018",
+        "basic-nfx-019",
+        "basic-nfx-020",
+        "basic-nfx-022",
+        "basic-nfx-025",
+        "basic-nfx-027",
+        "basic-nfx-031",
+        "basic-nfx-033",
+        "basic-nfx-034",
+        "basic-nfx-035",
+        "basic-nfx-036",
+        "basic-nfx-039",
+        "basic-nfx-045",
+        "basic-nfx-046"
       ]
     },
     {
@@ -410,7 +709,22 @@
         "final-nfx-038",
         "final-nfx-039",
         "final-nfx-040",
-        "final-nfx-042"
+        "final-nfx-042",
+        "basic-nfx-008",
+        "basic-nfx-010",
+        "basic-nfx-013",
+        "basic-nfx-016",
+        "basic-nfx-021",
+        "basic-nfx-023",
+        "basic-nfx-024",
+        "basic-nfx-026",
+        "basic-nfx-030",
+        "basic-nfx-037",
+        "basic-nfx-038",
+        "basic-nfx-041",
+        "basic-nfx-042",
+        "basic-nfx-047",
+        "basic-nfx-048"
       ]
     },
     {
@@ -433,7 +747,22 @@
         "final-nfx-038",
         "final-nfx-039",
         "final-nfx-041",
-        "final-nfx-042"
+        "final-nfx-042",
+        "basic-nfx-008",
+        "basic-nfx-010",
+        "basic-nfx-013",
+        "basic-nfx-016",
+        "basic-nfx-021",
+        "basic-nfx-023",
+        "basic-nfx-024",
+        "basic-nfx-026",
+        "basic-nfx-030",
+        "basic-nfx-037",
+        "basic-nfx-038",
+        "basic-nfx-041",
+        "basic-nfx-042",
+        "basic-nfx-047",
+        "basic-nfx-048"
       ]
     },
     {
@@ -445,7 +774,12 @@
         "final-nfx-027",
         "final-nfx-028",
         "final-nfx-043",
-        "final-nfx-044"
+        "final-nfx-044",
+        "basic-nfx-011",
+        "basic-nfx-014",
+        "basic-nfx-028",
+        "basic-nfx-040",
+        "basic-nfx-044"
       ]
     },
     {
@@ -457,8 +791,13 @@
         "final-nfx-029",
         "final-nfx-030",
         "final-nfx-045",
-        "final-nfx-046"
+        "final-nfx-046",
+        "basic-nfx-012",
+        "basic-nfx-029",
+        "basic-nfx-032",
+        "basic-nfx-043"
       ]
     }
-  ]
+  ],
+  "foundationQuestionCount": 120
 }

@@ -74,7 +74,7 @@ export function DashboardPage({ data, navigate }: { data: CourseData; navigate: 
             <div className="mt-6 flex flex-wrap gap-3">
               <button className="button-primary bg-white text-ink hover:bg-blue-100" onClick={() => nextConcept ? navigate({ view: 'learn', id: nextConcept.id }) : navigate({ view: 'learn' })}><BookOpen size={17} />이어 학습하기</button>
               <button className="button-secondary border-white/15 bg-white/5 text-white hover:bg-white/10" onClick={() => navigate({ view: 'exam' })}><Target size={17} />모의고사 시작</button>
-              <button className="button-secondary border-blue-300/40 bg-cobalt/30 text-white hover:bg-cobalt/50" onClick={() => navigate({ view: 'final' })}>교수님 최종 대비 · 새 120문항<ArrowRight size={17} /></button>
+              <button className="button-secondary border-blue-300/40 bg-cobalt/30 text-white hover:bg-cobalt/50" onClick={() => navigate({ view: 'final' })}>최종 대비 · 쉬운 기본 120문항 추가<ArrowRight size={17} /></button>
             </div>
           </div>
           <div className="flex items-center gap-5 rounded-3xl border border-white/10 bg-white/[0.055] p-5 backdrop-blur-sm">
