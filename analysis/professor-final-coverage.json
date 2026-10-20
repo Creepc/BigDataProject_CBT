@@ -1,6 +1,6 @@
 {
-  "questionCount": 240,
-  "coreCount": 228,
+  "questionCount": 360,
+  "coreCount": 348,
   "supplementalCount": 12,
   "exams": [
     {
@@ -323,6 +323,168 @@
       "hard": 0,
       "multiple": 12,
       "visuals": 5
+    },
+    {
+      "id": "final-07",
+      "title": "중간 난도 1회 · 개념 구분",
+      "description": "비슷한 개념과 그럴듯한 보기 사이에서 사례에 맞는 답을 판단합니다. 40문항 모두 보통 난도입니다.",
+      "minutes": 50,
+      "level": "standard",
+      "questionIds": [
+        "mid-sys-001",
+        "mid-inf-001",
+        "mid-nfx-001",
+        "mid-sys-002",
+        "mid-inf-002",
+        "mid-nfx-002",
+        "mid-sys-003",
+        "mid-inf-003",
+        "mid-nfx-003",
+        "mid-sys-004",
+        "mid-inf-004",
+        "mid-nfx-004",
+        "mid-sys-005",
+        "mid-inf-005",
+        "mid-nfx-005",
+        "mid-sys-006",
+        "mid-inf-006",
+        "mid-nfx-006",
+        "mid-sys-007",
+        "mid-inf-007",
+        "mid-nfx-007",
+        "mid-sys-008",
+        "mid-inf-008",
+        "mid-nfx-008",
+        "mid-sys-009",
+        "mid-inf-009",
+        "mid-nfx-009",
+        "mid-sys-010",
+        "mid-inf-010",
+        "mid-nfx-010",
+        "mid-sys-011",
+        "mid-inf-011",
+        "mid-nfx-011",
+        "mid-sys-012",
+        "mid-inf-012",
+        "mid-nfx-012",
+        "mid-nfx-013",
+        "mid-nfx-014",
+        "mid-nfx-015",
+        "mid-nfx-016"
+      ],
+      "easy": 0,
+      "medium": 40,
+      "hard": 0,
+      "multiple": 12,
+      "visuals": 5
+    },
+    {
+      "id": "final-08",
+      "title": "중간 난도 2회 · 상황 판단",
+      "description": "처리 흐름과 짧은 사례를 적용해 판단합니다. 긴 복합 조건 없이 이해를 점검합니다.",
+      "minutes": 50,
+      "level": "standard",
+      "questionIds": [
+        "mid-sys-013",
+        "mid-inf-013",
+        "mid-nfx-017",
+        "mid-sys-014",
+        "mid-inf-014",
+        "mid-nfx-018",
+        "mid-sys-015",
+        "mid-inf-015",
+        "mid-nfx-019",
+        "mid-sys-016",
+        "mid-inf-016",
+        "mid-nfx-020",
+        "mid-sys-017",
+        "mid-inf-017",
+        "mid-nfx-021",
+        "mid-sys-018",
+        "mid-inf-018",
+        "mid-nfx-022",
+        "mid-sys-019",
+        "mid-inf-019",
+        "mid-nfx-023",
+        "mid-sys-020",
+        "mid-inf-020",
+        "mid-nfx-024",
+        "mid-sys-021",
+        "mid-inf-021",
+        "mid-nfx-025",
+        "mid-sys-022",
+        "mid-inf-022",
+        "mid-nfx-026",
+        "mid-sys-023",
+        "mid-inf-023",
+        "mid-nfx-027",
+        "mid-sys-024",
+        "mid-inf-024",
+        "mid-nfx-028",
+        "mid-nfx-029",
+        "mid-nfx-030",
+        "mid-nfx-031",
+        "mid-nfx-032"
+      ],
+      "easy": 0,
+      "medium": 40,
+      "hard": 0,
+      "multiple": 12,
+      "visuals": 5
+    },
+    {
+      "id": "final-09",
+      "title": "중간 난도 3회 · 자료 해석",
+      "description": "그래프·집계·작은 계산을 연결해 해석합니다. 용어 번역이나 보기 표현만으로 답을 주지 않습니다.",
+      "minutes": 50,
+      "level": "standard",
+      "questionIds": [
+        "mid-sys-025",
+        "mid-inf-025",
+        "mid-nfx-033",
+        "mid-sys-026",
+        "mid-inf-026",
+        "mid-nfx-034",
+        "mid-sys-027",
+        "mid-inf-027",
+        "mid-nfx-035",
+        "mid-sys-028",
+        "mid-inf-028",
+        "mid-nfx-036",
+        "mid-sys-029",
+        "mid-inf-029",
+        "mid-nfx-037",
+        "mid-sys-030",
+        "mid-inf-030",
+        "mid-nfx-038",
+        "mid-sys-031",
+        "mid-inf-031",
+        "mid-nfx-039",
+        "mid-sys-032",
+        "mid-inf-032",
+        "mid-nfx-040",
+        "mid-sys-033",
+        "mid-inf-033",
+        "mid-nfx-041",
+        "mid-sys-034",
+        "mid-inf-034",
+        "mid-nfx-042",
+        "mid-sys-035",
+        "mid-inf-035",
+        "mid-nfx-043",
+        "mid-sys-036",
+        "mid-inf-036",
+        "mid-nfx-044",
+        "mid-nfx-045",
+        "mid-nfx-046",
+        "mid-nfx-047",
+        "mid-nfx-048"
+      ],
+      "easy": 0,
+      "medium": 40,
+      "hard": 0,
+      "multiple": 12,
+      "visuals": 5
     }
   ],
   "focusCoverage": [
@@ -339,7 +501,10 @@
         "basic-sys-001",
         "basic-sys-013",
         "basic-sys-025",
-        "basic-sys-036"
+        "basic-sys-036",
+        "mid-sys-001",
+        "mid-sys-010",
+        "mid-sys-025"
       ]
     },
     {
@@ -365,7 +530,18 @@
         "basic-sys-008",
         "basic-sys-009",
         "basic-sys-031",
-        "basic-sys-033"
+        "basic-sys-033",
+        "mid-sys-002",
+        "mid-sys-009",
+        "mid-sys-013",
+        "mid-sys-014",
+        "mid-sys-015",
+        "mid-sys-019",
+        "mid-sys-020",
+        "mid-sys-023",
+        "mid-sys-027",
+        "mid-sys-034",
+        "mid-sys-035"
       ]
     },
     {
@@ -391,7 +567,19 @@
         "basic-sys-021",
         "basic-sys-027",
         "basic-sys-028",
-        "basic-sys-034"
+        "basic-sys-034",
+        "mid-sys-003",
+        "mid-sys-004",
+        "mid-sys-008",
+        "mid-sys-015",
+        "mid-sys-016",
+        "mid-sys-021",
+        "mid-sys-022",
+        "mid-sys-026",
+        "mid-sys-027",
+        "mid-sys-028",
+        "mid-sys-033",
+        "mid-sys-034"
       ]
     },
     {
@@ -412,7 +600,12 @@
         "basic-sys-014",
         "basic-sys-019",
         "basic-sys-023",
-        "basic-sys-026"
+        "basic-sys-026",
+        "mid-sys-005",
+        "mid-sys-014",
+        "mid-sys-019",
+        "mid-sys-026",
+        "mid-sys-033"
       ]
     },
     {
@@ -424,7 +617,9 @@
         "final-sys-026",
         "basic-sys-007",
         "basic-sys-022",
-        "basic-sys-036"
+        "basic-sys-036",
+        "mid-sys-010",
+        "mid-sys-029"
       ]
     },
     {
@@ -443,7 +638,15 @@
         "basic-sys-018",
         "basic-sys-029",
         "basic-sys-032",
-        "basic-sys-033"
+        "basic-sys-033",
+        "mid-sys-006",
+        "mid-sys-011",
+        "mid-sys-018",
+        "mid-sys-020",
+        "mid-sys-023",
+        "mid-sys-025",
+        "mid-sys-031",
+        "mid-sys-035"
       ]
     },
     {
@@ -461,7 +664,14 @@
         "basic-sys-020",
         "basic-sys-024",
         "basic-sys-030",
-        "basic-sys-035"
+        "basic-sys-035",
+        "mid-sys-007",
+        "mid-sys-012",
+        "mid-sys-017",
+        "mid-sys-024",
+        "mid-sys-030",
+        "mid-sys-032",
+        "mid-sys-036"
       ]
     },
     {
@@ -484,7 +694,15 @@
         "basic-inf-013",
         "basic-inf-025",
         "basic-inf-026",
-        "basic-inf-035"
+        "basic-inf-035",
+        "mid-inf-001",
+        "mid-inf-002",
+        "mid-inf-010",
+        "mid-inf-013",
+        "mid-inf-025",
+        "mid-inf-026",
+        "mid-inf-027",
+        "mid-inf-034"
       ]
     },
     {
@@ -500,7 +718,11 @@
         "basic-inf-004",
         "basic-inf-014",
         "basic-inf-015",
-        "basic-inf-027"
+        "basic-inf-027",
+        "mid-inf-001",
+        "mid-inf-003",
+        "mid-inf-014",
+        "mid-inf-026"
       ]
     },
     {
@@ -525,7 +747,13 @@
         "basic-inf-017",
         "basic-inf-018",
         "basic-inf-028",
-        "basic-inf-029"
+        "basic-inf-029",
+        "mid-inf-004",
+        "mid-inf-010",
+        "mid-inf-015",
+        "mid-inf-016",
+        "mid-inf-023",
+        "mid-inf-026"
       ]
     },
     {
@@ -539,7 +767,12 @@
         "final-inf-033",
         "basic-inf-007",
         "basic-inf-019",
-        "basic-inf-030"
+        "basic-inf-030",
+        "mid-inf-005",
+        "mid-inf-016",
+        "mid-inf-017",
+        "mid-inf-030",
+        "mid-inf-034"
       ]
     },
     {
@@ -559,7 +792,14 @@
         "basic-inf-022",
         "basic-inf-030",
         "basic-inf-031",
-        "basic-inf-032"
+        "basic-inf-032",
+        "mid-inf-006",
+        "mid-inf-007",
+        "mid-inf-018",
+        "mid-inf-019",
+        "mid-inf-020",
+        "mid-inf-028",
+        "mid-inf-029"
       ]
     },
     {
@@ -618,7 +858,28 @@
         "basic-nfx-036",
         "basic-nfx-039",
         "basic-nfx-045",
-        "basic-nfx-046"
+        "basic-nfx-046",
+        "mid-inf-002",
+        "mid-inf-003",
+        "mid-inf-009",
+        "mid-inf-011",
+        "mid-inf-017",
+        "mid-inf-021",
+        "mid-inf-024",
+        "mid-inf-030",
+        "mid-inf-031",
+        "mid-inf-035",
+        "mid-nfx-004",
+        "mid-nfx-005",
+        "mid-nfx-006",
+        "mid-nfx-017",
+        "mid-nfx-018",
+        "mid-nfx-019",
+        "mid-nfx-020",
+        "mid-nfx-025",
+        "mid-nfx-033",
+        "mid-nfx-036",
+        "mid-nfx-041"
       ]
     },
     {
@@ -638,7 +899,18 @@
         "basic-inf-024",
         "basic-inf-033",
         "basic-inf-034",
-        "basic-inf-036"
+        "basic-inf-036",
+        "mid-inf-008",
+        "mid-inf-009",
+        "mid-inf-011",
+        "mid-inf-012",
+        "mid-inf-022",
+        "mid-inf-023",
+        "mid-inf-024",
+        "mid-inf-029",
+        "mid-inf-032",
+        "mid-inf-033",
+        "mid-inf-036"
       ]
     },
     {
@@ -684,7 +956,24 @@
         "basic-nfx-036",
         "basic-nfx-039",
         "basic-nfx-045",
-        "basic-nfx-046"
+        "basic-nfx-046",
+        "mid-nfx-001",
+        "mid-nfx-002",
+        "mid-nfx-003",
+        "mid-nfx-004",
+        "mid-nfx-005",
+        "mid-nfx-006",
+        "mid-nfx-007",
+        "mid-nfx-009",
+        "mid-nfx-017",
+        "mid-nfx-020",
+        "mid-nfx-024",
+        "mid-nfx-032",
+        "mid-nfx-033",
+        "mid-nfx-034",
+        "mid-nfx-035",
+        "mid-nfx-036",
+        "mid-nfx-047"
       ]
     },
     {
@@ -724,7 +1013,28 @@
         "basic-nfx-041",
         "basic-nfx-042",
         "basic-nfx-047",
-        "basic-nfx-048"
+        "basic-nfx-048",
+        "mid-nfx-002",
+        "mid-nfx-007",
+        "mid-nfx-008",
+        "mid-nfx-009",
+        "mid-nfx-010",
+        "mid-nfx-015",
+        "mid-nfx-018",
+        "mid-nfx-019",
+        "mid-nfx-021",
+        "mid-nfx-022",
+        "mid-nfx-023",
+        "mid-nfx-025",
+        "mid-nfx-030",
+        "mid-nfx-032",
+        "mid-nfx-034",
+        "mid-nfx-037",
+        "mid-nfx-039",
+        "mid-nfx-041",
+        "mid-nfx-042",
+        "mid-nfx-045",
+        "mid-nfx-048"
       ]
     },
     {
@@ -762,7 +1072,19 @@
         "basic-nfx-041",
         "basic-nfx-042",
         "basic-nfx-047",
-        "basic-nfx-048"
+        "basic-nfx-048",
+        "mid-nfx-003",
+        "mid-nfx-010",
+        "mid-nfx-016",
+        "mid-nfx-022",
+        "mid-nfx-024",
+        "mid-nfx-030",
+        "mid-nfx-035",
+        "mid-nfx-037",
+        "mid-nfx-038",
+        "mid-nfx-042",
+        "mid-nfx-047",
+        "mid-nfx-048"
       ]
     },
     {
@@ -779,7 +1101,13 @@
         "basic-nfx-014",
         "basic-nfx-028",
         "basic-nfx-040",
-        "basic-nfx-044"
+        "basic-nfx-044",
+        "mid-nfx-011",
+        "mid-nfx-014",
+        "mid-nfx-026",
+        "mid-nfx-027",
+        "mid-nfx-040",
+        "mid-nfx-044"
       ]
     },
     {
@@ -795,9 +1123,17 @@
         "basic-nfx-012",
         "basic-nfx-029",
         "basic-nfx-032",
-        "basic-nfx-043"
+        "basic-nfx-043",
+        "mid-nfx-012",
+        "mid-nfx-013",
+        "mid-nfx-028",
+        "mid-nfx-029",
+        "mid-nfx-031",
+        "mid-nfx-043",
+        "mid-nfx-046"
       ]
     }
   ],
-  "foundationQuestionCount": 120
+  "foundationQuestionCount": 120,
+  "standardQuestionCount": 120
 }

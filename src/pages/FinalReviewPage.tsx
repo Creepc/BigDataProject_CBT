@@ -3,21 +3,30 @@ import { ArrowRight, BookOpen, CheckCircle2, ChevronDown, ExternalLink, FileText
 import type { CourseData, NavigationTarget } from '@/types'
 import { useStudy } from '@/contexts/StudyContext'
 import { pdfPageUrl } from '@/lib/assets'
-import { evidenceLabel, getFinalExamLevel, getFinalExams, getFinalQuestions, nextFinalQuestion, type FinalFilters } from '@/lib/finalReview'
+import { evidenceLabel, getFinalExamLevel, getFinalExams, getFinalLevelLabel, getFinalQuestions, nextFinalQuestion, type FinalFilters } from '@/lib/finalReview'
 import { getMockExamProgress, getMockExamQuestions } from '@/lib/mockExams'
 import { DifficultyBadge, EmptyState, ProgressBar, SearchInput } from '@/components/ui'
 
-export function FinalReviewPage({ data, navigate, initialLevel = 'foundation' }: { data: CourseData; navigate: (target: NavigationTarget) => void; initialLevel?: string }) {
+export function FinalReviewPage({ data, navigate, initialLevel = 'standard' }: { data: CourseData; navigate: (target: NavigationTarget) => void; initialLevel?: string }) {
   const { state } = useStudy()
   const [filters, setFilters] = useState<FinalFilters>({})
   const [limit, setLimit] = useState(12)
   const review = data.finalReview
   if (!review) return null
   const all = getFinalQuestions(data)
-  const level = ['foundation', 'challenge', 'all'].includes(initialLevel) ? initialLevel : 'foundation'
+  const level = ['foundation', 'standard', 'challenge', 'all'].includes(initialLevel) ? initialLevel : 'standard'
   const exams = getFinalExams(data, level)
   const foundation = getFinalQuestions(data, { level: 'foundation' })
+  const standard = getFinalQuestions(data, { level: 'standard' })
   const challenge = getFinalQuestions(data, { level: 'challenge' })
+  const levelLabel = getFinalLevelLabel(level)
+  const seriesCopy = level === 'standard'
+    ? { eyebrow: 'APPLY AND DISTINGUISH', heading: '중간 난도 · 40문항씩 적용', intro: '120문항 모두 보통 난도입니다. 용어의 뜻을 보기에 함께 주지 않고, 비슷한 개념과 짧은 사례를 구분합니다. 기존 고난도처럼 긴 복합 조건은 쌓지 않았어요.' }
+    : level === 'foundation'
+      ? { eyebrow: 'START WITH THE BASICS', heading: '기본 다지기 · 40문항씩 연습', intro: '기존 기본 다지기 120문항을 그대로 유지합니다. 용어와 역할부터 익히고 싶을 때 풀어 보세요.' }
+      : level === 'challenge'
+        ? { eyebrow: 'ORIGINAL CHALLENGE PAPERS', heading: '기존 고난도 · 40문항씩 점검', intro: '기존 최종 대비 1~3회입니다. 이전 문제와 풀이 기록을 그대로 확인할 수 있어요. 조건을 복합적으로 판단하는 연습입니다.' }
+        : { eyebrow: 'ALL FINAL PAPERS', heading: '세 단계 · 전체 9회', intro: '기본 다지기·중간 난도·기존 고난도를 모두 표시합니다. 비슷한 수준만 이어 풀려면 위에서 문제 묶음을 선택하세요.' }
   const items = getFinalQuestions(data, { ...filters, level }, state.attempts)
   const source = data.files.find((file) => file.id === review.fileId)
   const answered = all.filter((question) => state.attempts[question.id]?.lastSelected.length).length
@@ -33,36 +42,40 @@ export function FinalReviewPage({ data, navigate, initialLevel = 'foundation' }:
       <div className="absolute -right-16 -top-16 h-60 w-60 rounded-full border-[36px] border-cobalt/25" aria-hidden="true" />
       <div className="relative">
         <div className="flex items-center gap-2 text-xs font-bold tracking-wide text-blue-300"><GraduationCap size={17} />FINAL REVIEW · 교수님 마지막 안내 반영</div>
-        <h1 className="mt-4 text-3xl font-black tracking-tight sm:text-4xl">기본부터 익히고,<br className="sm:hidden" /> 실전까지 단계별로.</h1>
-        <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300">쉬움·보통 중심의 기본 문제 {foundation.length}개를 추가했어요. 기존 고난도 {challenge.length}개는 그대로 유지합니다.<br />최종 PDF와 필기 범위 안에서 용어·역할·기본 그래프를 짧은 상황과 쉬운 풀이로 익혀 보세요.</p>
+        <h1 className="mt-4 text-3xl font-black tracking-tight sm:text-4xl">외우는 답에서,<br className="sm:hidden" /> 판단하는 답으로.</h1>
+        <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300">기본보다 한 단계 높은 중간 난도 {standard.length}문항을 추가했어요. 새 묶음은 모두 보통 난도입니다.<br />용어 번역 대신 사례로 판단하고, 비슷한 보기 사이의 차이를 찾아보세요. 기존 기본·고난도 문제와 기록은 그대로입니다.</p>
         <div className="mt-6 flex flex-wrap gap-2">
-          <button onClick={() => study({ level: 'foundation' })} className="button-primary bg-white text-ink hover:bg-blue-100"><BookOpen size={16} />기본 {foundation.length}문항 해설 학습</button>
-          <button onClick={() => navigate({ view: 'final', params: { level: 'challenge' } })} className="button-secondary border-white/20 bg-white/5 text-white hover:bg-white/10">기존 고난도 보기</button>
+          <button onClick={() => study({ level: 'standard' })} className="button-primary bg-white text-ink hover:bg-blue-100"><BookOpen size={16} />중간 난도 {standard.length}문항 해설 학습</button>
+          <button onClick={() => navigate({ view: 'final', params: { level: 'foundation' } })} className="button-secondary border-white/20 bg-white/5 text-white hover:bg-white/10">기본 다지기 보기</button>
           {source && <a className="button-secondary border-white/20 bg-white/5 text-white hover:bg-white/10" href={pdfPageUrl(source, 1)} target="_blank" rel="noreferrer"><FileText size={16} />최종 PDF<ExternalLink size={13} /></a>}
         </div>
         <div className="mt-7 grid grid-cols-2 gap-4 border-t border-white/15 pt-5 sm:grid-cols-4">
-          {[[`기본 ${foundation.length}문항 추가`, `쉬움 ${foundation.filter((question) => question.difficulty === '쉬움').length} · 보통 ${foundation.filter((question) => question.difficulty === '보통').length}`], [`기존 ${challenge.length}문항 유지`, '문제·정답·해설 그대로'], [`총 ${all.length}문항`, '기본 3회 + 기존 고난도 3회'], [`${answered} / ${all.length} 응답`, `최근 응답 중 ${correct}개 정답`]].map(([title, description]) => <div key={title}><strong className="text-base sm:text-lg">{title}</strong><p className="mt-1 text-[11px] text-slate-400">{description}</p></div>)}
+          {[[`중간 ${standard.length}문항 추가`, '40문항 × 3회 · 전부 보통'], [`기존 ${foundation.length + challenge.length}문항 유지`, '기본·고난도·풀이 기록 보존'], [`총 ${all.length}문항`, '기본 3회 + 중간 3회 + 고난도 3회'], [`${answered} / ${all.length} 응답`, `최근 응답 중 ${correct}개 정답`]].map(([title, description]) => <div key={title}><strong className="text-base sm:text-lg">{title}</strong><p className="mt-1 text-[11px] text-slate-400">{description}</p></div>)}
         </div>
       </div>
     </header>
 
     <div className="surface mt-6 p-4 sm:p-5">
       <div role="group" aria-label="최종 대비 문제 묶음" className="flex flex-wrap gap-2">{[
-        ['foundation', `기본 다지기 · 추천 ${foundation.length}문항`],
+        ['foundation', `기본 다지기 ${foundation.length}문항`],
+        ['standard', `중간 난도 · 추천 ${standard.length}문항`],
         ['challenge', `기존 고난도 ${challenge.length}문항`],
         ['all', `전체 ${all.length}문항`],
       ].map(([value, label]) => <button key={value} aria-pressed={level === value} className={level === value ? 'button-primary' : 'button-secondary'} onClick={() => navigate({ view: 'final', params: { level: value } })}>{label}</button>)}</div>
-      <p className="mt-3 text-xs leading-6 text-slate-500">{level === 'foundation' ? '기본 다지기는 긴 조건을 줄이고 한 가지 개념부터 묻습니다. 해설 학습으로 익힌 다음 40문항 시험을 풀어 보세요.' : level === 'challenge' ? '기존 최종 대비 1~3회입니다. 이전 문제와 풀이 기록을 그대로 확인할 수 있어요. 기본이 익숙해진 뒤 도전하세요.' : '기본 다지기와 기존 고난도를 모두 표시합니다. 아래 필터에서 쉬움·보통만 골라 풀 수도 있어요.'}</p>
+      <p className="mt-3 text-xs leading-6 text-slate-500">{seriesCopy.intro}</p>
     </div>
     <section className="mt-7" aria-labelledby="final-exams-heading">
-      <div className="mb-4 flex flex-wrap items-end justify-between gap-2"><div><div className="eyebrow">{level === 'foundation' ? 'START WITH THE BASICS' : level === 'challenge' ? 'ORIGINAL CHALLENGE PAPERS' : 'ALL FINAL PAPERS'}</div><h2 id="final-exams-heading" className="mt-1 text-xl font-black">{level === 'foundation' ? '기본 다지기 · 40문항씩 연습' : level === 'challenge' ? '기존 고난도 · 40문항씩 점검' : '기본과 고난도 · 전체 6회'}</h2></div><p className="text-xs text-slate-500">시험 50분 · 해설 학습 무제한 · 문항당 2.5점</p></div>
+      <div className="mb-4 flex flex-wrap items-end justify-between gap-2"><div><div className="eyebrow">{seriesCopy.eyebrow}</div><h2 id="final-exams-heading" className="mt-1 text-xl font-black">{seriesCopy.heading}</h2></div><p className="text-xs text-slate-500">시험 50분 · 해설 학습 무제한 · 문항당 2.5점</p></div>
       <div className="grid gap-4 xl:grid-cols-3">{exams.map((exam, index) => {
         const questions = getMockExamQuestions(data, exam.id)
         const progress = getMockExamProgress(exam, state.attempts, state.exams)
         return <article key={exam.id} className="surface flex flex-col p-5">
           <div className="flex items-center justify-between"><span className="flex h-10 w-10 items-center justify-center rounded-xl bg-cobalt text-sm font-black text-white">0{index + 1}</span><span className="text-xs font-semibold text-slate-400">40문항 · 50분</span></div>
           <h3 className="mt-4 text-base font-black">{exam.title}</h3><p className="mt-2 text-xs leading-6 text-slate-500">{exam.description}</p>
-          <div className="mt-3 flex flex-wrap gap-1.5"><span className="chip">{getFinalExamLevel(exam) === 'foundation' ? `쉬움 ${questions.filter((question) => question.difficulty === '쉬움').length}` : `어려움 ${questions.filter((question) => question.difficulty === '어려움').length}`}</span><span className="chip">보통 {questions.filter((question) => question.difficulty === '보통').length}</span><span className="chip">복수 {questions.filter((question) => question.mode === 'multiple').length}</span><span className="chip">시각자료 {questions.filter((question) => question.visual).length}</span>{getFinalExamLevel(exam) === 'challenge' && <span className="chip">보충 {questions.filter((question) => question.finalReview?.evidence === 'supplement').length}</span>}</div>
+          <div className="mt-3 flex flex-wrap gap-1.5">{(['쉬움', '보통', '어려움'] as const).map((difficulty) => {
+            const count = questions.filter((question) => question.difficulty === difficulty).length
+            return count ? <span key={difficulty} className="chip">{difficulty} {count}</span> : null
+          })}<span className="chip">복수 {questions.filter((question) => question.mode === 'multiple').length}</span><span className="chip">시각자료 {questions.filter((question) => question.visual).length}</span>{getFinalExamLevel(exam) === 'challenge' && <span className="chip">보충 {questions.filter((question) => question.finalReview?.evidence === 'supplement').length}</span>}</div>
           <div className="mb-4 mt-5"><p className="mb-2 flex justify-between text-[11px] text-slate-500"><span>문항 응답 {progress.answered}/40</span><span>최근 정답 {progress.correct}/40</span></p><ProgressBar value={progress.answered / 40 * 100} /><p className="mt-2 text-[11px] text-slate-400">{progress.examCount ? `시험 ${progress.examCount}회 · 최근 ${progress.latestScore}점 · 최고 ${progress.bestScore}점` : '아직 시험 기록 없음 · 학습 응답과 시험 점수는 별도'}</p></div>
           <div className="mt-auto grid grid-cols-2 gap-2"><button className="button-primary px-2" onClick={() => navigate({ view: 'exam', params: { paper: exam.id, level } })}><Play size={15} />시험 응시</button><button className="button-secondary px-2" onClick={() => navigate({ view: 'practice', id: progress.nextId, params: { scope: 'final', exam: exam.id, level } })}><BookOpen size={15} />해설 학습</button></div>
           {progress.latestExam && <button className="button-secondary mt-2 text-xs" onClick={() => navigate({ view: 'exam', params: { paper: exam.id, review: 'latest', level } })}>최근 시험 답안·해설 다시 보기</button>}
@@ -88,7 +101,7 @@ export function FinalReviewPage({ data, navigate, initialLevel = 'foundation' }:
     </section>
 
     <section className="mt-8" aria-labelledby="final-filter-heading">
-      <div className="mb-4 flex items-center gap-2"><SlidersHorizontal size={18} className="text-cobalt" /><h2 id="final-filter-heading" className="text-xl font-black">{level === 'foundation' ? '기본 문제 골라 풀기' : level === 'challenge' ? '기존 고난도 골라 풀기' : '전체 문제 골라 풀기'}</h2><span className="ml-auto text-xs font-bold text-slate-500">{items.length}문항</span></div>
+      <div className="mb-4 flex items-center gap-2"><SlidersHorizontal size={18} className="text-cobalt" /><h2 id="final-filter-heading" className="text-xl font-black">{levelLabel} 골라 풀기</h2><span className="ml-auto text-xs font-bold text-slate-500">{items.length}문항</span></div>
       <div className="surface p-4 sm:p-5"><SearchInput value={filters.search ?? ''} onChange={(value) => setFilter('search', value)} placeholder="발문·핵심 용어 검색" /><div className="mt-3 grid grid-cols-2 gap-2 lg:grid-cols-5">
         <select className="input text-xs" aria-label="최종 대비 주제" value={filters.topic ?? ''} onChange={(event) => setFilter('topic', event.target.value)}><option value="">모든 주제</option>{review.topics.map((topic) => <option key={topic.id} value={topic.id}>{topic.title}</option>)}</select>
         <select className="input text-xs" aria-label="출제 근거" value={filters.evidence ?? ''} onChange={(event) => setFilter('evidence', event.target.value)}><option value="">전체 근거</option><option value="core">핵심 범위만</option><option value="pdf">최종 PDF 중심</option><option value="lecture">마지막 필기 강조</option><option value="supplement">보충만</option></select>

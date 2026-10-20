@@ -46,7 +46,7 @@ export default function App() {
         return <QuestionPlayer questions={questions} initialId={target.id} concepts={courseData.concepts} files={courseData.files} navigate={navigate} curriculumMode={params.scope === 'curriculum'} finalMode={params.scope === 'final'} finalLevel={finalLevel} mockExam={mockExam} />
       }
       case 'exam': return <ExamPage key={`${params.paper ?? 'custom'}-${params.review ?? 'take'}`} data={courseData} navigate={navigate} initialExamId={params.paper} reviewLatest={params.review === 'latest'} returnFinalLevel={params.level} />
-      case 'final': return <FinalReviewPage key={params.level ?? 'foundation'} data={courseData} navigate={navigate} initialLevel={params.level} />
+      case 'final': return <FinalReviewPage key={params.level ?? 'standard'} data={courseData} navigate={navigate} initialLevel={params.level} />
       case 'wrong': return <WrongPage data={courseData} navigate={navigate} />
       case 'stats': return <StatsPage data={courseData} navigate={navigate} />
       case 'cards': return <CardsPage data={courseData} />

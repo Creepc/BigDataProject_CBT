@@ -16,7 +16,7 @@ describe('easier foundation review additions', () => {
   beforeEach(() => vi.mocked(useStudy).mockReturnValue({ state: createInitialStudyState(), recordAttempt: vi.fn(() => false), toggleBookmark: vi.fn(), toggleConcept: vi.fn(), toggleReview: vi.fn(), saveExam: vi.fn(), setTheme: vi.fn(), rateCard: vi.fn(), exportData: vi.fn(() => ''), importData: vi.fn(), reset: vi.fn() }))
 
   it('preserves every field of the 876 previous questions and all three published final papers', () => {
-    const previous = courseData.questions.filter((question) => !question.id.startsWith('basic-'))
+    const previous = courseData.questions.filter((question) => !question.id.startsWith('basic-') && !question.id.startsWith('mid-'))
     expect(previous).toHaveLength(876)
     expect(digest(previous)).toBe('cf4a92075be49fb4b7249cb709f0334da9f79773a05914f3412f499401db5e78')
     expect(digest(getFinalExams(courseData, 'challenge'))).toBe('d067b14f81df31aa92df436b8be0103f461b04e76c92c5c3f6aa583ebcff6414')
@@ -53,7 +53,7 @@ describe('easier foundation review additions', () => {
     expect(getFinalQuestions(courseData, { level: 'foundation', difficulty: '보통' })).toHaveLength(60)
     expect(getFinalQuestions(courseData, { level: 'foundation', difficulty: '어려움' })).toEqual([])
     expect(getFinalQuestions(courseData, { level: 'foundation', evidence: 'supplement' })).toEqual([])
-    expect(getFinalQuestions(courseData, { level: 'all' })).toHaveLength(240)
+    expect(getFinalQuestions(courseData, { level: 'all' })).toHaveLength(360)
     expect(getFinalQuestions(courseData, { level: 'unknown' })).toEqual([])
     for (const focus of courseData.finalReview!.focusItems) expect(questions.some((question) => question.finalReview!.focusIds.includes(focus.id)), focus.label).toBe(true)
     for (const topic of courseData.finalReview!.topics) expect(getFinalQuestions(courseData, { level: 'foundation', topic: topic.id }).length, topic.title).toBeGreaterThan(0)
@@ -64,9 +64,9 @@ describe('easier foundation review additions', () => {
     expect(getFinalQueueLevel(courseData, [])).toBe('all')
   })
 
-  it('shows foundation first and keeps original challenge papers reachable separately', () => {
+  it('keeps foundation and original challenge papers reachable separately', () => {
     const props = { data: courseData, navigate: () => {} }
-    const basic = renderToStaticMarkup(<FinalReviewPage {...props} />)
+    const basic = renderToStaticMarkup(<FinalReviewPage {...props} initialLevel="foundation" />)
     const challenge = renderToStaticMarkup(<FinalReviewPage {...props} initialLevel="challenge" />)
     const all = renderToStaticMarkup(<FinalReviewPage {...props} initialLevel="all" />)
     expect(basic).toContain('기본 다지기 · 40문항씩 연습')
@@ -77,7 +77,7 @@ describe('easier foundation review additions', () => {
     expect(all).toContain('기본 다지기 1회 · 용어와 역할')
     expect(all).toContain('최종 대비 1회 · 조건과 경계')
     expect(basic).toContain('선택한 120문항 이어 풀기')
-    expect(all).toContain('선택한 240문항 이어 풀기')
+    expect(all).toContain('선택한 360문항 이어 풀기')
     expect(basic).toContain('<option>쉬움</option>')
     expect(getFinalQuestions(courseData, { level: 'foundation' }).some((question) => basic.includes(question.detailedExplanation!.concept))).toBe(false)
   })

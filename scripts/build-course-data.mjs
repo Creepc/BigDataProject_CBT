@@ -323,6 +323,7 @@ const questionBankFiles = [
   'mock-questions-notion12.json', 'mock-questions-notion34.json', 'mock-questions-web123.json',
   'final-questions-systems.json', 'final-questions-infrastructure.json', 'final-questions-netflix.json',
   'foundation-questions-systems.json', 'foundation-questions-infrastructure.json', 'foundation-questions-netflix.json',
+  'standard-questions-systems.json', 'standard-questions-infrastructure.json', 'standard-questions-netflix.json',
 ]
 for (const file of questionBankFiles) {
   const bank = JSON.parse(fs.readFileSync(path.join(root, 'analysis', file), 'utf8'))
@@ -392,7 +393,8 @@ const mockExams = mockExamConfig.exams.map((exam) => {
 const finalReview = {
   ...finalConfig,
   exams: finalConfig.exams.map((exam) => {
-    const prefixes = exam.level === 'foundation' ? ['basic-sys-', 'basic-inf-', 'basic-nfx-'] : ['final-sys-', 'final-inf-', 'final-nfx-']
+    const prefixes = exam.level === 'foundation' ? ['basic-sys-', 'basic-inf-', 'basic-nfx-']
+      : exam.level === 'standard' ? ['mid-sys-', 'mid-inf-', 'mid-nfx-'] : ['final-sys-', 'final-inf-', 'final-nfx-']
     const groups = prefixes.map((prefix) =>
       questions.filter((question) => question.finalExamId === exam.id && question.id.startsWith(prefix)))
     const questionIds = []
@@ -455,8 +457,8 @@ for (const concept of concepts) {
   }
 }
 const finalQuestions = questions.filter((question) => question.finalExamId)
-if (finalReview.exams.length !== 6 || finalQuestions.length !== 240) errors.push('Final review requires six papers and 240 questions')
-for (const examLevel of ['foundation', 'challenge']) {
+if (finalReview.exams.length !== 9 || finalQuestions.length !== 360) errors.push('Final review requires nine papers and 360 questions')
+for (const examLevel of ['foundation', 'standard', 'challenge']) {
   if (finalReview.exams.filter((exam) => (exam.level ?? 'challenge') === examLevel).length !== 3) errors.push(`${examLevel}: expected three final papers`)
 }
 const finalIds = new Set()
@@ -469,6 +471,13 @@ for (const exam of finalReview.exams) {
     if (items.filter((question) => question?.difficulty === '쉬움').length !== 20 || items.filter((question) => question?.difficulty === '보통').length !== 20 || items.some((question) => question?.difficulty === '어려움')) errors.push(`${exam.id}: expected easy 20 / medium 20 / hard 0`)
     if (items.some((question) => question?.finalReview?.evidence === 'supplement' || question?.supplemental)) errors.push(`${exam.id}: foundation papers must stay within the core scope`)
     if (items.some((question) => question?.prompt.length > 220)) errors.push(`${exam.id}: shorten foundation prompts to at most 220 characters`)
+  } else if (exam.level === 'standard') {
+    if (items.some((question) => question?.difficulty !== '보통')) errors.push(`${exam.id}: standard papers must contain only medium questions`)
+    if (items.some((question) => question?.finalReview?.evidence === 'supplement' || question?.supplemental)) errors.push(`${exam.id}: standard papers must stay within the core scope`)
+    if (items.some((question) => question?.prompt.length > 250)) errors.push(`${exam.id}: shorten standard prompts to at most 250 characters`)
+    for (const question of items) {
+      if (question?.options.some((option) => /(?:Volume|Velocity|Variety|Veracity|Value)\s*[·:(-]\s*(?:규모|양|속도|다양성|신뢰성|가치)/i.test(option.text))) errors.push(`${question.id}: remove answer-revealing 5V translations from options`)
+    }
   } else {
     if (items.filter((question) => question?.difficulty === '어려움').length !== 28 || items.filter((question) => question?.difficulty === '보통').length !== 12) errors.push(`${exam.id}: expected hard 28 / medium 12`)
     if (items.filter((question) => question?.finalReview?.evidence === 'supplement').length !== 4) errors.push(`${exam.id}: expected four supplemental items`)
@@ -490,7 +499,7 @@ for (const question of finalQuestions) {
 }
 for (const id of focusIds) if (!finalQuestions.some((question) => question.finalReview?.evidence !== 'supplement' && question.finalReview?.focusIds.includes(id))) errors.push(`${id}: final oral emphasis is not covered`)
 for (const id of topicIds) if (!finalQuestions.some((question) => question.finalReview?.evidence !== 'supplement' && question.finalReview?.topicId === id)) errors.push(`${id}: final topic has no core question`)
-for (const examLevel of ['foundation', 'challenge']) {
+for (const examLevel of ['foundation', 'standard', 'challenge']) {
   const levelExams = new Set(finalReview.exams.filter((exam) => (exam.level ?? 'challenge') === examLevel).map((exam) => exam.id))
   const levelQuestions = finalQuestions.filter((question) => levelExams.has(question.finalExamId))
   for (const id of focusIds) if (!levelQuestions.some((question) => question.finalReview.evidence !== 'supplement' && question.finalReview.focusIds.includes(id))) errors.push(`${examLevel}: missing oral focus ${id}`)
@@ -614,6 +623,7 @@ fs.writeFileSync(path.join(root, 'analysis', 'professor-final-coverage.json'), `
   }),
   focusCoverage: finalReview.focusItems.map((focus) => ({ ...focus, questionIds: finalQuestions.filter((question) => question.finalReview.evidence !== 'supplement' && question.finalReview.focusIds.includes(focus.id)).map((question) => question.id) })),
   foundationQuestionCount: finalQuestions.filter((question) => finalReview.exams.some((exam) => exam.id === question.finalExamId && exam.level === 'foundation')).length,
+  standardQuestionCount: finalQuestions.filter((question) => finalReview.exams.some((exam) => exam.id === question.finalExamId && exam.level === 'standard')).length,
 }, null, 2)}\n`, 'utf8')
 console.log(JSON.stringify({
   files: files.length,

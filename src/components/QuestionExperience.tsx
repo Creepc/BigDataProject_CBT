@@ -6,6 +6,7 @@ import {
 import type { Concept, MockExam, NavigationTarget, Question, SourceFile } from '@/types'
 import { correctOptionIds, formatPages, isAnswerCorrect } from '@/lib/study'
 import { pdfPageUrl } from '@/lib/assets'
+import { getFinalLevelLabel } from '@/lib/finalReview'
 import { useStudy } from '@/contexts/StudyContext'
 import { DifficultyBadge, ProgressBar } from './ui'
 import { QuestionVisual } from './QuestionVisual'
@@ -129,7 +130,7 @@ export function QuestionPlayer({
   curriculumMode = false,
   mockExam,
   finalMode = false,
-  finalLevel = 'foundation',
+  finalLevel = 'standard',
 }: {
   questions: Question[]
   initialId?: string
@@ -196,7 +197,7 @@ export function QuestionPlayer({
       </div>
 
       {mockExam && <div className="mb-5 rounded-2xl bg-blue-50 p-4 dark:bg-blue-500/10"><h1 className="text-base font-black text-cobalt dark:text-blue-300">{mockExam.title} · 해설 학습</h1><p className="mt-1 text-xs leading-6 text-slate-500 dark:text-slate-300">시간 제한 없이 한 문제씩 제출하고 개념·단계별 풀이를 읽습니다. 학습 응답은 기록되며, 시험 점수와는 별도로 표시됩니다.</p></div>}
-      {finalMode && !mockExam && <div className="mb-5 rounded-2xl bg-blue-50 p-4 dark:bg-blue-500/10"><h1 className="text-base font-black text-cobalt dark:text-blue-300">{finalLevel === 'foundation' ? '기본 다지기' : finalLevel === 'challenge' ? '기존 고난도' : '전체 최종 대비'} · 해설 학습</h1><p className="mt-1 text-xs leading-6 text-slate-500 dark:text-slate-300">먼저 답을 골라 보세요. 제출하면 용어의 뜻과 풀이를 한 단계씩 읽을 수 있어요. 시간 제한은 없습니다.</p></div>}
+      {finalMode && !mockExam && <div className="mb-5 rounded-2xl bg-blue-50 p-4 dark:bg-blue-500/10"><h1 className="text-base font-black text-cobalt dark:text-blue-300">{getFinalLevelLabel(finalLevel)} · 해설 학습</h1><p className="mt-1 text-xs leading-6 text-slate-500 dark:text-slate-300">먼저 답을 골라 보세요. 제출하면 용어의 뜻과 풀이를 한 단계씩 읽을 수 있어요. 시간 제한은 없습니다.</p></div>}
       {(mockExam || finalMode) && <details className="surface mb-5 p-4"><summary className="cursor-pointer text-xs font-bold text-slate-500">{questions.length}문항 바로가기 · 답을 선택한 문항에 표시</summary><div className="mt-4 grid grid-cols-8 gap-2 sm:grid-cols-10">{questions.map((item, itemIndex) => <button type="button" key={item.id} onClick={() => go(itemIndex)} aria-label={`학습 문제 ${itemIndex + 1}${state.attempts[item.id]?.lastSelected.length ? ', 응답 기록 있음' : ', 미응답'}`} aria-current={index === itemIndex ? 'step' : undefined} className={`rounded-lg p-2 text-xs font-bold ${index === itemIndex ? 'bg-cobalt text-white' : state.attempts[item.id]?.lastSelected.length ? 'bg-blue-50 text-cobalt dark:bg-blue-500/10 dark:text-blue-300' : 'bg-slate-100 text-slate-500 dark:bg-white/5'}`}>{itemIndex + 1}</button>)}</div></details>}
 
       <article className="surface p-5 sm:p-7 lg:p-9">

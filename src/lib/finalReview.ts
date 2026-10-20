@@ -13,6 +13,10 @@ export interface FinalFilters {
 /** Legacy final papers remain the challenge series without rewriting their metadata. */
 export const getFinalExamLevel = (exam: MockExam) => exam.level ?? 'challenge'
 
+export const getFinalLevelLabel = (level?: string) => level === 'foundation' ? '기본 다지기'
+  : level === 'standard' ? '중간 난도'
+  : level === 'challenge' ? '기존 고난도' : '전체 최종 대비'
+
 export const getFinalExams = (data: CourseData, level?: string) => (data.finalReview?.exams ?? [])
   .filter((exam) => !level || level === 'all' || getFinalExamLevel(exam) === level)
 

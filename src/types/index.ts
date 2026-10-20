@@ -142,7 +142,7 @@ export interface MockExam {
   description: string
   minutes: number
   questionIds: string[]
-  level?: 'foundation' | 'challenge'
+  level?: 'foundation' | 'standard' | 'challenge'
 }
 
 export interface Flashcard {
