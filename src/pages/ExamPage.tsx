@@ -12,12 +12,12 @@ import { QuestionExplanation } from '@/components/QuestionExperience'
 import { QuestionVisual } from '@/components/QuestionVisual'
 import { QuestionPrompt } from '@/components/QuestionPrompt'
 import { FixedMockExamList } from '@/components/FixedMockExamList'
-import { getFixedMockExamScore, getMockExamQuestions } from '@/lib/mockExams'
+import { getAllFixedExams, getFixedMockExamScore, getMockExamQuestions } from '@/lib/mockExams'
 
 type Stage = 'setup' | 'taking' | 'result'
 const optionLabel = (index: number) => ['①', '②', '③', '④'][index]
 
-export function ExamPage({ data, navigate }: { data: CourseData; navigate: (target: NavigationTarget) => void }) {
+export function ExamPage({ data, navigate, initialExamId, reviewLatest = false }: { data: CourseData; navigate: (target: NavigationTarget) => void; initialExamId?: string; reviewLatest?: boolean }) {
   const { state, recordAttempt, saveExam } = useStudy()
   const [stage, setStage] = useState<Stage>('setup')
   const [selectedFiles, setSelectedFiles] = useState<string[]>(data.files.map((file) => file.id))
@@ -35,7 +35,8 @@ export function ExamPage({ data, navigate }: { data: CourseData; navigate: (targ
   const [result, setResult] = useState<ExamRecord | null>(null)
   const [resultIndex, setResultIndex] = useState(0)
   const [activeMockExamId, setActiveMockExamId] = useState<string>()
-  const activeMockExam = data.mockExams?.find((exam) => exam.id === activeMockExamId)
+  const activeMockExam = getAllFixedExams(data).find((exam) => exam.id === activeMockExamId)
+  const openedInitial = useRef(false)
   const submittingRef = useRef(false)
   const examContentRef = useRef<HTMLDivElement>(null)
   const submitDialogRef = useRef<HTMLDialogElement>(null)
@@ -146,11 +147,28 @@ export function ExamPage({ data, navigate }: { data: CourseData; navigate: (targ
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
+  useEffect(() => {
+    if (openedInitial.current || !initialExamId) return
+    openedInitial.current = true
+    const exam = getAllFixedExams(data).find((item) => item.id === initialExamId)
+    if (!exam) return
+    const record = reviewLatest ? [...state.exams]
+      .filter((item) => item.mockExamId === exam.id && item.questionIds.length === 40 && new Set(item.questionIds).size === 40 && item.questionIds.every((id) => exam.questionIds.includes(id)))
+      .sort((a, b) => b.submittedAt.localeCompare(a.submittedAt))[0] : undefined
+    if (record) reviewFixed(record)
+    else if (reviewLatest) navigate({ view: 'final' })
+    else startFixed(exam)
+  }, [data, initialExamId, reviewLatest, state.exams])
+
+  const backToExams = () => activeMockExamId?.startsWith('final-')
+    ? navigate({ view: 'final' }) : setStage('setup')
+
   const toggleFile = (id: string) => setSelectedFiles((before) => before.includes(id) ? before.filter((item) => item !== id) : [...before, id])
 
   if (stage === 'setup') return (
     <div className="animate-enter">
       <PageHeader eyebrow="MOCK EXAM" title="실전 모의고사" copy="신규 40문항씩 5회분을 시험 또는 해설 학습으로 풀어 보세요. 시험 중에는 정답이 숨겨지고 제출 뒤 모든 문항의 상세 해설이 열립니다. 아래에서 기존 맞춤형 랜덤 시험도 만들 수 있습니다." />
+      <button onClick={() => navigate({ view: 'final' })} className="button-primary mb-5">교수님 마지막 정리 기반 · 신규 120문항 보기</button>
       <FixedMockExamList data={data} state={state} onStart={startFixed} onReview={reviewFixed} navigate={navigate} />
       <h2 className="mb-2 text-xl font-black">맞춤형 랜덤 모의고사</h2>
       <p className="mb-5 text-sm leading-7 text-slate-500">전체 문제은행에서 범위·문항 수·시간·난이도 비율을 직접 정합니다. 위의 고정형 5회분과는 별개의 랜덤 시험입니다.</p>
@@ -213,7 +231,7 @@ export function ExamPage({ data, navigate }: { data: CourseData; navigate: (targ
     const selected = answers[question.id] ?? []
     return (
       <div className="animate-enter">
-        <PageHeader eyebrow="EXAM RESULT" title={`${activeMockExam?.title ?? '맞춤형 모의고사'} · ${result.score}점`} copy={`${result.correctCount}/${result.total} 정답. 문항별 결과에서 번호를 누르면 맞힌 문제까지 모든 선택지 해설과 관련 개념을 복습할 수 있습니다.`} action={<button onClick={() => setStage('setup')} className="button-secondary"><RotateCcw size={16} />모의고사 목록</button>} />
+        <PageHeader eyebrow="EXAM RESULT" title={`${activeMockExam?.title ?? '맞춤형 모의고사'} · ${result.score}점`} copy={`${result.correctCount}/${result.total} 정답. 문항별 결과에서 번호를 누르면 맞힌 문제까지 모든 선택지 해설과 관련 개념을 복습할 수 있습니다.`} action={<button onClick={backToExams} className="button-secondary"><RotateCcw size={16} />모의고사 목록</button>} />
         <div className="grid grid-cols-2 gap-3 lg:grid-cols-4"><Stat icon={<Target size={18} />} label="점수" value={`${result.score}점`} /><Stat icon={<CheckCircle2 size={18} />} label="정답" value={`${result.correctCount}개`} tone="green" /><Stat icon={<X size={18} />} label="오답·미응답" value={`${result.total - result.correctCount}개`} tone="rose" /><Stat icon={<Clock3 size={18} />} label="풀이 시간" value={`${Math.floor(result.durationSeconds / 60)}분 ${result.durationSeconds % 60}초`} tone="amber" /></div>
         <div className="mt-5 grid gap-5 xl:grid-cols-[16rem_1fr]">
           <aside className="surface h-fit p-4 xl:sticky xl:top-24"><div className="mb-3 text-xs font-black text-slate-500">문항별 결과</div><div className="grid grid-cols-5 gap-2">{examQuestions.map((item, index) => { const correct = isAnswerCorrect(item, answers[item.id] ?? []); return <button key={item.id} aria-label={`문제 ${index + 1}, ${correct ? '정답' : '오답 또는 미응답'}`} aria-current={resultIndex === index ? 'step' : undefined} onClick={() => setResultIndex(index)} className={`flex h-9 items-center justify-center rounded-lg text-xs font-black ${resultIndex === index ? 'ring-2 ring-cobalt' : ''} ${correct ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-500/15 dark:text-emerald-300' : 'bg-rose-100 text-rose-700 dark:bg-rose-500/15 dark:text-rose-300'}`}>{index + 1}</button> })}</div></aside>

@@ -175,6 +175,17 @@ const pageSummaries = inputs.flatMap((input) => (input.data.files ?? []).flatMap
   }),
 }))))
 
+const finalConfig = JSON.parse(fs.readFileSync(path.join(root, 'analysis', 'professor-final-review.json'), 'utf8'))
+const finalPages = JSON.parse(fs.readFileSync(path.join(root, 'analysis', 'professor-final-pages.json'), 'utf8'))
+files.push({
+  id: 'prof-final', title: '빅데이터 1~3장 교수님 최종 통합 정리', shortTitle: '교수님 최종 정리 · 1~3장',
+  path: '노션자료/빅데이터1~3장(통합정리본).pdf', pdfUrl: 'pdfs/professor-final-review.pdf', week: 3, kind: '노션',
+  pageCount: 19, analyzedPages: Array.from({ length: 19 }, (_, index) => index + 1), unreadablePages: [],
+  topics: ['프로젝트와 재현성', '5V·병목·분산', 'Netflix 품질·EDA'], color: '#3159d8',
+  note: '19쪽의 텍스트·표·개념도를 확인했습니다. 시험 전 구술 강조 사항은 최종 대비 페이지에서 기존 강의자료와 함께 연결합니다. 카탈로그의 한계와 추천 후보 생성·성과 평가를 구별합니다.',
+})
+pageSummaries.push(...finalPages.map((summary, index) => ({ fileId: 'prof-final', page: index + 1, ...summary })))
+
 const inferQuestionType = (question) => {
   const text = `${question.prompt} ${question.review ?? ''}`
   const chartVisual = ['bar', 'line', 'histogram', 'scatter', 'box', 'mini-line-data'].includes(question.visual?.kind)
@@ -310,6 +321,7 @@ for (const input of inputs) {
 const questionBankFiles = [
   'questions-notion12.json', 'questions-notion34.json', 'questions-web123.json',
   'mock-questions-notion12.json', 'mock-questions-notion34.json', 'mock-questions-web123.json',
+  'final-questions-systems.json', 'final-questions-infrastructure.json', 'final-questions-netflix.json',
 ]
 for (const file of questionBankFiles) {
   const bank = JSON.parse(fs.readFileSync(path.join(root, 'analysis', file), 'utf8'))
@@ -323,7 +335,7 @@ for (const file of questionBankFiles) {
       })),
       sourceRefs: question.sourceRefs.map((ref) => ({ ...ref, pages: inScopePages(ref.fileId, ref.pages) })).filter((ref) => ref.pages.length),
       additionalExample: question.additionalExample ?? '',
-      supplemental: true,
+      supplemental: question.finalReview ? question.finalReview.evidence === 'supplement' : true,
     })
   }
 }
@@ -376,6 +388,19 @@ const mockExams = mockExamConfig.exams.map((exam) => {
   return { ...exam, questionIds }
 })
 
+const finalReview = {
+  ...finalConfig,
+  exams: finalConfig.exams.map((exam) => {
+    const groups = ['final-sys-', 'final-inf-', 'final-nfx-'].map((prefix) =>
+      questions.filter((question) => question.finalExamId === exam.id && question.id.startsWith(prefix)))
+    const questionIds = []
+    for (let index = 0; index < Math.max(...groups.map((group) => group.length)); index += 1) {
+      for (const group of groups) if (group[index]) questionIds.push(group[index].id)
+    }
+    return { ...exam, questionIds }
+  }),
+}
+
 const courseData = {
   files,
   pageSummaries,
@@ -383,6 +408,7 @@ const courseData = {
   questions,
   flashcards,
   mockExams,
+  finalReview,
   generatedAt: new Date().toISOString().slice(0, 10),
 }
 
@@ -426,6 +452,33 @@ for (const concept of concepts) {
     for (const page of ref.pages ?? []) if (!Number.isInteger(page) || page < 1 || page > (filePageCounts.get(ref.fileId) ?? 0)) errors.push(`${concept.id}: invalid lesson source page ${page}`)
   }
 }
+const finalQuestions = questions.filter((question) => question.finalExamId)
+if (finalReview.exams.length !== 3 || finalQuestions.length !== 120) errors.push('Final review requires three papers and 120 questions')
+const finalIds = new Set()
+const focusIds = new Set(finalReview.focusItems.map((item) => item.id))
+const topicIds = new Set(finalReview.topics.map((topic) => topic.id))
+for (const exam of finalReview.exams) {
+  const items = exam.questionIds.map((id) => questions.find((question) => question.id === id))
+  if (items.length !== 40 || new Set(exam.questionIds).size !== 40) errors.push(`${exam.id}: expected 40 unique final questions`)
+  if (items.filter((question) => question?.difficulty === '어려움').length !== 28 || items.filter((question) => question?.difficulty === '보통').length !== 12) errors.push(`${exam.id}: expected hard 28 / medium 12`)
+  if (items.filter((question) => question?.finalReview?.evidence === 'supplement').length !== 4) errors.push(`${exam.id}: expected four supplemental items`)
+  if (items.filter((question) => question?.mode === 'multiple').length < 12 || items.filter((question) => question?.visual).length < 5) errors.push(`${exam.id}: insufficient multiple or visual items`)
+  for (const id of exam.questionIds) {
+    if (finalIds.has(id)) errors.push(`${id}: reused final question`)
+    finalIds.add(id)
+    if (questions.find((question) => question.id === id)?.finalExamId !== exam.id) errors.push(`${id}: final exam membership error`)
+  }
+}
+for (const question of finalQuestions) {
+  if (!finalIds.has(question.id) || question.mockExamId || question.learningStage) errors.push(`${question.id}: invalid final question allocation`)
+  const meta = question.finalReview
+  if (!meta || !topicIds.has(meta.topicId) || !['pdf', 'lecture', 'supplement'].includes(meta.evidence) || !meta.focusIds?.length || meta.focusIds.some((id) => !focusIds.has(id))) errors.push(`${question.id}: missing final evidence classification`)
+  if (meta?.evidence === 'pdf' && !question.sourceRefs.some((ref) => ref.fileId === 'prof-final')) errors.push(`${question.id}: PDF item has no final PDF reference`)
+  const detail = question.detailedExplanation
+  if (!hasText(detail?.concept) || detail.concept.length < 100 || !hasTexts(detail?.steps, 3) || detail.steps.some((step) => step.length < 20) || !hasText(detail?.pitfall) || detail.pitfall.length < 20 || question.review.length < 80 || question.additionalExample.length < 30) errors.push(`${question.id}: incomplete final detailed explanation`)
+}
+for (const id of focusIds) if (!finalQuestions.some((question) => question.finalReview?.evidence !== 'supplement' && question.finalReview?.focusIds.includes(id))) errors.push(`${id}: final oral emphasis is not covered`)
+for (const id of topicIds) if (!finalQuestions.some((question) => question.finalReview?.evidence !== 'supplement' && question.finalReview?.topicId === id)) errors.push(`${id}: final topic has no core question`)
 for (const question of questions) {
   if (question.options.length !== 4) errors.push(`${question.id}: ${question.options.length} options`)
   const correct = question.options.filter((option) => option.correct).length
@@ -533,6 +586,16 @@ fs.writeFileSync(path.join(root, 'analysis', 'mock-exam-coverage.json'), `${JSON
       conceptIds: [...new Set(items.flatMap((question) => question.conceptIds))],
     }
   }),
+}, null, 2)}\n`, 'utf8')
+fs.writeFileSync(path.join(root, 'analysis', 'professor-final-coverage.json'), `${JSON.stringify({
+  questionCount: finalQuestions.length,
+  coreCount: finalQuestions.filter((question) => question.finalReview.evidence !== 'supplement').length,
+  supplementalCount: finalQuestions.filter((question) => question.finalReview.evidence === 'supplement').length,
+  exams: finalReview.exams.map((exam) => {
+    const items = finalQuestions.filter((question) => question.finalExamId === exam.id)
+    return { ...exam, hard: items.filter((question) => question.difficulty === '어려움').length, multiple: items.filter((question) => question.mode === 'multiple').length, visuals: items.filter((question) => question.visual).length }
+  }),
+  focusCoverage: finalReview.focusItems.map((focus) => ({ ...focus, questionIds: finalQuestions.filter((question) => question.finalReview.evidence !== 'supplement' && question.finalReview.focusIds.includes(focus.id)).map((question) => question.id) })),
 }, null, 2)}\n`, 'utf8')
 console.log(JSON.stringify({
   files: files.length,

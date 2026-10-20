@@ -60,10 +60,12 @@ describe('course content integrity', () => {
     expect(courseData.concepts.filter((concept) => concept.lesson?.codeExample).length).toBeGreaterThanOrEqual(13)
   })
 
-  it('covers every page in all seven source PDFs exactly once', () => {
-    expect(courseData.files).toHaveLength(7)
-    expect(courseData.files.reduce((sum, file) => sum + file.pageCount, 0)).toBe(317)
-    expect(courseData.pageSummaries).toHaveLength(317)
+  it('preserves all seven original PDFs and indexes the 19-page final review exactly once', () => {
+    expect(courseData.files.filter((file) => file.id !== 'prof-final')).toHaveLength(7)
+    expect(courseData.files.filter((file) => file.id !== 'prof-final').reduce((sum, file) => sum + file.pageCount, 0)).toBe(317)
+    expect(courseData.files).toHaveLength(8)
+    expect(courseData.files.reduce((sum, file) => sum + file.pageCount, 0)).toBe(336)
+    expect(courseData.pageSummaries).toHaveLength(336)
 
     courseData.files.forEach((file) => {
       const expected = Array.from({ length: file.pageCount }, (_, index) => index + 1)
@@ -75,7 +77,7 @@ describe('course content integrity', () => {
 
   it('keeps all generated study assets connected to valid sources', () => {
     expect(courseData.concepts).toHaveLength(110)
-    expect(courseData.questions).toHaveLength(756)
+    expect(courseData.questions).toHaveLength(876)
     expect(courseData.flashcards).toHaveLength(131)
     expect(validateCourseData(courseData)).toEqual([])
 

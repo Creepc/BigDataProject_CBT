@@ -1,0 +1,464 @@
+{
+  "questionCount": 120,
+  "coreCount": 108,
+  "supplementalCount": 12,
+  "exams": [
+    {
+      "id": "final-01",
+      "title": "최종 대비 1회 · 조건과 경계",
+      "description": "자원·상태·관측 단위를 먼저 정하고, 비슷해 보이는 개념의 경계를 판단합니다.",
+      "minutes": 50,
+      "questionIds": [
+        "final-sys-001",
+        "final-inf-001",
+        "final-nfx-001",
+        "final-sys-002",
+        "final-inf-002",
+        "final-nfx-002",
+        "final-sys-003",
+        "final-inf-003",
+        "final-nfx-003",
+        "final-sys-004",
+        "final-inf-004",
+        "final-nfx-004",
+        "final-sys-005",
+        "final-inf-005",
+        "final-nfx-005",
+        "final-sys-006",
+        "final-inf-006",
+        "final-nfx-006",
+        "final-sys-007",
+        "final-inf-007",
+        "final-nfx-007",
+        "final-sys-008",
+        "final-inf-008",
+        "final-nfx-008",
+        "final-sys-009",
+        "final-inf-009",
+        "final-nfx-009",
+        "final-sys-010",
+        "final-inf-010",
+        "final-nfx-010",
+        "final-sys-011",
+        "final-inf-011",
+        "final-nfx-011",
+        "final-sys-012",
+        "final-inf-012",
+        "final-nfx-012",
+        "final-nfx-013",
+        "final-nfx-014",
+        "final-nfx-015",
+        "final-nfx-016"
+      ],
+      "hard": 28,
+      "multiple": 18,
+      "visuals": 8
+    },
+    {
+      "id": "final-02",
+      "title": "최종 대비 2회 · 연결과 비교",
+      "description": "시스템 흐름과 복합 집단을 연결하고, 같은 수치의 다른 의미를 구분합니다.",
+      "minutes": 50,
+      "questionIds": [
+        "final-sys-013",
+        "final-inf-013",
+        "final-nfx-017",
+        "final-sys-014",
+        "final-inf-014",
+        "final-nfx-018",
+        "final-sys-015",
+        "final-inf-015",
+        "final-nfx-019",
+        "final-sys-016",
+        "final-inf-016",
+        "final-nfx-020",
+        "final-sys-017",
+        "final-inf-017",
+        "final-nfx-021",
+        "final-sys-018",
+        "final-inf-018",
+        "final-nfx-022",
+        "final-sys-019",
+        "final-inf-019",
+        "final-nfx-023",
+        "final-sys-020",
+        "final-inf-020",
+        "final-nfx-024",
+        "final-sys-021",
+        "final-inf-021",
+        "final-nfx-025",
+        "final-sys-022",
+        "final-inf-022",
+        "final-nfx-026",
+        "final-sys-023",
+        "final-inf-023",
+        "final-nfx-027",
+        "final-sys-024",
+        "final-inf-024",
+        "final-nfx-028",
+        "final-nfx-029",
+        "final-nfx-030",
+        "final-nfx-031",
+        "final-nfx-032"
+      ],
+      "hard": 28,
+      "multiple": 20,
+      "visuals": 8
+    },
+    {
+      "id": "final-03",
+      "title": "최종 대비 3회 · 검증과 해석",
+      "description": "실행 증거·분모·추론 한계를 검증하고, 잘못된 결론을 바로잡습니다.",
+      "minutes": 50,
+      "questionIds": [
+        "final-sys-025",
+        "final-inf-025",
+        "final-nfx-033",
+        "final-sys-026",
+        "final-inf-026",
+        "final-nfx-034",
+        "final-sys-027",
+        "final-inf-027",
+        "final-nfx-035",
+        "final-sys-028",
+        "final-inf-028",
+        "final-nfx-036",
+        "final-sys-029",
+        "final-inf-029",
+        "final-nfx-037",
+        "final-sys-030",
+        "final-inf-030",
+        "final-nfx-038",
+        "final-sys-031",
+        "final-inf-031",
+        "final-nfx-039",
+        "final-sys-032",
+        "final-inf-032",
+        "final-nfx-040",
+        "final-sys-033",
+        "final-inf-033",
+        "final-nfx-041",
+        "final-sys-034",
+        "final-inf-034",
+        "final-nfx-042",
+        "final-sys-035",
+        "final-inf-035",
+        "final-nfx-043",
+        "final-sys-036",
+        "final-inf-036",
+        "final-nfx-044",
+        "final-nfx-045",
+        "final-nfx-046",
+        "final-nfx-047",
+        "final-nfx-048"
+      ],
+      "hard": 28,
+      "multiple": 18,
+      "visuals": 8
+    }
+  ],
+  "focusCoverage": [
+    {
+      "id": "hardware-software",
+      "label": "하드웨어와 소프트웨어",
+      "questionIds": [
+        "final-sys-001",
+        "final-sys-002",
+        "final-sys-013",
+        "final-sys-019",
+        "final-sys-025",
+        "final-sys-026"
+      ]
+    },
+    {
+      "id": "os-role",
+      "label": "운영체제의 자원 관리와 보호",
+      "questionIds": [
+        "final-sys-003",
+        "final-sys-006",
+        "final-sys-008",
+        "final-sys-009",
+        "final-sys-010",
+        "final-sys-013",
+        "final-sys-014",
+        "final-sys-017",
+        "final-sys-020",
+        "final-sys-025",
+        "final-sys-027",
+        "final-sys-028",
+        "final-sys-032",
+        "final-sys-033",
+        "final-sys-035"
+      ]
+    },
+    {
+      "id": "process-pcb",
+      "label": "프로세스·PCB·디스패치·상태 전이",
+      "questionIds": [
+        "final-sys-004",
+        "final-sys-005",
+        "final-sys-006",
+        "final-sys-007",
+        "final-sys-015",
+        "final-sys-016",
+        "final-sys-017",
+        "final-sys-018",
+        "final-sys-028",
+        "final-sys-029",
+        "final-sys-031"
+      ]
+    },
+    {
+      "id": "kernel-interrupt-driver",
+      "label": "커널·인터럽트·시스템 호출·드라이버",
+      "questionIds": [
+        "final-sys-001",
+        "final-sys-005",
+        "final-sys-007",
+        "final-sys-008",
+        "final-sys-014",
+        "final-sys-018",
+        "final-sys-025",
+        "final-sys-027",
+        "final-sys-030",
+        "final-sys-031"
+      ]
+    },
+    {
+      "id": "von-neumann",
+      "label": "폰 노이만 구조와 CPU·메모리",
+      "questionIds": [
+        "final-sys-002",
+        "final-sys-019",
+        "final-sys-026"
+      ]
+    },
+    {
+      "id": "virtual-memory",
+      "label": "가상메모리·물리 RAM·스왑",
+      "questionIds": [
+        "final-sys-003",
+        "final-sys-009",
+        "final-sys-010",
+        "final-sys-020",
+        "final-sys-021",
+        "final-sys-032",
+        "final-sys-033"
+      ]
+    },
+    {
+      "id": "filesystem-format",
+      "label": "파일시스템·할당·포맷팅",
+      "questionIds": [
+        "final-sys-011",
+        "final-sys-022",
+        "final-sys-023",
+        "final-sys-034",
+        "final-sys-035"
+      ]
+    },
+    {
+      "id": "five-v-sources",
+      "label": "빅데이터 5V와 다양한 생성원",
+      "questionIds": [
+        "final-inf-001",
+        "final-inf-002",
+        "final-inf-003",
+        "final-inf-015",
+        "final-inf-025",
+        "final-inf-026",
+        "final-inf-027",
+        "final-inf-031"
+      ]
+    },
+    {
+      "id": "data-forms",
+      "label": "데이터 구조·시간·공간의 분류 축",
+      "questionIds": [
+        "final-inf-002",
+        "final-inf-014",
+        "final-inf-025",
+        "final-inf-026",
+        "final-inf-034"
+      ]
+    },
+    {
+      "id": "scale-network-cloud",
+      "label": "스케일업·스케일아웃·네트워크·클라우드",
+      "questionIds": [
+        "final-inf-001",
+        "final-inf-003",
+        "final-inf-004",
+        "final-inf-005",
+        "final-inf-008",
+        "final-inf-015",
+        "final-inf-016",
+        "final-inf-017",
+        "final-inf-020",
+        "final-inf-027",
+        "final-inf-028",
+        "final-inf-029",
+        "final-inf-030"
+      ]
+    },
+    {
+      "id": "collection-api",
+      "label": "크롤링·API·실시간 수집",
+      "questionIds": [
+        "final-inf-006",
+        "final-inf-011",
+        "final-inf-018",
+        "final-inf-031",
+        "final-inf-033"
+      ]
+    },
+    {
+      "id": "etl-elt-storage",
+      "label": "ETL·ELT·HDFS·NoSQL",
+      "questionIds": [
+        "final-inf-007",
+        "final-inf-008",
+        "final-inf-019",
+        "final-inf-020",
+        "final-inf-021",
+        "final-inf-032",
+        "final-inf-033"
+      ]
+    },
+    {
+      "id": "quality-standardization",
+      "label": "결측·이상 후보·표준화 기준",
+      "questionIds": [
+        "final-inf-007",
+        "final-inf-009",
+        "final-inf-010",
+        "final-inf-013",
+        "final-inf-014",
+        "final-inf-019",
+        "final-inf-021",
+        "final-inf-022",
+        "final-inf-030",
+        "final-inf-034",
+        "final-nfx-001",
+        "final-nfx-003",
+        "final-nfx-004",
+        "final-nfx-017",
+        "final-nfx-018",
+        "final-nfx-019",
+        "final-nfx-020",
+        "final-nfx-024",
+        "final-nfx-025",
+        "final-nfx-033",
+        "final-nfx-035",
+        "final-nfx-040"
+      ]
+    },
+    {
+      "id": "analysis-six-steps",
+      "label": "분석 6단계와 질문의 반복 수정",
+      "questionIds": [
+        "final-inf-009",
+        "final-inf-010",
+        "final-inf-011",
+        "final-inf-013",
+        "final-inf-022",
+        "final-inf-023",
+        "final-inf-035"
+      ]
+    },
+    {
+      "id": "netflix-schema",
+      "label": "Netflix 관측 단위·컬럼·피처",
+      "questionIds": [
+        "final-inf-018",
+        "final-nfx-001",
+        "final-nfx-002",
+        "final-nfx-004",
+        "final-nfx-009",
+        "final-nfx-013",
+        "final-nfx-017",
+        "final-nfx-018",
+        "final-nfx-020",
+        "final-nfx-021",
+        "final-nfx-028",
+        "final-nfx-030",
+        "final-nfx-034",
+        "final-nfx-036",
+        "final-nfx-037",
+        "final-nfx-041"
+      ]
+    },
+    {
+      "id": "multivariate-eda",
+      "label": "목적별 전처리와 다변수 EDA",
+      "questionIds": [
+        "final-inf-023",
+        "final-inf-035",
+        "final-nfx-003",
+        "final-nfx-005",
+        "final-nfx-007",
+        "final-nfx-008",
+        "final-nfx-010",
+        "final-nfx-021",
+        "final-nfx-023",
+        "final-nfx-026",
+        "final-nfx-033",
+        "final-nfx-034",
+        "final-nfx-035",
+        "final-nfx-036",
+        "final-nfx-037",
+        "final-nfx-038",
+        "final-nfx-039",
+        "final-nfx-040",
+        "final-nfx-042"
+      ]
+    },
+    {
+      "id": "charts-time",
+      "label": "히스토그램·히트맵·시계열·기울기",
+      "questionIds": [
+        "final-inf-035",
+        "final-nfx-005",
+        "final-nfx-006",
+        "final-nfx-007",
+        "final-nfx-008",
+        "final-nfx-009",
+        "final-nfx-010",
+        "final-nfx-019",
+        "final-nfx-022",
+        "final-nfx-023",
+        "final-nfx-024",
+        "final-nfx-025",
+        "final-nfx-026",
+        "final-nfx-038",
+        "final-nfx-039",
+        "final-nfx-041",
+        "final-nfx-042"
+      ]
+    },
+    {
+      "id": "network-text",
+      "label": "네트워크·워드클라우드·한글 정규화",
+      "questionIds": [
+        "final-nfx-011",
+        "final-nfx-012",
+        "final-nfx-027",
+        "final-nfx-028",
+        "final-nfx-043",
+        "final-nfx-044"
+      ]
+    },
+    {
+      "id": "recommendations",
+      "label": "콘텐츠 기반과 아이템 기반 추천",
+      "questionIds": [
+        "final-nfx-013",
+        "final-nfx-014",
+        "final-nfx-029",
+        "final-nfx-030",
+        "final-nfx-045",
+        "final-nfx-046"
+      ]
+    }
+  ]
+}

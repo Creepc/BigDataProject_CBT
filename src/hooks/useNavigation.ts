@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import type { AppView, NavigationTarget } from '@/types'
 
 const knownViews = new Set<AppView>([
-  'dashboard', 'learn', 'bank', 'practice', 'exam', 'wrong', 'stats', 'cards', 'sources', 'settings',
+  'dashboard', 'learn', 'bank', 'practice', 'exam', 'final', 'wrong', 'stats', 'cards', 'sources', 'settings',
 ])
 
 const parseHash = (): NavigationTarget => {

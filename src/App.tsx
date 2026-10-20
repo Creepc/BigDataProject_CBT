@@ -3,11 +3,13 @@ import { QuestionPlayer } from '@/components/QuestionExperience'
 import { courseData } from '@/data/courseData'
 import { useNavigation } from '@/hooks/useNavigation'
 import { getLearningQuestions } from '@/lib/curriculum'
-import { getMockExamQuestions } from '@/lib/mockExams'
+import { getAllFixedExams, getMockExamQuestions } from '@/lib/mockExams'
+import { getFinalQuestions } from '@/lib/finalReview'
 import { BankPage } from '@/pages/BankPage'
 import { CardsPage } from '@/pages/CardsPage'
 import { DashboardPage } from '@/pages/DashboardPage'
 import { ExamPage } from '@/pages/ExamPage'
+import { FinalReviewPage } from '@/pages/FinalReviewPage'
 import { LearnPage } from '@/pages/LearnPage'
 import { SettingsPage } from '@/pages/SettingsPage'
 import { SourcesPage } from '@/pages/SourcesPage'
@@ -26,6 +28,10 @@ export default function App() {
         const ids = params.ids?.split(',').filter(Boolean)
         const questions = params.scope === 'curriculum'
           ? getLearningQuestions(courseData, params.concept)
+          : params.scope === 'final'
+          ? params.exam ? getMockExamQuestions(courseData, params.exam)
+            : ids?.length ? ids.map((id) => courseData.questions.find((question) => question.id === id && question.finalExamId)).filter(Boolean) as typeof courseData.questions
+            : getFinalQuestions(courseData, params)
           : params.scope === 'mock'
           ? getMockExamQuestions(courseData, params.exam ?? '')
           : ids?.length
@@ -35,9 +41,10 @@ export default function App() {
             : params.scope === 'wrong'
               ? courseData.questions.filter((question) => question.id === target.id)
               : courseData.questions
-        return <QuestionPlayer questions={questions} initialId={target.id} concepts={courseData.concepts} files={courseData.files} navigate={navigate} curriculumMode={params.scope === 'curriculum'} mockExam={params.scope === 'mock' ? courseData.mockExams?.find((exam) => exam.id === params.exam) : undefined} />
+        return <QuestionPlayer questions={questions} initialId={target.id} concepts={courseData.concepts} files={courseData.files} navigate={navigate} curriculumMode={params.scope === 'curriculum'} finalMode={params.scope === 'final'} mockExam={['mock', 'final'].includes(params.scope) ? getAllFixedExams(courseData).find((exam) => exam.id === params.exam) : undefined} />
       }
-      case 'exam': return <ExamPage data={courseData} navigate={navigate} />
+      case 'exam': return <ExamPage key={`${params.paper ?? 'custom'}-${params.review ?? 'take'}`} data={courseData} navigate={navigate} initialExamId={params.paper} reviewLatest={params.review === 'latest'} />
+      case 'final': return <FinalReviewPage data={courseData} navigate={navigate} />
       case 'wrong': return <WrongPage data={courseData} navigate={navigate} />
       case 'stats': return <StatsPage data={courseData} navigate={navigate} />
       case 'cards': return <CardsPage data={courseData} />
@@ -47,5 +54,5 @@ export default function App() {
     }
   })()
 
-  return <AppShell activeView={target.view} totalConcepts={courseData.concepts.length} navigate={navigate}>{content}</AppShell>
+  return <AppShell activeView={(target.view === 'practice' && params.scope === 'final') || (target.view === 'exam' && params.paper?.startsWith('final-')) ? 'final' : target.view} totalConcepts={courseData.concepts.length} navigate={navigate}>{content}</AppShell>
 }

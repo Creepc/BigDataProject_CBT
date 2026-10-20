@@ -46,7 +46,7 @@ describe('five new fixed mock exams', () => {
     })
     expect(new Set(questions.map((question) => question.id)).size).toBe(200)
     expect(questions.every((question) => question.id.startsWith('mock-'))).toBe(true)
-    expect(courseData.questions.filter((question) => !question.mockExamId)).toHaveLength(556)
+    expect(courseData.questions.filter((question) => !question.mockExamId && !question.finalExamId)).toHaveLength(556)
     expect(new Set(questions.flatMap((question) => question.conceptIds)).size).toBe(110)
     expect(validateMockExams(courseData)).toEqual([])
   })

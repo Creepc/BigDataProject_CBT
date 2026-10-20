@@ -123,6 +123,12 @@ export interface Question {
   learningConceptId?: string
   learningObjectiveIndices?: number[]
   mockExamId?: string
+  finalExamId?: string
+  finalReview?: {
+    topicId: string
+    evidence: 'pdf' | 'lecture' | 'supplement'
+    focusIds: string[]
+  }
   detailedExplanation?: {
     concept: string
     steps: string[]
@@ -154,6 +160,13 @@ export interface CourseData {
   questions: Question[]
   flashcards: Flashcard[]
   mockExams?: MockExam[]
+  finalReview?: {
+    fileId: string
+    exams: MockExam[]
+    focusItems: Array<{ id: string; label: string }>
+    topics: Array<{ id: string; title: string; summary: string; keyPoints: string[]; traps: string[]; focusIds: string[]; pages: number[] }>
+    cautions: string[]
+  }
   generatedAt: string
 }
 
@@ -207,6 +220,7 @@ export type AppView =
   | 'bank'
   | 'practice'
   | 'exam'
+  | 'final'
   | 'wrong'
   | 'stats'
   | 'cards'

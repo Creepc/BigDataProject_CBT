@@ -11,6 +11,7 @@ import { useDialogFocus } from '@/hooks/useDialogFocus'
 const navItems: Array<{ view: AppView; label: string; icon: typeof LayoutDashboard }> = [
   { view: 'dashboard', label: '학습 대시보드', icon: LayoutDashboard },
   { view: 'learn', label: '개념 학습', icon: BookOpen },
+  { view: 'final', label: '교수님 최종 대비', icon: GraduationCap },
   { view: 'bank', label: '문제은행', icon: Database },
   { view: 'exam', label: '실전 모의고사', icon: ClipboardList },
   { view: 'wrong', label: '오답노트', icon: NotebookTabs },
@@ -102,7 +103,7 @@ export function AppShell({ children, activeView, totalConcepts, navigate }: { ch
         <header className="no-print sticky top-0 z-20 flex h-16 items-center justify-between border-b border-black/[0.06] bg-[#f3f1ec]/90 px-4 backdrop-blur-xl dark:border-white/[0.06] dark:bg-[#0c1117]/90 sm:px-7 lg:px-9">
           <button onClick={() => setOpen(true)} className="rounded-xl border border-black/10 bg-white p-2.5 dark:border-white/10 dark:bg-white/5 lg:hidden" aria-label="메뉴 열기" aria-expanded={open} aria-controls="mobile-navigation-dialog"><Menu size={20} /></button>
           <div className="hidden items-center gap-2 text-xs font-semibold text-slate-500 sm:flex">
-            <Sparkles size={15} className="text-amber" /> 교수님 강조 포인트와 7개 강의자료를 연결한 개인 학습실
+            <Sparkles size={15} className="text-amber" /> 교수님 최종 정리와 강의자료를 연결한 개인 학습실
           </div>
           <div className="ml-auto flex items-center gap-2">
             <button onClick={() => go('wrong')} className="hidden items-center gap-2 rounded-xl border border-black/[0.07] bg-white px-3 py-2 text-xs font-bold dark:border-white/10 dark:bg-white/5 sm:flex"><CheckCircle2 size={15} className="text-mint" />오늘 복습</button>

@@ -56,6 +56,7 @@ export function SourcesPage({ data, navigate }: { data: CourseData; navigate: (t
               </div>
               <div className="mt-4 flex flex-wrap gap-2">{selected.topics.map((topic) => <span key={topic} className="chip">#{topic}</span>)}</div>
               {selected.note && <p className="mt-4 rounded-xl bg-amber-50 px-4 py-3 text-xs leading-6 text-amber-900 dark:bg-amber-500/10 dark:text-amber-200">{selected.note}</p>}
+              {selected.id === data.finalReview?.fileId && <button className="button-primary mt-4" onClick={() => navigate({ view: 'final' })}>최종 PDF·필기 기반 120문항과 주제별 요약 보기</button>}
               {Boolean(selected.excludedPages?.length) && <p className="mt-3 rounded-xl bg-rose-50 px-4 py-3 text-xs leading-6 text-rose-900 dark:bg-rose-500/10 dark:text-rose-200">시험 범위 제외: {formatPages(selected.excludedPages!)}. {selected.partialPages?.length ? `${formatPages(selected.partialPages)}은 Netflix 부분만 학습에 반영했습니다. ` : ''}원본 PDF에는 범위 밖의 추가 실습도 포함되어 있습니다.</p>}
             </div>
             <iframe title={`${selected.shortTitle}${selectedPage ? ` ${selectedPage}쪽` : ''} PDF 미리보기`} src={pdfPageUrl(selected, selectedPage)} className="h-[68vh] w-full bg-slate-100 dark:bg-slate-950" />

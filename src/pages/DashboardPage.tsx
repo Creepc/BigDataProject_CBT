@@ -70,10 +70,11 @@ export function DashboardPage({ data, navigate }: { data: CourseData; navigate: 
           <div>
             <div className="mb-3 flex items-center gap-2 text-xs font-bold text-blue-300"><Sparkles size={15} />AI 기반 빅데이터 프로젝트 · 중간고사</div>
             <h1 className="max-w-2xl text-[clamp(1.8rem,5vw,3.35rem)] font-black leading-[1.15] tracking-[-0.055em]">{greeting}.<br />근거를 찾는 공부를 시작해요.</h1>
-            <p className="mt-4 max-w-xl text-sm leading-7 text-slate-300">7개 강의자료, {data.files.reduce((sum, file) => sum + file.pageCount, 0)}쪽의 범위를 개념-문제-오답으로 연결했습니다. 통계는 실제 학습 기록만 반영합니다.</p>
+            <p className="mt-4 max-w-xl text-sm leading-7 text-slate-300">{data.files.length}개 강의자료, {data.files.reduce((sum, file) => sum + file.pageCount, 0)}쪽의 범위를 개념-문제-오답으로 연결했습니다. 통계는 실제 학습 기록만 반영합니다.</p>
             <div className="mt-6 flex flex-wrap gap-3">
               <button className="button-primary bg-white text-ink hover:bg-blue-100" onClick={() => nextConcept ? navigate({ view: 'learn', id: nextConcept.id }) : navigate({ view: 'learn' })}><BookOpen size={17} />이어 학습하기</button>
               <button className="button-secondary border-white/15 bg-white/5 text-white hover:bg-white/10" onClick={() => navigate({ view: 'exam' })}><Target size={17} />모의고사 시작</button>
+              <button className="button-secondary border-blue-300/40 bg-cobalt/30 text-white hover:bg-cobalt/50" onClick={() => navigate({ view: 'final' })}>교수님 최종 대비 · 새 120문항<ArrowRight size={17} /></button>
             </div>
           </div>
           <div className="flex items-center gap-5 rounded-3xl border border-white/10 bg-white/[0.055] p-5 backdrop-blur-sm">
@@ -122,13 +123,16 @@ export function DashboardPage({ data, navigate }: { data: CourseData; navigate: 
           <div className="mt-5 space-y-4">
             {data.files.map((file) => {
               const ids = data.concepts.filter((concept) => concept.fileId === file.id).map((concept) => concept.id)
-              const done = ids.filter((id) => state.completedConceptIds.includes(id)).length
-              const value = ids.length ? Math.round((done / ids.length) * 100) : 0
+              const isFinal = file.id === data.finalReview?.fileId
+              const finalQuestions = isFinal ? data.questions.filter((question) => question.finalExamId) : []
+              const done = isFinal ? finalQuestions.filter((question) => state.attempts[question.id]?.lastSelected.length).length : ids.filter((id) => state.completedConceptIds.includes(id)).length
+              const total = isFinal ? finalQuestions.length : ids.length
+              const value = total ? Math.round((done / total) * 100) : 0
               return (
-                <button key={file.id} onClick={() => navigate({ view: 'learn', params: { file: file.id } })} className="group grid w-full grid-cols-[2.5rem_1fr_auto] items-center gap-3 text-left">
+                <button key={file.id} onClick={() => navigate(file.id === data.finalReview?.fileId ? { view: 'final' } : { view: 'learn', params: { file: file.id } })} className="group grid w-full grid-cols-[2.5rem_1fr_auto] items-center gap-3 text-left">
                   <span className="flex h-10 w-10 items-center justify-center rounded-xl text-xs font-black text-white" style={{ background: file.color }}>W{file.week}</span>
                   <span className="min-w-0"><span className="block truncate text-sm font-bold group-hover:text-cobalt">{file.shortTitle}</span><span className="mt-1 block"><ProgressBar value={value} /></span></span>
-                  <span className="text-xs font-bold text-slate-400">{done}/{ids.length}</span>
+                  <span className="text-xs font-bold text-slate-400">{done}/{total}{isFinal ? '문항' : ''}</span>
                 </button>
               )
             })}

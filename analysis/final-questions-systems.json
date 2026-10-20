@@ -1,0 +1,658 @@
+{
+  "questions": [
+    {
+      "id": "final-sys-001", "finalExamId": "final-01",
+      "finalReview": {"topicId": "foundations", "evidence": "lecture", "focusIds": ["hardware-software", "kernel-interrupt-driver"]},
+      "prompt": "실습용 USB 장치의 회로와 부품은 그대로 두고, 장치 안에 저장된 제어 명령만 새 버전으로 교체했다. 담당자는 ‘장치 내부를 바꿨으므로 하드웨어를 교체했다’고 설명했다. 가장 정확한 평가는?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "명령이 장치 안에 있으므로 물리 부품을 교체한 것이다.", "correct": false, "explanation": "저장 위치가 장치 내부여도 제어 명령은 소프트웨어에 해당한다."},
+        {"id": "o2", "text": "물리 부품이 아니라 장치를 제어하는 소프트웨어를 갱신한 것이다.", "correct": true, "explanation": "펌웨어처럼 장치 내부에 저장된 제어 프로그램도 소프트웨어다."},
+        {"id": "o3", "text": "회로가 같으므로 장치의 동작도 절대로 달라질 수 없다.", "correct": false, "explanation": "같은 하드웨어도 실행하는 제어 명령이 달라지면 동작이 달라질 수 있다."},
+        {"id": "o4", "text": "명령을 갱신하면 USB 커넥터의 물리 규격도 자동으로 바뀐다.", "correct": false, "explanation": "프로그램 변경은 커넥터의 모양이나 물리 배선을 바꾸지 않는다."}
+      ],
+      "conceptIds": ["n12-c-software", "n12-c-driver"], "sourceRefs": [{"fileId": "notion-w1", "pages": [6, 7, 21, 22]}],
+      "difficulty": "보통", "type": "개념 경계·상황 판단", "supplemental": false,
+      "review": "하드웨어는 회로·저장장치·커넥터 같은 물리적 구성 요소이고, 소프트웨어는 그 장치를 움직이는 명령과 프로그램이다. 장치 내부에 저장됐다는 이유만으로 명령이 하드웨어가 되지는 않는다. 이 사례는 부품 교체가 아니라 제어 프로그램의 갱신이다.",
+      "memoryTip": "어디에 저장됐는가보다, 물리 부품인가 실행 명령인가를 본다.",
+      "additionalExample": "공유기의 부품을 그대로 둔 채 제어 프로그램을 업데이트하는 것도 소프트웨어 변경에 해당한다.",
+      "detailedExplanation": {"concept": "컴퓨터의 구성 요소는 물리적으로 만질 수 있는 하드웨어와 실행할 절차를 표현하는 소프트웨어로 구별한다. 소프트웨어가 반드시 PC의 일반 파일로만 존재하는 것은 아니다. 장치 내부의 비휘발성 저장공간에 기록된 제어 프로그램도 명령이라는 성격은 같다. 따라서 장치 내부라는 위치와 하드웨어라는 분류를 같은 기준으로 쓰면 안 된다.", "steps": ["변경 전후에 회로와 부품이 그대로라는 조건을 먼저 확인한다.", "실제로 교체한 대상은 장치가 실행할 제어 명령이라는 점을 찾는다.", "명령 변경을 소프트웨어 갱신으로 분류하고 물리 부품 교체와 구별한다."], "pitfall": "장치 내부에 들어 있다는 위치 정보만으로 하드웨어라고 분류하지 않는다."}
+    },
+    {
+      "id": "final-sys-002", "finalExamId": "final-01",
+      "finalReview": {"topicId": "foundations", "evidence": "lecture", "focusIds": ["von-neumann", "hardware-software"]},
+      "prompt": "가상 저장 프로그램 모델에서 M[100]=LOAD 200, M[101]=ADD 201, M[200]=4, M[201]=9다. LOAD a는 M[a]를 레지스터 R에 넣고 ADD a는 M[a]를 R에 더한다. 명령마다 다음 명령 주소 PC를 1 늘린다. PC=100에서 두 명령을 실행했을 때 옳은 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "두 명령 후 R=13이고 다음 명령 주소 PC=102다.", "correct": true, "explanation": "LOAD로 4를 넣고 9를 더하며 PC는 100→101→102로 바뀐다."},
+        {"id": "o2", "text": "ADD 201의 201을 직접 더하므로 두 명령 후 R=205다.", "correct": false, "explanation": "201은 데이터 주소이고 실제로 더하는 값은 M[201]=9다."},
+        {"id": "o3", "text": "첫 명령 직후 R=4, PC=101이며 명령 주소와 데이터 주소를 구별해야 한다.", "correct": true, "explanation": "주소 100에서 명령을 읽고 주소 200에서 데이터 4를 읽는다."},
+        {"id": "o4", "text": "마지막에 읽은 데이터 주소가 201이므로 다음 명령 주소 PC도 201이다.", "correct": false, "explanation": "데이터를 읽는 주소와 다음 명령의 위치는 이 모델에서 별도로 관리한다."}
+      ],
+      "conceptIds": ["n12-c-software", "n12-c-memory-management"], "sourceRefs": [{"fileId": "notion-w1", "pages": [6, 7, 41, 42]}],
+      "difficulty": "어려움", "type": "구조 해석·복수 판단", "supplemental": false,
+      "review": "폰 노이만 구조에서는 명령도 메모리에 저장된다. CPU는 PC가 가리키는 명령을 읽고, 명령에 적힌 데이터 주소의 값을 이용한다. LOAD 200은 숫자 200을 넣는 것이 아니라 M[200]=4를 넣는다. ADD 201은 9를 더하므로 최종 R=13이고 다음 명령 위치는 102다.",
+      "memoryTip": "명령 주소·데이터 주소·그 주소에 든 값을 세 칸으로 구별한다.",
+      "additionalExample": "LOAD 30에서 M[30]=8이면 넣는 값은8이다. CPU의 중심은 실행·제어 관계이며 실제 메인보드의 기하학적 정중앙이라는 뜻은 아니다.",
+      "detailedExplanation": {"concept": "저장 프로그램 구조에서는 명령과 데이터가 모두 메모리를 이용할 수 있지만 CPU가 읽는 목적은 다르다. 프로그램 카운터 PC는 다음 명령의 위치를 나타내고 명령 안의 주소는 처리할 데이터의 위치를 가리킬 수 있다. 이 문제는 작은 학습용 명령의 의미를 직접 정의했으므로 실제 CPU의 세부 명령어 지식 없이 추적할 수 있다. 주소 숫자 자체와 그 위치의 값을 나누어 읽는 것이 핵심이다.", "steps": ["PC=100에서 LOAD 200을 읽고 M[200]=4를 R에 넣은 뒤 PC=101로 옮긴다.", "PC=101의 ADD 201로 M[201]=9를 더해 R=13을 구한다.", "두 번째 명령 뒤 PC를 102로 옮기고 데이터 주소 201과 구별한다."], "pitfall": "명령에 적힌 데이터 주소를 실제 계산할 값이나 다음 명령의 위치로 바꾸어 읽지 않는다."}
+    },
+    {
+      "id": "final-sys-003", "finalExamId": "final-01",
+      "finalReview": {"topicId": "foundations", "evidence": "pdf", "focusIds": ["os-role", "virtual-memory"]},
+      "prompt": "가상 CSV 작업에서 시간 측정 결과가 그래프와 같다. 구간은 서로 겹치지 않고 전체 100초를 나눈 것이다. 이 측정만으로 내릴 수 있는 가장 적절한 결론은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "다른 항목이 같을 때 CPU 계산 시간만 절반으로 줄이면 전체도 50초가 된다.", "correct": false, "explanation": "계산만 10초에서 5초가 되므로 전체는 5+75+15=95초다."},
+        {"id": "o2", "text": "다른 항목이 같을 때 파일 읽기 대기만 절반으로 줄이면 전체는 37.5초다.", "correct": false, "explanation": "읽기 대기 외의 25초도 남아 전체는 10+37.5+15=62.5초다."},
+        {"id": "o3", "text": "CPU 계산보다 파일 읽기 대기가 커서 저장장치·읽기 경로를 먼저 조사할 근거가 있다.", "correct": true, "explanation": "파일 읽기 대기 75초가 전체 시간에서 가장 큰 비중이다."},
+        {"id": "o4", "text": "파일 읽기 대기가 있다는 사실로 RAM 부족을 확정할 수 있다.", "correct": false, "explanation": "읽기 대기의 원인은 저장장치·접근 방식 등도 가능하므로 추가 관측이 필요하다."}
+      ],
+      "conceptIds": ["n12-c-os-roles", "n12-c-memory-management"], "sourceRefs": [{"fileId": "prof-final", "pages": [8, 10]}],
+      "difficulty": "어려움", "type": "자원 진단·그래프 해석", "supplemental": false,
+      "visual": {"kind": "bar", "title": "가상 작업 100초의 상호 배타적 시간 분해", "xLabel": "시간 사용 항목", "yLabel": "초", "labels": ["CPU 계산", "파일 읽기 대기", "기타"], "series": [{"name": "소요 시간", "values": [10, 75, 15]}], "note": "학습용 가정. 원인 확정이 아니라 우선 조사할 지점을 묻는다."},
+      "review": "운영체제는 CPU뿐 아니라 메모리·파일·장치와 같은 실행 자원을 관리한다. 전체 시간이 길다고 CPU만 의심해서는 안 된다. 여기서는 파일 읽기 대기가 75초이므로 읽기 경로를 우선 조사할 근거가 있지만, 저장장치 고장이나 RAM 부족까지 확정한 것은 아니다.",
+      "memoryTip": "느린 작업은 전체 시간의 가장 큰 항목부터 조사한다.",
+      "additionalExample": "네트워크 수신 대기가 대부분인 수집 작업이라면 계산 코드 최적화보다 전송 지연과 응답 시간을 먼저 살핀다.",
+      "detailedExplanation": {"concept": "병목은 전체 처리 시간을 가장 강하게 제한하는 자원이나 단계다. CPU 사용률이 낮아도 파일 읽기나 네트워크를 기다리느라 전체 작업은 느릴 수 있다. 시간 분해는 조사 우선순위를 정하는 증거이지 특정 하드웨어의 고장을 곧바로 증명하는 검사는 아니다. 특히 기다리는 시간을 CPU 계산 시간과 분리해야 어느 개선이 전체 성능에 도움이 될지 판단할 수 있다.", "steps": ["상호 배타적 세 항목의 합이 전체 실행 시간 100초인지 확인한다.", "파일 읽기 대기 75초가 계산 10초보다 훨씬 크다는 사실을 읽는다.", "읽기 경로를 우선 조사하되 RAM 부족이나 고장 여부는 추가로 검증한다."], "pitfall": "CPU 사용률이 낮다는 한 가지 현상을 운영체제 고장이나 메모리 부족의 확정 증거로 쓰지 않는다."}
+    },
+    {
+      "id": "final-sys-004", "finalExamId": "final-01",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["process-pcb"]},
+      "prompt": "가상 단일 코어에서 A의 PCB에는 예전 정지 시점의 ‘다음 명령 40·중간 합계10’이 있다. 지금 실행 중인 CPU 문맥은 ‘다음 명령44·중간 합계23’이다. 이 시점에 A를 선점해 B를 실행한 뒤 A를 이어 실행하려 한다. 옳은 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "선점할 때 현재 CPU의 명령44·합계23을 A의 저장 문맥에 반영한다.", "correct": true, "explanation": "실행 중 진전한 최신 문맥을 다음 재개에 사용할 수 있도록 보존해야 한다."},
+        {"id": "o2", "text": "PCB에 이미 값이 있으므로 명령40·합계10을 그대로 복원한다.", "correct": false, "explanation": "예전 정지 시점의 값을 쓰면 이번에 진행한 상태를 잃는다."},
+        {"id": "o3", "text": "A를 재개할 때는 최신 문맥인 명령44·합계23을 함께 복원한다.", "correct": true, "explanation": "명령 위치와 그 위치가 사용할 중간 상태를 같은 시점으로 맞춰야 한다."},
+        {"id": "o4", "text": "최신 명령44와 예전 합계10을 결합하면 중단 지점이 정확히 복원된다.", "correct": false, "explanation": "서로 다른 시점의 위치와 중간값을 섞으면 같은 실행 상태가 아니다."}
+      ],
+      "conceptIds": ["n12-c-process", "n12-c-pcb-states"], "sourceRefs": [{"fileId": "notion-w1", "pages": [15, 32, 35, 36, 37]}],
+      "difficulty": "어려움", "type": "실행 문맥·원인 구분", "supplemental": false,
+      "review": "실행 중에는 CPU의 문맥이 계속 바뀐다. PCB에 이전에 저장한 값이 있다고 그것이 현재 시점의 최신값인 것은 아니다. 선점 때 현재 명령44·합계23을 보존하고 재개 때 같은 시점의 두 값을 함께 복원해야 한다. 최신 위치와 오래된 중간값을 섞는 것도 올바른 재개가 아니다.",
+      "memoryTip": "현재 CPU 문맥을 저장한 뒤 같은 시점의 값끼리 복원한다.",
+      "additionalExample": "반복문이 10회차에서 14회차까지 진행했다면 다시 멈출 때 10회차의 옛 기록 대신 14회차의 위치와 누적값을 보존한다.",
+      "detailedExplanation": {"concept": "문맥 교환은 과거에 기록한 PCB 값을 무조건 재사용하는 과정이 아니다. 실행 중인 프로세스는 CPU의 명령 위치와 레지스터 값이 변하므로 중단 직전 최신 상태를 저장해야 한다. 다음에 재개할 때는 그때 저장한 위치와 중간 계산 상태를 함께 복원한다. 서로 다른 시점의 값을 섞으면 프로그램의 같은 줄에서 시작하더라도 이어지는 계산이 달라질 수 있다.", "steps": ["예전 PCB의 40·10과 지금 CPU의 44·23이 다른 시점의 값임을 확인한다.", "A를 선점하기 전에 최신 CPU 문맥 44·23을 관리 정보에 저장한다.", "B 실행 뒤 A를 재개할 때 같은 시점의 명령44·합계23을 함께 복원한다."], "pitfall": "PCB에 기록이 있다는 사실만으로 지금 CPU에서 진행 중인 최신값까지 반영돼 있다고 보지 않는다."}
+    },
+    {
+      "id": "final-sys-005", "finalExamId": "final-01",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["process-pcb", "kernel-interrupt-driver"]},
+      "prompt": "가상 5상태·단일 코어에서 A는 파일 읽기 대기, B는 실행 중이다. A의 읽기는 2ms에 끝나고 B는 5ms에 CPU를 반환한다. 입출력 완료로 B를 선점하지 않으며 그 후 준비열의 A를 선택한다. 전환 비용은 0이고 다른 사건이 없을 때 A의 상태와 첫 재실행 시각은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "2ms에 준비, [2,5)ms 동안 준비 유지, 5ms에 실행", "correct": true, "explanation": "읽기 완료로 준비가 되지만 비선점 조건에 따라 B가 반환한 5ms에 CPU를 받는다."},
+        {"id": "o2", "text": "2ms에 실행, [2,5)ms 동안 실행 유지, 5ms에 준비", "correct": false, "explanation": "입출력 완료가 B를 선점하지 않는다는 정책과 반대다."},
+        {"id": "o3", "text": "2ms에도 대기, [2,5)ms 동안 대기 유지, 5ms에 실행", "correct": false, "explanation": "읽기가 끝난 2ms부터는 CPU 차례만 기다리므로 준비 상태다."},
+        {"id": "o4", "text": "2ms에 준비, 5ms에 다시 대기, 다음 입력 후 실행", "correct": false, "explanation": "새 입출력 대기는 주어지지 않았고 5ms에 A를 선택한다고 했다."}
+      ],
+      "conceptIds": ["n12-c-pcb-states", "n12-c-driver"], "sourceRefs": [{"fileId": "notion-w1", "pages": [21, 22, 35, 36, 37, 38, 39]}],
+      "difficulty": "어려움", "type": "상태 전이·조건 적용", "supplemental": false,
+      "review": "A의 입출력 대기는 읽기가 끝난 2ms에 해소된다. 그 뒤에는 CPU만 기다리므로 준비 상태지만 B를 선점하지 않는 정책 때문에 바로 실행하지는 않는다. B가 5ms에 CPU를 반환한 후 A를 디스패치하므로 [2,5)ms는 준비, 5ms부터 실행이다.",
+      "memoryTip": "입출력 완료는 준비로, CPU 배정은 실행으로 간다.",
+      "additionalExample": "키보드 입력을 기다리던 작업도 입력이 도착한 뒤 다른 준비 작업들과 CPU 차례를 경쟁할 수 있다.",
+      "detailedExplanation": {"concept": "상태 전이는 기다리는 대상과 스케줄링 정책을 함께 보아야 한다. 대기는 입출력 같은 사건을 기다리고 준비는 CPU 배정만 기다리는 상태다. 대기 원인이 해소되면 준비가 되지만, 비선점 정책에서는 현재 실행 작업의 CPU를 즉시 빼앗지 않는다. 그러므로 입출력 완료 시각과 실제 재실행 시각은 다를 수 있다. 시작 포함·끝 제외 구간은 경계 시각의 중복도 막아 준다.", "steps": ["A의 파일 읽기가 끝난 2ms에 대기 원인이 없어져 준비 상태로 옮긴다.", "B를 선점하지 않으므로 [2,5)ms 동안 A는 CPU 차례를 기다린다.", "5ms에 B가 반환한 CPU를 A에 디스패치해 실행 상태로 바꾼다."], "pitfall": "대기 해소 시각과 CPU를 실제로 받은 시각을 하나로 합치지 않는다."}
+    },
+    {
+      "id": "final-sys-006", "finalExamId": "final-01",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["process-pcb", "os-role"]},
+      "prompt": "실행 파일 하나에서 실행한 A·B 두 프로세스가 있다. A는 종료되고 B는 준비 상태다. 종료된 A의 PCB는 즉시 회수하는 가상 모델이다. 이때 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "B가 CPU를 쓰지 않고 있어도 B는 실행 중인 프로그램의 한 인스턴스다.", "correct": true, "explanation": "프로세스는 준비 상태에서도 살아 있으며 CPU에서 실행 중일 필요는 없다."},
+        {"id": "o2", "text": "A가 종료됐으므로 B의 PCB도 함께 회수해야 한다.", "correct": false, "explanation": "서로 다른 프로세스의 생명주기와 관리 정보는 구별한다."},
+        {"id": "o3", "text": "실행 파일을 다시 실행하면 새로운 프로세스를 만들 수 있다.", "correct": true, "explanation": "프로세스 종료는 저장된 프로그램 파일의 삭제와 다르다."},
+        {"id": "o4", "text": "준비는 설치만 된 상태이므로 B에는 PCB가 존재하지 않는다.", "correct": false, "explanation": "준비 상태의 프로세스도 상태와 문맥을 관리할 PCB가 필요하다."}
+      ],
+      "conceptIds": ["n12-c-process", "n12-c-pcb-states"], "sourceRefs": [{"fileId": "notion-w1", "pages": [15, 32, 33, 35, 36]}],
+      "difficulty": "보통", "type": "프로그램·프로세스 구분", "supplemental": false,
+      "review": "살아 있는 프로그램이라는 설명의 실행 중은 CPU를 현재 점유한다는 좁은 뜻이 아니다. 준비나 대기 상태의 작업도 프로세스다. 같은 실행 파일에서 만든 작업들은 각각 관리되므로 하나가 끝나도 다른 작업의 PCB나 저장된 실행 파일이 자동으로 사라지지는 않는다.",
+      "memoryTip": "프로세스의 존재와 지금 CPU를 쓰는지는 다르다.",
+      "additionalExample": "편집기 두 개 중 하나를 닫아도 다른 편집기의 준비·실행 상태와 설치된 편집기 파일은 별도로 남는다.",
+      "detailedExplanation": {"concept": "프로그램은 저장된 명령의 집합이고 프로세스는 그 프로그램을 실행하는 한 작업의 실체다. 프로세스는 실행 상태뿐 아니라 준비나 대기 상태일 수 있으며 운영체제는 그동안 관리 정보를 유지한다. 하나의 프로그램에서 여러 프로세스를 만들 수 있으므로 프로그램 파일 수와 프로세스 수를 같게 세면 안 된다. 이 문제에서는 종료한 작업의 PCB만 즉시 회수한다는 규칙도 주어져 있다.", "steps": ["하나의 실행 파일에서 두 개의 독립된 실행 인스턴스가 생겼음을 확인한다.", "준비 상태의 B도 PCB를 유지하는 살아 있는 프로세스로 분류한다.", "A의 종료로 없어지는 관리 정보와 그대로 남는 B·실행 파일을 나눈다."], "pitfall": "실행 중인 프로그램이라는 정의를 현재 CPU 실행 상태인 프로그램만으로 좁히지 않는다."}
+    },
+    {
+      "id": "final-sys-007", "finalExamId": "final-01",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["kernel-interrupt-driver", "process-pcb"]},
+      "prompt": "가상 5상태 모델에서 A는 ‘10쪽 전체 전송이 끝나야 반환하는 인쇄 요청’ 때문에 대기 중이다. 장치는 첫 1쪽 전송 완료 인터럽트를 보냈고 9쪽은 아직 미전송이다. 이 알림 처리 후 B가 계산을 계속했다. A 상태를 포함한 가장 정확한 설명은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "A는 준비로 이동한다. 한 쪽 완료라도 요청의 대기 조건이 해소되기 때문이다.", "correct": false, "explanation": "이 요청은 열 쪽 전체 전송이 끝나야 대기 조건이 해소된다."},
+        {"id": "o2", "text": "A는 대기를 유지한다. 따라서 첫 쪽의 인터럽트도 아직 처리되지 않은 것이다.", "correct": false, "explanation": "부분 완료 알림을 처리해도 전체 요청의 대기는 유지될 수 있다."},
+        {"id": "o3", "text": "A는 실행으로 이동한다. 인터럽트 처리 시 A의 남은 응용 계산도 이어 수행한다.", "correct": false, "explanation": "장치 알림 처리와 A의 응용 계산은 별개이며 요청 완료 조건도 미충족이다."},
+        {"id": "o4", "text": "A는 대기를 유지한다. 부분 완료 알림은 처리했어도 전체 전송 조건은 아직 미충족이다.", "correct": true, "explanation": "장치 사건 처리 여부와 A의 전체 요청 완료 여부는 구별한다."}
+      ],
+      "conceptIds": ["n12-c-kernel", "n12-c-driver", "n12-c-process"], "sourceRefs": [{"fileId": "notion-w1", "pages": [19, 21, 22, 32]}],
+      "difficulty": "어려움", "type": "장치 사건·프로세스 생명주기", "supplemental": false,
+      "review": "인터럽트가 알린 완료의 범위를 확인해야 한다. 이 요청의 대기 조건은 열 쪽 전체 전송인데 첫 한 쪽만 끝났으므로 A는 대기를 유지한다. 커널이 부분 완료 알림을 정상 처리한 뒤 B를 재개할 수 있으며, A가 계속 대기한다는 사실은 인터럽트를 무시했다는 뜻이 아니다.",
+      "memoryTip": "장치의 한 사건 완료 ≠ 프로세스 전체 종료.",
+      "additionalExample": "네트워크 패킷 하나의 수신 알림 뒤에도 파일 다운로드 프로그램은 남은 패킷 수신과 저장을 계속한다.",
+      "detailedExplanation": {"concept": "인터럽트는 장치에서 발생한 사건을 커널에 알리는 기제이며, 알림 하나가 응용의 전체 요청을 완료한다는 뜻은 아니다. 요청이 여러 부분으로 구성됐다면 각 부분의 완료를 관리하다가 정의된 조건이 충족될 때 대기를 해소할 수 있다. 이 문제는 열 쪽 전체 전송을 대기 해소 조건으로 명시했다. 따라서 인터럽트 처리 여부와 A의 대기 상태가 유지되는 이유를 따로 판단해야 한다.", "steps": ["A의 대기 해소 조건이 열 쪽 전체 전송이라는 점을 먼저 확인한다.", "첫 한 쪽만 완료됐으므로 부분 알림 처리 후에도 조건은 미충족이라고 판정한다.", "A의 대기를 유지하면서 커널이 처리 후 B를 재개할 수 있다고 해석한다."], "pitfall": "부분 작업 완료 알림·전체 장치 요청 완료·응용 프로세스 종료를 같은 사건으로 취급하지 않는다."}
+    },
+    {
+      "id": "final-sys-008", "finalExamId": "final-01",
+      "finalReview": {"topicId": "foundations", "evidence": "lecture", "focusIds": ["kernel-interrupt-driver", "os-role"]},
+      "prompt": "같은 USB 단자에 저장장치와 프린터를 각각 연결한다. 응용 프로그램이 둘 다 동일한 장치 명령으로 직접 제어하면 된다는 주장에 대한 가장 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "단자가 같더라도 장치 기능과 제어 방식이 달라 운영체제의 해당 드라이버가 필요할 수 있다.", "correct": true, "explanation": "연결 규격이 같다는 사실만으로 장치별 기능과 제어 명령이 같아지지 않는다."},
+        {"id": "o2", "text": "USB 단자가 같으면 저장 블록 쓰기와 문서 출력은 같은 기능이다.", "correct": false, "explanation": "저장장치의 데이터 보관과 프린터의 출력은 서로 다른 기능이다."},
+        {"id": "o3", "text": "드라이버는 USB 플러그를 뜻하므로 프로그램의 한 종류가 아니다.", "correct": false, "explanation": "드라이버는 운영체제와 장치 사이의 제어를 돕는 소프트웨어다."},
+        {"id": "o4", "text": "장치별 제어 차이가 있으므로 운영체제의 공통 인터페이스는 만들 수 없다.", "correct": false, "explanation": "운영체제와 드라이버는 응용이 장치별 차이를 직접 다루는 부담을 줄인다."}
+      ],
+      "conceptIds": ["n12-c-driver", "n12-c-os-roles"], "sourceRefs": [{"fileId": "notion-w1", "pages": [13, 14, 21, 22]}],
+      "difficulty": "보통", "type": "장치 추상화·역할 구분", "supplemental": false,
+      "review": "USB는 연결에 관한 공통 규격이지만 프린터와 저장장치는 하는 일이 다르다. 장치 제어의 차이는 운영체제의 드라이버가 다루는 중요한 대상이다. 공통 인터페이스를 제공하면 응용이 각 제조사의 구체적인 장치 동작을 모두 구현하지 않아도 된다.",
+      "memoryTip": "같은 단자라고 같은 장치 기능은 아니다.",
+      "additionalExample": "같은 무선 연결을 써도 키보드의 입력 사건과 스피커의 음성 출력 데이터를 처리하는 역할은 다르다.",
+      "detailedExplanation": {"concept": "운영체제는 응용 프로그램과 장치 사이에 공통된 서비스를 제공하고 드라이버는 장치별 제어 차이를 연결한다. 공통 연결 규격과 장치의 실제 기능은 별개의 층위다. 저장장치는 위치에 따른 데이터 읽기와 쓰기를 수행하고 프린터는 출력 작업을 수행한다. 같은 단자를 쓴다는 이유로 두 장치의 명령과 데이터 해석이 같다고 판단해서는 안 된다.", "steps": ["공통점인 USB 연결과 차이점인 장치의 기능을 따로 정리한다.", "장치별 제어를 연결하는 소프트웨어의 역할을 드라이버와 연결한다.", "응용의 공통 요청을 제공하는 운영체제 계층의 이점을 판단한다."], "pitfall": "케이블·단자 같은 물리 연결과 장치를 제어하는 소프트웨어 인터페이스를 같은 것으로 보지 않는다."}
+    },
+    {
+      "id": "final-sys-009", "finalExamId": "final-01",
+      "finalReview": {"topicId": "memory", "evidence": "lecture", "focusIds": ["virtual-memory", "os-role"]},
+      "prompt": "가상 RAM 4GB는 OS 1GB·A 2GB·B 1GB로 가득 차 있다. OS가 A의 1GB를 비어 있던 8GB 스왑 영역으로 내보내고 그 RAM에 B의 추가 1GB를 적재했다. 다른 변화나 관리 비용은 없다. 직후 옳은 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "물리 RAM은 여전히 4GB이고 OS1·A1·B2GB가 차지한다.", "correct": true, "explanation": "A의 1GB가 나간 자리에 B의 1GB가 들어왔으므로 RAM 총량은 같다."},
+        {"id": "o2", "text": "RAM에 B가 1GB 더 들어왔으므로 물리 RAM 총량도 5GB가 된다.", "correct": false, "explanation": "B가 늘어난 만큼 A의 RAM 상주량이 줄었으며 RAM 칩을 증설한 것은 아니다."},
+        {"id": "o3", "text": "스왑의 배정 용량은 8GB지만 이때 사용한 양은 A의 1GB다.", "correct": true, "explanation": "영역의 전체 용량과 실제로 내보내 보관한 양은 다르다."},
+        {"id": "o4", "text": "A가 내보낸 내용을 다시 필요로 하면 저장장치에서 가져오는 비용이 생길 수 있다.", "correct": true, "explanation": "스왑 보관은 RAM과 같은 위치·속도로 즉시 접근한다는 보장이 아니다."}
+      ],
+      "conceptIds": ["n12-c-virtual-memory", "n12-c-memory-operations"], "sourceRefs": [{"fileId": "notion-w1", "pages": [44, 45, 46, 47, 48]}],
+      "difficulty": "어려움", "type": "가상메모리·조건부 판단", "supplemental": false,
+      "review": "A의 일부를 저장장치로 옮겨 RAM 자리를 만든 뒤 B가 그 자리를 사용했다. RAM의 물리 용량은 4GB 그대로이고 상주량은 OS1·A1·B2GB다. 8GB는 스왑 영역의 전체 용량이며 이 사례에서 실제 사용한 스왑은 1GB다. 이후 A의 접근에 따라 다시 읽는 비용이 생길 수 있다.",
+      "memoryTip": "주소 공간·RAM·스왑은 서로 다른 개념이다.",
+      "additionalExample": "잠시 쓰지 않는 자료를 내보내는 경우와 같은 자료를 초당 계속 왕복시키는 경우는 같은 스왑 크기라도 성능이 다르다.",
+      "detailedExplanation": {"concept": "가상메모리는 주소 공간과 실제 메모리를 연결해 관리하며 스왑은 일부 내용을 저장장치에 보관하는 수단이다. 내용을 옮겨 RAM 자리를 확보해도 RAM 칩의 용량은 바뀌지 않는다. 또한 스왑 영역의 배정 용량과 현재 사용량은 다른 수치다. 이 문제에서는 이동 전후의 상주량을 보존 관계로 계산하고, 나중에 내보낸 내용을 필요로 할 때 왕복 비용이 발생할 수 있음을 이해해야 한다.", "steps": ["A의 RAM 상주량을 2GB에서 1GB로 줄이고 스왑 사용량을 1GB로 기록한다.", "빈 RAM 1GB에 B를 추가해 OS1·A1·B2GB의 합이 4GB인지 확인한다.", "스왑 용량 8GB와 사용량 1GB를 구별하고 이후 재반입 비용을 고려한다."], "pitfall": "새 작업이 RAM을 더 쓴 만큼 물리 RAM이 늘었다고 계산하거나 스왑 용량 전체를 사용량으로 세지 않는다."}
+    },
+    {
+      "id": "final-sys-010", "finalExamId": "final-01",
+      "finalReview": {"topicId": "memory", "evidence": "pdf", "focusIds": ["virtual-memory", "os-role"]},
+      "prompt": "가상 실험의 충분한 RAM을 갖춘 환경에서 A·B가 같은 2GB CSV의 정답을 계산했고, 전체 최대 RAM 사용량은 그래프와 같았다. 이제 이 요구량이 유지되는 방식 그대로 가용 RAM3GB·스왑 없는 환경에 옮기려 한다. 옳은 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "파일이 2GB이므로 두 방식의 RAM 사용량도 반드시 2GB다.", "correct": false, "explanation": "자료형·객체·중간 결과에 따라 RAM 사용량은 파일 크기와 달라질 수 있다."},
+        {"id": "o2", "text": "A의 최대 6GB는 주어진 3GB RAM 제한을 넘는다.", "correct": true, "explanation": "전체 적재 방식 A는 측정된 최대 메모리 요구량이 사용 가능 RAM보다 크다."},
+        {"id": "o3", "text": "B는 최대 1GB이므로 제시된 RAM 제한 안에 들어간다.", "correct": true, "explanation": "문제에서 측정한 전체 최대 사용량이 1GB이므로 3GB 제한보다 작다."},
+        {"id": "o4", "text": "B의 최대 RAM이 작다는 사실만으로 실행 시간도 항상 더 짧다고 단정할 수 있다.", "correct": false, "explanation": "최대 메모리 사용량과 실행 시간은 서로 다른 측정 지표다."}
+      ],
+      "conceptIds": ["n12-c-memory-management", "n12-c-virtual-memory"], "sourceRefs": [{"fileId": "prof-final", "pages": [8, 9, 10]}],
+      "difficulty": "어려움", "type": "메모리 측정·그래프 해석", "supplemental": false,
+      "visual": {"kind": "bar", "title": "동일 CSV 처리의 최대 RAM 사용량", "xLabel": "처리 방식", "yLabel": "최대 RAM 사용량(GB)", "labels": ["A 전체 적재", "B 분할 집계"], "series": [{"name": "측정값", "values": [6, 1]}], "note": "학습용 실험. B도 최종 결과를 포함한 전체 최대 사용량이다. 실행 시간은 측정하지 않았다."},
+      "review": "저장장치에서의 파일 크기는 프로그램이 메모리에 펼친 크기와 같지 않다. 문자열 표현과 중간 표 등이 추가 공간을 쓰기 때문이다. 이 조건에서 A는 RAM 제한을 넘고 B는 들어가지만, 최대 RAM 사용량만으로 처리 속도나 CPU 사용량까지 비교할 수는 없다.",
+      "memoryTip": "파일 바이트·최대 RAM·실행 시간은 따로 잰다.",
+      "additionalExample": "원본을 분할해서 읽어도 모든 조각을 마지막에 다시 합치면 최대 메모리가 커질 수 있으므로 전체 실행의 최대값을 잰다.",
+      "detailedExplanation": {"concept": "파일 크기는 저장된 바이트의 양이고 최대 메모리 사용량은 실행 중 가장 많이 점유한 RAM의 양이다. 같은 CSV도 읽는 자료형과 중간 결과의 개수에 따라 메모리 요구량이 달라진다. 분할 집계는 전체 행을 한꺼번에 보관하지 않아 RAM을 줄일 수 있지만 항상 더 빠른 것은 아니다. 따라서 동일한 정답과 입력을 유지한 채 메모리와 시간을 각각 측정해야 한다.", "steps": ["2GB 파일 크기를 사용 가능 RAM 3GB나 실제 최대 RAM과 구별한다.", "A의 6GB와 B의 1GB를 각각 제시된 3GB 제한과 비교한다.", "측정하지 않은 실행 시간에 대한 우열은 결론에서 제외한다."], "pitfall": "분할 처리라는 이름만으로 판단하지 말고 최종 결합까지 포함한 실제 최대 메모리 사용량을 확인한다."}
+    },
+    {
+      "id": "final-sys-011", "finalExamId": "final-01",
+      "finalReview": {"topicId": "filesystem", "evidence": "lecture", "focusIds": ["filesystem-format"]},
+      "prompt": "가상 파일시스템에서 내용 블록의 해시는 정상인데, 파일 이름을 블록 위치에 연결하는 관리 정보만 손상됐다. 백업에는 손상 전 관리 정보가 있다. 원본 보존을 우선할 때 가장 적절한 첫 대응은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "같은 저장장치를 즉시 포맷해 기존 연결 정보를 모두 초기화한다.", "correct": false, "explanation": "포맷은 관리 구조를 초기화하므로 기존 파일 연결을 복구하는 첫 조치와 다르다."},
+        {"id": "o2", "text": "파일 확장자를 바꾸어 저장 위치 연결을 재생성한다.", "correct": false, "explanation": "확장자는 이름의 요소이며 손상된 블록 위치 연결을 복원하지 않는다."},
+        {"id": "o3", "text": "현 상태를 보존하고 백업 관리 정보로 파일과 블록의 연결을 복구·검증한다.", "correct": true, "explanation": "문제의 손상 지점은 내용이 아니라 이름·위치의 관리 정보다."},
+        {"id": "o4", "text": "내용 해시가 정상이므로 이름으로 파일을 찾는 기능도 반드시 정상이다.", "correct": false, "explanation": "내용 바이트의 무결성과 파일을 찾는 관리 정보의 무결성은 별개다."}
+      ],
+      "conceptIds": ["n12-c-file-table", "n12-c-formatting", "n12-c-file"], "sourceRefs": [{"fileId": "notion-w1", "pages": [50, 51, 55, 56]}],
+      "difficulty": "어려움", "type": "파일시스템·복구 판단", "supplemental": false,
+      "review": "파일시스템은 내용 바이트뿐 아니라 이름·경로·위치·할당 같은 관리 정보도 유지한다. 내용 블록이 정상이어도 연결 정보가 손상되면 사용자가 파일을 찾거나 올바른 순서로 읽지 못할 수 있다. 기존 정보를 보존하며 백업과 대조하는 것이 이 조건의 복구 목적에 맞다.",
+      "memoryTip": "내용이 정상이어도 찾아가는 지도는 손상될 수 있다.",
+      "additionalExample": "도서 내용이 멀쩡해도 목록의 서가 위치가 잘못되면 책을 찾기 어려운 것처럼 데이터와 관리 정보는 다르다.",
+      "detailedExplanation": {"concept": "파일시스템은 바이트를 이름 있는 파일로 제공하고 그 파일이 저장된 위치와 할당 상태를 관리한다. 따라서 데이터 영역과 관리 구조는 서로 연결되지만 손상 여부는 별개로 확인해야 한다. 파일 내용의 해시가 맞아도 이름에서 위치로 이어지는 연결이 끊기면 정상 접근이 어렵다. 포맷은 관리 구조의 초기화이므로 기존 관리 정보를 복구하려는 목적과 같은 작업이 아니다.", "steps": ["정상인 내용 블록과 손상된 관리 정보를 두 대상으로 분리한다.", "원본 보존 조건에 따라 기존 정보를 더 덮어쓰는 조치를 피한다.", "관리 정보 백업을 이용해 위치 연결을 복구한 뒤 내용 접근을 검증한다."], "pitfall": "내용의 해시 검증을 파일시스템 전체의 정상성 검증으로 확대하지 않는다."}
+    },
+    {
+      "id": "final-sys-012", "finalExamId": "final-01",
+      "finalReview": {"topicId": "filesystem", "evidence": "supplement", "focusIds": ["filesystem-format", "os-role"]},
+      "prompt": "보충·가상 할당 실험이다. 서로 다른 파일은 데이터 블록을 공유하지 않는다. 빈 블록 9를 본 A와 B가, A의 사용 표시가 반영되기 전에 각각 자기 파일에 9를 할당했다. 내용은 아직 쓰지 않았다. 올바른 대응을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "두 파일이 같은 블록을 받았으므로 제시된 독점 할당 규칙을 위반했다.", "correct": true, "explanation": "서로 다른 파일에 동일 블록을 배정하면 이 모델의 규칙에 어긋난다."},
+        {"id": "o2", "text": "빈 블록 확인과 사용 표시 사이를 조정해 중복 할당을 막아야 한다.", "correct": true, "explanation": "동시에 빈 것으로 관측한 블록을 둘이 받지 않도록 할당 절차를 보호해야 한다."},
+        {"id": "o3", "text": "내용을 아직 쓰지 않았으므로 할당 관리 정보도 반드시 정상이다.", "correct": false, "explanation": "내용 쓰기 전에도 할당 정보의 충돌은 발생할 수 있다."},
+        {"id": "o4", "text": "할당 정보는 유지하고 A·B의 쓰기 순서만 정하면 독점 할당 규칙도 충족한다.", "correct": false, "explanation": "쓰기 순서를 정해도 두 파일에 같은 블록을 배정한 관리 정보는 그대로다."}
+      ],
+      "conceptIds": ["n12-c-free-list", "n12-c-file-table", "n12-c-os-roles"], "sourceRefs": [{"fileId": "notion-w1", "pages": [13, 14, 56, 61]}],
+      "difficulty": "어려움", "type": "보충·동시 할당의 안전성", "supplemental": true,
+      "review": "빈 공간 관리는 단순히 빈 블록 번호를 읽는 데서 끝나지 않는다. 여러 요청이 동시에 들어오면 확인과 사용 표시의 사이에서 같은 공간을 두 번 줄 수 있다. 이 보충 사례는 파일 이름이 아니라 실제 할당된 블록의 독점성과 할당 절차의 조정이 중요함을 보여 준다.",
+      "memoryTip": "빈 공간 확인과 사용 표시는 함께 안전하게 관리한다.",
+      "additionalExample": "마지막 좌석 하나를 두 사람이 동시에 빈자리로 보았을 때 예약 확정 절차가 중복 배정을 막아야 하는 것과 비슷하다.",
+      "detailedExplanation": {"concept": "파일시스템의 빈 공간 목록은 새 파일에 줄 수 있는 저장 블록을 나타낸다. 여러 작업이 이 목록을 동시에 이용하면 각각 빈 것으로 읽은 같은 블록을 받는 상황이 생길 수 있다. 이 문제의 모델은 파일 간 블록 공유를 허용하지 않으므로 할당 절차를 조정해 한 번 배정된 공간이 다시 배정되지 않도록 해야 한다. 이는 강의의 빈 공간 관리에서 확장한 보충 안전성 문제다.", "steps": ["파일끼리 데이터 블록을 공유하지 않는다는 모델의 규칙을 확인한다.", "A와 B의 관리 항목에 모두 블록 9가 들어갔다는 충돌을 찾는다.", "빈 공간 확인과 사용 표시를 조정하는 절차로 중복 배정을 방지한다."], "pitfall": "아직 내용이 덮어써지지 않았다는 사실과 할당 관리 정보가 올바르다는 판단을 구별한다."}
+    },
+    {
+      "id": "final-sys-013", "finalExamId": "final-02",
+      "finalReview": {"topicId": "foundations", "evidence": "lecture", "focusIds": ["hardware-software", "os-role"]},
+      "prompt": "분석 프로그램은 라이브러리의 함수를 이용해 표를 그린다. 그림 파일을 저장할 때는 운영체제가 경로·권한·공간을 확인한다. 라이브러리와 운영체제의 역할을 가장 적절하게 구별한 설명은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "시각화 라이브러리는 물리적 저장장치이므로 하드웨어다.", "correct": false, "explanation": "라이브러리는 응용이 이용하는 함수와 코드의 모음인 소프트웨어다."},
+        {"id": "o2", "text": "그림을 그리는 기능과 저장 자원을 관리하는 기능은 같은 책임이므로 구별할 필요가 없다.", "correct": false, "explanation": "데이터를 시각화하는 기능과 파일 자원·권한 관리는 책임이 다르다."},
+        {"id": "o3", "text": "운영체제가 파일을 저장하므로 어떤 차트를 선택할지도 자동으로 결정한다.", "correct": false, "explanation": "파일 관리의 정상 동작은 분석 목적에 맞는 차트 선택을 대신하지 않는다."},
+        {"id": "o4", "text": "시각화 라이브러리는 응용 기능을 돕고, 운영체제는 공통 자원 접근과 보호를 담당한다.", "correct": true, "explanation": "두 소프트웨어는 각각 시각화 기능과 실행 자원 관리라는 다른 역할을 맡는다."}
+      ],
+      "conceptIds": ["n12-c-software", "n12-c-os-roles"], "sourceRefs": [{"fileId": "notion-w1", "pages": [6, 7, 13, 14]}],
+      "difficulty": "보통", "type": "소프트웨어 계층·역할 연결", "supplemental": false,
+      "review": "소프트웨어라는 공통 분류 안에도 역할의 차이가 있다. 분석 라이브러리는 표와 그래프 같은 응용 기능을 제공하고, 운영체제는 여러 응용에 공통으로 필요한 파일·메모리·CPU의 관리와 보호를 맡는다. 저장이 성공했다고 그래프가 적절하거나 해석이 맞는 것도 아니다.",
+      "memoryTip": "같은 소프트웨어여도 응용 기능과 자원 관리의 책임은 다르다.",
+      "additionalExample": "평균 계산 라이브러리가 올바르게 동작해도 저장 폴더의 쓰기 권한이 없으면 결과 파일 저장은 실패할 수 있다.",
+      "detailedExplanation": {"concept": "소프트웨어는 하나의 동일한 기능 덩어리가 아니라 여러 역할을 가진 프로그램과 코드의 집합이다. 응용과 라이브러리는 사용자의 과제에 필요한 기능을 제공하고 운영체제는 그 실행에 필요한 공통 자원을 관리한다. 예를 들어 그래프의 종류와 색은 분석 코드가 정하지만 파일 경로의 접근 권한과 저장공간은 운영체제의 관리 대상이다. 각 계층의 성공 여부를 따로 확인해야 실패 지점을 좁힐 수 있다.", "steps": ["그림을 계산해 만드는 일과 저장장치에 파일로 기록하는 일을 나눈다.", "라이브러리는 응용 기능을 돕는 소프트웨어로 분류한다.", "운영체제의 자원 관리가 분석 방법의 적절성까지 보장하지 않음을 확인한다."], "pitfall": "둘 다 소프트웨어라는 이유로 라이브러리의 기능과 운영체제의 관리 책임을 같게 보지 않는다."}
+    },
+    {
+      "id": "final-sys-014", "finalExamId": "final-02",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["kernel-interrupt-driver", "os-role"]},
+      "prompt": "가상 단일 코어에서 A는 ㉠ RAM 배열의 합계 함수를 호출해 계산한 뒤, ㉡ 파일 읽기 시스템 호출로 장치 요청을 보냈다. A가 대기하고 B가 실행하는 동안 ㉢ 디스크가 읽기 완료 인터럽트를 보냈고 A는 준비로 옮겼다. 분류와 실행 흐름이 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "㉠의 함수 호출과 ㉡의 시스템 호출은 구별된다. 일반 함수 호출이 곧 커널 서비스 요청인 것은 아니다.", "correct": true, "explanation": "주어진 ㉠은 RAM의 값으로 계산하고 ㉡은 파일 서비스를 요청한다."},
+        {"id": "o2", "text": "㉡은 A가 시작한 서비스 요청이고 ㉢은 장치의 완료 알림이다. 둘 다 커널의 처리와 연결될 수 있다.", "correct": true, "explanation": "시스템 호출과 인터럽트는 발생 원인이 다르지만 커널 처리와 관련된다."},
+        {"id": "o3", "text": "㉢이 도착하면 ㉡은 아직 호출되지 않은 것이다. 장치 알림이 먼저 와야 파일 읽기를 요청한다.", "correct": false, "explanation": "로그는 A의 읽기 요청 뒤 장치가 작업을 마치고 완료를 알린 순서다."},
+        {"id": "o4", "text": "㉢이 끝난 뒤 A가 준비이므로 장치 읽기는 미완료다. 완료됐다면 A는 곧바로 실행이어야 한다.", "correct": false, "explanation": "읽기 완료 후 CPU 차례만 기다리는 준비 상태가 될 수 있다."}
+      ],
+      "conceptIds": ["n12-c-system-call", "n12-c-kernel", "n12-c-time-sharing"], "sourceRefs": [{"fileId": "notion-w1", "pages": [19, 20, 34, 38]}],
+      "difficulty": "어려움", "type": "커널 진입 원인·복수 판단", "supplemental": false,
+      "review": "일반 함수 호출, 커널 서비스 요청, 장치의 사건 알림을 구별한다. ㉠은 메모리 배열 계산, ㉡은 A가 시작한 파일 서비스 요청, ㉢은 그 뒤 장치가 보낸 완료 알림이다. A는 읽기가 끝나도 B가 CPU를 쓰고 있으면 준비로 돌아와 차례를 기다릴 수 있다.",
+      "memoryTip": "응용의 서비스 요청과 장치의 사건 알림을 구별한다.",
+      "additionalExample": "응용의 인쇄 요청과 프린터의 전송 완료 알림은 같은 인쇄 과정에 있지만 시작 주체와 역할이 다르다.",
+      "detailedExplanation": {"concept": "프로그램 코드에 호출이라는 표현이 있어도 모두 시스템 호출인 것은 아니다. 일반 함수는 응용의 계산을 수행할 수 있고 시스템 호출은 보호된 운영체제 서비스를 요청하는 통로다. 장치 인터럽트는 별도의 사건을 알린다. 비동기적으로 진행되는 장치 작업을 기다리는 동안 다른 프로세스를 실행할 수 있으며 완료 후에도 원래 작업은 CPU가 아니라 준비열로 돌아올 수 있다. 요청 원인과 상태 전이를 함께 추적해야 한다.", "steps": ["RAM 배열 계산 함수와 파일 읽기 시스템 호출의 역할을 구별한다.", "A의 요청 뒤 장치 작업이 진행되고 완료 인터럽트가 발생한 순서를 유지한다.", "완료 후 준비는 CPU 차례를 기다림이며 읽기 미완료를 뜻하지 않음을 확인한다."], "pitfall": "함수 호출이라는 문법 표현·커널 서비스 요청·장치 완료 알림을 하나의 같은 사건으로 취급하지 않는다."}
+    },
+    {
+      "id": "final-sys-015", "finalExamId": "final-02",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["process-pcb"]},
+      "prompt": "가상 단일 코어에서 A를 선점하며 ‘다음 명령27·레지스터65’를 A의 PCB에 저장했다. 이후 B가 실행해 현재 CPU 문맥은 ‘명령30·레지스터99’다. B의 차례가 끝난 뒤 A를 중단 지점에서 이어 실행할 때 복원할 문맥은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "명령27·레지스터99", "correct": false, "explanation": "A의 저장된 명령 위치와 B의 현재 레지스터를 섞은 문맥이다."},
+        {"id": "o2", "text": "명령27·레지스터65", "correct": true, "explanation": "선점 직전 CPU의 최신 명령 위치와 레지스터 상태를 함께 저장·복원한다."},
+        {"id": "o3", "text": "명령30·레지스터65", "correct": false, "explanation": "B의 명령 위치와 A의 중간 계산값을 섞으면 A의 중단 지점이 아니다."},
+        {"id": "o4", "text": "명령30·레지스터99", "correct": false, "explanation": "지금 CPU의 값은 B의 문맥이므로 A를 이어 실행할 상태가 아니다."}
+      ],
+      "conceptIds": ["n12-c-pcb-states", "n12-c-time-sharing"], "sourceRefs": [{"fileId": "notion-w1", "pages": [34, 35, 36, 37, 38]}],
+      "difficulty": "어려움", "type": "문맥 복원·오류 추론", "supplemental": false,
+      "review": "문맥 교환은 작업별 실행 상태를 보존하고 다시 선택한 작업의 상태를 복원한다. A는 선점 때 명령27·레지스터65를 보존했다. 지금 CPU의30·99는 B가 실행한 결과이므로 A의 재개에 쓰면 안 된다. 서로 다른 프로세스의 위치와 중간값을 섞지 않고 A의 저장된 한 쌍을 복원한다.",
+      "memoryTip": "재개 위치와 그 위치가 사용할 값을 함께 되살린다.",
+      "additionalExample": "반복문의 위치만 복원하고 반복 횟수나 누적 합계를 잃으면 같은 문장부터 실행해도 계산 결과가 달라질 수 있다.",
+      "detailedExplanation": {"concept": "프로세스가 바뀌면 같은 CPU 레지스터도 다른 작업의 값을 담는다. 따라서 현재 CPU에 보이는 값이 지금 재개하려는 작업의 문맥이라고 생각하면 안 된다. A를 선점할 때 저장한 명령 위치와 레지스터는 A의 PCB를 통해 보존되고, B가 실행하는 동안 CPU의 값은 B의 진전에 따라 달라진다. 재개 대상의 저장 문맥을 한 쌍으로 복원해야 이전에 중단한 지점의 계산을 이어 갈 수 있다.", "steps": ["A를 멈출 때 저장한 문맥은27·65라는 기록을 확인한다.", "현재 CPU의30·99는 그 뒤 실행한 B의 값이라고 구별한다.", "A를 다시 선택했으므로 A의 PCB에 저장된 명령27·레지스터65를 함께 복원한다."], "pitfall": "현재 CPU에 보이는 값을 이전에 중단한 다른 프로세스의 실행 문맥으로 잘못 사용하지 않는다."}
+    },
+    {
+      "id": "final-sys-016", "finalExamId": "final-02",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["process-pcb"]},
+      "prompt": "가상 5상태 모델에서 A의 기록은 ‘준비→실행→대기→준비→실행→준비→실행→종료’다. 대기는 입출력 때문이고 마지막 실행→준비는 시간 만료 때문이다. 이 기록의 올바른 해석을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "준비에서 실행으로 들어간 디스패치는 세 번이다.", "correct": true, "explanation": "기록에 준비→실행 전이가 세 번 나타난다."},
+        {"id": "o2", "text": "입출력 완료에 해당하는 대기→준비는 한 번이다.", "correct": true, "explanation": "입출력 대기를 해소해 준비로 돌아온 전이는 한 번이다."},
+        {"id": "o3", "text": "시간 만료로 준비에 돌아올 때마다 새로운 A가 생성됐다.", "correct": false, "explanation": "실행→준비는 같은 프로세스의 상태 변화이며 새 생성이 아니다."},
+        {"id": "o4", "text": "실행 상태에 세 번 들어갔으므로 서로 다른 PCB 세 개가 반드시 필요하다.", "correct": false, "explanation": "같은 프로세스를 재개하는 횟수와 프로세스별 PCB 수는 다르다."}
+      ],
+      "conceptIds": ["n12-c-pcb-states", "n12-c-process"], "sourceRefs": [{"fileId": "notion-w1", "pages": [32, 35, 36, 37, 38, 39]}],
+      "difficulty": "어려움", "type": "상태 기록·사건 계수", "supplemental": false,
+      "review": "상태 기록에서 준비→실행은 CPU 배정인 디스패치를 뜻한다. 대기→준비는 입출력 완료로 다시 실행 가능해지는 사건이다. 동일한 A가 세 번 CPU를 받아도 프로세스가 세 번 생성되는 것은 아니다. 상태 전이 횟수와 프로세스 생성 수를 따로 세어야 한다.",
+      "memoryTip": "화살표 사건 수와 프로세스 개체 수를 따로 센다.",
+      "additionalExample": "한 학생이 세 번 발언권을 얻었다고 학생이 세 명 생기는 것은 아닌 것처럼 CPU 배정 횟수는 프로세스 수와 다르다.",
+      "detailedExplanation": {"concept": "프로세스 상태도는 하나의 작업이 생명주기 동안 어떤 조건을 기다리고 언제 실행 가능한지 나타낸다. 같은 프로세스가 준비와 실행 사이를 여러 번 오갈 수 있다. PCB는 프로세스의 관리 정보이므로 디스패치마다 무조건 새로 하나씩 만드는 개념이 아니다. 기록을 해석할 때는 상태 이름뿐 아니라 전이의 방향과 원인을 붙여 읽어야 한다.", "steps": ["기록에서 준비→실행 화살표 세 개를 찾아 디스패치 횟수를 센다.", "대기→준비 한 개를 입출력 완료 사건과 연결한다.", "시간 만료와 재디스패치를 같은 A의 상태 변화로 유지해 해석한다."], "pitfall": "실행 상태에 들어간 횟수를 새로운 프로세스나 PCB의 생성 횟수로 세지 않는다."}
+    },
+    {
+      "id": "final-sys-017", "finalExamId": "final-02",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["process-pcb", "os-role"]},
+      "prompt": "가상 5상태 모델에서 유일한 프로세스 A는 키보드 입력을 기다리는 대기 상태다. CPU는 비어 있고 아직 입력은 오지 않았다. 가장 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "CPU가 비었으므로 입력 도착과 무관하게 A의 대기가 자동으로 해소된다.", "correct": false, "explanation": "A의 대기 원인은 CPU 부족이 아니라 입력 사건의 미발생이다."},
+        {"id": "o2", "text": "CPU가 비어 있으면 프로세스는 존재할 수 없다.", "correct": false, "explanation": "프로세스는 대기 상태로 존재하면서 CPU를 사용하지 않을 수 있다."},
+        {"id": "o3", "text": "A는 입력 사건이 발생해 준비 상태가 된 다음 CPU 배정 대상이 된다.", "correct": true, "explanation": "입력 대기의 해소와 CPU 디스패치는 서로 다른 조건이다."},
+        {"id": "o4", "text": "A를 계속 준비 상태라고 표시해도 대기 상태와 의미가 같다.", "correct": false, "explanation": "준비는 CPU만 기다리고, 대기는 별도의 사건을 기다리는 상태다."}
+      ],
+      "conceptIds": ["n12-c-pcb-states", "n12-c-os-roles"], "sourceRefs": [{"fileId": "notion-w1", "pages": [13, 14, 35, 36, 37, 38, 39]}],
+      "difficulty": "보통", "type": "준비·대기 구분", "supplemental": false,
+      "review": "준비와 대기는 모두 CPU에서 실행하지 않는 상태지만 기다리는 대상이 다르다. 준비 상태의 작업은 CPU를 받으면 실행할 수 있다. 이 사례의 A는 입력이 아직 없어서 대기하므로 CPU가 비었다는 사실만으로 다음 계산을 진행할 수는 없다.",
+      "memoryTip": "CPU만 기다리면 준비, 다른 사건을 기다리면 대기다.",
+      "additionalExample": "파일 수신이 끝나지 않은 작업도 CPU가 남는다는 이유만으로 아직 도착하지 않은 데이터를 계산할 수는 없다.",
+      "detailedExplanation": {"concept": "프로세스의 상태를 정할 때는 CPU를 현재 쓰는지와 실행 조건이 충족됐는지를 함께 확인한다. 준비 상태는 실행 조건이 갖추어졌지만 CPU를 받지 못한 상태다. 대기 상태는 입력이나 장치 완료 같은 사건이 아직 발생하지 않은 상태다. 따라서 CPU 유휴 상태와 프로세스 대기는 동시에 가능하다. 자원을 비우는 일만으로 아직 없는 입력이 생성되지는 않는다.", "steps": ["A가 기다리는 대상이 키보드 입력이라는 문제의 조건을 확인한다.", "CPU의 여유와 입력 사건의 발생을 별개의 조건으로 나눈다.", "입력 도착 후 준비가 되고 CPU를 받으면 실행하는 순서를 적용한다."], "pitfall": "CPU에서 실행하지 않는 모든 작업을 준비 상태라고 묶지 않는다."}
+    },
+    {
+      "id": "final-sys-018", "finalExamId": "final-02",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["process-pcb", "kernel-interrupt-driver"]},
+      "prompt": "가상 단일 코어·5상태에서 A는 [0,1)ms 실행 후 입출력 대기로 갔고 읽기는 4ms에 끝난다. B는 [1,3)ms 실행해 시간 만료 후 준비로 갔다가 다른 준비 작업이 없어 [3,5)ms 다시 실행한다. 입출력 완료로 B를 선점하지 않는다. 옳은 해석을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "3ms에 B는 실행→준비→실행을 거치며 같은 프로세스로 재개한다.", "correct": true, "explanation": "시간 만료 뒤 다시 선택될 수 있으며 새 프로세스 생성은 아니다."},
+        {"id": "o2", "text": "A는 [3,4)ms에는 대기이고 [4,5)ms에는 준비 상태다.", "correct": true, "explanation": "입출력은 4ms에 끝나지만 B를 즉시 선점하지는 않는다."},
+        {"id": "o3", "text": "3ms에는 CPU 차례가 끝났으므로 B는 입출력 대기로 이동한다.", "correct": false, "explanation": "B의 전이는 시간 만료에 따른 준비 이동이며 입출력 대기 요청이 아니다."},
+        {"id": "o4", "text": "A는 4ms에 읽기가 끝났으므로 [4,5)ms CPU에서 실행한다.", "correct": false, "explanation": "비선점 조건에 따라 그 구간의 CPU는 여전히 B가 사용한다."}
+      ],
+      "conceptIds": ["n12-c-pcb-states", "n12-c-time-sharing", "n12-c-kernel"], "sourceRefs": [{"fileId": "notion-w1", "pages": [19, 34, 35, 36, 37, 38, 39]}],
+      "difficulty": "어려움", "type": "선점 원인·상태 추론", "supplemental": false,
+      "review": "B의 3ms 전이는 시간 만료에 따른 실행→준비이고, 다른 준비 작업이 없어 곧 다시 디스패치된다. A는 4ms까지 입출력 대기이며 그 뒤는 CPU만 기다리는 준비다. 읽기가 끝나도 현재 B를 선점하지 않는다는 조건 때문에 [4,5)ms에는 A가 실행하지 않는다.",
+      "memoryTip": "시간 만료는 차례 종료이지 작업 종료가 아니다.",
+      "additionalExample": "발언 시간이 끝나 대기열 뒤로 이동하는 것은 토론 참가 자체가 종료되는 것과 다른 사건이다.",
+      "detailedExplanation": {"concept": "같은 CPU 중단이라도 시간 만료와 입출력 요청은 다른 상태 전이를 만든다. 시간 만료된 B는 실행 가능한 준비 상태가 되고, 입출력을 요청한 A는 완료 사건까지 대기한다. 준비 작업이 하나라면 그 작업이 바로 다시 선택될 수도 있다. 또한 입출력 완료와 CPU 배정은 별개이므로 비선점 정책에서는 A가 준비가 된 뒤에도 B의 차례가 끝날 때까지 기다린다. 각 시각의 사건을 차례대로 반영해야 한다.", "steps": ["3ms에 B의 시간 만료를 준비 전이로 읽고 이어진 재디스패치를 확인한다.", "A의 읽기는 4ms까지 미완료이므로 [3,4)ms 상태를 대기로 유지한다.", "4ms부터 A는 준비지만 B를 선점하지 않아 [4,5)ms 실행은 B라고 판단한다."], "pitfall": "시간 만료를 입출력 대기로 바꾸거나 입출력 완료를 즉시 CPU 실행으로 바꾸지 않는다."}
+    },
+    {
+      "id": "final-sys-019", "finalExamId": "final-02",
+      "finalReview": {"topicId": "foundations", "evidence": "lecture", "focusIds": ["von-neumann", "hardware-software"]},
+      "prompt": "가상 저장 프로그램 모델에서 명령은 M[10]=LOAD 40, M[11]=STORE 41, M[12]=LOAD 41이고 데이터는 M[40]=7·M[41]=5다. LOAD a는 M[a]를 R로, STORE a는 R을 M[a]로 복사한다. 명령은 PC=10부터 순서대로 실행하고 PC는 매번1 증가한다. 세 명령 뒤 옳은 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "마지막 LOAD는 STORE로 바뀐 M[41]을 읽으므로 최종 R=7이다.", "correct": true, "explanation": "두 번째 명령에서 M[41]을 7로 바꾼 뒤 그 값을 다시 읽는다."},
+        {"id": "o2", "text": "최종 M[41]=7, 다음 명령 주소 PC=13이며 명령 주소10~12의 내용은 바뀌지 않았다.", "correct": true, "explanation": "STORE의 대상은 데이터 주소41이며 세 명령 실행 뒤 PC는13이다."},
+        {"id": "o3", "text": "마지막 LOAD는 처음의 데이터 표를 읽으므로 최종 R=5다.", "correct": false, "explanation": "명령은 순서대로 실행되므로 앞 STORE가 바꾼 현재 값을 읽어야 한다."},
+        {"id": "o4", "text": "STORE 41은 숫자41을 R에 넣는 명령이므로 최종 R=41이다.", "correct": false, "explanation": "STORE는 R을 지정한 주소에 쓰며 주소 숫자 자체를 R에 넣지 않는다."}
+      ],
+      "conceptIds": ["n12-c-software", "n12-c-memory-management"], "sourceRefs": [{"fileId": "notion-w1", "pages": [6, 7, 41, 42]}],
+      "difficulty": "어려움", "type": "명령·데이터·하드웨어 구분", "supplemental": false,
+      "review": "CPU는 명령을 순서대로 실행하면서 현재 메모리 값을 읽고 쓴다. LOAD 40으로 R=7, STORE 41로 M[41]=7이 된다. 마지막 LOAD 41은 처음의 5가 아니라 바뀐 값7을 읽는다. 데이터 주소41을 바꿨다고 명령이 놓인 주소10~12의 내용까지 바뀐 것은 아니다.",
+      "memoryTip": "앞 명령의 쓰기를 반영한 현재 메모리로 다음 명령을 계산한다.",
+      "additionalExample": "한 코드가 배열 원소를 2에서9로 바꾼 뒤 같은 원소를 다시 읽는다면 원래 입력 표의2가 아니라 현재 값9를 사용한다.",
+      "detailedExplanation": {"concept": "저장 프로그램 컴퓨터는 메모리의 명령을 읽어 실행하고 명령에 따라 데이터 메모리도 갱신한다. 값 추적에서는 처음 제시한 메모리 표를 고정된 것으로 보지 말고 STORE 같은 쓰기 결과를 반영해야 한다. 명령이 저장된 주소와 데이터 주소를 구별하면 이번 쓰기가 프로그램 자체를 바꾼 것인지 데이터만 바꾼 것인지도 판단할 수 있다. 문제에 정의한 연산만 따라가면 실제 기계어 지식은 필요하지 않다.", "steps": ["주소10의 LOAD 40을 실행해 현재 데이터7을 레지스터 R에 넣는다.", "주소11의 STORE 41로 R의7을 데이터 주소41에 기록한다.", "주소12에서 갱신된 M[41]=7을 읽고 PC가13인지 확인한다."], "pitfall": "메모리 쓰기가 앞에서 발생했는데도 마지막 읽기에서 최초의 데이터 값을 그대로 사용하지 않는다."}
+    },
+    {
+      "id": "final-sys-020", "finalExamId": "final-02",
+      "finalReview": {"topicId": "memory", "evidence": "lecture", "focusIds": ["virtual-memory", "os-role"]},
+      "prompt": "가상 시스템에서 프로세스가 보는 주소 공간은 8GB지만 현재 RAM에 올라온 내용은 1GB다. 나머지가 모두 현재 필요한 데이터라는 조건은 없다. 가장 정확한 판단은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "가상8GB에서 상주1GB를 뺀7GB가 현재 사용 중인 스왑의 정확한 양이다.", "correct": false, "explanation": "비상주 영역의 구성은 주어지지 않아 차이 전체가 스왑에 있다고 단정할 수 없다."},
+        {"id": "o2", "text": "이 프로세스의 상주량이1GB이므로 컴퓨터에 설치한 물리 RAM도1GB다.", "correct": false, "explanation": "프로세스 하나의 상주량은 장비 전체의 물리 RAM 용량과 다르다."},
+        {"id": "o3", "text": "현재 상주량이1GB이므로 향후 전체 실행의 최대 RAM 요구도1GB다.", "correct": false, "explanation": "실행 단계와 접근 범위가 바뀌면 상주량이나 요구량이 늘 수 있다."},
+        {"id": "o4", "text": "주소 공간8GB·현재 상주1GB는 알지만 사용 중인 스왑의 정확한 양은 이 정보만으로 모른다.", "correct": true, "explanation": "가상 공간·RAM 상주량·스왑 사용량은 별개이며 비상주 영역의 구성이 필요하다."}
+      ],
+      "conceptIds": ["n12-c-virtual-memory", "n12-c-memory-management"], "sourceRefs": [{"fileId": "notion-w1", "pages": [41, 42, 47, 48]}],
+      "difficulty": "어려움", "type": "주소 공간·상주량 구분", "supplemental": false,
+      "review": "프로그램이 사용할 수 있는 가상 주소 공간과 현재 RAM에 올라와 있는 데이터의 양은 다른 수치다. 큰 주소 공간이 곧 같은 양의 RAM 점유를 의미하지 않는다. 반대로 현재 상주량이 작다는 이유로 앞으로도 RAM 사용량이 늘지 않는다고 보장할 수 없다.",
+      "memoryTip": "주소의 범위와 지금 RAM에 있는 양을 따로 본다.",
+      "additionalExample": "큰 작업 공간을 예약한 프로그램이라도 일부만 사용하다가 뒤의 분석 단계에서 많은 영역을 실제로 사용할 수 있다.",
+      "detailedExplanation": {"concept": "가상메모리는 프로세스가 보는 주소와 실제 RAM 배치를 분리해 관리할 수 있게 한다. 따라서 주소 공간의 크기, 현재 상주량, 최대 메모리 사용량은 서로 다른 관측값이다. 주소 공간이 넓어도 모든 부분을 같은 순간에 접근하는 것은 아닐 수 있다. 성능과 실행 가능성을 판단하려면 실제 접근 패턴과 실행 단계별 사용량을 측정해야 하며 한 순간의 숫자를 전체 실행으로 확대하지 않아야 한다.", "steps": ["8GB는 주소 공간이고 1GB는 현재 RAM 상주량이라는 대상을 구별한다.", "두 수치의 차이를 현재 필요한 데이터나 전송량으로 곧바로 해석하지 않는다.", "실제 접근 패턴과 전체 실행 중 최대 사용량을 추가 관측 대상으로 잡는다."], "pitfall": "가상 주소 공간·현재 상주량·전체 실행의 최대 사용량을 모두 같은 메모리 크기로 외우지 않는다."}
+    },
+    {
+      "id": "final-sys-021", "finalExamId": "final-02",
+      "finalReview": {"topicId": "memory", "evidence": "lecture", "focusIds": ["virtual-memory"]},
+      "prompt": "가상 실험 A·B는 같은 정답을 내며 각각 100초 실행했다. 그림은 실제 RAM과 스왑 간 전송량을 20초 구간별로 잰 값이다. A·B의 다른 CPU·디스크 사용 자료는 없다. 올바른 해석을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "B는 뒤 구간으로 갈수록 메모리와 저장장치 사이의 왕복 부담이 커졌다는 조사 근거가 있다.", "correct": true, "explanation": "B의 구간별 스왑 전송량이 계속 증가한다."},
+        {"id": "o2", "text": "전송량의 증가는 물리 RAM 칩이 같은 양만큼 늘어났다는 뜻이다.", "correct": false, "explanation": "전송 바이트는 용량 증설량이 아니라 실행 중 이동한 자료의 양이다."},
+        {"id": "o3", "text": "이 그림만으로 B가 A보다 모든 종류의 계산에서 빠르다고 말할 수 없다.", "correct": true, "explanation": "스왑 전송량은 전체 작업의 우열이나 다른 계산 성능을 직접 나타내지 않는다."},
+        {"id": "o4", "text": "A의 전송량이 0이므로 A는 가상 주소 관리를 전혀 사용하지 않는다.", "correct": false, "explanation": "스왑 전송이 없어도 가상 주소의 매핑과 보호를 사용할 수 있다."}
+      ],
+      "conceptIds": ["n12-c-virtual-memory", "n12-c-memory-operations"], "sourceRefs": [{"fileId": "notion-w1", "pages": [44, 45, 46, 47, 48]}],
+      "difficulty": "어려움", "type": "스왑 지표·추이 해석", "supplemental": false,
+      "visual": {"kind": "line", "title": "가상 실행의 구간별 스왑 전송량", "xLabel": "20초 관측 구간", "yLabel": "구간 전송량(MB)", "labels": ["[0,20)", "[20,40)", "[40,60)", "[60,80)", "[80,100)"], "series": [{"name": "A", "values": [0, 0, 0, 0, 0]}, {"name": "B", "values": [10, 30, 80, 150, 250]}], "note": "누적량이 아닌 각 구간의 이동량. 가상 학습값이며 다른 자원 사용은 제시하지 않았다."},
+      "review": "스왑 전송량은 RAM과 저장장치 사이에 이동한 데이터의 양이지 메모리 용량이 아니다. B에서는 뒤 구간의 이동량이 커져 추가 조사의 근거가 된다. 다만 스왑이 없다는 사실이 가상메모리의 부재를 뜻하지 않고, 이 그림 하나가 전체 성능의 원인을 확정하지도 않는다.",
+      "memoryTip": "스왑 이동량은 속도·용량·가상 주소 사용 여부와 다르다.",
+      "additionalExample": "하루 파일을 100GB 읽었다고 저장장치를 100GB 증설한 것은 아닌 것처럼 전송량과 보유 용량을 나누어 본다.",
+      "detailedExplanation": {"concept": "메모리 지표는 무엇을 측정했는지까지 붙여 읽어야 한다. 스왑 전송량은 저장장치와 RAM 사이에서 오간 데이터량으로, 설치한 RAM 용량이나 프로세스 주소 공간의 크기가 아니다. 이동이 늘면 왕복 비용을 조사할 이유가 있지만 전체 성능 원인을 단독으로 확정하지는 못한다. 또한 가상메모리는 주소 매핑과 보호를 포함하므로 스왑 전송량이 영이어도 존재할 수 있다.", "steps": ["세로축이 메모리 용량이 아니라 구간별 전송량임을 먼저 확인한다.", "B의 구간 이동량 증가를 읽어 왕복 비용의 추가 조사와 연결한다.", "제시되지 않은 다른 자원과 가상 주소 사용 여부는 단정하지 않는다."], "pitfall": "스왑 사용량이나 전송량이 작다는 사실을 가상메모리가 없다는 뜻으로 바꾸지 않는다."}
+    },
+    {
+      "id": "final-sys-022", "finalExamId": "final-02",
+      "finalReview": {"topicId": "filesystem", "evidence": "lecture", "focusIds": ["filesystem-format"]},
+      "prompt": "가상 컴퓨터에서 두 저장장치의 파일시스템을 각각 /raw와 /result라는 경로 아래 연결해 사용한다. 한 학생은 ‘경로가 하나의 트리로 보이니 물리 저장장치도 반드시 하나’라고 주장한다. 가장 적절한 설명은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "경로 트리의 논리적 구성과 실제 저장장치의 개수는 구별해야 한다.", "correct": true, "explanation": "하나의 경로 체계에서 여러 저장장치의 파일에 접근할 수 있다."},
+        {"id": "o2", "text": "폴더 이름이 다르면 CPU도 폴더별로 반드시 하나씩 있어야 한다.", "correct": false, "explanation": "디렉터리 이름과 CPU 개수 사이에 그런 대응 규칙은 없다."},
+        {"id": "o3", "text": "디렉터리 경로는 파일의 모든 물리 블록 번호를 그대로 적은 것이다.", "correct": false, "explanation": "경로는 논리적으로 파일을 식별하며 물리 블록 위치는 관리 정보로 연결한다."},
+        {"id": "o4", "text": "서로 다른 저장장치의 파일은 같은 운영체제에서 관리할 수 없다.", "correct": false, "explanation": "운영체제는 여러 저장장치와 파일시스템을 함께 관리할 수 있다."}
+      ],
+      "conceptIds": ["n12-c-directory", "n12-c-file", "n12-c-file-table"], "sourceRefs": [{"fileId": "notion-w1", "pages": [50, 51, 54, 56]}],
+      "difficulty": "보통", "type": "논리 경로·물리 저장 구분", "supplemental": false,
+      "review": "파일시스템은 사용자가 경로와 이름으로 파일을 다루도록 하고 실제 위치는 관리 정보로 연결한다. 경로가 하나의 트리처럼 보인다는 사실은 저장장치가 하나라는 증거가 아니다. 논리적인 이름 공간과 물리적인 저장 구성을 나누어 생각해야 한다.",
+      "memoryTip": "경로는 논리적인 주소이고 물리 블록 배치는 별도로 관리한다.",
+      "additionalExample": "같은 파일 탐색기에서 내부 SSD와 외장 저장장치의 폴더를 함께 보더라도 실제 매체는 서로 다를 수 있다.",
+      "detailedExplanation": {"concept": "디렉터리는 파일과 하위 디렉터리를 논리적으로 조직하는 이름 체계다. 파일시스템은 이 이름을 실제 데이터의 위치와 연결해 주므로 사용자가 물리 블록 번호를 직접 기억할 필요가 없다. 운영체제가 여러 저장장치를 하나의 경로 구조에서 보여 줄 수도 있으므로 화면상의 트리와 하드웨어의 개수를 일대일로 대응시키면 안 된다. 추상화된 인터페이스와 실제 구현을 구분하는 문제다.", "steps": ["하나의 트리는 사용자가 보는 경로의 조직 방식임을 확인한다.", "문제에서 실제로 두 저장장치가 있다는 조건을 유지한다.", "논리 경로와 물리 저장 위치의 연결을 파일시스템의 역할로 설명한다."], "pitfall": "탐색기에 보이는 폴더 수나 경로 트리를 저장장치 수와 그대로 대응시키지 않는다."}
+    },
+    {
+      "id": "final-sys-023", "finalExamId": "final-02",
+      "finalReview": {"topicId": "filesystem", "evidence": "lecture", "focusIds": ["filesystem-format"]},
+      "prompt": "가상 요구 A는 ‘기존 파일을 유지하면서 HDD의 흩어진 배치를 정리’, 요구 B는 ‘새 파일시스템으로 사용할 관리 구조를 초기화’다. ‘포맷은 재배치 인테리어 같은 것’이라는 비유를 시험용 정의로 다듬을 때 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "A는 조각 모음의 목적과 연결되고 B는 포맷의 목적과 연결된다.", "correct": true, "explanation": "배치 정리와 파일시스템 관리 구조 초기화는 서로 다른 작업이다."},
+        {"id": "o2", "text": "포맷을 기존 파일을 보존하는 배치 정리와 같은 뜻으로 외우면 안 된다.", "correct": true, "explanation": "포맷은 기존 파일을 그대로 유지하는 조각 모음의 동의어가 아니다."},
+        {"id": "o3", "text": "빠른 포맷은 어떤 저장장치에서도 모든 과거 바이트의 복구 불가능을 보증한다.", "correct": false, "explanation": "관리 구조 초기화만으로 모든 과거 내용의 안전한 삭제를 보증하지 않는다."},
+        {"id": "o4", "text": "파일시스템 종류가 여러 개라도 저장 위치와 할당을 관리한다는 공통 목적이 있다.", "correct": true, "explanation": "구현과 제한은 달라도 파일과 저장공간의 관리라는 공통 역할이 있다."}
+      ],
+      "conceptIds": ["n12-c-formatting", "n12-c-fragmentation", "n12-c-file-table"], "sourceRefs": [{"fileId": "notion-w1", "pages": [55, 56, 58, 59, 60]}],
+      "difficulty": "어려움", "type": "비유의 한계·작업 구별", "supplemental": false,
+      "review": "포맷을 이해할 때 인테리어 비유는 관리 구조를 새로 준비한다는 의미까지만 사용한다. 기존 파일을 유지하면서 흩어진 물리 배치를 정리하는 조각 모음과 같지 않다. 빠른 포맷이 모든 과거 내용을 안전하게 지웠다는 보증도 아니므로 목적을 먼저 정해야 한다.",
+      "memoryTip": "포맷은 구조 초기화, 조각 모음은 기존 배치 정리다.",
+      "additionalExample": "원본 보존이 필요한 분석 디스크에서 읽기가 느리다고 바로 포맷하면 복구 목적과 반대되는 조치가 될 수 있다.",
+      "detailedExplanation": {"concept": "파일시스템은 파일 이름과 위치, 할당 상태를 관리하는 구조를 가진다. 포맷은 저장공간을 파일시스템으로 사용하도록 그 구조를 준비하거나 초기화하는 작업이다. 조각 모음은 기존 내용과 파일을 유지하면서 분산된 배치를 정리하는 목적이므로 정의가 다르다. 이해를 돕는 비유를 사용할 때도 원본 보존과 안전한 삭제 같은 실제 효과까지 자동으로 따라온다고 가정하면 안 된다.", "steps": ["요구 A의 핵심 조건이 기존 파일 보존과 배치 정리임을 확인한다.", "요구 B의 핵심 조건을 파일시스템 관리 구조 초기화로 정리한다.", "비유가 포맷·조각 모음·안전 삭제의 차이를 가리지 않도록 분리한다."], "pitfall": "비유에서 느껴지는 일상적 이미지보다 실제 작업의 목적과 기존 데이터 보존 여부를 우선한다."}
+    },
+    {
+      "id": "final-sys-024", "finalExamId": "final-02",
+      "finalReview": {"topicId": "filesystem", "evidence": "supplement", "focusIds": ["filesystem-format"]},
+      "prompt": "보충·가상 파일시스템은 4KiB 블록을 온전히 할당하며 사전할당 없이 필요한 최소 블록만 준다. R은 세 블록을 사용하고 앞 두 블록은 가득 찼으며 마지막에도 1바이트 이상의 내용이 있다. 길이 메타데이터는 아직 확인하지 않았다. 그래프와 조건에서 옳은 판단은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "할당량과 내용 크기는 모두 반드시 12KiB다.", "correct": false, "explanation": "할당량은 12KiB지만 마지막 블록의 일부는 사용하지 않을 수 있다."},
+        {"id": "o2", "text": "내용 크기는 0 초과 4KiB 이하이고 할당량은 8KiB다.", "correct": false, "explanation": "앞 두 블록에 이미 8KiB의 내용이 있으며 세 블록을 할당했다."},
+        {"id": "o3", "text": "할당량은 12KiB이고, 내용 크기는 8KiB 초과 12KiB 이하다.", "correct": true, "explanation": "앞 두 블록 8KiB에 마지막 블록의 양수인 내용이 추가된다."},
+        {"id": "o4", "text": "세 블록이라는 정보만으로 마지막 블록의 정확한 사용량도 계산된다.", "correct": false, "explanation": "정확한 내용 길이를 알기 위해서는 파일 길이 정보가 더 필요하다."}
+      ],
+      "conceptIds": ["n12-c-block", "n12-c-file-table"], "sourceRefs": [{"fileId": "notion-w1", "pages": [56, 57, 60]}],
+      "difficulty": "어려움", "type": "보충·할당량과 내용량의 경계", "supplemental": true,
+      "visual": {"kind": "bar", "title": "R에 배정된 세 블록의 용량", "xLabel": "논리 블록", "yLabel": "할당 용량(KiB)", "labels": ["블록 1", "블록 2", "블록 3"], "series": [{"name": "배정 용량", "values": [4, 4, 4]}], "note": "막대는 내용 사용량이 아니라 할당 용량이다. 앞 두 블록은 가득 찼으며 마지막 블록에는 양수의 내용이 있다."},
+      "review": "할당량은 파일이 사용할 수 있도록 배정받은 저장공간이고 내용 크기는 실제 파일 바이트의 양이다. 4KiB 블록 세 개의 할당량은 12KiB다. 앞 두 블록이 가득 차고 마지막에도 내용이 있으므로 실제 크기는 8KiB보다 크지만, 마지막 블록이 가득 찼는지는 알 수 없다.",
+      "memoryTip": "세 블록의 용량은 12KiB, 실제 길이는 마지막 사용량까지 본다.",
+      "additionalExample": "총 10KiB 파일에 4KiB 블록 세 개를 주면 12KiB를 할당하고 마지막 2KiB는 내용으로 쓰지 않는다.",
+      "detailedExplanation": {"concept": "블록 단위로 할당하는 파일시스템에서는 실제 파일 길이를 블록 크기로 올림해 공간을 배정할 수 있다. 이때 마지막 블록의 남는 부분 때문에 할당량과 내용량이 달라진다. 세 블록을 이용한다는 정보는 총 배정 용량을 알려 주지만 마지막 블록의 정확한 사용량까지 알려 주지는 않는다. 이 보충 문제는 블록 수에서 구할 수 있는 범위와 추가 메타데이터가 필요한 값을 구별한다.", "steps": ["블록 세 개에 각각 4KiB를 배정했으므로 할당량 12KiB를 계산한다.", "앞의 가득 찬 두 블록에 있는 내용 8KiB를 하한의 기준으로 잡는다.", "마지막 내용은 양수이고 최대 4KiB이므로 내용 범위를 8 초과 12 이하로 정한다."], "pitfall": "할당 용량을 그린 막대를 실제 내용 사용량의 막대로 바꾸어 읽지 않는다."}
+    },
+    {
+      "id": "final-sys-025", "finalExamId": "final-03",
+      "finalReview": {"topicId": "foundations", "evidence": "lecture", "focusIds": ["hardware-software", "kernel-interrupt-driver", "os-role"]},
+      "prompt": "영상 분석 앱의 코드는 그대로인데 새 프린터용 드라이버를 설치하자 결과 인쇄가 가능해졌다. 앱의 계산 결과도 설치 전후 같다. 이 관찰에서 가장 직접적으로 뒷받침되는 설명은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "드라이버가 영상 분석 모델의 정답률을 높였다.", "correct": false, "explanation": "문제에서는 계산 결과가 같고 개선된 관찰은 인쇄 가능 여부다."},
+        {"id": "o2", "text": "운영체제와 장치 사이의 제어 지원이 인쇄에 영향을 주었다.", "correct": true, "explanation": "장치별 제어를 돕는 드라이버 변경 뒤 인쇄가 가능해졌다."},
+        {"id": "o3", "text": "응용 프로그램은 파일이나 장치 기능과 전혀 연결될 수 없다.", "correct": false, "explanation": "응용은 운영체제 서비스를 이용해 결과 저장이나 인쇄를 요청할 수 있다."},
+        {"id": "o4", "text": "소프트웨어만 바꿨으므로 실제 장치 동작은 달라질 수 없다.", "correct": false, "explanation": "드라이버 같은 소프트웨어는 장치의 사용 가능성과 동작에 영향을 준다."}
+      ],
+      "conceptIds": ["n12-c-driver", "n12-c-software", "n12-c-os-roles"], "sourceRefs": [{"fileId": "notion-w1", "pages": [6, 7, 13, 14, 21, 22]}],
+      "difficulty": "보통", "type": "관찰 근거·계층 역할", "supplemental": false,
+      "review": "드라이버는 응용의 분석 내용을 바꾸기보다 운영체제가 특정 장치와 연결해 제어하도록 돕는 소프트웨어다. 이 관찰에서 달라진 것은 계산 결과가 아니라 인쇄 가능 여부다. 장치 제어 경로의 개선을 모델의 분석 성능 향상으로 확대해서 해석하면 안 된다.",
+      "memoryTip": "좋아진 지표가 인쇄인지 분석값인지 먼저 확인한다.",
+      "additionalExample": "카메라 드라이버를 설치해 영상 입력이 가능해져도 그 사실만으로 영상 분류 모델의 예측 정확도가 검증되는 것은 아니다.",
+      "detailedExplanation": {"concept": "응용 프로그램과 운영체제, 드라이버는 연결되어 동작하지만 책임은 다르다. 응용의 분석 코드는 계산 방법을 구현하고 운영체제는 공통 자원 요청을 관리하며 드라이버는 장치별 제어 차이를 연결한다. 변경의 효과를 판단할 때는 실제로 관찰한 결과를 그 책임에 맞추어 해석해야 한다. 장치 사용 가능성이 나아졌다는 증거를 분석 정확도나 데이터 품질의 증거로 바꾸면 안 된다.", "steps": ["변경된 요소는 드라이버이며 앱의 코드와 계산 결과는 같음을 확인한다.", "새로 성공한 동작을 결과의 인쇄라는 장치 작업으로 특정한다.", "관찰을 장치 제어 지원에 연결하고 모델 정확도 같은 미측정 항목은 제외한다."], "pitfall": "실행 경로의 한 기능이 정상화됐다는 사실을 분석 내용 전체의 정확성으로 일반화하지 않는다."}
+    },
+    {
+      "id": "final-sys-026", "finalExamId": "final-03",
+      "finalReview": {"topicId": "foundations", "evidence": "lecture", "focusIds": ["von-neumann", "hardware-software"]},
+      "prompt": "가상 저장 프로그램 모델은 명령 인출과 데이터 읽기·쓰기에 하나의 메모리 경로를 써서 겹칠 수 없다. 명령 인출은 건당1ms, 데이터 읽기·쓰기는 건당2ms이고 CPU 계산 시간은 무시한다. 세 명령 A·B·C는 각각 데이터 읽기1회·레지스터 계산만·데이터 쓰기1회를 수행한다. 옳은 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "명령 인출3ms와 데이터 접근4ms를 합쳐 메모리 경로 사용 시간은7ms다.", "correct": true, "explanation": "세 번의 인출은3×1, 읽기·쓰기 두 번은2×2ms이며 겹치지 않는다."},
+        {"id": "o2", "text": "B는 추가 데이터 접근이 없어도 B 자체의 명령 인출1회는 필요하다.", "correct": true, "explanation": "레지스터 계산만 한다는 조건이 명령을 메모리에서 읽지 않는다는 뜻은 아니다."},
+        {"id": "o3", "text": "B의 레지스터 계산을 데이터 메모리 읽기1회로 더해 경로 사용 시간은9ms다.", "correct": false, "explanation": "문제에서 B에는 추가 데이터 메모리 접근이 없다고 정의했다."},
+        {"id": "o4", "text": "인출3ms와 데이터 접근4ms를 겹쳐 경로 사용 시간은4ms다.", "correct": false, "explanation": "이 모델은 하나의 경로에서 인출과 데이터 접근이 겹칠 수 없다고 했다."}
+      ],
+      "conceptIds": ["n12-c-memory-management", "n12-c-process", "n12-c-software"], "sourceRefs": [{"fileId": "notion-w1", "pages": [6, 7, 15, 41, 42]}],
+      "difficulty": "어려움", "type": "저장 프로그램·실행 흐름", "supplemental": false,
+      "review": "저장 프로그램 구조에서 CPU는 명령도 메모리에서 가져온다. 세 명령의 인출에3ms, A의 읽기와 C의 쓰기에4ms가 필요하다. B는 데이터 메모리 접근은 없지만 명령 인출은 있다. 하나의 경로에서 겹치지 않는다는 가정이 있으므로 총시간은 최대값4ms가 아니라 합계7ms다.",
+      "memoryTip": "명령 인출과 데이터 접근을 따로 세고, 공유 경로의 겹침 조건을 본다.",
+      "additionalExample": "실제 장비의 캐시나 병렬화는 별도로 측정해야 하며, 이 학습용7ms 계산을 모든 CPU의 고정 성능으로 일반화하지 않는다.",
+      "detailedExplanation": {"concept": "폰 노이만식 저장 프로그램 모델에서는 명령도 메모리에서 읽어 실행한다. 따라서 데이터 읽기와 쓰기만 세면 CPU와 메모리 사이의 작업을 빠뜨릴 수 있다. 공유 경로를 직렬로 사용하는 이 문제의 가정에서는 명령 인출 시간과 데이터 접근 시간을 합산한다. 실제 컴퓨터의 캐시나 병렬 실행까지 그대로 설명하는 성능 수치가 아니라, 정의된 자원 공유 조건을 적용하는 학습용 모델이라는 한계도 지켜야 한다.", "steps": ["A·B·C 각 명령의 인출을 한 번씩 세어3×1=3ms를 구한다.", "A의 데이터 읽기와 C의 쓰기만 세어2×2=4ms를 구한다.", "하나의 경로에서 겹치지 않는 조건으로 두 값을 합쳐7ms를 계산한다."], "pitfall": "레지스터 계산만 하는 B의 명령 인출을 빼거나 직렬 공유 경로의 접근 시간을 병렬로 겹치지 않는다."}
+    },
+    {
+      "id": "final-sys-027", "finalExamId": "final-03",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["kernel-interrupt-driver", "os-role"]},
+      "prompt": "가상 5상태·단일 코어에서 A는1ms에 파일 삭제 시스템 호출의 권한 거부를 돌려받아 계산을 계속했다. A는 종료·입출력 대기 요청을 하지 않았다. 2ms에 타이머로 선점돼 준비열에 들어가고 B가 실행했다. 시각별 상태와 역할이 옳은 설명을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "1ms의 거부 응답 후 A는 실행을 계속할 수 있으며, 거부는 파일 보호 기능과 연결된다.", "correct": true, "explanation": "서비스 요청의 거부가 프로세스 종료나 입출력 대기를 뜻하는 것은 아니다."},
+        {"id": "o2", "text": "2ms의 선점 후 A는 준비, B는 실행이며 CPU 배정 사건은 파일 권한 검사와 구별된다.", "correct": true, "explanation": "시간 만료로 CPU를 바꾼 사건과 앞의 삭제 권한 판단은 다른 역할이다."},
+        {"id": "o3", "text": "1ms에 삭제가 거부됐으므로 [1,2)ms의 A는 장치 완료를 기다리는 대기다.", "correct": false, "explanation": "거부를 돌려받은 뒤 계산을 계속했고 입출력 대기 요청도 없다고 했다."},
+        {"id": "o4", "text": "2ms에 B를 실행하려면 A의 PCB를 회수한 뒤 다음 차례에 새로 만들어야 한다.", "correct": false, "explanation": "A는 종료하지 않고 준비로 돌아갔으므로 같은 작업의 관리 정보를 유지한다."}
+      ],
+      "conceptIds": ["n12-c-system-call", "n12-c-kernel", "n12-c-os-roles"], "sourceRefs": [{"fileId": "notion-w1", "pages": [13, 14, 19, 20]}],
+      "difficulty": "어려움", "type": "서비스 요청·보호·스케줄링", "supplemental": false,
+      "review": "1ms의 삭제 거부는 파일 보호의 결과이며 A의 종료나 입출력 대기를 의미하지 않는다. 응답 뒤 계산을 계속했으므로 [1,2)ms에는 A가 실행한다. 2ms에 시간 만료로 A가 준비로 가고 B가 실행한다. 이때 A는 살아 있으므로 재개를 위한 PCB를 유지한다.",
+      "memoryTip": "요청 처리 성공과 요청한 행동의 허용은 다르다.",
+      "additionalExample": "읽기 전용 자료의 수정을 거부하면서도 같은 컴퓨터가 다른 사용자의 조회를 계속 처리하는 것은 가능한 정상 동작이다.",
+      "detailedExplanation": {"concept": "시스템 호출은 운영체제 서비스를 요청하는 통로이며 권한에 따라 거부될 수 있다. 거부 응답을 받은 프로세스는 오류를 처리하고 계속 계산할 수도 있으므로 요청 결과와 프로세스 상태는 같은 개념이 아니다. 뒤에 발생한 시간 만료는 CPU 배정을 바꾸는 사건이고 종료와는 다르다. 파일 보호, 스케줄링, 프로세스 생명주기를 사건 순서에 따라 나누어 해석해야 한다.", "steps": ["1ms의 권한 거부 뒤 A가 계산을 계속한다는 조건으로 실행 상태를 유지한다.", "2ms의 타이머 선점에 따라 A를 준비로 옮기고 B를 실행한다.", "A의 종료는 없으므로 PCB를 유지하고 다음 차례에 같은 작업을 재개한다고 판단한다."], "pitfall": "시스템 호출의 실패를 프로세스 종료나 입출력 대기 전이로 자동 연결하지 않는다."}
+    },
+    {
+      "id": "final-sys-028", "finalExamId": "final-03",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["process-pcb", "os-role"]},
+      "prompt": "가상 2코어·5상태에서 A·B는 각각 코어1·2에서 실행, C는 준비였다. 1ms에 A가 입출력 대기로 가자 C를 코어1에 올렸다. 2ms에 A의 입출력이 끝났지만 실행 중 B·C를 선점하지 않는다. B·C는3ms까지 계산하며 생성·종료는 없다. 2ms의 상태와 PCB 수는?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "A·B 실행, C 준비, PCB3개", "correct": false, "explanation": "2ms에는 B·C를 선점하지 않으므로 A가 즉시 코어1을 되찾지 않는다."},
+        {"id": "o2", "text": "B·C 실행, A 대기, PCB3개", "correct": false, "explanation": "A의 입출력이 끝났으므로 대기 원인이 해소돼 준비로 옮긴다."},
+        {"id": "o3", "text": "B·C 실행, A 준비, PCB3개", "correct": true, "explanation": "두 코어는 B·C가 사용하고 A는 CPU만 기다리며 세 작업의 관리 정보를 유지한다."},
+        {"id": "o4", "text": "B·C 실행, A 준비, PCB2개", "correct": false, "explanation": "A도 살아 있는 준비 프로세스이므로 1프로세스·1PCB 모델에서 PCB가 필요하다."}
+      ],
+      "conceptIds": ["n12-c-process", "n12-c-pcb-states", "n12-c-time-sharing"], "sourceRefs": [{"fileId": "notion-w1", "pages": [15, 32, 33, 34, 35, 36]}],
+      "difficulty": "어려움", "type": "코어 수·프로세스 수 구분", "supplemental": false,
+      "review": "1ms에 A가 대기하자 C가 빈 코어를 받았다. 2ms에는 A의 입출력이 끝나 준비가 되지만 B·C를 선점하지 않는 정책 때문에 즉시 실행하지는 않는다. 따라서 B·C가 병렬 실행하고 A가 준비다. 생성·종료가 없어 세 프로세스의 PCB는 모두 유지된다.",
+      "memoryTip": "프로세스 수·현재 실행 수·코어 수는 각각 센다.",
+      "additionalExample": "네 코어 컴퓨터에서도 준비열에 수십 개의 프로세스가 있을 수 있으며 모든 프로세스가 같은 순간 실행하는 것은 아니다.",
+      "detailedExplanation": {"concept": "여러 코어에서는 둘 이상의 프로세스를 동시에 실행할 수 있지만 준비나 대기 상태의 작업도 계속 관리한다. 입출력이 끝난 프로세스는 준비가 되며 지금 쓰는 코어를 되찾을지는 스케줄링 정책에 달려 있다. 이 문제는 비선점을 명시했으므로 A의 완료 사건과 즉시 실행을 같은 사건으로 합칠 수 없다. PCB 수는 현재 코어 점유 수가 아니라 살아 있는 프로세스의 수에 맞추어 센다.", "steps": ["1ms에 A가 대기로 이동하며 빈 코어1을 C가 받는 사건을 반영한다.", "2ms에 A는 준비가 되지만 B·C의 비선점 실행은 유지한다.", "생성·종료가 없으므로 B·C 실행과 A 준비의 세 PCB를 모두 센다."], "pitfall": "이전에 쓰던 코어가 있다는 이유로 입출력 완료 후 즉시 그 코어를 되찾는다고 가정하지 않는다."}
+    },
+    {
+      "id": "final-sys-029", "finalExamId": "final-03",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["process-pcb"]},
+      "prompt": "가상 단일 코어의 살아 있는 프로세스 6개는 그림처럼 실행1·준비3·대기2다. 실행 작업의 시간 만료로 준비로 이동하고, 대기 작업 하나의 입출력이 끝나 준비로 이동했다. 아직 다음 디스패치는 하지 않았다. 올바른 다음 분포는?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "실행0·준비5·대기1", "correct": true, "explanation": "실행 하나와 대기 하나가 준비로 이동해 준비가 둘 늘어난다."},
+        {"id": "o2", "text": "실행1·준비4·대기1", "correct": false, "explanation": "입출력 완료는 준비로 이동하며 아직 새 디스패치가 없다고 했다."},
+        {"id": "o3", "text": "실행0·준비4·대기2", "correct": false, "explanation": "대기 하나의 입출력 완료 전이가 반영되지 않은 값이다."},
+        {"id": "o4", "text": "실행0·준비5·대기2", "correct": false, "explanation": "총합이 7로 늘지만 생성 사건은 주어지지 않았다."}
+      ],
+      "conceptIds": ["n12-c-pcb-states", "n12-c-process"], "sourceRefs": [{"fileId": "notion-w1", "pages": [32, 35, 36, 37, 38, 39]}],
+      "difficulty": "어려움", "type": "상태 분포·보존 관계", "supplemental": false,
+      "visual": {"kind": "bar", "title": "두 사건이 발생하기 직전의 상태별 프로세스 수", "xLabel": "상태", "yLabel": "프로세스 수", "labels": ["실행", "준비", "대기"], "series": [{"name": "직전 분포", "values": [1, 3, 2]}], "note": "학습용 5상태 모델. 두 사건 사이와 직후에 생성·종료·디스패치는 없다."},
+      "review": "상태 전이는 기존 프로세스를 다른 집단으로 옮기는 것이지 새 작업을 생성하는 것이 아니다. 실행→준비로 하나, 대기→준비로 하나가 이동하므로 실행0·준비5·대기1이다. 생성과 종료가 없어서 전체 관리 대상은 여전히 6개이며 디스패치 전이라 실행은 0개다.",
+      "memoryTip": "이동 전후 총수는 유지하고, 출발 상태에서 빼고 도착 상태에 더한다.",
+      "additionalExample": "준비열에서 작업 하나를 실행으로 옮기면 준비는 하나 줄고 실행은 하나 늘지만 전체 프로세스 수는 바뀌지 않는다.",
+      "detailedExplanation": {"concept": "프로세스 상태별 개수는 전이 사건을 일종의 이동으로 계산할 수 있다. 시간 만료는 실행에서 준비로, 입출력 완료는 대기에서 준비로 이동시킨다. 생성이나 종료가 없는 동안에는 모든 상태의 합이 일정해야 한다. CPU가 비면 즉시 다음 작업이 실행한다고 막연히 가정하기보다 이 문제처럼 어느 시점까지 관찰하는지와 디스패치 여부를 확인해야 정확한 분포를 얻는다.", "steps": ["초기 실행1·준비3·대기2의 합이 여섯임을 먼저 확인한다.", "시간 만료와 입출력 완료로 준비에 각각 하나씩 더하고 출발 상태에서 뺀다.", "디스패치 전 조건을 적용해 실행0·준비5·대기1과 총합6을 검산한다."], "pitfall": "입출력 완료 후 무조건 즉시 실행한다고 가정하거나 상태 이동을 새 프로세스 생성으로 세지 않는다."}
+    },
+    {
+      "id": "final-sys-030", "finalExamId": "final-03",
+      "finalReview": {"topicId": "foundations", "evidence": "lecture", "focusIds": ["kernel-interrupt-driver"]},
+      "prompt": "가상 장치 점검에서 프린터의 자체 시험 출력은 정상이다. PC에서는 다른 모델용 드라이버를 지정한 상태로 인쇄에 실패했다. 아직 올바른 드라이버로는 시험하지 않았다. 가장 적절한 다음 판단은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "자체 출력이 정상이므로 PC의 모든 인쇄 경로도 검증됐다.", "correct": false, "explanation": "장치 자체 시험은 PC의 드라이버와 요청 경로를 모두 검증하지 않는다."},
+        {"id": "o2", "text": "올바른 모델의 드라이버와 연결 설정을 확인하고 같은 인쇄 작업을 다시 시험한다.", "correct": true, "explanation": "관찰된 설정 불일치를 바로잡고 실제 요청 경로를 검증하는 순서다."},
+        {"id": "o3", "text": "PC 인쇄 실패만으로 종이 공급 장치의 물리 고장을 확정한다.", "correct": false, "explanation": "드라이버 불일치라는 다른 원인이 있으므로 물리 고장은 확정되지 않는다."},
+        {"id": "o4", "text": "드라이버는 결과와 관계없으므로 파일 이름만 변경한다.", "correct": false, "explanation": "모델별 제어를 맡는 드라이버는 장치 동작에 영향을 준다."}
+      ],
+      "conceptIds": ["n12-c-driver"], "sourceRefs": [{"fileId": "notion-w1", "pages": [21, 22]}],
+      "difficulty": "보통", "type": "검증 범위·장치 진단", "supplemental": false,
+      "review": "장치의 자체 시험과 PC에서 응용·운영체제·드라이버를 거치는 실제 출력은 검증하는 경로가 다르다. 자체 출력이 정상이어도 PC의 장치 설정이 맞는지는 별도로 확인해야 한다. 관찰된 드라이버 불일치를 수정하고 같은 작업으로 재시험하는 것이 근거 있는 다음 단계다.",
+      "memoryTip": "어느 경로를 시험했는지부터 확인한다.",
+      "additionalExample": "저장장치 자체 진단이 정상이라도 운영체제의 접근 권한이나 연결 설정 때문에 특정 파일 복사가 실패할 수 있다.",
+      "detailedExplanation": {"concept": "장치 문제를 조사할 때는 하드웨어 자체와 응용에서 장치까지 이어지는 소프트웨어 경로를 나누어 확인한다. 자체 시험은 장치의 일부 기능을 검증하지만 운영체제의 드라이버 선택과 앱의 요청까지 검증하지 않는다. 드라이버는 장치별 제어 차이를 연결하므로 대상 모델과 맞는지 확인해야 한다. 한 경로의 정상이나 실패를 전체 경로의 결론으로 확대하지 않는 것이 진단의 핵심이다.", "steps": ["자체 시험은 정상이고 PC 경로에서는 실패했다는 검증 범위를 나눈다.", "다른 모델용 드라이버라는 관찰된 불일치를 우선 확인한다.", "맞는 설정을 적용한 뒤 같은 인쇄 입력으로 실제 경로를 다시 시험한다."], "pitfall": "하나의 자체 시험 통과를 운영체제와 응용을 포함한 전체 연결 경로의 통과로 보지 않는다."}
+    },
+    {
+      "id": "final-sys-031", "finalExamId": "final-03",
+      "finalReview": {"topicId": "process", "evidence": "lecture", "focusIds": ["kernel-interrupt-driver", "process-pcb"]},
+      "prompt": "가상 단일 코어의 100ms 관측창에서 인터럽트 처리와 전환 비용이 그래프처럼 들었다. 구간은 겹치지 않고 남는 시간은 전부 응용 계산에 쓸 수 있다. 이 창 안에서 CPU 계산 85ms가 필요한 작업을 끝낼 수 있는가?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "불가능하다. 응용에 쓸 수 있는 시간은 80ms로 5ms 부족하다.", "correct": true, "explanation": "100−12−8=80ms이므로 필요한 85ms를 채우지 못한다."},
+        {"id": "o2", "text": "가능하다. 인터럽트 12ms만 제외하면 88ms가 남아 3ms 여유가 있다.", "correct": false, "explanation": "같은 코어에서 겹치지 않는 문맥 전환 8ms도 제외해야 한다."},
+        {"id": "o3", "text": "가능하다. 문맥 전환 8ms만 제외하면 92ms가 남아 7ms 여유가 있다.", "correct": false, "explanation": "인터럽트 처리 12ms도 같은 코어의 CPU 시간을 사용했다."},
+        {"id": "o4", "text": "불가능하다. 응용에 남는 시간은 20ms다.", "correct": false, "explanation": "20ms는 부가 비용의 합이며 응용 계산에 남는 시간은 80ms다."}
+      ],
+      "conceptIds": ["n12-c-kernel", "n12-c-time-sharing", "n12-c-os-roles"], "sourceRefs": [{"fileId": "notion-w1", "pages": [13, 14, 19, 34, 38]}],
+      "difficulty": "어려움", "type": "CPU 시간 예산·그래프 계산", "supplemental": false,
+      "visual": {"kind": "bar", "title": "가상 100ms 창의 응용 외 CPU 사용 시간", "xLabel": "CPU 사용 항목", "yLabel": "ms", "labels": ["인터럽트 처리", "문맥 전환"], "series": [{"name": "사용 시간", "values": [12, 8]}], "note": "두 항목은 겹치지 않는다. 다른 대기나 비용은 없고 남는 시간은 전부 응용 계산에 사용 가능하다."},
+      "review": "CPU는 응용 계산만 하지 않고 장치 사건 처리와 작업 전환에도 시간을 쓴다. 같은 단일 코어에서 겹치지 않은 부가 비용은 응용이 사용할 시간에서 빼야 한다. 여기서는 20ms를 제외한 80ms만 남으므로 85ms 계산을 요구하는 작업은 주어진 100ms 창 안에 끝나지 않는다.",
+      "memoryTip": "전체 CPU 시간 − 겹치지 않는 관리 비용 = 응용에 남는 시간.",
+      "additionalExample": "관측창 1초 중 커널 처리와 전환에 0.2초를 썼다면 같은 코어에서 응용이 계산할 수 있는 시간은 최대 0.8초다.",
+      "detailedExplanation": {"concept": "운영체제의 인터럽트 처리와 문맥 전환도 CPU에서 수행되는 일이다. 단일 코어에서는 같은 시간 구간을 응용 계산과 관리 작업에 동시에 온전히 줄 수 없다. 따라서 성능 예산을 계산할 때는 겹치는지 여부를 확인한 뒤 부가 비용을 제외해야 한다. 전체 관측창의 길이와 한 응용에 실제 배정되는 CPU 시간은 다르므로 벽시계 시간 전체를 순수 계산량으로 사용하면 안 된다.", "steps": ["인터럽트 12ms와 전환 8ms가 겹치지 않는 조건을 확인한다.", "전체 창 100ms에서 합계 20ms를 빼 응용 가능 시간 80ms를 구한다.", "필요한 CPU 시간 85ms와 비교해 5ms 부족하다는 결론을 낸다."], "pitfall": "작업의 실행 시간 예산을 계산할 때 커널 처리와 전환 비용을 영으로 가정하지 않는다."}
+    },
+    {
+      "id": "final-sys-032", "finalExamId": "final-03",
+      "finalReview": {"topicId": "memory", "evidence": "lecture", "focusIds": ["virtual-memory", "os-role"]},
+      "prompt": "가상 동일 입력·정답 실험에서 A는 최대 RAM요구6GB, B는3GB였다. 가용RAM4GB의 같은 서버에서 A→B로 바꾸자 스왑 왕복이 초당400MB→0, 전체시간80→30초가 됐다. 원본 파일 읽기 시간은 같고 SSD 여유는100GB였다. 가장 근거 있는 해석은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "SSD의 여유100GB가 부족해서 느렸으며 B로 바꾸자 저장 용량이 늘었다.", "correct": false, "explanation": "변경한 것은 처리 방식과 메모리 요구량이며 SSD 용량 증설은 없었다."},
+        {"id": "o2", "text": "원본 파일의 읽기가50초 빨라진 것이므로 메모리 요구량 변화는 검토할 필요가 없다.", "correct": false, "explanation": "문제에서 원본 파일 읽기 시간은 같다고 했다."},
+        {"id": "o3", "text": "B에서는 스왑 왕복이0이므로 가상 주소 매핑과 메모리 보호도 제거된 것이다.", "correct": false, "explanation": "스왑 전송 여부와 가상메모리의 주소·보호 기능은 다른 사항이다."},
+        {"id": "o4", "text": "B의 요구량이 가용RAM 안에 들어가 왕복 부담이 줄었다는 근거가 있고, SSD 여유만으로 A의 속도를 보장할 수 없다.", "correct": true, "explanation": "6GB→3GB 요구량과 스왑 왕복 감소를 함께 관찰했으며 원본 읽기 시간은 같았다."}
+      ],
+      "conceptIds": ["n12-c-virtual-memory", "n12-c-memory-operations", "n12-c-os-roles"], "sourceRefs": [{"fileId": "notion-w1", "pages": [13, 14, 44, 45, 46, 47, 48]}],
+      "difficulty": "어려움", "type": "메모리 병목·진단 설계", "supplemental": false,
+      "review": "A의 RAM 요구6GB는 가용4GB를 넘지만 B의3GB는 안에 든다. B에서 왕복 전송이 사라지고 시간이 줄었으므로 메모리 요구를 줄여 부담을 낮췄다는 근거가 있다. SSD 여유100GB는 RAM과 같은 속도의 공간을 보장하지 않으며 원본 읽기 시간도 단축 원인으로 제시되지 않았다.",
+      "memoryTip": "디스크가 비어 있어도 메모리 왕복은 느릴 수 있다.",
+      "additionalExample": "크고 비어 있는 창고가 있어도 같은 상자를 작업대와 창고 사이로 계속 옮기면 일하는 시간보다 운반 시간이 커질 수 있다.",
+      "detailedExplanation": {"concept": "가용 RAM보다 큰 메모리 요구는 저장장치를 이용한 이동을 늘려 실행에 부담을 줄 수 있다. 파일 저장공간이 넉넉해도 이동 비용이 RAM 접근과 같아지는 것은 아니다. 같은 입력과 정답을 유지한 실험에서 요구량·스왑 전송·시간을 함께 보면 단순히 SSD 잔량만 볼 때보다 원인을 좁힐 수 있다. 다만 이 한 실험을 모든 프로그램에서 같은 속도 향상이 생긴다는 법칙으로 일반화하지는 않는다.", "steps": ["A의 요구6GB와 B의3GB를 같은 가용RAM4GB와 각각 비교한다.", "B에서 스왑 왕복400MB/초가0으로 줄고 전체 시간도 단축됐음을 함께 읽는다.", "원본 읽기 시간은 같으므로 용량 증설이나 파일 읽기 개선을 단축 원인으로 단정하지 않는다."], "pitfall": "SSD에 남는100GB를 RAM100GB처럼 취급하거나 스왑 전송0을 가상 주소 관리의 부재로 해석하지 않는다."}
+    },
+    {
+      "id": "final-sys-033", "finalExamId": "final-03",
+      "finalReview": {"topicId": "memory", "evidence": "lecture", "focusIds": ["virtual-memory", "os-role"]},
+      "prompt": "가상 RAM 6GB 중 운영체제가 1GB, 다른 유지 작업이 2GB를 사용한다. 스왑은 없고 남은 공간은 자유롭게 배정할 수 있다. 새 분석의 최대 추가 요구량은 전체 적재 4GB, 분할 집계 2GB이며 둘 다 같은 결과를 낸다. 옳은 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "새 분석이 사용할 수 있는 RAM은 3GB다.", "correct": true, "explanation": "6−1−2=3GB이며 이미 사용하는 영역을 새 작업에 다시 배정하지 않는다."},
+        {"id": "o2", "text": "전체 적재 방식의 4GB는 이 조건의 가용 RAM을 넘는다.", "correct": true, "explanation": "추가 요구량 4GB가 남은 RAM 3GB보다 크다."},
+        {"id": "o3", "text": "분할 집계 방식의 2GB는 제시된 RAM 제한 안에 들어간다.", "correct": true, "explanation": "최대 추가 요구량이 남은 RAM보다 작다."},
+        {"id": "o4", "text": "RAM 칩 총용량이 6GB이므로 새 작업 하나에 6GB를 전부 줄 수 있다.", "correct": false, "explanation": "운영체제와 유지 작업의 사용량을 제외해야 한다."}
+      ],
+      "conceptIds": ["n12-c-memory-management", "n12-c-virtual-memory"], "sourceRefs": [{"fileId": "notion-w1", "pages": [41, 42, 43, 47, 48]}],
+      "difficulty": "어려움", "type": "가용 자원·처리 방식 비교", "supplemental": false,
+      "review": "설치한 RAM 총량이 새 작업에 전부 남아 있는 것은 아니다. 운영체제와 유지 작업의 사용량을 빼면 새 분석에 배정 가능한 공간은 3GB다. 주어진 최대 요구량을 기준으로 전체 적재는 제한을 넘고 분할 집계는 제한 안에 든다. 이 판단은 속도의 우열을 의미하지 않는다.",
+      "memoryTip": "총 RAM에서 이미 사용 중인 영역을 뺀 뒤 최대 추가 요구량과 비교한다.",
+      "additionalExample": "RAM 16GB 중 기존 작업이 10GB를 쓰면 새 작업의 요구량은 16GB가 아니라 남은 6GB와 비교해야 한다.",
+      "detailedExplanation": {"concept": "메모리 배정은 전체 물리 용량에서 운영체제와 다른 작업이 점유한 영역을 제외한 여유를 기준으로 판단한다. 파일 크기나 장비 광고 사양만으로 새 작업이 실행 가능한지 정할 수 없다. 문제에서 전체 최대 추가 요구량을 준 경우에는 그 값을 실제 가용 RAM과 비교한다. 분할 집계처럼 입력을 일부씩 처리하는 방식은 동일한 정답을 유지하면서 최대 점유량을 줄이는 대안이 될 수 있다.", "steps": ["총 RAM 6GB에서 운영체제 1GB와 유지 작업 2GB를 제외한다.", "남은 3GB와 전체 적재의 최대 추가 요구량 4GB를 비교한다.", "분할 집계의 2GB는 제한 안에 들지만 실행 시간까지 판단하지는 않는다."], "pitfall": "장비의 총 RAM을 다른 프로그램의 사용량을 제외하지 않은 새 작업의 전용 메모리로 계산하지 않는다."}
+    },
+    {
+      "id": "final-sys-034", "finalExamId": "final-03",
+      "finalReview": {"topicId": "filesystem", "evidence": "lecture", "focusIds": ["filesystem-format"]},
+      "prompt": "가상 파일 R은 4KiB 블록3개에 내용9KiB를 저장했다. 블록 연결과 내용은 그대로인데 길이 메타데이터만4KiB로 잘못 바뀌었다. 읽기 함수는 기록 길이까지만 반환하고 길이 수정만으로 할당 블록을 자동 해제하지 않는다. 옳은 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "일반 읽기는4KiB만 반환하지만 기존 할당량은12KiB로 남을 수 있다.", "correct": true, "explanation": "읽기 길이는 메타데이터를 따르고 블록3개의 할당은 자동 해제되지 않는다."},
+        {"id": "o2", "text": "읽히지 않는 나머지 내용5KiB가 물리적으로 지워졌다고 확정할 수 없다.", "correct": true, "explanation": "문제에서 내용 블록은 바뀌지 않았고 길이 값만 잘못됐다고 했다."},
+        {"id": "o3", "text": "길이가4KiB로 바뀌었으므로 나머지8KiB 할당은 이미 빈 공간이 됐다.", "correct": false, "explanation": "이 모델은 길이 수정만으로 할당 블록을 자동 해제하지 않는다."},
+        {"id": "o4", "text": "세 블록을 여전히 할당했으므로 읽기 함수는 길이와 무관하게12KiB를 반환한다.", "correct": false, "explanation": "할당량은 읽기 반환 길이와 다르며 함수는 기록 길이까지만 반환한다."}
+      ],
+      "conceptIds": ["n12-c-file", "n12-c-file-table"], "sourceRefs": [{"fileId": "notion-w1", "pages": [50, 51, 52, 53, 56]}],
+      "difficulty": "어려움", "type": "파일 길이·내용·관리 정보", "supplemental": false,
+      "review": "할당량은3×4=12KiB, 실제로 남아 있는 원래 내용은9KiB, 잘못된 길이에 따른 읽기 반환은4KiB다. 이 모델에서는 길이 값만 바꿔도 블록이 자동 해제되지 않으므로 세 수치를 같게 계산하면 안 된다. 읽히지 않는5KiB의 내용도 지워졌다는 증거는 없다.",
+      "memoryTip": "보이는 길이·기록된 길이·남아 있는 바이트를 구별한다.",
+      "additionalExample": "목록에 페이지 수가 잘못 적혀 일부 페이지만 복사하는 상황처럼 관리 값의 오류가 사용자에게 보이는 결과에 영향을 줄 수 있다.",
+      "detailedExplanation": {"concept": "파일시스템의 할당량, 실제 내용 길이, 관리 정보에 따른 읽기 반환량은 다른 값일 수 있다. 마지막 블록을 일부만 쓰면 할당량이 내용보다 크다. 또 길이 관리 값이 잘못되면 내용이 남아 있어도 일반 읽기에서 일부만 보인다. 이 문제는 길이 수정이 자동 블록 해제를 일으키지 않는 모델을 명시했으므로 실제 운영체제의 축약 동작을 따로 가정하지 말고 세 수치를 구별해 계산해야 한다.", "steps": ["블록3개에4KiB씩 배정한 할당량12KiB와 원래 내용9KiB를 나눈다.", "잘못된 기록 길이4KiB를 적용해 일반 읽기의 반환량을 정한다.", "자동 해제가 없고 내용도 그대로라는 조건으로 남은 할당과5KiB의 미노출 내용을 판단한다."], "pitfall": "길이 메타데이터 변경을 물리 바이트 삭제나 자동 빈 블록 반환과 같은 동작으로 가정하지 않는다."}
+    },
+    {
+      "id": "final-sys-035", "finalExamId": "final-03",
+      "finalReview": {"topicId": "filesystem", "evidence": "lecture", "focusIds": ["filesystem-format", "os-role"]},
+      "prompt": "가상 저장장치의 파일시스템 F는 PC A에서 읽히지만 PC B에는 F를 읽는 지원이 없다. 내용이 손상됐다는 증거는 없고 원본을 보존해야 한다. 가장 적절한 접근은?",
+      "mode": "single",
+      "options": [
+        {"id": "o1", "text": "B에서 안 읽히면 무조건 물리 블록이 모두 손상된 것이다.", "correct": false, "explanation": "파일시스템 지원 차이도 접근 실패의 원인이 될 수 있다."},
+        {"id": "o2", "text": "원본을 보존하며 F를 지원하는 환경에서 읽고, 필요하면 별도 매체로 호환 가능한 사본을 만든다.", "correct": true, "explanation": "내용 손상을 단정하지 않고 지원 여부와 원본 보존 조건을 함께 고려한다."},
+        {"id": "o3", "text": "파일시스템은 모두 같으므로 지원 여부를 확인할 필요가 없다.", "correct": false, "explanation": "파일시스템별 구조와 운영체제의 지원 범위는 다를 수 있다."},
+        {"id": "o4", "text": "원본 매체를 포맷하면 기존 내용이 그대로 보존된 채 자동 호환된다.", "correct": false, "explanation": "포맷은 기존 관리 구조를 초기화할 수 있어 원본 보존의 보증이 아니다."}
+      ],
+      "conceptIds": ["n12-c-formatting", "n12-c-file-table", "n12-c-os-roles"], "sourceRefs": [{"fileId": "notion-w1", "pages": [13, 14, 55, 56, 60]}],
+      "difficulty": "보통", "type": "파일시스템 종류·원본 보존", "supplemental": false,
+      "review": "저장장치에 바이트가 존재하는 것과 현재 운영체제가 그 파일시스템을 해석할 수 있는 것은 다른 조건이다. 접근 실패가 곧 데이터 손상을 의미하지는 않는다. 원본 보존이 필요하면 지원 환경에서 읽기와 검증을 먼저 하고, 필요할 때 별도 사본으로 호환성을 확보한다.",
+      "memoryTip": "읽기 실패에서는 내용 손상과 형식 지원을 나누어 확인한다.",
+      "additionalExample": "분석 파일이 한 PC에서만 열릴 때도 원본을 덮어쓰기보다 지원 도구와 환경을 확인하고 복사본으로 변환을 시험한다.",
+      "detailedExplanation": {"concept": "파일시스템은 파일과 저장 블록을 연결하는 구체적인 관리 구조이므로 종류마다 형식과 제한이 다를 수 있다. 운영체제는 그 형식을 이해하는 지원이 있어야 이름과 내용을 정상적으로 제공할 수 있다. 따라서 한 PC에서 접근하지 못했다는 관찰만으로 물리 데이터가 손상됐다고 단정하지 않는다. 특히 원본 보존 조건이 있으면 포맷보다 지원 환경에서의 읽기와 별도 사본 제작을 먼저 검토한다.", "steps": ["A에서는 읽히고 B에는 F 지원이 없다는 환경 차이를 확인한다.", "접근 실패와 물리 내용 손상의 증거를 서로 다른 것으로 구별한다.", "원본을 보존한 채 지원 환경에서 읽고 별도 사본의 호환성을 검증한다."], "pitfall": "파일시스템 지원 문제를 해결하려고 원본 매체를 곧바로 포맷해도 내용이 보존된다고 가정하지 않는다."}
+    },
+    {
+      "id": "final-sys-036", "finalExamId": "final-03",
+      "finalReview": {"topicId": "filesystem", "evidence": "supplement", "focusIds": ["filesystem-format", "os-role"]},
+      "prompt": "보충·가상 분석 서버에서 원본 CSV는 읽기 전용으로 보호하고 결과 폴더에만 쓰기를 허용한다. 새 코드가 실수로 원본 경로에 저장하려다 거부됐다. 올바른 판단을 모두 고르시오.",
+      "mode": "multiple",
+      "options": [
+        {"id": "o1", "text": "권한 거부는 실수로 원본을 덮어쓰는 일을 막는 보호 장치로 작동했다.", "correct": true, "explanation": "원본 경로의 쓰기 제한이 잘못된 저장 요청을 차단했다."},
+        {"id": "o2", "text": "원본 보호를 유지하고 출력 경로를 결과 폴더로 수정해 다시 검증한다.", "correct": true, "explanation": "필요한 출력 위치를 고치면 원본 보호를 해제하지 않고 목적을 달성할 수 있다."},
+        {"id": "o3", "text": "결과 폴더에 쓰기 성공하면 CSV의 값과 집계식도 자동으로 정확하다.", "correct": false, "explanation": "쓰기 권한과 분석 내용의 정확성은 별개로 검증해야 한다."},
+        {"id": "o4", "text": "오류를 없애려면 모든 폴더를 무조건 쓰기 허용으로 바꾸는 것이 유일한 방법이다.", "correct": false, "explanation": "출력 경로를 수정하면 필요한 권한만으로 작업할 수 있다."}
+      ],
+      "conceptIds": ["n12-c-os-roles", "n12-c-directory", "n12-c-file"], "sourceRefs": [{"fileId": "prof-final", "pages": [4, 5, 15]}, {"fileId": "notion-w1", "pages": [13, 14, 50, 54]}],
+      "difficulty": "어려움", "type": "보충·원본 보호와 실행 권한", "supplemental": true,
+      "review": "운영체제의 접근 보호는 사용자가 원하는 요청을 거부하더라도 목적에 맞게 작동한 것일 수 있다. 이 경우 잘못된 저장 경로가 원본 보호에 걸렸으므로 출력 경로를 바로잡는 것이 우선이다. 저장 성공 여부와 분석 결과의 정확성은 각각 별도로 확인해야 한다.",
+      "memoryTip": "보호를 없애기 전에 요청 대상과 필요한 권한을 확인한다.",
+      "additionalExample": "원본 자료는 읽기만 허용하고 정제 결과를 다른 디렉터리에 쓰게 하면 실수로 원자료를 덮어쓰는 위험을 줄일 수 있다.",
+      "detailedExplanation": {"concept": "운영체제는 파일과 디렉터리의 접근 권한을 관리해 잘못된 쓰기나 다른 작업의 간섭을 막는다. 분석 파이프라인의 원본 보존 원칙을 권한으로 보완할 수 있지만 권한이 계산 내용까지 검증해 주는 것은 아니다. 이 보충 문제는 실패 메시지를 무조건 없애기보다 요청 경로와 필요한 권한을 확인해 보호 목적을 유지하는 판단을 다룬다. 실행 가능성과 결과 정확성을 각각 검증하는 태도가 중요하다.", "steps": ["거부된 요청이 결과 폴더가 아니라 원본 경로를 대상으로 했음을 확인한다.", "원본의 읽기 전용 보호는 유지하고 코드의 출력 경로를 수정한다.", "저장 성공 뒤에도 값·행 수·집계식은 별도로 검사한다."], "pitfall": "권한 오류를 없앤다는 이유로 원본 보호를 일괄 해제하거나 쓰기 성공을 분석 정확성으로 바꾸지 않는다."}
+    }
+  ]
+}
